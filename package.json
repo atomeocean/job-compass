@@ -1,7 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.2.3",
+    "vitepress": "^1.5.0",
     "vitepress-plugin-mermaid": "^2.0.16",
     "vitepress-sidebar": "^1.23.2"
   },
