@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 import { withMermaid } from "vitepress-plugin-mermaid";
+import { bilibiliIconSvg } from '../assets/svg/icon-svg'
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
     defineConfig({
+      base: '/',
       title: 'Atomeocean open source template',
       description: 'atomeocean开源项目仓库模板',
       head: [
