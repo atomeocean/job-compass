@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 import { withMermaid } from "vitepress-plugin-mermaid";
+import { bilibiliIconSvg } from '../assets/svg/icon-svg'
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
