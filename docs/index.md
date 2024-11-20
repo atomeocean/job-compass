@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: 上船
       link: /staffing-company/overview.md
+    - theme: brand
+      text: 内推
+      link: /referral/overview.md
 
 features:
   - title: 上岸的意思
