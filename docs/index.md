@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Job Compass"
-  text: "atomeocean找工指南"
+  text: "Atomeocean 找工指南"
   tagline: 我们的未来很光明
   actions:
     - theme: brand
@@ -19,8 +19,8 @@ hero:
 
 features:
   - title: 上岸的意思
-    details: 一步到位，入职直接效力新公司，开始新生活，GLHF
+    details: 一步到位，入职直接效力新公司，开始新生活 Cheers!
   - title: 上船的意思
-    details: 进入中介公司，继续努力寻找新公司上岸
+    details: 进入中介公司，继续努力寻找新公司上岸 Bon Voyage！
 ---
 
