@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import {DefaultTheme, defineConfig, UserConfig} from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { bilibiliIconSvg } from '../assets/svg/icon-svg'
@@ -7,8 +7,8 @@ import { bilibiliIconSvg } from '../assets/svg/icon-svg'
 export default withMermaid(
     defineConfig({
       base: '/',
-      title: 'Atomeocean open source template',
-      description: 'atomeocean开源项目仓库模板',
+      title: 'Job Compass',
+      description: 'atomeocean找工作指南',
       head: [
         // 添加谷歌广告 https://juejin.cn/post/7363078360786370599
         ['script', {
@@ -32,7 +32,18 @@ export default withMermaid(
             ]
           },
         ],
-
+        editLink: {
+          pattern: 'https://github.com/atomeocean/job-compass/tree/main/docs/:path',
+          text: 'Edit this page on GitHub'
+        },
+        // https://vitepress.dev/reference/default-theme-config#lastupdated
+        lastUpdated: {
+          text: 'Updated at',
+          formatOptions: {
+            dateStyle: 'full',
+            timeStyle: 'medium'
+          }
+        },
         // https://github.com/jooy2/vitepress-sidebar
         sidebar: generateSidebar({
           documentRootPath: '/docs',
@@ -41,7 +52,11 @@ export default withMermaid(
           collapseDepth: 1, // 初始情况下 只把根目录的文件夹展开
           // 这个配置决定侧边栏是否用文件标题命名
           // useTitleFromFileHeading: true,
-        }),
+          useFolderTitleFromIndexFile: true, // 文件夹标题用index.md的标题
+          useTitleFromFrontmatter: true,
+          useTitleFromFileHeading: true, // 侧边栏用文件标题命名
+          excludePattern: ['assets/'],
+        }) as DefaultTheme.Sidebar,
         socialLinks: [
           { icon: 'github', link: 'https://github.com/atomeocean' },
           { icon: 'youtube', link: 'https://www.youtube.com/@atomeocean' },
@@ -58,5 +73,5 @@ export default withMermaid(
         //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
       },
       ignoreDeadLinks: true
-    })
+    } as UserConfig)
 );
