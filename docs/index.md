@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Atomeocean open source template"
-  text: "atomeocean开源项目仓库模板"
-  tagline: My great project tagline
+  name: "Job Compass"
+  text: "atomeocean找工指南"
+  tagline: 我们的未来很光明
   actions:
     - theme: brand
       text: Markdown Examples
