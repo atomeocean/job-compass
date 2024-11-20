@@ -8,18 +8,16 @@ hero:
   tagline: 我们的未来很光明
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 上岸
+      link: /direct-hire-company/overview.md
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 上船
+      link: /staffing-company/overview.md
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 上岸的意思
+    details: 一步到位，入职直接效力新公司，开始新生活，GLHF
+  - title: 上船的意思
+    details: 进入中介公司，继续努力寻找新公司上岸
 ---
 
