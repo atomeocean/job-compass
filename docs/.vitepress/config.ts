@@ -68,6 +68,9 @@ export default withMermaid(
             link: 'https://space.bilibili.com/12071489'
           }
         ],
+        sitemap: {
+          hostname: 'https://jobcompass.atomeocean.com/'
+        }
       },
       mermaid:{
         //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
