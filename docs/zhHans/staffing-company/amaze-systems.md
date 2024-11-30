@@ -60,5 +60,5 @@ title: Amaze Systems
 
 #### 2024年11月
 
-致电[Atomeocean](/direct-hire-company/atomeocean.md)咨询关于 H1B Transfer 的具体事宜，未事先预约。公司方面回应表示，他们支持 H1B 
+致电[Atomeocean](/zhHans/direct-hire-company/atomeocean.md)咨询关于 H1B Transfer 的具体事宜，未事先预约。公司方面回应表示，他们支持 H1B 
 Transfer，但之后没有再收到任何的信息或回复。

@@ -1,35 +1,18 @@
 ---
-title: Staffing Company
+title: Dream Big Career
 ---
-# 中介公司 Staffing Company
+# Dream Big Career
 
 不生产工作机会，只是工作信息的搬运工
 
 [[toc]]
 
-## 从上船到下船
 
-```mermaid
-stateDiagram
-    direction LR
-    [*] --> 签约
-    签约 --> 上船
-    上船 --> 上岸
-    state 上船 {
-      direction LR
-      人员培训 --> 外包谈判
-    }
-    上船 --> 下船
-```
-
-## 中介公司信息模板 Template
-
-创建新页面时请复制粘贴下面的模板代码。
 
 ### 公司信息
 | 信息类别     | 具体内容                           |
 |----------|--------------------------------|
-| **公司名称** | ABC Staffing Solutions         |
+| **公司名称** | Dream Big Career               |
 | **成立时间** | 2024 年                         |
 | **公司电话** | 123-456-7890                   |
 | **公司邮箱** | contact@abcstaffing.com        |
@@ -80,5 +63,3 @@ stateDiagram
 ### 航海日志
 
 #### 2024年11月
-
-在微信群发布了招聘信息
