@@ -8,12 +8,15 @@ hero:
   tagline: 我们的未来很光明
   actions:
     - theme: brand
+      text: 开始
+      link: /guide/overview.md
+    - theme: alt
       text: 上岸
       link: /direct-hire-company/overview.md
     - theme: alt
       text: 上船
       link: /staffing-company/overview.md
-    - theme: brand
+    - theme: alt
       text: 内推
       link: /referral/overview.md
 
