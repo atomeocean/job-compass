@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Job Compass"
   text: "Atomeocean 找工指南"
-  tagline: 我们的未来很光明
+  tagline: 大航海时代来了！
   actions:
     - theme: brand
       text: 上岸
