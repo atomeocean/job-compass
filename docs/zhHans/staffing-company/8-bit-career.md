@@ -1,5 +1,6 @@
 ---
 title: 8 Bit Career
+lastUpdated: 2024-12-04
 ---
 # 8 Bit Career 
 
