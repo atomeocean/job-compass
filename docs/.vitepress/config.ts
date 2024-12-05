@@ -87,11 +87,17 @@ const vitePressConfig: UserConfig = {
   title: 'Atomeocean Job Compass',
   description: 'Atomeocean找工作指南',
   head: [
-    // 添加谷歌广告 https://juejin.cn/post/7363078360786370599
+    // google ads
     ['script', {
       async: 'async',
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5598390904013681',
       crossorigin: 'anonymous',
+    }],
+    // Cloudflare Web Analytics
+    ['script', {
+      defer: 'defer',
+      src: 'https://static.cloudflareinsights.com/beacon.min.js',
+      'data-cf-beacon': '{"token": "dabc2b0ba1a348199ab321006fdcb406"}'
     }]
   ],
   rewrites: {
@@ -114,7 +120,7 @@ const vitePressConfig: UserConfig = {
     // https://github.com/jooy2/vitepress-sidebar
     sidebar: generateSidebar(vitePressSidebarOptions),
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/atomeocean/logbook' },
+      { icon: 'github', link: 'https://github.com/atomeocean/job-compass' },
       { icon: 'youtube', link: 'https://www.youtube.com/@atomeocean' },
       { icon: 'x', link: 'https://x.com/atomeocean' },
       { icon:
