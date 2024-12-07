@@ -6,6 +6,9 @@ hero:
   name: "Job Compass"
   text: "Atomeocean 找工指南"
   tagline: 大航海时代来了！
+  image:
+    src: /favicon.ico
+    alt: Job Compass
   actions:
     - theme: brand
       text: 开始
