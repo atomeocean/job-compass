@@ -1,7 +1,9 @@
 ---
 title: USC
 ---
-# United Software Corp
+# United Software Corp - USC
+
+强行蹭西海岸大学USC，实际是一家ICC，请大家不要混淆
 
 [[toc]]
 
@@ -32,6 +34,8 @@ title: USC
 | **领英**  |              |
 | **小红书** |              |
 
+微信大号 ZH `lizhiheng389868`
+
 ### 收费信息
 
 | 信息类别     | 具体内容    |
@@ -44,6 +48,7 @@ title: USC
 ### 下船待遇
 
 #### 上岸
+无人上岸，学员培训后被迫蹲2年
 
 #### 主动退出
 
