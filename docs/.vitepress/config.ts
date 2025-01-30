@@ -93,6 +93,23 @@ const vitePressConfig: UserConfig = {
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5598390904013681',
       crossorigin: 'anonymous',
     }],
+    // Google Analytics job compass
+    [
+      'script', {
+      async: '',
+      src: `https://www.googletagmanager.com/gtag/js?id=G-SRCPQ5ZNN8`
+    }
+    ],
+    [
+      'script',
+      {},
+      `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SRCPQ5ZNN8');
+      `
+    ],
     // Cloudflare Web Analytics
     ['script', {
       defer: 'defer',
