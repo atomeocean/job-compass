@@ -4,15 +4,17 @@ import ElementPlus from 'element-plus'
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import 'element-plus/dist/index.css'
 import TimelineComponent from "./components/TimelineComponent.vue";
-import StaffingCompanyInformationTable from "./components/StaffingCompanyInformationTable.vue";
+import StaffingCompanyInformation from "./components/StaffingCompanyInformation.vue";
+import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiterTable.vue";
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
     // 注册全局组件
     app.component('ImageWrapper', ImageWrapper);
-    app.component('StaffingCompanyInformationTable', StaffingCompanyInformationTable);
+    app.component('StaffingCompanyInformation', StaffingCompanyInformation);
     app.component("TimelineComponent", TimelineComponent);
+    app.component("StaffingCompanyRecruiterTable", StaffingCompanyRecruiterTable);
 
     // 注册 ElementPlus
     app.use(ElementPlus);

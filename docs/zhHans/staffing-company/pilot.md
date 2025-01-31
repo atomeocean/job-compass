@@ -1,6 +1,16 @@
 ---
 title: Pilot ICC
 ---
+<script setup>
+import pilotInformation from './pilot.json';
+import { ref } from 'vue';
+
+const pilotDescription = ref(pilotInformation.basicInformation);
+
+const pilotRecruiters = ref(pilotInformation.recruiters);
+
+</script>
+
 # Pilot ICC
 
 ### 公司信息
@@ -20,10 +30,7 @@ title: Pilot ICC
 
 ### 人力资源专员 Recruiter/HR
 
-
-| **名字** | **邮箱** | **微信号** | **领英** | **小红书** |
-|--------|--------|---------|--------|---------|
-| lucy   |        |    pilot-hr     |        |         |
+<StaffingCompanyRecruiterTable :staffingCompanyRecruiters="pilotRecruiters" />
 
 ### 上船待遇
 
