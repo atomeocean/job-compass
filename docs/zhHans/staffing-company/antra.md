@@ -1,22 +1,19 @@
 ---
 title: Antra icc
 ---
+<script setup>
+import antraInformation from './antra.json';
+import { ref } from 'vue';
+
+const antraDescription = ref(antraInformation);
+
+</script>
+
 # Antra
 
 ### 公司信息
-| 信息类别     | 具体内容                           |
-|----------|--------------------------------|
-| **公司名称** | Antra ICC                      |
-| **成立时间** | 2017 年                         |
-| **公司电话** |                    |
-| **公司邮箱** | contact@abcstaffing.com        |
-| **公司地址** | 123 Main St, NY                |
-| **公司官网** |                                |
-| **运输岗位** | 合同工                            |
-| **行业领域** | IT、金融、制造、医疗                    |
-| **在美身份支持** | Opt / Opt Ext / H1B            |
-| **工资单支持** | 不支持                            |
-| **招聘流程** | 简历筛选 → 初步面试 → 客户面试 → 外包员工上岸新公司 |
+
+<StaffingCompanyInformation :staffingCompanyInfo="antraDescription.basicInformation"/>
 
 ### 人力资源专员 Recruiter/HR
 

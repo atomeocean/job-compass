@@ -1,5 +1,5 @@
 ---
-title： Moyi
+title: Moyi
 description: Moyi ICC
 ---
 # Moyi ICC
