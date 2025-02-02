@@ -13,6 +13,15 @@ title: Amazon 亚马逊
 
 ## 招聘信息
 
+Recruiter: Rufat Dashdamirov,  rufad@amazon.com
+
+I’m Rufat, Technical Recruiter for Amazon’s Recruiting Engine which allows me to hire for multiple teams and locations across our company. I’m currently looking for backend software engineers in all seniority levels where I have the ability to direct your interview process within Amazon based on a choice of different teams and locations according to your preference across US and Canada. If you’re not open to relocating, we’re offering fully remote opportunities as well.
+
+If this sounds like something you would be interested in, I’ll need your most updated resume and preference of location and I’ll be able to send over what to expect next as soon as I receive your response. Thank you for your time and I look forward to hearing from you soon!
+
+Note: If you have participated in Amazon recruitment process within the last 6 months please ignore this email.
+
+
 ### 航海日志
 
 #### 2024年12月
