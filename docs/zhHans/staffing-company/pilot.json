@@ -1,16 +1,17 @@
 {
   "basicInformation": {
-    "公司名称": "Pilot",
-    "成立时间": "2022 年",
-    "公司电话": "",
-    "公司邮箱": "",
-    "公司地址": "",
-    "公司官网": "https://antra.com/",
-    "运输岗位": "合同工",
-    "行业领域": "",
-    "在美身份支持": "",
-    "工资单支持": "不支持",
-    "招聘流程": "简历筛选 → 初步面试 → 客户面试 → 外包员工上岸新公司"
+    "companyName": "Pilot",
+    "foundedDate": "2022 年",
+    "companyPhone": "",
+    "companyEmail": "",
+    "companyAddress": "",
+    "companyWebsite": "",
+    "location": "Princeton, NJ",
+    "jobType": "合同工",
+    "usVisaSupport": "",
+    "payrollSupport": "不支持",
+    "recruitingProcess": "简历筛选 → 初步面试 → 客户面试 → 外包员工上岸新公司"
+
   },
   "recruiters": [
     {
