@@ -61,6 +61,18 @@ const vitePressI18nOptions : VitePressI18nOptions = {
           ]
         }
       ],
+      editLink: {
+        pattern: 'https://github.com/atomeocean/job-compass/edit/main/docs/:path',
+        text: 'Propose a Change'
+      },
+      // https://vitepress.dev/reference/default-theme-config#lastupdated
+      lastUpdated: {
+        text: 'Updated at',
+        formatOptions: {
+          dateStyle: 'full',
+          timeStyle: 'short'
+        }
+      },
     },
     zhHans: {
       nav: [
@@ -78,6 +90,18 @@ const vitePressI18nOptions : VitePressI18nOptions = {
           ]
         }
       ],
+      editLink: {
+        pattern: 'https://github.com/atomeocean/job-compass/edit/main/docs/:path',
+        text: '提出问题或修改建议'
+      },
+      // https://vitepress.dev/reference/default-theme-config#lastupdated
+      lastUpdated: {
+        text: '更新于',
+        formatOptions: {
+          dateStyle: 'short',
+          timeStyle: 'short'
+        }
+      },
     },
   }
 };
