@@ -11,4 +11,4 @@ title: LeetCode 340
 
 ### 视频讲解
 
-<YoutubeEmbedCard videoUrl="https://www.youtube.com/embed/cT9jiDLNq6g?si=uchFsL9DmSk-3_U_" title="大神Leo英文流讲解, 欢迎订阅频道"/>
+YoutubeEmbedCard videoUrl="https://www.youtube.com/embed/cT9jiDLNq6g?si=uchFsL9DmSk-3_U_" title="大神Leo英文流讲解, 欢迎订阅频道"

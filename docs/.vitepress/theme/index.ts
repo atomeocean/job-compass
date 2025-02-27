@@ -16,7 +16,7 @@ export default {
     app.component('StaffingCompanyInformation', StaffingCompanyInformation);
     app.component("TimelineComponent", TimelineComponent);
     app.component("StaffingCompanyRecruiterTable", StaffingCompanyRecruiterTable);
-    app.component("YoutubeEmbedCard", YoutubeEmbedCard);
+    // app.component("YoutubeEmbedCard", YoutubeEmbedCard);
 
     // 注册 ElementPlus
     app.use(ElementPlus);
