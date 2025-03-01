@@ -1,14 +1,7 @@
 ---
 title: Antra icc
+description: Antra公司信息
 ---
-<script setup>
-import antraInformation from '../../assets/json/staffing-company/antra.json';
-import { ref } from 'vue';
-
-const antraDescription = ref(antraInformation);
-
-</script>
-
 # Antra
 
 ### 公司信息
