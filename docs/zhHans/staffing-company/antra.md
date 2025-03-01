@@ -2,7 +2,7 @@
 title: Antra icc
 ---
 <script setup>
-import antraInformation from './antra.json';
+import antraInformation from '../../assets/json/staffing-company/antra.json';
 import { ref } from 'vue';
 
 const antraDescription = ref(antraInformation);
@@ -13,14 +13,14 @@ const antraDescription = ref(antraInformation);
 
 ### 公司信息
 
-<StaffingCompanyInformation :staffingCompanyInfo="antraDescription.basicInformation"/>
+<StaffingCompanyInformation staffingCompanyJsonPath="antra.json"/>
 
 ### 人力资源专员 Recruiter/HR
 
 
-| **名字** | **邮箱** | **微信号** | **领英** | **小红书** |
-|--------|--------|---------|--------|---------|
-|  Yvette      |   yw@antra.com     |   Yvettemo21      |        |         |
+| **名字** | **邮箱**       | **微信号**    | **领英** | **小红书** |
+|--------|--------------|------------|--------|---------|
+| Yvette | yw@antra.com | Yvettemo21 |        |         |
 
 ### 上船待遇
 
