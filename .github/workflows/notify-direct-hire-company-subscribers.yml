@@ -1,0 +1,60 @@
+name: Notify Direct Hire Company Subscribers
+
+on:
+  push:
+    paths:
+      - "docs/zhHans/direct-hire-company/*.md"  # 仅监听直招员工的公司文章的修改
+    branches:
+      - main  # 仅在 main 分支触发
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get changed files
+        id: changed-direct-hire-company-files
+        uses: tj-actions/changed-files@v45  # 获取修改的文件
+        with:
+          files: docs/zhHans/direct-hire-company/*.md
+
+      - name: List all changed h1b beneficiary markdown files
+        if: steps.changed-direct-hire-company-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-direct-hire-company-files.outputs.all_changed_files }}
+        run: |
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
+          done
+
+      - name: Install yq
+        if: steps.changed-direct-hire-company-files.outputs.any_changed == 'true'
+        run: |
+          wget https://github.com/mikefarah/yq/releases/download/v4.34.1/yq_linux_amd64 -O yq  
+          chmod +x yq  
+          sudo mv yq /usr/local/bin/  
+
+      - name: Extract emails and filenames from changed files
+        if: steps.changed-direct-hire-company-files.outputs.any_changed == 'true'
+        id: extract-emails
+        run: |
+          # 使用Json格式存储邮箱和文件名的对应关系
+          email_file_map="{}"
+          for file in ${{ steps.changed-direct-hire-company-files.outputs.all_changed_files }}; do  
+            # 提取frontmatter中的email字段  
+            email=$(sed -n '/^---$/{:a;n;/^---$/q;p;ba}' "$file" | yq e '.email' -)  
+            if [ -n "$email" ]; then  
+              # 提取文件名，并去掉路径和扩展名
+              filename=$(basename "$file" .md)
+              # 将邮箱和文件名添加到Json对象中
+              email_file_map=$(echo "$email_file_map" | jq --arg email "$email" --arg filename "$filename" '. + {($email): $filename}')
+            fi  
+          done  
+
+          # 将邮箱-文件名的Json对象存储到环境变量中
+          echo "email_file_map='$email_file_map'" >> $GITHUB_ENV
+          # Debug 输出
+          echo "📧 提取的邮箱和文件名对应关系:"
+          echo "$email_file_map" | jq .
