@@ -20,7 +20,7 @@ jobs:
         with:
           files: docs/zhHans/direct-hire-company/*.md
 
-      - name: List all changed h1b beneficiary markdown files
+      - name: List all changed direct hire company markdown files
         if: steps.changed-direct-hire-company-files.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-direct-hire-company-files.outputs.all_changed_files }}
