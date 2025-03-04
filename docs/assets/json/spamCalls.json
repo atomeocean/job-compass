@@ -1,0 +1,34 @@
+{
+  "spamCalls": [
+    {
+      "phoneNumber": "+1-424-453-5784",
+      "callDate": "2025-03-03",
+      "callerName": "Unknown",
+      "callType": "Spam",
+      "description": "语音信息说有重要通知，已通知4次，如需了解请按3，查询请按0",
+      "suspectedSource": "",
+      "reportedBy": "",
+      "callDuration": "00:00:17",
+      "timesReported": 1,
+      "actionTaken": "Ignored",
+      "location": "",
+      "recordingUrl": "",
+      "tags": ["诈骗", "机器人"]
+    },
+        {
+      "phoneNumber": "+1-213-791-5878",
+      "callDate": "2025-03-03",
+      "callerName": "Unknown",
+      "callType": "Spam",
+      "description": "语音信息说有重要通知，已通知4次，如需了解请按3，查询请按0",
+      "suspectedSource": "",
+      "reportedBy": "",
+      "callDuration": "00:00:17",
+      "timesReported": 1,
+      "actionTaken": "Ignored",
+      "location": "",
+      "recordingUrl": "",
+      "tags": ["诈骗", "机器人"]
+    }
+  ]
+}
