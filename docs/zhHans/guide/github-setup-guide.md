@@ -59,9 +59,8 @@ title: GitHub注册与本地配置指南
     - 可设置密码（或留空直接回车）
     - 依次运行以下命令启动 SSH 代理并添加密钥
       ```shell
-      eval "$(ssh-agent -s)"  
-      ```
-      ```shell
+      eval "$(ssh-agent -s)"
+      
       ssh-add ~/.ssh/id_rsa
       ```
     - 查看并复制公钥
@@ -107,8 +106,7 @@ title: GitHub注册与本地配置指南
    - 运行以下命令启动 SSH 代理并添加密钥
      ```shell
      eval "$(ssh-agent -s)"
-     ```
-     ```shell
+     
      ssh-add ~/.ssh/id_rsa
      ```
    - 运行以下命令查看并复制 SSH 公钥
