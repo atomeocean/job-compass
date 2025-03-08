@@ -1,6 +1,6 @@
 # GitHub 网页端发布 Pull Request (PR) 指南
 
-本指南将详细介绍当用户在GitHub网页端做出内容修改后，如何通过发布 Pull Request 的方式，将更改的内容合并到目标仓库中
+本指南将详细介绍当用户在GitHub网页端做出内容改动后，如何通过发布 Pull Request 的方式，将更改的内容合并到目标仓库中
 
 [[toc]]
 
