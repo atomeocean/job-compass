@@ -1,0 +1,32 @@
+name: Bug 反馈
+description: 反馈一个 Bug
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: "### 🙏 请在提交 Bug 之前确保该问题尚未被报告。"
+  - type: input
+    id: environment
+    attributes:
+      label: "环境信息"
+      description: "请提供操作系统、Node 版本等信息"
+      placeholder: "Windows 11, Node.js 16.x"
+  - type: textarea
+    id: steps
+    attributes:
+      label: "复现步骤"
+      description: "请详细描述 Bug 如何复现"
+      placeholder: "1. 运行 `npm start`，2. 打开 localhost:3000..."
+  - type: textarea
+    id: expected
+    attributes:
+      label: "期望行为"
+      description: "描述你期望的正确行为"
+  - type: textarea
+    id: logs
+    attributes:
+      label: "错误日志"
+      description: "如果有错误日志，请提供"
+      render: shell

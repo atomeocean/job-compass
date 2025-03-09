@@ -1,0 +1,23 @@
+name: 功能请求
+description: 提交一个新的功能请求
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "### 💡 请描述你希望新增的功能"
+  - type: textarea
+    id: feature
+    attributes:
+      label: "功能描述"
+      description: "请清晰描述功能需求"
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "动机"
+      description: "为什么需要这个功能？它解决了什么问题？"
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "替代方案"
+      description: "如果有其他解决方案或替代方案，请描述"
