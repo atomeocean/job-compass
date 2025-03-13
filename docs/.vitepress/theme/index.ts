@@ -7,6 +7,7 @@ import TimelineComponent from "./components/TimelineComponent.vue";
 import StaffingCompanyInformation from "./components/StaffingCompanyInformation.vue";
 import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiterTable.vue";
 import YoutubeEmbedCard from "./components/YoutubeEmbedCard.vue";
+import VideoLinks from "./components/VideoLinks.vue";
 
 export default {
   ...DefaultTheme,
@@ -17,6 +18,7 @@ export default {
     app.component("TimelineComponent", TimelineComponent);
     app.component("StaffingCompanyRecruiterTable", StaffingCompanyRecruiterTable);
     // app.component("YoutubeEmbedCard", YoutubeEmbedCard);
+    app.component("VideoLinks", VideoLinks);
 
     // 注册 ElementPlus
     app.use(ElementPlus);
