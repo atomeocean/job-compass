@@ -33,6 +33,7 @@ const pilotDescription = ref(pilotInformation);
 
 #### 外包谈判 marketing
 
+违约金 12000美元
 
 | 信息类别     | 具体内容 |
 |----------|------|
