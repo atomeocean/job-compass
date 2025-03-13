@@ -35,3 +35,8 @@
     - 当 Reviewer 批准合并PR的请求后，在下方按钮中选择 **Squash and merge** 选项，点击合并PR
 8. 关闭分支
     - 当 PR 合并后，点击 **Delete branch** 按钮关闭当前分支
+
+
+## 视频教程
+
+<VideoLinks bilibili="https://www.bilibili.com/video/BV1AiQpYuE1k/" youtube="https://youtu.be/Jp7aMDVXvwM" />
