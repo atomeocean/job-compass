@@ -6,7 +6,7 @@ import 'element-plus/dist/index.css'
 import TimelineComponent from "./components/TimelineComponent.vue";
 import StaffingCompanyInformation from "./components/StaffingCompanyInformation.vue";
 import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiterTable.vue";
-import YoutubeEmbedCard from "./components/YoutubeEmbedCard.vue";
+import DirectoryTree from "./components/DirectoryTree.vue";
 import VideoLinks from "./components/VideoLinks.vue";
 
 export default {
@@ -17,7 +17,7 @@ export default {
     app.component('StaffingCompanyInformation', StaffingCompanyInformation);
     app.component("TimelineComponent", TimelineComponent);
     app.component("StaffingCompanyRecruiterTable", StaffingCompanyRecruiterTable);
-    // app.component("YoutubeEmbedCard", YoutubeEmbedCard);
+    app.component("DirectoryTree", DirectoryTree);
     app.component("VideoLinks", VideoLinks);
 
     // 注册 ElementPlus
