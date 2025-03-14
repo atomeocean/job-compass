@@ -39,23 +39,20 @@ const directoryData = ref<TreeNode[]>([
 </script>
 
 <template>
-  <el-card class="directory-container">
-    <div class="directory-title">📂 文件目录结构</div>
-    <el-tree
-        :data="directoryData"
-        default-expand-all
-        node-key="label"
-    />
-  </el-card>
+  <div class="directory-container">
+    <h2 class="directory-title">📂 文件目录结构</h2>
+    <el-divider></el-divider>
+    <el-tree :data="directoryData" default-expand-all node-key="label" />
+  </div>
 </template>
 
 <style scoped>
 .directory-container {
-  max-width: 500px;
+  max-width: 100%;
   margin: 20px auto;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  //border-radius: 8px;
+  //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .directory-title {
