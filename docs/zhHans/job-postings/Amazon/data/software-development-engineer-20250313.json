@@ -1,0 +1,24 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Software Development Engineer, AWS Global Services Security",
+  "jobLocation": [
+    "USA, VA, Arlington",
+    "USA, VA, Herndon"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3年以上非实习岗位的专业软件开发经验",
+      "2年以上非实习岗位的新系统和现有系统的设计或架构经验（涉及设计模式、可靠性和扩展性）",
+      "至少掌握一种软件编程语言并具备相关编程经验"
+    ],
+    "preferredQualifications": [
+      "3年以上完整的软件开发生命周期经验，包括编码规范、代码审查、源代码管理、构建流程、测试和运维经验",
+      "computer science学士学位或同等学历"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2919115/software-development-engineer-aws-global-services-security"
+}
