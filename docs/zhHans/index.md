@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 什么是Job Compass
-      link: /guide/overview.md
+      link: /guide/overview
     - theme: alt
-      text: 上岸
-      link: /direct-hire-company/overview.md
+      text: 开始任务
+      link: /guide/task-guide
     - theme: alt
       text: Github
       link: https://github.com/atomeocean/job-compass
