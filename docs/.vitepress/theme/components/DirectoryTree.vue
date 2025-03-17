@@ -17,7 +17,27 @@ const directoryData = ref<TreeNode[]>([
         label: 'zhHans', // 中文文档目录
         children: [
           {
-            label: 'job-postings',
+            label: '招聘信息',
+            children: [
+              {
+                label: '谷歌',
+                children: [{ label: 'software engineer' }]
+              },
+              {
+                label: '微软',
+                children: [{ label: 'software development manager' }]
+              }
+            ]
+          },
+          { label: '面试准备' },
+          { label: '上船' }
+        ]
+      },
+      {
+        label: 'en', // 英文文档目录
+        children: [
+          {
+            label: 'Job Postings',
             children: [
               {
                 label: 'google',
@@ -51,8 +71,6 @@ const directoryData = ref<TreeNode[]>([
   max-width: 100%;
   margin: 20px auto;
   padding: 20px;
-  //border-radius: 8px;
-  //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .directory-title {
