@@ -109,6 +109,8 @@ const function = () => {
 - [ ] 待办事项 1
 - [x] 已完成事项 2
 
+**⚠️ 注意：Vitepress 不支持任务列表语法，请勿直接使用** 
+
 ## 参考
 
 - [Markdown 语法指南](https://markdown.com.cn)
