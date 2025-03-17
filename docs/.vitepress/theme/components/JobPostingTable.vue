@@ -38,17 +38,17 @@ onMounted(async () => {
     <!-- 基本信息 -->
     <el-descriptions title="职位基本信息" :column="2" border class="section-card">
       <el-descriptions-item label="公司名称">
-        {{ jobPostingInfo.company_name || "N/A" }}
+        {{ jobPostingInfo.companyName || "N/A" }}
       </el-descriptions-item>
       <el-descriptions-item label="职位名称">
-        {{ jobPostingInfo.job_title || "N/A" }}
+        {{ jobPostingInfo.jobTitle || "N/A" }}
       </el-descriptions-item>
       <el-descriptions-item label="职位类型">
-        {{ jobPostingInfo.job_type || "N/A" }}
+        {{ jobPostingInfo.jobType || "N/A" }}
       </el-descriptions-item>
       <el-descriptions-item label="工作地点">
-        <ul v-if="jobPostingInfo.job_location?.length">
-          <li v-for="(item, index) in jobPostingInfo.job_location" :key="index">{{ item }}</li>
+        <ul v-if="jobPostingInfo.jobLocation?.length">
+          <li v-for="(item, index) in jobPostingInfo.jobLocation" :key="index">{{ item }}</li>
         </ul>
         <span v-else>N/A</span>
       </el-descriptions-item>
@@ -57,8 +57,8 @@ onMounted(async () => {
     <!-- 职责信息 -->
     <el-descriptions title="职责要求" :column="1" border class="section-card">
       <el-descriptions-item label="工作职责">
-        <ul v-if="jobPostingInfo.job_responsibilities?.length">
-          <li v-for="(item, index) in jobPostingInfo.job_responsibilities" :key="index">{{ item }}</li>
+        <ul v-if="jobPostingInfo.jobResponsibilities?.length">
+          <li v-for="(item, index) in jobPostingInfo.jobResponsibilities" :key="index">{{ item }}</li>
         </ul>
         <span v-else>N/A</span>
       </el-descriptions-item>
@@ -67,14 +67,14 @@ onMounted(async () => {
     <!-- 候选人资格 -->
     <el-descriptions title="候选人资格" :column="1" border class="section-card">
       <el-descriptions-item label="基本条件">
-        <ul v-if="jobPostingInfo.candidate_qualifications?.basic_qualifications?.length">
-          <li v-for="(item, index) in jobPostingInfo.candidate_qualifications.basic_qualifications" :key="index">{{ item }}</li>
+        <ul v-if="jobPostingInfo.candidateQualifications?.basicQualifications?.length">
+          <li v-for="(item, index) in jobPostingInfo.candidateQualifications.basicQualifications" :key="index">{{ item }}</li>
         </ul>
         <span v-else>N/A</span>
       </el-descriptions-item>
       <el-descriptions-item label="优先条件">
-        <ul v-if="jobPostingInfo.candidate_qualifications?.preferred_qualifications?.length">
-          <li v-for="(item, index) in jobPostingInfo.candidate_qualifications.preferred_qualifications" :key="index">{{ item }}</li>
+        <ul v-if="jobPostingInfo.candidateQualifications?.preferredQualifications?.length">
+          <li v-for="(item, index) in jobPostingInfo.candidateQualifications.preferredQualifications" :key="index">{{ item }}</li>
         </ul>
         <span v-else>N/A</span>
       </el-descriptions-item>
@@ -99,9 +99,9 @@ onMounted(async () => {
     <!-- 招聘链接 -->
     <el-descriptions title="其他信息" :column="1" border class="section-card">
       <el-descriptions-item label="申请方式">
-        <span v-if="jobPostingInfo.job_link">
+        <span v-if="jobPostingInfo.jobLink">
           <el-icon><Link /></el-icon>
-          <a :href="jobPostingInfo.job_link" target="_blank" rel="noopener noreferrer" class="apply-link">
+          <a :href="jobPostingInfo.jobLink" target="_blank" rel="noopener noreferrer" class="apply-link">
             点击申请
           </a>
         </span>

@@ -48,17 +48,17 @@ title: 招聘信息文档指南
 
 1. 将 [模版文件](/docs/zhHans/job-postings/job-postings-utils/job-posting-template.json) 中的内容复制到第 5️⃣ 步中创建的文件中
 2. 根据找到的招聘内容填充这个模版
-    - **company_name：** 公司名称
-    - **job_title：** 职位名称
-    - **job_location：** 列出职位的工作地点，如 Remote（远程）、具体城市或多个地点（如适用），用逗号 , 分隔
-    - **job_type：** 职位的类型 （全职，兼职，实习等）
-    - **job_responsibilities：** 请列出招聘信息中对该职位的具体要求，如日常职责和技术能力等
-    - **candidate_qualifications：**
-        - **basic_qualifications：** 列出招聘信息中列出的候选人基本条件
-        - **preferred_qualifications：** 请列出招聘信息中列出的候选人优先条件
+    - **companyName：** 公司名称
+    - **jobTitle：** 职位名称
+    - **jobLocation：** 列出职位的工作地点，如 Remote（远程）、具体城市或多个地点（如适用），用逗号 , 分隔
+    - **jobType：** 职位的类型 （全职，兼职，实习等）
+    - **jobResponsibilities：** 请列出招聘信息中对该职位的具体要求，如日常职责和技术能力等
+    - **candidateQualifications：**
+        - **basicQualifications：** 列出招聘信息中列出的候选人基本条件
+        - **preferredQualifications：** 请列出招聘信息中列出的候选人优先条件
     - **salary：** 请填写薪资范围，如 `$80,000 - $100,000 / 年` 或 `$40 - $50 / 小时`，如适用，可追加填写是否包含奖金、股权等
     - **benefits：** 列出已知的福利，如 401(k) 计划、带薪休假、健康保险、是否提供签证赞助等
-    - **job_link：** 真实的招聘链接
+    - **jobLink：** 真实的招聘链接
 
 **若招聘信息页面未提供相关内容，可跳过对应字段**
 

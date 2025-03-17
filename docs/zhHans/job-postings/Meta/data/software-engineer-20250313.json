@@ -1,7 +1,7 @@
 {
-  "company_name": "Meta",
-  "job_title": "Software Engineer, Infrastructure",
-  "job_location": [
+  "companyName": "Meta",
+  "jobTitle": "Software Engineer, Infrastructure",
+  "jobLocation": [
     "Sunnyvale, CA",
     "Remote, US",
     "Pittsburgh, PA",
@@ -15,8 +15,8 @@
     "New York, NY",
     "San Francisco, CA"
   ],
-  "job_type": "全职",
-  "job_responsibilities": [
+  "jobType": "全职",
+  "jobResponsibilities": [
     "设计核心的后端软件组件",
     "主要使用 C/C++、Java、PHP 和 Hack 进行编程",
     "与其他团队对接，整合他们的创新",
@@ -25,8 +25,8 @@
     "作为特定组件、功能或系统的负责人，具备端到端的深入理解",
     "在保持高效生产力的同时，成功完成大范围的项目"
   ],
-  "candidate_qualifications": {
-    "basic_qualifications": [
+  "candidateQualifications": {
+    "basicQualifications": [
       "6 年以上相关编程语言的开发经验",
       "6 年以上构建大规模基础设施应用或类似经验",
       "具备使用 Python、Javascript 或 Hack 等脚本语言的经验",
@@ -37,7 +37,7 @@
       "具备通过细致的代码审查、适当的测试、合理的发布、监控和主动改进来提升质量的经验",
       "拥有 Computer Science, Computer Engineering、相关技术领域的学士学位或同等实践经验"
     ],
-    "preferred_qualifications": [
+    "preferredQualifications": [
       "接触过大规模软件应用的架构模式",
       "具备使用 C、C++、Java 等编程语言的经验"
     ]
@@ -48,5 +48,5 @@
     "equity"
   ],
   "benefits": [],
-  "job_link": "https://www.metacareers.com/jobs/1408007706638053/"
+  "jobLink": "https://www.metacareers.com/jobs/1408007706638053/"
 }
