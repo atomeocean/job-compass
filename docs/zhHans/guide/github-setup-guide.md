@@ -1,5 +1,6 @@
 ---
 title: GitHub注册与本地配置指南
+outline: [2,3]
 ---
 
 # GitHub 注册与本地配置指南
