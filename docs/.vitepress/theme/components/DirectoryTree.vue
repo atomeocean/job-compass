@@ -2,57 +2,108 @@
 import { ref } from 'vue'
 import { ElTree } from 'element-plus'
 
-// 定义 Tree 结构的接口
+// 定义目录树结构的接口
 interface TreeNode {
-  label: string
-  children?: TreeNode[]
+  path: string;      // 完整路径（如 'docs/zhHans/招聘信息'）
+  name?: string;      // 显示名称（如 '招聘信息'）
+  children?: TreeNode[];
 }
 
 // 目录结构数据
 const directoryData = ref<TreeNode[]>([
   {
-    label: 'docs', // vitepress内容根目录
+    path: 'docs', // vitepress内容根目录
     children: [
       {
-        label: 'zhHans', // 中文文档目录
+        path: 'docs/zhHans', // 中文文档目录
         children: [
           {
-            label: '招聘信息',
+            path: 'docs/zhHans/job-postings', // 招聘信息目录
+            name: 'Job Postings',
             children: [
               {
-                label: '谷歌',
-                children: [{ label: 'software engineer' }]
+                name: '谷歌',
+                path: 'docs/zhHans/job-postings/google',
+                children: [
+                    {
+                      path: 'docs/zhHans/job-postings/google/software-engineer',
+                      name: 'software engineer'
+                    },
+                  {
+                    path: 'docs/en/job-postings/google/data', // 保存json数据的文件
+                  }
+                ]
               },
               {
-                label: '微软',
-                children: [{ label: 'software development manager' }]
+                name: '微软',
+                path: 'docs/zhHans/job-postings/microsoft',
+                children: [
+                    {
+                      path: 'docs/zhHans/job-postings/microsoft/software-development-manager',
+                      name: 'software development manager',
+                    },
+                  {
+                    path: 'docs/en/job-postings/microsoft/data', // 保存json数据的文件
+                  }
+                ]
               }
             ]
           },
-          { label: '面试准备' },
-          { label: '上船' }
+          {
+            path: 'docs/zhHans/interview-prepare',
+            name: '面试准备'
+          },
+          {
+            path: 'docs/zhHans/staffing-company',
+            name: '上船'
+          }
         ]
       },
       {
-        label: 'en', // 英文文档目录
+        path: 'docs/en', // 英文文档目录
         children: [
           {
-            label: 'Job Postings',
+            path: 'docs/en/job-postings', // 招聘信息目录
+            name: 'Job Postings', // 显示侧边栏的名称
             children: [
               {
-                label: 'google',
-                children: [{ label: 'software engineer' }]
+                name: 'Google',
+                path: 'docs/en/job-postings/google',
+                children: [
+                  {
+                    path: 'docs/en/job-postings/google/software-engineer',
+                    name: 'software engineer'
+                  },
+                  {
+                    path: 'docs/en/job-postings/google/data', // 保存json数据的文件
+                  }
+                ]
               },
               {
-                label: 'microsoft',
-                children: [{ label: 'software development manager' }]
+                name: 'Microsoft',
+                path: 'docs/en/job-postings/microsoft',
+                children: [
+                  {
+                    path: 'docs/en/job-postings/microsoft/software-development-manager',
+                    name: 'software development manager',
+                  },
+                  {
+                    path: 'docs/en/job-postings/microsoft/data', // 保存json数据的文件
+                  }
+                ]
               }
             ]
           },
-          { label: 'interview-prepare' },
-          { label: 'staffing-company' }
+          {
+            path: 'docs/en/interview-prepare',
+            name: 'Interview Prepare'
+          },
+          {
+            path: 'docs/en/staffing-company',
+            name: 'Staffing Company'
+          }
         ]
-      }
+      },
     ]
   }
 ])
@@ -62,7 +113,7 @@ const directoryData = ref<TreeNode[]>([
   <div class="directory-container">
     <h2 class="directory-title">📂 文件目录结构</h2>
     <el-divider></el-divider>
-    <el-tree :data="directoryData" default-expand-all node-key="label" />
+    <el-tree :data="directoryData" default-expand-all node-key="name" />
   </div>
 </template>
 
