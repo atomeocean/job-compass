@@ -8,6 +8,7 @@ import StaffingCompanyInformation from "./components/StaffingCompanyInformation.
 import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiterTable.vue";
 import YoutubeEmbedCard from "./components/YoutubeEmbedCard.vue";
 import VideoLinks from "./components/VideoLinks.vue";
+import JobPostingTable from "./components/JobPostingTable.vue";
 
 export default {
   ...DefaultTheme,
@@ -19,6 +20,7 @@ export default {
     app.component("StaffingCompanyRecruiterTable", StaffingCompanyRecruiterTable);
     // app.component("YoutubeEmbedCard", YoutubeEmbedCard);
     app.component("VideoLinks", VideoLinks);
+    app.component("JobPostingTable", JobPostingTable);
 
     // 注册 ElementPlus
     app.use(ElementPlus);

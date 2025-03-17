@@ -1,0 +1,31 @@
+{
+  "company_name": "Google",
+  "job_title": "Software Engineer, Gmail iOS Client Infrastructure, Google Workspace",
+  "job_location": [
+    "Sunnyvale, CA, USA",
+    "Seattle, WA, USA"
+  ],
+  "job_type": "全职",
+  "job_responsibilities": [
+    "投资与 iOS 开发相关的客户端基础设施，以提升 Gmail 的速度和可靠性。将问题分解为增量交付，确保持续进展和显著影响",
+    "管理 iOS 开发和跨客户端开发，同时确保 Gmail 和 Workspace 的工程质量",
+    "评估移动框架的采用",
+    "培养持续学习和技术成长的文化。建立积极的团队文化和协作氛围"
+  ],
+  "candidate_qualifications": {
+    "basic_qualifications": [
+      "学士学位或同等实践经验",
+      "2 年以上使用一种或多种编程语言进行软件开发的经验，或拥有高级学位并具备 1 年以上相关经验",
+      "2 年以上数据结构或算法经验",
+      "2 年以上 iOS 开发经验"
+    ],
+    "preferred_qualifications": [
+      "拥有 Engineering, Computer Science 或相关技术领域的硕士或博士学位",
+      "具备客户端基础设施开发经验",
+      "具备 iOS 应用开发经验，并熟悉 iOS 或 OS X 框架"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "job_link": "https://www.google.com/about/careers/applications/jobs/results/113838465220518598-software-engineer-gmail-ios-client-infrastructure-google-workspace?q=sde&location=San%20Francisco%2C%20CA%2C%20USA"
+}
