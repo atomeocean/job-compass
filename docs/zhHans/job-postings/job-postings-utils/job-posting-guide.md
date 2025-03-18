@@ -3,7 +3,6 @@ title: 招聘信息文档指南
 ---
 
 # 📖 Job Posting 使用指南
-[[toc]]
 
 ## 1️⃣ 查找招聘信息
 
@@ -19,7 +18,7 @@ title: 招聘信息文档指南
 ## 3️⃣ 创建新公司文件夹
 
 1. 如果招聘信息中的公司名称未出现在 `docs/zhHans/job-postings` 目录中，请在目录下创建一个新文件夹，命名为公司全称（避免使用缩写）
-2. 在公司文件夹下创建一个名为`index.md`的文件，并将 [该模版文件](/docs/zhHans/job-postings/index.md) 中的内容复制到该文件中
+2. 在公司文件夹下创建一个名为`index.md`的文件，并将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/index.md?plain=1) 中的内容复制到该文件中
 3. 将其中的title值 (模版中为`招聘信息辅助文档`) 改为你所找到的公司名称
 4. 在公司文件夹下创建一个名为 `data` 的子文件夹
 5. 完成以上步骤后，继续后续操作
@@ -46,8 +45,8 @@ title: 招聘信息文档指南
 
 ## 6️⃣ 填充招聘信息
 
-1. 将 [模版文件](/docs/zhHans/job-postings/job-postings-utils/job-posting-template.json) 中的内容复制到第 5️⃣ 步中创建的文件中
-2. 根据找到的招聘内容填充这个模版
+1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/job-posting-template.json) 中的内容复制到第 5️⃣ 步中创建的文件中
+2. 根据找到的招聘内容填充这个模版：
     - **companyName：** 公司名称
     - **jobTitle：** 职位名称
     - **jobLocation：** 列出职位的工作地点，如 Remote（远程）、具体城市或多个地点（如适用），用逗号 , 分隔
@@ -67,7 +66,7 @@ title: 招聘信息文档指南
 ## 7️⃣ 创建职位 Markdown 文件
 
 1. 回到公司名称文件夹，创建一个与第 5️⃣ 步同名的 Markdown 文件，文件名为 `职位名称-日期.md`（例如：`software-engineer-20250102.md`）
-2. 将 [模版文件](/docs/zhHans/job-postings/job-postings-utils/job-posting-template.md) 中的内容复制到该文件中
+2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/job-posting-template.md?plain=1) 中的内容复制到该文件中
 3. 将文件中的 `title` 值替换为文件名（用空格替换连字符），例如：`software engineer 20250102`
 4. 找到第 8 行的 JobPostingTable 组件，将其中的 `job-posting-json-path` 值替换为实际 JSON 文件的路径
     - 模板中的路径格式为：`公司文件夹名/data/职位信息json文件名`
@@ -84,6 +83,6 @@ title: 招聘信息文档指南
 
 ## 参考文档
 
-- [Markdown 语法 cheatsheet](/docs/zhHans/guide/markdown-cheatsheet.md)
-- [Json 语法 cheatsheet](/docs/zhHans/guide/json-cheatsheet.md)
+- [Markdown 语法 cheatsheet](https://jobcompass.atomeocean.com/guide/markdown-cheatsheet.html)
+- [Json 语法 cheatsheet](https://jobcompass.atomeocean.com/guide/json-cheatsheet.html)
 - [提交 Pull Request 教程](https://www.youtube.com/watch?v=Jp7aMDVXvwM)
