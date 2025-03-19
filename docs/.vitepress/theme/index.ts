@@ -9,6 +9,7 @@ import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiter
 import DirectoryTree from "./components/DirectoryTree.vue";
 import VideoLinks from "./components/VideoLinks.vue";
 import JobPostingTable from "./components/JobPostingTable.vue";
+import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
 
 export default {
   ...DefaultTheme,
@@ -21,6 +22,7 @@ export default {
     app.component("DirectoryTree", DirectoryTree);
     app.component("VideoLinks", VideoLinks);
     app.component("JobPostingTable", JobPostingTable);
+    app.component("DirectHireCompanyTable", DirectHireCompanyTable);
 
     // 注册 ElementPlus
     app.use(ElementPlus);

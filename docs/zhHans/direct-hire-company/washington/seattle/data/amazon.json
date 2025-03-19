@@ -1,0 +1,31 @@
+{
+  "companyInfo": {
+    "companyName": "Amazon (Seattle Division)",
+    "location": {
+      "addressLine1": "410 Terry Ave N",
+      "addressLine2": "",
+      "county": "King County",
+      "cityOrTown": "Seattle",
+      "state": "WA",
+      "zipCode": "98109"
+    },
+    "contact": {
+      "phone": "+1-206-266-1000",
+      "email": "amazon-pr@amazon.com",
+      "website": "https://www.amazon.com",
+      "linkedin": "https://www.linkedin.com/company/amazon"
+    },
+    "industry": ["科技", "电子商务", "云计算"],
+    "foundedYear": "1994",
+    "description": "亚马逊西雅图分部作为全球总部，专注于电子商务、通过 AWS 提供的云计算以及创新技术解决方案。",
+    "mainProductsOrServices": [
+      "Amazon Web Services (AWS)",
+      "Amazon Marketplace", "Alexa",
+      "Prime Services"
+    ],
+    "companySize": "超过 30 万员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-19"
+  }
+}
