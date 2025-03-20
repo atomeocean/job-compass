@@ -76,41 +76,52 @@ onMounted(async () => {
       <el-descriptions-item label="公司规模">
         {{ companyInfo.companyInfo?.companySize || "N/A" }}
       </el-descriptions-item>
-      <el-descriptions-item label="行业类别">
-        <ul v-if="companyInfo.companyInfo?.industry?.length">
-          <li v-for="(item, index) in companyInfo.companyInfo.industry" :key="index">{{ item }}</li>
-        </ul>
-        <span v-else>N/A</span>
+      <el-descriptions-item label="公司简介">
+        {{ companyInfo.companyInfo?.description || "N/A" }}
       </el-descriptions-item>
     </el-descriptions>
 
     <!-- 联系信息 -->
     <el-descriptions title="联系信息" :column="1" border class="section-card">
-      <el-descriptions-item label="联系方式">
-        <div v-if="companyInfo.companyInfo?.contact">
-          <p v-if="companyInfo.companyInfo.contact.phone">电话: {{ companyInfo.companyInfo.contact.phone }}</p>
-          <p v-if="companyInfo.companyInfo.contact.email">邮箱: {{ companyInfo.companyInfo.contact.email }}</p>
-          <p v-if="companyInfo.companyInfo.contact.website">
-            官网:
-            <a :href="companyInfo.companyInfo.contact.website" target="_blank" rel="noopener noreferrer" class="apply-link">
-              {{ companyInfo.companyInfo.contact.website }}
-            </a>
-          </p>
-          <p v-if="companyInfo.companyInfo.contact.linkedin">
-            LinkedIn:
-            <a :href="companyInfo.companyInfo.contact.linkedin" target="_blank" rel="noopener noreferrer" class="apply-link">
-              {{ companyInfo.companyInfo.contact.linkedin }}
-            </a>
-          </p>
-        </div>
+      <el-descriptions-item label="电话">
+        {{ companyInfo.companyInfo?.contact?.phone || "N/A" }}
+      </el-descriptions-item>
+      <el-descriptions-item label="邮箱">
+        {{ companyInfo.companyInfo?.contact?.email || "N/A" }}
+      </el-descriptions-item>
+      <el-descriptions-item label="官网">
+        <a
+            v-if="companyInfo.companyInfo?.contact?.website"
+            :href="companyInfo.companyInfo.contact.website"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="apply-link"
+        >
+          {{ companyInfo.companyInfo.contact.website }}
+        </a>
+        <span v-else>N/A</span>
+      </el-descriptions-item>
+      <el-descriptions-item label="LinkedIn">
+        <a
+            v-if="companyInfo.companyInfo?.contact?.linkedin"
+            :href="companyInfo.companyInfo.contact.linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="apply-link"
+        >
+          {{ companyInfo.companyInfo.contact.linkedin }}
+        </a>
         <span v-else>N/A</span>
       </el-descriptions-item>
     </el-descriptions>
 
     <!-- 公司详情 -->
     <el-descriptions title="公司详情" :column="1" border class="section-card">
-      <el-descriptions-item label="公司简介">
-        {{ companyInfo.companyInfo?.description || "N/A" }}
+      <el-descriptions-item label="行业类别">
+        <ul v-if="companyInfo.companyInfo?.industry?.length">
+          <li v-for="(item, index) in companyInfo.companyInfo.industry" :key="index">{{ item }}</li>
+        </ul>
+        <span v-else>N/A</span>
       </el-descriptions-item>
       <el-descriptions-item label="主要产品或服务">
         <ul v-if="companyInfo.companyInfo?.mainProductsOrServices?.length">
