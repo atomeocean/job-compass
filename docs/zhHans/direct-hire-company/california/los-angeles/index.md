@@ -1,3 +1,3 @@
 ---
-title: Los Angeles
+title: 洛杉矶
 ---
