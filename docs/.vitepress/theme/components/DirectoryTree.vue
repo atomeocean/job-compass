@@ -56,6 +56,26 @@ const directoryData = ref<TreeNode[]>([
           {
             path: 'docs/zhHans/staffing-company',
             name: '上船'
+          },
+          {
+            path: 'docs/zhHans/direct-hire-company',
+            name: '上岸',
+            children: [
+              {
+                path: 'docs/zhHans/direct-hire-company/arizona',
+                name: '亚利桑那'
+              },
+              {
+                path: 'docs/zhHans/direct-hire-company/california',
+                name: '加州',
+                children: [
+                  {
+                    path: 'docs/zhHans/direct-hire-company/los-angeles',
+                    name: '洛杉矶'
+                  }
+                ]
+              },
+            ]
           }
         ]
       },
@@ -101,6 +121,26 @@ const directoryData = ref<TreeNode[]>([
           {
             path: 'docs/en/staffing-company',
             name: 'Staffing Company'
+          },
+          {
+            path: 'docs/zhHans/direct-hire-company',
+            name: 'Direct Hire Company',
+            children: [
+              {
+                path: 'docs/zhHans/direct-hire-company/arizona',
+                name: 'Arizona'
+              },
+              {
+                path: 'docs/zhHans/direct-hire-company/california',
+                name: 'California',
+                children: [
+                  {
+                    path: 'docs/zhHans/direct-hire-company/los-angeles',
+                    name: 'Los Angeles'
+                  }
+                ]
+              },
+            ]
           }
         ]
       },

@@ -1,3 +1,3 @@
 ---
-title: Arizona
+title: 亚利桑那
 ---
