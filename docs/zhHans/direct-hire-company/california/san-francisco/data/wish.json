@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "ContextLogic Inc.",
+    "location": {
+      "addressLine1": "One Sansome Street",
+      "addressLine2": "40th Floor",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94104"
+    },
+    "contact": {
+      "phone": "+1-415-432-1337",
+      "email": "",
+      "website": "https://www.wish.com",
+      "linkedin": "https://www.linkedin.com/company/contextlogic"
+    },
+    "industry": ["电子商务", "移动购物", "人工智能", "消费者零售"],
+    "foundedYear": "2010",
+    "description": "ContextLogic Inc. 是一家移动优先的电子商务公司，运营 Wish 平台，通过人工智能和大数据技术为全球消费者提供价格实惠的商品。Wish 连接了数百万用户与超过 100 万商家，提供多样化的产品选择，主要从中国和其他非美国供应商直接发货。其总部位于旧金山，致力于为注重性价比的消费者打造个性化和娱乐化的购物体验。",
+    "mainProductsOrServices": [
+      "Wish 购物应用程序",
+      "WishPost 物流服务",
+      "Blitz Buy 折扣游戏",
+      "品牌商品销售"
+    ],
+    "companySize": "约 251 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

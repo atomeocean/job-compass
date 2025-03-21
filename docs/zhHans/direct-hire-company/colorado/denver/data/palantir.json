@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Palantir Technologies Inc. (Headquarters)",
+    "location": {
+      "addressLine1": "1200 17th Street",
+      "addressLine2": "Floor 15",
+      "county": "Denver County",
+      "cityOrTown": "Denver",
+      "state": "CO",
+      "zipCode": "80202"
+    },
+    "contact": {
+      "phone": "+1-720-358-3679",
+      "email": "",
+      "website": "https://www.palantir.com",
+      "linkedin": "https://www.linkedin.com/company/palantir-technologies"
+    },
+    "industry": ["大数据分析", "人工智能", "软件开发", "数据集成"],
+    "foundedYear": "2003",
+    "description": "Palantir Technologies Inc. 是一家总部位于丹佛的大数据分析和人工智能公司，为政府、企业和非营利组织提供先进的软件解决方案。其平台帮助客户整合和分析复杂数据集，支持关键决策，广泛应用于国防、金融和医疗等领域。Palantir 以其创新技术和数据驱动的洞察力著称，致力于解决全球最棘手的问题。",
+    "mainProductsOrServices": [
+      "Palantir Gotham",
+      "Palantir Foundry",
+      "Palantir Apollo",
+      "人工智能解决方案"
+    ],
+    "companySize": "约 3,800 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "IXL Learning, Inc.",
+    "location": {
+      "addressLine1": "777 Mariners Island Blvd",
+      "addressLine2": "Suite 600",
+      "county": "San Mateo County",
+      "cityOrTown": "San Mateo",
+      "state": "CA",
+      "zipCode": "94404"
+    },
+    "contact": {
+      "phone": "+1-650-372-4040",
+      "email": "",
+      "website": "https://www.ixl.com",
+      "linkedin": "https://www.linkedin.com/company/ixl-learning"
+    },
+    "industry": ["教育科技", "在线学习", "K-12 教育", "语言学习"],
+    "foundedYear": "1998",
+    "description": "IXL Learning 是一家领先的教育科技公司，致力于通过个性化的在线学习平台提升全球学生的学习体验。其平台覆盖 K-12 教育，提供数学、语言艺术、科学、社会研究和西班牙语等科目的全面课程，服务于超过 1600 万学生和美国前 100 名学区的 95 个。",
+    "mainProductsOrServices": [
+      "IXL 在线学习平台",
+      "Rosetta Stone",
+      "Teachers Pay Teachers",
+      "Vocabulary.com"
+    ],
+    "companySize": "约 5,100 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}
