@@ -2,6 +2,8 @@
 title: Coco Robotics
 ---
 
-# 📌 直招公司信息
+# 直招公司
 
-<DirectHireCompanyTable state="california" city="los-angeles" companyFileName="coco-robotics" />
+## 📌 公司信息
+
+<DirectHireCompanyTable state="california" city="los-angeles" companyJsonFileName="coco-robotics" />

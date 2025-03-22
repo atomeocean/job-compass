@@ -2,6 +2,8 @@
 title: IXL Learning
 ---
 
-# 📌 直招公司信息
+# 直招公司
 
-<DirectHireCompanyTable state="california" city="san-mateo" companyFileName="ixl-learning" />
+## 📌 公司信息
+
+<DirectHireCompanyTable state="california" city="san-mateo" companyJsonFileName="ixl-learning" />

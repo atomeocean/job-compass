@@ -2,6 +2,8 @@
 title: Lyft
 ---
 
-# 📌 直招公司信息
+# 直招公司
 
-<DirectHireCompanyTable state="california" city="san-francisco" companyFileName="lyft" />
+## 📌 公司信息
+
+<DirectHireCompanyTable state="california" city="san-francisco" companyJsonFileName="lyft" />

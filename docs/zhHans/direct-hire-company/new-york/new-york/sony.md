@@ -2,6 +2,8 @@
 title: Sony
 ---
 
-# 📌 直招公司信息
+# 直招公司
 
-<DirectHireCompanyTable state="new-york" city="new-york" companyFileName="sony" />
+## 📌 公司信息
+
+<DirectHireCompanyTable state="new-york" city="new-york" companyJsonFileName="sony" />

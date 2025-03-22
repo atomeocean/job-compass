@@ -4,7 +4,7 @@ import { onMounted, ref, computed } from "vue";
 
 // 定义 props
 const props = defineProps({
-  companyFileName: {
+  companyJsonFileName: {
     type: String,
     required: true,
   },
@@ -26,9 +26,9 @@ const jsonModules = import.meta.glob("/zhHans/direct-hire-company/**/*.json");
 
 // 计算完整的文件路径
 const filePath = computed(() => {
-  const normalizedPath = props.companyFileName.endsWith(".json")
-      ? props.companyFileName
-      : `${props.companyFileName}.json`;
+  const normalizedPath = props.companyJsonFileName.endsWith(".json")
+      ? props.companyJsonFileName
+      : `${props.companyJsonFileName}.json`;
   return `/zhHans/direct-hire-company/${props.state}/${props.city}/data/${normalizedPath}`;
 });
 
