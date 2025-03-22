@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Dropbox, Inc.",
+    "location": {
+      "addressLine1": "1800 Owens Street",
+      "addressLine2": "Suite 200",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94158"
+    },
+    "contact": {
+      "phone": "+1 415-986-7057",
+      "email": "",
+      "website": "https://www.dropbox.com",
+      "linkedin": "https://www.linkedin.com/company/dropbox"
+    },
+    "industry": ["云存储", "文件同步", "协作工具", "人工智能"],
+    "foundedYear": "2007",
+    "description": "Dropbox 是一家提供云存储、文件同步和协作工具的公司，旨在设计更高效的工作方式。其服务被全球超过 7 亿注册用户使用，覆盖约 180 个国家。Dropbox 通过其核心产品和新兴工具（如 Dropbox Dash）帮助个人和团队组织生活并推动工作进展。",
+    "mainProductsOrServices": [
+      "云存储服务",
+      "文件共享和同步",
+      "Dropbox Paper",
+      "Dropbox Dash"
+    ],
+    "companySize": "约 2,700 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

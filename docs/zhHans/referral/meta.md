@@ -6,7 +6,7 @@ description: Meta previous Facebook
 
 高工资，总部在Palo Alto, CA
 
-Noah Rooney 
+Noah Rooney
 
 nrooney@fb.com
 

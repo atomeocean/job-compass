@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Chubb Limited",
+    "location": {
+      "addressLine1": "550 Madison Ave",
+      "addressLine2": "",
+      "county": "New York County",
+      "cityOrTown": "New York",
+      "state": "NY",
+      "zipCode": "10022"
+    },
+    "contact": {
+      "phone": "+1-212-827-4400",
+      "email": "",
+      "website": "https://www.chubb.com",
+      "linkedin": "https://www.linkedin.com/company/chubb"
+    },
+    "industry": ["保险", "财产和意外保险", "再保险", "人寿保险"],
+    "foundedYear": "1985",
+    "description": "Chubb 纽约总部是其北美地区的核心运营中心，负责协调北美市场的商业和个人财产及意外保险、个人意外及补充健康保险、再保险和人寿保险业务。Chubb 是全球最大的公开交易财产和意外保险公司之一。该公司不支持remote工作，必须搬到新泽西州",
+    "mainProductsOrServices": [
+      "商业财产和意外保险",
+      "个人意外及健康保险",
+      "再保险",
+      "人寿保险"
+    ],
+    "companySize": "约 40,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

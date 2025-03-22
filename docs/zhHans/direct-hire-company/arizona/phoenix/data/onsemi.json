@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "ON Semiconductor Corporation (Headquarters)",
+    "location": {
+      "addressLine1": "5701 North Pima Road",
+      "addressLine2": "",
+      "county": "Maricopa County",
+      "cityOrTown": "Phoenix",
+      "state": "AZ",
+      "zipCode": "85250"
+    },
+    "contact": {
+      "phone": "+1-602-244-6600",
+      "email": "",
+      "website": "https://www.onsemi.com",
+      "linkedin": "https://www.linkedin.com/company/onsemi"
+    },
+    "industry": ["半导体", "电子元件", "电源管理", "汽车电子"],
+    "foundedYear": "1999",
+    "description": "ON Semiconductor Corporation 是一家领先的半导体解决方案提供商，总部位于亚利桑那州菲尼克斯。 该公司专注于电源管理和传感器技术，为汽车、工业、通信和消费电子市场提供高效能产品。其创新的半导体解决方案支持电动车、智能电网和物联网设备的发展，致力于推动可持续技术和能源效率。",
+    "mainProductsOrServices": [
+      "电源管理芯片",
+      "图像传感器",
+      "汽车电子元件",
+      "模拟和混合信号芯片"
+    ],
+    "companySize": "约 30,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

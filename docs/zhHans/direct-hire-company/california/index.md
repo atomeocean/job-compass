@@ -1,3 +1,3 @@
 ---
-title: 加州
+title: California
 ---

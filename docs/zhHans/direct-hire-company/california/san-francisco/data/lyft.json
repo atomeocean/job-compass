@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Lyft, Inc.",
+    "location": {
+      "addressLine1": "185 Berry Street",
+      "addressLine2": "Suite 400",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94107"
+    },
+    "contact": {
+      "phone": "+1 855-865-9553",
+      "email": "",
+      "website": "https://www.lyft.com",
+      "linkedin": "https://www.linkedin.com/company/lyft"
+    },
+    "industry": ["网约车", "共享交通", "电动自行车", "自动驾驶技术"],
+    "foundedYear": "2012",
+    "description": "Lyft, Inc. 是一家美国网约车公司，提供点对点的乘车服务、共享自行车和电动滑板车租赁，以及多模式交通解决方案。其平台连接司机与乘客，并在北美多个城市运营，致力于通过创新提升交通效率和可持续性。2025 年，Lyft 计划推出自动驾驶网约车服务。",
+    "mainProductsOrServices": [
+      "Lyft 网约车服务",
+      "Lyft 共享自行车",
+      "Lyft 电动滑板车",
+      "Lyft Pink 订阅计划"
+    ],
+    "companySize": "约 2,900 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

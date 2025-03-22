@@ -1,0 +1,31 @@
+{
+  "companyInfo": {
+    "companyName": "Cruise LLC",
+    "location": {
+      "addressLine1": "333 Brannan Street",
+      "addressLine2": "",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94107"
+    },
+    "contact": {
+      "phone": "+1 415-335-4097",
+      "email": "support@getcruise.com",
+      "website": "https://www.getcruise.com",
+      "linkedin": "https://www.linkedin.com/company/cruise"
+    },
+    "industry": ["自动驾驶技术", "机器人出租车", "人工智能", "电动车"],
+    "foundedYear": "2013",
+    "description": "Cruise LLC 是一家自动驾驶技术公司，致力于开发全自动驾驶车辆以提供安全、高效的出行服务。公司最初专注于机器人出租车服务，现已转向与通用汽车合作开发个人用高级驾驶辅助系统和自动驾驶技术。但根据2024年12月报道，通用汽车停止投资Cruise，截止 2025 年 1 月 Cruise 已裁员 24%（约 600 人）",
+    "mainProductsOrServices": [
+      "自动驾驶软件",
+      "机器人出租车（历史业务）",
+      "高级驾驶辅助系统"
+    ],
+    "companySize": "约 2500 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

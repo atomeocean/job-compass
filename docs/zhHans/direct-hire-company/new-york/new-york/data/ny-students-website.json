@@ -1,0 +1,27 @@
+{
+  "companyInfo": {
+    "companyName": "纽约留学生网 (New York Division)",
+    "location": {
+      "addressLine1": "5 W 37th St Floor 2",
+      "addressLine2": "",
+      "county": "New York",
+      "cityOrTown": "",
+      "state": "NY",
+      "zipCode": "10018"
+    },
+    "contact": {
+      "phone": "+1 (508) 904-1471",
+      "email": "ceo@overseasstudent.com",
+      "website": "https://www.nystudents.net/",
+      "linkedin": "https://www.linkedin.com/company/nystudents/"
+    },
+    "industry": [],
+    "foundedYear": "",
+    "description": "",
+    "mainProductsOrServices": [],
+    "companySize": ""
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

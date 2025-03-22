@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Meta Platforms, Inc.",
+    "location": {
+      "addressLine1": "1 Hacker Wy",
+      "addressLine2": "",
+      "county": "San Mateo County",
+      "cityOrTown": "Menlo Park",
+      "state": "CA",
+      "zipCode": "94025"
+    },
+    "contact": {
+      "phone": "+1 650-853-1300",
+      "email": "",
+      "website": "https://about.meta.com/",
+      "linkedin": "https://www.linkedin.com/company/meta"
+    },
+    "industry": ["社交媒体", "元宇宙", "人工智能", "虚拟现实", "广告"],
+    "foundedYear": "2004",
+    "description": "Meta Platforms, Inc. (原 Facebook) 是一家技术公司，致力于通过社交媒体、虚拟现实和人工智能技术连接人与世界。其位于门洛帕克的总部管理着 Facebook、Instagram、WhatsApp 等平台，并推动元宇宙愿景的发展，服务全球超过 38 亿月活跃用户。",
+    "mainProductsOrServices": [
+      "Facebook",
+      "Instagram",
+      "WhatsApp",
+      "Meta Quest",
+      "Horizon Worlds"
+    ],
+    "companySize": "约 67,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

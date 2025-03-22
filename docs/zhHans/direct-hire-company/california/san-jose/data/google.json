@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Google LLC",
+    "location": {
+      "addressLine1": "1600 Amphitheatre Parkway",
+      "addressLine2": "",
+      "county": "Santa Clara County",
+      "cityOrTown": "Mountain View",
+      "state": "CA",
+      "zipCode": "94043"
+    },
+    "contact": {
+      "phone": "+1-650-253-0000",
+      "email": "",
+      "website": "https://www.google.com",
+      "linkedin": "https://www.linkedin.com/company/google"
+    },
+    "industry": ["科技", "搜索引擎", "云计算", "人工智能", "广告"],
+    "foundedYear": "1998",
+    "description": "Google LLC 是 Alphabet Inc. 的子公司，提供全球领先的搜索、云计算、人工智能和广告技术服务。其位于山景城的总部（Googleplex）是创新和技术开发的中心，服务覆盖全球数十亿用户，推动互联网和数字经济的进步。",
+    "mainProductsOrServices": [
+      "Google 搜索",
+      "Google 云",
+      "YouTube",
+      "Android",
+      "Google Ads"
+    ],
+    "companySize": "约 182,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}
