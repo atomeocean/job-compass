@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Sony Corporation of America",
+    "location": {
+      "addressLine1": "25 Madison Avenue",
+      "addressLine2": "",
+      "county": "New York County",
+      "cityOrTown": "New York",
+      "state": "NY",
+      "zipCode": "10010"
+    },
+    "contact": {
+      "phone": "+1 212-833-6800",
+      "email": "",
+      "website": "https://www.sony.com/en_us/SCA/index.html",
+      "linkedin": "https://www.linkedin.com/company/sony-corporation-of-america"
+    },
+    "industry": ["电子产品", "娱乐", "游戏", "音乐", "电影"],
+    "foundedYear": "1960",
+    "description": "Sony Corporation of America 是 Sony Group Corporation 在美国的总部，负责管理 Sony 在美国的所有业务。其位于纽约市的总部协调 Sony Electronics、Sony Interactive Entertainment、Sony Music Entertainment 和 Sony Pictures Entertainment 等主要子公司，服务于美国市场并推动技术与娱乐的创新。",
+    "mainProductsOrServices": [
+      "消费电子产品",
+      "PlayStation 游戏平台",
+      "电影和电视内容",
+      "音乐唱片和出版",
+      "影像设备"
+    ],
+    "companySize": "约 33,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

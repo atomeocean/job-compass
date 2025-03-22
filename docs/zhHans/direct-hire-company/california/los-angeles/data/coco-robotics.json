@@ -1,0 +1,30 @@
+{
+  "companyInfo": {
+    "companyName": "Coco Robotics",
+    "location": {
+      "addressLine1": "406 Broadway #321",
+      "addressLine2": "",
+      "county": "Los Angeles County",
+      "cityOrTown": "Santa Monica",
+      "state": "CA",
+      "zipCode": "90401"
+    },
+    "contact": {
+      "phone": "",
+      "email": "hello@cocodelivery.com",
+      "website": "https://www.cocodelivery.com",
+      "linkedin": "https://www.linkedin.com/company/coco"
+    },
+    "industry": ["机器人技术", "物流", "最后一英里配送", "食品配送"],
+    "foundedYear": "2020",
+    "description": "Coco Robotics 是一家机器人配送服务公司，通过远程操控的便道机器人为商家和客户提供最后一英里配送服务。其机器人车队每周为圣莫尼卡、洛杉矶、奥斯汀和休斯顿的数千名客户提供服务，致力于打造更高效、可靠和可持续的配送未来。",
+    "mainProductsOrServices": [
+      "机器人食品配送",
+      "最后一英里物流解决方案"
+    ],
+    "companySize": "约 120 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}

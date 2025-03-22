@@ -14,7 +14,7 @@ Hi ,
 I want to share a truly unique opportunity with you.
 
 
-At Coco, we’re not just building delivery robots but redefining urban logistics. 
+At Coco, we’re not just building delivery robots but redefining urban logistics.
 We’re looking for a Senior Software Engineer to lead product and design development on our Platform Delivery team.
 
 
