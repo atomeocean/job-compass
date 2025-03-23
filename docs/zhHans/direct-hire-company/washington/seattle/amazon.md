@@ -2,7 +2,7 @@
 title: Amazon
 ---
 
-# 直招公司
+# Amazon 亚马逊
 
 ## 📌 公司信息
 
