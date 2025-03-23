@@ -1,8 +1,4 @@
 <script setup>
-
-import { defineProps } from 'vue';
-
-
 defineProps({
   recruiterName: String,
   recruiterEmail: String,
@@ -11,8 +7,8 @@ defineProps({
   team: String,
   description: String,
   bookingLink: String,
+  emailContent: String, // 邮件正文内容
 });
-
 </script>
 
 <template>
@@ -25,10 +21,6 @@ defineProps({
     </template>
 
     <div class="content">
-      <p>{{ description }}</p>
-
-      <el-divider />
-
       <el-descriptions :column="1" border>
         <el-descriptions-item label="公司">
           {{ company }}
@@ -46,15 +38,22 @@ defineProps({
           </el-button>
         </el-descriptions-item>
       </el-descriptions>
+
+      <el-collapse>
+        <el-collapse-item title="✉️ 展开邮件详情" name="email">
+          <el-scrollbar max-height="200px">
+            <pre class="email-content">{{ emailContent }}</pre>
+          </el-scrollbar>
+        </el-collapse-item>
+      </el-collapse>
     </div>
   </el-card>
 </template>
 
 
-
 <style scoped>
 .job-card {
-  max-width: 600px;
+  max-width: 700px;
   margin: 20px auto;
 }
 
@@ -66,9 +65,15 @@ defineProps({
   font-weight: 600;
 }
 
-.content p {
-  margin-bottom: 15px;
+.content {
   color: #606266;
+}
+
+.email-content {
+  white-space: pre-wrap;
   line-height: 1.6;
+  font-family: inherit;
+  padding: 10px;
+  margin: 0;
 }
 </style>
