@@ -10,6 +10,7 @@ import DirectoryTree from "./components/DirectoryTree.vue";
 import VideoLinks from "./components/VideoLinks.vue";
 import JobPostingTable from "./components/JobPostingTable.vue";
 import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
+import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 
 export default {
   ...DefaultTheme,
@@ -23,6 +24,7 @@ export default {
     app.component("VideoLinks", VideoLinks);
     app.component("JobPostingTable", JobPostingTable);
     app.component("DirectHireCompanyTable", DirectHireCompanyTable);
+    app.component("JobRecruiterInformation", JobRecruiterInformation);
 
     // 注册 ElementPlus
     app.use(ElementPlus);

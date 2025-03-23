@@ -5,18 +5,18 @@ title: Coco Robotics
 
 ### 2025年1月
 
-收到招聘邮件，信息如下
+<JobRecruiterInformation recruiterName="Andrew Stoe" recruiterEmail="andrew.stoe.ne@cocodelivery.com" company="Coco 
+Robotics" jobTitle="Senior Software Engineer" team="Platform Delivery" bookingLink="https://calendly.
+com/alex-fenstermacher-ne-cocodelivery/30min?month=2025-02" emailContent="Hi,I want to share a truly unique opportunity with you."
+/>
 
-Andrew Stoe <andrew.stoe.ne@cocodelivery.com>
-
-Hi ,
+```text
+Hi,
 
 I want to share a truly unique opportunity with you.
 
-
 At Coco, we’re not just building delivery robots but redefining urban logistics.
 We’re looking for a Senior Software Engineer to lead product and design development on our Platform Delivery team.
-
 
 You’ll be the cornerstone of our Platform Delivery team, working to design and implement systems that power the next generation of autonomous vehicles. With access to millions of miles of proprietary data and a mission to scale 1,000,000s of deliveries, your work will lay the foundation for Coco’s success for years to come.
 
@@ -31,12 +31,9 @@ Your experience at Waymo in building complex mapping tools makes you well-suited
 
 If shaping the future of urban logistics and building something very complex from scratch resonates with you, let’s connect. I’d love to share more about what we’re building at Coco and explore how your vision and expertise can help lead us into the future.
 
-
 Are you interested in finding a time to speak this week? If so, please feel free to book some time with me here.
-
 
 Best regards,
 Alex
 Coco Robotics
-
-[预约时间链接](https://calendly.com/alex-fenstermacher-ne-cocodelivery/30min?month=2025-02)
+```
