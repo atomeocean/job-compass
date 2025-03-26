@@ -2,7 +2,7 @@
 title: Google
 ---
 
-# 直招公司
+# Google LLC
 
 ## 📌 公司信息
 
