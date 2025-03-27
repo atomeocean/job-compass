@@ -2,6 +2,6 @@
 title: 上船
 ---
 
--	英文：Staffing Agency 或 Recruitment Agency
+-	英文：Staffing Company
 
--	中文：人力中介公司 或 招聘中介公司
+-	中文：劳务派遣公司
