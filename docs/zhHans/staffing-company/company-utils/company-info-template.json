@@ -1,0 +1,72 @@
+{
+  "companyInfo": {
+    "companyName": "",
+    "foundedYear": "",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": ""
+    },
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "industry": []
+  },
+  "transportationJob": {
+    "jobType": "",
+    "usIdentitySupport": "",
+    "payStubSupport": "",
+    "recruitmentProcess": ""
+  },
+  "hrInfo": [
+    {
+      "name": "",
+      "email": "",
+      "wechat": "",
+      "linkedin": "",
+      "xiaohongshu": ""
+    }
+  ],
+  "training": {
+    "infoCategory": "",
+    "details": "",
+    "content": "",
+    "duration": "",
+    "cost": "",
+    "remoteAvailable": "",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "marketing": {
+    "infoCategory": "",
+    "details": "",
+    "duration": "",
+    "preparation": "",
+    "cost": "",
+    "remoteAvailable": "",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-21"
+  }
+}
