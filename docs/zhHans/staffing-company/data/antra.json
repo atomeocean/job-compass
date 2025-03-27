@@ -1,33 +1,40 @@
 {
   "companyInfo": {
-    "companyName": "",
-    "foundedYear": "",
+    "companyName": "Antra, Inc.",
+    "foundedYear": "2017 年",
     "contact": {
       "phone": "",
       "email": "",
-      "website": ""
+      "website": "https://antra.com/"
     },
     "location": {
-      "addressLine1": "",
-      "addressLine2": "",
+      "addressLine1": "21000 Atlantic Blvd",
+      "addressLine2": "STE 300",
       "county": "",
-      "cityOrTown": "",
-      "state": "",
-      "zipCode": ""
+      "cityOrTown": "Sterling",
+      "state": "VA",
+      "zipCode": "20166"
     },
-    "industry": []
+    "industry": ["Banking & Financial Services", "Retail", "Communication & Media"]
   },
   "staffingAgencyPosition": {
-    "jobType": "",
-    "usIdentitySupport": "",
-    "payStubSupport": "",
-    "recruitmentProcess": ""
+    "jobType": "合同工",
+    "usIdentitySupport": "支持OPT",
+    "payStubSupport": "不支持",
+    "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
   },
   "recruiterInformation": [
     {
-      "name": "",
+      "name": "Yvette",
+      "email": "yw@antra.com",
+      "wechat": "Yvettemo21",
+      "linkedin": "",
+      "xiaohongshu": ""
+    },
+    {
+      "name": "Molly",
       "email": "",
-      "wechat": "",
+      "wechat": "yzou17",
       "linkedin": "",
       "xiaohongshu": ""
     }
@@ -63,6 +70,6 @@
     "penaltyForTermination": ""
   },
   "metadata": {
-    "lastUpdated": ""
+    "lastUpdated": "2025-03-27"
   }
 }

@@ -32,20 +32,28 @@ const filePath = computed(() => {
   return `/zhHans/direct-hire-company/${props.state}/${props.city}/data/${normalizedPath}`;
 });
 
-// 计算合并后的地址
+// 计算公司地址
 const fullAddress = computed(() => {
   if (!companyInfo.value.companyInfo?.location) return "N/A";
 
   const location = companyInfo.value.companyInfo.location;
-  return [
-    location.addressLine1,
-    location.addressLine2,
+
+  // 第一部分：街道地址 (addressLine1 + addressLine2)
+  const streetParts = [location.addressLine1, location.addressLine2].filter(Boolean);
+  const street = streetParts.length > 0 ? streetParts.join(" ") : "";
+
+  // 第二部分：城市、州、邮编
+  const cityParts = [
     location.cityOrTown ? `${location.cityOrTown},` : "",
     location.state,
     location.zipCode
-  ]
-      .filter(Boolean) // 过滤掉空值
-      .join(" "); // 用空格连接
+  ].filter(Boolean);
+  const cityStateZip = cityParts.length > 0 ? cityParts.join(" ") : "";
+
+  // 合并街道和城市部分
+  const address = [street, cityStateZip].filter(Boolean).join(", ");
+
+  return address.length > 0 ? address : "N/A";
 });
 
 onMounted(async () => {
