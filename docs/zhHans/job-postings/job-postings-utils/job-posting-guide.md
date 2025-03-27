@@ -70,8 +70,9 @@ title: 招聘信息文档指南
 
 1. 回到公司名称文件夹，创建一个与第 5️⃣ 步同名的 Markdown 文件，文件名为 `职位名称-日期.md`（例如：`software-engineer-20250102.md`）
 2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/job-posting-template.md?plain=1) 中的内容复制到该文件中
-3. 将文件中的 `title` 值替换为文件名（用空格替换连字符），例如：`software engineer 20250102`
-4. 找到第 8 行的 JobPostingTable 组件，将其中的 `job-posting-json-path` 值替换为实际 JSON 文件的路径
+3. 将文件第 2 行中的 `title` 值替换为文件名（用空格替换连字符），例如：`software engineer 20250102`
+4. 将文件第 6 行中的 `[公司名称]` 替换为实际公司名称，例如 `Amazon 招聘信息`
+5. 找到第 8 行的 JobPostingTable 组件，将其中的 `job-posting-json-path` 值替换为实际 JSON 文件的路径
     - 模板中的路径格式为：`公司文件夹名/data/职位信息json文件名`
     - 将 `公司文件夹名` 替换为实际的公司名
     - 将 `职位信息json文件名` 替换为第 5️⃣ 步所创建的Json文件名
