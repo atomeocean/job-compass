@@ -1,0 +1,30 @@
+{
+  "companyInfo": {
+    "companyName": "Atomeocean",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "hudson",
+      "cityOrTown": "jersey city",
+      "state": "New Jersey",
+      "zipCode": "07310"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://logbook.atomeocean.com",
+      "linkedin": "https://www.linkedin.com/company/atomeocean"
+    },
+    "industry": ["Web Community"],
+    "foundedYear": "2021",
+    "description": "https://logbook.atomeocean.com/about-us/contact.html",
+    "mainProductsOrServices": ["Logbook",
+      "Job Compass",
+      "Cruise"
+    ],
+    "companySize": "5 ~ 20"
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-26"
+  }
+}
