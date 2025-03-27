@@ -17,7 +17,7 @@
     },
     "industry": []
   },
-  "transportationJob": {
+  "staffingAgencyPosition": {
     "jobType": "",
     "usIdentitySupport": "",
     "payStubSupport": "",
@@ -38,7 +38,7 @@
     "content": "",
     "duration": "",
     "cost": "",
-    "remoteAvailable": "",
+    "remoteAllowed": "",
     "location": {
       "addressLine1": "",
       "addressLine2": "",
@@ -55,7 +55,7 @@
     "duration": "",
     "preparation": "",
     "cost": "",
-    "remoteAvailable": "",
+    "remoteAllowed": "",
     "location": {
       "addressLine1": "",
       "addressLine2": "",
@@ -67,6 +67,6 @@
     "penaltyForTermination": ""
   },
   "metadata": {
-    "lastUpdated": "2025-03-21"
+    "lastUpdated": ""
   }
 }
