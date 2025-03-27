@@ -1,0 +1,72 @@
+{
+  "companyInfo": {
+    "companyName": "",
+    "foundedYear": "",
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": ""
+    },
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "industry": []
+  },
+  "staffingAgencyPosition": {
+    "jobType": "",
+    "usIdentitySupport": "",
+    "payStubSupport": "",
+    "recruitmentProcess": ""
+  },
+  "recruiterInformation": [
+    {
+      "name": "",
+      "email": "",
+      "wechat": "",
+      "linkedin": "",
+      "xiaohongshu": ""
+    }
+  ],
+  "training": {
+    "infoCategory": "",
+    "details": "",
+    "content": "",
+    "duration": "",
+    "cost": "",
+    "remoteAllowed": "",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "marketing": {
+    "infoCategory": "",
+    "details": "",
+    "duration": "",
+    "preparation": "",
+    "cost": "",
+    "remoteAllowed": "",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "metadata": {
+    "lastUpdated": ""
+  }
+}
