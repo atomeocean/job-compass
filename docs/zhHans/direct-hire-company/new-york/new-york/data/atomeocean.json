@@ -17,11 +17,14 @@
     },
     "industry": ["Web Community"],
     "foundedYear": "2021",
-    "description": "",
-    "mainProductsOrServices": ["Job Compass"],
-    "companySize": ""
+    "description": "https://logbook.atomeocean.com/about-us/contact.html",
+    "mainProductsOrServices": ["Logbook",
+      "Job Compass",
+      "Cruise"
+    ],
+    "companySize": "5 ~ 20"
   },
   "metadata": {
-    "lastUpdated": ""
+    "lastUpdated": "2025-03-26"
   }
 }
