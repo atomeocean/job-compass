@@ -2,7 +2,7 @@
 title: Antra
 ---
 
-# Antra, Inc.
+# Antra Inc.
 
 ## 📌 公司信息
 
