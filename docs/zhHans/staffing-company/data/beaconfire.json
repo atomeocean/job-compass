@@ -1,40 +1,33 @@
 {
   "companyInfo": {
-    "companyName": "Antra, Inc.",
-    "foundedYear": "2017 年",
+    "companyName": "BeaconFire Inc.",
+    "foundedYear": "2022 年",
     "contact": {
-      "phone": "",
-      "email": "",
-      "website": "https://antra.com/"
+      "phone": "+1 609-608-6827",
+      "email": "info@beaconfireinc.com",
+      "website": "https://beaconfireinc.com/"
     },
     "location": {
-      "addressLine1": "21000 Atlantic Blvd",
-      "addressLine2": "STE 300",
+      "addressLine1": "104 Windsor Center Dr",
+      "addressLine2": "Suite 400",
       "county": "",
-      "cityOrTown": "Sterling",
-      "state": "VA",
-      "zipCode": "20166"
+      "cityOrTown": "East Windsor",
+      "state": "NJ",
+      "zipCode": "08520"
     },
-    "industry": ["IT", "金融服务", "零售", "社交媒体平台"]
+    "industry": ["IT", "金融", "制造", "医疗", "保险"]
   },
   "staffingAgencyPosition": {
     "jobType": "合同工",
-    "usIdentitySupport": "支持OPT",
+    "usIdentitySupport": "支持OPT / Opt Ext / H1B ",
     "payStubSupport": "不支持",
     "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
   },
   "recruiterInformation": [
     {
-      "name": "Yvette",
-      "email": "yw@antra.com",
-      "wechat": "Yvettemo21",
-      "linkedin": "",
-      "xiaohongshu": ""
-    },
-    {
-      "name": "Molly",
+      "name": "Evita",
       "email": "",
-      "wechat": "yzou17",
+      "wechat": "BeaconFire_Evita",
       "linkedin": "",
       "xiaohongshu": ""
     }
@@ -55,10 +48,10 @@
     "penaltyForTermination": ""
   },
   "marketing": {
-    "duration": "",
+    "duration": "6个月",
     "preparation": "",
-    "cost": "",
-    "remoteAllowed": "",
+    "cost": "有违约金",
+    "remoteAllowed": "否",
     "location": {
       "addressLine1": "",
       "addressLine2": "",
@@ -67,7 +60,7 @@
       "state": "",
       "zipCode": ""
     },
-    "penaltyForTermination": ""
+    "penaltyForTermination": "每个月3000美元，封顶15000美元"
   },
   "metadata": {
     "lastUpdated": "2025-03-27"

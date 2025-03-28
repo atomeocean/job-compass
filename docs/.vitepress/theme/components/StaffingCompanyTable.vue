@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue';
+import {formatAddress} from "../utils/util.ts";
 
 // 定义 props，只接收文件名
 const props = defineProps({
@@ -22,31 +23,6 @@ const filePath = computed(() => {
       : `${props.companyJsonFileName}.json`;
   return `/zhHans/staffing-company/data/${normalizedPath}`;
 });
-
-// 计算合并后的地址
-const formatAddress = (location) => {
-  if (!location) return 'N/A';
-
-  // 第一部分：街道地址 (addressLine1 + addressLine2)
-  const streetParts = [location.addressLine1, location.addressLine2].filter(Boolean);
-  const street = streetParts.length > 0 ? streetParts.join(' ') : '';
-
-  // 第二部分：县（如果有值）
-  const county = location.county ? location.county : '';
-
-  // 第三部分：城市、州、邮编
-  const cityParts = [
-    location.cityOrTown ? `${location.cityOrTown},` : '',
-    location.state,
-    location.zipCode
-  ].filter(Boolean);
-  const cityStateZip = cityParts.length > 0 ? cityParts.join(' ') : '';
-
-  // 合并所有部分
-  const fullAddress = [street, county, cityStateZip].filter(Boolean).join(', ');
-
-  return fullAddress.length > 0 ? fullAddress : 'N/A';
-};
 
 // 计算公司地址
 const fullAddress = computed(() => formatAddress(company.value.companyInfo?.location));
