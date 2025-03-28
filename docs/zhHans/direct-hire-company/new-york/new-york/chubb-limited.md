@@ -2,7 +2,7 @@
 title: Chubb Limited
 ---
 
-# 直招公司
+# Chubb Limited
 
 ## 📌 公司信息
 
