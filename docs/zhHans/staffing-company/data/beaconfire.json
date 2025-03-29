@@ -19,7 +19,7 @@
   },
   "staffingAgencyPosition": {
     "jobType": "合同工",
-    "usIdentitySupport": "支持OPT / Opt Ext / H1B ",
+    "usIdentitySupport": "支持 OPT / Opt Ext / H1B / CPT",
     "payStubSupport": "不支持",
     "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
   },
@@ -45,7 +45,7 @@
       "state": "",
       "zipCode": ""
     },
-    "penaltyForTermination": ""
+    "penaltyForTermination": "最多$15，000"
   },
   "marketing": {
     "duration": "6个月",

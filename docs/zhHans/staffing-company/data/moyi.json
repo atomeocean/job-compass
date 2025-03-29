@@ -1,41 +1,41 @@
 {
   "companyInfo": {
-    "companyName": "Antra, Inc.",
-    "foundedYear": "2017 年",
+    "companyName": "Moyi Tech",
+    "foundedYear": "2024 年",
     "contact": {
-      "phone": "",
-      "email": "",
-      "website": "https://antra.com/"
+      "phone": "917-456-4636",
+      "email": "contact@moyi-tech.org",
+      "website": "https://www.moyi-tech.org/"
     },
     "location": {
-      "addressLine1": "21000 Atlantic Blvd",
-      "addressLine2": "STE 300",
+      "addressLine1": "165 Broadway, 23FL",
+      "addressLine2": "",
       "county": "",
-      "cityOrTown": "Sterling",
-      "state": "VA",
-      "zipCode": "20166"
+      "cityOrTown": "New York",
+      "state": "NY",
+      "zipCode": "10006"
     },
-    "industry": ["IT", "金融服务", "零售", "社交媒体平台"]
+    "industry": ["IT", "零售"]
   },
   "staffingAgencyPosition": {
     "jobType": "合同工",
-    "usIdentitySupport": "支持 OPT / STEM OPT，不支持 H1B transfer",
+    "usIdentitySupport": "支持 OPT / STEM OPT / CPT / H1B，对 STEM OPT 和 H1B transfer要求较高，需要上项目后才可以sponsor",
     "payStubSupport": "不支持",
-    "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
+    "recruitmentProcess": ""
   },
   "recruiterInformation": [
     {
-      "name": "Yvette",
-      "email": "yw@antra.com",
-      "wechat": "Yvettemo21",
-      "linkedin": "",
+      "name": "Leah S.",
+      "email": "",
+      "wechat": "",
+      "linkedin": "https://www.linkedin.com/in/leah-shang0000/",
       "xiaohongshu": ""
     },
     {
-      "name": "Molly",
+      "name": "Fain Shi",
       "email": "",
-      "wechat": "yzou17",
-      "linkedin": "",
+      "wechat": "",
+      "linkedin": "https://www.linkedin.com/in/fain-shi-a14525357/",
       "xiaohongshu": ""
     }
   ],
@@ -52,7 +52,7 @@
       "state": "",
       "zipCode": ""
     },
-    "penaltyForTermination": "$12,000"
+    "penaltyForTermination": "$6,000"
   },
   "marketing": {
     "duration": "",
@@ -70,6 +70,6 @@
     "penaltyForTermination": ""
   },
   "metadata": {
-    "lastUpdated": "2025-03-27"
+    "lastUpdated": "2025-03-28"
   }
 }

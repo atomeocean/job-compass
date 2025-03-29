@@ -1,41 +1,41 @@
 {
   "companyInfo": {
-    "companyName": "Antra, Inc.",
-    "foundedYear": "2017 年",
+    "companyName": "Pilot Technologies LLC",
+    "foundedYear": "",
     "contact": {
-      "phone": "",
-      "email": "",
-      "website": "https://antra.com/"
+      "phone": "(609)-722-6770",
+      "email": "hr.manager@pilottechnologies.net",
+      "website": "http://www.pilottechnologies.net/#/home"
     },
     "location": {
-      "addressLine1": "21000 Atlantic Blvd",
-      "addressLine2": "STE 300",
+      "addressLine1": "9 Schalks Crossing Road, Suite 726",
+      "addressLine2": "",
       "county": "",
-      "cityOrTown": "Sterling",
-      "state": "VA",
-      "zipCode": "20166"
+      "cityOrTown": "Plainsboro",
+      "state": "NJ",
+      "zipCode": "08536"
     },
-    "industry": ["IT", "金融服务", "零售", "社交媒体平台"]
+    "industry": ["IT"]
   },
   "staffingAgencyPosition": {
     "jobType": "合同工",
-    "usIdentitySupport": "支持 OPT / STEM OPT，不支持 H1B transfer",
+    "usIdentitySupport": "",
     "payStubSupport": "不支持",
-    "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
+    "recruitmentProcess": ""
   },
   "recruiterInformation": [
     {
-      "name": "Yvette",
-      "email": "yw@antra.com",
-      "wechat": "Yvettemo21",
+      "name": "Lucy",
+      "email": "",
+      "wechat": "pilot-hr",
       "linkedin": "",
       "xiaohongshu": ""
     },
     {
-      "name": "Molly",
+      "name": "Lucia Z.",
       "email": "",
-      "wechat": "yzou17",
-      "linkedin": "",
+      "wechat": "",
+      "linkedin": "https://www.linkedin.com/in/lucia-z-5687a024b/",
       "xiaohongshu": ""
     }
   ],
@@ -52,7 +52,7 @@
       "state": "",
       "zipCode": ""
     },
-    "penaltyForTermination": "$12,000"
+    "penaltyForTermination": ""
   },
   "marketing": {
     "duration": "",
@@ -70,6 +70,6 @@
     "penaltyForTermination": ""
   },
   "metadata": {
-    "lastUpdated": "2025-03-27"
+    "lastUpdated": "2025-03-28"
   }
 }

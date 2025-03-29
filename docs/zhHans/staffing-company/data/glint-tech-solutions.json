@@ -1,0 +1,82 @@
+{
+  "companyInfo": {
+    "companyName": "Glint Tech Solutions",
+    "foundedYear": "2024 年",
+    "contact": {
+      "phone": "",
+      "email": "info@glinttechsolutions.com",
+      "website": "https://www.glinttechsolutions.com/"
+    },
+    "location": {
+      "addressLine1": "3120 Southwest Fwy Ste 101 PMB 220552",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "Houston",
+      "state": "TX",
+      "zipCode": "77098"
+    },
+    "industry": ["云服务", "大数据", "AI", "机器学习"]
+  },
+  "staffingAgencyPosition": {
+    "jobType": "",
+    "usIdentitySupport": "支持 OPT / STEM OPT / H4，不支持 H1B transfer / CPT/ Day1 CPT",
+    "payStubSupport": "",
+    "recruitmentProcess": ""
+  },
+  "recruiterInformation": [
+    {
+      "name": "Ainsley Li",
+      "email": "",
+      "wechat": "",
+      "linkedin": "https://www.linkedin.com/in/ainsley-li-84b5b9284/",
+      "xiaohongshu": ""
+    },
+    {
+      "name": "Yuni M.",
+      "email": "",
+      "wechat": "",
+      "linkedin": "https://www.linkedin.com/in/yunim00/",
+      "xiaohongshu": ""
+    },
+    {
+      "name": "Peggy L.",
+      "email": "",
+      "wechat": "",
+      "linkedin": "https://www.linkedin.com/in/peggy-l-b9177a283/",
+      "xiaohongshu": ""
+    }
+  ],
+  "training": {
+    "content": "",
+    "duration": "",
+    "cost": "目前没有培训费",
+    "remoteAllowed": "",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": "$5,000"
+  },
+  "marketing": {
+    "duration": "",
+    "preparation": "",
+    "cost": "",
+    "remoteAllowed": "",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-28"
+  }
+}

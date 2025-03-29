@@ -1,0 +1,68 @@
+{
+  "companyInfo": {
+    "companyName": "United Software Corporation",
+    "foundedYear": "",
+    "contact": {
+      "phone": "+1 (844) 77U-NITE",
+      "email": "hr@usc.dev",
+      "website": "https://usc.dev/"
+    },
+    "location": {
+      "addressLine1": "6200 La Calma Dr # 110",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "Austin",
+      "state": "TX",
+      "zipCode": "78752"
+    },
+    "industry": []
+  },
+  "staffingAgencyPosition": {
+    "jobType": "合同工",
+    "usIdentitySupport": "不支持",
+    "payStubSupport": "不支持",
+    "recruitmentProcess": ""
+  },
+  "recruiterInformation": [
+    {
+      "name": "Ella",
+      "email": "ella@usc.dev",
+      "wechat": "USCElla",
+      "linkedin": "",
+      "xiaohongshu": ""
+    }
+  ],
+  "training": {
+    "content": "react",
+    "duration": "8周",
+    "cost": "$10,000",
+    "remoteAllowed": "是",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "marketing": {
+    "duration": "",
+    "preparation": "",
+    "cost": "",
+    "remoteAllowed": "",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "metadata": {
+    "lastUpdated": "2025-03-28"
+  }
+}
