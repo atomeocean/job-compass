@@ -1,66 +1,16 @@
 ---
 title: Glint Tech Solutions
 ---
-# Glint Tech Solutions - GTS
 
-[[toc]]
+# Glint Tech Solutions
 
-### 公司信息
-| 信息类别     | 具体内容                           |
-|----------|--------------------------------|
-| **公司名称** | Glint Tech Solutions           |
-| **成立时间** | 2024 年                         |
-| **公司电话** |                    |
-| **公司邮箱** |         |
-| **公司地址** |                 |
-| **公司官网** |                                |
-| **运输岗位** | 合同工                            |
-| **行业领域** | IT                    |
-| **在美身份支持** |             |
-| **工资单支持** | 不支持                            |
-| **招聘流程** | 简历筛选 → 初步面试 → 客户面试 → 外包员工上岸新公司 |
+## 📌 公司信息
 
-### 人力资源专员 Recruiter/HR
+<StaffingCompanyTable companyJsonFileName="glint-tech-solutions"/>
 
+## 📢 招聘信息
 
-| **名字** | **邮箱** | **微信号** | **领英** | **小红书** |
-|--------|--------|---------|--------|---------|
-| Peggy  |        |         |        |         |
-
-Peggy小红书头像
-![链接](https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo314qgurc30u005pgcbvo2pjmrd9tp8lg?imageView2/2/w/540/format/webp|imageMogr2/strip2){style="width:300px; display:block; margin:auto;"}
-### 上船待遇
-
-#### 人员培训 training
-
-| 信息类别     | 具体内容 |
-|----------|------|
-| **培训内容** |      |
-| **时长**   |      |
-| **收费情况** |      |
-| **可以远程** |      |
-
-#### 外包谈判 marketing
-
-
-| 信息类别     | 具体内容 |
-|----------|------|
-| **持续时长** |      |
-| **预期准备** |      |
-| **收费情况** |      |
-| **可以远程** |      |
-
-### 下船待遇
-
-#### 上岸
-
-#### 主动退出
-
-#### 被动退出
-
-### 航海日志
-
-#### 2024年12月
+### 2024年12月
 
 在小红书发布了HR/Recruiter招聘信息
 
@@ -68,10 +18,12 @@ Peggy小红书头像
 需一些hr和recruiter
 可以配合美国工作时间就可以
 
-#### 2024年10月
+### 2024年10月
 
 在小红书上招hr intern
 
 我们icc在找hr intern啦
 可以cpt/opt
 fully remote 有机会转正哦～ 转正后可以sponsor H1B
+
+## 🚢 航海日志

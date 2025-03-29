@@ -1,40 +1,33 @@
 {
   "companyInfo": {
-    "companyName": "Antra, Inc.",
+    "companyName": "Mercury System, Inc.",
     "foundedYear": "2017 年",
     "contact": {
-      "phone": "",
-      "email": "",
-      "website": "https://antra.com/"
+      "phone": "+1 (609) 243-0230",
+      "email": "jobs@mercurysystemsinc.com",
+      "website": "https://www.mercurysystemsinc.com/"
     },
     "location": {
-      "addressLine1": "21000 Atlantic Blvd",
-      "addressLine2": "STE 300",
+      "addressLine1": "5 Independence Way, Suite 140",
+      "addressLine2": "",
       "county": "",
-      "cityOrTown": "Sterling",
-      "state": "VA",
-      "zipCode": "20166"
+      "cityOrTown": "Princeton",
+      "state": "NJ",
+      "zipCode": "08540"
     },
-    "industry": ["IT", "金融服务", "零售", "社交媒体平台"]
+    "industry": ["金融", "医疗", "教育", "零售", "能源", "物流"]
   },
   "staffingAgencyPosition": {
     "jobType": "合同工",
-    "usIdentitySupport": "支持 OPT / STEM OPT，不支持 H1B transfer",
+    "usIdentitySupport": "Opt / Opt Ext / H1B",
     "payStubSupport": "不支持",
-    "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
+    "recruitmentProcess": ""
   },
   "recruiterInformation": [
     {
-      "name": "Yvette",
-      "email": "yw@antra.com",
-      "wechat": "Yvettemo21",
-      "linkedin": "",
-      "xiaohongshu": ""
-    },
-    {
-      "name": "Molly",
+      "name": "文文",
       "email": "",
-      "wechat": "yzou17",
+      "wechat": "middlesex2014",
       "linkedin": "",
       "xiaohongshu": ""
     }
@@ -42,7 +35,7 @@
   "training": {
     "content": "",
     "duration": "",
-    "cost": "",
+    "cost": "$17,500",
     "remoteAllowed": "",
     "location": {
       "addressLine1": "",
@@ -52,7 +45,7 @@
       "state": "",
       "zipCode": ""
     },
-    "penaltyForTermination": "$12,000"
+    "penaltyForTermination": ""
   },
   "marketing": {
     "duration": "",
@@ -70,6 +63,6 @@
     "penaltyForTermination": ""
   },
   "metadata": {
-    "lastUpdated": "2025-03-27"
+    "lastUpdated": "2025-03-28"
   }
 }

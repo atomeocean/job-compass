@@ -1,34 +1,34 @@
 {
   "companyInfo": {
-    "companyName": "BeaconFire Inc.",
-    "foundedYear": "2022 年",
+    "companyName": "Amaze Systems Inc.",
+    "foundedYear": "2024 年",
     "contact": {
-      "phone": "+1 609-608-6827",
-      "email": "info@beaconfireinc.com",
-      "website": "https://beaconfireinc.com/"
+      "phone": "+1 (669) 289-4383",
+      "email": "info@amaze-systems.com",
+      "website": "https://amaze-systems.com/"
     },
     "location": {
-      "addressLine1": "104 Windsor Center Dr",
-      "addressLine2": "Suite 400",
+      "addressLine1": "8951 Cypress Waters Blvd",
+      "addressLine2": "Suite 160",
       "county": "",
-      "cityOrTown": "East Windsor",
-      "state": "NJ",
-      "zipCode": "08520"
+      "cityOrTown": "Coppell",
+      "state": "TX",
+      "zipCode": "75019"
     },
-    "industry": ["IT", "金融", "制造", "医疗", "保险"]
+    "industry": ["IT外包"]
   },
   "staffingAgencyPosition": {
     "jobType": "合同工",
-    "usIdentitySupport": "支持 OPT / Opt Ext / H1B / CPT",
+    "usIdentitySupport": "",
     "payStubSupport": "不支持",
     "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
   },
   "recruiterInformation": [
     {
-      "name": "Evita",
-      "email": "",
-      "wechat": "BeaconFire_Evita",
-      "linkedin": "",
+      "name": "Payal Chaudhary",
+      "email": "payal.c@amaze-systems.com",
+      "wechat": "",
+      "linkedin": "https://www.linkedin.com/in/payal-chaudhary-2a9529161/",
       "xiaohongshu": ""
     }
   ],
@@ -45,13 +45,13 @@
       "state": "",
       "zipCode": ""
     },
-    "penaltyForTermination": "最多$15,000"
+    "penaltyForTermination": ""
   },
   "marketing": {
-    "duration": "6个月",
+    "duration": "",
     "preparation": "",
-    "cost": "有违约金",
-    "remoteAllowed": "否",
+    "cost": "",
+    "remoteAllowed": "",
     "location": {
       "addressLine1": "",
       "addressLine2": "",
@@ -60,9 +60,9 @@
       "state": "",
       "zipCode": ""
     },
-    "penaltyForTermination": "每个月3000美元，封顶15000美元"
+    "penaltyForTermination": ""
   },
   "metadata": {
-    "lastUpdated": "2025-03-27"
+    "lastUpdated": "2025-03-28"
   }
 }

@@ -1,40 +1,40 @@
 {
   "companyInfo": {
-    "companyName": "Antra, Inc.",
-    "foundedYear": "2017 年",
+    "companyName": "Dream Big Career",
+    "foundedYear": "2024 年",
     "contact": {
-      "phone": "",
-      "email": "",
-      "website": "https://antra.com/"
+      "phone": "+86 400-637-8858",
+      "email": "feedback@dreambigcareer.com",
+      "website": "https://www.dreambigcareer.com/"
     },
     "location": {
-      "addressLine1": "21000 Atlantic Blvd",
-      "addressLine2": "STE 300",
+      "addressLine1": "",
+      "addressLine2": "",
       "county": "",
-      "cityOrTown": "Sterling",
-      "state": "VA",
-      "zipCode": "20166"
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
     },
-    "industry": ["IT", "金融服务", "零售", "社交媒体平台"]
+    "industry": ["求职"]
   },
   "staffingAgencyPosition": {
-    "jobType": "合同工",
-    "usIdentitySupport": "支持 OPT / STEM OPT，不支持 H1B transfer",
-    "payStubSupport": "不支持",
-    "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
+    "jobType": "",
+    "usIdentitySupport": "",
+    "payStubSupport": "",
+    "recruitmentProcess": ""
   },
   "recruiterInformation": [
     {
-      "name": "Yvette",
-      "email": "yw@antra.com",
-      "wechat": "Yvettemo21",
+      "name": "微信小编",
+      "email": "",
+      "wechat": "dreambigcareer93",
       "linkedin": "",
       "xiaohongshu": ""
     },
     {
-      "name": "Molly",
+      "name": "微信公众号",
       "email": "",
-      "wechat": "yzou17",
+      "wechat": "DreambigCareer",
       "linkedin": "",
       "xiaohongshu": ""
     }
@@ -52,7 +52,7 @@
       "state": "",
       "zipCode": ""
     },
-    "penaltyForTermination": "$12,000"
+    "penaltyForTermination": ""
   },
   "marketing": {
     "duration": "",
@@ -70,6 +70,6 @@
     "penaltyForTermination": ""
   },
   "metadata": {
-    "lastUpdated": "2025-03-27"
+    "lastUpdated": "2025-03-28"
   }
 }
