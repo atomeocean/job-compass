@@ -21,6 +21,9 @@ outline: [2,3]
 
 请查看 [直招公司信息指南](https://jobcompass.atomeocean.com/direct-hire-company/company-utils/company-info-guide.html)
 
+## 添加一个劳务派遣公司信息
+
+请查看 [劳务派遣公司信息指南](https://jobcompass.atomeocean.com/staffing-company/company-utils/company-info-guide.html)
 
 ## 其他
 
