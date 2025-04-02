@@ -1,17 +1,10 @@
 name: 申请加入Atomeocean组织
-description: 提交申请加入 Atomeocean GitHub 组织
-assignees: ["k90zz"]
+description: 提交申请加入Atomeocean GitHub组织
+assignees: ["k90zz", "tengtianxiang"]
 body:
   - type: markdown
     attributes:
       value: "请填写以下信息，以便管理员审核你的申请。"
-
-  - type: textarea
-    id: github_email
-    attributes:
-      label: "📧 Github 邮箱"
-      description: "请提供用于登录 GitHub 的邮箱地址。"
-      placeholder: "your-email@example.com"
 
   - type: textarea
     id: github_profile
@@ -19,8 +12,10 @@ body:
       label: "🔗 Github Profile 页面链接"
       description: "复制你的 GitHub 个人页面链接。"
       placeholder: "https://github.com/your-username"
+    validations:
+      required: true
 
-  - type: textarea
+  - type: input
     id: github_username
     attributes:
       label: "GitHub 用户名"
@@ -34,7 +29,16 @@ body:
       description: "如果有任何补充信息或备注，请在此填写。"
       placeholder: "可填写额外信息"
 
+  - type: dropdown
+    id: starred_job_compass
+    attributes:
+      label: Have you already starred the Job Compass repository?
+      description: Please confirm if you starred the Job Compass repo.
+      options:
+        - "Yes, I have starred it"
+        - "No, I haven't starred it yet"
+
   - type: markdown
     attributes:
       value: |
-        提交申请后，管理员会尽快审核，并通过 GitHub 通知你是否被邀请加入。感谢你的申请！
+        提交申请后，管理员会尽快审核，并通过GitHub通知你是否被邀请加入。感谢你的申请！
