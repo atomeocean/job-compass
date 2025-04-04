@@ -1,6 +1,7 @@
 ---
 title: How staffing company works
 description: 劳务派遣公司的运作方式
+lastUpdated: 2025-04-04
 ---
 # Staffing Company劳务派遣公司的运作方式
 
@@ -25,7 +26,7 @@ stateDiagram
 
 ## C2C 例子
 
-> [!NOTE] 警惕下面的例子
+> [!CAUTION] 警惕下面的例子
 > 原笔记已经在小某书上被封，说明触犯了某些法律法规，大家可以参考一下，看看哪些地方不对劲
 
 首先介绍一下一个新的模式：C2C，也叫 corp to corp，可以理解为：你的公司（简称 S），与 staffing 公司，比如我们（简称 A），以及雇员，也就是你自己，签订三方合同📖，S 公司出一笔钱 💰，而你的 sponsor/保险/401k/PTO 等 package，由 A 公司来负责，也可以理解为，你是 A 公司派到 S 公司的 consultant 😄，S 公司付钱，A 公司出人！
