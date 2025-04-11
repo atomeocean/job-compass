@@ -72,8 +72,8 @@ title: 直招公司信息文档指南
 
 1. 回到公司所在城市文件夹，创建一个与第 4️⃣ 步同名的 Markdown 文件，例如 `amazon.md`
 2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/direct-hire-company/company-utils/company-info-template.md?plain=1) 中的内容复制到该文件中
-3. 将文件中的 `title` 替换为实际公司名称
-4. 将第五行中的 `[公司名称]` 替换为实际公司名称
+3. 将第 2 行的 `title` 值替换为实际公司名称
+4. 将第 5 行中的 `[公司名称]` 替换为实际公司名称
 5. 找到第 7 行的 DirectHireCompanyTable 组件，将其中的 `state` 、 `city` 和 `companyJsonFileName` 值替换为实际值：
     - state：州文件夹名称
     - city：城市文件夹名称
