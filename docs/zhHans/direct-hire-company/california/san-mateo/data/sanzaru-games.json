@@ -1,0 +1,33 @@
+{
+    "companyInfo": {
+        "companyName": "Sanzaru Games, Inc.",
+        "location": {
+            "addressLine1": "1065 E Hillsdale Blvd,",
+            "addressLine2": "",
+            "county": "",
+            "cityOrTown": "Foster",
+            "state": "CA",
+            "zipCode": "94404-1689"
+        },
+        "contact": {
+            "phone": "+1 650-312-8070",
+            "email": "info@sanzaru.com",
+            "website": "https://sanzaru.com/",
+            "linkedin": "https://www.linkedin.com/company/sanzaru-games/"
+        },
+        "industry": [ "视频游戏开发", "虚拟现实游戏" ],
+        "foundedYear": "2007",
+        "description": "该公司专注于开发沉浸式虚拟现实（VR）游戏。",
+        "mainProductsOrServices": [
+            "Asgard's Wrath Series",
+            "Marvel Powers United VR",
+            "Sonic Boom: Fire & Ice",
+            "Ripcoil",
+            "TRON RUN/r"
+        ],
+        "companySize": "约 200 名员工"
+    },
+  "metadata": {
+    "lastUpdated": "2025-04-11"
+  }
+}
