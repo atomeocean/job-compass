@@ -2,7 +2,7 @@
 title: Onsemi
 ---
 
-# 直招公司
+# ON Semiconductor Corporation
 
 ## 📌 公司信息
 
