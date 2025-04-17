@@ -1,0 +1,25 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Software Engineer",
+  "jobLocation": [Seattle, WA],
+  "jobType": "Full Time",
+  "jobResponsibilities": [- Develop and optimize software for custom hardware and ML infrastructure
+- Collaborate with hardware teams to understand and leverage chip architecture
+- Implement and improve networking, runtime, and system-level software
+- Assist in building and maintaining tools for profiling, monitoring, and debugging ML workloads
+- Contribute to the development of open-source ML frameworks and infrastructure projects
+- Participate in code reviews and implement best practices for software development
+- Learn and apply new technologies to solve complex engineering challenges],
+  "candidateQualifications": {
+    "basicQualifications": [- To qualify, applicants should have earned (or expect to earn) a Bachelor’s or Master’s degree between December 2022 to September 2025.
+- Strong programming skills in C/C++ or Python, with solid understanding of data structures and algorithms
+- Understanding of computer architecture, operating systems, and Linux environments
+- Internship or project experience related to systems programming, networking, or ML],
+    "preferredQualifications": [- Familiarity with version control systems (e.g., Git) and software development methodologies
+- Knowledge of ML concepts or frameworks (e.g., PyTorch, TensorFlow)
+- Interest in open-source development or contributions to technical communities]
+  },
+  "salary": [$99,500/year to $200,000/year],
+  "benefits": [],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2956020/sde-i-systems-runtime-and-ml-infrastructure-aws-custom-silicon-annapurna-labs"
+}
