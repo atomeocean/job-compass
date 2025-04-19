@@ -78,7 +78,10 @@ lastUpdated: 2025-04-19
     - 模板中的路径格式为：`公司文件夹名/data/职位信息json文件名`
     - 将 `公司文件夹名` 替换为实际的公司名
     - 将 `职位信息json文件名` 替换为第 5️⃣ 步所创建的Json文件名
-    - 例如 `meta/data/software-engineer-20250313.json`
+    - 例如 `meta/data/software-engineer-20250313.json`，公司文件名需要小写
+
+> [!TIP] 小写路径
+> 在job compass项目中和路径相关的变量均为全小写字母，用连字符`-`连接。
 
 ## 8️⃣ 提交 PR
 
