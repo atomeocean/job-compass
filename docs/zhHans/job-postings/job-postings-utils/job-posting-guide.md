@@ -1,5 +1,7 @@
 ---
 title: 招聘信息文档指南
+outline: deep
+lastUpdated: 2025-04-19
 ---
 
 # 📖 Job Posting 使用指南
@@ -20,17 +22,17 @@ title: 招聘信息文档指南
 
 ## 3️⃣ 创建新公司文件夹
 
-1. 如果招聘信息中的公司名称未出现在 `docs/zhHans/job-postings` 目录中，请在目录下创建一个新文件夹，命名为公司全称（避免使用缩写）
+1. 如果招聘信息中的公司名称未出现在 `docs/zhHans/job-postings` 目录中，请在目录下创建一个新文件夹，命名为公司全称（不要使用缩写）
 2. 在公司文件夹下创建一个名为`index.md`的文件，并将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/index.md?plain=1) 中的内容复制到该文件中
-3. 将其中的title值 (模版中为`招聘信息辅助文档`) 改为你所找到的公司名称
-4. 在公司文件夹下创建一个名为 `data` 的子文件夹
+3. 将其中的title值 (模版中为`招聘信息辅助文档`) 改为你所找到的公司名称，例如`Amazon`或`Cloudflare`
+4. 在公司文件夹下创建一个名为`data`的子文件夹
 5. 完成以上步骤后，继续后续操作
 
 ## 4️⃣ 检查该职位是否已存在
 
 进入公司名称文件夹，检查所找到的招聘信息是否已存在。
 
-该公司的招聘数据存放在 `data` 文件夹中，每个 JSON 文件对应一个招聘信息。可以通过 **对比招聘链接** 来确认是否重复：
+该公司的招聘数据存放在 `data` 文件夹中，每个 JSON 文件对应一个招聘信息。可以通过**对比招聘链接**来确认是否重复：
 
 - **如果已存在相同职位**，无需重复添加。
 - **如果职位信息不存在**，继续下一步。
@@ -72,11 +74,11 @@ title: 招聘信息文档指南
 2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/job-posting-template.md?plain=1) 中的内容复制到该文件中
 3. 将文件第 2 行中的 `title` 值替换为文件名（用空格替换连字符），例如：`software engineer 20250102`
 4. 将文件第 6 行中的 `[公司名称]` 替换为实际公司名称，例如 `Amazon 招聘信息`
-5. 找到第 8 行的 JobPostingTable 组件，将其中的 `job-posting-json-path` 值替换为实际 JSON 文件的路径
+5. 找到第 8 行的 **JobPostingTable** 组件，将其中的 `job-posting-json-path` 参数替换为实际 JSON 文件的路径
     - 模板中的路径格式为：`公司文件夹名/data/职位信息json文件名`
     - 将 `公司文件夹名` 替换为实际的公司名
     - 将 `职位信息json文件名` 替换为第 5️⃣ 步所创建的Json文件名
-    - 例如 `Meta/data/software-engineer-20250313`
+    - 例如 `meta/data/software-engineer-20250313.json`
 
 ## 8️⃣ 提交 PR
 
