@@ -15,7 +15,7 @@ outline: [2,3]
 
 ## 添加一个职位招聘信息
 
-请查看 [职位招聘信息指南](https://jobcompass.atomeocean.com/job-postings/job-postings-utils/job-posting-guide.html) 
+请查看 [职位招聘信息指南](/job-postings/job-postings-utils/job-posting-guide.html) 
 
 ## 添加一个直招公司信息
 

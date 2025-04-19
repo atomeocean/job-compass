@@ -50,7 +50,7 @@ lastUpdated: 2025-04-19
 
 ## 6️⃣ 填充招聘信息
 
-1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/job-posting-template.json) 中的内容复制到第 5️⃣ 步中创建的文件中
+1. 将 [模版文件的一键快速复制](toturial-json-template.md#一键快速复制) 中的内容复制到第 5️⃣ 步中创建的文件中
 2. 根据找到的招聘内容填充这个模版：
     - **companyName：** 公司名称
     - **jobTitle：** 职位名称
