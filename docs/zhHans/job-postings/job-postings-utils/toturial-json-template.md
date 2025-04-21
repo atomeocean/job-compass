@@ -55,28 +55,28 @@ lastUpdated: 2025-04-19
   "jobLocation": ["New York", "Remote"],
   "jobType": "Full time",
   "jobResponsibilities": [
-    "Design and implement scalable data pipelines.",
-    "Collaborate with data scientists to build reliable data models.",
-    "Optimize data access and transformation workflows."
+    "设计和实施可扩展的数据管道",
+    "与数据科学家合作构建可靠的数据模型",
+    "优化数据访问和转换工作流程"
   ],
   "candidateQualifications": {
     "basicQualifications": [
-      "Bachelor's degree in Computer Science, Engineering, or related field.",
-      "3+ years experience with SQL and data modeling.",
-      "Proficiency in at least one programming language such as Python or Java."
+      "计算机科学、工程或相关领域的学士学位",
+      "3年以上SQL和数据建模经验",
+      "熟练掌握至少一门编程语言（如Python或Java）"
     ],
     "preferredQualifications": [
-      "Master’s degree in a quantitative field.",
-      "Experience with AWS services (e.g., Redshift, S3, EMR).",
-      "Familiarity with big data tools like Spark or Hadoop."
+      "定量领域的硕士学位",
+      "具有AWS服务使用经验（如Redshift、S3、EMR）",
+      "熟悉Spark或Hadoop等大数据工具"
     ]
   },
   "salary": ["$110,000 - $140,000/year"],
   "benefits": [
-    "Comprehensive health insurance",
-    "401(k) with company match",
-    "Stock options",
-    "Flexible working hours"
+    "综合健康保险",
+    "公司匹配的401(k)退休计划",
+    "股票期权",
+    "弹性工作时间"
   ],
   "jobLink": "https://www.amazon.jobs/en/jobs/1234567/data-engineer"
 }
