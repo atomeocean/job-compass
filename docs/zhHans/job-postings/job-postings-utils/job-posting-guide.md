@@ -2,9 +2,10 @@
 title: 招聘信息文档指南
 outline: deep
 lastUpdated: 2025-04-19
+description: 在job compass发布招聘信息的流程
 ---
 
-# 📖 Job Posting 使用指南
+# Job Posting 使用指南
 
 > [!NOTE] 本文用途
 > 本文介绍如何按照流程添加一篇招聘信息文档，以便在Job Compass网站上展示相关职位信息。
@@ -22,7 +23,7 @@ lastUpdated: 2025-04-19
 
 ## 3️⃣ 创建新公司文件夹
 
-1. 如果招聘信息中的公司名称未出现在 `docs/zhHans/job-postings` 目录中，请在目录下创建一个新文件夹，命名为公司全称（不要使用缩写）
+1. 如果招聘信息中的公司名称未出现在 `docs/zhHans/job-postings` 目录中，请在目录下创建一个新文件夹，命名为公司全称（不要使用缩写）比如Bloomberg，而不是BB。
 2. 在公司文件夹下创建一个名为`index.md`的文件，并将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/index.md?plain=1) 中的内容复制到该文件中
 3. 将其中的title值 (模版中为`招聘信息辅助文档`) 改为你所找到的公司名称，例如`Amazon`或`Cloudflare`
 4. 在公司文件夹下创建一个名为`data`的子文件夹
