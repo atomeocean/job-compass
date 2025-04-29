@@ -24,6 +24,9 @@ hero:
 features:
   - title: 上岸
     details: 一步到位，入职直接效力新公司，开始新生活 Cheers!
+    link: /direct-hire-company/overview
+    linkText: 查看哪些公司在招人
+    rel: noreferrer
   - title: 上船
     details: 进入中介公司，继续努力寻找新公司上岸 Bon Voyage！
 ---
