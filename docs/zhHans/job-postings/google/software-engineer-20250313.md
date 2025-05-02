@@ -5,4 +5,4 @@ expired: false
 
 # 📌 招聘信息
 
-<JobPostingTable job-posting-json-path="Google/data/software-engineer-20250313" />
+<JobPostingTable job-posting-json-path="google/data/software-engineer-20250313" />
