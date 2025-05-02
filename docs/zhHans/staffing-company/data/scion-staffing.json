@@ -1,0 +1,68 @@
+{
+    "companyInfo": {
+        "companyName": "Scion Staffing",
+        "foundedYear": "2006",
+        "contact": {
+            "phone": "+1 (888) 487-8850",
+            "email": "info@scionstaffing.com",
+            "website": "scionstaffing.com"
+        },
+        "location": {
+            "addressLine1": "95 Third Street, 2nd Floor",
+            "addressLine2": "",
+            "county": "",
+            "cityOrTown": "San Francisco",
+            "state": "CA",
+            "zipCode": "94103"
+        },
+        "industry": [ "行政", "财务", "运营", "高管", "信息技术", "创意类", "市场营销", "公共关系", "人力资源", "多元、公平与包容", "销售", "工程"]
+    },
+    "staffingAgencyPosition": {
+        "jobType": "合同工",
+        "usIdentitySupport": "不支持",
+        "payStubSupport": "不支持",
+        "recruitmentProcess": "简历筛选 → 初步面试 → 员工培训 → 客户面试 → 外包员工上岸新公司"
+    },
+  "recruiterInformation": [
+    {
+        "name": "Lukas Allen",
+        "email": "",
+        "wechat": "",
+        "linkedin": "https://www.linkedin.com/in/lukas-allen-316130195/",
+        "xiaohongshu": ""
+    }
+  ],
+  "training": {
+    "content": "",
+    "duration": "",
+    "cost": "",
+    "remoteAllowed": "是",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "marketing": {
+    "duration": "",
+    "preparation": "",
+    "cost": "",
+    "remoteAllowed": "",
+    "location": {
+      "addressLine1": "",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "",
+      "state": "",
+      "zipCode": ""
+    },
+    "penaltyForTermination": ""
+  },
+  "metadata": {
+    "lastUpdated": "2025-04-30"
+  }
+}
