@@ -1,0 +1,35 @@
+{
+  "companyName": "Apple",
+  "jobTitle": "Windows Application Developer – Apple TV App",
+  "jobLocation": ["Seattle, Washington, United States"],
+  "jobType": "Full time",
+  "jobResponsibilities": [
+    "开发并部署创新功能，深度整合系统工具（如小组件、Siri、Spotlight搜索、tvOS Top Shelf内容栏）",
+    "与顶尖工程师团队协作，参与用户界面设计与优化，提升应用性能，实现流畅系统集成",
+    "推动技术演进，通过平衡多项目交付与创新实践，直接影响应用程序和底层框架的迭代升级",
+    "技术生态建设，在快速迭代的协作环境中践行开发最佳实践，塑造跨平台应用新标杆"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "2年以上Windows桌面应用程序开发经验",
+      "精通并发、多线程及事件驱动编程原理",
+      "需具备计算机科学、计算机工程、电气工程等相关技术领域的学士学位，或具备同等专业经验"
+    ],
+    "preferredQualifications": [
+      "熟悉 Windows 操作系统及其 API 接口",
+      "具备 WinUI、XAML 或类似用户界面开发框架使用经验",
+      "精通 C++、C# 或 .NET 等编程语言，熟悉 JavaScript 或 TypeScript 者更佳"
+    ]
+  },
+  "salary": ["该职位的基本工资范围为135,400美元至250,600美元，基本工资将根据技能、资历、经验及工作地点等因素确定。"],
+  "benefits": [
+    "酌情授予的限制性股票单位奖励",
+    "全面的医疗和牙科保险",
+    "退休福利",
+    "一系列折扣产品和免费服务",
+    "在苹果职业发展相关的正规教育",
+    "报销特定教育费用——包括学费",
+    "酌情发放的奖金或佣金以及搬迁补助"
+  ],
+  "jobLink": "https://jobs.apple.com/en-us/details/200600910/windows-application-developer-apple-tv-app?team=SFTWR"
+}
