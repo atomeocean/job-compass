@@ -13,17 +13,20 @@ outline: [2,3]
 
 将Github账号加入到[atomeocean组织](https://github.com/atomeocean)
 
-## 添加一个职位招聘信息
+## 主要任务
 
-请查看 [职位招聘信息指南](/job-postings/job-postings-utils/job-posting-guide.html) 
+您可从以下三项任务中任选其一开始：
 
-## 添加一个直招公司信息
+### 添加一个职位招聘信息
 
+请查看 [职位招聘信息指南](/job-postings/job-postings-utils/job-posting-guide) 
+
+### 添加一个直招公司信息
 请查看 [直招公司信息指南](/direct-hire-company/company-utils/company-info-guide.md)
 
-## 添加一个劳务派遣公司信息
+### 添加一个劳务派遣公司信息
 
-请查看 [劳务派遣公司信息指南](https://jobcompass.atomeocean.com/staffing-company/company-utils/company-info-guide.html)
+请查看 [劳务派遣公司信息指南](/staffing-company/company-utils/company-info-guide)
 
 ## 其他
 
