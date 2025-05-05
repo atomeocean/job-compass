@@ -11,7 +11,7 @@ outline: [2,3]
 
 ## 2️⃣ 检查仓库中是否已有该公司所在州的文件夹
 
-前往 [direct-hire-company 目录](https://github.com/atomeocean/job-compass/tree/main/docs/zhHans/direct-hire-company)，查看是否已存在该公司所在州的文件夹。
+查看侧边栏[上岸目录](/direct-hire-company/overview.md)，查看是否已存在该公司所在州的文件夹。
 
 - **如果已存在**，直接跳到第 3️⃣ 步。
 - **如果不存在**，需要创建所在州的文件目录
