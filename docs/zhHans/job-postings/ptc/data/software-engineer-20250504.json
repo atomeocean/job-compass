@@ -1,0 +1,30 @@
+{
+  "companyName": "PTC Inc.",
+  "jobTitle": "Software Engineer",
+  "jobLocation": ["Portland, ME"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "开发新功能，主导基于 C++/C# 技术栈的代码库开发，兼顾前端 JavaScript 代码维护",
+    "参与技术决策，在 SCRUM 敏捷团队中参与技术架构与战略方向制定",
+    "推动跨团队协作，协同推进部门级研发加速目标落地",
+    "持续发掘并应用新技术与工具提升研发效能"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学、计算机工程、电气工程或相关STEM领域学士学位",
+      "2年以上专业软件开发经验",
+      "至少掌握一门强类型面向对象语言（C++/C#优先）",
+      "熟悉前端JavaScript框架（如React或Angular）",
+      "具备使用CSS实现网页界面布局的经验"
+    ],
+    "preferredQualifications": [
+      "大型代码库开发，完成软件模块的设计、编写及迭代维护",
+      "深入理解现代软件开发原则与方法论",
+      "熟悉Windows/Linux开发流程与环境配置",
+      "能够分析含应用软件、第三方库、操作系统及网络层的复合系统，并精准定位复杂技术问题的根源"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://ptc.eightfold.ai/careers?pid=137466958710&domain=ptc.com&sort_by=relevance"
+}
