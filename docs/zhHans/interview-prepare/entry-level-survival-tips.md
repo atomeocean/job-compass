@@ -3,7 +3,11 @@ title: 新职场人的生存技巧指南
 ---
 # 新职场人的生存技巧指南
 
-<span><div class="RichContent-inner"><div class="css-376mun"><span class="RichText ztext CopyrightRichText-richText css-1yl6ec1" options="[object Object]" itemprop="text">
+<div class="RichContent-inner">
+
+<div class="css-376mun">
+
+<span class="RichText ztext CopyrightRichText-richText css-1yl6ec1" options="[object Object]" itemprop="text">
 
 <p data-first-child="" data-pid="c6G8GxNi">不要担心小伙子，要刚一点</p>
 
@@ -23,7 +27,7 @@ title: 新职场人的生存技巧指南
 
 <p data-pid="IDVfpPY1">有工具不会用，问工具方。你做的这烂玩意，老子不会用，你就负责给老子讲明白了。</p>
 
-<p data-pid="AUzdHQkj">有平台不明白，问平台侧。你做的这烂平台，不够人性化。开箱即用，我就认可你是<span><a class="RichContent-EntityWord css-b7erz1" data-za-not-track-link="true" data-paste-text="true" href="https://zhida.zhihu.com/search?content_id=482362864&amp;content_type=Answer&amp;match_order=1&amp;q=ToB&amp;zhida_source=entity" target="_blank">ToB<svg width="10px" height="10px" viewBox="0 0 16 16" class="ZDI ZDI--FourPointedStar16 css-1dvsrp" fill="currentColor"><path d="m5.068 9.267-3.08-.77a.512.512 0 0 1 0-.994l3.08-.77a2.289 2.289 0 0 0 1.665-1.665l.77-3.08a.512.512 0 0 1 .994 0l.77 3.08c.205.82.845 1.46 1.665 1.665l3.08.77a.512.512 0 0 1 0 .994l-3.08.77a2.29 2.29 0 0 0-1.665 1.665l-.77 3.08a.512.512 0 0 1-.994 0l-.77-3.08a2.289 2.289 0 0 0-1.665-1.665Z"></path></svg></a></span>；功能混乱，不好意思，我当你是 two B</p>
+<p data-pid="AUzdHQkj">有平台不明白，问平台侧。你做的这烂平台，不够人性化。开箱即用，我就认可你是ToB；功能混乱，不好意思，我当你是 two B</p>
 
 <p data-pid="_1rGYcbL">有框架不明白，问<span><a class="RichContent-EntityWord css-b7erz1" data-za-not-track-link="true" data-paste-text="true" href="https://zhida.zhihu.com/search?content_id=482362864&amp;content_type=Answer&amp;match_order=1&amp;q=%E4%B8%AD%E5%8F%B0&amp;zhida_source=entity" target="_blank">中台<svg width="10px" height="10px" viewBox="0 0 16 16" class="ZDI ZDI--FourPointedStar16 css-1dvsrp" fill="currentColor"><path d="m5.068 9.267-3.08-.77a.512.512 0 0 1 0-.994l3.08-.77a2.289 2.289 0 0 0 1.665-1.665l.77-3.08a.512.512 0 0 1 .994 0l.77 3.08c.205.82.845 1.46 1.665 1.665l3.08.77a.512.512 0 0 1 0 .994l-3.08.77a2.29 2.29 0 0 0-1.665 1.665l-.77 3.08a.512.512 0 0 1-.994 0l-.77-3.08a2.289 2.289 0 0 0-1.665-1.665Z"></path></svg></a></span>。你设计的烂玩意，耦合性太高，功能复杂，那你就给我给我讲，讲到我明白。</p><p data-pid="klH58yFL">只要你最后把事做好了，项目没搞延期了，就是好</p>
 
@@ -41,7 +45,9 @@ title: 新职场人的生存技巧指南
 
 <p data-pid="7uESwDXY">4. 看不明白的技术，直接问</p>
 
-<p data-pid="hyzvuILr">你写的这辣鸡技术分享/技术文章，老子没看明白，找作者，给老子讲讲，谁叫你图省事没写明白呢</p><p data-pid="UQ391BeU">想要赞吗？想要收藏吗？想上公司内网热推吗？那你就给老子讲明白了</p><hr>
+<p data-pid="hyzvuILr">你写的这辣鸡技术分享/技术文章，老子没看明白，找作者，给老子讲讲，谁叫你图省事没写明白呢</p><p data-pid="UQ391BeU">想要赞吗？想要收藏吗？想上公司内网热推吗？那你就给老子讲明白了</p>
+
+<hr>
 
 <p data-pid="gCnwESaP">woc，你把老子招进来了，老子就跟着你混了</p>
 
@@ -131,6 +137,7 @@ title: 新职场人的生存技巧指南
 
 <p data-pid="meA6vqxt">好好干吧</p>
 
-</span></div></div></span>
+</span>
+</div></div>
 
 引用来源: https://www.zhihu.com/question/374793759/answer/2487534325
