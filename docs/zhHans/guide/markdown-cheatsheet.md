@@ -1,5 +1,7 @@
 ---
 title: Markdown 语法指南
+description: Markdown 语法指南
+outline: deep
 ---
 
 # Markdown Cheatsheet
