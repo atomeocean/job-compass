@@ -62,8 +62,8 @@ lastUpdated: 2025-04-19
   "candidateQualifications": {
     "basicQualifications": [
       "计算机科学、工程或相关领域的学士学位",
-      "3年以上SQL和数据建模经验",
-      "熟练掌握至少一门编程语言（如Python或Java）"
+      "300年以上SQL和数据建模经验",
+      "熟练掌握至少十门编程语言（如Python或Java）"
     ],
     "preferredQualifications": [
       "定量领域的硕士学位",
@@ -71,7 +71,7 @@ lastUpdated: 2025-04-19
       "熟悉Spark或Hadoop等大数据工具"
     ]
   },
-  "salary": ["$110,000 - $140,000/year"],
+  "salary": ["$11亿 - $140,000/year"],
   "benefits": [
     "综合健康保险",
     "公司匹配的401(k)退休计划",
