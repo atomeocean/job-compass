@@ -68,7 +68,7 @@ docs/
     - 文件名称最后加上日期作为区分
     - 使用连字符`-`连接
     - 例如：`software-engineer-20250102.json`。
-    - 发现同日同岗重名则提示并追加 -1、-2，例如`software-engineer-20250102-1.json`，`software-engineer-20250102-2.json`
+    - 发现同日同岗重名则提示并追加递增序号 -1、-2，例如`software-engineer-20250102-1.json`，`software-engineer-20250102-2.json`
 
 示例在公司文件夹下新建
 ```text
