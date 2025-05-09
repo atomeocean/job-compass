@@ -26,7 +26,7 @@ outline: [2,3]
 
 ### 添加一个劳务派遣公司信息
 
-请查看 [劳务派遣公司信息指南](/staffing-company/company-utils/company-info-guide)
+请查看 [劳务派遣公司信息指南](/guide/company-utils/company-info-guide)
 
 ## 其他
 
