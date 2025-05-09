@@ -119,7 +119,7 @@ title: 新职场人的生存技巧指南
 
 <p data-pid="VwAkJsIL">真的就，什么都不用怕</p>
 
-<p data-pid="lT7FtYBy">放肆的野蛮生长吧</p><p data-pid="W_embNv2">这事就像谈恋爱，它是有<span><a class="RichContent-EntityWord css-b7erz1" data-za-not-track-link="true" data-paste-text="true" href="https://zhida.zhihu.com/search?content_id=482362864&amp;content_type=Answer&amp;match_order=1&amp;q=%E6%B2%89%E6%B2%A1%E6%88%90%E6%9C%AC&amp;zhida_source=entity" target="_blank">沉没成本<svg width="10px" height="10px" viewBox="0 0 16 16" class="ZDI ZDI--FourPointedStar16 css-1dvsrp" fill="currentColor"><path d="m5.068 9.267-3.08-.77a.512.512 0 0 1 0-.994l3.08-.77a2.289 2.289 0 0 0 1.665-1.665l.77-3.08a.512.512 0 0 1 .994 0l.77 3.08c.205.82.845 1.46 1.665 1.665l3.08.77a.512.512 0 0 1 0 .994l-3.08.77a2.29 2.29 0 0 0-1.665 1.665l-.77 3.08a.512.512 0 0 1-.994 0l-.77-3.08a2.289 2.289 0 0 0-1.665-1.665Z"></path></svg></a></span>在里面的</p><ul><li data-pid="qwAmWWA8">你怀念的不是你前女友，而是惦记她为什么不把你送她的金镯子还给你，不是么</li><li data-pid="kvrI3ckz">你怀念的也不是你前男友，而是后悔为什么没让他给你多买几个金镯子，不是么</li></ul>
+<p data-pid="lT7FtYBy">放肆的野蛮生长吧</p><p data-pid="W_embNv2">这事就像谈恋爱，它是有沉没成本在里面的</p><ul><li data-pid="qwAmWWA8">你怀念的不是你前女友，而是惦记她为什么不把你送她的金镯子还给你，不是么</li><li data-pid="kvrI3ckz">你怀念的也不是你前男友，而是后悔为什么没让他给你多买几个金镯子，不是么</li></ul>
 
 <p data-pid="QyE9GEKG">所以，既然你已经来了，不如就让他多花点成本培养培养你，这样即使被裁了，也不亏，不是么</p>
 
