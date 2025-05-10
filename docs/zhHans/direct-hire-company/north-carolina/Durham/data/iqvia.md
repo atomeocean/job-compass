@@ -2,7 +2,7 @@
 title: IQVIA
 ---
 
-# [IQVIA]
+# IQVIA
 
 ## 📌 公司信息
 
