@@ -29,6 +29,9 @@ features:
     rel: noreferrer
   - title: 上船
     details: 进入中介公司，继续努力寻找新公司上岸 Bon Voyage！
+    link: /staffing-company/company-utils/company-info-guide
+    linkText: 查看哪些公司是中介公司
+    rel: noreferrer
 ---
 
 ## Job Compass：一个开放的求职者社区
