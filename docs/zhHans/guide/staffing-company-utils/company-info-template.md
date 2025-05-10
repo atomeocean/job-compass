@@ -2,9 +2,9 @@
 title: 劳务派遣公司信息文档模版
 ---
 
-# [公司名称]
+# {{公司名称}}
 
-## 📌 公司信息
+## 公司信息
 
 <StaffingCompanyTable companyJsonFileName="公司名"/>
 
