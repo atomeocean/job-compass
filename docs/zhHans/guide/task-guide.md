@@ -22,7 +22,7 @@ outline: [2,3]
 请查看 [职位招聘信息指南](/job-postings/job-postings-utils/job-posting-guide) 
 
 ### 添加一个直招公司信息
-请查看 [直招公司信息指南](/direct-hire-company/company-utils/company-info-guide.md)
+请查看 [直招公司信息指南](/guide/company-utils/company-info-guide.md)
 
 ### 添加一个劳务派遣公司信息
 
