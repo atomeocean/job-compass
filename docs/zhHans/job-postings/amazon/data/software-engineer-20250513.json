@@ -1,0 +1,16 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Software Engineer",
+  "jobLocation": [San Francisco],
+  "jobType": "Full Time",
+  "jobResponsibilities": [Design, build, and deploy reliable and performant services to protect Twitch and its users from abusive behavior such as harassment, spam, and violent or illegal content,
+  Collaborate with Community Health’s science and product management team to productionize and scale models into ML-based services to be used across Twitch, Design and build performant and reliable systems that handle multiple types of data, such as user behavior, metadata, and user generated content at scale for model development, Deliver high-quality code, tests, and documentation
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [Bachelor's degree in Computer Science or related field or equivalent industry experience as a Software Engineer],
+    "preferredQualifications": [Familiarity with machine learning techniques, Experience writing Go in production systems]
+  },
+  "salary": [99,500/year to $200,000/year],
+  "benefits": [Medical, Dental, Vision & Disability Insurance, 401(k), Maternity & Parental Leave, Flexible PTO],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2943365/software-engineer"
+}
