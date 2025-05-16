@@ -32,6 +32,11 @@ features:
     link: /staffing-company/company-utils/company-info-guide
     linkText: 查看哪些公司是中介公司
     rel: noreferrer
+  - title: 面试准备
+    details: 关于面试的准备工作，面试前的准备和面试后的跟进
+    link: /interview-prepare/recruiter-call-step
+    linkText: 面试准备
+    rel: noreferrer
 ---
 
 ## Job Compass：一个开放的求职者社区
