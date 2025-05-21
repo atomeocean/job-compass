@@ -15,6 +15,8 @@ hero:
     - theme: alt
       text: Direct Hire
       link: /en/direct-hire-company/amazon-inc.md
+      linkText: See which companies are hiring
+      rel: noreferrer
     - theme: alt
       text: Staffing Companies
       link: /staffing-company/overview.md
