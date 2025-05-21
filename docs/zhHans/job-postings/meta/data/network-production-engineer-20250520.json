@@ -1,0 +1,41 @@
+{
+    "companyName": "Meta",
+    "jobTitle": "Network Production Engineer, Infrastructure",
+    "jobLocation": [
+        "London, UK",
+        "Dublin, Ireland"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "通过第一年的轮岗经历积累骨干、数据中心和网络基础设施工程团队的经验",
+        "构建、管理和维护多供应商、多协议数据中心和骨干网络",
+        "开发优化的网络监控系统",
+        "设计和部署新的网络架构",
+        "开发自动化方法来缓解和修复网络事件",
+        "分析数据以诊断和识别网络问题的根本原因",
+        "积极参与深入的技术讨论",
+        "开发并维护网络基础设施的一致性"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "已获得或正在攻读计算机科学、计算机工程或相关技术领域的学士学位，或具备同等实践经验。加入 Meta 前必须完成学位。",
+            "具有计算机网络经验",
+            "具有 UNIX、TCP/IP、网络基础或类似技术经验",
+            "具有至少一种语言的编码经验（Python/Golang/Rust/C++ 均可使用）",
+            "体验学习有关网络设计和管理的新概念",
+            "受雇时必须获得工作所在国的工作许可，并在受雇期间保持持续的工作许可"
+        ],
+        "preferredQualifications": [
+            "交换和路由概念及实施知识",
+            "了解路由协议 BGP、OSPF 和 ISIS",
+            "了解隧道协议 MPLS、GRE、IPnIP"
+        ]
+    },
+    "salary": [
+        "$117,000 / 年 - $137,000 / 年",
+        "bonus",
+        "equity"
+    ],
+    "benefits": [],
+    "jobLink": "https://www.metacareers.com/jobs/3698775730387685/"
+}
