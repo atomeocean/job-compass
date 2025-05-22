@@ -12,12 +12,14 @@ title: Scion Staffing
 ### 2025年4月
 
 在其官方网站上发布了招募信息岗位是远程网络工程师
+
 - 经验要求：5年以上在多样化环境中的网络工程实践经验。
 - 技术专长：精通Cisco IOS，熟悉Juniper、Palo Alto和Fortinet技术。
 - 网络协议：深入了解OSPF、BGP、VLAN、无线网络和SD-WAN优化。
 - 安全经验：具备网络安全、防火墙配置和基础设施加固的实际经验。
 - 云和自动化：熟悉AWS、Azure或GCP的云网络，以及Python或Ansible等自动化工具。
 - 认证：持有CCNP、JNCIP或同等认证者优先
+
 申请链接：https://scionstaffing.com/job/12923/?jobTitle=remote-network-engineer-santa-clarita-ca
 
 ## 🚢 航海日志

@@ -1,0 +1,27 @@
+{
+  "companyInfo": {
+    "companyName": "Mapbox",
+    "location": {
+      "addressLine1": "750 15th St NW",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "Washington",
+      "state": "DC",
+      "zipCode": "20005"
+    },
+    "contact": {
+      "phone": "(202) 250-3633",
+      "email": "info@mapbox.com",
+      "website": "https://www.mapbox.com",
+      "linkedin": "https://www.linkedin.com/company/mapbox"
+    },
+    "industry": ["地理空间技术", "软件开发", "地图服务"],
+    "foundedYear": "2010",
+    "description": "Mapbox 是领先的地理位置数据和地图技术提供商，为开发者提供构建定制地图和地理空间应用的工具。其平台为全球企业提供导航、物流和可视化解决方案，利用实时更新的动态地图。",
+    "mainProductsOrServices": ["Mapbox Studio", "Mapbox 导航 SDK", "Mapbox 地图 SDK", "Mapbox 视觉 SDK", "地理空间数据 API"],
+    "companySize": "500-1000名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-05-13"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "2025 Software Development Engineer Intern",
+  "jobLocation": [
+    "usa, va, arlington",
+    "usa, va, herndon"
+  ],
+  "jobType": "实习",
+  "jobResponsibilities": [
+    "与经验丰富的跨职能团队合作，构思、设计并推向市场创新的产品和服务",
+    "在大型分布式计算环境中设计和构建创新技术，推动行业的根本性变革",
+    "创建解决方案，在分布式系统上运行预测，接触令人难以置信的规模和速度的创新技术",
+    "构建可扩展、容错、低成本且易于管理/使用的分布式存储、索引和查询系统",
+    "在敏捷环境中工作，交付高质量的软件"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "目前正在攻读计算机科学、计算机工程或相关领域的学士或硕士学位",
+      "熟悉 Java、C/C++ 或 Python 等语言的语法",
+      "具备计算机科学基础知识，如面向对象设计、算法设计、数据结构、问题解决和复杂性分析"
+    ],
+    "preferredQualifications": [
+      "有之前的技术实习经验（如适用）",
+      "具备分布式、多层系统、算法和关系数据库的经验",
+      "具备优化数学经验，如线性规划和非线性优化",
+      "能够有效地阐述技术挑战和解决方案",
+      "善于处理模糊或未定义的问题，以及抽象思考的能力"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2813721/2025-software-dev-engineer-intern"
+}

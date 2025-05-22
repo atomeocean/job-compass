@@ -3,7 +3,7 @@ title: 劳务派遣公司信息文档指南
 outline: [2,3]
 ---
 
-# 📖 Staffing Company 使用指南
+# Staffing Company使用指南
 
 ## 文档概述
 
@@ -19,11 +19,11 @@ outline: [2,3]
 
 ### 快速开始
 
-#### 1️⃣ 公司查找
+#### 1 公司查找
 
 在网上查找劳务派遣公司的相关信息资料，内容涵盖范围包括完整的公司静态信息，如公司名称、地址、联系方式、行业类别、成立年份等，以及职位招聘信息和市场反馈
 
-#### 2️⃣ 检查仓库中是否已存在该公司文件
+#### 2 检查仓库中是否已存在该公司文件
 
 前往 [staffing-company 目录](https://github.com/atomeocean/job-compass/tree/main/docs/zhHans/staffing-company)，查看该目录下是否已经存在该公司名称的文件
 

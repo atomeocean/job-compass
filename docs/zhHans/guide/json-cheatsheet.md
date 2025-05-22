@@ -1,8 +1,10 @@
 ---
-title: Json 语法指南
+title: Json语法指南
+description: Json语法指南
+outline: deep
 ---
 
-# 📌 Json Cheatsheet
+# Json Cheatsheet
 
 该文档主要介绍在编写 Json 数据时常用到的语法
 

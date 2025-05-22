@@ -1,8 +1,10 @@
 ---
 title: Cruise LLC
+lastUpdated: 2025-04-24
+outline: [2,3]
 ---
 
-# 直招公司
+# Cruise LLC
 
 ## 📌 公司信息
 

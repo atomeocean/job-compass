@@ -1,8 +1,10 @@
 ---
 title: Markdown 语法指南
+description: Markdown 语法指南
+outline: deep
 ---
 
-# 📌 Markdown Cheatsheet
+# Markdown Cheatsheet
 
 该文档主要介绍在编写markdown文档时常用到的语法
 
