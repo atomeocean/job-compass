@@ -12,17 +12,21 @@ hero:
     - theme: brand
       text: Get Started
       link: /en/guide/directory-structure.md
-    - theme: alt
-      text: Direct Hire
-      link: /en/direct-hire-company/amazon-inc.md
-      linkText: See which companies are hiring
-      rel: noreferrer
+
     - theme: alt
       text: Staffing Companies
       link: /staffing-company/overview.md
     - theme: alt
       text: Referral
       link: /en/referral/overview.md
+
+features:
+  - title: Land Your Dream Job
+    details: One-step solution to secure your ideal position and embark on a new career journey. Cheers!
+    link: /en/direct-hire-company/washington/seattle/amazon.md
+    linkText: See which companies are hiring
+    rel: noreferrer
+
 ---
 
 ## Job Compass by Atomeocean: An Open-Source Job Seeker Community
