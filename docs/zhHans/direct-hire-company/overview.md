@@ -23,7 +23,7 @@ lastUpdated: 2025-05-13
 
 如你希望在平台上添加新的直接雇佣公司信息，可参考以下教程，完成添加流程：
 
-👉 [公司信息添加教程（跳转链接）](https://jobcompass.atomeocean.com/direct-hire-company/company-utils/company-info-guide.html)
+👉 [公司信息添加教程（跳转链接）](https://jobcompass.atomeocean.com/guide/direct-hire-company-utils/company-info-guide.html)
 
 教程中将指导你如何：
 - 正确填写公司名称、地点、行业等基本信息

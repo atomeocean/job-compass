@@ -30,7 +30,7 @@ outline: [2,3]
 - **如果已存在**，可跳过**快速开始**的后续步骤，直接跳转至下方对应的任务模块指南
 - **如果未存在**，需要在当前目录下创建一个以该公司名称命名的 Markdown 文件
   1. 在当前文件夹下创建一个新的 Markdown 文件，文件名称为公司名称全拼（命名规则：公司全称小写，单词间用连字符连接）
-  2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/staffing-company/company-utils/company-info-template.md?plain=1) 中的内容复制到你所创建的文件中
+  2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/staffing-company-utils/company-info-template.md?plain=1) 中的内容复制到你所创建的文件中
   3. 将第 2 行的 `title` 的值以及第 5 行的 `[公司名称]` 分别替换为实际的公司名称
   4. 跳转至下方对应的任务模块指南
 
@@ -49,7 +49,7 @@ outline: [2,3]
 
 #### 2️⃣ 填充公司信息
 
-1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/staffing-company/company-utils/company-info-template.json) 中的内容复制到第 1️⃣ 步中创建的文件中
+1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/staffing-company-utils/company-info-template.json) 中的内容复制到第 1️⃣ 步中创建的文件中
 2. 根据找到的公司信息填充这个模版：
     - **companyName：**
         - **companyName：** 公司名称
