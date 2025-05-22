@@ -17,7 +17,7 @@ outline: [2,3]
 - **如果不存在**，需要创建所在州的文件目录
     - 在当前路径下新建一个以州名称命名的文件夹（命名规则：州全称小写，单词间用连字符连接，例如 new-york）
     - 进入该文件夹，在其中创建一个名为 `index.md` 的文件
-    - 将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/direct-hire-company/company-utils/index.md?plain=1) 中的内容复制到创建的`index.md`文件中
+    - 将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/index.md?plain=1) 中的内容复制到创建的`index.md`文件中
     - 将 `title` 的值替换为州名称，例如 `New York`
 
 ## 3️⃣ 检查是否已有该公司所在城市的文件夹
@@ -28,7 +28,7 @@ outline: [2,3]
 - **如果不存在**，需要创建所在城市的文件目录
     - 在当前路径下新建一个以城市名称命名的文件夹（命名规则：城市全称小写，单词间用连字符连接，例如 san-francisco）
     - 进入该文件夹，在其中创建一个名为 `index.md` 的文件 和 一个名为 `data` 的文件夹
-    - 将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/direct-hire-company/company-utils/index.md?plain=1) 中的内容复制到创建的`index.md`文件中
+    - 将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/index.md?plain=1) 中的内容复制到创建的`index.md`文件中
     - 将 `title` 的值替换为城市名称，例如 `San Francisco`
 
 ## 4️⃣ 创建公司 Json 文件
@@ -45,7 +45,7 @@ outline: [2,3]
 
 ## 5️⃣ 填充公司信息
 
-1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/direct-hire-company/company-utils/company-info-template.json) 中的内容复制到第 4️⃣ 步中创建的文件中
+1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/company-info-template.json) 中的内容复制到第 4️⃣ 步中创建的文件中
 2. 根据找到的公司信息填充这个模版：
     - **companyName：** 公司名称（全称）。
     - **location：**
@@ -72,7 +72,7 @@ outline: [2,3]
 ## 6️⃣ 创建公司 Markdown 文件
 
 1. 回到公司所在城市文件夹，创建一个与第 4️⃣ 步同名的 Markdown 文件，例如 `amazon.md`
-2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/direct-hire-company/company-utils/company-info-template.md?plain=1) 中的内容复制到该文件中
+2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/company-info-template.md?plain=1) 中的内容复制到该文件中
 3. 将第 2 行的 `title` 值替换为实际公司名称
 4. 将第 5 行中的 `[公司名称]` 替换为实际公司名称
 5. 找到第 7 行的 DirectHireCompanyTable 组件，将其中的 `state` 、 `city` 和 `companyJsonFileName` 值替换为实际值：
