@@ -1,5 +1,6 @@
 ---
 title: GitHub注册与本地配置指南
+description: 本指南将详细介绍如何注册 GitHub 账号，并在本地配置 Git 环境，以便能够使用 GitHub 进行代码管理。指南包括 macOS 和 Windows 两种操作系统的配置步骤。
 outline: [2,3]
 ---
 
@@ -14,7 +15,7 @@ outline: [2,3]
 1. 打开浏览器，访问 [GitHub 官网](https://github.com/)
 2. 点击页面右上角的 Sign up 按钮
 3. 输入你的用户名、邮箱地址和密码
-4. 完成人机测试，并点击 Continue 按钮
+4. 完成人机测试，并点击Continue按钮
 5. 根据提示完成邮箱验证
 6. 完成注册后，你将自动登录到 GitHub
 
@@ -119,6 +120,13 @@ outline: [2,3]
      ```shell
      ssh -T git@github.com
      ```
+
+## 权限配置
+
+请联系[Atomeocean团队成员](https://logbook.atomeocean.com/guide/light-weight-work/project-cooperation/project-mentor.html)，添加你为组织成员，确保有Job Compass的Write权限。
+
+> [!NOTE] 
+> 权限修改需要一段时间生效
 
 ## 参考
 
