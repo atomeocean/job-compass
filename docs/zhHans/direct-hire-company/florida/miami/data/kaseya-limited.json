@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Kaseya Limited",
+    "location": {
+      "addressLine1": "701 Brickell Avenue",
+      "addressLine2": "Suite 400",
+      "county": "Miami-Dade County",
+      "cityOrTown": "Miami",
+      "state": "FL",
+      "zipCode": "33131"
+    },
+    "contact": {
+      "phone": "+1 877-926-0001",
+      "email": "",
+      "website": "https://www.kaseya.com",
+      "linkedin": "https://www.linkedin.com/company/kaseya"
+    },
+    "industry": ["信息技术", "系统监控", "网络管理", "IT 自动化"],
+    "foundedYear": "2001",
+    "description": "Kaseya 是一家总部位于迈阿密的全球 IT 管理和安全软件公司，专注于为中小型企业和托管服务提供商（MSP）提供统一的 IT 管理平台。其解决方案涵盖网络监控、系统管理、远程访问、补丁管理、备份与恢复等领域。Kaseya 于 2018 年将总部迁至迈阿密，并于 2023 年获得迈阿密热火主场球馆的冠名权，现称为 Kaseya Center。",
+    "mainProductsOrServices": [
+      "VSA：远程监控与管理（RMM）平台",
+      "BMS：业务管理解决方案",
+      "Kaseya 365：统一 IT 管理平台",
+      "IT Glue：文档管理平台",
+      "Datto：数据备份与灾难恢复解决方案"
+    ],
+    "companySize": "1,000–5,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-05-22"
+  }
+}
