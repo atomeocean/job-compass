@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Texas Instruments Incorporated",
+    "location": {
+      "addressLine1": "12500 TI Boulevard",
+      "addressLine2": "",
+      "county": "Dallas County",
+      "cityOrTown": "Dallas",
+      "state": "TX",
+      "zipCode": "75243"
+    },
+    "contact": {
+      "phone": "+1 972-995-2011",
+      "email": "",
+      "website": "https://www.ti.com",
+      "linkedin": "https://www.linkedin.com/company/texas-instruments"
+    },
+    "industry": ["半导体制造", "模拟与嵌入式处理器设计"],
+    "foundedYear": "1930",
+    "description": "德州仪器公司（Texas Instruments）是一家全球领先的半导体设计与制造企业，专注于为工业、汽车、通信和消费电子等领域提供高性能的模拟和嵌入式处理解决方案。公司总部位于德克萨斯州达拉斯，致力于通过创新技术提升客户产品的性能和效率。",
+    "mainProductsOrServices": [
+      "模拟集成电路（如放大器、电源管理芯片）",
+      "嵌入式处理器（包括微控制器和数字信号处理器）",
+      "无线连接解决方案（如蓝牙、Wi-Fi 模块）",
+      "传感器与数据转换器（如 ADC、DAC）",
+      "开发工具与软件支持（如 Code Composer Studio）"
+    ],
+    "companySize": "30,000+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-05-22"
+  }
+}
