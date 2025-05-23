@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Silicon Laboratories Inc.",
+    "location": {
+      "addressLine1": "400 West Cesar Chavez",
+      "addressLine2": "",
+      "county": "Travis County",
+      "cityOrTown": "Austin",
+      "state": "TX",
+      "zipCode": "78701"
+    },
+    "contact": {
+      "phone": "+1 512-416-8500",
+      "email": "",
+      "website": "https://www.silabs.com",
+      "linkedin": "https://www.linkedin.com/company/siliconlabs"
+    },
+    "industry": ["半导体制造", "物联网 (IoT)"],
+    "foundedYear": "1996",
+    "description": "Silicon Labs 是低功耗无线连接技术的领先创新者，专注于打造嵌入式技术，连接设备、改善生活。公司总部位于德克萨斯州奥斯汀，在全球 16 个国家设有办事处，是智能家居、工业物联网和智慧城市市场的值得信赖的合作伙伴。",
+    "mainProductsOrServices": [
+      "节能型 32 位与 8 位微控制器（MCU）",
+      "支持 Zigbee、Thread、蓝牙、Z-Wave、Wi-Fi 和 Sub-GHz 的无线系统芯片（SoC）",
+      "低功耗传感器",
+      "物联网软件栈与开发工具（如 Simplicity Studio）"
+    ],
+    "companySize": "1,000 – 5,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-05-22"
+  }
+}
