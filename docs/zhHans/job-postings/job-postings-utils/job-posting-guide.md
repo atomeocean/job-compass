@@ -27,14 +27,14 @@ description: 在job compass发布招聘信息的流程
 
 ## 2 检查Job Compass仓库是否已有该公司文件夹
 
-前往 [Job Compass 仓库](https://github.com/atomeocean/job-compass) 中的 `docs/zhHans/job-postings` 目录，查看是否已存在该公司的文件夹。
+前往[Job Compass 仓库](https://github.com/atomeocean/job-compass) 中的 `docs/zhHans/job-postings` 目录，查看是否已存在该公司的文件夹。
 
 - **如果不存在**，进入第3步[创建新公司文件夹](#3-创建新公司文件夹)。
 - **如果已存在**，跳到第4步[检查该职位是否已存在](#4-检查该职位是否已存在)。
 
 ## 3 创建新公司文件夹
 
-1. 如果招聘信息中的公司名称未出现在 `docs/zhHans/job-postings` 目录中，请在目录下创建一个新文件夹，命名为公司全称（不要使用缩写）比如Bloomberg，而不是BB。
+1. 如果招聘信息中的公司名称未出现在 `docs/zhHans/job-postings` 目录中，请在目录下创建一个新文件夹，命名为公司小写全称（不要使用缩写或大写）比如bloomberg，而不是BB或Bloomberg。
 2. 在公司文件夹下创建一个名为`index.md`的文件，并将 [该模版文件](/job-postings/job-postings-utils/index.md) 中的内容复制到该文件中
 3. 将其中的title值 (模版中为`{{公司名称}}`) 改为你所找到的公司名称，例如`Amazon`或`Cloudflare`
 4. 在公司文件夹下创建一个名为`data`的子文件夹
@@ -77,7 +77,7 @@ software-engineer-20250102.md
 
 ## 6 填充招聘信息
 
-1. 将 [模版文件的一键快速复制](toturial-json-template.md#一键快速复制) 中的内容复制到第5步中创建的文件中
+将 [模版文件的一键快速复制](toturial-json-template.md#一键快速复制) 中的内容复制到第5步中创建的文件中
    
 [JSON 字段说明](toturial-json-template.md#字段解释)
 
@@ -88,14 +88,14 @@ software-engineer-20250102.md
 
 ## 7 创建职位Markdown文件
 
-1. 回到公司名称文件夹，创建一个与第5步同名的 Markdown 文件，文件名为`职位名称-日期.md`（例如：`software-engineer-20250102.md`）
-2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/job-postings/job-postings-utils/job-posting-template.md?plain=1) 中的内容复制到该文件中
-3. 将文件第2行中的 `title` 值替换为文件名（用空格替换连字符），例如：`software engineer 20250102`
-4. 将文件第6行中的 `[公司名称]` 替换为实际公司名称，例如 `Amazon 招聘信息`
+1. 回到公司名称文件夹，创建一个与第5步同名的Markdown文件，文件名为`职位名称-日期.md`（例如：`software-engineer-20250102.md`）
+2. 将 [模版文件](/job-postings/job-postings-utils/job-posting-template.md) 中的内容复制到该文件中
+3. 将文件中的`title`值替换为文件名（用空格替换连字符），例如：`software engineer 20250102`
+4. 将文件中的`[公司名称]`替换为实际公司名称，例如 `Amazon 招聘信息`
 5. 找到第8行的 **JobPostingTable** 组件，将其中的 `job-posting-json-path` 参数替换为实际 JSON 文件的路径
     - 模板中的路径格式为：`公司文件夹名/data/职位信息json文件名`
     - 将 `公司文件夹名` 替换为实际的公司名
-    - 将 `职位信息json文件名` 替换为第 5️⃣ 步所创建的Json文件名
+    - 将 `职位信息json文件名` 替换为第5步所创建的Json文件名
     - 例如 `meta/data/software-engineer-20110313.json`，公司文件名需要小写
 
 > [!TIP] 小写路径
@@ -103,7 +103,7 @@ software-engineer-20250102.md
 
 ## 8 提交PR
 
-完成招聘信息填充后，提交Pull Request（PR）：
+完成招聘信息填充后，提交Pull Request（PR）到Job Compass项目。
 
 - 提交自己的修改内容，并确保PR的描述清晰。
 - 等待审核并进行必要的修改。
