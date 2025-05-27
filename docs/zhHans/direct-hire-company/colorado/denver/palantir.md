@@ -2,7 +2,7 @@
 title: Palantir
 ---
 
-# 直招公司
+# Palantir
 
 ## 📌 公司信息
 

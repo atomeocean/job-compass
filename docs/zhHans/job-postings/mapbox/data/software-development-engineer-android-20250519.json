@@ -1,0 +1,34 @@
+{
+  "companyName": "Mapbox",
+  "jobTitle": "Software Development Engineer II, Android, Maps SDK",
+  "jobLocation": ["Mapbox Helsinki"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "构建并持续优化地图与定位SDK",
+    "为使用我们SDK的开发者设计简洁易用、表达力强的API",
+    "深入研究支撑我们框架的跨平台底层实现机制"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "专注于原生技术，如 Kotlin 和 Java",
+      "具有使用 Jetpack Compose 和 Flutter 的经验",
+      "具备使用任意语言构建 SDK 的经验",
+      "熟悉测试方法和测试框架，致力于高质量交付",
+      "乐于接触新语言、新技能、新技术和新平台",
+      "能够深入 Android 技术栈，必要时可阅读和理解 AOSP 源码"
+    ],
+    "preferredQualifications": [
+      "熟悉或有兴趣深入了解 C++、OpenGL 和 Vulkan",
+      "渴望学习，也乐于分享与教学",
+      "对赢得并维持客户信任充满热情",
+      "渴望构建框架和开发者工具"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "医疗保障",
+    "育儿假期",
+    "帮助员工掌握在岗位和公司中所需的工具与能力"
+  ],
+  "jobLink": "https://jobs.ashbyhq.com/mapbox/a1581681-43ef-47c9-b0ec-642d24de051f"
+}

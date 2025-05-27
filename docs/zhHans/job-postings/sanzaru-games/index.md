@@ -1,3 +1,3 @@
 ---
-title: Sanzaru-Games
+title: Sanzaru Games
 ---

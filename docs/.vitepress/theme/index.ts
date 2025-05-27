@@ -12,6 +12,7 @@ import VideoLinks from "./components/VideoLinks.vue";
 import JobPostingTable from "./components/JobPostingTable.vue";
 import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
 import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
+import ReferenceSource from "./components/ReferenceSource.vue";
 
 export default {
   ...DefaultTheme,
@@ -27,6 +28,7 @@ export default {
     app.component("DirectHireCompanyTable", DirectHireCompanyTable);
     app.component("StaffingCompanyTable", StaffingCompanyTable);
     app.component("JobRecruiterInformationTable", JobRecruiterInformation);
+    app.component("ReferenceSource", ReferenceSource);
 
     // 注册 ElementPlus
     app.use(ElementPlus);

@@ -1,0 +1,37 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Software Development Engineer, AWS Security",
+  "jobLocation": [
+    "USA, WA, Seattle"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与数据科学家和安全工程师合作，构建自动化的安全检测和缓解工作流程",
+    "设计可扩展的架构，以实现低延迟的大数据处理",
+    "提高现有系统的可观测性、性能和效率",
+    "提升测试、自动化和运营卓越性的标准",
+    "在技术和专业方面指导和发展团队成员"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3 年以上非实习的专业软件开发经验",
+      "2 年以上非实习的新系统和现有系统的设计或架构经验",
+      "至少掌握一种软件编程语言并具备相关编程经验"
+    ],
+    "preferredQualifications": [
+      "具备构建安全产品的经验，尤其是在使用 IAM 协议（如 SAML、OAuth 和 OpenID Connect）设计数字身份解决方案方面",
+      "在 AWS、Azure 和 GCP 中开发和部署软件服务的经验",
+      "计算机科学或相关领域的学士学位或同等学历"
+    ]
+  },
+  "salary": [
+    "$129,300 - $223,600 / 年，具体取决于地理位置、经验和技能水平"
+  ],
+  "benefits": [
+    "灵活的工作时间安排",
+    "多元化和包容性的工作场所文化",
+    "员工主导的兴趣小组和学习体验",
+    "全面的医疗、财务和其他福利"
+  ],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2973949/software-development-engineer-aws-security"
+}

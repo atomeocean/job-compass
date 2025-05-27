@@ -1,0 +1,27 @@
+{
+  "companyInfo": {
+    "companyName": "CarGurus, Inc.",
+    "location": {
+      "addressLine1": "1001 Boylston Street",
+      "addressLine2": "16th Floor",
+      "county": "",
+      "cityOrTown": "Boston",
+      "state": "Massachusetts",
+      "zipCode": "02115"
+    },
+    "contact": {
+      "phone": "(617) 354-0068",
+      "email": "support@cargurus.com",
+      "website": "https://www.cargurus.com",
+      "linkedin": "https://www.linkedin.com/company/cargurus/"
+    },
+    "industry": ["汽车", "科技", "电子商务"],
+    "foundedYear": "2006",
+    "description": "CarGurus是美国访问量第一的数字汽车平台，用于新车和二手车的购物、购买和销售。公司提供透明且用户友好的体验，让驾驶员和经销商能够自信地在线上、线下或两者结合的方式购买或销售汽车。CarGurus倡导创新与协作的文化，赋予其团队推动汽车行业进步的能力。",
+    "mainProductsOrServices": ["在线汽车市场", "车辆列表和搜索平台", "经销商管理工具", "消费者融资选项"],
+    "companySize": "500-1000名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-05-02"
+  }
+}
