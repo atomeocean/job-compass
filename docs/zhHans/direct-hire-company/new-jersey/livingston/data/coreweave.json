@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "CoreWeave, Inc.",
+    "location": {
+      "addressLine1": "290 W Mt Pleasant Ave",
+      "addressLine2": "Suite 4100",
+      "county": "Essex County",
+      "cityOrTown": "Livingston",
+      "state": "NJ",
+      "zipCode": "07039"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.coreweave.com",
+      "linkedin": "https://www.linkedin.com/company/coreweave"
+    },
+    "industry": ["云计算", "高性能计算", "人工智能基础设施"],
+    "foundedYear": "2017",
+    "description": "CoreWeave 是一家总部位于新泽西州利文斯顿的云计算公司，专注于为人工智能开发者和企业提供基于 GPU 的高性能计算基础设施。公司最初成立于 2017 年，前身为 Atlantic Crypto，现已发展成为全球领先的 AI 云服务提供商之一。",
+    "mainProductsOrServices": [
+      "GPU 云计算平台",
+      "高性能计算资源",
+      "AI 模型训练与推理服务",
+      "定制化超级计算解决方案"
+    ],
+    "companySize": "500-1000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-05-28"
+  }
+}
