@@ -1,0 +1,48 @@
+{
+  "companyName": "CoreWeave, Inc.",
+  "jobTitle": "Software Engineer, Security",
+  "jobLocation": [
+    "New York, NY",
+    "Sunnyvale, CA"
+  ],
+  "jobType": "Full-time",
+  "jobResponsibilities": [
+    "设计、开发和部署可扩展的解决方案，例如为云原生环境量身定制的授权和安全系统",
+    "构建和维护专门为 Kubernetes 集群和容器化应用优化的安全工具和基础设施",
+    "设计并实现 CoreWeave 的 PKI 基础设施、服务网格认证和授权机制（SPIFFE/SPIRE/OPA 基础设施）、Kubernetes 安全组件（如 Admission Controllers）以及其他安全软件",
+    "与跨职能团队密切合作，识别安全需求并交付高质量、可扩展的安全特性和软件",
+    "指导工程师并倡导以安全为重点的软件开发最佳实践"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "7年以上专业软件工程经验，重点在于以安全为导向的软件解决方案",
+      "在构建授权系统、安全控制和服务方面具有丰富经验",
+      "熟练掌握现代编程语言（如 Go、Python）",
+      "精通容器安全、Kubernetes 和云原生基础设施方面的专业知识"
+    ],
+    "preferredQualifications": [
+      "具备管理和扩展公钥基础设施（PKI）、SPIFFE/SPIRE 或 OPA 的经验",
+      "熟悉零信任（zero-trust）架构及相关技术",
+      "了解固件级安全知识，包括 UEFI 安全启动、Intel TXT/AMD SEV 以及新兴标准如 Caliptra 等技术"
+    ]
+  },
+  "salary": ["$140,000 - $282,000"],
+  "benefits": [
+    "医疗、牙科和视力保险 - CoreWeave 100% 支付",
+    "公司提供的人寿保险",
+    "可选附加人寿保险",
+    "短期及长期伤残保险",
+    "灵活支出账户(FSA)",
+    "健康储蓄账户(HSA)",
+    "学费报销计划",
+    "通过 Spring Health 提供的心理健康福利",
+    "由 Carrot 提供的家庭组建支持",
+    "带薪育儿假",
+    "通过 Kinside 提供的灵活全方位托儿服务",
+    "配备丰厚雇主匹配的 401(k) 退休计划",
+    "弹性带薪休假制度",
+    "办公场所及数据中心每日提供自助午餐",
+    "轻松的工作环境"
+  ],
+  "jobLink": "https://www.coreweave.com/careers/job?gh_jid=4569701006&board=coreweave"
+}
