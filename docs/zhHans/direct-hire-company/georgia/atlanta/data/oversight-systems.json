@@ -1,0 +1,31 @@
+{
+  "companyInfo": {
+    "companyName": "Oversight Systems, Inc.",
+    "location": {
+      "addressLine1": "360 Interstate North Pkwy",
+      "addressLine2": "Suite 300",
+      "county": "Fulton County",
+      "cityOrTown": "Atlanta",
+      "state": "GA",
+      "zipCode": "30339"
+    },
+    "contact": {
+      "phone": "+1 (866) 876-5578",
+      "email": "",
+      "website": "https://www.oversightsystems.com",
+      "linkedin": "https://www.linkedin.com/company/oversight-systems"
+    },
+    "industry": ["财务软件", "合规监控", "风险管理"],
+    "foundedYear": "2003",
+    "description": "Oversight Systems 是一家总部位于佐治亚州亚特兰大的美国公司，开发和销售旨在帮助企业识别员工和供应商欺诈、误用和费用报告错误的计算机软件。该软件还帮助上市公司监控和测试与《萨班斯-奥克斯利法案》和《反海外腐败法》合规相关的控制措施。",
+    "mainProductsOrServices": [
+      "财务交易监控软件",
+      "合规性测试工具",
+      "欺诈检测和报告系统"
+    ],
+    "companySize": "100-500 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-05-29"
+  }
+}
