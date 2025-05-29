@@ -1,0 +1,34 @@
+{
+  "companyInfo": {
+    "companyName": "Softeq Development Corporation",
+    "location": {
+      "addressLine1": "1155 Dairy Ashford Rd",
+      "addressLine2": "Suite 125",
+      "county": "Harris County",
+      "cityOrTown": "Houston",
+      "state": "TX",
+      "zipCode": "77079"
+    },
+    "contact": {
+      "phone": "+1 281-552-5000",
+      "email": "info@softeq.com",
+      "website": "https://www.softeq.com",
+      "linkedin": "https://www.linkedin.com/company/softeq"
+    },
+    "industry": ["嵌入式系统开发", "物联网 (IoT)", "区块链", "增强/虚拟现实 (AR/VR)", "机器人技术"],
+    "foundedYear": "1997",
+    "description": "Softeq Development Corporation 是一家总部位于德克萨斯州休斯顿的私营全栈开发公司，专注于低层次编程（驱动程序、固件）、硬件设计（从 PCB 到完整设备）以及 Web、桌面和移动应用的软件开发。Softeq 构建端到端的物联网和云基础设施解决方案，并提供技术业务咨询服务。公司是 ISO 13485:2016 认证企业，与 Amazon、Microsoft 和 Xamarin 等建立了认证合作伙伴关系。",
+    "mainProductsOrServices": [
+      "嵌入式系统和固件开发",
+      "物联网解决方案和云基础设施",
+      "移动和 Web 应用程序开发",
+      "区块链和智能合约开发",
+      "增强/虚拟现实 (AR/VR) 应用开发",
+      "机器人技术解决方案"
+    ],
+    "companySize": "500+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-05-22"
+  }
+}
