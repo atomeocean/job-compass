@@ -1,0 +1,30 @@
+{
+  "companyName": "Goldman Sachs",
+  "jobTitle": "Software Engineer, Global Banking & Markets, Analyst/Associate",
+  "jobLocation": [
+    "USA, UT, Salt Lake City"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计、开发并维护复杂的软件系统和应用程序",
+    "与跨职能团队合作，收集需求并定义技术解决方案",
+    "执行和维护软件开发及工程流程的最佳实践",
+    "开发和维护设计规范、用户指南和操作手册等软件文档",
+    "确保软件系统的可靠性、可扩展性和性能",
+    "排查和调试复杂的软件问题",
+    "指导和辅导初级工程师"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "1年以上使用任意编程语言（如 Java、JavaScript、Python、C#、Scala、C++）的专业开发经验",
+      "具备关系型或NoSQL数据库使用经验",
+      "具有扎实的技术、分析和沟通能力",
+      "愿意学习并应用新的技术和业务知识",
+      "具备自主学习能力和主动性"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://higher.gs.com/roles/138024"
+}

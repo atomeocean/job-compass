@@ -1,0 +1,34 @@
+{
+  "companyName": "Goldman Sachs",
+  "jobTitle": "Software Developer, Inventory Management Engineering, Analyst/Associate",
+  "jobLocation": [
+    "USA, TX, Dallas"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "构建可扩展的服务、网页应用及分析工具，用于支持交易决策",
+    "与交易员及其他用户紧密合作参与系统设计与开发流程",
+    "收集需求，调研可用技术并开发原型",
+    "按里程碑计划推进项目并向管理层汇报进展",
+    "持续学习新技术并支持全球范围内的开发团队"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学或相关专业的学士或硕士学位",
+      "2年以上相关行业经验",
+      "具备强大的问题解决能力和分析能力",
+      "有大型平台设计与开发经验",
+      "熟练掌握 Java、Python、C++ 或等效语言",
+      "熟悉面向对象设计、数据结构和算法"
+    ],
+    "preferredQualifications": [
+      "对金融服务及交易业务有兴趣或经验",
+      "具备分析复杂系统依赖关系的能力",
+      "熟练使用 SQL 和 NoSQL（如 MongoDB），能编写复杂的多表查询",
+      "有企业级应用开发及生命周期管理经验"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://higher.gs.com/roles/147869"
+}
