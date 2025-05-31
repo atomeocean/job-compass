@@ -1,0 +1,38 @@
+{
+    "companyName": "Apple",
+    "jobTitle": "Software Engineer – Data",
+    "jobLocation": [ "Cupertino, California, United States" ],
+    "jobType": "Full time",
+    "jobResponsibilities": [
+        "设计并实现高效可靠的数据管道与数据服务，服务于机器学习与分析平台",
+        "与多部门团队协作，为多个 Apple 服务（如 Siri、iCloud、Apple Music 等）提供支撑",
+        "构建面向大规模分布式系统的后端服务，包括数据存储、实时处理与 API 接口开发",
+        "优化数据质量、数据可观测性与故障恢复机制，提升数据平台的整体健壮性与可维护性"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "扎实的计算机科学基础，具备分布式系统、数据结构和算法相关经验",
+            "熟练掌握至少一种主流编程语言（如 Java、Scala、Python 或 Go）",
+            "具备大型系统开发经验，理解数据一致性、容错性与高可用架构",
+            "拥有计算机科学、计算机工程或相关技术领域的学士学位"
+        ],
+        "preferredQualifications": [
+            "具备处理 PB 级数据的经验",
+            "熟悉 Kafka、Spark、Flink、Hadoop、HBase、Cassandra、Iceberg 或 DeltaLake 等大数据技术",
+            "具备 DevOps 或 SRE 工作经验者优先"
+        ]
+    },
+    "salary": [
+        "该职位的基本工资范围为135,400美元至250,600美元，基本工资将根据技能、资历、经验及工作地点等因素确定。"
+    ],
+    "benefits": [
+        "酌情授予的限制性股票单位奖励",
+        "全面的医疗和牙科保险",
+        "退休福利",
+        "一系列折扣产品和免费服务",
+        "在苹果职业发展相关的正规教育",
+        "报销特定教育费用——包括学费",
+        "酌情发放的奖金或佣金以及搬迁补助"
+    ],
+    "jobLink": "https://jobs.apple.com/en-us/details/200607096/software-engineer-data?team=SFTWR"
+}
