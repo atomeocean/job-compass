@@ -1,0 +1,38 @@
+{
+  "companyInfo": {
+    "companyName": "Audible Inc.",
+    "location": {
+      "addressLine1": "1 Washington Park",
+      "addressLine2": "16th Floor",
+      "county": "Essex",
+      "cityOrTown": "Newark",
+      "state": "New Jersey",
+      "zipCode": "07102"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.audible.com",
+      "linkedin": ""
+    },
+    "industry": [
+      "Digital Media",
+      "Audiobooks"
+    ],
+    "foundedYear": "1995",
+    "description": "亚马逊旗下一家卖有声书的公司。",
+    "mainProductsOrServices": [
+      "Audible Membership Plans",
+      "Audiobook Library",
+      "Audible Originals (Exclusive Content)",
+      "Audible Studios Production",
+      "Audible Apps (iOS/Android)",
+      "Audible Channels (Podcasts)",
+      "Whispersync for Voice Technology"
+    ],
+    "companySize": "1,500+ employees"
+  },
+  "metadata": {
+    "lastUpdated": ""
+  }
+}
