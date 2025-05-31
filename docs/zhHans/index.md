@@ -22,6 +22,11 @@ hero:
 
 
 features:
+  - title: 招聘信息
+    details: 最新的招聘信息，来自各大招聘网站和公司官网
+    link: /job-postings/overview
+    linkText: 查看招聘信息
+    rel: noreferrer
   - title: 上岸
     details: 一步到位，入职直接效力新公司，开始新生活 Cheers!
     link: /direct-hire-company/overview
