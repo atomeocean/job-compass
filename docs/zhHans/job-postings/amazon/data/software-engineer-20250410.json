@@ -1,0 +1,31 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Jr. Software Development Engineer",
+  "jobLocation": ["New York"],
+  "jobType": "Part Time",
+  "jobResponsibilities": [
+    "学年期间兼职工作（每周16小时）",
+    "暑假期间全职工作（每周40小时）",
+    "与经验丰富的软件工程师进行一对一指导",
+    "有效的绩效管理及整合的成长机会"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "目前就读于经认可的学院或大学的学士或硕士学位课程。 - 主修计算机科学、软件工程或相关科学、技术、工程或数学（STEM）领域。",
+      "毕业时间为2027年6月及之后。",
+      "有能力在毕业前全年持续工作（学年期间兼职，暑假期间全职）。",
+      "此职位不提供远程或混合工作模式，工作时间必须在位于纽约州纽约市的公司办公室现场进行。",
+      "候选人必须居住在纽约州纽约市通勤距离内，并能够全年进行现场办公。",
+      "能够于2025年6月与该批入职者一同开始工作。",
+      "至少具备一种现代编程语言（如Java、Python或C++）的编程经验，包括面向对象设计。"
+    ],
+    "preferredQualifications": [
+      "如有，请提供过往技术实习经历。",
+      "能够有效地阐述技术挑战和解决方案。",
+      "擅长处理模糊或未定义的问题，并具备抽象思维能力。"
+    ]
+  },
+  "salary": ["$16.83/hr to $75.63/hr"],
+  "benefits": [],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2955916/jr-software-development-engineer-new-york-ny"
+}
