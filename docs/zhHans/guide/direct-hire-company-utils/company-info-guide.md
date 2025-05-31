@@ -5,7 +5,7 @@ outline: deep
 lastUpdated: 2025-05-31
 ---
 
-# Direct Hire Company 使用指南
+# Direct Hire Company 添加流程
 
 ## 1 查找公司信息
 
@@ -15,9 +15,11 @@ lastUpdated: 2025-05-31
 
 查看侧边栏[上岸目录](/direct-hire-company/overview.md)，查看是否已存在该公司所在州的文件夹。
 
-- **如果已存在**，直接跳到第 3️⃣ 步。
+- **如果已存在**，直接跳到第3步。
 - **如果不存在**，需要创建所在州的文件目录
-    - 在当前路径下新建一个以州名称命名的文件夹（命名规则：州全称小写，单词间用连字符连接，例如 new-york）
+    - 在当前路径下新建一个以州名称命名的文件夹
+      - 命名规则：州全称小写，单词间用连字符连接
+      - 例如 new-york
     - 进入该文件夹，在其中创建一个名为 `index.md` 的文件
     - 将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/index.md?plain=1) 中的内容复制到创建的`index.md`文件中
     - 将 `title` 的值替换为州名称，例如 `New York`
@@ -28,12 +30,14 @@ lastUpdated: 2025-05-31
 
 - **如果已存在**，直接跳到第4步。
 - **如果不存在**，需要创建所在城市的文件目录
-    - 在当前路径下新建一个以城市名称命名的文件夹（命名规则：城市全称小写，单词间用连字符连接，例如 san-francisco）
+    - 在当前路径下新建一个以城市名称命名的文件夹
+      - 命名规则：城市全称小写，单词间用连字符连接
+      - 例如 san-francisco
     - 进入该文件夹，在其中创建一个名为 `index.md` 的文件 和 一个名为 `data` 的文件夹
     - 将 [该模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/index.md?plain=1) 中的内容复制到创建的`index.md`文件中
     - 将 `title` 的值替换为城市名称，例如 `San Francisco`
 
-## 4 创建公司 Json 文件
+## 4 创建公司的Json文件
 
 进入公司所在城市的文件夹，查看找到的公司信息是否已存在。
 
@@ -43,11 +47,11 @@ lastUpdated: 2025-05-31
     - 文件名应与公司名称匹配
     - 使用**小写字母**
     - 使用连字符 `-` 连接
-    - 例如：`amazon.json`
+    - 例如：`amazon.json`或 `google-cloud.json`
 
 ## 5 填充公司信息
 
-1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/company-info-template.json) 中的内容复制到第 4️⃣ 步中创建的文件中
+1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/company-info-template.json) 中的内容复制到第4步中创建的文件中
 2. 根据找到的公司信息填充这个模版：
     - **companyName：** 公司名称（全称）。
     - **location：**
@@ -71,7 +75,7 @@ lastUpdated: 2025-05-31
 
 **若信息来源未提供相关内容，可跳过对应字段。**
 
-## 6 创建公司 Markdown 文件
+## 6 创建公司的Markdown文件
 
 1. 回到公司所在城市文件夹，创建一个与第4步同名的 Markdown 文件，例如 `amazon.md`
 2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/direct-hire-company-utils/company-info-template.md?plain=1) 中的内容复制到该文件中
