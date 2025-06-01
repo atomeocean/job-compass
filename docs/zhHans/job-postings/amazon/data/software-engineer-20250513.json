@@ -13,5 +13,6 @@
   },
   "salary": ["99,500/year to $200,000/year"],
   "benefits": ["Medical, Dental, Vision & Disability Insurance", "401(k)", "Maternity & Parental Leave", "Flexible PTO"],
-  "jobLink": "https://www.amazon.jobs/en/jobs/2943365/software-engineer"
+  "jobLink": "https://www.amazon.jobs/en/jobs/2943365/software-engineer",
+  "notes": ""
 }

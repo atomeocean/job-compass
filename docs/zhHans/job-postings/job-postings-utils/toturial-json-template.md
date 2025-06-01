@@ -24,7 +24,8 @@ lastUpdated: 2025-04-19
   },
   "salary": [],
   "benefits": [],
-  "jobLink": ""
+  "jobLink": "",
+  "notes": ""
 }
 ```
 
@@ -42,6 +43,7 @@ lastUpdated: 2025-04-19
 | salary                                          | string[] | 薪资范围或结构，例如 ["$90,000 - $120,000/year"] 或 ["Competitive"] |
 | benefits                                        | string[] | 福利信息，如医保、401k、股票期权等                                      |
 | jobLink                                         | string   | 职位原始链接，供跳转参考                                             |
+| notes                                           | string   | 记录上述字段未涵盖的补充信息或备注                                        |
 
 ### 示例
 
@@ -78,6 +80,7 @@ lastUpdated: 2025-04-19
     "股票期权",
     "弹性工作时间"
   ],
-  "jobLink": "https://www.amazon.jobs/en/jobs/1234567/data-engineer"
+  "jobLink": "https://www.amazon.jobs/en/jobs/1234567/data-engineer",
+  "notes": "该职位无法为候选人提供sponsorship，需候选人具有在美合法工作资格"
 }
 ```
