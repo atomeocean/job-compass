@@ -1,0 +1,30 @@
+{
+  "companyName": "Google",
+  "jobTitle": "Software Engineer,Distributed Systems",
+  "jobLocation": [
+    "Sunnyvale, CA, USA"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "编写产品或系统开发代码",
+    "参与或领导与同事及利益相关者的设计评审，以在可用技术中做出选择",
+    "审查其他开发人员编写的代码，并提供反馈，以确保遵循最佳实践（例如，风格指南、代码提交、准确性、可测试性和效率）",
+    "为现有文档或教育内容做出贡献，并根据产品/程序更新和用户反馈调整内容"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "学士学位或同等实践经验",
+      "具有 2 年 C++ 软件开发经验，或具有 1 年高级学位且在行业环境中工作",
+      "具有 2 年在学术或行业环境中使用数据结构或算法的经验",
+      "2具有 2 年开发大规模基础设施、分布式系统或网络的经验，或具有计算技术、存储或硬件架构方面的经验"
+    ],
+    "preferredQualifications": [
+      "计算机科学或相关技术领域的硕士学位或博士学位",
+      "具备 SQL、Java、TypeScript 或 Angular 的使用经验",
+      "具备支持软件服务的经验，包括部署、生产监控及支持工作"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://www.google.com/about/careers/applications/jobs/results/85419022165648070-software-engineer-distributed-systems?q=%22Software%20Engineer%22&location=United%20States"
+}
