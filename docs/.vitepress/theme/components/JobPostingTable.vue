@@ -98,6 +98,9 @@ onMounted(async () => {
 
     <!-- 招聘链接 -->
     <el-descriptions title="其他信息" :column="1" border class="section-card">
+      <el-descriptions-item label="备注信息">
+        {{ jobPostingInfo.notes || "N/A" }}
+      </el-descriptions-item>
       <el-descriptions-item label="申请方式">
         <span v-if="jobPostingInfo.jobLink">
           <el-icon><Link /></el-icon>
