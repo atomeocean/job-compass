@@ -9,13 +9,21 @@ interface TreeNode {
   children?: TreeNode[];
 }
 
+const defaultProps = {
+  children: 'children',
+  path: 'path', // 使用path作为节点的唯一标识
+  label: 'name',
+}
+
 // 目录结构数据
 const directoryData = ref<TreeNode[]>([
   {
     path: 'docs', // vitepress内容根目录
+    name: 'docs',
     children: [
       {
         path: 'docs/zhHans', // 中文文档目录
+        name: '中文文档',
         children: [
           {
             path: 'docs/zhHans/job-postings', // 招聘信息目录
@@ -81,6 +89,7 @@ const directoryData = ref<TreeNode[]>([
       },
       {
         path: 'docs/en', // 英文文档目录
+        name: 'English Docs',
         children: [
           {
             path: 'docs/en/job-postings', // 招聘信息目录
@@ -96,6 +105,7 @@ const directoryData = ref<TreeNode[]>([
                   },
                   {
                     path: 'docs/en/job-postings/google/data', // 保存json数据的文件
+                    name: 'google json data directory',
                   }
                 ]
               },
@@ -153,7 +163,12 @@ const directoryData = ref<TreeNode[]>([
   <div class="directory-container">
     <h2 class="directory-title">📂 文件目录结构</h2>
     <el-divider></el-divider>
-    <el-tree :data="directoryData" default-expand-all node-key="name" />
+    <el-tree
+      :data="directoryData"
+      :default-expand-all="true"
+      :props="defaultProps"
+      ode-key="name"
+    />
   </div>
 </template>
 
