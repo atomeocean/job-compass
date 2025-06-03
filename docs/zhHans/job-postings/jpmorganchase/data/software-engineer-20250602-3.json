@@ -1,0 +1,56 @@
+{
+  "companyName": "JPMorgan Chase",
+  "jobTitle": "Software Engineer III, ServiceNow",
+  "jobLocation": [
+    "USA, OH, Columbus"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "执行软件设计、开发与技术故障排除，提出创新解决方案",
+    "编写高质量生产代码，并维护系统同步运行的算法",
+    "为复杂应用创建架构和设计文档，并确保软件代码遵循设计约束",
+    "收集、分析并可视化大型多样数据集以持续改进软件与系统",
+    "主动识别数据中的潜在问题与模式，并利用洞察优化系统架构与代码质量",
+    "参与软件工程社区与新兴技术讨论活动",
+    "解决复杂问题，展现分析与应变能力",
+    "营造多元、公平、包容、尊重的团队文化"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "软件工程相关专业的正规培训或认证，并有 3 年以上实际开发经验",
+      "具备 ServiceNow 平台开发经验，并精通至少两个模块",
+      "熟练掌握 JavaScript、Glide 脚本语言，前端技术包括 HTML、CSS、Angular",
+      "具备使用 REST API 实现 ServiceNow 与其他系统集成经验",
+      "具备良好的分析、问题解决与决策能力",
+      "有调试问题和主动监控平台稳定性的经验",
+      "良好的沟通协作能力，能与团队及相关方高效协作"
+    ],
+    "preferredQualifications": [
+      "具备 HR 服务交付、IT 服务管理（ITSM）或工作场所服务经验",
+      "有 Service Portal 使用经验",
+      "拥有 ServiceNow 相关认证"
+    ]
+  },
+  "skillsRequired": [
+    "ServiceNow",
+    "JavaScript",
+    "Glide scripting",
+    "HTML",
+    "CSS",
+    "Angular",
+    "REST API",
+    "调试与平台监控",
+    "系统架构与数据可视化",
+    "敏捷开发与跨团队协作"
+  ],
+  "salary": [],
+  "benefits": [
+    "全面健康保险",
+    "现场健康与福利中心",
+    "退休储蓄计划",
+    "备份托儿服务",
+    "学费报销",
+    "心理健康支持与财务咨询"
+  ],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210605687/"
+}
