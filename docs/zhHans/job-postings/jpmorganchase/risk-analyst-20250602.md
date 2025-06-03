@@ -1,5 +1,5 @@
 ---
-title: risk-analyst 20250602
+title: Risk Analyst 20250602
 expired: false
 ---
 
