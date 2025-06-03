@@ -1,0 +1,39 @@
+{
+  "companyName": "Morgan Stanley",
+  "jobTitle": "Risk Analytics (Risk Management) - AI/ML Model Developer (Associate)",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计并开发 AI 应用程序以提升风控流程和风险洞察力",
+    "使用 Python 语言开发 AI/ML 模型，重点是 NLP 和 LLM（如 GPT-4）",
+    "与风控经理、模型审核人员和其他相关方协作",
+    "作为全球团队的一部分开展工作"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学、数学、统计、工程、数学金融或相关量化专业硕士或博士学位（或相关工作经验）",
+      "扎实的编程能力，熟练使用 Python",
+      "对 AI/ML 有浓厚兴趣并有相关经验",
+      "了解金融产品和金融概念",
+      "具备现代开发实践经验，如单元测试、CI/CD",
+      "战略思维，具备业务敏感度和问题解决能力",
+      "具备良好的英语沟通能力，可与技术及非技术人员顺畅合作"
+    ],
+    "preferredQualifications": [
+      "熟悉金融模型开发",
+      "有与风险建模或量化分析团队合作的经验"
+    ]
+  },
+  "salary": [
+    "USD 85,000 - 140,000 base salary (based on experience)"
+  ],
+  "benefits": [
+    "绩效奖金及其他激励计划",
+    "完整的健康与福利体系",
+    "国际化团队协作机会",
+    "广泛的职业成长与转岗机会"
+  ],
+  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549785139244?source=mscom"
+}
