@@ -1,0 +1,48 @@
+{
+  "companyName": "JPMorgan Chase",
+  "jobTitle": "Software Engineer",
+  "jobLocation": [
+    "USA, WA, Seattle"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计、开发和实施软件解决方案，解决业务问题",
+    "参与软件开发生命周期的各个环节，包括需求分析、架构标准集成、文档编写与模块开发",
+    "排查应用代码相关问题，参与代码审查确保解决方案符合架构规范",
+    "协助设计审查并优化数据流与设计方案",
+    "参与项目规划，与项目经理、业务分析师和团队成员合作分析业务需求并制定解决方案",
+    "执行生产支持，包括部署、监控与事件分析"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "硕士学位（计算机科学、信息技术或相关专业）+ 3 年相关经验"
+    ],
+    "preferredQualifications": []
+  },
+  "skillsRequired": [
+    "Java EE, Java, Python, Spring, Hibernate, Spring Boot, Spring Security",
+    "Eureka 服务发现, API Gateway, JWT",
+    "微服务架构设计与事件驱动设计模式",
+    "前端技术栈：JavaScript, Angular, React, NodeJS, jQuery, Typescript, HTML, CSS, XML",
+    "Apache Kafka, RabbitMQ, REST, JSON, Apache Tomcat",
+    "CI/CD 工具：Jenkins, Maven, Bitbucket, Git, Sonar",
+    "测试工具：JUnit, JMeter, Postman；测试方法包括自动化测试、BDD、性能测试等",
+    "监控工具：Dynatrace, Splunk, Grafana",
+    "异常处理：Pub/Sub、CQRS 模式与死信队列",
+    "SQL 与 Oracle 数据库开发和优化，Liquibase 脚本开发",
+    "云服务：Cloud Foundry，混合云环境迁移与架构优化",
+    "团队协作工具：JIRA, JIRA Align"
+  ],
+  "salary": [
+    "160,000 - 185,000 美元/年"
+  ],
+  "benefits": [
+    "全面健康保险",
+    "现场健康与福利中心",
+    "退休储蓄计划",
+    "备份托儿服务",
+    "学费报销",
+    "心理健康支持与财务咨询"
+  ],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210629157/"
+}
