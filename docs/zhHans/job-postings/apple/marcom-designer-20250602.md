@@ -1,5 +1,5 @@
 ---
-title: windows application developer 20250502
+title: junior designer, marcom designer 20250602
 expired: false
 ---
 

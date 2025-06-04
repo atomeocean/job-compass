@@ -1,0 +1,46 @@
+{
+  "companyName": "Discover",
+  "jobTitle": "Data Engineer (multiple openings)",
+  "jobLocation": [
+    "USA, IL, Riverwoods（需到办公室上班）"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "开发并调试具有复杂数据转换逻辑的数据集成解决方案",
+    "为其他团队成员提供技术指导",
+    "根据 Chapter Leads 指导推动团队达成目标",
+    "积极参与敏捷开发流程中的各项会议",
+    "可能允许远程办公（需符合公司政策）"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学、计算机工程或相关专业本科学历",
+      "3 年以上数据工程师相关岗位经验"
+    ],
+    "requiredSkills": [
+      "熟悉敏捷软件开发方法论",
+      "会使用 Jira 等敏捷管理工具",
+      "了解现代工程实践，包括 ETL 流程、敏捷交付和以产品为导向的团队文化",
+      "能编写 Shell 脚本以实现常规操作的自动化",
+      "具备将业务需求转化为技术实现方案的能力"
+    ]
+  },
+  "salary": [
+    "$106,558 - $150,200（基础年薪）",
+    "附加激励薪酬根据绩效及岗位级别确定"
+  ],
+  "benefits": [
+    "带薪育儿假",
+    "带薪年假",
+    "401(k) 退休计划",
+    "医疗、牙科、视力保险与健康储蓄账户",
+    "短期和长期伤残保险、寿险、意外伤害险",
+    "员工表彰奖励",
+    "教育援助",
+    "通勤补助",
+    "家庭支持计划",
+    "员工股票购买计划"
+  ],
+  "jobLink": "https://jobs.discover.com/jobs/r46058data-engineer-multiple-openings-ihm/",
+  "applicationDeadline": "2025-07-22"
+}
