@@ -1,6 +1,6 @@
 ---
 title: software development engineer 20250313
-expired: false
+expired: true
 ---
 
 # Amazon 招聘信息
