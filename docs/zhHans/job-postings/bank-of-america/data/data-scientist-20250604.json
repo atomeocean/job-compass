@@ -1,0 +1,60 @@
+{
+  "companyName": "Bank of America",
+  "jobTitle": "数据科学家 II - 图数据库平台 - 客户保护（Data Scientist II - Graph Data Platform - Client Protection）",
+  "jobLocation": [
+    "USA, NC, Charlotte",
+    "USA, TX, Plano",
+    "USA, VA, Richmond",
+    "其他地点可选"
+  ],
+  "jobPostedDate": "2025-05-15",
+  "jobType": "全职",
+  "workSchedule": {
+    "shift": "第 1 班次（美国）",
+    "hoursPerWeek": 40
+  },
+  "jobSummary": "负责构建可扩展的图分析模型和数据科学产品，打击欺诈网络，提升客户体验与风控能力。项目涉及高级数据分析、机器学习与图数据库开发，需与技术和业务团队紧密协作推动上线与落地。",
+  "jobResponsibilities": [
+    "执行大规模数据分析、趋势识别与图算法应用，驱动风控与决策",
+    "运用敏捷方法管理项目、开发与部署数据科学解决方案",
+    "编写并审阅技术文档，记录分析方案和业务需求",
+    "主导数据科学产品的开发、交付与质量管理，尤其关注图分析技术的产品化",
+    "对潜在欺诈网络进行图分析（Link Analysis）与算法优化，发现和抑制欺诈环",
+    "维护数据科学路线图，与技术平台团队和高管协作，推动生产环境部署",
+    "培训初级成员，分享技术经验，推动团队成长",
+    "与策略、产品、风控和科技团队协作，促进反欺诈效率和客户体验改进"
+  ],
+  "requiredQualifications": [
+    "至少 4 年数据科学或分析相关经验",
+    "熟悉图数据库（如 TigerGraph、Neo4J）及其查询语言",
+    "熟练掌握 SQL 及一种编程语言（SAS、Python 或 Java）",
+    "具备图算法开发与调优经验，能从复杂图结构中识别风险网络",
+    "具有项目管理和团队领导经验",
+    "良好的沟通与跨团队协作能力，具备影响高管的能力"
+  ],
+  "desiredQualifications": [
+    "STEM（科学、技术、工程、数学）相关硕士或博士学位",
+    "7 年以上经验，有金融服务、欺诈、风控或网络安全背景优先",
+    "深刻理解图数据库架构和图算法的应用",
+    "掌握高级机器学习方法，如神经网络、XGBoost 等",
+    "熟练使用 H2O 或同类平台进行建模",
+    "熟悉敏捷开发、版本控制、自动化测试与开发生命周期"
+  ],
+  "skills": [
+    "敏捷开发实践",
+    "应用开发",
+    "DevOps 实践",
+    "技术文档写作",
+    "人工智能/机器学习",
+    "业务分析",
+    "数据可视化",
+    "演讲与沟通技巧",
+    "风险管理",
+    "适应能力",
+    "协作精神",
+    "咨询能力",
+    "网络分析",
+    "政策和流程管理"
+  ],
+  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/25019702/data-scientist-ii-graph-data-platform-client-protection-multiple-locations-esomprank-dv0i7fljjh-2"
+}
