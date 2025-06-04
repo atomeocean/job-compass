@@ -1,0 +1,44 @@
+{
+  "companyName": "TD Bank",
+  "jobTitle": "Software Engineer II (US)",
+  "jobLocation": [
+    "USA, NJ, Mount Laurel"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计、开发和测试新功能以满足业务需求",
+    "参与代码审查、缺陷修复和小型增强功能的实施",
+    "编写并维护系统架构文档、操作说明和集成设计",
+    "与技术团队协作，推动 DevOps 自动化流程接入",
+    "分析技术需求，提出符合架构标准的解决方案",
+    "参与质量管理流程并确保上线部署的代码质量",
+    "在事件管理过程中提供技术支持与故障排查"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学或工程相关专业本科学位或以上学历",
+      "3-5 年相关开发或运维经验",
+      "具备 Azure 云平台开发经验",
+      "熟练掌握 GitHub Actions 等 DevOps 工具",
+      "能够独立承担中等到复杂的技术开发任务",
+      "了解系统安全、性能、可维护性等非功能性需求"
+    ],
+    "preferredQualifications": [
+      "具备私有或公有云部署架构设计经验",
+      "熟悉 DevOps 模式和持续集成/持续部署（CI/CD）流程",
+      "具备跨团队技术协作和系统整合经验"
+    ]
+  },
+  "salary": [
+    "$74,000 - $127,000（具体薪资视经验、技能与地点而定）"
+  ],
+  "benefits": [
+    "健康与医疗保险",
+    "带薪年假和节假日",
+    "退休储蓄计划",
+    "员工银行服务优惠",
+    "职业发展培训与导师支持",
+    "心理健康与福利计划"
+  ],
+  "jobLink": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/Software-Engineer-II--US-_R_1421346"
+}
