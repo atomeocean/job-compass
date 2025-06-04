@@ -1,0 +1,50 @@
+{
+  "companyName": "Bank of America",
+  "jobTitle": "数量金融分析师（Quantitative Financial Analyst）",
+  "jobLocation": [
+    "USA, NY, New York",
+    "USA, NC, Charlotte"
+  ],
+  "jobType": "全职",
+  "jobPostedDate": "2025-05-29",
+  "jobResponsibilities": [
+    "审计公司 AI 治理框架和流程",
+    "评估 AI 模型生命周期内各阶段（治理、开发、验证、监控、变更管理）的控制效果",
+    "审查模型开发分析及性能测试，评估模型方法的合理性、假设的准确性与测试完整性",
+    "评估 AI 模型验证流程，包括假设的合理性、模型限制以及独立测试分析的完整性",
+    "对管理层提出深刻质询，识别控制缺陷或优化空间，开展根本原因调查并撰写审计报告",
+    "与多个审计团队合作，确保涵盖公司各业务线模型使用情况",
+    "与模型利益相关方和高级管理层沟通审计结论和建议"
+  ],
+  "technicalSkills": [
+    "数据算法",
+    "数据分析、解释与决策支持",
+    "高管汇报写作",
+    "测试与审计文档",
+    "模型风险原则",
+    "技术风险原则",
+    "数据风险原则"
+  ],
+  "softSkills": [
+    "批判性思维",
+    "数量开发能力",
+    "风险分析与建模",
+    "技术文档撰写",
+    "适应能力",
+    "协作能力",
+    "问题解决能力",
+    "风险管理能力",
+    "测试工程能力",
+    "数据建模能力",
+    "趋势与数据分析",
+    "流程绩效评估",
+    "调研能力",
+    "书面沟通能力"
+  ],
+  "educationRequirement": "相关专业硕士学位或等效工作经验",
+  "workSchedule": {
+    "shift": "第 1 班次（美国）",
+    "hoursPerWeek": 40
+  },
+  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/25023399/quantitative-financial-analyst-multiple-locations"
+}
