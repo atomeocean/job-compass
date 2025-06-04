@@ -1,0 +1,34 @@
+{
+  "companyName": "Bank of America",
+  "jobTitle": "Quantitative Financial Analyst",
+  "jobLocation": [
+    "USA, NY, New York",
+    "USA, NC, Charlotte"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "负责审计公司整体及特定业务单位的人工智能（AI）风险管理工作",
+    "评估AI模型生命周期中的各项控制措施，包括AI风险评估、模型治理、开发、验证、持续监控和模型变更管理",
+    "审查模型开发分析和性能测试，评估模型方法的概念合理性、假设的合理性、测试的完整性与准确性",
+    "评估模型验证流程的有效性，并分析模型假设、限制条件和独立测试的合理性",
+    "向管理层提出深刻见解，识别控制缺陷或改进机会，开展根本原因调查并形成审计报告",
+    "与其他审计团队紧密合作，确保模型使用覆盖所有业务线和职能部门",
+    "与模型相关方和高管沟通审计评估结果"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "硕士学位或相关领域的同等工作经验",
+      "具备AI模型或量化模型的开发、验证或审计经验",
+      "良好的数据分析和模型测试能力，具备出色的书面沟通技巧"
+    ],
+    "preferredQualifications": [
+      "熟悉AI模型治理、模型风险管理原则和数据风险控制流程",
+      "具备跨部门协作经验和解决复杂问题的能力",
+      "掌握至少一种数据分析工具或语言，如Python、R或SQL"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/24016748/quantitative-financial-analyst-new-york-new-york-united-states"
+  "notes": ""
+}
