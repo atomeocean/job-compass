@@ -1,0 +1,36 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Data Engineer, P2 Science, Data, and Insights",
+  "jobLocation": [
+    "USA"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计和实现下一代数据管道和商业智能（BI）解决方案的架构",
+    "管理 AWS 资源，包括 EC2、RDS、Redshift、Kinesis、EMR、Lambda 等",
+    "构建和交付高质量的数据架构和数据管道，以支持业务分析师、数据科学家和客户报告的需求",
+    "与其他技术团队对接，从多种数据源中提取、转换和加载数据",
+    "持续改进现有的报告和分析流程，为客户提供自动化或简化的自助支持"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3年以上数据工程经验",
+      "具备数据建模、数据仓库建设和ETL管道构建经验",
+      "计算机相关学士学位"
+    ],
+    "preferredQualifications": [
+      "熟悉 AWS 技术，如 Redshift、S3、AWS Glue、EMR、Kinesis、FireHose、Lambda 及 IAM 权限管理",
+      "具有使用非关系型数据库/数据存储（如对象存储、文档或键值存储、图数据库、列式数据库）的经验"
+    ]
+  },
+  "salary": [
+    "$118,900 - $205,600 / year，根据地区、经验和能力浮动"
+  ],
+  "benefits": [
+    "股权激励",
+    "签约奖金（可能）",
+    "全套医疗、金融等福利，具体信息请访问 https://www.aboutamazon.com/workplace/employee-benefits"
+  ],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2995908/data-engineer-p2-science-data-and-insights",
+  "notes": "该岗位属于亚马逊定价与促销科学、数据与洞察团队，致力于构建智能定价系统并推动数据驱动决策。"
+}
