@@ -1,44 +1,33 @@
 {
   "companyName": "Bank of America",
-  "jobTitle": "Data Scientist II - Graph Data Platform - Client Protection",
+  "jobTitle": "Quantitative Financial Analyst",
   "jobLocation": [
-    "USA, NC, Charlotte",
-    "USA, TX, Plano",
-    "USA, VA, Richmond"
+    "USA, NY, New York",
+    "USA, NC, Charlotte"
   ],
   "jobType": "全职",
   "jobResponsibilities": [
-    "运用先进技术进行数据分析、趋势识别和模式发现，驱动业务决策",
-    "通过敏捷方法推动项目开发、部署与维护",
-    "撰写技术文档，记录业务需求及分析解决方案",
-    "独立和团队环境下完成高质量分析模型、报告与可视化交付物",
-    "向利益相关者清晰呈现技术概念和分析结果",
-    "保持对数据科学与人工智能领域前沿技术的了解",
-    "与技术团队合作，推动数据科学产品落地与可扩展部署",
-    "监督图分析模型的开发与调优，识别并缓解关联性强的欺诈网络",
-    "主导数据科学路线图的制定与多方协作项目的推进",
-    "辅导团队成员，分享技术与业务知识"
+    "负责审计公司整体及特定业务单位的人工智能（AI）风险管理工作",
+    "评估AI模型生命周期中的各项控制措施，包括AI风险评估、模型治理、开发、验证、持续监控和模型变更管理",
+    "审查模型开发分析和性能测试，评估模型方法的概念合理性、假设的合理性、测试的完整性与准确性",
+    "评估模型验证流程的有效性，并分析模型假设、限制条件和独立测试的合理性",
+    "向管理层提出深刻见解，识别控制缺陷或改进机会，开展根本原因调查并形成审计报告",
+    "与其他审计团队紧密合作，确保模型使用覆盖所有业务线和职能部门",
+    "与模型相关方和高管沟通审计评估结果"
   ],
   "candidateQualifications": {
     "basicQualifications": [
-      "4年以上数据分析或数据科学相关经验",
-      "熟悉图数据库（如TigerGraph、Neo4J）及图查询语言",
-      "精通SQL，并至少掌握SAS、Python或Java中的一种编程语言",
-      "具备优秀的问题解决能力，能在有限指导下完成复杂项目",
-      "具备跨职能团队合作与沟通影响能力",
-      "熟练处理结构化、半结构化、非结构化数据以及相关存储技术（如Hadoop、Kafka）"
+      "硕士学位或相关领域的同等工作经验",
+      "具备AI模型或量化模型的开发、验证或审计经验",
+      "良好的数据分析和模型测试能力，具备出色的书面沟通技巧"
     ],
     "preferredQualifications": [
-      "STEM专业硕士或博士学位",
-      "7年以上工作经验，尤其是在金融服务领域（如反欺诈、信用、网络安全等）",
-      "深入理解图算法与图数据库架构设计",
-      "熟悉高级机器学习算法，如神经网络、XGBoost等",
-      "使用H2O等高级分析工具的经验",
-      "具备项目管理能力，能制定技术路线图并推动落地实施",
-      "理解Agile开发模型和软件开发生命周期"
+      "熟悉AI模型治理、模型风险管理原则和数据风险控制流程",
+      "具备跨部门协作经验和解决复杂问题的能力",
+      "掌握至少一种数据分析工具或语言，如Python、R或SQL"
     ]
   },
   "salary": [],
   "benefits": [],
-  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/25019702/data-scientist-ii-graph-data-platform-client-protection-multiple-locations-esomprank-dv0i7fljjh-2"
+  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/24016748/quantitative-financial-analyst-new-york-new-york-united-states"
 }
