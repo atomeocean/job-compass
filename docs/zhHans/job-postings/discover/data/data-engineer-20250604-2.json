@@ -1,45 +1,46 @@
 {
-  "companyName": "Discover Financial Services",
-  "jobTitle": "Data Engineer (multiple openings)",
+  "companyName": "Discover（DFS Corporate Services LLC）",
+  "jobTitle": "数据工程师（多个岗位）",
   "jobLocation": [
-    "USA, IL, Riverwoods"
+    "USA, TX, Houston"
   ],
-  "jobType": "全职（Onsite）",
+  "jobType": "全职（办公室办公）",
   "jobResponsibilities": [
-    "开发并排查数据集成解决方案，涉及复杂的数据转换任务",
-    "为团队成员提供数据工程领域的技术指导",
-    "根据 Chapter Leads 的指导，协作达成团队承诺目标",
-    "积极参与敏捷开发相关会议和活动",
-    "可能符合公司远程办公政策（远程/居家）"
+    "开发和排查具有复杂数据转换逻辑的数据集成解决方案",
+    "为团队成员提供技术指导",
+    "在 Chapter Lead 的指导下推动团队完成承诺任务",
+    "积极参与敏捷会议和团队协作",
+    "可能根据公司政策允许远程或在家办公"
   ],
   "candidateQualifications": {
     "basicQualifications": [
-      "计算机科学、计算机工程或相关专业本科学历",
-      "至少 3 年相关工作经验"
+      "计算机科学、计算机工程或相关专业的学士学位",
+      "至少 3 年数据工程相关岗位经验"
     ],
     "requiredSkills": [
-      "熟悉敏捷开发方法",
-      "掌握 Jira 等敏捷项目管理工具",
-      "了解现代工程实践，如 ETL、敏捷交付、产品导向团队",
-      "具备 Shell 脚本编写经验",
-      "能够将业务需求转化为可执行的技术功能"
+      "使用 Kafka、Apache Spark、SQL、Java 和 NoSQL 开发实时和批处理数据摄取与流分析解决方案",
+      "实现数据血缘跟踪、质量检查和分类",
+      "掌握 Ab Initio、Unix、Kafka、Teradata、Git、MS SQL、Apache Spark 和 Oracle 等技术",
+      "使用 Spark 构建 ETL 实现诊断性、预测性和指令性分析解决方案",
+      "熟悉 Teradata 和 AWS 云端 ETL 框架"
     ]
   },
   "salary": [
-    "$106,558 - $150,200（依据经验、技能和地理位置）"
+    "$113,547 - $150,200（根据地区、经验、学历与技能调整）"
   ],
   "benefits": [
-    "带薪育儿假",
+    "带薪产假",
     "带薪休假",
-    "401(k) 退休储蓄计划",
-    "医疗、牙科、视力保险及健康储蓄账户（HSA）",
-    "短期与长期伤残险、人寿及意外伤害保险",
+    "401(k) 退休金计划",
+    "医疗、牙科、视力保险和健康储蓄账户",
+    "短期与长期残疾险、人寿保险、意外伤害保险",
     "员工表彰计划",
     "教育资助",
-    "通勤补贴",
+    "通勤福利",
     "家庭支持计划",
     "员工股票购买计划"
   ],
-  "jobLink": "https://jobs.discover.com/jobs/r46058data-engineer-multiple-openings-ihm/",
+  "jobLink": "https://jobs.discover.com/jobs/r47358data-engineer-multiple-openings-ihm/",
   "applicationDeadline": "2025-07-22"
 }
+
