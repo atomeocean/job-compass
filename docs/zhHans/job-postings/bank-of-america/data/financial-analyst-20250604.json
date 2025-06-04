@@ -1,50 +1,44 @@
 {
   "companyName": "Bank of America",
-  "jobTitle": "数量金融分析师（Quantitative Financial Analyst）",
+  "jobTitle": "Data Scientist II - Graph Data Platform - Client Protection",
   "jobLocation": [
-    "USA, NY, New York",
-    "USA, NC, Charlotte"
+    "USA, NC, Charlotte",
+    "USA, TX, Plano",
+    "USA, VA, Richmond"
   ],
   "jobType": "全职",
-  "jobPostedDate": "2025-05-29",
   "jobResponsibilities": [
-    "审计公司 AI 治理框架和流程",
-    "评估 AI 模型生命周期内各阶段（治理、开发、验证、监控、变更管理）的控制效果",
-    "审查模型开发分析及性能测试，评估模型方法的合理性、假设的准确性与测试完整性",
-    "评估 AI 模型验证流程，包括假设的合理性、模型限制以及独立测试分析的完整性",
-    "对管理层提出深刻质询，识别控制缺陷或优化空间，开展根本原因调查并撰写审计报告",
-    "与多个审计团队合作，确保涵盖公司各业务线模型使用情况",
-    "与模型利益相关方和高级管理层沟通审计结论和建议"
+    "运用先进技术进行数据分析、趋势识别和模式发现，驱动业务决策",
+    "通过敏捷方法推动项目开发、部署与维护",
+    "撰写技术文档，记录业务需求及分析解决方案",
+    "独立和团队环境下完成高质量分析模型、报告与可视化交付物",
+    "向利益相关者清晰呈现技术概念和分析结果",
+    "保持对数据科学与人工智能领域前沿技术的了解",
+    "与技术团队合作，推动数据科学产品落地与可扩展部署",
+    "监督图分析模型的开发与调优，识别并缓解关联性强的欺诈网络",
+    "主导数据科学路线图的制定与多方协作项目的推进",
+    "辅导团队成员，分享技术与业务知识"
   ],
-  "technicalSkills": [
-    "数据算法",
-    "数据分析、解释与决策支持",
-    "高管汇报写作",
-    "测试与审计文档",
-    "模型风险原则",
-    "技术风险原则",
-    "数据风险原则"
-  ],
-  "softSkills": [
-    "批判性思维",
-    "数量开发能力",
-    "风险分析与建模",
-    "技术文档撰写",
-    "适应能力",
-    "协作能力",
-    "问题解决能力",
-    "风险管理能力",
-    "测试工程能力",
-    "数据建模能力",
-    "趋势与数据分析",
-    "流程绩效评估",
-    "调研能力",
-    "书面沟通能力"
-  ],
-  "educationRequirement": "相关专业硕士学位或等效工作经验",
-  "workSchedule": {
-    "shift": "第 1 班次（美国）",
-    "hoursPerWeek": 40
+  "candidateQualifications": {
+    "basicQualifications": [
+      "4年以上数据分析或数据科学相关经验",
+      "熟悉图数据库（如TigerGraph、Neo4J）及图查询语言",
+      "精通SQL，并至少掌握SAS、Python或Java中的一种编程语言",
+      "具备优秀的问题解决能力，能在有限指导下完成复杂项目",
+      "具备跨职能团队合作与沟通影响能力",
+      "熟练处理结构化、半结构化、非结构化数据以及相关存储技术（如Hadoop、Kafka）"
+    ],
+    "preferredQualifications": [
+      "STEM专业硕士或博士学位",
+      "7年以上工作经验，尤其是在金融服务领域（如反欺诈、信用、网络安全等）",
+      "深入理解图算法与图数据库架构设计",
+      "熟悉高级机器学习算法，如神经网络、XGBoost等",
+      "使用H2O等高级分析工具的经验",
+      "具备项目管理能力，能制定技术路线图并推动落地实施",
+      "理解Agile开发模型和软件开发生命周期"
+    ]
   },
-  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/25023399/quantitative-financial-analyst-multiple-locations"
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/25019702/data-scientist-ii-graph-data-platform-client-protection-multiple-locations-esomprank-dv0i7fljjh-2"
 }
