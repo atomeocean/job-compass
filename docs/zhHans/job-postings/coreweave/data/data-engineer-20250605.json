@@ -1,0 +1,51 @@
+{
+  "companyName": "CoreWeave",
+  "jobTitle": "Senior Data Engineer, Analytics",
+  "jobLocation": [
+    "USA, NJ, Livingston",
+    "USA, NY, New York",
+    "USA, CA, Sunnyvale",
+    "USA, WA, Bellevue"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "开发并维护支持组织分析需求的数据模型，包括星型和雪花模式",
+    "在Lakehouse架构中建立并推动维度建模最佳实践",
+    "使用Iceberg、Parquet、Avro、ORC等格式构建和优化数据存储",
+    "与BI、分析和数据科学团队合作，设计准确反映业务指标的数据集",
+    "优化MPP数据库（如StarRocks、Snowflake、BigQuery、Redshift）中的数据性能",
+    "使用Airflow管理数据工作流，构建分析型数据管道",
+    "通过Spark或Flink等分布式计算框架实现高效处理大规模数据集"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "具备在复杂、高速工作环境中解决问题的能力",
+      "拥有5年以上Python或Scala编程经验",
+      "具备高级SQL技能，能编写、优化和调试复杂查询",
+      "熟练掌握Airflow与Spark或Flink等分布式计算框架",
+      "具备Kimball建模经验，能处理大规模数据集",
+      "熟悉Iceberg、Parquet、Avro、ORC等分析性文件格式",
+      "精通MPP数据库优化（如StarRocks、Snowflake、BigQuery、Redshift）",
+      "无需公司当前或未来的工作签证赞助"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$175,000-$205,000 基础年薪",
+    "包含股票期权与绩效奖金"
+  ],
+  "benefits": [
+    "公司100%承担的医疗、牙科和视力保险",
+    "公司支付的人寿保险和残疾保险",
+    "灵活支出账户与健康储蓄账户",
+    "心理健康福利（Spring Health）",
+    "生育支持（Carrot）与带薪育儿假",
+    "Kinside提供的灵活儿童看护支持",
+    "401(k)计划与公司匹配",
+    "灵活带薪休假（PTO）",
+    "每日免费午餐（适用于办公室）",
+    "学费报销计划"
+  ],
+  "jobLink": "https://coreweave.com/careers/job?gh_jid=4419444006&board=coreweave",
+  "notes": "此岗位支持混合办公模式，30英里外候选人可申请远程。"
+}
