@@ -1,0 +1,33 @@
+{
+  "companyName": "Apple",
+  "jobTitle": "Data Scientist",
+  "jobLocation": [
+    "USA, TX, Austin"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "开发并实施数据科学技术或分析应用程序，将原始数据转化为有意义的信息",
+    "使用Python进行数据清洗、建模、可视化和机器学习模型训练",
+    "使用SQL创建数据模型，使用Tableau构建交互式仪表板",
+    "进行统计分析和假设检验，构建预测性和解释性模型",
+    "运用NLP和推荐系统处理文本数据，执行情感分析、文本分类等任务",
+    "与其他团队合作，定义数据问题并构建数据解决方案",
+    "将数据科学成果推广至更广泛组织，提供最佳实践指导"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "商业分析、数据科学、商业智能、统计学、应用数学或相关专业硕士及以上学历",
+      "3年以上相关岗位经验",
+      "精通Python进行数据处理和机器学习建模",
+      "熟练使用Tableau构建复杂可视化图表",
+      "熟练使用SQL进行复杂查询和数据建模",
+      "具备NLP（如TF-IDF、BERT）和推荐系统开发经验",
+      "具备统计建模与分析能力，能够使用各种假设检验方法"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://jobs.apple.com/en-ie/details/200604141/data-scientist?team=SFTWR",
+  "notes": ""
+}
