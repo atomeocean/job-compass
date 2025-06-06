@@ -1,0 +1,51 @@
+{
+  "companyName": "Oculus Studios and Sanzaru Games",
+  "jobTitle": "Software Engineer - Oculus Studios Central Technology",
+  "jobLocation": [
+    "USA, CA, Burlingame",
+    "Remote, US"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与 Oculus Studios 技术总监直接合作，确定多年度的优先事项和技术目标",
+    "在动态开发环境中实现一致且可追踪的系统，以支持第一方开发者",
+    "与 Oculus 合作伙伴建立并维护技术代表关系，向其他团队传达开发者影响",
+    "根据需要在多种开发环境中工作，如 C++、C#、Python、Hack、JavaScript、Unity、Unreal、Visual Studio、Rider 等",
+    "通过文档、示例代码、演示材料等方式在 Oculus Studios 内部推广技术知识"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "8年以上学习新技术、新语言和Meta特定解决方案的经验",
+      "5年以上沉浸式媒体或游戏开发经验",
+      "5年以上在 Unreal、Unity 或原生引擎上的开发经验",
+      "精通 C/C++/C# 编程，具备3D娱乐或游戏项目背景",
+      "具备广泛的游戏开发或企业级基础设施知识",
+      "能与跨职能团队合作，推动产品实现"
+    ],
+    "preferredQualifications": [
+      "曾发布 AAA 游戏或大型企业级解决方案",
+      "8年以上开发和维护游戏或企业级开发基础设施的经验",
+      "熟悉 GraphQL、Graph API、Ent Framework 等通用框架",
+      "具有大型分布式环境中的全栈开发经验",
+      "熟悉使用 Hack、JavaScript、React 构建面向用户的工具",
+      "具备主动报警、监控和产品指标等可支持性方案的构建经验",
+      "熟悉主要云服务提供商（如 AWS、Azure 等）",
+      "有分布式计算平台工作经验",
+      "计算机科学或工程专业学士及以上学历"
+    ]
+  },
+  "salary": [
+    "年薪范围：$177,000 - $251,000",
+    "另含奖金、股票和福利"
+  ],
+  "benefits": [
+    "全方位健康保险",
+    "股票期权",
+    "年终奖金",
+    "远程办公选项",
+    "员工学习与发展资源",
+    "多样性与包容性政策支持"
+  ],
+  "jobLink": "https://www.metacareers.com/jobs/632072843171081/",
+  "notes": "该职位为 Oculus Studios Central Technology 团队招聘，重点是支持第一方工作室并提供共用技术支持。职位开放远程选项。"
+}
