@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "F5, Inc.",
+    "location": {
+      "addressLine1": "801 5th Ave",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "Seattle",
+      "state": "WA",
+      "zipCode": "98104"
+    },
+    "contact": {
+      "phone": "(206) 272-5555",
+      "email": "",
+      "website": "https://www.f5.com",
+      "linkedin": "https://www.linkedin.com/company/f5"
+    },
+    "industry": ["应用安全", "多云管理", "网络安全"],
+    "foundedYear": "1996",
+    "description": "F5, Inc. 是一家总部位于华盛顿州西雅图的科技公司，专注于应用安全、多云管理和网络安全解决方案。公司最初以提供应用交付控制器（ADC）技术而闻名，现已扩展到应用层自动化、多云和安全服务领域。F5 的产品和服务旨在确保应用程序的可用性、安全性和性能，帮助企业在复杂的 IT 环境中实现高效运营。",
+    "mainProductsOrServices": [
+      "应用交付控制器（ADC）",
+      "Web 应用防火墙（WAF）",
+      "多云管理平台",
+      "API 安全解决方案",
+      "网络访问控制和授权服务"
+    ],
+    "companySize": "5000 - 10000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-06-06"
+  }
+}
