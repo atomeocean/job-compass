@@ -1,0 +1,45 @@
+{
+  "companyName": "Motorola Solutions",
+  "jobTitle": "Software Engineer",
+  "jobLocation": ["Somerville, MA"],
+  "jobType": "Full time",
+  "jobResponsibilities": [
+    "设计、实现、评估和维护计算机视觉与机器学习算法，包括目标检测与跟踪",
+    "为实时嵌入式 Linux 设备、服务器和云端编写 C++ 代码",
+    "与研究科学家和软件工程师合作，将这些算法和技术推向商业部署",
+    "设计、开发和维护用于构建和测试深度学习与计算机视觉解决方案的工具",
+    "评审同伴的代码，以确保其符合编码标准和设计指南",
+    "编写详细说明算法设计并报告实验结果的技术文档资料"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "学士学位，且具备 3 年以上软件开发/工程经验",
+      "并且拥有 2 年以上 C++ 实际开发经验",
+      "并且拥有 1 年以上图像/视频处理或计算机视觉领域经验",
+      "2年以上在基于Linux的系统上进行C++开发的经验",
+      "具有Python脚本编写的经验",
+      "扎实的软件设计和开发技能；编写生产质量代码的能力",
+      "具有面向对象设计和多线程软件开发的经验",
+      "熟悉嵌入式系统"
+    ],
+    "preferredQualifications": [
+      "具有人工智能/机器学习技术的经验",
+      "具备在快节奏的敏捷开发环境中进行多任务处理并蓬勃发展的能力",
+      "具备关于图像和视频处理的知识，包括目标检测、分类与跟踪",
+      "对操作系统概念的理解及经过验证的能力：进程、线程、互斥锁、中断处理和异常处理",
+      "关于统计学、线性代数和数学优化中基础概念的知识"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "激励奖金计划",
+    "医疗、牙科、视力福利",
+    "401K退休计划",
+    "10天带薪假期",
+    "带薪休假包",
+    "员工股票购买计划",
+    "带薪育儿和家庭假"
+  ],
+  "jobLink": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/details/Software-Engineer--Somerville-Hybrid-_R55582",
+  "notes": "候选人必须每周两次在萨默维尔（Somerville）办公室办公"
+}
