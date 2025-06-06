@@ -1,0 +1,44 @@
+{
+  "companyName": "Mapbox",
+  "jobTitle": "Machine Learning Engineer II, Search Data",
+  "jobLocation": [
+    "USA (Remote)"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "处理全球地址、地点和兴趣点（POI）数据，用于搜索和导航应用",
+    "开发并维护ETL数据管道以支持搜索引擎使用的结构化数据",
+    "使用地理空间数据集（地址、路网、建筑物、POI）提出假设并开发机器学习模型",
+    "运行并部署实验，监控并维护上线的ML模型",
+    "实现自动质量指标，确保持续交付高质量数据",
+    "指导其他工程师，参与设计和代码审查"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "5年以上机器学习模型在生产环境中的工作经验",
+      "具备科学思维方式，能提出数据驱动的假设并设计实验进行验证",
+      "熟悉AWS技术（如Glue、EMR）",
+      "精通SQL",
+      "至少掌握一门现代编程语言（如Python、Scala或Java）",
+      "熟悉PySpark",
+      "能够通过API集成和查询数据"
+    ],
+    "preferredQualifications": [
+      "具备地理空间数据分析和处理经验",
+      "具备构建和维护数据管道的经验",
+      "具备自然语言处理（NLP）经验"
+    ]
+  },
+  "salary": [
+    "$167,450 - $226,550 年薪（大多数美国地区）",
+    "在高成本地区高出5%-10%"
+  ],
+  "benefits": [
+    "健康医疗福利",
+    "带薪育儿假",
+    "远程办公灵活性",
+    "多元化和包容性工作环境"
+  ],
+  "jobLink": "https://jobs.ashbyhq.com/mapbox/afcc9af9-b4c2-40fd-8dde-7257c2d914f1",
+  "notes": "#LI-Remote；职位需处理大规模地理空间数据，支持生产级ML模型开发与部署"
+}
