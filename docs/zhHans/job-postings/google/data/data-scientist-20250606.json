@@ -1,0 +1,30 @@
+{
+  "companyName": "Google",
+  "jobTitle": "Data Scientist, Product, Googler Technology and Engineering",
+  "jobLocation": [
+    "India, Telangana, Hyderabad"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "通过前瞻性的数据分析和洞察提供领导力，推动组织中的决策与协同",
+    "参与问题定义、指标开发、数据提取与处理、可视化、模型构建及向利益相关者展示结果",
+    "定义和报告关键绩效指标（KPIs），并在定期业务审查中评估产品发布的影响",
+    "设计和开发机器学习模型，以解决Google企业支持领域的业务问题，与工程团队合作测试和部署生成式AI模型",
+    "审阅他人完成的分析和商业案例，并提供反馈"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "统计学、数学、数据科学、工程、物理、经济学或相关定量领域的学士学位",
+      "5年数据分析（包括洞察提取、统计分析或业务问题解决）和编程经验（Python、R、SQL），或硕士学历并具备2年相关经验"
+    ],
+    "preferredQualifications": [
+      "机器学习、统计或相关领域的硕士学位或同等经验",
+      "具备从构思到实施和维护的完整机器学习产品生命周期经验",
+      "具有将机器学习和高级分析解决方案应用于企业运营团队的经验"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://www.google.com/about/careers/applications/jobs/results/108345846696682182-data-scientist-product-googler-technology-and-engineering?q=data",
+  "notes": ""
+}
