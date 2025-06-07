@@ -1,0 +1,40 @@
+{
+  "companyName": "CarGurus",
+  "jobTitle": "Data Analytics Engineer II",
+  "jobLocation": [
+    "USA, MA, Boston"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计、构建并维护可扩展、可靠的数据模型，使用 dbt、Snowflake、Looker 和 Python 等工具",
+    "与数据分析师和业务方合作，将模糊的问题转化为结构化的数据解决方案",
+    "编写模块化、可测试的代码，并通过协作开发流程进行版本控制和代码审查",
+    "参与改进数据基础设施、数据质量和数据素养的组织性项目",
+    "识别并推动新的技术或分析方法，提升洞察力和工作效率",
+    "在数据建模和代码规范方面为他人提供指导和最佳实践分享"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "2–5年数据分析工程、数据工程或相关岗位经验",
+      "精通 SQL，具备使用 Snowflake 或类似云数据仓库的经验",
+      "熟悉 dbt 或其他数据建模框架及现代数据开发流程（版本控制、CI/CD、测试）",
+      "熟练使用 Python 进行数据处理或脚本编写",
+      "具备产品思维，关注最终用户价值"
+    ],
+    "preferredQualifications": [
+      "具备 Looker 或其他语义建模工具经验",
+      "理解软件工程原则，如抽象、模块化和测试",
+      "接触过 Airflow、GitHub Actions 或 Terraform 等工具",
+      "有快速增长的科技公司或双边市场的工作经验"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "员工股权激励计划（入职即享，并可持续追加）",
+    "弹性混合办公模式，健全的休假政策",
+    "免费每日午餐、新车购买折扣、冥想和健身 App 订阅、通勤费用报销等福利",
+    "员工资源小组（ERGs）和职业发展支持"
+  ],
+  "jobLink": "https://careers.cargurus.com/us/en/job/6926656/Data-Analytics-Engineer-II",
+  "notes": "Hybrid 岗位，强调跨部门协作与技术深度"
+}

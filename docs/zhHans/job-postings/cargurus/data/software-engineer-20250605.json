@@ -1,0 +1,36 @@
+{
+  "companyName": "CarGurus",
+  "jobTitle": "Software Engineer II, Consumer",
+  "jobLocation": [
+    "USA, MA, Boston"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "改善搜索体验并优化性能，服务于数百万用户和车辆数据。",
+    "保障Autolist关键应用的生产支持，快速响应并解决高优先级问题。",
+    "探索AI新技术，提升搜索体验与智能化水平。",
+    "与数据科学、数据工程及服务团队合作，开发高效数据管道以实现Autolist与CarGurus的数据共享。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3-5年开发经验",
+      "熟练掌握Java编程语言",
+      "了解PostgreSQL或类似关系型数据库",
+      "具备良好的数据结构、算法和复杂度分析能力",
+      "具备缓存策略和性能优化方面的实践经验"
+    ],
+    "preferredQualifications": [
+      "熟悉Elasticsearch",
+      "了解或有Ruby开发经验"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "全员持股计划（包括入职时及成长阶段）",
+    "灵活混合办公模式与充足假期制度",
+    "免费每日午餐、新车折扣、冥想健身App、通勤补贴等个性化福利",
+    "职业发展、企业捐赠计划与员工资源组支持"
+  ],
+  "jobLink": "https://careers.cargurus.com/us/en/job/6752166/Software-Engineer-II-Consumer",
+  "notes": ""
+}
