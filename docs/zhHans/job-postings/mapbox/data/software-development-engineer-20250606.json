@@ -1,0 +1,44 @@
+{
+  "companyName": "Mapbox",
+  "jobTitle": "Software Development Engineer II, Automotive Integration",
+  "jobLocation": [
+    "USA, TX, Dallas (Hybrid)"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与汽车客户合作，理解需求并进行嵌入式平台集成开发",
+    "通过收集客户设备KPI指标，监控产品性能并优化SDK使用",
+    "编写高效的C++代码，实现数据集成和定制化导航功能",
+    "使用调试与性能分析技术优化嵌入式导航体验",
+    "与内部开发团队合作，确保API设计与硬件平台的兼容性",
+    "诊断并解决与客户、合作伙伴之间的技术集成问题",
+    "改进产品的性能、稳定性和可维护性"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "精通C++编程语言，具备Shell Script、JavaScript或Python脚本经验",
+      "熟悉CMake、Gradle或Ninja构建系统",
+      "具备Yocto或Docker等自动化环境经验",
+      "良好的沟通能力，能与分布式团队和客户协作",
+      "有软件开发和客户合作经验，注重性能优化",
+      "能够在Android或Linux嵌入式平台上进行开发和调试"
+    ],
+    "preferredQualifications": [
+      "了解AGL、AOSP或Android Automotive等汽车操作系统",
+      "熟悉汽车CAN总线通信",
+      "具备X11、Wayland等窗口管理经验",
+      "有Qt或Flutter跨平台工具开发经验",
+      "具有构建开发框架或工具链的经验"
+    ]
+  },
+  "salary": [
+    "$157,675 - $213,325/year (may be 5%-10% higher in high cost locations)"
+  ],
+  "benefits": [
+    "灵活办公与健康保障",
+    "产假/育儿假与工作生活平衡支持",
+    "学习成长支持、平等包容的团队文化"
+  ],
+  "jobLink": "https://jobs.ashbyhq.com/mapbox/acc930b1-8f95-490a-a526-086061d4d17e",
+  "notes": "候选人优先位于达拉斯或周边地区，需不定期到客户现场办公"
+}
