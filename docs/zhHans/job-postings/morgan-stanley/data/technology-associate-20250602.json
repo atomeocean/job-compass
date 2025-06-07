@@ -1,0 +1,38 @@
+{
+  "companyName": "Morgan Stanley",
+  "jobTitle": "Associate, Technology",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "开发和支持用于超低延迟算法交易和订单管理系统的技术解决方案",
+    "与业务合作伙伴和产品支持团队沟通以理解系统需求",
+    "执行系统分析、设计、开发、测试和上线工作",
+    "开发系统以接收来自不同系统的订单并将其转换为符合交易所的格式",
+    "编写单元测试并使用 Python 自动化测试用例",
+    "参与代码评审、质量保证测试，并向客户演示成果"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "至少两年相关技术岗位经验（如 Associate 或相关职位）",
+      "熟练掌握：C/C++、Python、JavaScript、Java、Haskell、HTML5、CSS3、SQL",
+      "掌握完整前端与后端开发栈：Flask、FastAPI、Node.js、Angular",
+      "具备电子算法交易系统开发与支持经验",
+      "了解 TCP/IP、winsock、UNIX/Linux 系统",
+      "熟悉敏捷开发方法 SCRUM",
+      "熟练使用：GHEC、Jenkins、JIRA、MongoDB、Docker、Podman、JFrog、TypeScript、Premake/Bazel、Shell、Perl"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "USD 155,000 base salary"
+  ],
+  "benefits": [
+    "有竞争力的奖金和激励计划",
+    "全面的员工福利和津贴",
+    "弹性远程办公（每周可远程工作最多2天）",
+    "员工职业发展与跨部门流动机会"
+  ],
+  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549782979495?source=mscom"
+}

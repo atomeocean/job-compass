@@ -1,0 +1,45 @@
+{
+  "companyName": "Morgan Stanley",
+  "jobTitle": "Software Engineer Java/React - Associate - P3",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "开发和支持客户可访问的网页与应用程序",
+    "负责编码、测试和调试应用程序",
+    "评估新软件项目并提供技术建议",
+    "参与软件架构、设计及整个软件开发生命周期（SDLC）",
+    "对其他开发团队提供技术支持和设计指导",
+    "负责小型或中型应用系统的交付"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "4年以上 Java 开发经验，精通 Core Java、Spring、Spring Boot、Spring Integration",
+      "熟悉 React、JavaScript、AJAX、jQuery 等前端技术",
+      "具备使用 SOAP 和 REST 构建 Web 服务的经验",
+      "具备 ORM、JDBC、SQL、Sybase 或 Oracle 的经验",
+      "了解服务导向架构 (SOA)、对象导向编程、设计模式",
+      "熟悉 Eclipse/JDeveloper、Tomcat、Maven、Subversion、Make",
+      "拥有金融或财富管理领域的应用开发经验（5+年优先）",
+      "具备高可用、高性能系统的设计经验",
+      "能胜任与全球团队跨时区合作的工作模式"
+    ],
+    "preferredQualifications": [
+      "熟悉移动端网页开发",
+      "具有 Web 信息架构与分类设计经验",
+      "有良好的沟通能力和分析能力",
+      "能自我驱动并管理多个项目"
+    ]
+  },
+  "salary": [
+    "USD 120,000 - 160,000 base salary (based on experience)"
+  ],
+  "benefits": [
+    "奖金和激励计划",
+    "全面的健康和员工福利",
+    "工作与生活平衡的文化",
+    "员工职业成长与发展机会"
+  ],
+  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549785026503?source=mscom"
+}
