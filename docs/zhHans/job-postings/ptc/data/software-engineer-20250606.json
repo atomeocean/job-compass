@@ -1,0 +1,35 @@
+{
+  "companyName": "PTC",
+  "jobTitle": "Software Engineer in Test",
+  "jobLocation": [
+    "USA, MA, Boston"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与研发团队密切合作，设计、实现、调试并维护QA自动化基础设施",
+    "协助研发团队扩展测试覆盖范围和适用性",
+    "使用Java、JUnit、Gradle等Java生态系统框架扩展和支持自动化测试框架",
+    "构建和维护用于运行和分类测试的内部工具"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学学士学位或同等经验",
+      "具备编写和维护单元测试、集成测试和端到端测试的经验",
+      "熟悉Java测试框架，如JUnit、TestNG、Mockito等",
+      "熟悉持续集成环境，如Jenkins、GitHub Actions、GitLab、CircleCI等",
+      "注重细节，具备独立评估进度并完成任务的能力",
+      "具备良好的沟通和报告能力（口头与书面），能与他人协作"
+    ],
+    "preferredQualifications": [
+      "2年以上通过自动化测试软件的经验",
+      "有使用异步技术的经验",
+      "有使用分布式技术的经验",
+      "熟悉RESTful API",
+      "了解几何建模内核和变分求解器"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://careers.ptc.com/careers/job/137466995740",
+  "notes": ""
+}
