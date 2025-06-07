@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Motorola Solutions, Inc.",
+    "location": {
+      "addressLine1": "500 W Monroe St",
+      "addressLine2": "",
+      "county": "Cook County",
+      "cityOrTown": "Chicago",
+      "state": "IL",
+      "zipCode": "60661"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.motorolasolutions.com",
+      "linkedin": "https://www.linkedin.com/company/motorola-solutions"
+    },
+    "industry": ["电信设备", "视频安全", "公共安全技术"],
+    "foundedYear": "1928",
+    "description": "Motorola Solutions 是一家总部位于伊利诺伊州芝加哥的科技公司，专注于为全球公共安全和企业客户提供任务关键型通信解决方案。公司提供包括对讲机、视频监控系统、指挥中心软件以及托管和支持服务等产品，致力于提升公共安全机构和企业的通信效率和安全性。",
+    "mainProductsOrServices": [
+      "任务关键型通信设备（如对讲机）",
+      "视频安全与访问控制系统",
+      "指挥中心软件解决方案",
+      "托管与支持服务"
+    ],
+    "companySize": "约 21,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-06-05"
+  }
+}
