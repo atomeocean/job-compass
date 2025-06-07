@@ -1,0 +1,42 @@
+{
+  "companyName": "Google",
+  "jobTitle": "Data Engineer, Revenue Platforms",
+  "jobLocation": [
+    "USA, IL, Chicago"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与跨职能团队合作，设计并维护数据管道和系统。",
+    "与内部团队合作实施数据解决方案，提升财务和报告流程。",
+    "使用编程语言（如 SQL、PLX、Python）编写可读性强、结构良好的代码，开发并维护支持数据可视化、分析和报告的数据模型与管道。",
+    "遵循最高开发标准，包括技术设计、解决方案开发、测试和问题解决。",
+    "深入了解 Google 的基础设施、数据结构及其对财务业务流程的影响。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "工程、计算机科学或相关领域的学士学位，或具备同等的实际经验",
+      "3年或以上使用一种或多种编程语言（如 Python、Java、C/C++）的经验",
+      "3年或以上设计数据管道（ETL）并进行系统集成的数据建模经验",
+      "3年或以上分析数据、数据库查询（如 SQL）和创建仪表板/报告的经验"
+    ],
+    "preferredQualifications": [
+      "工程、计算机科学或相关领域的硕士学位，或具备同等的实际经验",
+      "3年或以上与用户、合作伙伴或客户进行沟通和管理利益相关者的经验",
+      "具备 JavaScript 和 Web 应用开发经验，包括前端框架（如 Angular、React、Polymer）或云架构下的后端服务开发经验",
+      "熟悉核心 Web 技术（如 HTTP、TCP/IP、HTML、CSS、XML）",
+      "了解机器学习，包括数据准备、模型选择、性能评估和参数调整",
+      "对开发/分析复杂数据集并将其转化为业务洞察充满热情"
+    ]
+  },
+  "salary": [
+    "$124,000-$178,000 base salary",
+    "另含奖金、股权和福利"
+  ],
+  "benefits": [
+    "奖金",
+    "股权激励",
+    "公司福利（详情可见官网）"
+  ],
+  "jobLink": "https://www.google.com/about/careers/applications/jobs/results/121558676853924550-data-engineer-revenue-platforms?q=data",
+  "notes": ""
+}
