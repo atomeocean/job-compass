@@ -1,0 +1,39 @@
+{
+  "companyName": "McKinsey & Company",
+  "jobTitle": "Analyst - Risk & Resilience",
+  "jobLocation": [
+    "USA, MA, Boston",
+    "USA, NY, New York City"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "构建统计模型并完成定量分析，包括回归、机器学习、模拟等方法，以提升客户的风险管理决策水平",
+    "开发和验证信用风险、压力测试、现金流建模和对冲等模型",
+    "编写脚本（如SAS）以改进风险管理决策支持系统",
+    "参与客户项目，与团队协作解决复杂的业务问题并开发潜在解决方案",
+    "促进客户数据的整合和管理，贡献于McKinsey数据分析团队的知识建设",
+    "将复杂建模技术与战略决策过程相结合"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "数学、统计学、计算金融、经济学、计算机科学或相关领域硕士学位",
+      "1年以上定量建模相关经验，使用Python、R等工具解决实际问题",
+      "熟悉金融数学（如随机微积分、概率论、定价模型），具备Matlab、C++、R、VBA等实操经验",
+      "具备较强的批判性思维和沟通能力，能将技术内容转化为非技术受众易于理解的形式"
+    ],
+    "preferredQualifications": [
+      "了解VaR（历史法、参数法、蒙特卡洛法）、EOD/盘中估值、压力测试与情景分析",
+      "熟悉现代科学编程语言，如TensorFlow、Spark、Java、C#等，有SQL/SAS经验者优先",
+      "具备应对紧迫项目和快速变化的能力，善于团队协作并能适应客户差旅"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "具有竞争力的薪资",
+    "医疗、牙科、心理健康和视力保险，适用于员工及其配偶/伴侣和子女",
+    "全球学习与指导项目，推动职业成长",
+    "多元化国际团队合作机会"
+  ],
+  "jobLink": "https://www.mckinsey.com/careers/search-jobs/jobs/analyst-riskresilience-94186",
+  "notes": "属于McKinsey全球Risk & Resilience团队，专注于风险分析、建模和决策支持系统开发"
+}

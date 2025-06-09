@@ -1,0 +1,40 @@
+{
+  "companyName": "McKinsey & Company",
+  "jobTitle": "Data Scientist II - Agriculture Analytics (Machine Learning/Geospatial)",
+  "jobLocation": [
+    "USA, CO, Denver"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与农业分析团队（ACRE）合作，为农业企业客户提供地理空间和预测类数据分析支持",
+    "将实时数据和先进算法应用于农业市场中的复杂问题，如作物适宜性评估、市场潜力预测和产量预测",
+    "为客户项目提供数据科学支持，并参与团队内部核心算法和产品开发",
+    "处理全球性农业数据（如地理空间、生物、经济和气候数据）开发专有解决方案",
+    "与工程师合作设计新界面，以更快速有效地交付洞察",
+    "在客户现场提供服务（差旅可达50%）"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "拥有数据科学、计算机科学、农学、GIS、环境科学等相关专业的学士或硕士学位",
+      "具备使用Python构建高效工作流的能力，能与团队协同开发",
+      "具备机器学习和数据科学方法应用于实际问题（农业领域优先）的经验",
+      "具备地理空间分析、遥感、图像处理等经验",
+      "具备良好的分析和问题解决能力、沟通能力及项目多任务处理能力"
+    ],
+    "preferredQualifications": [
+      "有作物科学、农艺、畜牧科学背景或产量预测相关经验",
+      "具备版本控制、数据可视化（如Power BI、Tableau）和敏捷开发经验",
+      "具备高强度环境下自我管理能力，适应快速变化的优先级"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "竞争力薪酬（依地区、经验与技能而定）",
+    "全面的医疗、牙科、视力、心理健康保险，涵盖配偶和子女",
+    "结构化培训与导师指导",
+    "全球多元文化同事环境",
+    "快速成长和全球出差机会"
+  ],
+  "jobLink": "https://www.mckinsey.com/careers/search-jobs/jobs/datascientistii-agricultureanalyticsmachinelearninggeospatial-95364",
+  "notes": "此职位隶属农业实践部门 ACRE，重视机器学习与地理空间分析技能，建议申请人提交一封cover letter突出个人匹配度。"
+}
