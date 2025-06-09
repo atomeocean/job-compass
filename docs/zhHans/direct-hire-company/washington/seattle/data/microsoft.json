@@ -1,0 +1,36 @@
+{
+  "companyInfo": {
+    "companyName": "Microsoft Corporation",
+    "location": {
+      "addressLine1": "One Microsoft Way",
+      "addressLine2": "",
+      "county": "King County",
+      "cityOrTown": "Redmond",
+      "state": "WA",
+      "zipCode": "98052"
+    },
+    "contact": {
+      "phone": "+1 (800) 285-7772",
+      "email": "msft@microsoft.com",
+      "website": "https://www.microsoft.com",
+      "linkedin": "https://www.linkedin.com/company/microsoft"
+    },
+    "industry": ["软件开发", "云计算", "人工智能", "操作系统", "生产力工具"],
+    "foundedYear": "1975",
+    "description": "微软公司（Microsoft Corporation）是一家总部位于美国华盛顿州雷德蒙德的全球领先科技公司。由比尔·盖茨和保罗·艾伦于1975年创立，微软以开发、授权和支持各种计算机软件产品而闻名，其代表产品包括 Windows 操作系统和 Microsoft Office 办公套件。微软在云计算、人工智能、硬件设备（如 Surface）、企业服务和游戏（Xbox）等多个领域均处于行业领先地位。",
+    "mainProductsOrServices": [
+      "Windows 操作系统",
+      "Microsoft 365（Office）办公软件",
+      "Azure 云平台",
+      "GitHub 开发平台",
+      "Surface 系列硬件设备",
+      "Xbox 游戏主机与服务",
+      "LinkedIn 职业社交平台",
+      "Copilot 人工智能助手"
+    ],
+    "companySize": "221,000 名员工（截至 2024 年）"
+  },
+  "metadata": {
+    "lastUpdated": "2025-06-05"
+  }
+}
