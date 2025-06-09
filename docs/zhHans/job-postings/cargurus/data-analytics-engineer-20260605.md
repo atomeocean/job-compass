@@ -1,5 +1,5 @@
 ---
-title: Data Analytics Engineer 20250605
+title: data analytics engineer 20250605
 expired: false
 ---
 
