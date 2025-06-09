@@ -1,5 +1,5 @@
 ---
-title: 德勤（Deloitte）
+title: Deloitte
 ---
 
 ## 公司简介
