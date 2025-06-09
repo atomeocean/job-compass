@@ -1,5 +1,5 @@
 ---
-title: 麦肯锡公司（McKinsey & Company）
+title: McK
 ---
 
 ## 公司简介
