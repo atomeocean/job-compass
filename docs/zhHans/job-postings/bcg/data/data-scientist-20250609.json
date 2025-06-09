@@ -1,0 +1,59 @@
+{
+  "companyName": "Boston Consulting Group",
+  "jobTitle": "Data Scientist",
+  "jobLocation": [
+    "USA, MA, Boston",
+    "USA, IL, Chicago",
+    "USA, PA, Pittsburgh",
+    "USA, DC, Washington",
+    "USA, NY, New York",
+    "USA, NY, Brooklyn",
+    "USA, FL, Miami",
+    "USA, TX, Dallas",
+    "USA, CA, San Francisco",
+    "USA, WA, Seattle",
+    "USA, CA, Los Angeles",
+    "USA, CA, Manhattan Beach"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "在客户项目中应用数据科学方法，推动业务转型与影响",
+    "设计、开发并部署可扩展的AI与分析解决方案",
+    "在科学社群中撰写论文、发表演讲，传递思想领导力",
+    "将复杂的建模过程转化为可理解的商业语言和可视化",
+    "跨团队协作，建设端到端的分析价值链"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "具备数据科学、统计学、运筹学或相关领域的深入知识",
+      "熟练掌握Python等现代编程语言，有构建模型和代码协作经验",
+      "能将复杂的分析结果进行清晰的商业呈现",
+      "具备客户沟通与项目管理能力",
+      "需在入职前完成所有学位课程（包括兼职）"
+    ],
+    "preferredQualifications": [
+      "具有软件开发或DevOps经验者优先",
+      "熟悉现代机器学习技术及其数学原理，并能转化为业务价值",
+      "具备领导能力，能指导团队完成技术交付"
+    ]
+  },
+  "salary": [
+    "Data Scientist I: $110,000 USD",
+    "Data Scientist II: $145,000 USD",
+    "Data Scientist III: $160,000 USD",
+    "Senior Data Scientist: $190,000 USD"
+  ],
+  "benefits": [
+    "员工及其家属享受$0医疗、牙科和视力保险保费",
+    "$10看病和处方药共付额",
+    "高达$5,000的牙齿矫正报销",
+    "年度眼镜和隐形眼镜报销",
+    "健身报销",
+    "公司全额出资的退休金计划和401(k)",
+    "带薪育儿假及家庭福利（如冷冻卵子、代孕和收养报销）",
+    "每年15天带薪休假、12天节假日及圣诞至新年期间公司关闭",
+    "无限制带薪病假"
+  ],
+  "jobLink": "https://careers.bcg.com/global/en/job/51853/Data-Scientist-United-States-BCG-X",
+  "notes": "需居住在办公室可通勤范围内，项目可能需要出差；入职后会快速获得成长机会"
+}
