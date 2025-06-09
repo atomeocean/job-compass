@@ -1,5 +1,5 @@
 ---
-title: 普华永道（PricewaterhouseCoopers, PwC）
+title: PwC
 ---
 
 ## 公司简介
