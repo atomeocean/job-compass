@@ -1,0 +1,41 @@
+{
+  "companyName": "TD Bank",
+  "jobTitle": "Senior Software Engineer",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "维护和扩展大规模数据平台（如Hadoop, Spark, Kafka, Dremio等）以支持未来的增长和稳定性",
+    "领导复杂项目并在多个技术领域中作出决策（Cloud, Linux, Big Data）",
+    "参与架构设计和平台生命周期管理，推动基础设施自动化部署",
+    "提供平台级技术支持（L3 Support）并迅速解决技术问题",
+    "积极参与敏捷团队会议、技术演示和新成员培训",
+    "参与新技术研究并推动技术选型和落地"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学或相关专业的本科学位或更高",
+      "至少4年以上相关工作经验（包括HDFS、Spark、YARN、Kafka等）",
+      "具备Java或Python等编程语言的实战经验",
+      "能独立负责项目并在技术上指导他人，具备良好的沟通能力"
+    ],
+    "preferredQualifications": [
+      "熟悉数据平台工具如Cloudera, Data Bricks, HD Insights等",
+      "具备DevOps理念及相关经验，包括自动化、监控、安全优先原则",
+      "了解TD内部系统、网络、最佳实践和技术标准者优先"
+    ]
+  },
+  "salary": [
+    "$105,000 - $140,000 USD（依据候选人经验和职位地点浮动）"
+  ],
+  "benefits": [
+    "健康与福利计划",
+    "退休与储蓄项目",
+    "带薪假期（包括假期、弹性假期等）",
+    "银行优惠与员工折扣",
+    "职业发展与培训机会"
+  ],
+  "jobLink": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/New-York-New-York/Senior-Software-Engineer_R_1424556?q=software&locationCountry=bc33aa3152ec42d4995f4791a106ed09",
+  "notes": "工作地点为纽约，属于混合办公模式。"
+}
