@@ -1,0 +1,65 @@
+{
+  "companyName": "JPMorgan Chase",
+  "jobTitle": "Java Software Engineer III",
+  "jobLocation": [
+    "USA, NY"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计并开发安全、稳定、可扩展的软件解决方案",
+    "创建高质量生产代码并维护关键算法",
+    "为复杂应用创建架构与设计文档，确保设计约束被实现",
+    "分析与可视化多样化数据集以持续优化系统与应用",
+    "主动识别隐藏问题与数据模式，推动代码质量与架构提升",
+    "参与技术社区和新兴技术活动",
+    "推动多元、公平与包容的团队文化",
+    "使用敏捷方法开发软件，解决技术问题"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "软件工程相关认证或培训，3 年以上相关经验",
+      "具备系统设计、应用开发、测试与运维稳定性方面经验",
+      "精通 Java 编程语言",
+      "具有在大型企业环境中开发、调试和维护代码的经验",
+      "熟悉软件开发生命周期（SDLC）",
+      "理解敏捷方法及相关实践，如 CI/CD、应用弹性、安全性等",
+      "具备云、AI、ML 或移动端等技术知识",
+      "精通 Java/J2EE、REST APIs、Web Services，具备事件驱动微服务开发经验",
+      "熟悉 Spring Framework 与 Spring Boot",
+      "熟练使用单元测试框架、自动化测试工具，具备调试与维护经验",
+      "熟练使用开发工具集：Git/BitBucket、JIRA、Maven"
+    ],
+    "preferredQualifications": [
+      "了解现代前端技术",
+      "具备性能测试、组件测试、契约测试、变异测试经验",
+      "接触过云平台与 AWS 服务（如 S3、Terraform、PostgreSQL）"
+    ]
+  },
+  "skillsRequired": [
+    "Java",
+    "Java/J2EE",
+    "REST API",
+    "Spring Boot",
+    "Spring Framework",
+    "微服务架构",
+    "数据库查询语言",
+    "CI/CD",
+    "Git/BitBucket",
+    "Maven",
+    "JIRA",
+    "测试自动化",
+    "AWS（S3、Terraform、PostgreSQL）"
+  ],
+  "salary": [
+    "NY $133,000.00-$185,000.00"
+  ],
+  "benefits": [
+    "全面健康保险",
+    "现场健康与福利中心",
+    "退休储蓄计划",
+    "备份托儿服务",
+    "学费报销",
+    "心理健康支持与财务咨询"
+  ],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210618271/"
+}
