@@ -1,0 +1,52 @@
+{
+  "companyName": "KPMG",
+  "jobTitle": "Senior Associate, Java Developer",
+  "jobLocation": [
+    "USA, IL, Chicago",
+    "USA, TX, Dallas",
+    "USA, CA, Irvine",
+    "USA, CA, Los Angeles",
+    "USA, NY, New York",
+    "USA, PA, Philadelphia",
+    "USA, TX, Richardson",
+    "USA, UT, Salt Lake City"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "使用 Java、Python 和 React JS 设计并实现可扩展且稳健的软件系统",
+    "与跨职能团队协作，确定新软件或应用程序的功能和非功能需求",
+    "提供技术领导力，指导初级开发人员并确保最佳实践的执行",
+    "编写干净、可维护且高效的代码，使用 Spring Boot、Kubernetes 等框架",
+    "构建和管理 CI/CD 流水线（如 Maven）",
+    "优化 SQL 查询以高效检索和操作数据",
+    "在 AWS 或 Azure 云环境中部署和管理应用程序",
+    "使用 Git 进行版本控制与协同开发，持续关注 GenAI 和 LLM 等新兴技术"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3 年以上全栈开发经验，有相关职位经验",
+      "计算机科学、软件工程或相关领域的学士学位",
+      "精通 Java、Python 和 React JS",
+      "熟悉 Spring Boot 和 Kubernetes，理解微服务架构",
+      "具备 SQL 数据库经验和 AWS/Azure 云平台使用经验"
+    ],
+    "preferredQualifications": [
+      "具备 GenAI 和大型语言模型（LLM）开发经验",
+      "熟悉 CI/CD 流程及工具（如 Maven），掌握 Git 版本控制系统",
+      "良好的软件工程原则理解和实际项目经验"
+    ]
+  },
+  "salary": [
+    "California Salary Range: $90,000 - $173,700"
+  ],
+  "benefits": [
+    "医疗和牙科保险",
+    "视力保险、伤残和人寿保险",
+    "401(k) 计划",
+    "心理健康支持",
+    "带薪休假和节假日",
+    "年终和七月初的全公司假期"
+  ],
+  "jobLink": "https://www.kpmguscareers.com/jobdetail/?jobId=122703",
+  "notes": "无签证支持，需具备在美国工作的授权；需满足差旅要求"
+}
