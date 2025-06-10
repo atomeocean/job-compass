@@ -1,0 +1,37 @@
+{
+  "companyName": "Deloitte",
+  "jobTitle": "Data Scientist",
+  "jobLocation": [
+    "USA, FL, Tampa"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与国家安全领域客户合作，开发原型数据解决方案，处理结构化和非结构化数据",
+    "构建和优化数据管道，支持从开发到生产的数据流转",
+    "开发 ETL 流程相关的 schema、数据字典和转换逻辑",
+    "设计和维护多用户组数据库，支持不同访问级别的原始及处理后数据",
+    "协作开发数据流、数据建模以及生成技术文档",
+    "运用 Python 进行数据分析和系统架构设计，支持生成式 AI 应用的数据结构设计"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "相关领域本科学位",
+      "4年以上数据科学相关专业经验",
+      "熟悉 JavaScript、Elasticsearch/Opensearch、JSON、SQL、XML",
+      "至少具备2年使用如下数据库经验：MongoDB/DynamoDB, PostgreSQL, S3, Redshift, JDBC/ODBC, Redis, 或图数据库如 Neo4j、Memgraph",
+      "具有部署支持常见机器学习包（如 scikit-learn、nltk、spaCy 等）所需数据结构的经验",
+      "具备有效的 TS/SCI 安全许可",
+      "具备在混合办公模式下每周 5 天到岗工作的能力",
+      "需具备在美国合法工作身份，不能提供未来雇主担保"
+    ],
+    "preferredQualifications": [
+      "了解或使用过 Kubernetes、JMS/SQS、SNS、Kafka、AWS Lambda、NiFi、Airflow 等技术",
+      "熟悉 Linux/Unix 服务器环境",
+      "了解生成式 AI 相关数据结构，如向量数据库、NER、RAG"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://apply.deloitte.com/en_US/careers/JobDetail/Data-Scientist/302451",
+  "notes": "职位隶属 Deloitte Government and Public Services（GPS）团队，需具备强烈的公共服务动机和跨职能协作能力。"
+}
