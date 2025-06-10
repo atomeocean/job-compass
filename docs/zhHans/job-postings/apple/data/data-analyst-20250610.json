@@ -1,0 +1,41 @@
+{
+  "companyName": "Apple",
+  "jobTitle": "AMP Fraud Data Analyst",
+  "jobLocation": [
+    "USA, TX, Austin"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "开发和实施技术或分析应用，将原始数据转化为有意义的信息",
+    "运用数据挖掘、建模、自然语言处理和机器学习从大型结构化和非结构化数据集中提取并分析信息",
+    "识别并应对 Apple Media 产品商店内的欺诈行为",
+    "使用 SQL 和 Python 进行数据清洗和分析",
+    "利用 Python 和统计分析开发长期分析项目以支持新旧欺诈管理项目",
+    "创建重复性报告以监测欺诈表现",
+    "使用 Tableau 和 Splunk 创建 KPI 绩效指标报表（分别针对历史数据和实时数据）",
+    "为业务利益相关方制定数据可视化仪表板",
+    "领导与其他分析团队的技术集成",
+    "与跨职能团队合作，使用数据清洗技术和 SQL 创建所需分析报告",
+    "起草欺诈模型中的规则推荐",
+    "调查欺诈攻击并使用 Python、PySpark 和统计分析找出根本原因",
+    "就业务项目的欺诈风险与跨职能团队及外部开发商/收单方（如 Visa、MasterCard）进行沟通",
+    "国际差旅需求约为5%"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "硕士学位（或同等海外学历），专业为信息技术与管理、信息技术、计算机科学或相关领域",
+      "具备使用 Tableau 创建可视化仪表板的经验",
+      "使用 Python notebooks 进行数据分析",
+      "使用 Hadoop 进行数据分析",
+      "使用 SQL 查询结构化或非结构化数据",
+      "能够使用数据科学方法构建模型并分析数据",
+      "运用统计分析提升模型性能",
+      "具有数据清洗、数据处理或数据修复经验"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://jobs.apple.com/en-us/details/200605918/amp-fraud-data-analyst?team=SFTWR",
+  "notes": ""
+}
