@@ -1,0 +1,55 @@
+{
+  "companyName": "F5",
+  "jobTitle": "Data Quality Analyst I",
+  "jobLocation": ["Seattle", "San Jose"],
+  "jobType": "Full time",
+  "jobResponsibilities": [
+    "监控并执行新数据请求、数据变更及删除流程，确保在相关系统中准确录入和维护数据",
+    "通过互联网搜索核实地址信息，并使用 Microsoft Excel 进行数据分析与报告",
+    "运用数据质量工具和技术，确保数据的准确性及其在业务场景中的适用性",
+    "通过记录、分析和评估企业范围内的数据，提升数据管理水平，改善数据质量结果",
+    "通过制定支持关键业务流程的数据质量规则、指标和阈值，最大化数据资产价值",
+    "通过数据分析、验证检查和根本原因分析，支持数据异常问题的解决",
+    "通过准备并展示质量分析结果和可操作性建议，争取相关方对流程改进和问题解决的支持",
+    "通过定义的流程、报告或工具，识别缺失或错误的数据，并采取相应的纠正措施或升级处理，推动问题解决",
+    "通过识别数据问题模式、提出改进建议，支持并（在适当情况下）主导新流程、报告或工具的开发，持续优化数据管理流程",
+    "作为企业数据的推广者，分享数据使用知识，促进团队间最佳实践的传播",
+    "通过与企业流程负责人、主题专家（SMEs）、分析师及职能数据管理员的持续协作，增强对公司数据及系统的信任度和专业度",
+    "作为团队伙伴，指导和帮助新成员，促进知识传承，保障团队整体工作准备度",
+    "积极与跨职能利益相关方合作，理解业务需求，并在日常运营和项目环境中，提供核心（主数据）相关的专业支持",
+    "主动承担日常运营任务并为团队提供支持，包括根据需要协助安排休假期间的工作交接"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "优先考虑拥有商业/经济/金融、数学/统计、管理信息系统（MIS）或其他计算类相关专业的学士学位",
+      "至少具备 2 年数据管理和数据治理相关岗位的工作经验",
+      "由于处理数据的特殊性质，该岗位需在美国境内办公",
+      "熟练掌握 SQL",
+      "熟练使用数据可视化工具，如 PowerBI、Tableau 等"
+    ],
+    "preferredQualifications": [
+      "具备较强的技术能力、分析能力、问题解决能力及数据故事讲述能力",
+      "注重细节，能够深入分析数据问题，追溯根本原因，从而推动数据质量和流程改进",
+      "具备良好的跨部门协作、倾听与影响能力",
+      "具备编写文档、沟通交流，并能指导团队处理数据管理和数据质量相关的运营及技术问题的能力",
+      "积极主动、自我驱动、灵活应变、持之以恒，具备良好的人际交往能力",
+      "了解主数据管理（MDM）原理及工作流程（优先考虑）",
+      "熟练使用 Microsoft Office 办公套件（或类似工具，如 Google Workspace）",
+      "具备 R 或 Python 使用经验",
+      "了解企业级业务事务系统（如 Oracle EBS、Siebel CRM、Salesforce）",
+      "具备工单系统（如 ServiceNow）使用经验，能够管理工作待办事项",
+      "理解业务事务系统（如 Salesforce、Oracle EBS、Siebel CRM）",
+      "具备在数据质量领域使用第三方参考数据（如Dun & Bradstreet，Acxiom）提升数据质量的工作经验",
+      "具备对核心（主数据）与参考数据集及业务事务系统数据进行质量审查、对比分析的工作经验",
+      "理解市场进入（Go-to-Market）客户安装基数/资产管理流程及最佳实践，能够识别流程中的限制、合规性要求及相关下游影响"
+    ]
+  },
+  "salary": ["$55,506.00 - $83,260.00/year"],
+  "benefits": [
+    "激励薪酬",
+    "奖金",
+    "限制性股票"
+  ],
+  "jobLink": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/details/Data-Quality-Analyst-I_RP1033350?CF_-_Job_Posting_Category_Extended=ebc0867ff0da10015d4881e40be60000&CF_-_Job_Posting_Category_Extended=ebc0867ff0da10015d48827e65f80001&CF_-_Job_Posting_Category_Extended=ebc0867ff0da10015d4883b2188c0001&CF_-_Job_Posting_Category_Extended=ebc0867ff0da10015d4883b2188c0002&CF_-_Job_Posting_Category_Extended=ebc0867ff0da10015d48827e65f80003&CF_-_Job_Posting_Category_Extended=ebc0867ff0da10015d48827e65f80002&locationCountry=bc33aa3152ec42d4995f4791a106ed09",
+  "notes": "F5 仅通过 F5 电子邮件地址（以 @f5.com 结尾）或 Workday 的自动电子邮件通知（以 f5.com 或@myworkday.com结尾）联系候选人"
+}
