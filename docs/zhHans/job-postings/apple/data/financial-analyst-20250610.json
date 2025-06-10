@@ -1,0 +1,48 @@
+{
+  "companyName": "Apple",
+  "jobTitle": "Financial Analyst",
+  "jobLocation": [
+    "USA, CA, Cupertino",
+    "Various unanticipated locations throughout the USA"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "负责美国及ALAC地区销售财务运营的定量分析与报告，包括数据收集与审核",
+    "进行财务建模与分析，监督支持销售运营的财务项目",
+    "确保经销商销售数据和库存数据的准确性",
+    "为销售与市场营销活动提供财务支持",
+    "进行战略财务分析，包括财务规划、长期规划和损益建模",
+    "通过成本分析维护各消费渠道的盈利水平",
+    "构建并审核新投资项目的商业案例",
+    "支持季度成本回顾，为返利计划提供经销商达成情况",
+    "与其他财务部门协作，全面审核渠道计划执行流程",
+    "与企业和教育业务线合作制定渠道计划，推动落地执行",
+    "维护每周预测并提交公司总部"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "商业管理、金融、经济、管理科学或相关专业的学士学位或同等学历",
+      "6个月以上财务分析或相关岗位经验",
+      "具备使用Tableau和Business Object (GBI)进行财务分析的经验",
+      "熟练使用Essbase、Datakit、Excel STIX、GDV等工具",
+      "具备通过EDI、sFTP、Web和Excel收集与处理销售、销售通路及库存数据的经验",
+      "具有财务规划、长期规划及跨职能合作经验",
+      "具备财务数据审核、验证及差异识别能力"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$107,300 - $161,300/年（基础薪资）"
+  ],
+  "benefits": [
+    "员工股票奖励计划（RSU）",
+    "员工股票购买计划（ESPP）",
+    "全面的医疗与牙科保险",
+    "退休福利计划",
+    "产品折扣与免费服务",
+    "学费报销（与职业发展相关）",
+    "可能获得奖金、提成和搬迁补助（视情况而定）"
+  ],
+  "jobLink": "https://jobs.apple.com/en-us/details/200606068/financial-analyst?team=CORSV",
+  "notes": ""
+}
