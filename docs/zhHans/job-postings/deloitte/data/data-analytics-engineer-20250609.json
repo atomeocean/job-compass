@@ -1,0 +1,42 @@
+{
+  "companyName": "Deloitte",
+  "jobTitle": "Data & Analytics Engineer | TS/SCI w. Polygraph Required",
+  "jobLocation": [
+    "USA, VA, Arlington",
+    "USA, VA, Rosslyn",
+    "USA, VA, Chantilly"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与业务干系人、IT专家和主题专家合作，规划并交付最佳数据解决方案",
+    "构建、维护和优化数据管道，确保工作负载从开发到生产的顺利过渡",
+    "实施数据治理，管理共享或主数据集",
+    "进行系统架构分析与设计，实施信息系统解决方案",
+    "指导数据科学团队并推动最佳实践，包括机器学习、NLP、图分析等"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机或相关专业学士学位",
+      "5年以上数据系统开发或实现经验",
+      "3年以上AWS平台与工具的实际使用经验",
+      "2年以上大规模数据处理系统的管理经验",
+      "持有有效的TS/SCI和Polygraph安全许可",
+      "1年以上Jira和Confluence使用经验",
+      "无需雇主担保即可合法在美工作"
+    ],
+    "preferredQualifications": [
+      "硕士学位优先",
+      "具备Python分析、Palantir平台经验",
+      "掌握数据科学概念及常见机器学习框架和库",
+      "熟悉Spark、大规模数据管道及地理空间数据科学"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "提供职业发展机会与指导",
+    "涵盖医疗、退休、带薪休假等全面福利",
+    "多元包容的文化和创新环境"
+  ],
+  "jobLink": "https://apply.deloitte.com/en_US/careers/JobDetail/Data-Analytics-Engineer-TS-SCI-w-Polygraph-Required/301673",
+  "notes": "该职位要求100%现场办公，并可能需要5-25%的差旅。职位隶属于Deloitte AI & Engineering 团队，服务于政府和公共服务部门客户。"
+}
