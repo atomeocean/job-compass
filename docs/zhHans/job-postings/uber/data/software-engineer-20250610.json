@@ -1,0 +1,42 @@
+{
+  "companyName": "Uber",
+  "jobTitle": "Software Engineer II - Android",
+  "jobLocation": [
+    "USA, CA, Sunnyvale",
+    "USA, CA, San Francisco"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与产品、设计团队合作，设计、开发并维护移动应用的用户界面与功能",
+    "与后端工程师和跨平台开发者协作，开发 Road Safety 相关功能，如 Ridecheck、碰撞检测、基于传感器的驾驶行为识别、计算机视觉安全方案等",
+    "使用最新 Android 框架和后端技术实现原生 UI",
+    "与数据科学、设计和产品团队协作，通过数据分析持续优化用户体验",
+    "与多个 Uber 产品团队和业务线沟通合作，推动解决复杂业务问题"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学、工程、数学或相关专业的本科学历（或同等经验）",
+      "至少2年专业 Android 开发经验",
+      "熟练掌握 Java 和/或 Kotlin",
+      "精通 Android SDK，包括核心库、工具和框架",
+      "具备持续监控和优化 Android 应用性能的经验",
+      "了解 UI/UX 设计原则，并具备构建响应式直观界面的能力",
+      "拥有从产品设计到测试部署的完整软件开发周期经验"
+    ],
+    "preferredQualifications": [
+      "具备 iOS 与 Android 跨平台应用开发和维护经验",
+      "有音视频、IMU 传感器集成等相关产品开发经验",
+      "了解微服务架构，熟悉 gRPC 和 RESTful API",
+      "有开源项目贡献记录，展现社区参与精神",
+      "具备跨团队技术领导经验，推动多团队协作的复杂技术项目"
+    ]
+  },
+  "salary": [
+    "USD $167,000 - $185,500（Sunnyvale, CA 或 San Francisco, CA）"
+  ],
+  "benefits": [
+    "符合资格者可参与 Uber 奖金计划、股权激励及其他补偿形式",
+    "提供多项员工福利，详情见官网福利页面：https://www.uber.com/careers/benefits"
+  ],
+  "jobLink": "https://www.uber.com/global/zh/careers/list/143220/?uclick_id=63835236-6eef-4187-a0f7-c7c0e892fd31"
+}
