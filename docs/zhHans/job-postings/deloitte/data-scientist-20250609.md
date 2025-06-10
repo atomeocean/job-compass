@@ -1,5 +1,5 @@
 ---
-title: data scientist 20250605
+title: data scientist 20250609
 expired: false
 ---
 
