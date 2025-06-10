@@ -1,0 +1,46 @@
+{
+  "companyName": "Motorola Solutions",
+  "jobTitle": "Software Engineer (Somerville Hybrid)",
+  "jobLocation": [
+    "USA, MA, Somerville"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计、实现、评估并维护计算机视觉与机器学习算法，专注于目标检测与追踪。",
+    "为嵌入式Linux设备、服务器和云环境编写C++代码。",
+    "与研究科学家和软件工程师合作，将算法转化为商业部署应用。",
+    "开发和维护用于构建和测试深度学习与计算机视觉解决方案的工具。",
+    "进行代码审查，确保遵循编码标准和设计指南。",
+    "撰写算法设计与实验结果的技术文档。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学或相关专业本科学历及3年以上软件开发经验",
+      "2年以上C++开发经验，尤其是在Linux系统上",
+      "1年以上图像/视频处理或计算机视觉经验"
+    ],
+    "preferredQualifications": [
+      "熟悉Python脚本",
+      "具有面向对象设计和多线程开发经验",
+      "具备嵌入式系统开发背景",
+      "熟悉图像与视频处理、目标检测、分类与追踪相关技术",
+      "了解操作系统概念，如进程、线程、互斥锁、中断处理和异常处理",
+      "掌握基础统计学、线性代数及数学优化知识",
+      "具备AI/机器学习技术背景"
+    ]
+  },
+  "salary": [
+    "$75,000 - $150,000 USD / year (based on experience and skills)"
+  ],
+  "benefits": [
+    "奖金激励计划",
+    "医疗、牙科和视力保险",
+    "401K退休计划",
+    "10天带薪节假日",
+    "带薪休假",
+    "员工股票购买计划",
+    "带薪育儿和家庭假期"
+  ],
+  "jobLink": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Somerville-MA/Software-Engineer--Somerville-Hybrid-_R55582?q=software+engineer&timeType=436f05d7afa343d5a8c9f92ef3e8c71b",
+  "notes": "需每周到Somerville办公室两次；隶属CTO团队，专注于公共安全与商业客户的AI解决方案"
+}
