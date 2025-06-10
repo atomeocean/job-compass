@@ -1,0 +1,42 @@
+{
+  "companyName": "Deloitte",
+  "jobTitle": "Business Systems Analyst (TS/SCI required)",
+  "jobLocation": [
+    "USA, VA, Arlington",
+    "USA, VA, Rosslyn"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与业务和IT团队合作，分析并定义技术解决方案的业务需求",
+    "根据用户需求和行业要求，制定系统范围和目标",
+    "评估变更影响，定义业务规则，并跨功能范围实施解决方案",
+    "领导需求分析与验证，确保需求完整、一致、可追踪、可行、可验证",
+    "管理需求变更，向项目团队传达变更影响并预警潜在风险",
+    "协助技术与项目团队确保项目成果满足业务需求",
+    "编写用户培训材料并促进业务系统的使用",
+    "主动响应用户咨询，排查系统问题并提供支持",
+    "预判并识别客户需求，匹配相应产品和服务"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "本科学历",
+      "拥有在美国合法工作的资格，无需雇主担保",
+      "持有有效的 TS/SCI 安全许可，且具备获得 Polygraph 的能力",
+      "4年以上 Momentum 财务系统经验",
+      "3年以上敏捷开发环境工作经验"
+    ],
+    "preferredQualifications": [
+      "持有 CISA、CPA、PMP 或 Scrum Master 认证",
+      "会计、商业、金融或相关专业硕士学位",
+      "有专业服务公司或四大会计师事务所经验"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "全面的员工福利计划",
+    "多样的职业发展机会和培训计划",
+    "包容性和多元文化的工作环境"
+  ],
+  "jobLink": "https://apply.deloitte.com/en_US/careers/JobDetail/Business-Systems-Analyst-TS-SCI-required/304185",
+  "notes": "需要具备 TS/SCI 安全许可和 Momentum 财务系统经验"
+}
