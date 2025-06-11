@@ -1,5 +1,5 @@
 ---
-title: Business Intelligence Analyst 20250605
+title: business intelligence analyst 20250606
 expired: false
 ---
 
