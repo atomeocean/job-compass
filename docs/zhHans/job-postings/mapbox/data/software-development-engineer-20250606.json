@@ -1,44 +1,43 @@
 {
   "companyName": "Mapbox",
-  "jobTitle": "Software Development Engineer II, Automotive Integration",
+  "jobTitle": "Software Development Engineer III, Map Data Publication",
   "jobLocation": [
-    "USA, TX, Dallas (Hybrid)"
+    "USA"
   ],
   "jobType": "全职",
   "jobResponsibilities": [
-    "与汽车客户合作，理解需求并进行嵌入式平台集成开发",
-    "通过收集客户设备KPI指标，监控产品性能并优化SDK使用",
-    "编写高效的C++代码，实现数据集成和定制化导航功能",
-    "使用调试与性能分析技术优化嵌入式导航体验",
-    "与内部开发团队合作，确保API设计与硬件平台的兼容性",
-    "诊断并解决与客户、合作伙伴之间的技术集成问题",
-    "改进产品的性能、稳定性和可维护性"
+    "为自动驾驶车辆开发新的3D/HD地图数据发布服务（包括数据格式、图层、瓦片）",
+    "扩展ADAS和导航地图数据的发布范围及其格式",
+    "使用Python、SQL、AWS和Spark等技术构建高扩展性、成本效率高的数据处理和转换应用",
+    "与多个研发团队协作，确保数据无缝集成到产品中",
+    "与包括欧美和日本的汽车OEM厂商及一级供应商在内的主要客户直接合作"
   ],
   "candidateQualifications": {
     "basicQualifications": [
-      "精通C++编程语言，具备Shell Script、JavaScript或Python脚本经验",
-      "熟悉CMake、Gradle或Ninja构建系统",
-      "具备Yocto或Docker等自动化环境经验",
-      "良好的沟通能力，能与分布式团队和客户协作",
-      "有软件开发和客户合作经验，注重性能优化",
-      "能够在Android或Linux嵌入式平台上进行开发和调试"
+      "精通Python、Scala或常用于数据处理和云应用开发的编程语言",
+      "具备在可扩展的云平台（如AWS、Spark）上部署数据管道的经验",
+      "理解地理空间数据概念及其相关工具（如PostGIS、QGIS）",
+      "具备良好的问题解决能力和对细节的高度关注",
+      "具备出色的沟通能力和跨团队协作能力",
+      "能适应早晨工作时间以配合欧洲团队的工作节奏"
     ],
     "preferredQualifications": [
-      "了解AGL、AOSP或Android Automotive等汽车操作系统",
-      "熟悉汽车CAN总线通信",
-      "具备X11、Wayland等窗口管理经验",
-      "有Qt或Flutter跨平台工具开发经验",
-      "具有构建开发框架或工具链的经验"
+      "具备地图、导航或汽车行业经验",
+      "熟悉以下地图数据格式者优先：GeoJSON、Mapbox Vector Tile Format、NDS.Live、OpenUSD、OpenDRIVE、Matlab RoadRunner",
+      "掌握用于地理空间数据分析的机器学习技术",
+      "有相关开源项目的贡献经验"
     ]
   },
   "salary": [
-    "$157,675 - $213,325/year (may be 5%-10% higher in high cost locations)"
+    "$190,825 - $258,175（大多数美国地区），高成本地区可能高出5%-10%"
   ],
   "benefits": [
-    "灵活办公与健康保障",
-    "产假/育儿假与工作生活平衡支持",
-    "学习成长支持、平等包容的团队文化"
+    "健康保险",
+    "育儿假",
+    "工作时间灵活",
+    "鼓励多样性与包容性",
+    "学习和成长的文化"
   ],
-  "jobLink": "https://jobs.ashbyhq.com/mapbox/acc930b1-8f95-490a-a526-086061d4d17e",
-  "notes": "候选人优先位于达拉斯或周边地区，需不定期到客户现场办公"
+  "jobLink": "https://jobs.ashbyhq.com/mapbox/c42259d4-8159-4e41-9dba-226eea51e67b?locationId=2f55ee6f-5d47-42fc-a4e0-13021f5924b5",
+  "notes": "#LI-Remote；Mapbox参与E-Verify验证"
 }
