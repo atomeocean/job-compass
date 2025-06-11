@@ -1,5 +1,5 @@
 ---
-title: 摩根士丹利（Morgan Stanley）
+title: Morgan Stanley
 ---
 
 ## 公司简介
