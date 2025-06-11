@@ -1,5 +1,5 @@
 ---
-title: software development engineer, location ai 20250611
+title: software development engineer 20250611
 expired: false
 ---
 
