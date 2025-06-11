@@ -1,0 +1,36 @@
+{
+  "companyName": "Google & YouTube",
+  "jobTitle": "Data Scientist, Research, Measurement and Optimization, YouTube Ads",
+  "jobLocation": [
+    "USA, CA, Mountain View"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与跨项目和团队的利益相关者合作，明确需要解答的业务或产品问题，并将其转化为可行的分析、评估指标或数学模型。",
+    "使用定制的数据基础设施或现有的数据模型，设计和评估模型以解决已定义问题。",
+    "收集与业务目标、优先级及组织背景相关的信息，并理解当前及即将上线的数据基础设施。",
+    "负责数据收集、提取和整合，使用如 SQL、R、Python 等工具清洗、格式化和验证数据，确保数据质量，为分析做好准备。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "统计学、数据科学、数学、物理学、经济学、运筹学、工程学或相关定量领域的硕士学位",
+      "3年在使用分析解决产品或业务问题方面的经验，包括编程（如 Python、R、SQL）、数据库查询或统计分析经验；或拥有相关领域的博士学位"
+    ],
+    "preferredQualifications": [
+      "数学、统计学、计算机科学等相关领域的博士学位",
+      "5年在使用分析解决产品或业务问题方面的经验，包括编程（如 Python、R、SQL）、数据库查询或统计分析经验",
+      "具有受限优化理论的经验",
+      "了解广告系统，包括竞价、投放和广告质量等模块"
+    ]
+  },
+  "salary": [
+    "$141,000-$202,000 base salary",
+    "另含奖金、股票及福利"
+  ],
+  "benefits": [
+    "奖金",
+    "股票期权",
+    "全套福利"
+  ],
+  "jobLink": "https://www.google.com/about/careers/applications/jobs/results/122436529514521286-data-scientist-research-measurement-and-optimization-youtube-ads"
+}
