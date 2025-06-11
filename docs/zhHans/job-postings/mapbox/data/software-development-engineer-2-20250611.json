@@ -1,0 +1,44 @@
+{
+  "companyName": "Mapbox",
+  "jobTitle": "Software Development Engineer II, Location AI",
+  "jobLocation": [
+    "USA (Remote, Eastern Time Zone preferred)"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与团队协作，明确任务范围并按时保质交付",
+    "设计和实现可扩展的后端系统，支持全球市场需求增长",
+    "编写健壮的应用代码，构建和部署微服务，支持高并发访问",
+    "监控系统健康状况，参与运维和值班支持",
+    "优化应用性能，减少技术债务，提升开发效率",
+    "与产品、设计和其他工程团队密切合作，确保方案贴合用户需求",
+    "促进协作、透明和包容的团队文化"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "5年以上构建可扩展、高吞吐量、低延迟后端服务的开发经验",
+      "熟练掌握 Python 和 TypeScript 后端开发技术栈",
+      "熟悉 AWS（包括 CDK、ECS、Step Functions、Lambda、S3）服务",
+      "具备将机器学习能力转化为实际产品功能的能力",
+      "拥有良好的沟通能力和以结果为导向的工作方式"
+    ],
+    "preferredQualifications": [
+      "有导航领域、自然语言处理（NLP）相关经验者优先",
+      "具备 Amazon RDS、SQL 和安全标准相关知识",
+      "具有较强的单元测试意识和生产环境问题排查能力",
+      "有跨部门合作经验，能够将 AI 能力与业务场景融合"
+    ]
+  },
+  "salary": [
+    "年薪范围：$157,675 - $213,325（具体根据个人资历与工作地点确定）",
+    "高成本地区年薪上浮 5% 至 10%"
+  ],
+  "benefits": [
+    "灵活办公和远程工作支持",
+    "全面的医疗保险和育儿假",
+    "持续学习与成长文化",
+    "支持多元背景与包容性工作环境"
+  ],
+  "jobLink": "https://jobs.ashbyhq.com/mapbox/ea0ed8d8-9dac-4a0d-824f-e4ce6e7b0edb?locationId=2f55ee6f-5d47-42fc-a4e0-13021f5924b5",
+  "notes": ""
+}

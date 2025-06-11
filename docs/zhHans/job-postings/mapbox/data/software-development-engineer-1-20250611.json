@@ -1,0 +1,43 @@
+{
+  "companyName": "Mapbox",
+  "jobTitle": "Software Development Engineer III, Map Data Publication",
+  "jobLocation": [
+    "USA"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "为自动驾驶车辆开发新的3D/HD地图数据发布服务（包括数据格式、图层、瓦片）",
+    "扩展ADAS和导航地图数据的发布范围及其格式",
+    "使用Python、SQL、AWS和Spark等技术构建高扩展性、成本效率高的数据处理和转换应用",
+    "与多个研发团队协作，确保数据无缝集成到产品中",
+    "与包括欧美和日本的汽车OEM厂商及一级供应商在内的主要客户直接合作"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "精通Python、Scala或常用于数据处理和云应用开发的编程语言",
+      "具备在可扩展的云平台（如AWS、Spark）上部署数据管道的经验",
+      "理解地理空间数据概念及其相关工具（如PostGIS、QGIS）",
+      "具备良好的问题解决能力和对细节的高度关注",
+      "具备出色的沟通能力和跨团队协作能力",
+      "能适应早晨工作时间以配合欧洲团队的工作节奏"
+    ],
+    "preferredQualifications": [
+      "具备地图、导航或汽车行业经验",
+      "熟悉以下地图数据格式者优先：GeoJSON、Mapbox Vector Tile Format、NDS.Live、OpenUSD、OpenDRIVE、Matlab RoadRunner",
+      "掌握用于地理空间数据分析的机器学习技术",
+      "有相关开源项目的贡献经验"
+    ]
+  },
+  "salary": [
+    "$190,825 - $258,175（大多数美国地区），高成本地区可能高出5%-10%"
+  ],
+  "benefits": [
+    "健康保险",
+    "育儿假",
+    "工作时间灵活",
+    "鼓励多样性与包容性",
+    "学习和成长的文化"
+  ],
+  "jobLink": "https://jobs.ashbyhq.com/mapbox/c42259d4-8159-4e41-9dba-226eea51e67b?locationId=2f55ee6f-5d47-42fc-a4e0-13021f5924b5",
+  "notes": "#LI-Remote；Mapbox参与E-Verify验证"
+}
