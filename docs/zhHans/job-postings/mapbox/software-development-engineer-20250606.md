@@ -1,5 +1,5 @@
 ---
-title: software development engineer II, Automotive Integration 20250606
+title: software development engineer, automotive integration 20250606
 expired: false
 ---
 
