@@ -1,5 +1,5 @@
 ---
-title: Ernst & Young, EY
+title: Ernst & Young
 ---
 
 ## 公司简介
