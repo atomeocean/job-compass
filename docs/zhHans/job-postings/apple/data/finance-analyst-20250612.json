@@ -1,0 +1,29 @@
+{
+  "companyName": "Apple",
+  "jobTitle": "Finance Analyst",
+  "jobLocation": [
+    "USA, TX, Austin"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "协助定期的资产负债表账户对账",
+    "提供及时且准确的分析和报告，用于跟踪关键绩效指标",
+    "与非财务团队协调，分析个别交易异常的根本原因",
+    "协助流程和系统的简化、自动化与可扩展性开发（包括机器学习）",
+    "与外部合作伙伴（如收单机构）密切合作，优化流程并最小化异常；在需要时协助安永（EY）审计请求"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "2年以上项目管理、财务或会计相关经验",
+      "会计、金融或相关专业学士学位"
+    ],
+    "preferredQualifications": [
+      "优秀的沟通能力，能够在组织内不同层级之间有效呈现和交流",
+      "具备跨团队影响和协调能力的实绩"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://jobs.apple.com/en-us/details/200607850/finance-analyst?team=CORSV",
+  "notes": ""
+}
