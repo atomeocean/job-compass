@@ -1,5 +1,5 @@
 ---
-title: business analyst - 1 20250610
+title: business analyst 20250610
 expired: false
 ---
 
