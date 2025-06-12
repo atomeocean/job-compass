@@ -1,0 +1,36 @@
+{
+  "companyName": "Databricks",
+  "jobTitle": "Senior Software Engineer - Money Team",
+  "jobLocation": [
+    "USA, WA, Bellevue"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计和管理Money系统和服务，实现Databricks产品和服务的商业化。",
+    "开发支持多种定价策略（按用量付费、佣金、积分、试用和促销等）的创新原语。",
+    "提升工程和基础设施的效率、可靠性、准确性和响应时间，包括CI/CD流程、测试框架、数据质量保障、端到端对账和异常检测。",
+    "与商业化专家合作，制定和实施创新的定价策略和计划。",
+    "利用AI和大型语言模型（LLMs）创新成本洞察、预测和优化，支持多云供应商（AWS、GCP、Azure）。",
+    "成为Databricks数据和AI工具的专家。",
+    "为Databricks产品的长期愿景和需求开发提供领导，与工程团队紧密合作。",
+    "代表Databricks参加学术和工业会议及活动。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学或相关领域的学士或更高学位。",
+      "在类似大规模近实时数据处理和分布式服务基础设施管理的项目中具备技术领导经验。",
+      "有构建、交付和管理大规模可靠分布式服务和数据管道的成功经验。",
+      "展现出领导能力，能够跨职能和组织边界带领团队。",
+      "积极主动，热衷于交付高质量解决方案。"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$157,000—$225,900 USD"
+  ],
+  "benefits": [
+    "全面的福利和员工关怀，具体信息请见：https://www.mybenefitsnow.com/databricks"
+  ],
+  "jobLink": "https://www.databricks.com/company/careers/exec-engineering/senior-software-engineer----money-team-8027404002",
+  "notes": ""
+}
