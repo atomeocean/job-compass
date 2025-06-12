@@ -1,0 +1,43 @@
+{
+  "companyName": "Deloitte",
+  "jobTitle": "Software Engineer LvL0 - TS SCI Poly Required",
+  "jobLocation": [
+    "USA, MD, Fort Meade",
+    "USA, MD, Baltimore"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "开发、维护和增强复杂的运营软件系统",
+    "支持和现代化PeopleSoft™应用系统，包括财务、人力资源、安全和学习管理模块",
+    "执行软件组件的审查和测试，并记录测试结果",
+    "调查和解决软件问题报告",
+    "参与软件系统的架构设计与集成，实现端到端生命周期支持"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学或相关技术学科的学士学位",
+      "具有美国合法工作资格，无需雇主赞助",
+      "持有有效的TS/SCI及Polygraph安全许可",
+      "3年以上软件开发/工程经验",
+      "愿意每周五天到岗办公",
+      "能接受平均50%的差旅需求"
+    ],
+    "preferredQualifications": [
+      "熟悉Jira项目管理工具",
+      "具备PeopleSoft HRMS Portal Pack的经验",
+      "了解PeopleSoft模块的功能性测试流程",
+      "具有SQL（结构化查询语言）使用经验"
+    ]
+  },
+  "salary": [
+    "$102,750 - $171,250（具体薪资将基于技能、经验和地理因素决定）"
+  ],
+  "benefits": [
+    "年度奖励计划（基于个人与组织表现）",
+    "全面的健康和福利计划",
+    "员工职业发展与培训项目",
+    "多元与包容的企业文化"
+  ],
+  "jobLink": "https://apply.deloitte.com/en_US/careers/JobDetail/Software-Engineer-LvL0-TS-SCI-Poly-Required-Fort-Meade-MD/302473",
+  "notes": "该职位为美国政府客户项目，要求候选人具有活跃的TS/SCI和Poly安全许可。"
+}
