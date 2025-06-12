@@ -1,0 +1,42 @@
+{
+  "companyName": "Etsy",
+  "jobTitle": "Software Engineer II",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "负责设计、开发和实现高度可维护和可扩展的系统，贡献于 Web 应用全栈技术栈",
+    "与团队成员合作，独立解决问题，定期向最终用户交付工作，作为团队目标的主要贡献者",
+    "主导项目，如增强推荐模块的用户体验和数据，促进新功能的技术及产品投入",
+    "持续向团队学习并分享见解",
+    "通过持续部署系统定期将代码推送到生产环境",
+    "创建和更新可复用组件供多个产品团队使用",
+    "运行和迭代实验，评估变更的影响",
+    "参与代码和设计审查，确保代码质量"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "2年以上网页开发经验",
+      "熟悉后端和前端技术栈（PHP, MySQL, TypeScript, JavaScript, React）",
+      "具备良好的团队合作精神，能与产品经理和设计师密切合作",
+      "具备良好的沟通能力和责任心，能从项目构想到完成全过程负责"
+    ],
+    "preferredQualifications": [
+      "熟悉Scala、Airflow或基础的机器学习算法与推荐系统优先",
+      "热衷于产品驱动和数据驱动的开发方法",
+      "愿意担任导师或被导师指导",
+      "具备“让代码比接手时更好”的心态"
+    ]
+  },
+  "salary": [
+    "$131,000 - $170,000"
+  ],
+  "benefits": [
+    "股票期权",
+    "年度绩效奖金",
+    "全面的福利支持，包括家庭相关福利"
+  ],
+  "jobLink": "https://careers.etsy.com/jobs/software-engineer-ii-new-york-united-states-c2d56a05-1809-4d10-bbf6-2a50c0bb68c9",
+  "notes": ""
+}
