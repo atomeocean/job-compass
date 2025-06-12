@@ -1,0 +1,40 @@
+{
+  "companyName": "eBay",
+  "jobTitle": "Senior Data Science - Analyst",
+  "jobLocation": [
+    "USA, CA, San Jose", "Hybrid"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与产品经理、业务负责人及工程团队紧密合作，识别并探索有影响力的分析机会，推动产品路线图上的战略支柱。",
+    "利用Teradata和Hadoop中的大数据，提取可操作的洞察，评估其对eBay生态系统的影响。",
+    "作为独立贡献者，在跨职能环境中与不同的分析、业务和产品合作伙伴协作。",
+    "具备强大的沟通能力，将复杂分析结果提炼为简洁明确的建议。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "5年以上相关工作经验",
+      "统计学、数学、计算机科学、数据科学、工商管理或商业分析等相关专业的学士及以上学历",
+      "具备SQL、R、Python、Tableau等数据分析和数据科学技能",
+      "具备解决问题的能力，能够在模糊环境下独立思考和动手分析"
+    ],
+    "preferredQualifications": [
+      "具备功能性领导力和产品分析经验，同时拥有数据科学的思维方式以解决大规模问题",
+      "具备AB测试设计与分析经验，能够衡量产品成功指标",
+      "具备良好的跨组织及跨区域沟通能力"
+    ]
+  },
+  "salary": [
+    "$144,800 - $193,300 (基础薪资，具体视地点、技能和经验而定)",
+    "总薪酬可能包括目标奖金和限制性股票单位（RSU）",
+    "享受全面的医疗、财务和其他福利（包括401(k)计划及带薪休假等）"
+  ],
+  "benefits": [
+    "医疗保险",
+    "财务福利",
+    "带薪休假和育婴假",
+    "401(k)退休计划"
+  ],
+  "jobLink": "https://jobs.ebayinc.com/us/en/job/R0067473/Senior-Data-Science-Analyst",
+  "notes": ""
+}
