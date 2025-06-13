@@ -1,0 +1,37 @@
+{
+  "companyName": "Databricks",
+  "jobTitle": "Solutions Engineer",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与指定区域的客户建立成功关系，与客户经理协作提供技术和业务价值",
+    "在大数据分析领域中作为专家角色，推动客户采纳 Databricks Lakehouse 平台",
+    "撰写参考架构、操作指南和演示应用程序，推广最佳实践",
+    "通过主持研讨会、讲座和社区活动推动区域内 Databricks 社区建设",
+    "不断提升在技术或行业方面的专业知识和专长"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "2年以上技术岗位经验，具备客户面对面的解决方案工程背景",
+      "计算机科学、数据科学、信息系统、工程相关专业学士学位或同等工作经验",
+      "熟练使用 Python、Java 或 Scala，并具备良好的 SQL 水平"
+    ],
+    "preferredQualifications": [
+      "具备 Spark、Hadoop、Kafka 等大数据技术或架构经验者优先",
+      "具有良好的客户沟通能力，能专业地与客户交流",
+      "能在入职6个月内完成岗位相关的技术培训和成果"
+    ]
+  },
+  "salary": [
+    "Zone 1-4 Pay Range: $94,300—$166,900 USD"
+  ],
+  "benefits": [
+    "年度绩效奖金",
+    "股票激励",
+    "涵盖健康、保险、休假等全面福利（详情见：https://www.mybenefitsnow.com/databricks）"
+  ],
+  "jobLink": "https://www.databricks.com/company/careers/field-engineering/solutions-engineer-7944141002",
+  "notes": "岗位要求候选人目前居住在纽约市或能在纽约市办公室现场办公；不提供搬迁补贴"
+}
