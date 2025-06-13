@@ -1,0 +1,40 @@
+{
+  "companyName": "Etsy",
+  "jobTitle": "Senior Data Scientist, Growth Analytics (Etsy Insider)",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "使用严谨透明的分析方法和实验来推动Etsy Insider会员项目的战略和执行",
+    "基于统计理论设计并分析实验，帮助团队制定良好的假设，并提供稳健的实验结果分析",
+    "将原始数据转化为有意义且有影响力的分析成果，为会员策略提供支持",
+    "通过用户行为和交易数据分析，为用户增长提供洞察并推动战略优先级排序",
+    "通过模范工作、指导、引入更优的实践、流程和工具，提升整个分析团队的技能水平"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "4年以上数据科学或数据分析经验，能独立从大数据集中提取洞察",
+      "熟练掌握SQL（BigQuery经验者优先），熟悉R/Python等脚本与自动化工具",
+      "精通复杂统计分析方法，如倾向得分匹配、因果影响、回归模型等",
+      "具备良好的数据可视化沟通能力，能清晰传达分析结果并提出可执行建议"
+    ],
+    "preferredQualifications": [
+      "具备市场营销分析经验，熟悉客户生命周期价值（LTV）、归因模型、市场组合建模（MMM）、实验设计等",
+      "具备Looker、Tableau等可视化工具使用经验",
+      "具备指导他人和提升团队实践效率的经验",
+      "对可复现的分析工作充满热情，并掌握相关工具与流程"
+    ]
+  },
+  "salary": [
+    "$140,000 - $182,000 per year"
+  ],
+  "benefits": [
+    "股票期权计划",
+    "年度绩效奖金",
+    "涵盖家庭的全面福利计划",
+    "Brooklyn办公室每周混合办公制度"
+  ],
+  "jobLink": "https://careers.etsy.com/jobs/senior-data-scientist-growth-analytics-etsy-insider-new-york-united-states",
+  "notes": "此职位要求候选人每周到纽约布鲁克林办公室办公1至2次。居住在通勤范围内者优先考虑。"
+}
