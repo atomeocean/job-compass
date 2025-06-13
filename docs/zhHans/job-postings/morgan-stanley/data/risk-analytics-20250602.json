@@ -1,0 +1,38 @@
+{
+  "companyName": "Morgan Stanley",
+  "jobTitle": "Risk Analytics (Risk Management) - Associate",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "从事市场风险模型（如VaR、Stressed VaR、IRC、CRM）及压力测试模型的研究、开发与维护",
+    "基于内部与外部技术工具开发与实现风险分析相关系统和工具",
+    "及时准确地响应风险管理、模型风险、审计和监管的相关需求",
+    "与市场风险、信用风险、IT及其他风险相关部门密切合作"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "拥有数学、统计、数学金融、物理、计算机科学或工程等定量学科的本科学历，优先考虑硕士及以上学历",
+      "至少2年相关工作经验",
+      "具备Python编程技能",
+      "具备分析思维、解决问题的能力及项目管理能力",
+      "具备良好的沟通能力与团队合作能力，能清晰地书面与口头表达复杂问题"
+    ],
+    "preferredQualifications": [
+      "有风险建模、压力测试或市场风险相关分析经验",
+      "具备在跨职能团队中有效协作与构建共识的能力",
+      "关注细节，能够独立思考并同时管理多个项目"
+    ]
+  },
+  "salary": [
+    "年薪范围：$85,000 - $140,000（不包括奖金、激励计划及其他福利）"
+  ],
+  "benefits": [
+    "全面的员工福利和家庭支持计划",
+    "灵活的职业发展路径和部门间流动机会",
+    "多元化、包容性强的工作文化"
+  ],
+  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549785014729?source=mscom",
+  "notes": ""
+}

@@ -1,0 +1,41 @@
+{
+  "companyName": "Morgan Stanley",
+  "jobTitle": "Front End Developer (Associate Web Developer)",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "参与软件应用的设计、开发和测试工作",
+    "与团队协作，理解需求并交付软件项目",
+    "协助软件问题的调试与排查",
+    "参与代码审查并提供建设性反馈",
+    "撰写技术文档与系统配置说明",
+    "参与持续改进项目和团队培训提升活动"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学、工程或相关专业学士学位，或具备同等经验",
+      "至少2年相关软件开发经验",
+      "掌握HTML、TypeScript、CSS等Web开发技术，具备使用Angular框架的经验",
+      "了解软件开发生命周期与敏捷开发方法",
+      "具备良好的沟通能力、团队合作能力和问题解决能力"
+    ],
+    "preferredQualifications": [
+      "熟悉Java、Python、REST服务或数据库技术",
+      "具备良好的数据库和数据结构基础",
+      "愿意学习新技术和工具"
+    ]
+  },
+  "salary": [
+    "$110,000 - $150,000（年薪）"
+  ],
+  "benefits": [
+    "绩效奖金和长期激励计划",
+    "涵盖家庭的全面福利计划",
+    "多样化的员工培训与成长机会",
+    "支持员工工作与生活平衡"
+  ],
+  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549784945770?source=mscom",
+  "notes": ""
+}
