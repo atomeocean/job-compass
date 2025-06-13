@@ -1,0 +1,42 @@
+{
+  "companyName": "Uber",
+  "jobTitle": "Data Scientist II, Data Science",
+  "jobLocation": [
+    "USA, CA, San Francisco",
+    "USA, CA, Sunnyvale"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "使用统计学、实验设计和数据科学模型部署，提升 Uber 身份验证与账户管理流程的用户体验与安全性",
+    "改进用户的认证、账户管理和账户关联流程",
+    "与跨职能团队合作，推动 Uber 的身份战略"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "2年以上 SQL 经验（Hive、Spark 等大数据工具为加分项）",
+      "2年以上产品分析、业务分析、数据科学等数据相关岗位经验",
+      "具备实验设计、A/B 测试和统计建模经验",
+      "有 Python 或 R 的使用经验（加分项）",
+      "具备身份系统相关经验（注册 / 登录 / 账户安全等）为加分项"
+    ],
+    "preferredQualifications": [
+      "数学、统计学、计算机科学、经济学或其他定量领域的高等学位",
+      "熟练使用数据分析与可视化工具，如 Python、R、Tableau",
+      "能够定义、使用和沟通关键性能指标",
+      "有将分析 / 统计方法应用于真实大数据场景的经验",
+      "具备创造性问题解决和批判性思维能力，关注细节",
+      "自驱型、能在模糊环境下独立完成任务"
+    ]
+  },
+  "salary": [
+    "San Francisco: $140,000 - $156,000/year",
+    "Sunnyvale: $140,000 - $156,000/year"
+  ],
+  "benefits": [
+    "参与 Uber 奖金计划",
+    "股票激励和其他类型的薪酬",
+    "员工福利计划：https://www.uber.com/careers/benefits/"
+  ],
+  "jobLink": "https://www.uber.com/global/zh/careers/list/144949/?uclick_id=63835236-6eef-4187-a0f7-c7c0e892fd31",
+  "notes": "需遵守 Uber 的混合办公政策，除非特别批准远程办公，需至少有一半时间在办公室工作"
+}
