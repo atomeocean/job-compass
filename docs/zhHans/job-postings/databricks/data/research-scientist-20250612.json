@@ -1,0 +1,36 @@
+{
+  "companyName": "Databricks",
+  "jobTitle": "GenAI Research Scientist",
+  "jobLocation": [
+    "USA, CA, San Francisco"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "跟进前沿研究文献，开发新的方法以超越现有技术水平",
+    "开发并实现用于增强模型能力、可靠性和安全性的方法",
+    "严谨评估所提出方法的有效性，撰写研究成果，并将有价值的技术投入生产环境"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "具备处理数十亿到上百亿参数规模LLM的经验",
+      "具备扎实的机器学习、强化学习软件工程和研究技能",
+      "有与微调LLMs或改进预训练LLMs相关的原创研究成果",
+      "拥有如微调、RLHF、LLM工具使用等方面的专业知识"
+    ],
+    "preferredQualifications": [
+      "拥有强大的沟通能力，适应小型、快速迭代的团队合作环境",
+      "本科或硕士学历，欢迎优秀应届毕业生及研究工程师背景者申请",
+      "热衷于将研究成果应用于实际场景，并推动AI民主化"
+    ]
+  },
+  "salary": [
+    "$150,000—$190,000 USD (base salary range)"
+  ],
+  "benefits": [
+    "年度绩效奖金",
+    "股票期权",
+    "综合福利计划（详见：https://www.mybenefitsnow.com/databricks）"
+  ],
+  "jobLink": "https://www.databricks.com/company/careers/engineering/genai-research-scientist-7011271002",
+  "notes": "无需博士学位，Databricks支持候选人多元背景。"
+}
