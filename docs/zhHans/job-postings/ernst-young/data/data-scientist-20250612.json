@@ -1,0 +1,43 @@
+{
+  "companyName": "EY (Ernst & Young)",
+  "jobTitle": "Data Scientist - Advanced Technologies - National Tax - TTT - Manager",
+  "jobLocation": [
+    "USA, TX, Dallas"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "应用数据挖掘技术、统计分析，构建高质量预测系统，并将其集成至税务科技产品中",
+    "协助企业应对税务透明化趋势中的合规挑战与审计方式变革",
+    "处理与清洗结构化和非结构化大数据，优化数据收集流程",
+    "构建和优化分类器，使用机器学习技术进行特征选择",
+    "设计并实施企业级规模的强健数据管道，支持多样客户项目",
+    "管理并激励跨技能背景的专业团队，持续交付高质量客户服务"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "1年使用Python工具包（如Pandas、NumPy、Jupyter Notebooks）经验",
+      "1年分布式文件系统（如Apache Spark）使用经验",
+      "1年ETL工具（如Alteryx、SSIS、Informatica等）设计与实施经验",
+      "1年使用Power BI、Tableau或D3.js等数据可视化工具经验",
+      "1年Python和R语言数据科学编程经验",
+      "1年团队管理经验，包括任务分配和绩效评估",
+      "拥有会计、计算机科学、工程、信息系统、统计或相关领域的学士学位并具备5年相关经验，或硕士学位及3年相关经验",
+      "3年以上在专业服务公司、咨询公司或中大型会计事务所工作的经验",
+      "3年大数据（结构化与非结构化）管理与处理经验，其中至少1年为税务或会计相关数据",
+      "3年机器学习经验，包括线性/逻辑回归、k-NN、SVM、决策树等",
+      "2年SQL、NoSQL、SQL Server 或 MongoDB 等数据库分析经验"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$118,665 per year"
+  ],
+  "benefits": [
+    "全面薪酬与福利计划，包括医疗与牙科保险、养老金、401(k)",
+    "灵活假期政策，包含个人及家庭照顾假、带薪节假日和冬夏休",
+    "多样化与包容性文化、持续学习与领导力发展支持",
+    "混合办公模式，鼓励员工40-60%时间进行面对面协作"
+  ],
+  "jobLink": "https://careers.ey.com/ey/job/Dallas-Data-Scientist-Advanced-Technologies-National-Tax-TTT-Manager-Multiple-Positions-1601762-TX-75219/1196105601/",
+  "notes": "职位编号：1601762；需符合美国劳工部定义的“United States worker”身份；职位支持最多10%的出差；EY接受持续申请"
+}
