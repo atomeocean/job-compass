@@ -1,40 +1,42 @@
 {
   "companyName": "Morgan Stanley",
-  "jobTitle": "Business Analyst - WM Technology (Associate)",
+  "jobTitle": "Business Analyst - WM Technology",
   "jobLocation": [
     "USA, NY, New York"
   ],
   "jobType": "全职",
   "jobResponsibilities": [
-    "作为 Agile 小组成员参与各阶段项目生命周期，包括需求理解、JIRA 用户故事精炼、设计协调与端到端测试",
-    "分析功能与技术需求，并通过用例、线框图、数据流图、样本报告等方式记录",
-    "与业务、技术、UX、合规等多方利益相关者合作，收集需求并协调沟通",
-    "担任业务与开发团队之间的桥梁与倡导者",
-    "主动识别并解决项目中的问题，并持续更新进度状态",
-    "逐步成长为 MS Online/Mobile 和 E*TRADE 系统的业务专家",
-    "主持与关键干系人之间的文档与需求审查会议",
-    "在整个开发生命周期中识别项目风险并及时报告"
+    "作为敏捷团队（Fleet 或 Squad）的一员，参与敏捷生命周期的各个阶段，包括与产品负责人合作理解业务需求、细化 JIRA 用户故事、主导设计讨论以及端到端测试。",
+    "分析功能和技术需求，通过用例、线框图、数据流图或示例报告等方式进行文档化。",
+    "与业务、技术、UX、风险、法律和合规等关键利益相关者协作，明确并细化需求。",
+    "作为业务用户与开发团队之间的桥梁，推动需求转化与落地。",
+    "主动识别并管理问题至完整解决，并及时更新进度状态。",
+    "深入了解 MS Online/Mobile 和 E*TRADE 等技术平台，成为相关主题专家。",
+    "在整个软件开发生命周期中识别风险和问题并进行汇报。"
   ],
   "candidateQualifications": {
     "basicQualifications": [
-      "具备数字平台相关的商业分析经验",
-      "具备将业务需求转化为技术解决方案的能力",
-      "优秀的问题解决与根因分析能力",
-      "有指标收集、追踪与报告经验",
-      "能够从模糊需求中提取明确任务与交付物",
-      "具备出色的书面与口头沟通能力",
-      "熟练使用 Microsoft Office、Visio、JIRA 与 Confluence",
-      "灵活适应变化，具备良好的团队协作精神",
-      "能与高层管理、业务伙伴与技术团队建立信任关系"
+      "具备数字平台相关业务分析经验，具备较强的业务理解与技术沟通能力",
+      "较强的批判性思维与需求转化能力，能够分析模糊需求并明确任务与交付内容",
+      "良好的问题解决和根因分析能力",
+      "熟练使用 Microsoft Office、Visio、JIRA、Confluence 等工具",
+      "具备良好的书面与口头沟通能力，能与管理层、业务方及技术团队有效沟通协作"
+    ],
+    "preferredQualifications": [
+      "具备敏捷开发环境下的工作经验，了解完整的软件开发生命周期流程",
+      "具备金融服务行业或财富管理平台相关经验",
+      "有技术背景或计算机/信息系统相关学历者优先"
     ]
   },
   "salary": [
-    "USD 110,000 - 168,500 base salary (based on experience)"
+    "$110,000 - $168,500 per year (base pay, actual compensation may vary based on individual factors and includes bonuses, incentives, and other benefits)"
   ],
   "benefits": [
-    "全面薪酬福利方案，包括长期激励",
-    "家庭支持与生活周期福利",
-    "项目轮岗与职业发展机会"
+    "全面的员工福利计划",
+    "弹性工作和职业发展机会",
+    "多元化、包容性的企业文化",
+    "参与高影响力技术项目的机会"
   ],
-  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549783881936?source=mscom"
+  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549783881936?source=mscom",
+  "notes": ""
 }
