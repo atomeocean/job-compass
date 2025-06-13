@@ -1,0 +1,49 @@
+{
+  "companyName": "Uber",
+  "jobTitle": "Data Scientist II - Risk Decision Science",
+  "jobLocation": [
+    "USA, CA, San Francisco",
+    "USA, CA, Sunnyvale"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "进行统计分析以理解风险/欺诈行为，参与欺诈检测特征和模型的开发",
+    "构建和维护欺诈规则，以应对不断变化的欺诈行为",
+    "从大规模数据中提取洞察，制定遏制欺诈的新策略",
+    "深入理解风险数据、报告和关键绩效指标",
+    "进行实验以测试和优化风险缓解解决方案与产品的有效性",
+    "参与项目定义与创意生成，与产品、工程、客服和数据科学团队合作开展反欺诈项目",
+    "向管理团队有效展示数据洞察，支持业务决策",
+    "在经理指导下发展专业领域知识",
+    "参加常规培训、业务回顾会议和全员会议"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "至少3年数据相关岗位经验，如产品分析、业务分析、运营或数据科学",
+      "数学、统计学、计算机科学、运筹学、经济学或相关定量领域的高等学位；如为本科学位需具备5年以上量化分析经验",
+      "3年以上SQL经验（Hive、Spark等大数据工具为加分项）",
+      "熟悉数据分析与可视化工具，如 Python、R、Tableau",
+      "能够清晰定义、使用并传达绩效指标",
+      "优秀的沟通与跨部门合作能力",
+      "具备数据讲故事和根本原因分析能力",
+      "有将统计方法应用于实际问题的成功经验",
+      "注重细节，具备解决问题和批判性思维能力",
+      "能够在不确定的环境中自我驱动完成任务"
+    ],
+    "preferredQualifications": [
+      "具备风控/欺诈/支付领域经验者优先",
+      "有实验设计、A/B测试和统计建模经验者优先",
+      "具备Python或R编程经验者优先"
+    ]
+  },
+  "salary": [
+    "San Francisco/Sunnyvale: $140,000 - $156,000/year",
+    "Eligible for bonuses, equity, and benefits"
+  ],
+  "benefits": [
+    "参与Uber奖金计划、股票奖励计划及其他补偿方案",
+    "详情参见：https://www.uber.com/careers/benefits"
+  ],
+  "jobLink": "https://www.uber.com/global/zh/careers/list/144659/?uclick_id=63835236-6eef-4187-a0f7-c7c0e892fd31",
+  "notes": "此职位要求每周至少一半时间在办公室办公，部分职位需要全程在岗办公"
+}
