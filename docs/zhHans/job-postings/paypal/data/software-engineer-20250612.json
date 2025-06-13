@@ -1,0 +1,43 @@
+{
+  "companyName": "PayPal",
+  "jobTitle": "Software Engineer, Backend Java",
+  "jobLocation": [
+    "USA, CA, San Jose",
+    "USA, IL, Chicago"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计和开发可扩展的后端系统",
+    "优化系统性能和可靠性",
+    "为初级工程师提供指导，参与代码评审和设计讨论"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学或相关专业的学士学位",
+      "3-5年后端开发经验",
+      "至少精通一种后端开发语言（Java、Python 或 Ruby on Rails）",
+      "精通 Java EE 框架（如 Spring MVC 或 Hibernate）",
+      "具备 RESTful API 的设计与实现经验",
+      "具备 SQL 和 NoSQL 数据库设计和开发经验"
+    ],
+    "preferredQualifications": [
+      "具备大规模高性能系统开发经验",
+      "了解支付处理行业及相关法规",
+      "有 AWS、GCP 或 Azure 云平台经验",
+      "参与开源项目"
+    ]
+  },
+  "salary": [
+    "年薪范围：$72,700 - $176,000（取决于工作地点和经验）",
+    "可能包括年终奖金、股权激励和其他福利"
+  ],
+  "benefits": [
+    "灵活的混合办公模式（每周3天到岗，2天远程）",
+    "医疗、牙科、视力保险",
+    "股票期权",
+    "员工健康和心理支持计划",
+    "职业发展和多样性包容性文化"
+  ],
+  "jobLink": "https://paypal.eightfold.ai/careers/job/274905698112",
+  "notes": ""
+}
