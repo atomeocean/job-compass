@@ -1,0 +1,40 @@
+{
+  "companyName": "Bloomberg",
+  "jobTitle": "Senior Software Engineer - API Lifecycle Management",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计、实现并维护产品中的关键功能与服务",
+    "开发面向用户的功能，并在后端和前端系统中自动化 API 生命周期",
+    "构建高效且可复用的 UI 组件",
+    "在敏捷团队中协作开发，并与其他部门紧密合作",
+    "向更广泛的团队展示产品特性及最佳实践"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "4年以上使用 JavaScript/TypeScript、React 和 Python 的开发经验",
+      "计算机科学、工程、数学等相关专业学士学位，或具备等效工作经验",
+      "具备扎实的问题解决与系统设计能力",
+      "具备使用 PostgreSQL 或其他关系型数据库的经验"
+    ],
+    "preferredQualifications": [
+      "具备 OpenAPI 和 GraphQL 使用经验",
+      "熟悉 GitOps 驱动的 CI/CD 流水线的实现与管理"
+    ]
+  },
+  "salary": [
+    "年薪范围：160,000 - 240,000 美元",
+    "包含奖金和福利"
+  ],
+  "benefits": [
+    "带薪假期、节假日",
+    "医疗、牙科、视力保险",
+    "短期和长期残疾保险",
+    "401(k) 退休计划及公司匹配",
+    "人寿保险及各类健康计划"
+  ],
+  "jobLink": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-API-Lifecycle-Management/11818",
+  "notes": ""
+}
