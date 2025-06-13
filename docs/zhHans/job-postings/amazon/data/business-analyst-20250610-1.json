@@ -1,0 +1,49 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Business Analyst",
+  "jobLocation": [
+    "USA, TX, Austin",
+    "USA, TN, Nashville",
+    "USA, WA, Seattle",
+    "USA, WA, Bellevue"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "管理数据流程，包括获取原始数据、构建查询和宏、编写VBA代码、组织数据和设计可视化报告。",
+    "使用Excel、SQL等工具分析大量数据。",
+    "设计并实施报告解决方案，帮助利益相关者做出业务决策。",
+    "确保报告的准确性和及时性，解决数据不一致问题。",
+    "构建和管理关键绩效指标 (KPI) 来衡量和优化报告流程。",
+    "监控现有指标，建立新指标，并与内部联系团队合作，推动流程和系统改进。",
+    "支持跨职能团队的日常项目执行。",
+    "生成复杂查询以深入分析流程问题。",
+    "不断创新以改善客户体验。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3年以上使用Excel（包括VBA、数据透视表、数组函数、Power Pivot等）和数据可视化工具（如Tableau）的经验",
+      "具备SQL经验",
+      "能够定义业务需求并利用数据和指标提供业务洞察",
+      "具备撰写业务建议并影响利益相关者的能力",
+      "本科或同等学历",
+      "3年以上业务分析师、数据分析师或类似岗位经验"
+    ],
+    "preferredQualifications": [
+      "有运营、供应链或物流领域的经验",
+      "理解数据仓库和数据建模",
+      "掌握建模语言如Python或R",
+      "熟悉一种或多种统计建模语言/工具箱"
+    ]
+  },
+  "salary": [
+    "$66,900 - $143,100/year（根据地域和经验浮动）",
+    "可能包括股票、签约奖金及其他补偿形式"
+  ],
+  "benefits": [
+    "医疗、财务等全方位福利",
+    "多元包容的工作文化",
+    "为残疾人士提供合理便利的面试与工作支持"
+  ],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2900219/business-analyst",
+  "notes": ""
+}
