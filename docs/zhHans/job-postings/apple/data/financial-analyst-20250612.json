@@ -1,0 +1,45 @@
+{
+  "companyName": "Apple",
+  "jobTitle": "Financial Analyst",
+  "jobLocation": [
+    "USA, CA, Cupertino",
+    "Various unanticipated locations throughout the USA"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "准备月度预测，分析关键财务与业务绩效指标，提供统一的财务分析报告",
+    "与公司FP&A团队及其他财务部门密切合作，支持季度结算与月度报告",
+    "执行盈利能力分析，对新旧服务开展竞争性洞察研究，并向高层汇报",
+    "与技术团队合作，开发和部署工具与系统以改进财务流程",
+    "在服务与基础设施FP&A团队中积极参与项目，推动创新，执行高层指定的特别项目",
+    "使用R和SQL推动流程自动化，减少组织中的重复与手动操作"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "定量管理、金融或相关领域硕士学位（或等同学历）",
+      "1年相关岗位或类似岗位的工作经验",
+      "具备使用公开信息和财报（如10-K和10-Q）进行市场分析的经验",
+      "具备识别流程缺陷并实施改进的经验",
+      "具备使用R和SQL进行自动化和系统化报表处理的经验",
+      "熟悉数据分析/可视化工具（如Tableau），可整合多个数据源",
+      "有复杂财务分析经验，能独立承担P&L管理",
+      "熟练使用Excel进行财务建模，包括商业估值、资本结构分析和订阅模式建模",
+      "具有季度报告分析和季度业务回顾的经验"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$133,900 - $201,300/year base pay"
+  ],
+  "benefits": [
+    "员工股票奖励计划（RSU）和员工购股计划（ESPP）",
+    "全面的医疗与牙科保险",
+    "退休福利",
+    "产品折扣及免费服务",
+    "正式教育费用报销（如学费）",
+    "可能获得绩效奖金或佣金",
+    "符合条件者可享受搬迁福利"
+  ],
+  "jobLink": "https://jobs.apple.com/en-us/details/200605462/financial-analyst?team=CORSV",
+  "notes": ""
+}
