@@ -1,5 +1,5 @@
 ---
-title: 发现金融（Discover）
+title: Discover
 ---
 
 ## 公司简介
