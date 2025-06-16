@@ -1,0 +1,38 @@
+{
+  "companyName": "Goldman Sachs",
+  "jobTitle": "Data Engineering - Data Quality & Governance - Associate",
+  "jobLocation": [
+    "USA, UT, Salt Lake City"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "推动数据治理框架并推动在全公司的采纳",
+    "与各部门数据办公室合作，协助其实施数据治理相关政策和流程",
+    "参与工作组以改善数据质量和信息访问便利性",
+    "为各部门提供数据治理政策执行的指导与培训",
+    "协助开发数据治理平台和工具集的技术团队",
+    "监控各部门合规进度，推动数据治理目标的实现",
+    "绘制数据流图，展示数据从交易、销售到报告系统的流转路径",
+    "识别并推动数据质量提升项目，建立数据验证控制机制",
+    "向利益相关者汇报进展，并为数据治理战略提供反馈"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "本科及以上学历",
+      "具备数据仓库建模相关知识，了解物理模型和逻辑模型的开发",
+      "有与业务团队协作，撰写功能需求并转化为技术实现经验",
+      "熟练使用Excel、PPT、Dashboard工具，快速学习和适应新环境",
+      "良好的沟通能力、细节把控能力和分析能力",
+      "积极主动，具备跨部门合作能力"
+    ],
+    "preferredQualifications": [
+      "掌握SQL，可用于数据分析",
+      "有软件开发背景者优先",
+      "有数据治理或数据管理相关经验者优先"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://higher.gs.com/roles/148852",
+  "notes": ""
+}
