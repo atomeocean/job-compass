@@ -1,0 +1,46 @@
+{
+  "companyName": "Google",
+  "jobTitle": "Business Data Scientist, gTech Ads, Professional Services",
+  "jobLocation": [
+    "USA, IL, Chicago",
+    "USA, GA, Atlanta",
+    "USA, NY, New York",
+    "USA, CA, Los Angeles",
+    "USA, WA, Seattle",
+    "USA, CA, Sunnyvale"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "在营销效果和营销组合管理方面主导客户合作项目中的数据科学部分，具备机器学习和统计知识",
+    "与客户协作解决问题，识别最佳统计技术以应对挑战，负责模型框架的开发",
+    "与关键利益相关者合作，评估数据和模型的可用性，并推动从概念验证到解决方案的扩展",
+    "与客户和内部团队合作，将数据和模型结果转化为可操作的业务洞察，并与客户共同展示和整合建议至其业务流程",
+    "与产品/工程团队合作，提升应用数据科学团队能力，推动规模化方法与创新"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "统计学、数学、生物信息学、经济学或其他定量领域的硕士学位，或具备同等实际经验",
+      "3年使用分析解决产品或业务问题的经验，包含编程（如 Python、R、SQL）、数据库查询或统计分析，或拥有相关博士学位",
+      "2年数据科学领域经验",
+      "具备统计软件（如 R、Python、MATLAB）和数据库语言（如 SQL）使用经验"
+    ],
+    "preferredQualifications": [
+      "4年使用分析解决产品或业务问题的经验，包含编程（如 Python、R、SQL）、数据库查询或统计分析，或拥有相关博士学位",
+      "具备将机器学习洞察应用于客户问题的经验（包括问题定义、建模与解释）",
+      "具备数字分析与度量解决方案的使用或部署经验",
+      "熟练使用数据提取和建模工具（如 SQL、Python），了解营销分析中使用的统计算法",
+      "具备计算机视觉和自然语言处理在营销分析中的应用能力，并能够将生成式 AI 技术应用于营销相关问题"
+    ]
+  },
+  "salary": [
+    "$141,000–$202,000 base salary",
+    "另含奖金、股票和福利"
+  ],
+  "benefits": [
+    "奖金",
+    "股票激励",
+    "全面福利"
+  ],
+  "jobLink": "https://www.google.com/about/careers/applications/jobs/results/90274715091772102-business-data-scientist-gtech-ads-professional-services",
+  "notes": "此岗位可在多个地点工作，申请时可选择首选工作地点；薪资范围因职位级别与地点而异"
+}
