@@ -1,0 +1,36 @@
+{
+  "companyName": "eBay (TCGplayer)",
+  "jobTitle": "Software Engineer, Order Management",
+  "jobLocation": [
+    "USA, TX, Remote"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计、开发、发布并维护高质量功能以增强订单管理功能，支持国际化及全渠道销售体验",
+    "独立负责功能的完整开发生命周期，包括设计、实现与部署",
+    "参与代码审查并提供建设性反馈，以提升团队整体开发体验",
+    "排查并解决平台上的复杂技术问题",
+    "跟进行业趋势和新兴技术，推动团队创新并提升个人技能"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "具备计算机相关学士学位及5年以上相关行业或学术经验，或硕士学位加2年以上经验，或9年实际工作经验",
+      "熟练掌握C# 和 .NET Core",
+      "了解RDBMS技术（如 SQL Server、PostgreSQL）及基础的 NoSQL 存储（如 Redis、MongoDB、Elasticsearch）"
+    ],
+    "preferredQualifications": [
+      "熟悉事件/流处理机制，如 Kafka、AWS SNS/SQS、RabbitMQ 或 AzureBus",
+      "了解云平台（特别是 AWS）以及现代 CI/CD 框架",
+      "具备优秀的沟通、协作与领导能力"
+    ]
+  },
+  "salary": [
+    "$95,200 - $168,700 base pay",
+    "额外包含目标奖金和限制性股票单位（如适用）"
+  ],
+  "benefits": [
+    "全面的医疗、财务及其他福利计划，包括401(k)、PTO及育儿假等"
+  ],
+  "jobLink": "https://jobs.ebayinc.com/us/en/job/R0066137/Software-Engineer-Order-Management",
+  "notes": "该岗位由eBay旗下的TCGplayer团队招聘，专注于订单管理系统的微服务重构与平台现代化。"
+}
