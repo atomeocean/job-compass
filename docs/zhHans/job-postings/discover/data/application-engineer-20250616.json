@@ -1,0 +1,47 @@
+{
+  "companyName": "Discover",
+  "jobTitle": "Application Engineer (multiple openings) - IHM",
+  "jobLocation": [
+    "USA, IL, Riverwoods"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "分析、设计、编码、测试并部署新的用户故事和产品功能，确保高质量（包括安全性、可靠性和可运维性）上线",
+    "理解软件开发生命周期，并运用批判性思维来评估功能",
+    "远程办公可能根据公司政策允许"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学、电子工程或相关专业的学士学位",
+      "3年从事本职位或相关应用工程职位的工作经验"
+    ],
+    "preferredQualifications": [
+      "熟练使用SQL、Oracle、MS SQL Server、批处理、平台架构、敏捷开发方法",
+      "具备Finacle核心银行系统的实施、故障排查与支持经验",
+      "掌握Web Services、Unix/Linux开发工具",
+      "使用Java及TDD/BDD框架进行回归和用户验收测试自动化",
+      "使用Jenkins创建CI/CD管道",
+      "熟悉AWS或Pivotal Cloud Foundry等云平台",
+      "掌握AppDynamics、CLS-Kibana、Autosys和Instana等监控与调度工具",
+      "了解JMeter等压力测试工具"
+    ]
+  },
+  "salary": [
+    "年薪范围：$106,558.00 - $150,200.00，具体薪资取决于地理位置、经验、学历和技能水平",
+    "可能提供额外激励作为有竞争力的薪酬方案的一部分"
+  ],
+  "benefits": [
+    "带薪育儿假",
+    "带薪休假",
+    "401(k)退休金计划",
+    "医疗、牙科、视力保险及健康储蓄账户",
+    "短期和长期残疾保险、寿险和意外伤残保险",
+    "员工认可计划",
+    "教育资助",
+    "通勤福利",
+    "家庭支持项目",
+    "员工股票购买计划"
+  ],
+  "jobLink": "https://jobs.discover.com/jobs/r47469application-engineer-multiple-openings-ihm/",
+  "notes": "职位编号 R47469，申请截止日期为2025年8月8日。支持员工推荐计划。需符合《联邦存款保险法》第19条及公平机会雇佣政策。"
+}
