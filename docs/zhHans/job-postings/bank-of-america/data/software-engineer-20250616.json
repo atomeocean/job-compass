@@ -1,0 +1,38 @@
+{
+  "companyName": "Bank of America",
+  "jobTitle": "Software Engineer II",
+  "jobLocation": [
+    "USA, NJ, Pennington"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "根据业务需求开发并交付复杂的软件需求",
+    "编写代码和单元测试，确保符合功能性、非功能性和合规性要求",
+    "参与系统设计，集成解决方案到整体应用/系统中",
+    "参与CI/CD（持续集成与持续交付）流程",
+    "参与需求分析、任务拆解和开发工作量估算",
+    "维护、调试和优化现有系统，提升性能和可维护性"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3-5年 Oracle-Hyperion EPM 编程/开发相关工作经验",
+      "掌握 Oracle Essbase、Planning、Database、Unix 等关键技术栈",
+      "具备 Oracle SQL、PL/SQL 编程和调优经验",
+      "具备ETL工具（如ODI）及数据集市/仓库设计经验（如星型或雪花模型）",
+      "熟悉完整的软件开发生命周期（SDLC），包括设计、开发、测试与运维",
+      "具备良好的沟通能力，能与客户有效协作"
+    ],
+    "preferredQualifications": [
+      "熟悉 SDM 工具如 Bitbucket、Jenkins、Ansible",
+      "具备金融ERP系统经验",
+      "有使用敏捷开发方法（Agile）的经验",
+      "具备 Unix Shell 脚本编写能力",
+      "了解 Autosys 等批处理工具",
+      "计算机科学或工程相关专业本科学历"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/25025102/software-engineer-ii-pennington-new-jersey-united-states-esomprank-friwccp8ax-1",
+  "notes": ""
+}
