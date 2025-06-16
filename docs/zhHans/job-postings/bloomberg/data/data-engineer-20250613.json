@@ -1,0 +1,54 @@
+{
+  "companyName": "Bloomberg",
+  "jobTitle": "Senior Data Management Professional - Data Engineering",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "制定分析流程和数据工程问题的策略，以确保数据集适用性",
+    "与注释项目协调员合作，确保生成式AI模型的高质量训练数据",
+    "协作设计数据库结构并配置ETL流程以引入新数据集",
+    "使用标注软件和数据管理系统，确保数据标注质量",
+    "应用金融领域专业知识，指导注释决策，确保高质量输出",
+    "审查并优化注释指导方针，推动标准化流程发展",
+    "利用数据分析识别趋势、模式与异常，优化注释方法",
+    "解决复杂数据标注挑战，确保数据质量",
+    "关注行业趋势与注释/金融新闻领域最佳实践",
+    "必要时在技术专家、注释经理和高级标注员的协助下，参与项目和产品协调"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "统计学、数据分析、数据科学或其他STEM相关专业学士及以上学位",
+      "4年以上数据管理相关经验，如数据工程、数据质量、数据建模等",
+      "具备使用SQL、Python或R进行数据分析/工程的实际经验",
+      "熟练使用Tableau、Qlik Sense或Splunk等数据可视化工具",
+      "有处理金融数据集或具备金融市场知识的项目经验",
+      "能够清晰表达技术概念，并在与工程/产品团队沟通中评估设计权衡",
+      "拥有使用数据可视化工具以清晰、简洁的方式传达结果的丰富经验。",
+      "具备强逻辑思维与批判性思考能力"
+    ],
+    "preferredQualifications": [
+      "拥有DAMA CDMP或DCAM等数据管理认证",
+      "熟悉生成式AI框架及其应用",
+      "理解高质量数据标注对模型训练效果的重要影响",
+      "熟悉使用Bloomberg数据、终端或金融数据产品",
+      "曾参与使用敏捷/Scrum项目管理方法的项目",
+      "有兴趣解决复杂问题并开发基于数据的异常检测方法"
+    ]
+  },
+  "salary": [
+    "$110,000 - $170,000 USD Annually + Benefits + Bonus"
+  ],
+  "benefits": [
+    "医疗、牙科、视力保险",
+    "短期与长期残疾保险",
+    "401(k) 退休计划 + 匹配",
+    "带薪假期与公司假日",
+    "绩效奖金",
+    "人寿保险",
+    "各类健康与福利项目"
+  ],
+  "jobLink": "https://bloomberg.avature.net/careers/JobDetail/Senior-Data-Management-Professional-Data-Engineering/12415",
+  "notes": ""
+}
