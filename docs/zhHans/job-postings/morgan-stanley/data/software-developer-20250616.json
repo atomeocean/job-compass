@@ -1,0 +1,44 @@
+{
+  "companyName": "Morgan Stanley",
+  "jobTitle": "AI Software Developers",
+  "jobLocation": [
+    "USA, GA, Alpharetta"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与工程及AI/ML团队紧密合作，理解其部署流程及安全需求",
+    "构建高质量的网络安全技术解决方案",
+    "基于高可用性、弹性和可扩展性重新构建核心组件",
+    "与利益相关者和全球团队沟通协作，营造包容和积极的工作环境",
+    "独立分析问题并提出架构方案，推动持续交付客户价值"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "副总裁级别需10年以上相关经验，董事级需6年以上，助理级需3年以上",
+      "精通 Java 或 Python 语言",
+      "具备强大的应用设计和面向对象编程能力",
+      "熟悉面向事件/消息驱动架构，了解 REST 服务",
+      "具备至少一种主流云服务平台（AWS, Azure, GCP）的经验，助理/董事级需1年以上，副总裁级需3年以上",
+      "了解基础设施即代码（IaC）工具，如 Terraform",
+      "熟悉数据结构与算法，能熟练编写 SQL 及 NoSQL 查询"
+    ],
+    "preferredQualifications": [
+      "熟悉云AI服务（如 Azure AI, AWS Bedrock, Google Vertex AI）",
+      "有在云AI环境中实施安全控制和治理标准的经验",
+      "了解 CSPM 工具（如 Wiz, Prisma）及云原生安全工具（如 Azure Policy）",
+      "具备 Web 技术（Angular/React）或脚本语言（Bash/PowerShell）经验者优先"
+    ]
+  },
+  "salary": [
+    "Associate: $70,000 - $120,000",
+    "Director: $95,000 - $135,000",
+    "Vice President: $120,000 - $170,000"
+  ],
+  "benefits": [
+    "有竞争力的薪酬结构，包含长期和短期激励",
+    "丰富的员工福利项目",
+    "职业发展路径清晰，支持跨部门轮岗"
+  ],
+  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549785442886?source=mscom",
+  "notes": "将于7月14日当周安排线下面试活动，第一轮为线上面试"
+}
