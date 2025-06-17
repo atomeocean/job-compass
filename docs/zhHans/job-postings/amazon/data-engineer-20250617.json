@@ -1,0 +1,38 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Data Engineer, Amazon Fuse",
+  "jobLocation": [
+    "USA, WA, Seattle"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "架构、开发和维护可扩展的数据基础设施和数据管道",
+    "使用 SQL、脚本语言和 AWS 大数据技术从多种来源提取、转换和加载数据",
+    "设计并实施 ETL 流程和商业智能（BI）解决方案",
+    "与业务负责人、软件开发工程师（SDE）和 BI 工程师合作，探索新的数据源并提供洞察",
+    "紧跟大数据技术的进展并参与试点项目",
+    "主动识别并解决与数据相关的问题，减少团队的运维负担"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "1 年以上数据工程相关经验",
+      "具备数据建模、数据仓库开发及构建 ETL 流程的经验",
+      "具备 SQL 使用经验",
+      "熟悉一种或多种查询语言（如 SQL、PL/SQL、DDL、MDX、HiveQL、SparkSQL、Scala）",
+      "熟悉一种或多种脚本语言（如 Python、KornShell）"
+    ],
+    "preferredQualifications": [
+      "具备 Hadoop、Hive、Spark、EMR 等大数据技术的使用经验",
+      "熟悉任一 ETL 工具，如 Informatica、ODI、SSIS、BODI、Datastage 等"
+    ]
+  },
+  "salary": [
+    "$91,200/year - $185,000/year（具体取决于地区、经验及技能）"
+  ],
+  "benefits": [
+    "全面的医疗、金融和其他福利",
+    "可能包括股票、签约奖金等总薪酬包的一部分"
+  ],
+  "jobLink": "https://www.amazon.jobs/en/jobs/2960525/data-engineer-amazon-fuse",
+  "notes": ""
+}
