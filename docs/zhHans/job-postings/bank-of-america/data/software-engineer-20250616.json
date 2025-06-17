@@ -1,0 +1,46 @@
+{
+  "companyName": "Bank of America",
+  "jobTitle": "Software Engineer II",
+  "jobLocation": [
+    "USA, NJ, Pennington"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "编写解决方案并进行单元测试，以根据定义的验收标准和合规要求交付需求/用户故事",
+    "在设计和开发中利用多个架构组件（涵盖数据、应用和业务）来满足客户需求",
+    "执行持续集成和持续开发（CI/CD）活动",
+    "参与用户故事细化和需求定义",
+    "参与工作量评估，推动需求在交付周期内完成",
+    "贡献于现有测试套件（集成测试、回归测试、性能测试），分析测试报告，识别测试问题并进行故障排查",
+    "进行技术验证/概念验证（Spike/POC），以降低风险或尝试新方案"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "掌握 Oracle Essbase、Planning、数据库和 Unix 技能",
+      "拥有 3-5 年 Oracle-Hyperion EPM 编程/开发的专业工作经验",
+      "具备 Oracle-Hyperion EPM 产品的分析、设计和优化经验",
+      "熟悉使用 ETL 工具（如 ODI）进行批处理和实时集成",
+      "具备 ESSBASE 数据加载、性能优化、数据库重组和计算优化经验",
+      "具备 ESSBASE Shared Services、生命周期管理、元数据管理支持经验",
+      "熟悉 Oracle SQL、PL/SQL，具有性能调优能力",
+      "能开发并支持企业数据仓库，了解星型/雪花模型、层级结构和维度设计",
+      "具备 Unix Shell 脚本经验",
+      "了解软件开发生命周期（SDLC）各阶段：需求、设计、开发、测试和生产支持",
+      "具备技术文档编写、问题维护和客户培训支持能力",
+      "熟悉批处理工具（如 Autosys）",
+      "分析并确保所有技术设计文档的高效迁移，开发各类 SQL 程序包，为应用开发人员提供支持",
+      "监控所有 PL/SQL 程序包的运行状态，并在必要时提出修改建议，编写存储过程，设计和开发多种关系型数据库",
+      "分析业务需求，编写程序并配置数据库信息仓库，为仓库用户提供支持。审查数据集市/数据仓库的交付成果，并协助制定标准与技术规范",
+      "具备良好的客户协作能力和出色的沟通技巧"
+    ],
+    "preferredQualifications": [
+      "熟悉 SDM 工具，如 Bitbucket、Jenkins、Ansible 等",
+      "具备金融 ERP 经验",
+      "了解敏捷开发方法论"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://careers.bankofamerica.com/en-us/job-detail/25025102/software-engineer-ii-pennington-new-jersey-united-states-esomprank-friwccp8ax-1",
+  "notes": "岗位为 1st shift（美国），每周工作 40 小时。岗位要求以办公室为主，提供一定灵活性。最低学历要求为计算机科学或工程专业的学士学位。"
+}
