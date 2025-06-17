@@ -1,0 +1,48 @@
+{
+  "companyName": "Apple",
+  "jobTitle": "Senior Business Analyst",
+  "jobLocation": [
+    "USA, CA, Cupertino"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "分析整体业务表现，并深入研究用户在获取、使用和留存上的行为",
+    "结合 Apple One 与独立订阅、家庭使用等数据进行深入分析",
+    "与消费者洞察团队合作，进行研究项目并分析数据，推动对 Apple Arcade 客户的理解",
+    "识别关键的留存驱动因素，提出改进业务绩效的建议",
+    "与财务团队密切合作，支持预测与业务规划，评估产品和业务计划",
+    "关注行业趋势，发掘 Apple Arcade 的新增长机会",
+    "跨团队合作，支持 Apple 的游戏业务发展"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "4年以上游戏、科技、媒体或娱乐行业相关经验，有订阅服务业务分析经验者优先",
+      "精通 Excel 和 Keynote",
+      "掌握 Python，能够自动处理并分析大规模数据集"
+    ],
+    "preferredQualifications": [
+      "能将大量信息和数据整合为清晰易懂的分析结果，适用于不同的受众（业务、工程、管理层、产品等）",
+      "有业务规划与预测经验",
+      "良好的商业敏感度，能理解并解决复杂商业问题",
+      "优秀的书面和口头沟通能力，具备清晰的表达与展示技巧",
+      "热爱游戏，常玩游戏并能判断游戏品质",
+      "适应快节奏、高协作和变化迅速的工作环境，有较强问题解决能力",
+      "熟悉第三方数据源（如 MRI-Simmons、Newzoo、Game Refinery）",
+      "拥有商业、金融或数据科学等相关学士学位，或具有同等经验"
+    ]
+  },
+  "salary": [
+    "$115,100 - $173,300 base pay",
+    "eligible for stock programs, bonuses, relocation support"
+  ],
+  "benefits": [
+    "全面的医疗和牙科保险",
+    "退休福利",
+    "Apple 员工折扣与免费服务",
+    "教育报销计划（包括学费）",
+    "员工股票购买计划（ESPP）",
+    "绩效奖金与搬迁补助（可能适用）"
+  ],
+  "jobLink": "https://jobs.apple.com/en-us/details/200599632/senior-business-analyst?team=MKTG",
+  "notes": "隶属于 Apple Arcade 团队，岗位涉及数据分析、业务战略和游戏行业知识"
+}
