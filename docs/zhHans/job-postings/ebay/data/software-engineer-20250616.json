@@ -1,36 +1,50 @@
 {
-  "companyName": "eBay (TCGplayer)",
-  "jobTitle": "Software Engineer, Order Management",
+  "companyName": "eBay",
+  "jobTitle": "Sr. Software Engineer",
   "jobLocation": [
-    "USA, TX, Remote"
+    "USA, TX, Austin"
   ],
   "jobType": "全职",
   "jobResponsibilities": [
-    "设计、开发、发布并维护高质量功能以增强订单管理功能，支持国际化及全渠道销售体验",
-    "独立负责功能的完整开发生命周期，包括设计、实现与部署",
-    "参与代码审查并提供建设性反馈，以提升团队整体开发体验",
-    "排查并解决平台上的复杂技术问题",
-    "跟进行业趋势和新兴技术，推动团队创新并提升个人技能"
+    "设计与开发：为计费与支付流程创建可扩展且可靠的软件解决方案，将需求转化为技术规格和设计文档",
+    "系统优化：利用数据驱动的洞察力识别并实施改进措施，提高交易速度和准确性",
+    "安全与合规：实施安全措施以保护用户数据，并确保工具符合行业标准和法规要求",
+    "集成与兼容性：开发 API 和接口以与内部系统和第三方服务无缝集成，确保互操作性",
+    "测试与质量保证：进行全面测试并实施自动化测试框架，以确保工具的功能性、可靠性和安全性",
+    "协作与沟通：与跨职能团队合作，统一目标和交付内容，使用敏捷开发方法管理项目时间表并进行迭代开发"
   ],
   "candidateQualifications": {
     "basicQualifications": [
-      "具备计算机相关学士学位及5年以上相关行业或学术经验，或硕士学位加2年以上经验，或9年实际工作经验",
-      "熟练掌握C# 和 .NET Core",
-      "了解RDBMS技术（如 SQL Server、PostgreSQL）及基础的 NoSQL 存储（如 Redis、MongoDB、Elasticsearch）"
+      "4年以上Java开发相关的专业经验",
+      "计算机科学或相关领域的学士学位或同等学历（优先）"
     ],
     "preferredQualifications": [
-      "熟悉事件/流处理机制，如 Kafka、AWS SNS/SQS、RabbitMQ 或 AzureBus",
-      "了解云平台（特别是 AWS）以及现代 CI/CD 框架",
-      "具备优秀的沟通、协作与领导能力"
+      "熟练掌握Java、J2EE/JavaEE架构、设计模式和ORM框架，熟悉JSP、Spring MVC/Core/Batch、Junit、log4j/logback、JMX、JMS",
+      "精通XHTML、HTML5、CSS、JavaScript、jQuery、AJAX及跨浏览器兼容性解决方案",
+      "具备PHP面向对象开发经验（优先）",
+      "深入理解SQL，熟悉MySQL和Oracle数据库及ETL流程；有调用存储过程、Oracle包等接口经验",
+      "具备前端与中间层系统对接经验，了解UI框架、MVC和用户体验设计原则",
+      "具备服务导向架构开发经验，能够构建与使用REST、XML、JSON和WSDL/SOAP接口",
+      "熟悉Maven、SVN和Jenkins的使用",
+      "具备Unix/Linux shell编程经验、Windows Server/IIS环境下开发经验，了解数据安全和PCI合规要求",
+      "拥有账单与支付系统开发经验（强烈优先）",
+      "熟悉Scrum/敏捷开发方法与测试驱动开发方法",
+      "具备清晰编写与文档化软件系统的能力"
     ]
   },
   "salary": [
     "$95,200 - $168,700 base pay",
-    "额外包含目标奖金和限制性股票单位（如适用）"
+    "附加薪酬可能包括目标奖金、限制性股票单位（如适用）",
+    "提供全套医疗、财务及其他福利，包括401(k)、带薪休假及育儿假"
   ],
   "benefits": [
-    "全面的医疗、财务及其他福利计划，包括401(k)、PTO及育儿假等"
+    "401(k)退休福利",
+    "医疗保险",
+    "带薪休假（PTO）",
+    "育儿假",
+    "股票激励（RSUs）",
+    "包容性工作环境与多样性文化"
   ],
-  "jobLink": "https://jobs.ebayinc.com/us/en/job/R0066137/Software-Engineer-Order-Management",
-  "notes": "该岗位由eBay旗下的TCGplayer团队招聘，专注于订单管理系统的微服务重构与平台现代化。"
+  "jobLink": "https://jobs.ebayinc.com/us/en/job/R0067542/Sr-Software-Engineer",
+  "notes": ""
 }
