@@ -1,0 +1,40 @@
+{
+  "companyName": "Google",
+  "jobTitle": "Software Engineer III, Mobile, Android",
+  "jobLocation": [
+    "USA, CA, Mountain View"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "编写产品或系统开发代码",
+    "审查其他工程师编写的代码，并提供关于最佳实践的反馈（例如编码风格、提交规范、可测试性和效率）",
+    "参与现有文档或教学内容的撰写，并根据产品/程序更新与用户反馈进行适应性调整",
+    "对产品或系统问题进行分类、调试、追踪和解决，通过分析问题源头以及其对硬件、网络或服务运营和质量的影响来排查问题",
+    "参与或主持与同事和利益相关方的设计评审，以在可选技术方案中做出决策"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学相关专业学士学位或同等实践经验",
+      "2年以上使用一种或多种编程语言的软件开发经验，或1年以上结合高等学位的行业经验",
+      "2年以上在学术或行业背景下使用数据结构或算法的经验",
+      "2年以上Android应用开发经验"
+    ],
+    "preferredQualifications": [
+      "计算机科学或相关技术领域硕士或博士学位",
+      "2年以上性能优化、系统数据分析、可视化工具或调试经验",
+      "有开发无障碍技术的经验",
+      "熟练掌握代码与系统健康管理、诊断与问题解决，以及软件测试工程能力"
+    ]
+  },
+  "salary": [
+    "$141,000 - $202,000（基础工资）",
+    "另含奖金、股票和福利"
+  ],
+  "benefits": [
+    "奖金",
+    "股票期权",
+    "健康保险等福利"
+  ],
+  "jobLink": "https://www.google.com/about/careers/applications/jobs/results/131976745484985030-software-engineer-iii-mobile-android?employment_type=FULL_TIME&sort_by=date&location=United%20States&target_level=MID&target_level=EARLY",
+  "notes": "Android是Google的开源移动操作系统，驱动全球超30亿设备。该职位支持原始设备制造商（OEM）与开发者开发创新设备与应用。"
+}
