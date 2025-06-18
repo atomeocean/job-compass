@@ -1,0 +1,37 @@
+{
+  "companyName": "Morgan Stanley",
+  "jobTitle": "Associate, Java/ Scala Developer",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "作为软件工程师开发分布式系统",
+    "利用知识图谱和语义系统解决多种业务需求",
+    "使用Java、Python、Kafka、Stardog等技术架构并实现可扩展的系统应用",
+    "设计并构建语义应用，结合搜索、机器学习和向量数据集增强信息推荐功能",
+    "与架构师、客户及业务分析师协作，开发满足多种业务场景的软件",
+    "编写SPARQL查询、脚本及SHACL验证以支持多源数据的批量导入，并利用Kafka实现准实时数据摄取",
+    "使用Java和Python技术栈构建并实现大规模多层多线程分布式应用和工具，采用面向对象设计原则",
+    "每周允许远程办公最多2天"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学、计算机工程或相关专业硕士学位",
+      "3年软件开发或相关职位的工作经验",
+      "掌握以下至少一年的技术经验：Java、Python、Kafka、Stardog、SHACL、SPARQL、SQL、NoSQL、Neo4J、Docker、Kubernetes、Jenkins、Spark、本体论、可观测性、自动化与云技术、搜索、机器学习、向量数据集、面向对象设计原则"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$151,819 - $176,000 年薪（基础工资），实际薪酬根据个人情况确定；总薪酬还可能包括绩效奖金、短期和长期激励方案及公司福利计划"
+  ],
+  "benefits": [
+    "提供极具竞争力的员工福利",
+    "员工可在公司内部灵活轮岗",
+    "致力于员工多样性、公平性和包容性发展",
+    "支持员工及其家庭在工作与生活的各个阶段"
+  ],
+  "jobLink": "https://morganstanley.eightfold.ai/careers/job/549785199492?source=mscom",
+  "notes": "职位每周可远程办公2天；Morgan Stanley 是平等机会雇主"
+}
