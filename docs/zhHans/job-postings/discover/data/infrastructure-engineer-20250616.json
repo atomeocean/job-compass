@@ -17,7 +17,6 @@
       "3年基础设施工程相关岗位的工作经验"
     ],
     "preferredQualifications": [
-      "具备以下方面的经验：",
       "在 AWS 上设计、构建并管理基于云的应用和服务",
       "配置并管理 AWS 资源：包括 EC2、IAM、RDS、S3、EBS、SQS、SNS 和 Lambda 函数",
       "使用 Ansible 开发并部署 Playbook 与 Role，实现配置管理、应用部署、编排等自动化",
