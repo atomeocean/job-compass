@@ -1,0 +1,33 @@
+{
+  "companyName": "Etsy",
+  "jobTitle": "Software Engineer II, Frontend Infrastructure",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "构建并改进我们广泛使用的前端工具和基础设施。例如我们负责的系统包括服务端渲染的 React 和像 Vite 这样的 JavaScript 构建系统。",
+    "在产品团队测试期间，保持系统的更新和顺利运行。",
+    "设置智能错误追踪和监控，确保系统健康运行。",
+    "监控系统表现，深入研究代码，优化使用效率。",
+    "与众多出色的内部团队密切合作。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "掌握 JavaScript 和/或 TypeScript。熟悉或有兴趣了解 PHP 是加分项，因为我们的大部分工作用到 PHP。",
+      "对驱动前端代码的构建系统和框架感兴趣。",
+      "对云基础设施和线上服务稳定性感兴趣。",
+      "能够在大规模、定义不完全的项目中工作，并在高级工程师指导下完成任务。",
+      "积极主动、好奇心强，渴望学习和创新。",
+      "善于协作，具备良好的团队合作精神。",
+      "致力于交付高质量、对用户有益的成果。"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$135,000.00 - $175,000.00"
+  ],
+  "benefits": [],
+  "jobLink": "https://careers.etsy.com/jobs/software-engineer-ii-frontend-infrastructure-new-york-united-states",
+  "notes": "需每周到纽约布鲁克林办公室一到两次。"
+}
