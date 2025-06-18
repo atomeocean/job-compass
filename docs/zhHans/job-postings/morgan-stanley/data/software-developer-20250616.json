@@ -6,39 +6,49 @@
   ],
   "jobType": "全职",
   "jobResponsibilities": [
-    "与工程及AI/ML团队紧密合作，理解其部署流程及安全需求",
-    "构建高质量的网络安全技术解决方案",
-    "基于高可用性、弹性和可扩展性重新构建核心组件",
-    "与利益相关者和全球团队沟通协作，营造包容和积极的工作环境",
-    "独立分析问题并提出架构方案，推动持续交付客户价值"
+    "与工程和 AI/ML 团队紧密合作，理解其部署流程和针对指定 AI 服务的安全需求",
+    "为网络安全构建高质量的技术解决方案",
+    "使用现代架构重新设计核心组件，重点关注高可用性、弹性和可扩展性",
+    "与利益相关者和全球团队成员沟通，营造包容和积极的团队环境",
+    "具备良好的分析能力和软件工程技能，能在快节奏环境中逻辑地解决问题，并能在压力下独立完成任务",
+    "作为问题解决者，能积极乐观地提出架构解决方案",
+    "此岗位适合希望获得成长、学习和发展机会的候选人"
   ],
   "candidateQualifications": {
     "basicQualifications": [
-      "副总裁级别需10年以上相关经验，董事级需6年以上，助理级需3年以上",
-      "精通 Java 或 Python 语言",
-      "具备强大的应用设计和面向对象编程能力",
-      "熟悉面向事件/消息驱动架构，了解 REST 服务",
-      "具备至少一种主流云服务平台（AWS, Azure, GCP）的经验，助理/董事级需1年以上，副总裁级需3年以上",
-      "了解基础设施即代码（IaC）工具，如 Terraform",
-      "熟悉数据结构与算法，能熟练编写 SQL 及 NoSQL 查询"
+      "相关经验要求根据岗位等级：Associate 至少3年；Director 至少6年；Vice President 至少10年",
+      "精通 Java 或 Python，具备相关技术开发经验",
+      "良好的应用程序设计和面向对象技能",
+      "熟悉领域/事件/消息驱动架构和 REST 服务",
+      "具备现代分布式技术经验，例如 Apache Kafka 等消息中间件",
+      "具备至少一个主要云服务提供商（AWS、Azure、GCP）的实践经验：Associate 和 Director 1+年；Vice President 3+年",
+      "熟练使用基础设施即代码（IaC）工具，如 Terraform",
+      "良好的问题解决和分析能力，具备数据结构与算法的扎实知识",
+      "能够编写复杂的 SQL 查询，具备使用 POSTGRES、MSSQL 等关系型数据库的经验",
+      "能够编写复杂的 NoSQL 查询，具备 MongoDB 使用经验",
+      "熟悉敏捷开发原则、方法论及 DevOps 的 CI/CD/CM/SDLC 实践",
+      "具备优秀的口头和书面沟通能力"
     ],
     "preferredQualifications": [
-      "熟悉云AI服务（如 Azure AI, AWS Bedrock, Google Vertex AI）",
-      "有在云AI环境中实施安全控制和治理标准的经验",
-      "了解 CSPM 工具（如 Wiz, Prisma）及云原生安全工具（如 Azure Policy）",
-      "具备 Web 技术（Angular/React）或脚本语言（Bash/PowerShell）经验者优先"
+      "熟悉云 AI 服务，例如 Azure AI、Azure AI Search、Azure OpenAI、Azure AI Safety Content、AWS Bedrock、Anthropic on AWS Bedrock、Google Vertex AI",
+      "具备实施云 AI 服务相关安全控制和治理标准的经验",
+      "熟悉云安全态势管理（CSPM）工具，如 Wiz、Prisma、Check Point CloudGuard 等",
+      "熟悉云原生安全与治理工具，例如 Azure Policy、AWS SCP & RCP、GCP Constrains 等",
+      "熟悉 Bash/PowerShell 脚本及 Linux/Windows 平台",
+      "熟悉 Web 技术（如 Angular/React）或其他等效技术"
     ]
   },
   "salary": [
-    "Associate: $70,000 - $120,000",
-    "Director: $95,000 - $135,000",
-    "Vice President: $120,000 - $170,000"
+    "Associate: $70,000–$120,000/year",
+    "Director: $95,000–$135,000/year",
+    "Vice President: $120,000–$170,000/year"
   ],
   "benefits": [
-    "有竞争力的薪酬结构，包含长期和短期激励",
-    "丰富的员工福利项目",
-    "职业发展路径清晰，支持跨部门轮岗"
+    "有竞争力的激励薪酬和奖金计划",
+    "全面的员工福利和家庭支持",
+    "多样性与包容性的企业文化",
+    "跨部门和全球流动发展的机会"
   ],
   "jobLink": "https://morganstanley.eightfold.ai/careers/job/549785442886?source=mscom",
-  "notes": "将于7月14日当周安排线下面试活动，第一轮为线上面试"
+  "notes": ""
 }
