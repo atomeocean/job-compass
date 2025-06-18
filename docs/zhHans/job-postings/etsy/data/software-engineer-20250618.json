@@ -1,0 +1,38 @@
+{
+  "companyName": "Etsy",
+  "jobTitle": "Software Engineer II",
+  "jobLocation": [
+    "USA, NY, Brooklyn",
+    "Remote (USA)"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "在前端（HTML、CSS、JS 和相关框架）、API 设计和后端（PHP、MySQL、BigQuery）以及运行在容器中的独立支持服务等各个层面上做出贡献",
+    "记录技术设计决策",
+    "参与代码和设计评审，保持高标准的代码质量",
+    "与分析、产品管理和设计等支持职能合作，确保我们为正确的客户构建正确的产品",
+    "根据 Etsy 的裁量权或适用的当地法律，职位职责可能会随时变更"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "有推动全球卖家赋能的动机，能够理解国际买家和卖家的需求和痛点，并将其转化为创新且用户友好的解决方案",
+      "2年以上参与大型项目的工作经验",
+      "对技术设计文档有高度重视，能够带领团队成员协作",
+      "具备良好的组织能力，能够将大问题拆解为小任务",
+      "拥有“让代码比你发现时更好”的心态，愿意维护和改进他人编写的代码",
+      "编写可理解、可测试、具有可维护性和可扩展性的代码",
+      "具备团队合作精神，注重沟通和透明"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$131,000.00 - $170,000.00"
+  ],
+  "benefits": [
+    "股票期权激励",
+    "年度绩效奖金",
+    "具有竞争力的家庭支持福利"
+  ],
+  "jobLink": "https://careers.etsy.com/jobs/software-engineer-ii-brooklyn-new-york-united-states-9aeb9134-2a40-4d96-9c25-faadb2873bda",
+  "notes": "此岗位开放远程选项；靠近布鲁克林或旧金山办公室的候选人可能优先考虑，需每周一到两天到岗。"
+}
