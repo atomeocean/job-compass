@@ -1,0 +1,33 @@
+{
+  "companyName": "Netflix",
+  "jobTitle": "Software Engineer 4 - TV Product UI",
+  "jobLocation": [
+    "USA - Remote"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "在领先的电视应用程序上构建最先进的 UI 功能，突破性能和内存受限设备上的可能性边界",
+    "与产品、设计、算法和其他工程合作伙伴跨职能协作，规划项目并构建令人愉悦的用户体验",
+    "通过 A/B 测试不同产品变体与真实客户进行验证，而不是假设我们知道最佳方案",
+    "在 TypeScript/JavaScript 代码库上工作，使用为电视平台优化的 React 框架和 Redux 架构构建，并通过专有的基于 Jest 的自动化框架进行测试",
+    "通过编写可测试代码和创建自动化测试来确保功能质量，与测试工程师合作完成"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "拥有3年以上面向消费者产品/应用的开发经验",
+      "精通 JavaScript/TypeScript，并能够使用不同的语言和技术栈（如 Node.js、GraphQL 等）",
+      "对用户如何使用我们的应用感到好奇，并渴望构建能娱乐全球的产品功能",
+      "在协作中能提供独特观点和中肯意见",
+      "在识别解决方案时重视他人观点",
+      "知道很少有“唯一正确”的解决方案，并能进行权衡",
+      "具有较强的独立性、行动倾向以及协作意愿"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$100,000 - $720,000（总薪酬）"
+  ],
+  "benefits": [],
+  "jobLink": "https://explore.jobs.netflix.net/careers/job/790303573667?microsite=netflix.com",
+  "notes": "该职位为远程工作，团队分布在美国多个地点。Netflix 提供包容、多元的工作环境，重视员工文化匹配度。"
+}
