@@ -1,0 +1,38 @@
+{
+  "companyName": "Databricks",
+  "jobTitle": "Senior Machine Learning Engineer - GenAI Platform",
+  "jobLocation": [
+    "USA, CA, San Francisco"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "在整个产品的设计和实现中扮演关键角色，该产品是一个支持生成式 AI 模型训练和服务的应用平台",
+    "与客户和内部机器学习研究人员密切合作，确定生成式 AI 平台的关键开发领域",
+    "具备强烈的端到端产品所有权意识，将产品需求转化为用户界面和后端分布式系统设计，并负责从头到尾的实现",
+    "设计和构建支撑客户产品功能的核心平台基础设施",
+    "确保后端分布式系统的可靠性、安全性和可扩展性，这些系统支持产品的所有方面"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "4年以上使用至少一种现代语言（如 Python、Scala、Go 或 C++）的编程经验",
+      "具有分布式系统设计的扎实基础和构建大规模系统的经验",
+      "拥有构建支持机器学习开发生命周期（如数据准备、模型训练、模型评估和模型部署）的平台系统的经验"
+    ],
+    "preferredQualifications": [
+      "有开发机器学习模型的直接经验者优先，但不是必需条件",
+      "具备强烈的产品整体拥有意识，同时对系统设计的健壮性与产品可用性有良好直觉",
+      "具备有效沟通能力，能够向跨学科的内部和外部利益相关方清晰表达复杂的技术思路",
+      "对公司的各个成功要素充满好奇心，并愿意在工作中学习新技术"
+    ]
+  },
+  "salary": [
+    "$166,000—$225,000 USD (Base Salary)"
+  ],
+  "benefits": [
+    "年度绩效奖金",
+    "股票期权",
+    "全面的员工福利和津贴（详见 https://www.mybenefitsnow.com/databricks）"
+  ],
+  "jobLink": "https://www.databricks.com/company/careers/engineering/senior-machine-learning-engineer---genai-platform--6954585002",
+  "notes": "该岗位归属于Databricks旗下的Mosaic AI团队，重点开发支持生成式 AI 生命周期的平台。Databricks致力于打造世界领先的数据与 AI 平台，支持全球各类企业数据驱动的决策。"
+}
