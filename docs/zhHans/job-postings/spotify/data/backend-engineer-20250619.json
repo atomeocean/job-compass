@@ -1,0 +1,39 @@
+{
+  "companyName": "Spotify",
+  "jobTitle": "Backend Engineer, Personalization",
+  "jobLocation": [
+    "USA, NY, New York",
+    "USA, MA, Boston"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "使用如 Scio、BigQuery、Google Cloud Platform 和 Apache Beam 等数据处理框架，处理大规模数据管道",
+    "开发、部署和运维 Java 服务，为数百万用户提供服务",
+    "支持为每位用户量身打造体验的机器学习项目",
+    "与其他工程师、产品经理及利益相关者协作，积极参与日常学习与领导机会",
+    "交付可扩展、可测试、可维护且高质量的代码",
+    "分享知识，推广最佳实践，通过指导和建设性的反馈帮助团队成长"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "熟悉数据建模、数据访问和数据存储技术的相关概念",
+      "熟悉分布式数据处理框架（如 Beam、Spark）",
+      "希望在采用敏捷开发流程、数据驱动开发和负责任实验的团队中工作",
+      "重视团队协作机会"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$125,561 - $179,374 美元，外加股票期权"
+  ],
+  "benefits": [
+    "广泛的学习机会，由专门的 GreenHouse 团队提供",
+    "灵活的股票激励方式，让你自主选择如何分享成功",
+    "全球范围的育儿假期，所有新晋父母可享受 6 个月带薪假",
+    "All The Feels 员工支持项目和自我关怀平台",
+    "灵活的公共假期，可根据个人价值观和信仰调整休假时间",
+    "每月餐食津贴、401(k)退休计划、23天带薪休假、13天带薪灵活节假日"
+  ],
+  "jobLink": "https://www.lifeatspotify.com/jobs/backend-engineer-personalization-2",
+  "notes": ""
+}
