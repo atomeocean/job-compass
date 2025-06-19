@@ -1,0 +1,37 @@
+{
+  "companyName": "F5",
+  "jobTitle": "AI/ML Engineer",
+  "jobLocation": [
+    "USA, CA, San Jose"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "训练和微调专有模型以实现业务目标",
+    "收集、综合、清洗或扩充适当的数据集",
+    "建立纵向基准来评估和提升模型效果",
+    "为业务使用机器学习提供技术指导和建议",
+    "推动开发、测试、文档撰写和维护中的AI/ML标准流程的采用",
+    "保持对AI/ML最新进展的关注，并评估其对产品和服务的潜在影响与机会"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "至少3年AI/ML模型开发、训练与部署经验，以及相关工作流、基础设施和工具的建设经验",
+      "数学、统计学、计算机科学或相关领域硕士或博士学历，或同等的专业经验"
+    ],
+    "preferredQualifications": [
+      "熟悉机器学习与自然语言处理技术（如聚类、决策树、神经网络等）及其优缺点",
+      "了解高级数学与统计技术（如多变量分析、分布特性、统计检验等）及其应用情境",
+      "熟练掌握一种或多种机器学习开发库/硬件加速平台（如PyTorch、Keras、TensorFlow、CUDA、ROCm等）",
+      "具备使用云平台和Kubernetes进行ML工作负载生产部署的实操经验",
+      "有领导AI/ML项目经验，擅长构建和运维大规模分布式系统并具备CI/CD实践能力",
+      "优秀的书面沟通能力，具备在全球分布团队中异步工作的能力",
+      "能在多个业务单元和利益相关方间建立并维护对AI/ML方法与解决方案的共识与协作",
+      "具备网络安全、网络技术、WAF/WAAP相关领域知识者优先",
+      "具备第二自然语言的流利能力者优先"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/San-Jose/AI-ML-Engineer_RP1032973",
+  "notes": ""
+}

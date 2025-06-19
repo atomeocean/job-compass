@@ -1,0 +1,49 @@
+{
+  "companyName": "F5",
+  "jobTitle": "Software Engineer III",
+  "jobLocation": [
+    "USA, WA, Seattle"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "评估和解决软件故障",
+    "改进现有功能",
+    "跨职能地整合、测试和调试现有系统软件中的问题",
+    "与团队成员和技术负责人协作",
+    "构建工具和基础设施以改进 F5 的组件和功能",
+    "履行分配的其他相关职责"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "至少5年相关工作经验并拥有学士学位，或3年经验并拥有硕士学位，或博士学位并具备1年经验，或具备等效工作经验",
+      "扎实的数据结构与算法基础",
+      "出色的分析/故障排除和调试能力",
+      "熟悉 Docker/OpenShift/Kubernetes",
+      "具备 Python、Golang 之一的编程经验，以及 Shell 脚本编写能力",
+      "具备 Terraform 实操经验",
+      "良好的网络基础知识，熟悉多层网络协议栈（如 TCP、UDP、IP、HTTP、L4-L7、DNS 等）",
+      "在 Linux 和 Kubernetes 上具备 SRE/DevOps 实操经验，能部署工作负载并进行生命周期管理，具备调试能力",
+      "具备生产环境运维经验，包括报警管理和使用仪表板进行问题排查",
+      "具备 CI/CD 实操经验，能够设计或使用功能性持续集成/部署系统",
+      "具备在 AWS/GCP/Azure 等云平台上部署和管理工作负载的经验"
+    ],
+    "preferredQualifications": [
+      "具备 Linux 网络编程或操作系统内部结构相关经验",
+      "熟悉敏捷开发方法，如 Kanban、Scrum",
+      "具备 Helm chart 编写/自定义经验，了解 GitOps 工具（如 ArgoCD、FluxCD）",
+      "具备在不中断服务的前提下进行 SaaS 服务升级的经验",
+      "具备灾备和迁移经验者优先"
+    ]
+  },
+  "salary": [
+    "$128,099.00 - $192,149.00 per year（年薪）",
+    "还可能获得奖金、限制性股票单位（RSU）和福利"
+  ],
+  "benefits": [
+    "授权型工作文化，鼓励自主性和创造力",
+    "经验丰富团队的导师指导，支持持续学习",
+    "协作型团队氛围，鼓励支持性和归属感"
+  ],
+  "jobLink": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Software-Engineer-III_RP1032710",
+  "notes": ""
+}
