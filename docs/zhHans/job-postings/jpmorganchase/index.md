@@ -1,5 +1,5 @@
 ---
-title: 摩根大通（JPMorgan Chase）
+title: JPMorgan Chase
 ---
 
 ## 公司简介
