@@ -1,5 +1,5 @@
 ---
-title: Analytics Solutions 20250602
+title: analytics solutions 20250602
 expired: false
 ---
 
