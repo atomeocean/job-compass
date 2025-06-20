@@ -20,7 +20,6 @@ hero:
       text: Github
       link: https://github.com/atomeocean/job-compass
 
-
 features:
   - title: 招聘信息
     details: 最新的招聘信息，来自各大招聘网站和公司官网
@@ -40,8 +39,12 @@ features:
   - title: 面试准备
     details: 关于面试的准备工作，面试前的准备和面试后的跟进
     link: /interview-prepare/recruiter-call-step
-    linkText: 面试准备
+    linkText: 开始准备面试
     rel: noreferrer
+  - title: 职场建议
+    details: 关于在北美职场工作的建议和经验分享
+    link: /career-guide/manager-is-god
+    linkText: 熟悉北美职场
 ---
 
 ## Job Compass：一个开放的求职者社区
