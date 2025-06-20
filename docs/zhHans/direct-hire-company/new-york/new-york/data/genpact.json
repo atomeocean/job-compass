@@ -1,0 +1,35 @@
+{
+  "companyInfo": {
+    "companyName": "Genpact",
+    "location": {
+      "addressLine1": "521 5th Ave",
+      "addressLine2": "14th Floor",
+      "county": "",
+      "cityOrTown": "New York",
+      "state": "NY",
+      "zipCode": "10175"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.genpact.com",
+      "linkedin": "https://www.linkedin.com/company/genpact"
+    },
+    "industry": ["信息技术服务", "业务流程管理（BPM）", "数字化转型", "人工智能"],
+    "foundedYear": "1997",
+    "description": "Genpact 是一家全球性的专业服务公司，专注于业务流程管理（BPM）和数字化转型服务。公司最初是通用电气（GE）的一个业务部门，于2005年独立运营，并于2007年上市。Genpact 为银行与金融服务、保险、医疗健康、制造业、消费品等行业客户提供智能业务流程服务、自动化解决方案和人工智能驱动的创新服务，致力于帮助企业提升运营效率与客户体验。",
+    "mainProductsOrServices": [
+      "业务流程外包（BPO）服务",
+      "财务与会计流程优化",
+      "供应链管理",
+      "客户体验管理",
+      "风险与合规管理",
+      "人工智能与数据分析服务",
+      "数字化转型咨询"
+    ],
+    "companySize": "125,000+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-06-10"
+  }
+}
