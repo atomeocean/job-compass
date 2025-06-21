@@ -1,0 +1,49 @@
+{
+  "companyName": "Mastercard",
+  "jobTitle": "Software Engineer II",
+  "jobLocation": [
+    "USA, MO, O'Fallon"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "负责应用/软件组件层级的开发、测试和部署任务",
+    "能够对现有代码进行故障排查和重构",
+    "根据工作需求学习并采用新的语言和架构模式",
+    "参与团队决策过程，提出技术建议",
+    "协助团队成员，尤其是经验较少的同事"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "掌握三种或以上编程语言（如 C, C+, C#, Java, JavaScript, SQL）",
+      "熟悉安全编码标准（如 OWASP、CWE、SEI CERT）和漏洞管理",
+      "理解并实践标准的分支策略（如 Gitflow）和代码评审流程",
+      "能够使用 Sonar、Zally、Checkmarx 等工具进行代码质量检测",
+      "具备编写单元测试、服务级测试和集成测试代码的能力",
+      "理解构建和运行关键任务软件的基本原则（安全性、客户体验、可测试性、可操作性、简化、面向服务架构）",
+      "理解多种应用模式（如 API、事件驱动服务、批处理服务、Web 应用、微服务）",
+      "熟悉安全网络协议（如 IPSec、TLS、PGP 等）以保护传输中的数据",
+      "理解持续集成（CI）和持续交付（CD）的理念与能力，支持自动化、管道、虚拟化和容器化",
+      "了解配置管理工具（如 Puppet、Chef）和 CI/CD 工具（如 Artifactory、Jenkins、Git、Sonar）"
+    ],
+    "preferredQualifications": [
+      "遵循 Mastercard 测试标准，具备编写基于行为驱动开发（BDD）和客户旅程的测试用例的能力",
+      "了解测试工件的组织结构（如测试文件夹、集合、运行）",
+      "有开发自动化测试套件经验，包括单元测试、功能测试、端到端测试和性能测试",
+      "理解功能性与非功能性测试类型，能够详细说明和评估测试工作量",
+      "能够构建健壮的测试以尽量减少缺陷渗漏，包括回归测试、性能测试、部署验证和发布测试"
+    ]
+  },
+  "salary": [
+    "USD $92,000 - $147,000 (O'Fallon, Missouri)"
+  ],
+  "benefits": [
+    "医疗、处方药、牙科、视力、残疾和人寿保险",
+    "灵活支出账户（FSA）与健康储蓄账户（HSA）",
+    "16 周新生儿育儿假、最多 20 天丧假、每年 10 天带薪病假",
+    "每年 10 天以上的带薪假期、5 天个人假、10 个美国法定节假日",
+    "401k 配套、延迟薪酬（适用于部分职位）、健身报销或健身设施",
+    "学费报销、性别包容型福利"
+  ],
+  "jobLink": "https://careers.mastercard.com/us/en/job/R-248143/Software-Engineer-II",
+  "notes": ""
+}
