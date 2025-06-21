@@ -1,0 +1,43 @@
+{
+  "companyName": "Amazon",
+  "jobTitle": "Business Intelligence Engineer, P2 Science, Data, and Insights",
+  "jobLocation": [
+    "USA, WA, Seattle"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "支持你所属业务及其客户的商业智能需求。",
+    "开发、构建并交付分析报告、模型和业务策略。",
+    "对业务问题进行深入分析，形成结论和建议并向高层领导汇报。",
+    "利用大型语言模型（LLMs）生成洞察，推动与产品团队的增长讨论。",
+    "为关键利益相关者撰写建议和见解，帮助制定有效的指标开发和报告。",
+    "持续创新、简化并自动化你的产品、工具、服务和方法论。",
+    "改进后端数据源，提高数据的准确性和简洁性。",
+    "识别并采用报告、分析、数据质量和建模方面的最佳实践。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3年以上使用 Redshift、Oracle、NoSQL 等工具分析和解释数据的经验",
+      "担任技术公司商业智能工程师（BIE）的经验",
+      "使用 Tableau、Quicksight 或类似工具进行数据可视化的经验",
+      "拥有数据建模、数据仓库和构建 ETL 流程的经验",
+      "使用 R、SAS、Matlab 等统计分析软件的经验",
+      "能够开发和呈现新指标的建议，以更好地理解业务表现",
+      "使用 SQL 从数据库或数据仓库中提取数据，并使用 Python 等脚本语言处理建模数据的经验",
+      "拥有学士学位"
+    ],
+    "preferredQualifications": [
+      "拥有 AWS 解决方案（如 EC2、DynamoDB、S3 和 Redshift）的经验",
+      "拥有数据挖掘、ETL 等经验，并能在拥有大规模复杂数据集的商业环境中使用数据库"
+    ]
+  },
+  "salary": [
+    "年薪范围：$89,600 – $185,000（依据地区、经验、技能可能有所不同）",
+    "薪资可能包括股票、签约奖金及其他福利，具体视职位而定"
+  ],
+  "benefits": [
+    "提供全面的医疗、财务及其他员工福利，详情请见：https://www.aboutamazon.com/workplace/employee-benefits"
+  ],
+  "jobLink": "https://www.amazon.jobs/en/jobs/3010001/business-intelligence-engineer-p2-science-data-and-insights",
+  "notes": ""
+}

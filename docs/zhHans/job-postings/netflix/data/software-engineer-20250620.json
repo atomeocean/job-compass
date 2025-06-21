@@ -1,0 +1,40 @@
+{
+  "companyName": "Netflix",
+  "jobTitle": "Android Software Engineer 5 - Member Engineering",
+  "jobLocation": [
+    "USA - Remote"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "与开发人员和产品团队合作，构建令人愉悦、高性能且无障碍的面向消费者的体验。",
+    "使用 Kotlin、Java 和 Compose 开发产品功能、核心基础设施和 A/B 测试。",
+    "开发高可维护性的 Android 客户端代码，并提供可供团队其他开发者使用的有效文档。",
+    "编写有效的单元测试和端到端自动化测试，以交付高质量代码。",
+    "与产品管理密切合作，确定项目范围；与设计师合作，完善 UI 规格；或与合作工程团队协作，共享基础设施。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "能够自主发现问题、寻求反馈并推动前瞻性的技术解决方案。",
+      "在解决问题时采取务实且深思熟虑的方法，考虑权衡，避免过度设计。",
+      "通过清晰沟通、好奇心和无私的态度，能够与跨职能团队建立牢固的合作关系。",
+      "对各种新技术、组织架构和产品愿景感兴趣，能够在不熟悉或模糊的情境下积极提问、主动学习。",
+      "致力于提升自身及他人的知识、技能和能力，同时营造包容、协作的工作氛围。",
+      "高度关注产品质量和性能。"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$100,000 - $720,000"
+  ],
+  "benefits": [
+    "健康保险计划、心理健康支持",
+    "401(k)退休计划（公司配比）",
+    "股票期权计划",
+    "伤残保险、健康储蓄账户、弹性消费账户",
+    "家庭生育福利、生命与重大伤害保障",
+    "全职时薪员工每年可获得 35 天带薪休假（包括节假日和病假）",
+    "全职薪资员工享有弹性休假"
+  ],
+  "jobLink": "https://explore.jobs.netflix.net/careers?pid=790303744188&Teams=Engineering&Teams=Engineering%20Operations&domain=netflix.com&sort_by=new&triggerGoButton=false",
+  "notes": "Job Posting Date: 2025-06-19; Job ID: JR34144"
+}
