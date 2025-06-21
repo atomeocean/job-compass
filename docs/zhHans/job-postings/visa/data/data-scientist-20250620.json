@@ -20,16 +20,16 @@
   "candidateQualifications": {
     "basicQualifications": [
       "拥有商业分析、统计学、运筹学、经济学、计算机科学或相关领域的学士学位",
-      "具有2年从事数据科学家或数据分析师相关职业的工作经验"
-    ],
-    "preferredQualifications": [
-      "使用宏、数据透视表和Excel关键函数分析业务和财务表现的经验",
+      "具有2年从事数据科学家或数据分析师相关职业的工作经验",
+       "使用宏、数据透视表和Excel关键函数分析业务和财务表现的经验",
       "使用PowerPoint通过图表展示复杂分析结果，并向业务受众传达洞察的经验",
       "使用SQL、Hive、Airflow或其他数据管道工具从大型数据集中提取、聚合数据，并创建特定数据表的能力",
       "使用统计软件或编程语言（如R、Python、SAS或Stata）分析大型数据集的能力",
       "理解代码优化以提升计算效率并得出有意义洞察的能力",
       "使用Tableau、Python和/或R进行数据可视化的能力，包括根据数据选择适当的图表类型展示关键信息",
       "使用机器学习工具包、Jupyter Notebook、Python和/或Hadoop构建并使用预测性和描述性统计模型（包括回归、分类、聚类和自定义模型等）的经验"
+    ],
+    "preferredQualifications": [
     ]
   },
   "salary": [
