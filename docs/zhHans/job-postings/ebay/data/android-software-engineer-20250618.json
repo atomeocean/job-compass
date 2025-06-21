@@ -1,0 +1,47 @@
+{
+    "companyName": "eBay",
+    "jobTitle": "Android Software Engineer",
+    "jobLocation": [
+        "USA, OR, Portland"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "需求转化：将业务需求转化为高效、可维护的 Android 代码，服务数百万用户",
+        "领域担当：负责大型功能领域的设计与决策，指导团队作出技术决策",
+        "生产力提升：识别并推动团队生产力改进机会",
+        "灵活架构：设计可扩展、可适应变化的方案以提升工程迭代速度",
+        "跨职能协作：与多团队合作，制定并交付开发目标",
+        "项目管理：拆分特性、跟踪任务、解决问题并驱动高效交付"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "计算机、电子工程或相关专业学士学位",
+            "2年以上原生移动开发经验，精通 Kotlin 及 Android API",
+            "具备共享库开发与 Android CI/CD 调试经验",
+            "熟练单元测试、Android Studio 及 REST/GraphQL 后端集成与网络调试",
+            "熟悉 Agile/Scrum 流程并能与服务团队高效协作"
+        ],
+        "preferredQualifications": [
+            "Jetpack Compose 使用经验",
+            "大规模应用开发经验",
+            "熟练使用 Jira 等项目追踪工具",
+            "优秀文档写作能力",
+            "熟悉 Shift-left 测试 / 质量理念"
+        ]
+    },
+    "salary": [
+        "$95,200 - $168,700 base pay",
+        "附加薪酬可能包括目标奖金、限制性股票单位（RSU）",
+        "提供全套医疗、财务及其他福利，包括401(k)、带薪休假及育儿假"
+    ],
+    "benefits": [
+        "401(k)退休福利",
+        "医疗保险",
+        "带薪休假（PTO）",
+        "育儿假",
+        "股票激励（RSUs）",
+        "包容性工作环境与多样性文化"
+    ],
+    "jobLink": "https://jobs.ebayinc.com/us/en/job/R0067179/Android-Software-Engineer",
+    "notes": ""
+}
