@@ -1,0 +1,41 @@
+{
+  "companyName": "JPMorgan Chase & Co.",
+  "jobTitle": "Software Engineer III - Databricks, Spark",
+  "jobLocation": [
+    "USA, TX, Plano"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "执行软件解决方案的设计、开发和技术故障排除，能够超越常规方法进行思考以构建解决方案或分解技术问题",
+    "创建安全且高质量的生产代码，并维护与适当系统同步运行的算法",
+    "为复杂应用程序生成架构和设计文档，并确保软件代码开发符合设计约束",
+    "收集、分析、综合并从大型、多样化数据集中开发可视化和报告，以持续改进软件应用程序和系统",
+    "主动识别数据中的潜在问题和模式，并利用这些洞察推动代码规范和系统架构的改进",
+    "为软件工程实践社区和探索新兴技术的活动做出贡献",
+    "为团队中的软件工程师在日常任务和活动中提供指导",
+    "为团队输出、实践和协作设定总体指导和预期",
+    "预测与其他团队的依赖关系，以根据业务需求交付产品和应用程序",
+    "根据合规标准、服务水平协议和业务需求管理利益相关者关系和团队工作",
+    "营造多元、公平、包容和尊重的文化，重视团队成员的多样化代表性"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "接受过软件工程概念的正规培训或获得相关认证，并具有3年以上实际应用经验",
+      "具有Databricks上的数据映射、数据架构和数据建模的实际经验",
+      "在AWS上具备丰富的经验，能够使用Python、pyspark在Databricks上设计、实施和维护数据管道",
+      "精通Python和PySpark，能够编写和执行复杂查询以进行数据整理，并构建终端用户所需的单维和多维视图",
+      "具有Databricks数据工程方面的丰富经验（作业运行、数据摄取、Delta Live Tables、Spark Streaming）",
+      "具有建立和维护EC2实例、Kubernetes集群和Lambda服务的经验",
+      "具有构建包含复杂代码结构的Notebook以及调试失败作业的经验",
+      "在性能调优方面有良好经验，确保作业以最佳状态运行且无性能瓶颈",
+      "在快速迭代开发环境中，有将高质量功能投入生产系统的可靠经验"
+    ],
+    "preferredQualifications": [
+      "接触过云技术"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210604633/?utm_medium=jobshare&utm_source=External+Job+Share",
+  "notes": ""
+}
