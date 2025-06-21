@@ -1,6 +1,8 @@
 ---
 title: HR是什么
+description: 解释美国职场中HR的角色和职责
 outline: deep
+lastUpdated: 2025-06-21
 ---
 # HR是什么
 
