@@ -1,0 +1,41 @@
+{
+  "companyName": "Netflix",
+  "jobTitle": "Analytics Engineer - Playback Data (L5)",
+  "jobLocation": [
+    "USA - Remote"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "站在分析和数据工程的前沿，确保播放数据可以在整个公司中被有效使用。",
+    "成为播放数据模型的核心维护者之一，专注于监控、理解播放体验在产品中的演变，并影响数据生产者和使用者的最佳实践。",
+    "主导强化和发展这项关键数据集的工作，以适应日益复杂的业务环境；开发并维护数据管道、工具和数据产品，使洞察在公司范围内广泛可用。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "对探索和构建高度技术化的数据集和日志记录充满热情。",
+      "高度熟练使用 SQL，并具有数据管道工程经验。",
+      "掌握 Python 和/或其他语言（如 TypeScript 或 Scala）者优先。",
+      "熟悉软件工程实践（具有大规模数据处理和工具开发经验者优先）。",
+      "具备使用仪表板工具构建引人注目、具有叙述性的可视化图表的经验。",
+      "在与技术和非技术受众沟通方面有出色的口头和书面表达能力；能够与相关方建立有意义的关系，并具备深入的领域专业知识。",
+      "能够在不确定性中保持适应力；可以在最少监督和流程下高效工作。"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$170,000 - $720,000"
+  ],
+  "benefits": [
+    "健康保险计划",
+    "心理健康支持",
+    "401(k)退休计划及公司配比",
+    "股票期权计划",
+    "伤残保险",
+    "健康储蓄账户和灵活支出账户",
+    "家庭生育支持福利",
+    "人寿与重大伤残保险",
+    "带薪休假计划（全职员工可立即享受灵活休假）"
+  ],
+  "jobLink": "https://explore.jobs.netflix.net/careers?pid=790303506387&Teams=Data%20%26%20Insights&Teams=Financial%20Planning%20and%20Analysis&domain=netflix.com&sort_by=new",
+  "notes": ""
+}
