@@ -1,0 +1,43 @@
+{
+  "companyName": "JPMorgan Chase & Co.",
+  "jobTitle": "Financial Analysis Production Support Associate",
+  "jobLocation": [
+    "USA, TX, Plano"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "支持日常运营流程，并在既定服务水平协议内提供交付成果",
+    "监控问题指标并准备根本原因分析，以识别和实施减少问题发生的步骤",
+    "确保系统、数据和用户问题及请求被记录在相应的报告工具中，以支持系统健康关键绩效指标的收集、修复和指标生成",
+    "支持测试和用户验收测试（UAT）活动，包括缺陷发现与报告",
+    "部署Anaplan生产模型",
+    "将需要审批、升级和风险缓解的事项汇报给高级管理层",
+    "与应用程序的终端用户沟通，运用书面和口头沟通技能理解并分类其问题，同时将问题性质转达给高级领导层和技术团队以进行故障排除、优先级排序和解决"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "拥有认可大学/机构的本科学位",
+      "候选人需具备3年以上相关经验",
+      "具有数据分析经验，并对技术充满热情",
+      "具有经济预测或监管报告背景（例如：FRB报告）",
+      "表现出灵活性、团队合作能力、有效多任务处理能力、合作意识，并能在快节奏环境中工作",
+      "具备自信、果断，并能与高级管理层互动的能力",
+      "熟悉项目管理工具，如JIRA、Confluence、ServiceNow",
+      "了解并/或有使用编程与查询语言（如SQL、Python）的经验，同时能够运用自动化与商业智能工具，如Alteryx、Tableau或Xceptor",
+      "具备使用Anaplan等数据建模工具的经验"
+    ],
+    "preferredQualifications": [
+      "具备快速学习和吸收业务与技术知识的能力，自我驱动",
+      "拥有高级学位和/或相关证书",
+      "具备较强的分析和问题解决能力",
+      "有敏捷交付方法（Agile delivery methodologies）经验",
+      "有运营/生产支持经验，尤其是在金融领域",
+      "具备宏观经济变量相关知识者优先",
+      "拥有以下经验者为佳：财务报告、金融工作流/自动化、分析/仪表板构建、FwP&A/预测建模"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210636711/?utm_medium=jobshare&utm_source=External+Job+Share",
+  "notes": ""
+}

@@ -1,0 +1,58 @@
+{
+  "companyName": "JPMorgan Chase",
+  "jobTitle": "Software Engineer II - Release Management",
+  "jobLocation": [
+    "USA, TX, Plano",
+    "USA, OH, Columbus",
+    "USA, IL, Chicago"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "协调多个微服务发布（热修复/每周发布）到上层环境（多个测试环境、性能测试、热修复和生产环境）",
+    "在发布到生产过程期间协助排查 CI/CD 问题",
+    "提供反馈并协助部署流程的自动化",
+    "创建并维护新问题及其解决方案的文档",
+    "从部署中收集、分析、综合并可视化和报告大型、多样化数据集",
+    "为部署流程的持续改进提供反馈",
+    "主动识别数据中的隐藏问题和模式，并利用这些见解改进编码规范和系统架构",
+    "为技术资源提供知识传递，贡献、分享并支持知识转移",
+    "开发并部署云原生应用程序",
+    "为团队的多样性、公平性、包容性和尊重的文化做出贡献"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "具备软件工程概念的正式培训或认证，以及2年以上实际应用经验",
+      "了解 CI/CD（持续集成与持续部署）流水线",
+      "具备相关编程语言的编程专业知识",
+      "能在项目中有效应用 DevOps 概念和敏捷方法论",
+      "能够使用应用程序发布自动化工具简化部署流程",
+      "具备开发、调试和维护脚本的经验",
+      "参与软件开发生命周期的所有阶段",
+      "能够在 AWS 环境中部署微服务",
+      "能够在团队环境中有效协作",
+      "具备排查支持问题的实际操作经验"
+    ],
+    "preferredQualifications": [
+      "具备 Jenkins 和/或 Spinnaker 使用经验",
+      "接触过云技术",
+      "了解 Kubernetes、Docker 和基于容器的开发（如 AWS、Kubernetes、Docker）",
+      "能够利用数据和分析澄清技术问题，并向高级或主力工程师提供反馈",
+      "掌握如 Golang、Java 和 Ruby 等编程语言"
+    ]
+  },
+  "salary": [
+    "Chicago, IL: $99,750.00 - $125,000.00（基础年薪）"
+  ],
+  "benefits": [
+    "全面的医疗保险",
+    "现场健康与保健中心",
+    "退休储蓄计划",
+    "紧急托儿服务",
+    "学费报销",
+    "心理健康支持",
+    "财务辅导",
+    "基于业绩的奖金和股权激励（符合条件）"
+  ],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210623738/?utm_medium=jobshare&utm_source=External+Job+Share",
+  "notes": ""
+}
