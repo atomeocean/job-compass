@@ -4,11 +4,11 @@ title: Google
 
 # Google LLC
 
-## 📌 公司信息
+## 公司信息
 
 <DirectHireCompanyTable state="california" city="san-jose" companyJsonFileName="google" />
 
-## 🚢 航海日志
+## 航海日志
 
 ### 2024年6月
 
