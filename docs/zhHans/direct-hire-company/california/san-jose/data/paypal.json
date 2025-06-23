@@ -1,0 +1,34 @@
+{
+  "companyInfo": {
+    "companyName": "PayPal Holdings, Inc.",
+    "location": {
+      "addressLine1": "2211 North First Street",
+      "addressLine2": "",
+      "county": "Santa Clara County",
+      "cityOrTown": "San Jose",
+      "state": "CA",
+      "zipCode": "95131"
+    },
+    "contact": {
+      "phone": "+1 408-967-1000",
+      "email": "",
+      "website": "https://www.paypal.com",
+      "linkedin": "https://www.linkedin.com/company/paypal"
+    },
+    "industry": ["金融科技", "电子支付", "在线支付处理", "数字钱包"],
+    "foundedYear": "1998",
+    "description": "PayPal 是一家总部位于加利福尼亚州圣何塞的金融科技公司，致力于为全球用户提供安全便捷的在线支付解决方案。自1998年成立以来，PayPal 发展成为全球领先的数字支付平台之一，支持个人、商户、企业进行跨境转账、在线购物和移动支付等服务。",
+    "mainProductsOrServices": [
+      "PayPal 数字钱包",
+      "在线支付处理",
+      "商户支付服务",
+      "跨境支付与汇款",
+      "PayPal Credit 信用支付",
+      "Braintree、Venmo、Xoom 等子品牌服务"
+    ],
+    "companySize": "29,000+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-06-23"
+  }
+}
