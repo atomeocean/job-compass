@@ -1,0 +1,31 @@
+# This workflow validates changed JSON files in the pull request.
+name: Validate JSON Files
+
+on:
+  push:
+    paths:
+      - '**/*.json'
+  pull_request:
+    paths:
+      - '**/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Validate changed JSON files
+        run: |
+          echo "Checking changed JSON files..."
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.json$' | while IFS= read -r file; do
+            echo "Validating $file"
+            if ! jq empty "$file"; then
+              echo "❌ Invalid JSON: $file"
+              exit 1
+            fi
+          done
