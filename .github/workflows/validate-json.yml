@@ -35,13 +35,19 @@ jobs:
             echo "files=${files}" >> $GITHUB_OUTPUT
           fi
 
+      - name: Install jq (if needed)
+        if: steps.changed-files.outputs.changed_files == 'true'
+        run: |
+          if ! command -v jq &> /dev/null; then
+            sudo apt-get update && sudo apt-get install -y jq
+          else
+            echo "jq is already installed"
+          fi
+
       - name: Validate JSON files
         if: steps.changed-files.outputs.changed_files == 'true'
         run: |
-          # 安装jq (轻量级JSON处理器)
-          sudo apt-get update && sudo apt-get install -y jq
-          
-          # 读取上一步输出的文件列表
+          # 读取文件列表
           IFS=$'\n' read -rd '' -a files <<< "${{ steps.changed-files.outputs.files }}"
           
           # 验证每个JSON文件
