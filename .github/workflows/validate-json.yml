@@ -2,30 +2,54 @@
 name: Validate JSON Files
 
 on:
-  push:
-    paths:
-      - '**/*.json'
   pull_request:
     paths:
       - '**/*.json'
 
 jobs:
-  validate:
+  validate-json:
     runs-on: ubuntu-latest
+    timeout-minutes: 5  # 设置超时防止长时间运行
+
     steps:
-      - name: Checkout Code
+      - name: Checkout code with PR changes
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}  # 明确检出PR分支的代码
+          fetch-depth: 0  # 获取完整提交历史以便准确比较变更
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Validate changed JSON files
+      - name: Get changed JSON files
+        id: changed-files
         run: |
-          echo "Checking changed JSON files..."
-          git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.json$' | while IFS= read -r file; do
-            echo "Validating $file"
+          # 获取PR中修改的JSON文件列表
+          echo "Checking JSON files changed in PR..."
+          files=$(git diff --name-only --diff-filter=AM ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} | grep '\.json$' || true)
+          
+          if [ -z "$files" ]; then
+            echo "No JSON files changed in this PR."
+            echo "changed_files=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changed JSON files:"
+            echo "$files"
+            echo "changed_files=true" >> $GITHUB_OUTPUT
+            echo "files=${files}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Validate JSON files
+        if: steps.changed-files.outputs.changed_files == 'true'
+        run: |
+          # 安装jq (轻量级JSON处理器)
+          sudo apt-get update && sudo apt-get install -y jq
+          
+          # 读取上一步输出的文件列表
+          IFS=$'\n' read -rd '' -a files <<< "${{ steps.changed-files.outputs.files }}"
+          
+          # 验证每个JSON文件
+          for file in "${files[@]}"; do
+            echo "Validating $file..."
             if ! jq empty "$file"; then
-              echo "❌ Invalid JSON: $file"
+              echo "::error file=$file::Invalid JSON format detected"
               exit 1
             fi
+            echo "✅ $file is valid"
           done
