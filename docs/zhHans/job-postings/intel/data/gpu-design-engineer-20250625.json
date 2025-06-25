@@ -1,0 +1,45 @@
+{
+  "companyName": "Intel",
+  "jobTitle": "GPU design verification engineer",
+  "jobLocation": [
+    "Folsom, CA, USA",
+    "Santa Clara, CA, USA"
+  ],
+  "jobType": "Full time",
+  "jobResponsibilities": [
+    "执行图形逻辑组件（包括 3D 图形、媒体和显示）的功能验证，以确保设计满足规范要求",
+    "定义并开发可扩展和可重复使用的 IP 验证计划、测试平台和验证环境架构，以确保覆盖范围符合图形微架构规范",
+    "执行验证计划并定义和运行系统仿真模型以验证设计、分析功率和时序并发现错误",
+    "在硅片生产前的环境中复制、查找根本原因并调试问题",
+    "查找并实施纠正措施来解决失败的测试",
+    "与 GPU 架构师、RTL 开发人员和物理设计团队合作，以改进复杂架构和微架构功能的验证，并满足功能、性能和功率目标",
+    "记录测试计划并推动设计和架构团队对计划和证明进行技术审查",
+    "维护和改进现有的功能验证基础设施和方法",
+    "参与定义功能设计验证所需的验证基础设施和相关TFM"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "拥有电子或计算机工程学士学位，具有 9 年以上硅片设计开发经验。",
+      "至少 7 年前端验证方法、模拟环境开发（测试台、检查器）、测试计划开发、模拟和仿真调试以及根本原因分析经验，应具有功能和/或代码覆盖率闭包工作经验",
+      "至少 4 年技术主管经验",
+      "出色的沟通能力，善于团队合作",
+      "必须有主动性，能够独立完成任务",
+      "出色的沟通能力，善于团队合作",
+      "强大的分析和解决问题能力以及对细节的高度关注"
+    ],
+    "preferredQualifications": [
+      "具有使用形式验证工具验证设计的经验",
+      "具有基于 OVMUVM 的测试平台经验",
+      "了解图形架构和设计",
+      "喜欢了解图形架构的知识"
+    ]
+  },
+  "salary": ["$186,070.00 - $262,680.00"],
+  "benefits": [
+    "股票",
+    "奖金",
+    "医疗、退休和休假等福利计划"
+  ],
+  "jobLink": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-California-Folsom/GPU-design-verification-engineer_JR0275933?locations=1e4a4eb3adf10118b1dfe877bf8162d0",
+  "notes": ""
+}
