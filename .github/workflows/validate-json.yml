@@ -47,10 +47,10 @@ jobs:
       - name: Validate JSON files
         if: steps.changed-files.outputs.changed_files == 'true'
         run: |
-          # 读取文件列表
-          IFS=$'\n' read -rd '' -a files <<< "${{ steps.changed-files.outputs.files }}"
-          
-          # 验证每个JSON文件
+        # 读取文件列表
+          IFS=$'\n' read -rd '' -a files <<< "${{ steps.changed-files.outputs.files }}" 
+
+        # 验证每个JSON文件
           for file in "${files[@]}"; do
             echo "Validating $file..."
             if ! jq empty "$file"; then
