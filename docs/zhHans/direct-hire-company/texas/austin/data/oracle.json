@@ -1,0 +1,35 @@
+{
+  "companyInfo": {
+    "companyName": "Oracle Corporation",
+    "location": {
+      "addressLine1": "2300 Oracle Way",
+      "addressLine2": "",
+      "county": "Travis County",
+      "cityOrTown": "Austin",
+      "state": "TX",
+      "zipCode": "78741"
+    },
+    "contact": {
+      "phone": "+1 737-867-1000",
+      "email": "",
+      "website": "https://www.oracle.com",
+      "linkedin": "https://www.linkedin.com/company/oracle"
+    },
+    "industry": ["企业软件", "云计算", "数据库技术", "SaaS"],
+    "foundedYear": "1977",
+    "description": "甲骨文公司（Oracle Corporation）是一家全球领先的企业软件公司，总部位于美国德克萨斯州奥斯汀。公司于1977年创立，以开发关系型数据库管理系统而闻名。Oracle 提供全面的企业软件解决方案，包括数据库、中间件、应用软件和云基础设施服务。它也是世界上最大的数据库软件供应商之一，并广泛服务于金融、电信、制造、政府等多个行业。",
+    "mainProductsOrServices": [
+      "Oracle 数据库系统",
+      "Oracle Cloud Infrastructure（OCI）",
+      "企业资源规划（ERP）系统",
+      "客户关系管理（CRM）系统",
+      "人力资本管理（HCM）系统",
+      "Java 开发平台",
+      "中间件与集成服务"
+    ],
+    "companySize": "143,000+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-06-26"
+  }
+}
