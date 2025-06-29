@@ -1,0 +1,47 @@
+{
+    "companyName": "Netflix",
+    "jobTitle": "Software Engineer, UI Platform",
+    "jobLocation": [
+        "USA, CA, Los Gatos"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "构建高性能、模块化的 UI 平台组件，服务于 Netflix 各类客户端应用",
+        "与多个前端团队合作，提供可复用的基础设施与开发工具",
+        "优化 UI 渲染性能，提升应用加载速度与响应效率",
+        "设计并维护跨平台的开发环境，支持快速迭代与部署",
+        "在可观察性、调试性、自动化测试等方面提升前端系统的工程质量",
+        "持续推动平台组件的可维护性、扩展性和开发体验"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "计算机科学或相关专业本科学历，或具备同等的软件工程背景",
+            "3 年以上使用 JavaScript/TypeScript 构建 Web 应用的经验",
+            "熟练掌握 React 或其他现代前端框架",
+            "具备构建组件库、设计系统或 UI 平台的实战经验",
+            "了解 Web 性能优化、自动化测试、构建工具与模块化方案",
+            "有良好的沟通能力与跨团队合作经验"
+        ],
+        "preferredQualifications": [
+            "有在大型技术组织中构建开发平台或基础设施的经验",
+            "熟悉 Netflix 的编码文化与高自治性团队合作方式",
+            "具有可观测性（observability）、持续集成（CI/CD）方面的工程实践",
+            "能在不确定性中推动项目落地，有 owner 思维和结果导向"
+        ]
+    },
+    "salary": [
+        "$100,000 - $700,000 total compensation range",
+        "包含基础薪资、年度奖金与股票（RSU）",
+        "具体薪酬将根据经验、技能和绩效匹配"
+    ],
+    "benefits": [
+        "灵活的休假政策",
+        "优厚的医疗保险与心理健康支持",
+        "Netflix 全球内容订阅福利",
+        "高绩效导向的文化与自由裁量权",
+        "支持远程办公与混合办公模式",
+        "多样性与包容性文化"
+    ],
+    "jobLink": "https://explore.jobs.netflix.net/careers?pid=790303610743",
+    "notes": "此职位隶属于 UI 平台团队，工作重心为提升前端工程效率与可扩展性。"
+}
