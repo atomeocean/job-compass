@@ -1,0 +1,48 @@
+{
+    "companyName": "eBay",
+    "jobTitle": "iOS Engineer",
+    "jobLocation": [
+        "USA, OR, Portland"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "将业务需求转化为高质量、可维护的 iOS 原生应用代码，服务数百万用户",
+        "担任大型功能模块的技术负责人，参与架构设计及技术决策",
+        "推动团队开发效率提升，识别与实施优化机会",
+        "设计灵活、扩展性强的解决方案，加速产品迭代",
+        "与产品、设计、后端等跨职能团队合作，实现开发目标",
+        "拆解项目功能、追踪任务、解决技术问题并确保高效交付"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "计算机科学、电子工程或相关专业学士学位",
+            "2年以上原生 iOS 开发经验，精通 Swift 和 Objective‑C",
+            "熟悉 UIKit、SwiftUI、Combine 或类似现代 iOS 框架",
+            "具备 CI/CD、单元测试（XCTest）与持续集成工具使用经验",
+            "熟练进行 REST/GraphQL 后端集成与网络调试",
+            "具备敏捷开发流程经验，能与服务团队良好协作"
+        ],
+        "preferredQualifications": [
+            "掌握异步编程（如 async/await）、依赖注入与体系化架构（MVVM/Clean）",
+            "参与过大规模 iOS 应用（多模块、多功能）开发或维护",
+            "熟悉 App 性能优化、内存管理与调优技巧",
+            "具备良好的文档撰写能力和测试优先（shift‑left）思维",
+            "有 GraphQL、Combine、SwiftLint 等先进工具的实践经验"
+        ]
+    },
+    "salary": [
+        "$115,000 - $200,000 base pay",
+        "附加薪酬可能包括目标奖金与限制性股票单位（RSU）",
+        "提供医疗、财务等全套福利，包括401(k)、PTO及育儿假"
+    ],
+    "benefits": [
+        "401(k)退休福利",
+        "医疗保险",
+        "带薪休假（PTO）",
+        "育儿假",
+        "股票激励（RSUs）",
+        "包容性、多样性文化氛围"
+    ],
+    "jobLink": "https://jobs.ebayinc.com/us/en/job/R0067788/iOS-Engineer",
+    "notes": ""
+}
