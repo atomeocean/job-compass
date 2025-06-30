@@ -1,0 +1,41 @@
+{
+  "companyName": "Spotify",
+  "jobTitle": "Machine Learning Engineer",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计、构建、评估和交付Spotify个性化产品中的machine learning解决方案",
+    "与用户研究、设计、数据科学、产品管理和工程等跨职能团队合作，构建新的产品功能，以推进我们以个性化和实用的方式连接艺术家和粉丝的使命",
+    "为数亿活跃用户设计新方法并大规模生产解决方案",
+    "在团队内部以及整个组织内推广和示范机器学习系统开发、测试、评估等方面的最佳实践",
+    "成为活跃的机器学习从业者群体的一员"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "经验丰富的机器学习从业者，积极在快节奏的协作环境中解决复杂的现实问题",
+      "拥有机器学习、自然语言处理和生成式人工智能方面的深厚背景，并具有将理论应用于开发实际应用的经验",
+      "具有 Pytorch 和/或 TensorFlow 经验者优先考虑具有与产品团队合作，为复杂问题空间中的 ML 框架设计端到端技术规格和模块化架构的经验",
+      "具有使用大规模分布式数据处理框架/工具（如 Apache Beam、Apache Spark）以及云平台（如 GCP 或 AWS）的经验"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$138,250 - $197,500 美元，外加股票期权"
+  ],
+  "benefits": [
+    "健康保险",
+    "六个月带薪育儿假",
+    "401(k) 退休计划",
+    "每月餐费补贴",
+    "23 天带薪休假",
+    "3 天带薪弹性假期以及带薪病假",
+    "广泛的学习机会，由专门的 GreenHouse 团队提供",
+    "灵活的股票激励方式，让你自主选择如何分享成功",
+    "All The Feels 员工支持项目和自我关怀平台",
+    "灵活的公共假期，可根据个人价值观和信仰调整休假时间"
+  ],
+  "jobLink": "https://www.lifeatspotify.com/jobs/machine-learning-engineer-genrecs-personalization-2",
+  "notes": "该团队在东部标准时区内开展协作"
+}
