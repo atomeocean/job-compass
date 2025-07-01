@@ -1,0 +1,35 @@
+{
+  "companyInfo": {
+    "companyName": "Intel Corporation",
+    "location": {
+      "addressLine1": "2200 Mission College Blvd",
+      "addressLine2": "",
+      "county": "Santa Clara County",
+      "cityOrTown": "Santa Clara",
+      "state": "CA",
+      "zipCode": "95054"
+    },
+    "contact": {
+      "phone": "+1 408-765-8080",
+      "email": "",
+      "website": "https://www.intel.com",
+      "linkedin": "https://www.linkedin.com/company/intel-corporation"
+    },
+    "industry": ["半导体", "人工智能", "高性能计算", "芯片制造"],
+    "foundedYear": "1968",
+    "description": "英特尔公司（Intel Corporation）是一家全球领先的半导体技术公司，总部位于美国加利福尼亚州圣克拉拉。公司成立于1968年，长期专注于计算机处理器、芯片组、系统级解决方案和人工智能硬件。作为PC革命的推动者之一，Intel 也是全球最大的x86架构CPU制造商之一，并积极进军自动驾驶、数据中心和边缘计算等新兴领域。",
+    "mainProductsOrServices": [
+      "中央处理器（CPU）",
+      "图形处理器（GPU）",
+      "系统芯片（SoC）",
+      "AI 加速器",
+      "数据中心和服务器解决方案",
+      "网络和边缘计算产品",
+      "晶圆制造代工服务（Intel Foundry Services）"
+    ],
+    "companySize": "124,000+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-06-24"
+  }
+}
