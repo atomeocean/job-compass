@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Capital One Financial Corporation",
+    "location": {
+      "addressLine1": "1680 Capital One Drive",
+      "addressLine2": "",
+      "county": "Fairfax County",
+      "cityOrTown": "McLean",
+      "state": "VA",
+      "zipCode": "22102"
+    },
+    "contact": {
+      "phone": "+1 703-720-1000",
+      "email": "",
+      "website": "https://www.capitalone.com",
+      "linkedin": "https://www.linkedin.com/company/capital-one"
+    },
+    "industry": ["金融服务", "信用卡", "银行", "金融科技"],
+    "foundedYear": "1994",
+    "description": "Capital One 是一家总部位于美国弗吉尼亚州麦克莱恩的银行控股公司和金融科技企业。公司成立于1994年，是美国最大的信用卡发行商之一，同时在消费银行、商业银行、汽车贷款等领域拥有广泛业务。Capital One 以其技术驱动的银行业务模式而闻名，是业内较早拥抱云计算和人工智能的传统银行之一。",
+    "mainProductsOrServices": [
+      "信用卡服务（个人与企业）",
+      "储蓄与支票账户",
+      "汽车贷款与再融资",
+      "商业银行与小企业贷款",
+      "移动银行与数字金融平台"
+    ],
+    "companySize": "50,800+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-06-30"
+  }
+}
