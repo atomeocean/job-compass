@@ -1,0 +1,35 @@
+{
+  "companyInfo": {
+    "companyName": "Elastic",
+    "location": {
+      "addressLine1": "88 Kearny St",
+      "addressLine2": "Floor 19",
+      "county": "",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94108"
+    },
+    "contact": {
+      "phone": "+1 650-458-2620",
+      "email": "",
+      "website": "https://www.elastic.co",
+      "linkedin": "https://www.linkedin.com/company/elastic-co"
+    },
+    "industry": ["搜索技术", "日志分析", "数据可视化", "安全信息与事件管理（SIEM）"],
+    "foundedYear": "2012",
+    "description": "Elastic 是一家以开源搜索引擎 Elasticsearch 闻名的科技公司，总部设在加利福尼亚州山景城。公司成立于2012年，致力于构建一整套用于搜索、观察性分析、安全和机器学习的数据平台。Elastic Stack（也称为“ELK Stack”）是其核心产品，广泛应用于日志处理、全文搜索、安全监控和业务分析等场景。",
+    "mainProductsOrServices": [
+      "Elasticsearch（搜索与分析引擎）",
+      "Kibana（数据可视化与仪表板）",
+      "Logstash（日志收集与处理）",
+      "Beats（轻量级数据采集器）",
+      "Elastic Cloud（托管式 Elasticsearch 服务）",
+      "SIEM 与安全分析工具",
+      "应用性能监控（APM）与可观测性平台"
+    ],
+    "companySize": "2,800+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-02"
+  }
+}

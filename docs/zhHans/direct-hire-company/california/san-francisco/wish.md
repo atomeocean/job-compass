@@ -2,8 +2,8 @@
 title: Wish
 ---
 
-# 直招公司
+# Wish
 
-## 📌 公司信息
+## 公司信息
 
 <DirectHireCompanyTable state="california" city="san-francisco" companyJsonFileName="wish" />

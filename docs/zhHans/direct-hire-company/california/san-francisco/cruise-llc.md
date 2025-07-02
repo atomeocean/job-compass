@@ -6,11 +6,11 @@ outline: [2,3]
 
 # Cruise LLC
 
-## 📌 公司信息
+## 公司信息
 
 <DirectHireCompanyTable state="california" city="san-francisco" companyJsonFileName="cruise-llc" />
 
-## 🚢 航海日志
+## 航海日志
 
 #### 2024年12月
 
