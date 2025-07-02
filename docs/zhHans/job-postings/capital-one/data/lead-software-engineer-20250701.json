@@ -1,0 +1,38 @@
+{
+  "companyName": "Capital One",
+  "jobTitle": "Lead Software Engineer, Full Stack",
+  "jobLocation": [
+    "USA, NY, New York"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "领导多元化技术项目组合和一支在分布式微服务和全栈系统方面拥有丰富经验的开发团队，以创建有助于满足公司监管需求的解决方案",
+    "分享您对掌握技术趋势、尝试和学习新技术、参与内部和外部技术社区、指导工程社区其他成员的热情",
+    "与数字产品经理合作，提供强大的基于云的解决方案，带来强大的体验，帮助数百万美国人实现财务赋权",
+    "利用 JavaScript、Java、HTML/CSS、TypeScript、SQL、Python 和 Go 等编程语言、开源 RDBMS 和 NoSQL 数据库、包括 Docker 和 Kubernetes 在内的容器编排服务以及各种 AWS 工具和服务"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "学士学位",
+      "至少4年软件工程经验（实习经验不适用）",
+      "至少 1 年云计算经验（AWS、Microsoft Azure、Google Cloud）"
+    ],
+    "preferredQualifications": [
+      "拥有硕士学位",
+      "至少在以下一项领域拥有 7 年以上经验：JavaScript、Java、TypeScript、SQL、Python 或 Go",
+      "拥有 3 年以上 AWS、GCP、Microsoft Azure 或其他云服务使用经验",
+      "4年以上开源框架经验",
+      "1年以上人员管理经验",
+      "2年以上敏捷实践经验"
+    ]
+  },
+  "salary": [
+    "Manager, Lead Software Engineer: $211,000 - $240,800"
+  ],
+  "benefits": [
+    "可能包括现金奖金和/或长期激励 (LTI)",
+    "提供全面、有竞争力且包容的医疗、财务和其他福利"
+  ],
+  "jobLink": "https://www.capitalonecareers.com/job/new-york/lead-software-engineer-full-stack/1732/81068408352",
+  "notes": "目前Capital One不会为新的申请人提供工作许可担保，也不会为该职位提供任何移民相关的支持（即 H1B、F-1 OPT、F-1 STEM OPT、F-1 CPT、J-1、TN 或其他类型的工作许可）"
+}
