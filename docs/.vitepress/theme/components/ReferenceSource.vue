@@ -1,5 +1,5 @@
 <!--在文章中显示内容引用来源-->
-<script setup>
+<script setup lang="ts">
 import { defineProps } from 'vue'
 import { ElCard, ElButton, ElTag } from 'element-plus'
 import { Link as ElIconLink } from '@element-plus/icons-vue'
@@ -11,8 +11,9 @@ const props = defineProps({
   }
 })
 
-const openLink = (url) => {
-  window.open(url, '_blank') // 在新标签页打开链接
+const openLink = (url: string): void => {
+  if (!url) return
+  window.open(url, '_blank', 'noopener') // 在新标签页打开链接
 }
 
 </script>
@@ -20,6 +21,7 @@ const openLink = (url) => {
 <template>
   <div class="reference-container">
     <h2>引用来源</h2>
+
     <el-card v-for="(source, index) in sources" :key="index" class="reference-card">
       <template #header>
         <div class="card-header">
@@ -30,8 +32,8 @@ const openLink = (url) => {
 
       <p v-if="source.description">{{ source.description }}</p>
       <p><strong>来源：</strong>{{ source.site || '未知来源' }}</p>
-      <p v-if="source.author"><strong>👤 作者：</strong>{{ source.author }}</p>
-      <p v-if="source.date"><strong>📅 发布时间：</strong>{{ source.date }}</p>
+      <p v-if="source.author"><strong>作者：</strong>{{ source.author }}</p>
+      <p v-if="source.date"><strong>发布时间：</strong>{{ source.date }}</p>
 
       <el-button v-if="source.link" type="primary" @click="openLink(source.link)">
         <el-icon-link class="icon-link" /> 查看原文
@@ -40,7 +42,7 @@ const openLink = (url) => {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
   .reference-container {
     margin-top: 20px;
   }
