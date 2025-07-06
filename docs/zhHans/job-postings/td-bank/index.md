@@ -1,5 +1,5 @@
 ---
-title: 道明银行（TD Bank）
+title: TD Bank
 ---
 
 ## 公司简介
