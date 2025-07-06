@@ -1,5 +1,5 @@
 ---
-title: 波士顿咨询公司（Boston Consulting Group）
+title: Boston Consulting Group
 ---
 
 ## 公司简介
