@@ -58,7 +58,7 @@ description: 进入职场保持自信和勇气
 
 <p data-pid="ifXsWRzE">混就混出个样子来</p>
 
-<p data-pid="5FhOQH2X" class="ztext-empty-paragraph"><br></p><hr>
+<p data-pid="5FhOQH2X" class="ztext-empty-paragraph"><br></p>
 
 <p data-pid="hlaqbHSF">答主可以有感情的把我的回答念念</p>
 
@@ -132,7 +132,7 @@ description: 进入职场保持自信和勇气
 
 <p data-pid="4zIDH8-D">这个时候你心里想的其实是</p><blockquote data-pid="FvQ4mjVH">wocccc，这憨批怎么进步这么快！真牛批！<br>（这棵树怎么长这么快）</blockquote><p data-pid="gn-2i_nK">而不是</p><blockquote data-pid="4_j_4gOK">这人咋这么多问题<br>（这树怎么喝这么多水）</blockquote>
 
-<p data-pid="g6tpO78E">不是么？</p><hr>
+<p data-pid="g6tpO78E">不是么？</p>
 
 <p data-pid="ZPas_M-S">真的</p><p data-pid="P7Amqpk9">加油吧年轻人</p>
 
@@ -141,4 +141,16 @@ description: 进入职场保持自信和勇气
 </span>
 </div></div>
 
-引用来源: https://www.zhihu.com/question/374793759/answer/2487534325
+
+<ReferenceSource
+:sources="[
+{
+title: '在字节跳动试用期间会因为水平太菜而被裁吗？',
+link: 'https://www.zhihu.com/question/374793759/answer/2487534325',
+site: '知乎',
+author: '小罗',
+date: '2024-08-21',
+category: '问答'
+}
+]"
+/>
