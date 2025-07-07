@@ -1,0 +1,42 @@
+{
+  "companyName": "Kaseya",
+  "jobTitle": "DevOps Engineer",
+  "jobLocation": [
+    "USA, FL, Orlando"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "创建和维护涵盖 DevOps 的代码管理、构建、打包、部署和交付功能的自动化解决方案",
+    "使用基础设施即代码，根据项目需求管理云和混合资源的日常使用和配置",
+    "通过主动监控计划确保数据基础设施的性能和可用性",
+    "加入轮班待命团队，管理和恢复任何服务相关问题",
+    "使用配置即代码构建部署自动化，以配置数据云服务/基础设施",
+    "主动监控基础设施成本，并寻找优化/减少基础设施的方法",
+    "采用工程最佳实践，提供更高质量、可扩展的解决方案",
+    "紧跟新兴的 DevOps 和数据技术/工具"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "拥有 5 年使用 AWS 工作和部署解决方案的经验",
+      "使用 CloudFormation 或 Terraform 等工具编写基础设施即代码的经验",
+      "维护持续集成和部署管道的经验",
+      "了解广泛部署、管理和操作可扩展、高可用性和容错系统中的技术架构和设计、理论和最佳实践",
+      "具有使用 GitHub 和 Gitlab 进行持续集成/持续交付的经验",
+      "对开源软件的贡献",
+      "与工作相关的博客或 GitHub 帐户详细信息",
+      "具有使用脚本语言（包括 Python 和 Shell 脚本）的经验",
+      "具有使用日志记录工具（如：Kibana、Elasticsearch、OpenSearch）的经验",
+      "具有使用 Docker、ECS、K8s 或 Lambda 支持容器化和无服务器部署的经验",
+      "熟悉 Datadog、CloudWatch 和 Grafana 等监控工具",
+      "熟悉 AWS RDS（MySQL 和 PostgreSQL）",
+      "熟悉使用 OpsGenie 或 PagerDuty 等工具的轮班值班经验",
+      "熟悉事件管理，包括故障排除、解决问题和创建事后分析/RCA",
+      "熟悉使用 Snowflake、Airflow 或类似软件进行数据仓库和 ETL 操作"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://www.kaseya.com/careers/jobs/id/5393797004/",
+  "notes": ""
+}
