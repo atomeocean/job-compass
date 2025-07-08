@@ -1,0 +1,48 @@
+{
+  "companyName": "EPAM",
+  "jobTitle": "UI Architect - JavaScript",
+  "jobLocation": [
+    "New York, NY, USA"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "使用 React、Vue、Angular 或 Svelte 等现代框架构建可扩展的 UI 解决方案，同时建立技术标准和最佳实践",
+    "使用 WebAuthn、OAuth2、OpenID Connect 和 Passkeys 设计跨平台的安全身份验证流程，重点是防范网络钓鱼",
+    "领导概念验证计划，将业务需求转化为可用于生产的技术解决方案",
+    "实现 MicroFrontend 架构、服务器端渲染，并通过 CDN 策略和 Web 打包优化交付",
+    "推动采用现代 UI 设计模式，包括原子设计、容器/展示组件和基于 Hooks 的架构",
+    "为 Web 应用程序建立强大的安全实践，包括 CORS、CSRF 保护、CHIPS、SameSite cookie 和内容安全策略"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "拥有 8 年以上前端开发经验，其中 3 年以上 UI 架构或技术领导经验",
+      "精通 JavaScript/TypeScript、HTML5、CSS3 以及至少一个现代 UI 框架（React、Vue、Angular、Svelte）",
+      "具有实施安全身份验证机制和管理跨域安全挑战的丰富经验",
+      "熟悉 Node.js 的服务器端渲染、工具开发和后端前端模式",
+      "具有 UI 测试框架经验，包括 Playwright、Cypress、Jest 和 Testing Library",
+      "具有指导工程师和建立编码标准和设计原则的能力",
+      "出色的沟通技巧，能够向不同的利益相关者解释复杂的技术概念",
+      "能够每周三天在纽约市客户办公室现场工作"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [],
+  "benefits": [
+    "医疗、牙科和视力保险（补贴）",
+    "健康储蓄账户",
+    "灵活支出账户（医疗保健、受抚养人护理、通勤）",
+    "短期和长期残疾（公司提供）",
+    "人寿和意外伤害保险（公司提供）",
+    "员工援助计划",
+    "无限制访问 LinkedIn 学习解决方案",
+    "匹配的401（k）退休储蓄计划",
+    "带薪休假",
+    "法律计划和身份盗窃保护",
+    "意外保险",
+    "员工折扣",
+    "宠物保险",
+    "员工股票购买计划"
+  ],
+  "jobLink": "https://www.epam.com/careers/job-listings/job.epamgdo_bltfebad68de648798d_en-us_NewYork_USA.ui-architect-javascript_new-york-ny_usa",
+  "notes": ""
+}
