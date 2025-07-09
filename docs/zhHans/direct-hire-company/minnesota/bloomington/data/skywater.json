@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "SkyWater Technology, Inc.",
+    "location": {
+      "addressLine1": "2401 East 86th St.",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "Bloomington",
+      "state": "MN",
+      "zipCode": "55425"
+    },
+    "contact": {
+      "phone": "952-851-5200",
+      "email": "",
+      "website": "https://www.skywatertechnology.com",
+      "linkedin": "https://www.linkedin.com/company/skywater-technology-foundry/"
+    },
+    "industry": ["半导体制造", "芯片代工", "高可靠性微电子"],
+    "foundedYear": "2017",
+    "description": "SkyWater Technology 是一家总部位于明尼苏达州 Bloomington 的美国半导体工程与代工公司，是美国本土少数的纯晶圆代工厂之一，专注于高可靠性芯片制造，服务对象包括国防、航天、汽车和医疗等行业。公司于2017年从 Cypress Semiconductor 收购其晶圆厂，并持续扩展技术能力与生产规模。",
+    "mainProductsOrServices": [
+      "硅基半导体晶圆代工服务",
+      "高可靠性芯片制造",
+      "定制工艺开发与封装",
+      "与DARPA、MIT等合作的研发项目"
+    ],
+    "companySize": "500 - 1000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-09"
+  }
+}
+
