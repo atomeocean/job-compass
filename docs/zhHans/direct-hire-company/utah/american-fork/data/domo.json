@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Domo, Inc.",
+    "location": {
+      "addressLine1": "802 E. 1050 South",
+      "addressLine2": "",
+      "county": "Utah County",
+      "cityOrTown": "American Fork",
+      "state": "UT",
+      "zipCode": "84003"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.domo.com",
+      "linkedin": "https://www.linkedin.com/company/domotalk/"
+    },
+    "industry": ["云BI", "商业智能", "数据可视化"],
+    "foundedYear": "2010",
+    "description": "Domo 是一家总部位于犹他州 American Fork 的云端商业智能与数据可视化公司。公司成立于2010年，由 Josh James 创立，专注于为企业提供实时数据分析平台，使决策者可在无须依赖 IT 团队的情况下获取可操作的业务洞察。",
+    "mainProductsOrServices": [
+      "实时商业智能平台",
+      "云端数据集成与仪表板",
+      "移动端数据访问",
+      "企业级数据安全与管理"
+    ],
+    "companySize": "500 - 1000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-09"
+  }
+}
