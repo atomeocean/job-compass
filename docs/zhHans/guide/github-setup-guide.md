@@ -6,7 +6,7 @@ outline: [2,3]
 
 # GitHub 注册与本地配置指南
 
-本指南将详细介绍如何注册 GitHub 账号，并在本地配置 Git 环境，以便能够使用 GitHub 进行代码管理。指南包括 macOS 和 Windows 两种操作系统的配置步骤。
+本指南将详细介绍如何注册GitHub账号，并在本地配置Git环境，以便能够使用GitHub进行代码管理。指南包括 macOS 和 Windows 两种操作系统的配置步骤。
 
 [[toc]]
 
@@ -21,7 +21,7 @@ outline: [2,3]
 
 ## 本地配置
 
-如需在本地使用 Git 工具管理仓库，可参考以下配置
+如需在本地使用Git工具管理仓库，可参考以下配置
 
 ### macOS 配置
 
@@ -59,7 +59,7 @@ outline: [2,3]
       ```
     - 按回车接受默认文件路径（~/.ssh/id_ed25519）
     - 可设置密码（或留空直接回车）
-    - 依次运行以下命令启动 SSH 代理并添加密钥
+    - 依次运行以下命令启动SSH代理并添加密钥
       ```shell
       eval "$(ssh-agent -s)"
       
@@ -123,7 +123,8 @@ outline: [2,3]
 
 ## 权限配置
 
-请联系[Atomeocean团队成员](https://logbook.atomeocean.com/guide/light-weight-work/project-cooperation/project-mentor.html)，添加你为组织成员，确保有Job Compass的Write权限。
+请参考[加入Atomeocean GitHub组织标准操作流程](https://logbook.atomeocean.com/guide/light-weight-work/join-github-org)
+，发送信息申请，加入组织后会有Job Compass的Write权限。
 
 > [!NOTE] 
 > 权限修改需要一段时间生效
@@ -131,3 +132,4 @@ outline: [2,3]
 ## 参考
 
 - [GitHub 官方文档](https://docs.github.com/en)
+- [加入Atomeocean GitHub组织标准操作流程](https://logbook.atomeocean.com/guide/light-weight-work/join-github-org)
