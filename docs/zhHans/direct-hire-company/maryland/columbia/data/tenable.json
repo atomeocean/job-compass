@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Tenable, Inc.",
+    "location": {
+      "addressLine1": "6100 Merriweather Drive",
+      "addressLine2": "12th Floor",
+      "county": "Howard County",
+      "cityOrTown": "Columbia",
+      "state": "MD",
+      "zipCode": "21044"
+    },
+    "contact": {
+      "phone": "(410) 872-0555",
+      "email": "",
+      "website": "https://www.tenable.com",
+      "linkedin": "https://www.linkedin.com/company/tenableinc/"
+    },
+    "industry": ["网络安全", "漏洞管理", "预制软件"],
+    "foundedYear": "2002",
+    "description": "Tenable 是一家总部设在马里兰州 Columbia 的网络安全软件公司，专注于持续漏洞扫描与风险管理。其旗舰产品 Nessus 是业界领先的漏洞扫描器，公司亦提供云端安全平台，帮助企业监控网络、云环境与 OT 设备的安全状况。",
+    "mainProductsOrServices": [
+      "Nessus 漏洞扫描器",
+      "Tenable One 曝露管理平台",
+      "Tenable Vulnerability Management",
+      "Tenable Cloud Security"
+    ],
+    "companySize": "约2,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-11"
+  }
+}
