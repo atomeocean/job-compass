@@ -1,0 +1,34 @@
+{
+  "companyInfo": {
+    "companyName": "EPAM Systems, Inc.",
+    "location": {
+      "addressLine1": "41 University Dr",
+      "addressLine2": "suit 202",
+      "county": "",
+      "cityOrTown": "Newtown",
+      "state": "PA",
+      "zipCode": "18940"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.epam.com",
+      "linkedin": "https://www.linkedin.com/company/epam-systems"
+    },
+    "industry": ["软件工程", "数字化平台工程", "产品设计"],
+    "foundedYear": "1993",
+    "description": "EPAM Systems 是一家总部位于宾夕法尼亚州纽顿的全球性软件工程与数字产品开发公司。公司成立于1993年，主要提供软件开发、数字平台设计、IT 咨询和数据分析等服务，是 MACH Alliance 的创始成员之一。",
+    "mainProductsOrServices": [
+      "定制软件开发",
+      "数字平台工程",
+      "用户体验与产品设计",
+      "云基础设施与 DevOps",
+      "人工智能与数据分析",
+      "IT 咨询与系统集成"
+    ],
+    "companySize": "61,200+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-07"
+  }
+}
