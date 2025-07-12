@@ -1,0 +1,55 @@
+{
+  "companyName": "Tenable",
+  "jobTitle": "Network Engineer",
+  "jobLocation": [
+    "USA, MD, Columbia"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "管理和更新各种网络设备以维护安全性和性能",
+    "获得使用 Terraform 等基础设施即代码工具管理云环境的实践经验",
+    "协助从我们广泛的技术堆栈中收集和分析审计数据",
+    "为保护我们的基础设施免受不断演变的威胁做出贡献"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "至少5年相关经验",
+      "精通网络以及 Windows 和 Linux 操作系统",
+      "强大的解决问题和分析能力",
+      "了解 OSPF 和 BGP 等路由协议",
+      "具有配置思科交换机和路由器的经验",
+      "具有企业 WiFi 解决方案经验",
+      "有解决复杂网络问题的经验",
+      "具有积极主动的心态和学习新技术的强烈愿望"
+    ],
+    "preferredQualifications": [
+      "具有 Cisco ACI 经验",
+      "具有防火墙经验（Fortigates、Cisco ASA）",
+      "具有 AWS、Azure 或 GCP 等云平台的经验",
+      "熟悉 Terraform 或 CloudFormation 等基础设施即代码工具",
+      "了解身份和访问管理 (IAM) 和 SSO 配置",
+      "了解 SaaS 应用程序和云环境的安全最佳实践",
+      "具有使用 Python、PowerShell 或 Bash 编写脚本或自动化的经验"
+    ]
+  },
+  "salary": [
+    "$91,500 - $122,166.66 / year",
+    "除基本工资外，员工还可根据公司和个人绩效获得浮动薪酬"
+  ],
+  "benefits": [
+    "医疗、牙科、视力、残疾和人寿保险",
+    "公司匹配的 401(k) 退休储蓄",
+    "员工股票购买计划",
+    "员工推荐计划",
+    "弹性支出账户",
+    "员工援助计划 (EAP)",
+    "教育援助",
+    "育儿假",
+    "带薪休假 (PTO)",
+    "公司带薪假期",
+    "健康和保健活动",
+    "社区项目"
+  ],
+  "jobLink": "https://job-boards.greenhouse.io/tenableinc/jobs/4699844008",
+  "notes": ""
+}
