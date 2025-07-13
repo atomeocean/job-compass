@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Warner Bros. Discovery, Inc.",
+    "location": {
+      "addressLine1": "230 Park Ave S, Lbby 1",
+      "addressLine2": "",
+      "county": "New York County",
+      "cityOrTown": "New York",
+      "state": "NY",
+      "zipCode": "10003"
+    },
+    "contact": {
+      "phone": "212-548-5555",
+      "email": "",
+      "website": "https://www.wbd.com",
+      "linkedin": "https://www.linkedin.com/company/warner-bros-discovery/"
+    },
+    "industry": ["传媒与娱乐", "流媒体", "电影与电视制作"],
+    "foundedYear": "2022",
+    "description": "华纳兄弟探索是一家总部位于纽约的全球媒体与娱乐集团，由 WarnerMedia 与 Discovery 于 2022 年 4 月 8 日合并成立。公司拥有广泛的品牌资产组合，包括 Warner Bros. 影业、HBO、CNN、Discovery Channel、TNT、TBS、DC Studios、Max 流媒体等，覆盖全球 220 多个国家和地区。2025 年起，公司将拆分为“Streaming & Studios”与“Global Networks”两大上市实体，以优化资产结构与财务灵活性。",
+    "mainProductsOrServices": [
+      "电影与电视节目的制作与发行",
+      "HBO Max / Max 和 Discovery+ 等流媒体服务",
+      "有线网络频道（如 HBO、CNN、TNT、TBS、Discovery Channel）",
+      "主题娱乐与全球品牌授权（如 Warner Bros. Studio Tours）"
+    ],
+    "companySize": "约35,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-12"
+  }
+}

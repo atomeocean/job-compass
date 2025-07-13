@@ -4,7 +4,7 @@ title: Chubb Limited
 
 # Chubb Limited
 
-## 📌 公司信息
+## 公司信息
 
 <DirectHireCompanyTable state="new-york" city="new-york" companyJsonFileName="chubb-limited" />
 
