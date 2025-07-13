@@ -5,7 +5,7 @@ email: job@atomeocean.com
 
 # Atomeocean
 
-## 📌 公司信息
+## 公司信息
 
 <DirectHireCompanyTable state="new-york" city="new-york" companyJsonFileName="atomeocean" />
 
