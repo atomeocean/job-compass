@@ -17,4 +17,16 @@ outline: deep
 
 你一定要相信，这个世界上，有人可以学历比你高、智商情商都比你高、还有背景，但是却拿着低于你好多倍的工资，干着十分苦逼的工作。
 
-引用来源: https://www.zhihu.com/question/562524801/answer/46094973132
+
+<ReferenceSource
+:sources="[
+{
+title: '为什么不建议在简历上撒谎？',
+link: 'https://www.zhihu.com/question/562524801/answer/46094973132',
+site: '知乎',
+author: 'Egon林海峰',
+date: '2024-12-02',
+category: '问答'
+}
+]"
+/>
