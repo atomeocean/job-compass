@@ -13,6 +13,8 @@ import JobPostingTable from "./components/JobPostingTable.vue";
 import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
 import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
+import Giscus from "./components/Giscus";
+import { h } from 'vue'
 
 export default {
   ...DefaultTheme,
@@ -36,5 +38,10 @@ export default {
     for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
       app.component(key, component);
     }
+  },
+  Layout: () => {
+    return h(DefaultTheme.Layout, null, {
+      'doc-after': () => h(Giscus)
+    })
   },
 };
