@@ -27,7 +27,6 @@ export default defineComponent({
                 homePageShowComment: false, // Whether to display the comment area on the homepage, the default is false
                 lightTheme: 'light', // default: `light`
                 darkTheme: 'transparent_dark', // default: `transparent_dark`
-                // ...
             }, {
                 frontmatter,
                 route,
