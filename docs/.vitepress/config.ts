@@ -2,8 +2,12 @@ import {DefaultTheme, defineConfig, UserConfig} from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { bilibiliIconSvg } from '../assets/svg/icon-svg'
-import {VitePressI18nOptions} from "vitepress-i18n/dist/types";
+import {VitePressI18nOptions} from "vitepress-i18n/types";
 import {withI18n} from "vitepress-i18n";
+import {
+  GitChangelog,
+  GitChangelogMarkdownSection,
+} from '@nolebase/vitepress-plugin-git-changelog/vite';
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
