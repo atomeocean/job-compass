@@ -4,37 +4,37 @@
   "jobLocation": ["Remote"],
   "jobType": "Full Time",
   "jobResponsibilities": [
-    "Design, build, and maintain the data warehouse for Marathon's analytics platform using modern data modeling practices",
-    "Transform raw gaming telemetry into clean, reliable datasets that support analytical workflows",
-    "Collaborate with analysts and data scientists to understand requirements and translate them into scalable data models",
-    "Develop and maintain data quality standards, monitoring, and testing frameworks to ensure data reliability",
-    "Build efficient data transformations and aggregations optimized for BigQuery performance and cost",
-    "Partner with cross-disciplinary teams including game designers, product managers, and engineers to deliver data solutions",
-    "Document data models and create self-service resources for data consumers"
+    "使采用现代数据建模方法，为Marathon项目的分析平台设计、建设并维护数据仓库",
+    "将原始游戏遥测数据处理为干净且可靠的数据集，以支撑后续的分析流程。",
+    "协同分析师与数据科学家，深入理解其需求，并构建可扩展性强的数据建模方案。",
+    "构建和维护数据质量标准、监控系统及测试机制，以确保数据始终可靠可用。",
+    "构建高效的数据转换与聚合流程，并针对BigQuery平台的查询性能与成本进行优化。",
+    "与包括游戏设计师、产品经理和工程师在内的跨学科团队密切合作，推动数据解决方案的落地与交付。",
+    "D对数据模型进行文档化，并为数据消费者创建便捷的自助式访问和使用资源。"
 ],
   "candidateQualifications": {
     "basicQualifications": [
-        "Proficiency with SQL: such as transforming complex granular data to meaningful aggregations; writing performant, cost effective, and repeatable logic; and a strong understanding of SQL concepts such as window functions, CTEs, recursive queries, sharding, and partitioning",
-        "Ability to develop Python code for data processing, automation, and tooling",
-        "Experience with data warehousing concepts, dimensional modeling, analytics engineering best practices, and data quality testing frameworks",
-        "Experience working with big data (TB to PB scale) and optimizing for performance and cost efficiency",
-        "Strong communication skills: listen to, speak with, and resolve conflicts with members of varied disciplines and external partners in a clear and efficient manner",
-        "Experience with Google Cloud Platform (GCP) and BigQuery",
-        "Interest in gaming and understanding how gaming data can be leveraged for analytics and player insights"
+        "精通SQL，擅长复杂数据的聚合转换，能够编写高性能、低成本、可复用的查询逻辑，熟悉窗口函数、CTE、递归查询、分片与分区等高级概念。",
+        "具备使用 Python 开发数据处理、自动化及工具的能力。",
+        "拥有数据仓库原理、维度模型设计、分析工程实践和数据质量测试框架的工作经验。",
+        "具备大数据（TB至PB规模）处理经验，擅长性能调优与成本控制。",
+        "拥有出色的沟通技巧，善于倾听、交流，并与跨学科团队及外部合作伙伴顺畅解决分歧。",
+        "具备Google Cloud Platform（GCP）和BigQuery使用经验。",
+        "对游戏充满兴趣，理解如何利用游戏数据进行分析和洞察玩家行为。"
     ],
     "preferredQualifications": [
-        "Experience with dbt for data model creation and management",
-        "Knowledge of game telemetry, player behavior analytics, or live service game metrics  ",
-        "Experience with Apache Airflow and workflow management"
+        "具备使用dbt进行数据模型创建和管理的经验。",
+        "了解游戏遥测数据、玩家行为分析及实时服务游戏指标。",
+        "具备Apache Airflow及工作流管理经验。"
     ]
   },
   "salary": ["$156,000 – $183,000/year"],
   "benefits": [
-    "Medical, dental, and vision plans to support you and your family with coverage you can count on.",
-    "While creating worlds is rewarding, competitive salaries and robust incentives are the icing on the cake.",
-    "Our PTO, company holidays, and float days empower you to be awesome and leave your work at work.",
-    "Being a part of Bungie extends to your entire family. Paid parental leave and back-up child care.",
-    "Generous 401(k) matching with no vesting. Because life doesn’t end just because working has."
+    "提供医疗、牙科和视力保险计划，为您和您的家人提供可靠的保障。",
+    "创造世界的过程虽令人充实，但竞争力的薪资和丰厚的奖励才是真正的额外福利。",
+    "带薪休假、法定假期及灵活调休，让你充满活力，轻松告别工作压力。",
+    "加入Bungie，关爱不仅限于你本人，也涵盖你的家人。享受带薪育儿假及备用托儿支持。",
+    "无归属期限制的丰厚401(k)配比计划，助力你的未来生活。"
   ],
   "jobLink": "https://careers.bungie.com/jobs/7024984/senior-analytics-engineer",
   "notes": ""
