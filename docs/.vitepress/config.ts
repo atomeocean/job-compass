@@ -8,6 +8,7 @@ import {
   GitChangelog,
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite';
+import { mapAuthors } from "./theme/constants/contributors";
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
@@ -147,6 +148,28 @@ const vitePressConfig: UserConfig = {
   ],
   rewrites: {
     'zhHans/:rest*': ':rest*'
+  },
+  vite: {
+    optimizeDeps: {
+      exclude: [
+      ],
+    },
+    ssr: {
+    },
+    plugins: [
+      // 集成git记录插件
+      GitChangelog({
+        repoURL: () => 'https://github.com/atomeocean/job-compass',
+        mapAuthors: mapAuthors
+      }),
+      GitChangelogMarkdownSection({
+        sections: {
+          // 隐藏git历史修改记录和贡献者列表，只在文章上方展示贡献者列表
+          disableChangelog: true,
+          disableContributors: true,
+        },
+      }),
+    ],
   },
   themeConfig: {
     search: {

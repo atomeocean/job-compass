@@ -15,6 +15,9 @@ import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
 import Giscus from "./components/Giscus";
 import { h } from 'vue'
+import {
+  NolebaseGitContributors,
+} from '@nolebase/vitepress-plugin-git-changelog/client'
 
 export default {
   ...DefaultTheme,
@@ -41,7 +44,8 @@ export default {
   },
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'doc-after': () => h(Giscus)
+      'doc-after': () => h(Giscus),
+      'doc-before': () => h(NolebaseGitContributors),
     })
   },
 };
