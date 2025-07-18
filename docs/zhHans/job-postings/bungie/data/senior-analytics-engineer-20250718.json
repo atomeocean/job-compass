@@ -1,0 +1,41 @@
+{
+  "companyName": "Bungie",
+  "jobTitle": "Senior Analytics Engineer",
+  "jobLocation": ["Remote"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "Design, build, and maintain the data warehouse for Marathon's analytics platform using modern data modeling practices",
+    "Transform raw gaming telemetry into clean, reliable datasets that support analytical workflows",
+    "Collaborate with analysts and data scientists to understand requirements and translate them into scalable data models",
+    "Develop and maintain data quality standards, monitoring, and testing frameworks to ensure data reliability",
+    "Build efficient data transformations and aggregations optimized for BigQuery performance and cost",
+    "Partner with cross-disciplinary teams including game designers, product managers, and engineers to deliver data solutions",
+    "Document data models and create self-service resources for data consumers"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+        "Proficiency with SQL: such as transforming complex granular data to meaningful aggregations; writing performant, cost effective, and repeatable logic; and a strong understanding of SQL concepts such as window functions, CTEs, recursive queries, sharding, and partitioning",
+        "Ability to develop Python code for data processing, automation, and tooling",
+        "Experience with data warehousing concepts, dimensional modeling, analytics engineering best practices, and data quality testing frameworks",
+        "Experience working with big data (TB to PB scale) and optimizing for performance and cost efficiency",
+        "Strong communication skills: listen to, speak with, and resolve conflicts with members of varied disciplines and external partners in a clear and efficient manner",
+        "Experience with Google Cloud Platform (GCP) and BigQuery",
+        "Interest in gaming and understanding how gaming data can be leveraged for analytics and player insights"
+    ],
+    "preferredQualifications": [
+        "Experience with dbt for data model creation and management",
+        "Knowledge of game telemetry, player behavior analytics, or live service game metrics  ",
+        "Experience with Apache Airflow and workflow management"
+    ]
+  },
+  "salary": ["$156,000 – $183,000/year"],
+  "benefits": [
+    "Medical, dental, and vision plans to support you and your family with coverage you can count on.",
+    "While creating worlds is rewarding, competitive salaries and robust incentives are the icing on the cake.",
+    "Our PTO, company holidays, and float days empower you to be awesome and leave your work at work.",
+    "Being a part of Bungie extends to your entire family. Paid parental leave and back-up child care.",
+    "Generous 401(k) matching with no vesting. Because life doesn’t end just because working has."
+  ],
+  "jobLink": "https://careers.bungie.com/jobs/7024984/senior-analytics-engineer",
+  "notes": ""
+}
