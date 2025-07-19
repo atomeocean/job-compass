@@ -15,6 +15,14 @@ import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
 import Giscus from "./components/Giscus";
 import { h } from 'vue'
+import {
+  NolebaseGitChangelogPlugin
+} from '@nolebase/vitepress-plugin-git-changelog/client'
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+import { InjectionKey } from '@nolebase/vitepress-plugin-git-changelog/client'
+import {
+  NolebaseGitContributors,
+} from '@nolebase/vitepress-plugin-git-changelog/client'
 
 export default {
   ...DefaultTheme,
@@ -32,6 +40,12 @@ export default {
     app.component("JobRecruiterInformationTable", JobRecruiterInformation);
     app.component("ReferenceSource", ReferenceSource);
 
+    app.use(NolebaseGitChangelogPlugin);
+    // 隐藏贡献者标题
+    app.provide(InjectionKey, {
+      hideContributorsHeader: true
+    });
+
     // 注册 ElementPlus
     app.use(ElementPlus);
     // 注册所有图标组件
@@ -41,7 +55,8 @@ export default {
   },
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'doc-after': () => h(Giscus)
+      'doc-after': () => h(Giscus),
+      'doc-before': () => h(NolebaseGitContributors),
     })
   },
 };
