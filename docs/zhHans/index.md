@@ -45,6 +45,11 @@ features:
     details: 关于在北美职场工作的建议和经验分享
     link: /career-guide/manager-is-god
     linkText: 熟悉北美职场
+  - title: 内推
+    details: 提升面试成功率
+    link: /referral/overview
+    linkText: 查看内推信息
+    rel: noreferrer
 ---
 
 ## Job Compass：一个开放的求职者社区
