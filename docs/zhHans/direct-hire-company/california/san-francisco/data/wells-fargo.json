@@ -1,0 +1,35 @@
+{
+  "companyInfo": {
+    "companyName": "Wells Fargo & Company",
+    "location": {
+      "addressLine1": "420 Montgomery Street",
+      "addressLine2": "",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94104"
+    },
+    "contact": {
+      "phone": "+1 800-869-3557",
+      "email": "",
+      "website": "https://www.wellsfargo.com",
+      "linkedin": "https://www.linkedin.com/company/wellsfargo"
+    },
+    "industry": ["金融服务", "零售银行", "投资银行", "财富管理", "抵押贷款"],
+    "foundedYear": "1852",
+    "description": "富国银行是一家总部位于加州旧金山的美国大型多元化金融服务公司，是美国“四大银行”之一。成立于1852年，目前资产规模约1.93万亿美元，提供零售银行、信用卡、抵押贷款、投资银行、财富管理等全方位金融服务。2024年净收入达197亿美元，员工人数约217,000人，业务覆盖全球35个国家，服务客户超过7000万户",
+    "mainProductsOrServices": [
+      "零售信贷与储蓄账户",
+      "信用卡服务",
+      "住房贷款与再融资",
+      "投资银行与财富管理",
+      "抵押贷款服务",
+      "商业银行与营业融资",
+      "数字银行与移动服务"
+    ],
+    "companySize": "217,000+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-19"
+  }
+}
