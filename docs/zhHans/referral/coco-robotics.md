@@ -10,16 +10,16 @@ import jobRecruiterInformation from './data/coco-robotics.json'
 
 # Coco Robotics
 
-### 2025年1月
+## 2025年1月
 
 
 
-<JobRecruiterInformation
-:recruiterName="jobRecruiterInformation.recruiterName"
-:recruiterEmail="jobRecruiterInformation.recruiterEmail"
-:company="jobRecruiterInformation.company"
-:jobTitle="jobRecruiterInformation.jobTitle"
-:team="jobRecruiterInformation.team"
-:bookingLink="jobRecruiterInformation.bookingLink"
-:emailContent="jobRecruiterInformation.emailContent"
+<JobRecruiterInformationTable
+  :recruiterName="jobRecruiterInformation.recruiterName"
+  :recruiterEmail="jobRecruiterInformation.recruiterEmail"
+  :company="jobRecruiterInformation.company"
+  :jobTitle="jobRecruiterInformation.jobTitle"
+  :team="jobRecruiterInformation.team"
+  :bookingLink="jobRecruiterInformation.bookingLink"
+  :emailContent="jobRecruiterInformation.emailContent"
 />
