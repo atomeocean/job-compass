@@ -1,0 +1,49 @@
+{
+  "companyName": "Warner Bros. Discovery",
+  "jobTitle": "Senior Android Engineer",
+  "jobLocation": [
+    "Culver City, CA, United States",
+    "New York, NY, United States"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计和构建人们想要使用的直观、简单且设计优雅的移动应用程序",
+    "提供软件工具和程序的支持和开发，以扩展和增强核心生产流程",
+    "与产品、设计、交付、编辑和工程等多个部门合作，实施 CNN Digital 消费者体验解决方案和应用程序",
+    "协助解决生产问题、根本原因分析和调试",
+    "开发和维护支持 CNN 数字生态系统的现有生产系统",
+    "指导更多初级开发人员",
+    "确保软件开发遵循行业最佳实践、政策和指南。具体而言，确保技术解决方案符合 CNN Digital 既定的战略，以及架构、安全、公司治理、编码标准、监控、日志记录、单元测试和服务支持方面的标准"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学学士/硕士学位（或同等学历）",
+      "对故障排除、根本原因分析、应用程序设计、解决方案开发、人为因素/可用性设计以及主要业务部门或企业项目实施有深入的了解",
+      "至少5年的专业发展环境",
+      "具备扎实的数据结构和算法等编程基础",
+      "能够开发新的创新应用程序以及维护现有代码",
+      "展示了具有移动原生客户端、SDK 和 API（Kotlin/Java、Jetpack Compose、Android 平台）的全移动堆栈开发经验",
+      "展示了软件开发方法、实践和架构的专业知识，特别是构建高性能、可扩展和安全的移动应用程序的经验",
+      "拥有移动 DevOps CI/CD 工具实践经验，并具备最佳实践实施经验，包括部署自动化、代码签名工具和自动化测试。熟悉 Git 和 Bitrise 者优先",
+      "能够与技术和非技术跨职能团队进行有效的书面和口头沟通",
+      "拥有构建灵活软件架构以适应不断变化的业务需求的经验"
+    ],
+    "preferredQualifications": [
+      "了解亚马逊 AWS 等云计算平台",
+      "熟悉数据库技术（SQL/RDBMS、NoSQL、GraphDB 等）"
+    ]
+  },
+  "salary": [
+    "$119,700.00 - $222,300.00 / year",
+    "其他奖励可能包括年度奖金、短期和长期激励以及项目特定奖励"
+  ],
+  "benefits": [
+    "健康保险",
+    "员工健康计划",
+    "人寿和残疾保险",
+    "退休储蓄计划",
+    "带薪假期以及病假和休假"
+  ],
+  "jobLink": "https://careers.wbd.com/global/en/job/R000092730/Senior-Android-Engineer",
+  "notes": ""
+}

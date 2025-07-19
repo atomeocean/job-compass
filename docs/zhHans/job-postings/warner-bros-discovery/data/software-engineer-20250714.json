@@ -1,0 +1,46 @@
+{
+  "companyName": "Warner Bros. Discovery",
+  "jobTitle": "Software Engineer II",
+  "jobLocation": [
+    "Atlanta, GA, United States"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "热衷于使用基于软件的方法来解决复杂的数据驱动挑战并自动化这些解决方案",
+    "在我们的组织内，您将领导旨在扩展我们现有数据产品的努力，并制定如何更好地为工程师和领导者提供数据平台的技术策略",
+    "您将深入了解我们的数字流媒体服务，并利用这些知识以及您的工程、基础设施、数据和云知识来优化和发展我们对技术生态系统的理解",
+    "需要精通技术，并具备与其他优秀同行竞争的能力。还要拥有卓越的协作和外交能力",
+    "需要具备基础设施即代码、数据湖管理、AI/ML 知识和分析方面的实践经验",
+    "还需要具备丰富的系统知识和故障排除能力"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "在我们整个尖端数据平台上构建数据管道，包括事件驱动和批量数据处理、存储以及通过各种数据集成技术（如 API、Lambda、文件提要等）提供服务",
+      "与数据架构师、流处理专家、API 开发人员、我们的 DevOps 团队和分析师密切合作，设计可弹性扩展的系统",
+      "与数据分析师和业务利益相关者密切合作，使他们能够轻松访问和理解数据",
+      "通过实施可重复使用的数据质量框架来确保数据质量",
+      "与其他数据工程团队密切合作，推出新功能",
+      "与 AI/ML 团队密切合作，以操作和利用模型来满足业务需求",
+      "通过自动化开发和执行数据工程、安全和数据质量标准",
+      "参与轮班值班",
+      "计算机科学或相关专业的学士学位",
+      "3 - 5 年软件和数据工程经验",
+      "有能力并愿意学习任何现代技术并将其应用于工作以保持领先地位",
+      "精通至少几种编程语言 - Java、Go、Python 或类似的语言",
+      "必须具备构建和管理大容量数据处理（流式和批处理）平台的专业知识",
+      "熟悉云数据仓库，例如 Databricks、Snowflake 或 Redshift",
+      "精通SQL、Spark SQL、Hive 等",
+      "精通 Kafka、Kinesis、Pulsar 或类似流处理系统",
+      "擅长构建微服务和管理容器化部署，最好使用 Kubernetes",
+      "精通分布式数据处理框架，例如 Apache Spark、Flink 或类似框架"
+    ],
+    "preferredQualifications": [
+      "有云（AWS）经验者优先",
+      "具有 Terraform、GitActions 经验者优先"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://careers.wbd.com/global/en/job/R000089836/Software-Engineer-II",
+  "notes": ""
+}
