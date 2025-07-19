@@ -1,0 +1,34 @@
+{
+  "companyInfo": {
+    "companyName": "Ansys, Inc.",
+    "location": {
+      "addressLine1": "Southpointe 2600 Ansys Drive",
+      "addressLine2": "",
+      "county": "Washington County",
+      "cityOrTown": "Canonsburg",
+      "state": "PA",
+      "zipCode": "15317"
+    },
+    "contact": {
+      "phone": "+1 724-746-3304",
+      "email": "",
+      "website": "https://www.ansys.com",
+      "linkedin": "https://www.linkedin.com/company/ansys-inc"
+    },
+    "industry": ["计算机辅助工程软件", "多物理场仿真", "工程模拟"],
+    "foundedYear": "1970",
+    "description": "Ansys 是一家总部位于宾夕法尼亚州 Canonsburg 的全球领先工程仿真软件供应商。公司成立于1970年，业务涵盖结构分析、流体动力学、电磁场仿真等多个物理领域，为汽车、航空、电子、能源、医疗等行业提供仿真与数字孪生解决方案。",
+    "mainProductsOrServices": [
+      "多物理场仿真平台（ANSYS Mechanical, Fluent, HFSS 等）",
+      "结构与热分析工具",
+      "计算流体动力学 (CFD) 软件",
+      "电磁场与射频仿真工具",
+      "数字孪生与系统级仿真解决方案"
+    ],
+    "companySize": "约6,500 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-14"
+  }
+}
+
