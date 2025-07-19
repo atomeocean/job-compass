@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 defineProps({
   recruiterName: String,
   recruiterEmail: String,
