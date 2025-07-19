@@ -14,7 +14,7 @@ import jobRecruiterInformation from './data/coco-robotics.json'
 
 
 
-<JobRecruiterInformationTable
+<JobRecruiterInformation
   :recruiterName="jobRecruiterInformation.recruiterName"
   :recruiterEmail="jobRecruiterInformation.recruiterEmail"
   :company="jobRecruiterInformation.company"
