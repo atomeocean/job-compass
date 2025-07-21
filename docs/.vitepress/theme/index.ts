@@ -14,7 +14,13 @@ import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
 import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
 import Giscus from "./components/Giscus";
-import { h } from 'vue'
+import { h } from 'vue';
+import {
+  InjectionKey,
+  NolebaseGitChangelogPlugin
+} from '@nolebase/vitepress-plugin-git-changelog/client';
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+import ContributorWrapper from "./components/ContributorWrapper.vue";
 
 export default {
   ...DefaultTheme,
@@ -31,6 +37,12 @@ export default {
     app.component("StaffingCompanyTable", StaffingCompanyTable);
     app.component("JobRecruiterInformationTable", JobRecruiterInformation);
     app.component("ReferenceSource", ReferenceSource);
+    app.use(NolebaseGitChangelogPlugin);
+
+    // 隐藏贡献者标题
+    app.provide(InjectionKey, {
+      hideContributorsHeader: true
+    });
 
     // 注册 ElementPlus
     app.use(ElementPlus);
@@ -41,6 +53,7 @@ export default {
   },
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
+      'doc-before': () => h(ContributorWrapper),
       'doc-after': () => h(Giscus)
     })
   },
