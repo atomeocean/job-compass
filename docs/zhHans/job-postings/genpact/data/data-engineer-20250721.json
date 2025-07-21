@@ -1,0 +1,32 @@
+{
+  "companyName": "Genpact",
+  "jobTitle": "Consultant – Data Engineer",
+  "jobLocation": ["New York, NY"],
+  "jobType": "Full time",
+  "jobResponsibilities": [
+    "具有Pyspark 、Spark SQL Databricks 的 丰富实践经验",
+    "对增量表、DLT、集群管理、ADB 中的性能管理等大数据概念有广泛的了解",
+    "应该能够编写复杂的 SQL 查询",
+    "拥有丰富的 Azure 数据工厂实践经验",
+    "了解基于 DevOps 和 Agile 方法的项目，使用 ADF/Data Bricks 实现需求",
+    "了解 ADO 等版本控制工具",
+    "良好的沟通技巧"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "工学学士/技术学士/计算机应用学士/计算机应用硕士",
+      "保险领域和生产支持的实践经验",
+      "使用 ServiceNow、JIRA 等工具的经验",
+      "出色的沟通和人际交往能力",
+      "能够在团队环境中协同工作并与不同级别的利益相关者进行互动"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$50,000 - $68,500 / year",
+    "实际薪酬待遇（包括总薪酬和福利）将取决于多种因素，包括但不限于申请人的经验、知识、技能和能力；地理位置；以及内部公平性"
+  ],
+  "benefits": [],
+  "jobLink": "https://genpact.taleo.net/careersection/sgy_external_career_section/jobdetail.ftl?job=COR030360",
+  "notes": ""
+}
