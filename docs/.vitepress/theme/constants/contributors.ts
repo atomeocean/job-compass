@@ -6,7 +6,8 @@
 export const mapAuthors = [
   {
     name: 'Bojian',
-    username: 'bojianwangny'
+    username: 'bojianwangny',
+    mapByNameAliases: ['Bojian Wang'],
   },
   {
     name: 'Jack',

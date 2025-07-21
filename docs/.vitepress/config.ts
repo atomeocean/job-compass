@@ -153,7 +153,7 @@ const vitePressConfig: UserConfig = {
     plugins: [
       // 集成git记录插件
       GitChangelog({
-        repoURL: () => 'https://github.com/atomeocean/logbook',
+        repoURL: () => 'https://github.com/atomeocean/job-compass',
         mapAuthors: mapAuthors
       }),
       GitChangelogMarkdownSection({
