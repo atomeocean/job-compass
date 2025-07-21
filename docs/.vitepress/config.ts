@@ -150,6 +150,11 @@ const vitePressConfig: UserConfig = {
     'zhHans/:rest*': ':rest*'
   },
   vite: {
+    ssr: {
+      noExternal: [
+        '@nolebase/ui',
+      ],
+    },
     plugins: [
       // 集成git记录插件
       GitChangelog({

@@ -14,11 +14,12 @@ import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
 import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
 import Giscus from "./components/Giscus";
-import { h } from 'vue'
+import { h } from 'vue';
 import {
   InjectionKey,
   NolebaseGitChangelogPlugin
-} from '@nolebase/vitepress-plugin-git-changelog/client'
+} from '@nolebase/vitepress-plugin-git-changelog/client';
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import ContributorWrapper from "./components/ContributorWrapper.vue";
 
 export default {

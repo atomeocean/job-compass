@@ -12,6 +12,6 @@ export const mapAuthors = [
   {
     name: 'Jack',
     username: 'k90zz',
-    mapByNameAliases: ['atomeocean jack6'],
+    mapByNameAliases: ['atomeocean jack6', 'jack6'],
   },
 ]
