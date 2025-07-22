@@ -1,0 +1,38 @@
+{
+    "companyName": "Bungie",
+    "jobTitle": "Game Services Engineering Architect – Central Tech",
+    "jobLocation": [
+        "Bellevue, WA",
+        "Hybrid / Bungie‑Approved Remote (U.S.)"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "构建面向玩家体验的大规模游戏服务后端",
+        "以生产质量交付代码、工作流程和工具，覆盖 C++ 和 C# 技术栈",
+        "与 Game Services 领导协作，识别风险并规划系统扩展需求",
+        "为技术团队和产品领导提供指导",
+        "参与值班轮班，保障系统稳定性与可靠性"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "具备多层服务器架构产品开发经验，支持大量并发用户",
+            "熟悉 C#, C++, Java 或其他面向对象语言的高性能服务开发",
+            "熟悉关系型/No‑SQL 存储及数据流技术（如 Kafka、RabbitMQ）",
+            "具备良好的团队协作能力，能与不同技术背景成员有效沟通",
+            "能够面向不同客户（技术与非技术）提供技术交流及支持"
+        ],
+        "preferredQualifications": [
+            "具有 PC、主机或移动平台游戏引擎开发经验",
+            "在“游戏即服务”（Games as a Service）在线开发方面有实践经验"
+        ]
+    },
+    "salary": [
+        "USD $189,000 - $223,000（Bellevue, WA；其他美国远程地点 ±10%）"
+    ],
+    "benefits": [
+        "奖金机会、401(k) 配比、全面医疗保障、带薪假期及育儿假",
+        "丰富的公司文化活动与员工社团支持，具体福利请见官网"
+    ],
+    "jobLink": "https://careers.bungie.com/jobs/7004768/game-services-engineering-architect-central-tech",
+    "notes": "需参与值班轮班；岗位为中高阶架构角色，聚焦可扩展在线服务。"
+}
