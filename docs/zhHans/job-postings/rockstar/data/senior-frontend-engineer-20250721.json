@@ -1,0 +1,41 @@
+{
+  "companyName": "Rockstar New England",
+  "jobTitle": "Senior Frontend Engineer",
+  "jobLocation": ["Onsite"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "基于React开发具备无障碍功能的前端组件与应用。",
+    "整合基于Next.js与ASP.NET Core（C#）的前端应用程序。",
+    "开发系统性测试套件，保障软件质量。",
+    "优化网页加载速度与响应性能",
+    "协同Rockstar在世界各地工作室的技术团队，共同推进项目。"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+        "拥有计算机相关专业学历，或超过5年的专业Web开发经验。",
+        "具有5年的React使用经验。",
+        "具有 5 年使用 Node.js 或 C# 的经验。",
+        "擅长符合无障碍标准的 Web 开发，拥有丰富的 React 实战经验。",
+        "在跨国团队中担任核心角色，拥有卓越的沟通技巧。",
+        "拥有自动化测试的实战经验。",
+        "有使用共享代码库和版本控制工具（尤其是 Git）的经验。",
+        "具备敏捷软件开发流程的相关知识。",
+        "贯彻软件开发领域的最佳实践。",
+        "具备网络安全最佳实践的知识与应用能力。",
+        "对网页技术有浓厚兴趣，愿意不断更新知识以掌握前沿技术。"
+    ],
+    "preferredQualifications": [
+        "具备处理高访问量、响应迅速的网站和应用开发经验。",
+        "有使用 Next.js SSR 和 ISR 的开发经验。。",
+        "有使用 Elasticsearch/OpenSearch 的经历。",
+        "具备使用可观测性工具的经验。",
+        "了解 Rockstar 的游戏作品，并热爱玩视频游戏。"
+    ]
+  },
+  "salary": ["需协商"],
+  "benefits": [
+    "未提及"
+  ],
+  "jobLink": "https://job-boards.greenhouse.io/rockstargames/jobs/6620891003",
+  "notes": ""
+}
