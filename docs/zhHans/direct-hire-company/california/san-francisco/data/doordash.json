@@ -1,0 +1,34 @@
+{
+  "companyInfo": {
+    "companyName": "DoorDash, Inc.",
+    "location": {
+      "addressLine1": "South Tower, 8th Floor, 303 2nd Street",
+      "addressLine2": "",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94107"
+    },
+    "contact": {
+      "phone": "650‑487‑3970",
+      "email": "info@doordash.com",
+      "website": "https://www.doordash.com",
+      "linkedin": "https://www.linkedin.com/company/doordash/"
+    },
+    "industry": ["在线食品订购", "食品配送", "电商平台", "物流科技"],
+    "foundedYear": "2013",
+    "description": "DoorDash 是一家总部位于加利福尼亚州旧金山的在线配送科技公司，成立于 2013 年，由 Stanford 学生创立。公司提供平台连接消费者、餐厅与配送人员，帮助商家快速上线并提供配送服务。DoorDash 还提供 DashPass 和 Wolt+ 会员服务，以及 Drive 白标物流服务，同时覆盖便利店、杂货店、酒类与宠物用品配送等多样业务。通过收购 Wolt（2022 年）和即将完成对 Deliveroo（2025 年）、SevenRooms（2025 年）的收购，DoorDash 正加速成为全球配送与商户技术平台。",
+    "mainProductsOrServices": [
+      "DoorDash Marketplace：在线订餐与配送市场",
+      "DashPass / Wolt+：订阅会员服务",
+      "DoorDash Drive / Wolt Drive：白标物流服务",
+      "DoorDash Storefront：商家自建订购平台工具",
+      "便利店与零售配送（杂货、酒类等）",
+      "Caviar、Chowbotics 等子品牌服务"
+    ],
+    "companySize": "23,700+ 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-22"
+  }
+}
