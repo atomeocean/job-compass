@@ -1,0 +1,35 @@
+{
+    "companyName": "Spotify",
+    "jobTitle": "Backend Engineer – Insights Tooling",
+    "jobLocation": [
+        "New York, NY, USA",
+        "Stockholm, Sweden"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "领导设计与开发内部基础设施和技术架构，与数据科学和分析团队密切协作",
+        "构建并维护后端系统和工具，优化分析流程、支持数据驱动工作流",
+        "深入理解分析需求，主动影响技术决策并预见未来架构需求",
+        "推动采用 agentic 工具与先进分析功能，提升团队生产力"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "2年以上与数据科学/分析团队合作开发工具或系统经验",
+            "熟练开发、部署并运维容器化系统，优先使用 GCP，具备扎实 Python 能力",
+            "具备持续交付、干净代码与自动化测试等优秀工程实践经验",
+            "拥有计算机相关技术学位或等效经验",
+            "具备良好沟通能力，能进行跨功能协作"
+        ],
+        "preferredQualifications": []
+    },
+    "salary": [],
+    "benefits": [
+        "提供广泛学习机会（如 GreenHouse）",
+        "灵活股权激励计划",
+        "全球父母假（最长可达6个月）",
+        "员工辅助计划（All The Feels）及自我关怀支持",
+        "灵活公共假期制度，可根据个性化价值进行调休"
+    ],
+    "jobLink": "https://www.lifeatspotify.com/jobs/backend-engineer-insights-tooling",
+    "notes": "要求每周在办公室办公3天，允许远程灵活工作（纽约或斯德哥尔摩）。"
+}
