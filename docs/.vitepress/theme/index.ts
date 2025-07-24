@@ -35,7 +35,7 @@ export default {
     app.component("JobPostingTable", JobPostingTable);
     app.component("DirectHireCompanyTable", DirectHireCompanyTable);
     app.component("StaffingCompanyTable", StaffingCompanyTable);
-    app.component("JobRecruiterInformationTable", JobRecruiterInformation);
+    app.component("JobRecruiterInformation", JobRecruiterInformation);
     app.component("ReferenceSource", ReferenceSource);
     app.use(NolebaseGitChangelogPlugin);
 
