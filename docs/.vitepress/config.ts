@@ -8,7 +8,7 @@ import {
   GitChangelog,
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite';
-import {contributors} from "./theme/constants/contributors";
+import {contributors} from "../_data/contributors";
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
