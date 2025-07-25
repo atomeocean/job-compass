@@ -8,7 +8,7 @@ import {
   GitChangelog,
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite';
-import { mapAuthors } from "./theme/constants/contributors";
+import {contributors, mapAuthors} from "./theme/constants/contributors";
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
@@ -159,7 +159,7 @@ const vitePressConfig: UserConfig = {
       // 集成git记录插件
       GitChangelog({
         repoURL: () => 'https://github.com/atomeocean/job-compass',
-        mapAuthors: mapAuthors
+        mapAuthors: contributors
       }),
       GitChangelogMarkdownSection({
         sections: {
