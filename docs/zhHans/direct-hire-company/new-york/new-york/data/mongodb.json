@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "MongoDB, Inc.",
+    "location": {
+      "addressLine1": "1633 Broadway",
+      "addressLine2": "38th Floor",
+      "county": "New York County",
+      "cityOrTown": "New York",
+      "state": "NY",
+      "zipCode": "10019"
+    },
+    "contact": {
+      "phone": "+1(866)-237-8815",
+      "email": "",
+      "website": "https://www.mongodb.com",
+      "linkedin": "https://www.linkedin.com/company/mongodbinc"
+    },
+    "industry": ["开发者数据库平台", "云数据库服务", "企业软件与服务"],
+    "foundedYear": "2007",
+    "description": "MongoDB 是一家总部位于美国纽约市的数据库软件公司，成立于 2007 年（最初名为 10gen），由 Dwight Merriman、Eliot Horowitz 和 Kevin Ryan 创立。专注于以文档为基础的 NoSQL 数据库及托管云服务。其旗舰产品 Atlas（2016 年推出）到 2024 年已占公司总收入的 70%。MongoDB 广泛应用于 AI、分析、高性能事务等场景，在全球拥有超过 50,000 家客户，支持 70% 的财富 100 强企业。",
+    "mainProductsOrServices": [
+      "MongoDB Community / Enterprise：面向开发者的文档数据库软件",
+      "MongoDB Atlas：官方托管的云数据库服务",
+      "数据分析与全文搜索功能模块",
+      "向量数据库和事务功能组件",
+      "专业服务、培训与迁移咨询"
+    ],
+    "companySize": "5,000 – 10,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-24"
+  }
+}
