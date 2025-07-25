@@ -35,3 +35,7 @@ docs/
 ```shell
 npm run docs:dev
 ```
+
+## Repo分析
+
+![Alt](https://repobeats.axiom.co/api/embed/edf6247e5c92f3186756a323bcf08dc00e46f6f6.svg "Repobeats analytics image")
