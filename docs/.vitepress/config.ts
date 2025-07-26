@@ -91,7 +91,7 @@ const vitePressI18nOptions : VitePressI18nOptions = {
         {
           text: '资源',
           items: [
-            { text: '鸣谢', link: '/team-information/team.md' },
+            { text: '鸣谢', link: '/guide/team.md' },
           ]
         }
       ],
