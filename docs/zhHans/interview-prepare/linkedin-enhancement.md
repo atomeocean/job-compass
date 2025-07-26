@@ -1,6 +1,8 @@
 ---
+title: 增强LinkedIn简历
 description: 增强LinkedIn简历
 ---
+
 # 增强LinkedIn简历：在美国提升个人品牌的实用技巧
 
 *通过优化LinkedIn资料提升职业影响力*
@@ -11,6 +13,7 @@ description: 增强LinkedIn简历
 - **薪资影响**：完善资料的求职者平均多获得40%的面试邀约
 
 ### 工作经验优化技巧
+
 - **STAR法则**：  
   `Situation（情境）→ Task（任务）→ Action（行动）→ Result（结果）`
   
