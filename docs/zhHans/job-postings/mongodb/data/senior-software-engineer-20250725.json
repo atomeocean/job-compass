@@ -1,0 +1,42 @@
+{
+  "companyName": "MongoDB",
+  "jobTitle": "Senior Software Engineer, Atlas Search Systems",
+  "jobLocation": [
+    "San Francisco, CA, US"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "构建和设计我们的集成搜索平台，用 Java 编写",
+    "为两个领先的开源平台 MongoDB 和 Lucene 做出贡献",
+    "参与产品和架构讨论",
+    "与同行一起进行代码审查，并就如何改进我们的代码和软件开发流程提出建议",
+    "与其他团队（包括云服务、数据库、企业工具、驱动程序和支持）合作，以协调变更或为他们的项目做出贡献"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "精通现代编程语言和技术",
+      "渴望影响和展望复杂系统的技术未来",
+      "具有分布式系统、云服务和 SaaS 产品开发经验"
+    ],
+    "preferredQualifications": [
+      "有搜索平台或分布式数据库设计和维护经验",
+      "具有调试和分析多线程 JVM 应用程序和分布式应用程序的经验"
+    ]
+  },
+  "salary": [
+    "$118,000 — $231,000 / year"
+  ],
+  "benefits": [
+    "股权",
+    "参与员工股票购买计划",
+    "灵活的带薪休假",
+    "20 周全薪性别中立育儿假",
+    "生育和收养援助",
+    "401(k) 计划",
+    "心理健康咨询",
+    "跨性别者医疗保险",
+    "健康福利"
+  ],
+  "jobLink": "https://www.mongodb.com/careers/jobs/6752712",
+  "notes": ""
+}
