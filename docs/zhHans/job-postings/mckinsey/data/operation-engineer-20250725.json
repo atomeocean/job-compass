@@ -1,0 +1,35 @@
+{
+    "companyName": "McKinsey & Company",
+    "jobTitle": "Operation Engineer II",
+    "jobLocation": [
+        "Washington, DC, USA"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "加入华盛顿特区办公室 IT 团队，隶属于 Tech Ecosystem 中的 Secure Foundations 职能",
+        "管理并支持高风险数据的合规云环境，确保监管数据合规性",
+        "与 Tech Ecosystem 内部团队、业务利益相关者和第三方 IT 供应商紧密协作",
+        "推动 IT 运营效率和安全性，提升 McKinsey 同事的技术使用体验",
+        "通过流程优化和创新，为支持环境提供无缝用户支持"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "大学学历或同等技术/军事背景经验",
+            "必须拥有美国公民身份",
+            "5 年及以上 IT 运维经验",
+            "熟悉监管数据合规框架（如 NIST、CMMC）",
+            "精通 Microsoft Azure 云、Azure AD、O365、Windows 操作系统、iOS 移动设备管理、Box 管理和用户支持"
+        ],
+        "preferredQualifications": []
+    },
+    "salary": [
+        "USD $127,400 - $130,700（美国各办公地点估算）"
+    ],
+    "benefits": [
+        "全面医疗、牙科、视力与心理健康保险覆盖",
+        "配套的家属保险、远程医疗服务、生命/意外/残障保险",
+        "育儿假、退休金计划、财务咨询及带薪休假福利"
+    ],
+    "jobLink": "https://www.mckinsey.com/careers/search-jobs/jobs/operationengineerii-99302",
+    "notes": "该职位为中高级 IT 运维角色，专注于合规云环境管理，仅限美国公民申请。"
+}
