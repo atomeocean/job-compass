@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Duolingo, Inc.",
+    "location": {
+      "addressLine1": "5900 Penn Avenue",
+      "addressLine2": "",
+      "county": "Allegheny County",
+      "cityOrTown": "Pittsburgh",
+      "state": "PA",
+      "zipCode": "15206"
+    },
+    "contact": {
+      "phone": "(412) 567‑6602",
+      "email": "",
+      "website": "https://www.duolingo.com",
+      "linkedin": "https://www.linkedin.com/company/duolingo"
+    },
+    "industry": ["教育科技", "在线语言学习", "移动应用软件"],
+    "foundedYear": "2011",
+    "description": "Duolingo 是一家总部位于宾夕法尼亚州匹兹堡的教育科技公司，由 Luis von Ahn 和 Severin Hacker 于 2011 年创立。公司主打语言学习应用，以游戏化设计著称，支持超过 40 种语言课程，并于 2024 年推出数学与音乐课程。其使命是“开发全球最好的教育并普及至每一个人”，致力于以免费与增值订阅模式结合的方式实现普惠教育。",
+    "mainProductsOrServices": [
+      "Duolingo 语言学习移动应用",
+      "Duolingo ABC 少儿识字应用",
+      "Duolingo English Test（在线英语水平考试）",
+      "Super Duolingo / Duolingo Max（高级订阅版，含 AI 驱动功能）"
+    ],
+    "companySize": "约830名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-26"
+  }
+}
