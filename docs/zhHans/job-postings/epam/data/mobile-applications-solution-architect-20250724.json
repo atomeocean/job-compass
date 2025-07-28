@@ -1,0 +1,36 @@
+{
+    "companyName": "EPAM",
+    "jobTitle": "Mobile Applications Solution Architect",
+    "jobLocation": [
+        "Alpharetta, GA, USA"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "设计并管理可扩展、安全、高性能的移动应用架构，支持业务目标，优选云原生（如 AWS）技术",
+        "将业务需求转换为技术方案，主导从端到端的移动 App 架构方案设计与交付",
+        "推动遗留系统/数据库向现代云架构迁移，实现性能优化和稳定性提升",
+        "与移动开发、DevOps、产品经理和业务方紧密协作，保证移动技术策略与业务目标一致",
+        "向技术团队和业务干系人（包括高层管理者）清晰传达复杂技术方案与决策"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "7年以上原生移动应用开发经验（Swift、Java/Kotlin 或 iOS/Android）",
+            "3年以上担任移动应用解决方案架构师或顾问经验，具备云原生和基础设施设计背景",
+            "具备 AWS 解决方案架构认证或同等云技术资质",
+            "具备从遗留系统迁移到云环境的经验，包含数据库架构迁移",
+            "熟悉移动应用 DevOps 工具链与软件开发流程",
+            "优秀的沟通表达与跨团队协作能力，能够与不同层级技术与业务人员交流"
+        ],
+        "preferredQualifications": []
+    },
+    "salary": [],
+    "benefits": [
+        "全面医疗、牙科视力保险（部分补贴）",
+        "健康储蓄账户与灵活支出账户（医疗、托儿、交通）",
+        "短/长期残障保险、公司提供生命及意外保险",
+        "员工援助计划、LinkedIn 学习无限访问",
+        "401(k) 公司配比退休计划、带薪假、法律及身份盗用保护、员工折扣、宠物保险、员工购股计划"
+    ],
+    "jobLink": "https://www.epam.com/careers/job-listings/job.epamgdo_blt13f2759f04c26b75_en-us_Alpharetta_USA.mobile-applications-solution-architect_alpharetta-ga_usa",
+    "notes": "每周需在 Alpharetta 办公室至少 3 天，岗位注重 Cloud & Mobile 架构经验与跨团队沟通能力。"
+}
