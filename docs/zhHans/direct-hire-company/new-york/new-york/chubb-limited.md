@@ -8,7 +8,7 @@ title: Chubb Limited
 
 <DirectHireCompanyTable state="new-york" city="new-york" companyJsonFileName="chubb-limited" />
 
-## 🚢 航海日志
+## 航海日志
 
 ### 2025年1月
 

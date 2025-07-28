@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Bumble, Inc.",
+    "location": {
+      "addressLine1": "1105 West 41st Street",
+      "addressLine2": "",
+      "county": "Travis County",
+      "cityOrTown": "Austin",
+      "state": "TX",
+      "zipCode": "78756"
+    },
+    "contact": {
+      "phone": "+1 512-696-1409",
+      "email": "feedback@team.bumble.com",
+      "website": "https://bumble.com",
+      "linkedin": "https://www.linkedin.com/company/bumbleinc/"
+    },
+    "industry": ["社交平台", "在线约会", "互动媒体"],
+    "foundedYear": "2014",
+    "description": "Bumble 是一家总部位于美国德克萨斯州奥斯汀的社交网络与在线约会公司，由 Whitney Wolfe Herd 于 2014 年创立。Bumble 的特色是女性用户在异性匹配中可以率先发起对话，同时提供 Bumble BFF（交友）和 Bumble Bizz（职业社交）模式，致力于构建健康、公平的社交连接。公司于 2021 年在 NASDAQ 上市。",
+    "mainProductsOrServices": [
+      "Bumble 约会模式（Bumble Date）",
+      "Bumble BFF：友谊社交模式",
+      "Bumble Bizz：职业网络模式",
+      "Badoo 社交应用",
+      "Geneva 社群与兴趣群组平台"
+    ],
+    "companySize": "约1200名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-28"
+  }
+}
