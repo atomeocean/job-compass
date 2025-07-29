@@ -1,0 +1,33 @@
+{
+  "companyName": "Unity",
+  "jobTitle": "Senior Machine Learning Engineer",
+  "jobLocation": ["San Francisco CA"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "负责设计、开发和维护高效的自动竞价算法及广告主产品（例如目标 ROAS、目标 CPA）。",
+    "确保这些系统达到或超越广告活动的绩效目标、广告主的期望以及系统的可靠性标准。",
+    "领导核心项目开发，包括：基于竞价的预算控制系统，确保每日预算按计划投放;最大化转化（Maximize Conversions），利用实时竞价实现广告主关键目标;最低成本（Lowest Cost），自动化竞价以简化广告活动管理;目标广告投入回报率（Target ROAS），帮助广告主在不影响绩效目标的情况下扩大投放量。",
+    "推动模型质量、实验设计、系统可靠性及运营卓越的最佳实践。",
+    "积极参与并与其他负责人合作，共同制定团队的长期发展方向，规划并监督工程设计与项目执行。",
+    "善于将复杂技术内容清晰地沟通给非技术相关人员。"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+        "计算机科学、机器学习、统计学或相关领域的高级学位（硕士或博士），或具备同等的实际工作经验。",
+        "拥有4年以上构建和运营大规模广告投放与优化系统的实战经验。",
+        "拥有2年以上构建控制系统、PID控制器、多臂老虎机算法、强化学习算法，或竞价/定价优化系统的经验。",
+        "在一种或多种通用编程语言（如 Java、Python、Go、Scala、C++ 或类似语言）方面拥有丰富的经验。",
+        "具备指标设计、实验方法论以及大规模数据分析的相关知识。"
+    ],
+    "preferredQualifications": [
+        "（加分项）有在广告投放平台或其他市场中设计并部署优化算法的经验。",
+        "（加分项）具备先进控制系统或强化学习算法的相关经验。"
+    ]
+  },
+  "salary": ["183,700$ - 248,600$"],
+  "benefits": [
+    ""
+  ],
+  "jobLink": "https://gamejobs.co/Senior-Machine-Learning-Engineer-at-Unity-4866",
+  "notes": "该职位不提供搬迁支持。"
+}

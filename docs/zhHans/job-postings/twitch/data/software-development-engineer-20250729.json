@@ -1,0 +1,36 @@
+{
+  "companyName": "Twitch",
+  "jobTitle": "Software Development Engineer I - Frontend & Mobile",
+  "jobLocation": ["San Francisco CA"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "在网页端和移动端提供高质量的用户体验。",
+    "与产品经理、设计师、技术负责人及其他工程师合作，共同设计、开发、上线并运营互动体验与产品。",
+    "以客户问题为出发点，推动业务成果落地。",
+    "维护并优化现有的后端服务。"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+        "拥有1年以上在专业环境中进行软件开发的经验。",
+        "具备构建面向消费者的大规模产品的经验。",
+        "精通现代编程语言和框架，如React、Kotlin、Swift、Objective-C等。",
+        "具备深入思考并交付高质量用户体验的能力。",
+        "至少具备计算机科学学士学位或具备同等的工作经验。"
+    ],
+    "preferredQualifications": [
+        "具备使用Twitch采用的语言和框架的经验：Typescript、Golang。",
+        "有使用ECS、DynamoDB、Lambda、SQS和Step Functions等AWS技术开发软件和服务的实战经验。",
+        "熟悉Twitch、游戏及/或Twitch上的直播。"
+    ]
+  },
+  "salary": ["99,500$ - 200,000$"],
+  "benefits": [
+    "医疗、牙科、视力及残疾保险",
+    "401(k) 退休计划",
+    "产假及育儿假",
+    "灵活的带薪休假（PTO）",
+    "亚马逊员工专属折扣"
+  ],
+  "jobLink": "https://job-boards.greenhouse.io/twitch/jobs/8093301002",
+  "notes": ""
+}
