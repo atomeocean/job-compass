@@ -1,7 +1,7 @@
 {
   "companyName": "Rockstar New England",
   "jobTitle": "Senior Frontend Engineer",
-  "jobLocation": ["Onsite"],
+  "jobLocation": ["Andover MA"],
   "jobType": "Full Time",
   "jobResponsibilities": [
     "基于React开发具备无障碍功能的前端组件与应用。",
@@ -32,9 +32,9 @@
         "了解 Rockstar 的游戏作品，并热爱玩视频游戏。"
     ]
   },
-  "salary": ["需协商"],
+  "salary": [""],
   "benefits": [
-    "未提及"
+    ""
   ],
   "jobLink": "https://job-boards.greenhouse.io/rockstargames/jobs/6620891003",
   "notes": ""
