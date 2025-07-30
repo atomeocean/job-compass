@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Rippling, Inc.",
+    "location": {
+      "addressLine1": "430 California Street",
+      "addressLine2": "11th Floor",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94104"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.rippling.com",
+      "linkedin": "https://www.linkedin.com/company/rippling/"
+    },
+    "industry": ["人力资源技术（HRTech）", "云端工作平台", "员工管理 SaaS"],
+    "foundedYear": "2016",
+    "description": "Rippling 是一家总部位于美国加利福尼亚州旧金山的私营科技公司，由 Parker Conrad 和 Prasanna Sankar 于 2016 年创立。公司提供集人力资源、IT 和财务于一体的统一云平台，帮助中小型及中型企业整合员工数据，实现员工入职、工资发放、福利管理、设备配置和软件访问权限的一体化自动化流程。Rippling 平台整合超过 500 款第三方应用，被多家企业用于跨国扩张及远程办公支持。",
+    "mainProductsOrServices": [
+      "HR 管理模块（包括全球薪资、员工福利、绩效管理）",
+      "IT 管理模块（设备配置、应用权限、安全合规管理）",
+      "财务与支出管理（费用报销与公司卡）",
+      "Finance Cloud：企业级财务云平台",
+      "Talent Signal：基于 AI 的员工绩效评估工具"
+    ],
+    "companySize": "约 2,800 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-07-30"
+  }
+}
