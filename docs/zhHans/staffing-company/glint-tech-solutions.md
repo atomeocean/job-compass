@@ -1,5 +1,6 @@
 ---
 title: Glint Tech Solutions
+outline: deep
 ---
 
 # Glint Tech Solutions
