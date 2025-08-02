@@ -1,9 +1,10 @@
 ---
 title: Talenteer USA
+outline: deep
 ---
 # Talenteer USA
 
-## 📌 公司信息
+## 公司信息
 
 <StaffingCompanyTable companyJsonFileName="talenteer"/>
 
