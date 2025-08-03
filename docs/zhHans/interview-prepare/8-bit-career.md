@@ -1,12 +1,9 @@
 ---
 title: 8 Bit Career
 lastUpdated: 2024-12-04
+outline: deep
 ---
-# 8 Bit Career 
-
-::: details 引用来源
-作者[页面](https://atomeocean.com/)
-:::
+# 8 Bit Career
 
 在小红书上用欺诈方式引流
 
@@ -18,6 +15,7 @@ lastUpdated: 2024-12-04
 ## 骗局记录
 
 ### 2024年10月
+
 发小红书笔记说有面经
 
 账号信息
@@ -25,6 +23,7 @@ STEM Winnie 小红书号 95499381050
 
 
 简介说自己MIT CS|在职SDE|INFJ
+
 us大厂 STEM面试干货
 
 置顶帖子是一个戴墨镜女生侧脸照![小红书图片](/assets/image/fraud-8-bit-career/8bit-career-fraud-xiaohongshu-avartar.webp){style="width:300px; display:block; margin:auto;"}，“大厂SDE，简单做个自我介绍”。
