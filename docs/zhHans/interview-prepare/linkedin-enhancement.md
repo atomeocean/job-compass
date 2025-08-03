@@ -1,6 +1,7 @@
 ---
 title: 增强LinkedIn简历
 description: 增强LinkedIn简历
+outline: deep
 ---
 
 # 增强LinkedIn简历：在美国提升个人品牌的实用技巧
@@ -8,6 +9,7 @@ description: 增强LinkedIn简历
 *通过优化LinkedIn资料提升职业影响力*
 
 ## 为什么LinkedIn在美国职场至关重要？
+
 - **数据统计**：美国87%的招聘经理通过LinkedIn筛选候选人（来源：Jobvite 2023报告）
 - **隐形机会**：70%的工作岗位从未公开刊登（通过人脉网络内部消化）
 - **薪资影响**：完善资料的求职者平均多获得40%的面试邀约
@@ -18,9 +20,10 @@ description: 增强LinkedIn简历
   `Situation（情境）→ Task（任务）→ Action（行动）→ Result（结果）`
   
 - **数据可视化**：  
-  `▪️ Increased team productivity → [↑35%] → [2022-Q3]`
+  `Increased team productivity → [↑35%] → [2022-Q3]`
 
 ### 技能认证模块
+
 - 选择前3项核心技能置于顶端
 - 每季度更新1-2个新认证（推荐Coursera/Udemy课程）
 - 获取至少5个同事的技能认可
@@ -52,6 +55,7 @@ Best,
 ```
 
 ## AI建议 常见错误排查
+
 - ❗ 资料完整度<90% → 被搜索排名降低
 - ❗ 使用"热情""勤奋"等模糊形容词 → 改用"达成150%KPI"
 - ❗ 忽略推荐信 → 至少获取2份跨时期证明
