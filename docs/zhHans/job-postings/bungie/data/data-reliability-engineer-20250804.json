@@ -1,0 +1,32 @@
+{
+  "companyName": "Bungie",
+  "jobTitle": "Data Reliability Engineer",
+  "jobLocation": ["Hybrid/Remote"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "协助设计、运营并维护一个能够满足数百万并发用户需求的数据层。",
+    "使用最新的数据库技术并运行于尖端硬件平台。",
+    "协助维护各种规模的系统，从支持日常工作流程的数十个内部工具，到承载数百万游戏玩家负载的大型生产系统。",
+    "参与值班轮班，并在必要时进行非工作时间的系统维护。"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+        "具备在关键任务环境中管理Microsoft SQL Server的丰富经验（要求具备SQL Server 2016及以上版本的使用经验）。",
+        "具备SQL内部原理、监控和性能调优的知识，能够编写高效的T-SQL查询，并协助他人优化查询以获得最佳性能。",
+        "具备大规模环境下（如数百个数据库、数百 TB数据量）排查和解决SQL性能问题的实战经验。",
+        "愿意融入“我们”文化，善于与他人合作共同实现目标——团队契合度和文化对我们非常重要。"
+    ],
+    "preferredQualifications": [
+        "熟悉NoSQL数据库系统和/或相关技术，如Elasticsearch、Graphite、Redis、MongoDB等。",
+        "具备Windows故障转移集群（Failover Clustering）经验。",
+        "熟悉大数据技术，如 Hadoop、MapReduce、Spark、Kafka、Hive、Pig等。",
+        "具备PowerShell（或同类脚本语言）、C#或其他.NET语言的开发经验。",
+        "具备Linux系统管理及使用Python、Bash等脚本语言的经验。"
+    ]
+  },
+  "salary": ["$129,000 – 155,000/year"],
+  "benefits": [
+  ],
+  "jobLink": "https://careers.bungie.com/jobs/7099657/data-reliability-engineer",
+  "notes": ""
+}
