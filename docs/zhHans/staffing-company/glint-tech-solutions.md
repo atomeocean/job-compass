@@ -5,7 +5,7 @@ outline: deep
 
 # Glint Tech Solutions
 
-## 📌 公司信息
+## 公司信息
 
 <StaffingCompanyTable companyJsonFileName="glint-tech-solutions"/>
 

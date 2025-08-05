@@ -9,7 +9,8 @@ outline: deep
 
 <StaffingCompanyTable companyJsonFileName="scion-staffing"/>
 
-## 📢 招聘信息
+## 招聘信息
+
 ### 2025年4月
 
 在其官方网站上发布了招募信息岗位是远程网络工程师
