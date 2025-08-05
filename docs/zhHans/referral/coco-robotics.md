@@ -1,6 +1,7 @@
 ---
 title: Coco Robotics
 lastUpdated: 2025-03-22
+outline: deep
 ---
 
 <script setup>
