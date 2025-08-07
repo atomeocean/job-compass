@@ -1,0 +1,29 @@
+{
+  "companyName": "Duolingo",
+  "jobTitle": "AI Product Engineer, Math",
+  "jobLocation": [
+    "Pittsburgh, PA"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "改进数学课程生成器并将人工智能融入数学课程，以促进增强的学习体验",
+    "开发并将尖端的 AI 功能实施到生产级应用程序中",
+    "利用自动化工具和人工反馈进行彻底的系统评估，以保证卓越的产品质量和性能",
+    "优化人工智能算法，提高其效率和效果",
+    "实施特征工程以改进算法预测并提高性能"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学、人工智能或相关领域的学士学位",
+      "拥有使用 LLM 构建生产级应用程序的经验",
+      "展示人工智能与学习工具或平台整合的项目组合"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "$213,600 — $384,000 / year"
+  ],
+  "benefits": [],
+  "jobLink": "https://careers.duolingo.com/jobs/8062269002",
+  "notes": ""
+}
