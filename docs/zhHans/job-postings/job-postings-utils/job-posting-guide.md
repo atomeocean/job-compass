@@ -7,18 +7,17 @@ description: 在job compass发布招聘信息的流程
 
 # Job Posting发布指南
 
-> [!NOTE] 本文用途
-> 本文介绍如何按照流程添加一篇招聘信息文档，以便在Job Compass网站上展示相关职位信息。
+本文介绍如何按照流程添加一篇招聘信息文档，以便在Job Compass网站上展示相关职位信息。
 
-## 🗺️ 一览流程
+## 一览流程
 
-| 阶段    | 操作                             | 产出      |
-|-------|--------------------------------|---------|
-| 查重    | 搜索官网职位 - 检查仓库是否已有              | 确认是否需新增 |
-| 建公司   | 创建公司文件夹 / `index.md` / `data/` | 公司文件结构  |
-| 建JSON | `data/职位‑发布日期.json`            | 结构化招聘数据 |
-| 建MD   | `职位‑发布日期.md` + 组件路径            | 招聘展示页面  |
-| 提PR   | 执行校验脚本 - Pull Request          | 等待审核合并  |
+| 阶段    | 操作                                | 产出      |
+|-------|-----------------------------------|---------|
+| 查重    | 搜索官网职位 - 检查仓库是否已有                 | 确认是否需新增 |
+| 建公司   | 创建公司文件夹、 `index.md`文件 、 `data/`目录 | 公司文件结构  |
+| 建JSON | `data/职位‑发布日期.json`               | 结构化招聘数据 |
+| 建MD   | `职位‑发布日期.md` + 组件路径               | 招聘展示页面  |
+| 提PR   | 执行校验脚本 - Pull Request             | 等待审核合并  |
 
 
 ## 1 查找招聘信息
@@ -45,6 +44,7 @@ description: 在job compass发布招聘信息的流程
    - 将[该模版文件](/job-postings/job-postings-utils/index.md)中的内容复制到该文件中
    - 编辑该文件，将`title`的值（模板中为 {{公司名称}}）替换为正确的公司名称 (例如：Amazon 或 Cloudflare)。
    - 在`index.md`文件中的公司名称需要首字母大写，Bloomberg，Bank of America(正确)，apple(错误)
+   - 正确示例：`title: Bloomberg`
 
 3. 创建`data`子文件夹
    在公司文件夹下，创建一个名为`data`的子文件夹。
@@ -66,7 +66,7 @@ docs/
 该公司的招聘数据存放在`data`文件夹中，每个JSON文件对应一个招聘信息。可以通过**对比招聘链接**来确认是否重复：
 
 - **如果已存在相同职位**，无需重复添加。
-- **如果职位信息不存在**，继续下一步。
+- **如果职位信息不存在**，继续[下一步](#5-创建职位json文件)。
 
 ## 5 创建职位Json文件
 
@@ -122,8 +122,8 @@ software-engineer-20250102.md
 
 ## 参考文档
 
-- [Markdown 语法 cheatsheet](https://jobcompass.atomeocean.com/guide/markdown-cheatsheet.html)
-- [Json 语法 cheatsheet](https://jobcompass.atomeocean.com/guide/json-cheatsheet.html)
+- [Markdown 语法 cheatsheet](/guide/markdown-cheatsheet.md)
+- [Json语法cheatsheet](/guide/json-cheatsheet.md)
 - [提交 Pull Request 教程](https://www.youtube.com/watch?v=Jp7aMDVXvwM)
 
 ### 联系项目管理员
