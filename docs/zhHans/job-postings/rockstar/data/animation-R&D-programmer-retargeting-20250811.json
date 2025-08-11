@@ -1,0 +1,31 @@
+{
+  "companyName": "Rockstar New York",
+  "jobTitle": "Full Stack Developer",
+  "jobLocation": ["New York NY"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "协助发明、开发、扩展、维护并支持广泛的运行时动画系统、流程和工具。",
+    "开发稳健且高性能的技术，以适应不同角色、场景和环境的动画调整。",
+    "协作并参与与程序动画、动作适应和角色动作合成相关功能的研发。",
+    "持续关注最新的学术和行业突破，独立研究和开发改进，不断推动技术进步。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学或相关专业学位，或具备同等行业经验。",
+      "在动画重定向、动作适应或相关领域有成功开发解决方案的经验。",
+      "具备在游戏引擎中创建、扩展或直接使用动画系统的经验。"
+    ],
+    "preferredQualifications": [
+      "在AAA角色为核心的游戏或角色为核心的视觉特效动画领域具备行业经验。",
+      "具备C#或Python编程技能。",
+      "拥有在大型现有代码库中开发的经验，能够协作或在大型团队中独立工作。",
+      "具备动作合成或风格迁移的经验。",
+      "在优化或调试大型复杂多线程C++程序方面有实际成功经验。"
+    ]
+  },
+  "salary": ["$101,400—$141,600 USD"],
+  "benefits": [
+  ],
+  "jobLink": "https://www.rockstargames.com/careers/openings/position/6225834003",
+  "notes": ""
+}
