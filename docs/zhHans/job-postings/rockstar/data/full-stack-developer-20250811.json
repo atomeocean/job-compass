@@ -1,0 +1,39 @@
+{
+  "companyName": "Rockstar New York",
+  "jobTitle": "Full Stack Developer",
+  "jobLocation": ["New York NY"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+      "与开发团队合作，在现有代码库中集成功能并修复系统中的错误。",
+      "将新的和现有的域集成到我们的 CI/CD 流水线中。",
+      "参与编写并维护文档。",
+      "持续关注快速发展的新技术，并评估其对我们系统的潜在益处。",
+      "致力于持续自我提升和职业发展。",
+      "编写符合我们内部风格、可维护性与最佳实践标准的代码。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "5年以上专业全栈开发经验。",
+      "4年以上Web应用开发经验。",
+      "4年以上使用C#.NET和/或.NETCore的经验。",
+      "4年以上使用Mongo或类似NoSQL数据库的经验。",
+      "4年以上使用JavaScript/TypeScript、HTML/CSS的经验。",
+      "4年以上使用React、Next.js、Vue等框架/库的经验。"
+    ],
+    "preferredQualifications": [
+      "具备编写单元测试的经验。",
+      "具备使用CI/CD流水线及相关软件（如Kubernetes/Jenkins）的经验。",
+      "具备使用Postman、MongoDB、ElasticStack、SSIS和SSRS的经验。",
+      "具备使用前端库/框架、SASS/SCSS和MaterialUI的经验。",
+      "了解敏捷开发流程。",
+      "了解和/或对动作捕捉/影视制作感兴趣。",
+      "有在游戏、娱乐、技术或类似创意行业工作的经验。",
+      "对RockstarGames、电子游戏及其开发有兴趣。"
+    ]
+  },
+  "salary": ["$104,400—$134,300 USD"],
+  "benefits": [
+  ],
+  "jobLink": "https://www.rockstargames.com/careers/openings/position/6653618003",
+  "notes": ""
+}
