@@ -1,7 +1,7 @@
 {
   "companyName": "Bungie",
   "jobTitle": "Data Reliability Engineer",
-  "jobLocation": ["Hybrid/Remote"],
+  "jobLocation": ["Remote"],
   "jobType": "Full Time",
   "jobResponsibilities": [
     "协助设计、运营并维护一个能够满足数百万并发用户需求的数据层。",
@@ -24,8 +24,13 @@
         "具备Linux系统管理及使用Python、Bash等脚本语言的经验。"
     ]
   },
-  "salary": ["$129,000 – 155,000/year"],
+  "salary": ["$129,000 – $155,000/year"],
   "benefits": [
+    "全面的医疗保险",
+    "丰厚的 401(k) 养老金匹配计划",
+    "灵活的休假政策",
+    "带薪育儿假",
+    "社交俱乐部"
   ],
   "jobLink": "https://careers.bungie.com/jobs/7099657/data-reliability-engineer",
   "notes": ""
