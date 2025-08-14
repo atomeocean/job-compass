@@ -1,10 +1,11 @@
 ---
 title: United Software Corporation
+outline: deep
 ---
 
 # United Software Corporation
 
-## 📌 公司信息
+## 公司信息
 
 <StaffingCompanyTable companyJsonFileName="united-software-corporation"/>
 
