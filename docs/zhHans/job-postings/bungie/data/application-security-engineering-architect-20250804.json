@@ -1,0 +1,35 @@
+{
+  "companyName": "Bungie",
+  "jobTitle": "Application Security Engineering Architect",
+  "jobLocation": ["Remote"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "架构、开发并维护我们C/C++游戏客户端中的反作弊技术。",
+    "与数据科学家和分析师合作，开发并改进作弊检测机制。",
+    "紧跟网络安全和操作系统开发行业的最新动态。",
+    "与外部安全合作伙伴建立并维护合作关系。",
+    "协助制定提升我们安全环境的相关政策。"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+        "C/C++应用程序开发（包括优化代码、数据布局以及健壮的访问模式）。",
+        "低层级调试技能（包括多线程调试、优化代码调试等）。",
+        "具备与多个技术与非技术领域的职能协同合作的能力。",
+        "熟悉Windows API及Windows内核内部机制。"
+    ],
+    "preferredQualifications": [
+        "具备反作弊或网络安全相关经验。",
+        "熟悉内核模式操作。",
+        "具备C#和/或相关工具的使用经验。"
+    ]
+  },
+  "salary": ["$189,000 – $223,000/year"],
+  "benefits": [
+    "全面的医疗保险、丰厚的 401(k) 养老金匹配计划",
+    "灵活的休假政策",
+    "带薪育儿假",
+    "社交俱乐部"
+  ],
+  "jobLink": "https://careers.bungie.com/jobs/7099811/application-security-engineering-architect",
+  "notes": ""
+}
