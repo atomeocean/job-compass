@@ -9,6 +9,9 @@ import {
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite';
 import {contributors} from "../_data/contributors";
+import {
+  InlineLinkPreviewElementTransform
+} from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
@@ -150,9 +153,16 @@ const vitePressConfig: UserConfig = {
     'zhHans/:rest*': ':rest*'
   },
   vite: {
+    optimizeDeps: {
+      exclude: [
+        '@nolebase/vitepress-plugin-inline-link-preview/client',
+        'vitepress'
+      ],
+    },
     ssr: {
       noExternal: [
         '@nolebase/ui',
+        '@nolebase/vitepress-plugin-inline-link-preview',
       ],
     },
     plugins: [
@@ -204,6 +214,11 @@ const vitePressConfig: UserConfig = {
   // https://github.com/emersonbottero/vitepress-plugin-mermaid
   mermaid:{
     //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
+  },
+  markdown: {
+    config: (md) => {
+      md.use(InlineLinkPreviewElementTransform)
+    }
   },
   ignoreDeadLinks: true
 };
