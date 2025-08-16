@@ -51,7 +51,7 @@ export default {
     // 注册 ElementPlus
     app.use(ElementPlus);
 
-    app.use(NolebaseInlineLinkPreviewPlugin)
+    app.use(NolebaseInlineLinkPreviewPlugin);
     // 注册所有图标组件
     for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
       app.component(key, component);
