@@ -21,6 +21,10 @@ import {
 } from '@nolebase/vitepress-plugin-git-changelog/client';
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import ContributorWrapper from "./components/ContributorWrapper.vue";
+import {
+  NolebaseInlineLinkPreviewPlugin
+} from "@nolebase/vitepress-plugin-inline-link-preview/client";
+import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css';
 
 export default {
   ...DefaultTheme,
@@ -46,6 +50,8 @@ export default {
 
     // 注册 ElementPlus
     app.use(ElementPlus);
+
+    app.use(NolebaseInlineLinkPreviewPlugin);
     // 注册所有图标组件
     for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
       app.component(key, component);
