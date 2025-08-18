@@ -56,7 +56,7 @@ features:
     linkText: 查看内推信息
     rel: noreferrer
   - title: 挂靠公司
-    details: 分辨挂靠公司，避免上当受骗，挂靠行为是签证欺诈违法行为
+    details: 分辨挂靠公司，避免上当受骗。挂靠行为是签证欺诈违法行为
     link: /visa-fraud-company/hongshu-27410952937
     linkText: 挂靠公司列表
     rel: noreferrer
