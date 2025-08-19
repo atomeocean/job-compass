@@ -1,6 +1,6 @@
 ---
 title: 劳务派遣公司信息文档指南
-outline: [2,3]
+outline: deep
 ---
 
 # Staffing Company使用指南
@@ -25,20 +25,20 @@ outline: [2,3]
 
 #### 2 检查仓库中是否已存在该公司文件
 
-前往 [staffing-company 目录](https://github.com/atomeocean/job-compass/tree/main/docs/zhHans/staffing-company)，查看该目录下是否已经存在该公司名称的文件
+前往[staffing-company 目录](/staffing-company/overview.md)，查看该目录下是否已经存在该公司名称的文件
 
 - **如果已存在**，可跳过**快速开始**的后续步骤，直接跳转至下方对应的任务模块指南
-- **如果未存在**，需要在当前目录下创建一个以该公司名称命名的 Markdown 文件
+- **如果未存在**，需要在当前目录下创建一个以该公司名称命名的Markdown文件
   1. 在当前文件夹下创建一个新的 Markdown 文件，文件名称为公司名称全拼（命名规则：公司全称小写，单词间用连字符连接）
-  2. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/staffing-company-utils/company-info-template.md?plain=1) 中的内容复制到你所创建的文件中
+  2. 将[模版文件](/guide/staffing-company-utils/company-info-template.md) 中的内容复制到你所创建的文件中
   3. 将第 2 行的 `title` 的值以及第 5 行的 `[公司名称]` 分别替换为实际的公司名称
   4. 跳转至下方对应的任务模块指南
 
 ### 任务一：公司基础信息收集
 
-#### 1️⃣ 创建公司 Json 文件
+#### 1 创建公司 Json 文件
 
-前往 [data 目录](https://github.com/atomeocean/job-compass/tree/main/docs/zhHans/staffing-company/data)，查看找到的公司信息是否已存在
+前往[data 目录](/staffing-company/data)，查看找到的公司信息是否已存在
 
 如果该公司信息尚未收录，则在当前文件夹中创建一个新的 Json 文件。
 
@@ -47,9 +47,9 @@ outline: [2,3]
     - 使用**小写字母**
     - 使用连字符 `-` 连接
 
-#### 2️⃣ 填充公司信息
+#### 2 填充公司信息
 
-1. 将 [模版文件](https://github.com/atomeocean/job-compass/blob/main/docs/zhHans/guide/staffing-company-utils/company-info-template.json) 中的内容复制到第 1️⃣ 步中创建的文件中
+1. 将[模版文件](/guide/staffing-company-utils/company-info-json-template.md)中的内容复制到第1步中创建的文件中
 2. 根据找到的公司信息填充这个模版：
     - **companyName：**
         - **companyName：** 公司名称
@@ -95,11 +95,11 @@ outline: [2,3]
 
 **若信息来源未提供相关内容，可跳过对应字段。**
 
-#### 3️⃣ 修改公司 Markdown 文件
+#### 3 修改公司Markdown文件
 
-1. 前往 [staffing-company 目录](https://github.com/atomeocean/job-compass/tree/main/docs/zhHans/staffing-company) 中，找到公司同名的 Markdown 文件
-2. 在该文件中找到 StaffingCompanyTable 标签，大约在第 9 行附近
-3. 将标签中的 `companyJsonFileName` 值替换为上一步修改的 json 文件名
+1. 前往[staffing-company 目录](/staffing-company/overview.md) 中，找到公司同名的Markdown文件
+2. 在该文件中找到StaffingCompanyTable标签，大约在第9行附近
+3. 将标签中的 `companyJsonFileName` 值替换为上一步修改的json文件名
 
 ### 任务二：招聘信息收集
 
@@ -130,6 +130,6 @@ outline: [2,3]
 
 ## 参考文档
 
-- [Markdown 语法 cheatsheet](https://jobcompass.atomeocean.com/guide/markdown-cheatsheet.html)
-- [Json 语法 cheatsheet](https://jobcompass.atomeocean.com/guide/json-cheatsheet.html)
+- [Markdown 语法 cheatsheet](/guide/markdown-cheatsheet.md)
+- [Json 语法 cheatsheet](/guide/json-cheatsheet.md)
 - [提交 Pull Request 教程](https://www.youtube.com/watch?v=Jp7aMDVXvwM)

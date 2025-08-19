@@ -1,3 +1,9 @@
+---
+title: 公司Json模板文件
+---
+# 公司Json模板文件
+
+```json5
 {
   "companyInfo": {
     "companyName": "",
@@ -66,3 +72,4 @@
     "lastUpdated": ""
   }
 }
+```
