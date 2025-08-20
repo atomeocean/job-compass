@@ -1,0 +1,51 @@
+{
+    "companyName": "Lyft",
+    "jobTitle": "Software Engineer (Product‑Focused)",
+    "jobLocation": [
+        "San Francisco, CA, USA",
+        "Seattle, WA, USA"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "编写精心设计、可维护的代码，与产品经理、设计师及工程团队合作，将复杂功能从构思推向执行",
+        "管理项目优先级、截止时间与交付内容，同时在设计决策中考虑业务背景与失败模式",
+        "参与代码审查，确保代码质量、分享知识并指导初级工程师",
+        "参与 on‑call 值班轮岗，诊断并解决应用与平台的故障问题",
+        "助力产品路线规划与架构设计，发现流程改进与自动化机会",
+        "参与招聘流程：面试技术候选人，进行现场编码，并提供细致反馈"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "5年以上软件工程经验，掌握高级编程语言，具备 Python 与 Go 使用经验优先",
+            "拥有计算机工程、计算机科学或相关领域的 BS/MS 学位，或等效工作经验",
+            "拥有分布式系统背景，熟练使用关系型数据库与 NoSQL 数据库",
+            "具备设计、调试与管理容错、高可用、大规模分布式系统的实战经验"
+        ],
+        "preferredQualifications": []
+    },
+    "salary": [
+        {
+            "location": "San Francisco, CA",
+            "range": "USD $148,000 - $185,000 (基础薪资，仅供参考)"
+        }
+    ],
+    "estimatedTotalCompensation": [
+        {
+            "location": "United States (Lyft SE average)",
+            "range": "USD $270,000 (中位总薪酬，含基本薪资、股票与奖金)"
+        }
+    ],
+    "benefits": [
+        "优质医疗、牙科和视力保险（附加选项）",
+        "心理健康支持服务",
+        "家庭建设相关福利",
+        "儿童照护与宠物福利",
+        "401(k) 退休储蓄计划",
+        "12 天法定节假日，加上灵活带薪休假（薪资制员工）；小时制员工有 15 天年假",
+        "18 周带薪育儿假（生育、领养、寄养父母均适用）",
+        "通勤补贴福利",
+        "Lyft Pink—团队成员可抢先体验 Ridership Program 的新福利"
+    ],
+    "jobLink": "https://app.careerpuck.com/job-board/lyft/job/8109070002?gh_jid=8109070002",
+    "notes": "岗位采用混合办公模式，每周需在办公室工作 3 天（周一、三、四），每年最多 4 周可远程工作。"
+}
