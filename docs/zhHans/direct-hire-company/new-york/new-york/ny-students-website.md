@@ -8,7 +8,7 @@ title: 纽约留学生网
 
 <DirectHireCompanyTable state="new-york" city="new-york" companyJsonFileName="ny-students-website" />
 
-## 🚢 航海日志
+## 航海日志
 
 官方网站已经被广告劫持，谨慎点击 https://www.nystudents.net/
 
