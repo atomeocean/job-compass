@@ -51,7 +51,7 @@ lastUpdated: 2025-05-31
 
 ## 5 填充公司信息
 
-1. 将 [json模版文件](/guide/direct-hire-company-utils/company-info-template.json) 中的内容复制到第4步中创建的文件中。
+1. 将 [json模版文件](/guide/direct-hire-company-utils/company-info-json-template.md) 中的内容复制到第4步中创建的文件中。
 2. 根据找到的公司信息填充这个模版：
     - **companyName：** 公司名称（全称）。
     - **location：**
