@@ -1,6 +1,7 @@
 ---
 title: Pilot Technologies LLC
 description: icc
+outline: deep
 ---
 
 # Pilot Technologies LLC
@@ -9,7 +10,7 @@ description: icc
 
 <StaffingCompanyTable companyJsonFileName="pilot"/>
 
-## 📢 招聘信息
+## 招聘信息
 
 ### 2024年12月
 
@@ -21,10 +22,9 @@ description: icc
 3. 1月Java batch开放面试（可抽签）
    感兴趣加微信：pilot-hr
 
-## 🚢 航海日志
+## 航海日志
 
 ### 2025年5月
-
 
 招聘专员Lucy已经在中国工作超过半年，Pilot为压低运营成本在中国招聘廉价劳动力负责在微信上筛选美国新毕业生。
 
@@ -33,8 +33,6 @@ Jue Wang
 电话是 6097226770
 
 ### 2022年12月
-
-一共一轮电面包含三部分开始会让你自我介绍然后说下简历上的工作经验（项目没问）然后问了Java的一些基本概念和两道coding概念：什么是OOPsetVScollectionabstractionVSinheritanceoverloadingVSoverridingconstructorVSmethod什么是interface说一下HashMap什么是Map常用什么编辑器说一下现在Java到什么版本了Coding部分利口217利口876
 
 一轮电面面试流程（包含三部分）
 
