@@ -147,6 +147,11 @@ const vitePressConfig: UserConfig = {
       defer: 'defer',
       src: 'https://static.cloudflareinsights.com/beacon.min.js',
       'data-cf-beacon': '{"token": "dabc2b0ba1a348199ab321006fdcb406"}'
+    }],
+    ['script', {
+      defer: 'defer',
+      src: 'https://cloud.umami.is/script.js',
+      'data-website-id': 'f96064e8-353c-4979-9ad0-ad33ffa0060c'
     }]
   ],
   rewrites: {
