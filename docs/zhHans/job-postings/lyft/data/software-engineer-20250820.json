@@ -1,0 +1,56 @@
+{
+    "companyName": "Lyft",
+    "jobTitle": "Software Engineer, Security Foundations",
+    "jobLocation": [
+        "San Francisco, CA, USA"
+    ],
+    "jobType": "全职",
+    "jobResponsibilities": [
+        "开发 Lyft 关键服务，例如身份与访问管理平台（IAM）与凭证管理服务，确保最小权限访问与凭证安全",
+        "设计并构建可扩展、安全的服务架构，并减少操作摩擦",
+        "推广“共同安全责任”模型，与基础设施团队合作打造默认安全的服务与流程",
+        "将安全最佳实践（最小权限、隔离、监控、身份验证与授权）整合到基础设施中，从应用层到网络层",
+        "为 Lyft 工程师提供丰富数据支持，驱动手动与自动化决策，例如使用开源工具 Cartography 可视化基础设施资产关系图"
+    ],
+    "candidateQualifications": {
+        "basicQualifications": [
+            "具备至少一种高级编程语言经验；Python、Go 和 Shell 脚本经验者优先",
+            "对计算机安全有兴趣或具备相关经验",
+            "能够在定义不明或不熟悉的问题领域迅速学习、分析并推动解决方案",
+            "优秀的沟通能力，能在倡导方案时兼顾团队成员的目标与优先级",
+            "明白安全工作的重要性与资源有限性的现实，具备良好判断力和适时妥协能力",
+            "对计算机网络安全或主流网络协议（如 TCP/IP、HTTP、TLS、DNS）有基本理解"
+        ],
+        "preferredQualifications": [
+            "AWS 或其他主流云服务平台经验",
+            "Kubernetes、容器安全与云端服务集群运行经验",
+            "加密学、PKI 或密钥分发经验",
+            "有大规模多级或分布式 Web 应用运维经验"
+        ]
+    },
+    "salary": [
+        {
+            "location": "San Francisco, CA",
+            "range": "USD $128,000 - $160,000（基础薪资）"
+        }
+    ],
+    "estimatedTotalCompensation": [
+        {
+            "role": "Security‑focused SWE (Scott estimate)",
+            "range": "USD $248,000 - $300,000+（含股票与奖金）"
+        }
+    ],
+    "benefits": [
+        "优质医疗、牙科和视力保险（附加方案可选）",
+        "心理健康支持服务",
+        "家庭建设福利",
+        "儿童照护与宠物福利",
+        "401(k) 退休储蓄计划",
+        "12 天法定节假日 + 灵活带薪休假（薪资制员工）或 15 天带薪休假（小时工）",
+        "18 周带薪育儿假（适用于生育、领养和寄养父母）",
+        "通勤补贴福利",
+        "Lyft Pink—团队成员可优先体验 Ridership Program 的新福利"
+    ],
+    "jobLink": "https://app.careerpuck.com/job-board/lyft/job/8083487002",
+    "notes": "混合办公模式：每周需在办公室工作 3 天（周一、三、四），每年最多允许 4 周远程工作；以工程师视角推动全公司安全文化与自动化架构。"
+}
