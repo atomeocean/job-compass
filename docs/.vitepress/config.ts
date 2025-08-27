@@ -223,6 +223,15 @@ const vitePressConfig: UserConfig = {
   markdown: {
     config: (md) => {
       md.use(InlineLinkPreviewElementTransform)
+      // 创建 markdown-it 插件
+      md.use((md) => {
+        // 在markdown文档渲染时，将页面统计组件拼接到h1标题下
+        md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+          let htmlResult = slf.renderToken(tokens, idx, options)
+          if (tokens[idx].tag === 'h1') htmlResult += `<PageViewStatistic />`
+          return htmlResult
+        }
+      })
     }
   },
   ignoreDeadLinks: true

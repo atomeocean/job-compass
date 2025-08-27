@@ -73,4 +73,4 @@ Job Compass是一个开源求职社区，致力于帮助在美国寻找工作的
 
 - 亚马逊[Amazon](/direct-hire-company/washington/seattle/amazon.md)
 
-<PageViewStatistic />
+<SiteViewStatistic />
