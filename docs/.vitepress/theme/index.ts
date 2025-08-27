@@ -13,7 +13,8 @@ import JobPostingTable from "./components/JobPostingTable.vue";
 import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
 import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
-import PageViewStatistic from "./components/PageViewStatistic.vue";
+import SiteViewStatistic from "./components/siteStatistic/SiteViewStatistic.vue";
+import PageViewStatistic from "./components/siteStatistic/PageViewStatistic.vue";
 import Giscus from "./components/Giscus";
 import { h } from 'vue';
 import {
@@ -44,6 +45,7 @@ export default {
     app.component("StaffingCompanyTable", StaffingCompanyTable);
     app.component("JobRecruiterInformation", JobRecruiterInformation);
     app.component("ReferenceSource", ReferenceSource);
+    app.component("SiteViewStatistic", SiteViewStatistic);
     app.component("PageViewStatistic", PageViewStatistic);
     app.use(NolebaseGitChangelogPlugin);
 

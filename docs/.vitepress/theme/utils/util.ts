@@ -29,3 +29,18 @@ export const formatAddress = (location: Location): string => {
 
     return fullAddress.length > 0 ? fullAddress : "暂未提供";
 };
+
+/**
+ * 数字千分位转换 1500 -> 1.5k，1500000 -> 1.5M
+ * @param count
+ * @returns
+ */
+export const countTransK = (count: number) => {
+    if (count >= 1000000) {
+        return (count / 1000000).toFixed(1) + 'M'
+    }
+    if (count >= 1000) {
+        return (count / 1000).toFixed(1) + 'K'
+    }
+    return count.toString()
+}
