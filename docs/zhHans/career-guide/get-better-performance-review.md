@@ -15,7 +15,7 @@ link: 'https://zhuanlan.zhihu.com/p/1925116921226982990',
 site: '知乎',
 author: '九老师',
 date: '2025-07-06',
-category: '问答'
+category: '专栏'
 }
 ]"
 />
