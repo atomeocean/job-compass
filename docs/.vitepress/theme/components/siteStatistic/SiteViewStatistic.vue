@@ -68,7 +68,7 @@ useIntersectionObserver(
         <el-statistic :value="outputUV" group-separator=",">
           <template #title>
             <div style="font-size: 12pt; display: inline-flex; align-items: center">
-              访客数
+              独立访客数
             </div>
           </template>
         </el-statistic>
