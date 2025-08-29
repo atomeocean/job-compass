@@ -9,7 +9,6 @@ const outputPV = useTransition(pv, { duration: 1800 })
 const outputUV = useTransition(uv, { duration: 1800 })
 
 const statisticRef = ref<HTMLElement | null>(null)
-let observer: IntersectionObserver | null = null
 
 // 定义busuanzi插件请求id
 const SITE_VIEW_ID = "busuanzi_value_site_pv";
@@ -69,7 +68,7 @@ useIntersectionObserver(
         <el-statistic :value="outputUV" group-separator=",">
           <template #title>
             <div style="font-size: 12pt; display: inline-flex; align-items: center">
-              独立访客数
+              访客数
             </div>
           </template>
         </el-statistic>
@@ -81,7 +80,7 @@ useIntersectionObserver(
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .page-view-statistic {
   margin: 40px 0;
 }
