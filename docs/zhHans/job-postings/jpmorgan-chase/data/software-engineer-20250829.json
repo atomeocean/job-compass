@@ -1,0 +1,42 @@
+{
+  "companyName": "JPMorgan Chase & Co.",
+  "jobTitle": "Software Engineer III - Python / Spark",
+  "jobLocation": [
+    "USA, DE, Wilmington"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "执行软件解决方案的设计、开发和技术故障排除，能够超越常规方法进行思考以构建解决方案或分解技术问题",
+    "创建安全且高质量的生产代码，并维护与适当系统同步运行的算法",
+    "为复杂应用程序生成架构和设计文档，并确保软件代码开发符合设计约束",
+    "收集、分析、综合并从大型、多样化数据集中开发可视化和报告，以持续改进软件应用程序和系统",
+    "主动识别数据中的潜在问题和模式，并利用这些洞察推动代码规范和系统架构的改进",
+    "为软件工程实践社区和探索新兴技术的活动做出贡献",
+    "营造多元、机会、公平、包容和尊重的团队文化"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "接受过软件工程概念的正规培训或获得相关认证，并具有3年以上实际应用经验",
+      "具备系统设计、应用开发、测试和运维稳定性的实际经验",
+      "具有在大型企业环境中使用一种或多种现代编程语言和数据库查询语言进行开发、调试和维护代码的经验",
+      "精通一种或多种编程语言，包括Python",
+      "具有使用Python库和工具（包括Pandas、NumPy和Dask）的经验",
+      "具有为AWS开发应用程序的经验，涉及AWS服务：EKS/ECS、Lambda、RDS和S3",
+      "具有Spark和SQL的经验",
+      "具有使用React JS、Flask、Django进行UI开发的经验",
+      "具备软件开发生命周期的整体知识",
+      "扎实理解敏捷方法论，如CI/CD、应用程序弹性和安全性",
+      "具备在技术领域（如云、人工智能、机器学习、移动等）内的软件应用和技术流程的知识"
+    ],
+    "preferredQualifications": [
+      "具有Java经验",
+      "具有Cloud Foundry经验",
+      "具有测试驱动开发、Selenium和Cucumber的经验",
+      "接触过AI/ML"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210661672",
+  "notes": ""
+}
