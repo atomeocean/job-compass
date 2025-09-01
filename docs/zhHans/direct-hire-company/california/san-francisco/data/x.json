@@ -1,0 +1,27 @@
+{
+  "companyInfo": {
+    "companyName": "X Corp.",
+    "location": {
+      "addressLine1": "1355 Market Street",
+      "addressLine2": "Suite 900",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94103"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://x.com",
+      "linkedin": ""
+    },
+    "industry": ["Technology", "Social Media", "Digital Advertising"],
+    "foundedYear": "2006",
+    "description": "X公司，前身为Twitter，是一家技术公司，运营着全球社交媒体平台，并正在通信和金融服务领域开发新业务。",
+    "mainProductsOrServices": ["X平台（社交网络）", "X Premium（订阅服务）", "广告服务", "X Payments（开发中）"],
+    "companySize": "1,500-2,000名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-09-01"
+  }
+}
