@@ -33,21 +33,35 @@ description: 在job compass发布招聘信息的流程
 
 ## 3 创建新公司文件夹
 
-若招聘信息中的公司名称未出现在 docs/zhHans/job-postings 目录下，请按以下步骤操作：
+若招聘信息中的公司名称未出现在`docs/zhHans/job-postings`目录下，请按以下步骤操作：
 
-1. 创建公司文件夹
-   在`docs/zhHans/job-postings`目录下，新建一个文件夹，文件夹名称使用公司英文全称的小写形式
-   - 要求：使用完整英文名称，不使用缩写、大写字母或中文。
-   - 示例：bloomberg, bank-of-america(正确)，BB、Bloomberg、美国银行 (错误)
-2. 创建`index.md`文件
-   在新建的公司文件夹下，创建一个名为`index.md`的文件
-   - 将[该模版文件](/job-postings/job-postings-utils/index.md)中的内容复制到该文件中
-   - 编辑该文件，将`title`的值（模板中为 {{公司名称}}）替换为正确的公司名称 (例如：Amazon 或 Cloudflare)。
-   - 在`index.md`文件中的公司名称需要首字母大写，Bloomberg，Bank of America(正确)，apple(错误)
-   - 正确示例：`title: Bloomberg`
+### 1. 创建公司文件夹
+   
+在`docs/zhHans/job-postings`目录下，新建一个文件夹，文件夹名称使用公司英文全称的小写形式
 
-3. 创建`data`子文件夹
-   在公司文件夹下，创建一个名为`data`的子文件夹。
+- 要求 
+  - 使用公司**英文全称的小写形式**
+  - 不使用缩写、大写字母或中文
+  - 多个单词间用连字符（`-`）连接
+- 示例
+  - ✅ 正确：`bloomberg`, `bank-of-america`
+  - ❌ 错误：`BB`（缩写）、`Bloomberg`（大写）、`美国银行`（中文）
+
+### 2. 创建`index.md`文件
+
+1. 复制模板内容  
+   将[模板文件](/job-postings/job-postings-utils/index.md)的内容复制到 `index.md` 中。
+
+2. 编辑文件标题
+  - 修改`title`字段的值（原模板为 `{{公司名称}}`）为正确的公司名称。**一定要去掉双大括号**。
+  - 格式要求：使用首字母大写的标准英文名称（如 `Bloomberg`, `Bank of America`）。
+  - 示例
+    - ✅ 正确：`title: Bloomberg`, `title: Bank of America`
+    - ❌ 错误：`title: apple`（未首字母大写）
+
+### 3. 创建`data`子文件夹
+
+在公司文件夹下，创建一个名为`data`的子文件夹。
 
 文件夹结构如下：
 ```text
@@ -94,6 +108,11 @@ software-engineer-20250102.md
 **若招聘信息页面未提供相关内容，可跳过对应字段**
 
 **请确保信息准确，如职位已关闭，请及时更新或删除相关信息**
+
+### 注意事项
+
+1. Json中的值默认使用中文填写
+2. 职位链接必须指向公司官方的招聘页面
 
 ## 7 创建职位Markdown文件
 
