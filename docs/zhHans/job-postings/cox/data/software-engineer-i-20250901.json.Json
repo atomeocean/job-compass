@@ -1,0 +1,41 @@
+{
+  "companyName": "Cox Automotive",
+  "jobTitle": "Software Engineer I",
+  "jobLocation": ["Long Island, NY"],
+  "jobType": "Full time",
+  "jobResponsibilities": [
+    "Collaborate with engineers and product teams to build scalable, secure, and user-friendly applications",
+    "Write clean, efficient code in languages such as Java, Python, or TypeScript",
+    "Leverage AWS Cloud to build modern, resilient systems",
+    "Use AI tools like GitHub Copilot to enhance productivity",
+    "Participate in code reviews, testing, and CI/CD processes",
+    "Contribute to the full software development lifecycle from design to deployment"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "Bachelor’s degree in Computer Science or related discipline, or equivalent experience",
+      "Strong knowledge of AWS",
+      "Solid understanding of software engineering fundamentals and object-oriented programming",
+      "Proficiency in at least one modern programming language (e.g., Python, JavaScript)",
+      "Excellent communication and problem-solving skills",
+      "Curiosity and eagerness to learn new tools, frameworks, and technologies"
+    ],
+    "preferredQualifications": [
+      "Experience with CI/CD pipelines",
+      "Familiarity with Git and agile development practices",
+      "Understanding of APIs, web services, or microservices",
+      "Interest in AI/ML and its application in software development"
+    ]
+  },
+  "salary": ["$86,600 - $129,800/year", "May include additional incentive compensation"],
+  "benefits": [
+    "Flexible vacation with pay",
+    "7 paid holidays per year",
+    "Up to 160 hours of paid wellness leave annually",
+    "Additional leave (bereavement, jury duty, volunteer, parental, military, etc.)",
+    "Comprehensive health care insurance (medical, dental, vision)",
+    "401(k) retirement plan with company match"
+  ],
+  "jobLink": "https://www.coxautoinc.com/careers/",
+  "notes": "Hybrid work option (remote part of the week). No sponsorship available. Pre-employment drug test required (excludes marijuana)."
+}
