@@ -1,6 +1,7 @@
 ---
 title: data engineer 20250529
 expired: false
+createdDate: 2025-06-05
 ---
 
 # Goldman Sachs 招聘信息

@@ -1,6 +1,7 @@
 ---
 title: software development engineer 20250611
 expired: false
+createdDate: 2025-05-19
 ---
 
 # Mapbox 招聘信息

@@ -1,6 +1,7 @@
 ---
 title: CoreWeave
 lastUpdated: 2025-05-28
+createdDate: 2025-05-28
 ---
 
 # CoreWeave, Inc.

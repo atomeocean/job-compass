@@ -2,6 +2,7 @@
 title: 盘古之殇
 description: 华为诺亚盘古大模型研发历程的心酸与黑暗
 outline: deep
+createdDate: 2025-07-10
 ---
 
 # 盘古之殇：华为诺亚盘古大模型研发历程的心酸与黑暗

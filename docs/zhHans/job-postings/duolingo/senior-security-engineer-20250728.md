@@ -1,6 +1,7 @@
 ---
 title: senior security engineer 20250728
 expired: false
+createdDate: 2025-08-07
 ---
 
 # Duolingo 招聘信息

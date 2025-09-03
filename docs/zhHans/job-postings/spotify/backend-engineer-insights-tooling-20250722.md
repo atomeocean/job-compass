@@ -1,6 +1,7 @@
 ---
 title: backend engineer insights tooling 20250722
 expired: false
+createdDate: 2025-06-20
 ---
 
 # Spotify 招聘信息

@@ -1,6 +1,7 @@
 ---
 title: business intelligence analyst 20250606
 expired: false
+createdDate: 2025-06-11
 ---
 
 # CoreWeave 招聘信息

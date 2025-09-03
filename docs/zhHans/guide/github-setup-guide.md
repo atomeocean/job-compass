@@ -2,6 +2,7 @@
 title: GitHub注册与本地配置指南
 description: 本指南将详细介绍如何注册 GitHub 账号，并在本地配置 Git 环境，以便能够使用 GitHub 进行代码管理。指南包括 macOS 和 Windows 两种操作系统的配置步骤。
 outline: [2,3]
+createdDate: 2025-03-07
 ---
 
 # GitHub 注册与本地配置指南

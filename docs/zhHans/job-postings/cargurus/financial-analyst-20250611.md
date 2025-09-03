@@ -1,6 +1,7 @@
 ---
 title: financial analyst 20250611
 expired: false
+createdDate: 2025-06-11
 ---
 
 # CarGurus 招聘信息

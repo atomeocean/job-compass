@@ -1,5 +1,6 @@
 ---
 title: Amazon Inc
+createdDate: 2025-02-09
 ---
 # Amazon Inc
 

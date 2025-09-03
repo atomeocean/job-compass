@@ -1,5 +1,6 @@
 ---
 title: Netflix
+createdDate: 2025-06-19
 ---
 
 ## 公司简介  

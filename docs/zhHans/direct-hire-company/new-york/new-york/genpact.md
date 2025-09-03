@@ -1,5 +1,6 @@
 ---
 title: Genpact
+createdDate: 2025-03-22
 ---
 
 # Genpact

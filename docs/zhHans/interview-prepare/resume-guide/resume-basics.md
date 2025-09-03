@@ -2,6 +2,7 @@
 title: 简历基础
 description: 美国找工简历的基础知识
 outline: deep
+createdDate: 2025-04-11
 ---
 
 # 美国找工作简历基础知识

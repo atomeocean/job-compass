@@ -1,5 +1,6 @@
 ---
 title: PayPal
+createdDate: 2025-06-10
 ---
 
 ## 公司简介  

@@ -1,5 +1,6 @@
 ---
 title: Oracle Corporation
+createdDate: 2025-06-26
 ---
 
 # Oracle Corporation

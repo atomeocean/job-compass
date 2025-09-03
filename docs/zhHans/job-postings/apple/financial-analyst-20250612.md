@@ -1,6 +1,7 @@
 ---
 title: financial analyst 20250612
 expired: false
+createdDate: 2025-06-12
 ---
 
 # Apple 招聘信息

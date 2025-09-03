@@ -1,5 +1,6 @@
 ---
 title: Rippling
+createdDate: 2025-03-22
 ---
 
 # Rippling, Inc.

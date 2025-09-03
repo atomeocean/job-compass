@@ -2,6 +2,7 @@
 title: 老板是上帝
 description: 美国职场中的Manager文化
 outline: deep
+createdDate: 2025-06-20
 ---
 # 老板是上帝
 

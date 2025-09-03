@@ -1,6 +1,7 @@
 ---
 title: Motorola Solutions
 lastUpdated: 2025-06-05
+createdDate: 2025-06-05
 ---
 
 # Motorola Solutions, Inc.

@@ -1,6 +1,7 @@
 ---
 title: software engineer 3 sdk foundation 20250818
 expired: false
+createdDate: 2025-08-18
 ---
 
 # Riot Games 招聘信息

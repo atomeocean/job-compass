@@ -1,5 +1,6 @@
 ---
 title: LeetCode 340
+createdDate: 2025-02-14
 ---
 # LeetCode 340 至多包含 K 个不同字符的最长子串
 

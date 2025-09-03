@@ -1,5 +1,6 @@
 ---
 title: Intel
+createdDate: 2025-07-07
 ---
 
 # Intel Corporation

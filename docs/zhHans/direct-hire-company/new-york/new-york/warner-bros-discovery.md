@@ -1,5 +1,6 @@
 ---
 title: Warner Bros. Discovery
+createdDate: 2025-07-13
 ---
 
 # Warner Bros. Discovery, Inc.
