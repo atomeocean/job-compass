@@ -2,6 +2,7 @@
 title: senior software engineer 20250728
 expired: false
 createdDate: 2025-08-07
+lastUpdated: 2025-09-03
 ---
 
 # Duolingo 招聘信息

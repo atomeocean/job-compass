@@ -3,6 +3,7 @@ title: 不要让任何人零成本接近你
 description: 成角路上注意强调服务的边界感
 outline: deep
 createdDate: 2025-07-26
+lastUpdated: 2025-09-03
 ---
 
 # 不要让任何人零成本接近你

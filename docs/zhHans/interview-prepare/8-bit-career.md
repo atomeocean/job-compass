@@ -1,6 +1,6 @@
 ---
 title: 8 Bit Career
-lastUpdated: 2024-12-04
+lastUpdated: 2025-09-03
 outline: deep
 createdDate: 2024-12-05
 ---

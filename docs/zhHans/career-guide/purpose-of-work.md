@@ -1,6 +1,7 @@
 ---
 title: 上班的目的
 createdDate: 2025-08-21
+lastUpdated: 2025-09-03
 ---
 # 上班的目的
 

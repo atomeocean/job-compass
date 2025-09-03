@@ -2,6 +2,7 @@
 title: data analyst 20250721
 expired: false
 createdDate: 2025-07-21
+lastUpdated: 2025-09-03
 ---
 
 # Genpact 招聘信息

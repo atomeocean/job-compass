@@ -1,6 +1,6 @@
 ---
 title: Motorola Solutions
-lastUpdated: 2025-06-05
+lastUpdated: 2025-09-03
 createdDate: 2025-06-05
 ---
 

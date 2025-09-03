@@ -1,6 +1,7 @@
 ---
 title: Bank of America
 createdDate: 2025-06-04
+lastUpdated: 2025-09-03
 ---
 
 ## 公司简介

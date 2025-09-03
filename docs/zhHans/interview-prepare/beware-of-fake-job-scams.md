@@ -1,6 +1,7 @@
 ---
 title: 警惕找工诈骗的骗局
 createdDate: 2025-08-29
+lastUpdated: 2025-09-03
 ---
 
 # 警惕找工诈骗的骗局

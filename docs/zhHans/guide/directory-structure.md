@@ -1,6 +1,7 @@
 ---
 title: 目录结构
 createdDate: 2025-03-20
+lastUpdated: 2025-09-03
 ---
 # Job Compass 目录结构
 

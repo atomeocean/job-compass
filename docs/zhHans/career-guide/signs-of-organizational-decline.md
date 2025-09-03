@@ -1,5 +1,6 @@
 ---
 createdDate: 2025-08-19
+lastUpdated: 2025-09-03
 ---
 
 # 组织衰败的信号

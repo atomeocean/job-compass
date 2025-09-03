@@ -1,7 +1,7 @@
 """
-同步文档创建日期的脚本
-为/docs目录下所有Markdown文档的frontmatter添加创建日期
-创建日期为该文档第一条git提交记录的日期（支持追踪文件重命名）
+同步文档最后更新时间的脚本
+为/docs目录下所有Markdown文档的frontmatter添加 lastUpdated
+lastUpdated 为该文档最后一次 git 提交的日期
 """
 
 import os
@@ -21,28 +21,25 @@ PROJECT_ROOT = Path(__file__).resolve().parents[PROJECT_ROOT_DEPTH]
 DOCS_DIR_PATH = PROJECT_ROOT / "docs"
 
 
-def get_file_created_date(file_path):
+def get_file_last_updated_date(file_path):
     """
-    使用 git log 获取文件创建日期，只返回 YYYY-MM-DD 格式。
-    采用git log --follow 和 --diff-filter=A混合的筛选模式
-    追踪重命名，并只取第一次添加(A)的提交。
+    使用 git log 获取文件最后一次提交的日期，只返回 YYYY-MM-DD 格式。
     """
     try:
         result = subprocess.check_output(
-            ['git', 'log', '--follow', '--diff-filter=A', '--format=%ai', '--', file_path],
+            ['git', 'log', '-1', '--format=%ai', '--', file_path],
             text=True
         )
         if result.strip():
-            # 只取最早的一条
-            return result.strip().split("\n")[-1][:10]
+            return result.strip()[:10]
         return None
     except subprocess.CalledProcessError:
         return None
 
 
-def update_frontmatter(file_path, created_date):
+def update_frontmatter(file_path, last_updated):
     """
-    只修改 Markdown 文件顶部的 frontmatter。
+    修改 Markdown 文件顶部的 frontmatter，添加 lastUpdated。
     """
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -50,16 +47,23 @@ def update_frontmatter(file_path, created_date):
     frontmatter_pattern = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
 
     if content.startswith("---"):
-        # 已有 frontmatter，检查是否已有 createdDate
         match = frontmatter_pattern.match(content)
         if match:
             frontmatter = match.group(1)
-            if "createdDate:" not in frontmatter:
-                new_frontmatter = frontmatter + f"\ncreatedDate: {created_date}"
+            if "lastUpdated:" not in frontmatter:
+                new_frontmatter = frontmatter + f"\nlastUpdated: {last_updated}"
+                content = content.replace(match.group(0), f"---\n{new_frontmatter}\n---", 1)
+            else:
+                # 如果已有 lastUpdated，就更新它
+                new_frontmatter = re.sub(
+                    r"lastUpdated:\s*.*",
+                    f"lastUpdated: {last_updated}",
+                    frontmatter
+                )
                 content = content.replace(match.group(0), f"---\n{new_frontmatter}\n---", 1)
     else:
         # 没有 frontmatter，则新建
-        content = f"---\ncreatedDate: {created_date}\n---\n\n{content}"
+        content = f"---\nlastUpdated: {last_updated}\n---\n\n{content}"
 
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(content)
@@ -71,18 +75,18 @@ def walk_docs(dir_path):
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(root, file)
-                created_date = get_file_created_date(file_path)
-                if created_date:
-                    update_frontmatter(file_path, created_date)
-                    logging.info(f"✅ Updated: {file_path} -> {created_date}")
+                last_updated = get_file_last_updated_date(file_path)
+                if last_updated:
+                    update_frontmatter(file_path, last_updated)
+                    logging.info(f"✅ Updated: {file_path} -> {last_updated}")
                 else:
                     logging.error(f"❌ 更新失败: {file_path}")
 
 
 def main():
-    logging.info("🚀 markdown文档添加创建日期开始...")
+    logging.info("🚀 markdown文档添加 lastUpdated 开始...")
     walk_docs(DOCS_DIR_PATH)
-    logging.info("🎉 markdown文档添加创建日期完成！")
+    logging.info("🎉 markdown文档添加 lastUpdated 完成！")
 
 
 if __name__ == "__main__":

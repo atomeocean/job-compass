@@ -1,6 +1,7 @@
 ---
 title: Antra
 createdDate: 2024-11-19
+lastUpdated: 2025-09-03
 ---
 
 # Antra Inc.

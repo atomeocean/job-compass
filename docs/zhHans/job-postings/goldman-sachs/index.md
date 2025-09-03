@@ -1,6 +1,7 @@
 ---
 title: Goldman Sachs
 createdDate: 2025-06-03
+lastUpdated: 2025-09-03
 ---
 
 # 高盛集团 (Goldman Sachs)

@@ -3,6 +3,7 @@ title: 现金流
 description: 初创公司的现金流
 outline: deep
 createdDate: 2025-08-28
+lastUpdated: 2025-09-03
 ---
 
 # 初创公司中的现金流

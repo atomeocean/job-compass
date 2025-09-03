@@ -2,6 +2,7 @@
 title: application security engineering architect 20250804
 expired: false
 createdDate: 2025-08-15
+lastUpdated: 2025-09-03
 ---
 
 # Bungie 招聘信息

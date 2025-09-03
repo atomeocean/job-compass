@@ -2,6 +2,7 @@
 title: 武汉大学声誉下滑
 outline: deep
 createdDate: 2025-08-02
+lastUpdated: 2025-09-03
 ---
 
 # 武汉大学声誉下滑

@@ -1,7 +1,7 @@
 ---
 title: Audible
 description: Audible公司信息
-lastUpdated: 2024-05-31
+lastUpdated: 2025-09-03
 outline: deep
 createdDate: 2025-05-31
 ---

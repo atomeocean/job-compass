@@ -2,6 +2,7 @@
 title: principal financial analyst 20250701
 expired: false
 createdDate: 2025-07-03
+lastUpdated: 2025-09-03
 ---
 
 # Capital One 招聘信息

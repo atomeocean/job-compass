@@ -2,6 +2,7 @@
 title: software engineer 20250606
 expired: false
 createdDate: 2025-06-06
+lastUpdated: 2025-09-03
 ---
 
 # Motorola Solutions 招聘信息

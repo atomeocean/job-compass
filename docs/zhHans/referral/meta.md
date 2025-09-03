@@ -3,6 +3,7 @@ title: Meta
 description: Meta previous Facebook
 outline: deep
 createdDate: 2025-02-02
+lastUpdated: 2025-09-03
 ---
 # Meta
 

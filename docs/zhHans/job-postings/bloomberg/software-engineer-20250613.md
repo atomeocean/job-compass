@@ -2,6 +2,7 @@
 title: software engineer 20250613
 expired: false
 createdDate: 2025-06-16
+lastUpdated: 2025-09-03
 ---
 
 # Bloomberg 招聘信息

@@ -2,6 +2,7 @@
 title: 劳务派遣公司信息文档指南
 outline: deep
 createdDate: 2025-04-02
+lastUpdated: 2025-09-03
 ---
 
 # Staffing Company使用指南

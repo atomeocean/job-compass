@@ -1,6 +1,7 @@
 ---
 title: Amazon Inc
 createdDate: 2025-02-09
+lastUpdated: 2025-09-03
 ---
 # Amazon Inc
 

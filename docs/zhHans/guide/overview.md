@@ -1,6 +1,7 @@
 ---
 title: 北美留学生求职社区指南
 createdDate: 2024-12-02
+lastUpdated: 2025-09-03
 ---
 # Job Compass 开源求职社区
 
