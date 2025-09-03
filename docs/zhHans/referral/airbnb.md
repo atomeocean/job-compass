@@ -1,6 +1,7 @@
 ---
 title: Airbnb
 createdDate: 2024-11-20
+lastUpdated: 2025-09-03
 ---
 # Airbnb内推
 

@@ -1,7 +1,7 @@
 ---
 title: business analyst 20250604
 expired: true
-lastUpdated: 2025-07-03
+lastUpdated: 2025-09-03
 createdDate: 2025-06-10
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Warner Bros. Discovery
 createdDate: 2025-07-14
+lastUpdated: 2025-09-03
 ---
 
 ## 公司简介

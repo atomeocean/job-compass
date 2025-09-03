@@ -2,6 +2,7 @@
 title: Glint Tech Solutions
 outline: deep
 createdDate: 2024-11-19
+lastUpdated: 2025-09-03
 ---
 
 # Glint Tech Solutions

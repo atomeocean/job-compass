@@ -1,6 +1,7 @@
 ---
 title: 第一性原理
 createdDate: 2025-08-19
+lastUpdated: 2025-09-03
 ---
 # 第一性原理
 

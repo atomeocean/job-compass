@@ -2,6 +2,7 @@
 title: 招聘信息文档模版
 description: 招聘信息文档的标准模板
 createdDate: 2025-03-17
+lastUpdated: 2025-09-03
 ---
 # 模板
 

@@ -61,6 +61,7 @@ features:
     linkText: 挂靠公司列表
     rel: noreferrer
 createdDate: 2024-11-18
+lastUpdated: 2025-09-03
 ---
 
 ## Job Compass：一个开放的求职者社区

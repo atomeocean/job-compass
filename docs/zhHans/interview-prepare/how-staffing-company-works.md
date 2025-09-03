@@ -1,7 +1,7 @@
 ---
 title: How staffing company works
 description: 劳务派遣公司的运作方式
-lastUpdated: 2025-04-04
+lastUpdated: 2025-09-03
 outline: deep
 createdDate: 2025-04-04
 ---

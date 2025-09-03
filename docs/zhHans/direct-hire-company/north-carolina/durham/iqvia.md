@@ -1,6 +1,7 @@
 ---
 title: IQVIA
 createdDate: 2025-05-27
+lastUpdated: 2025-09-03
 ---
 
 # IQVIA

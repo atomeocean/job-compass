@@ -2,6 +2,7 @@
 title: data scientist 20250609
 expired: false
 createdDate: 2025-07-07
+lastUpdated: 2025-09-03
 ---
 
 # Boston Consulting Group 招聘信息

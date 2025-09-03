@@ -2,6 +2,7 @@
 title: Scion Staffing
 outline: deep
 createdDate: 2025-05-02
+lastUpdated: 2025-09-03
 ---
 
 # Scion Staffing

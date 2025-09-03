@@ -2,6 +2,7 @@
 title: 新职场人的生存技巧指南
 description: 进入职场保持自信和勇气
 createdDate: 2025-04-24
+lastUpdated: 2025-09-03
 ---
 # 新职场人的生存技巧指南
 

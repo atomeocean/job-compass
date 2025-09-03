@@ -2,7 +2,7 @@
 title: ICC的违约金
 description: 谁在支付ICC违约金
 outline: deep
-lastUpdated: 2025-04-25
+lastUpdated: 2025-09-03
 createdDate: 2025-04-25
 ---
 # 谁在支付癌吸吸的违约金？

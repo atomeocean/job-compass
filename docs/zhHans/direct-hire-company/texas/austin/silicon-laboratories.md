@@ -1,6 +1,7 @@
 ---
 title: Silicon Laboratories
 createdDate: 2025-05-22
+lastUpdated: 2025-09-03
 ---
 
 # Silicon Laboratories

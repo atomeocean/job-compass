@@ -3,6 +3,7 @@ title: 直招公司信息文档模版
 description: 直招公司信息文档模版，方便复制
 outline: deep
 createdDate: 2025-03-19
+lastUpdated: 2025-09-03
 ---
 # 直招公司信息文档模版汇总
 

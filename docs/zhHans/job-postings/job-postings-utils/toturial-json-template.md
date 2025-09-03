@@ -1,7 +1,7 @@
 ---
 title: 职位发布json模板
 outline: deep
-lastUpdated: 2025-04-19 
+lastUpdated: 2025-09-03
 createdDate: 2025-04-21
 ---
 # Job Compass 职位发布json模板

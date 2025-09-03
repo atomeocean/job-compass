@@ -1,6 +1,7 @@
 ---
 title: Amazon 亚马逊
 createdDate: 2024-11-29
+lastUpdated: 2025-09-03
 ---
 # 亚马逊 Amazon Inc.
 

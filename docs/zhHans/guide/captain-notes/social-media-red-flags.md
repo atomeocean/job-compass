@@ -2,7 +2,7 @@
 title: 社交平台雷点
 description: 各大社交平台发布内容时需要避开的雷点
 outline: deep
-lastUpdated: 2025-08-27
+lastUpdated: 2025-09-03
 createdDate: 2025-08-27
 ---
 # 各大社交平台雷点

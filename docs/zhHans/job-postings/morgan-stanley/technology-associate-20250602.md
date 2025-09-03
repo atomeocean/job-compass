@@ -2,6 +2,7 @@
 title: technology associate 20250602
 expired: false
 createdDate: 2025-06-11
+lastUpdated: 2025-09-03
 ---
 
 # Morgan Stanley 招聘信息

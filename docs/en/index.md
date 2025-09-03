@@ -28,6 +28,7 @@ features:
     rel: noreferrer
 
 createdDate: 2025-03-14
+lastUpdated: 2025-09-03
 ---
 
 ## Job Compass by Atomeocean: An Open-Source Job Seeker Community

@@ -1,6 +1,7 @@
 ---
 title: Mapbox
 createdDate: 2025-05-15
+lastUpdated: 2025-09-03
 ---
 
 # Mapbox
