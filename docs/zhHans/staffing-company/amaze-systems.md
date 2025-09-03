@@ -1,6 +1,7 @@
 ---
 title: Amaze Systems
 outline: deep
+createdDate: 2024-11-29
 ---
 # Amaze Systems
 

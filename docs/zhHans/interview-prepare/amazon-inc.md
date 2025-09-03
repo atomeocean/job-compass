@@ -1,5 +1,6 @@
 ---
 title: Amazon 亚马逊
+createdDate: 2025-03-22
 ---
 # 亚马逊 Amazon Inc.
 

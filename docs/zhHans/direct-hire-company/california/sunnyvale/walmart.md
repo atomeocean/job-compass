@@ -1,6 +1,7 @@
 ---
 title: Walmart
 description: Walmart公司信息
+createdDate: 2025-08-21
 ---
 # Walmart 沃尔玛
 

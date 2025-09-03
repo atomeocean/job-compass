@@ -1,5 +1,6 @@
 ---
 title: Discover
+createdDate: 2025-06-04
 ---
 
 ## 公司简介

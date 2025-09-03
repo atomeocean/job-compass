@@ -1,5 +1,6 @@
 ---
 title: Wells Fargo & Company
+createdDate: 2025-07-19
 ---
 
 # Wells Fargo & Company

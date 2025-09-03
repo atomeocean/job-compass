@@ -1,5 +1,6 @@
 ---
 title: Softeq Development Corporation
+createdDate: 2025-05-22
 ---
 
 # Softeq Development Corporation

@@ -2,6 +2,7 @@
 title: 原子化交易协议模板
 description: 短期服务提供协议邮件模板
 outline: deep
+createdDate: 2025-08-19
 ---
 # 原子化交易协议模板
 

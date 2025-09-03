@@ -1,6 +1,7 @@
 ---
 title: Amazon
 description: Amazon
+createdDate: 2025-05-22
 ---
 
 # Amazon

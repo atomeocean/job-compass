@@ -1,6 +1,7 @@
 ---
 title: Rockstar Games, Inc
 outline: deep
+createdDate: 2025-08-17
 ---
 # Rockstar Games
 

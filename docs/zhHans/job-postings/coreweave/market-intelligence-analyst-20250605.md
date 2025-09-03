@@ -1,6 +1,7 @@
 ---
 title: Market Intelligence Analyst 20250605
 expired: false
+createdDate: 2025-06-05
 ---
 
 # CoreWeave 招聘信息

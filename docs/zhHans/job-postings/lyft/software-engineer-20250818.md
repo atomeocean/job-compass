@@ -1,6 +1,7 @@
 ---
 title: software engineer async platform 20250818
 expired: false
+createdDate: 2025-08-19
 ---
 
 # Lyft 招聘信息

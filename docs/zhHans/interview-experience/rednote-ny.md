@@ -1,6 +1,7 @@
 ---
 title: 小红书北美
 description: 小红书纽约招产品经理面经
+createdDate: 2025-08-05
 ---
 # 小红书北美面经
 

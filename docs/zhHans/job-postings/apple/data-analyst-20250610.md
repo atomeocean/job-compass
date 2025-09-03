@@ -1,6 +1,7 @@
 ---
 title: data analyst 20250610
 expired: false
+createdDate: 2025-06-12
 ---
 
 # Apple 招聘信息

@@ -1,6 +1,7 @@
 ---
 title: senior analytics engineer 20250718
 expired: false
+createdDate: 2025-07-18
 ---
 
 # Bungie 招聘信息

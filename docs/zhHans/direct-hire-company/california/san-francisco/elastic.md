@@ -1,5 +1,6 @@
 ---
 title: Elastic
+createdDate: 2025-07-02
 ---
 
 # Elastic

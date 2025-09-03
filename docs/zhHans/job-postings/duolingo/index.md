@@ -1,5 +1,6 @@
 ---
 title: Duolingo
+createdDate: 2025-08-07
 ---
 
 ## 公司简介

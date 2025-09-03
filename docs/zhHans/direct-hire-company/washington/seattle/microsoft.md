@@ -1,6 +1,7 @@
 ---
 title: Microsoft
 lastUpdated: 2025-06-09
+createdDate: 2025-06-09
 ---
 
 # Microsoft 微软

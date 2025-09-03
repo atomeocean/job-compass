@@ -2,6 +2,7 @@
 title: business analyst 20250604
 expired: true
 lastUpdated: 2025-07-03
+createdDate: 2025-06-10
 ---
 
 # Amazon 招聘信息

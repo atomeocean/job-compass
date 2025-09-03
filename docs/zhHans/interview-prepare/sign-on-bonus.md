@@ -1,3 +1,7 @@
+---
+createdDate: 2025-06-28
+---
+
 # 签字费 Sign On bonus
 
 经常拿到美国工作Offer的同学都熟悉一个概念叫Sign On bonus，又名签字费。

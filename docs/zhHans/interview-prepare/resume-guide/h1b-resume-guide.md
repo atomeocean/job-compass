@@ -2,6 +2,7 @@
 title: H1B简历指南
 description: H1B简历指南
 outline: deep
+createdDate: 2025-04-11
 ---
 
 # H1B 简历指南

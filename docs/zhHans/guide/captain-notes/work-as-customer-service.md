@@ -2,6 +2,7 @@
 title: 客服工作指南
 description: 船长在起步阶段会亲力亲为做客服
 outline: deep
+createdDate: 2025-08-20
 ---
 # 如何做客服
 

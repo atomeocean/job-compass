@@ -1,6 +1,7 @@
 ---
 title: United Software Corporation
 outline: deep
+createdDate: 2025-05-28
 ---
 
 # United Software Corporation

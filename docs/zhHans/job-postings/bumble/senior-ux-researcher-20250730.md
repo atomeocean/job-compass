@@ -1,6 +1,7 @@
 ---
 title: senior ux researcher 20250730
 expired: false
+createdDate: 2025-07-30
 ---
 
 # Bumble Inc. 招聘信息

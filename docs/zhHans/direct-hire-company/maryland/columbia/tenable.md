@@ -1,6 +1,7 @@
 ---
 title: Tenable
 lastUpdated: 2025-07-11
+createdDate: 2025-07-11
 ---
 
 # Tenable, Inc.

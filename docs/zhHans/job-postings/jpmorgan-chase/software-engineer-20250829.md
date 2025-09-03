@@ -1,6 +1,7 @@
 ---
 title: software engineer 20250829
 expired: false
+createdDate: 2025-08-29
 ---
 
 # JpMorgan Chase 招聘信息

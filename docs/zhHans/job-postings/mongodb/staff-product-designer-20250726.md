@@ -1,6 +1,7 @@
 ---
 title: staff product designer 20250726
 expired: false
+createdDate: 2025-07-27
 ---
 
 # MongoDB 招聘信息

@@ -1,6 +1,7 @@
 ---
 title: software engineer 20250707
 expired: false
+createdDate: 2025-07-07
 ---
 
 # Kaseya 招聘信息
