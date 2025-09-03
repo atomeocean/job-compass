@@ -1,6 +1,7 @@
 ---
 title: Business Analyst 20250609
 expired: false
+createdDate: 2025-06-09
 ---
 
 # McKinsey & Company 招聘信息

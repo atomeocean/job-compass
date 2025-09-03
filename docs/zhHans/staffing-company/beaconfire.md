@@ -1,5 +1,6 @@
 ---
 title: BeaconFire
+createdDate: 2025-01-30
 ---
 
 # BeaconFire Inc.

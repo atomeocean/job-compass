@@ -1,5 +1,6 @@
 ---
 title: Onsemi
+createdDate: 2025-03-22
 ---
 
 # ON Semiconductor Corporation

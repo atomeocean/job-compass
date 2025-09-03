@@ -1,5 +1,6 @@
 ---
 title: Kaseya Limited
+createdDate: 2025-05-22
 ---
 
 # Kaseya Limited

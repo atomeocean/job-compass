@@ -1,5 +1,6 @@
 ---
 title: Mercury System, Inc.
+createdDate: 2024-11-19
 ---
 # Mercury System, Inc.
 

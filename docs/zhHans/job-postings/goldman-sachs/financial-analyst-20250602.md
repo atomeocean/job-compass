@@ -1,6 +1,7 @@
 ---
 title: financial analyst 20250602
 expired: false
+createdDate: 2025-06-09
 ---
 
 # Goldman Sachs 招聘信息

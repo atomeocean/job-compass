@@ -1,6 +1,7 @@
 ---
 title: software engineer 20250712
 expired: false
+createdDate: 2025-07-13
 ---
 
 # Tenable 招聘信息

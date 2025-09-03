@@ -1,5 +1,6 @@
 ---
 title: Bumble
+createdDate: 2025-08-20
 ---
 
 # Bumble, Inc.

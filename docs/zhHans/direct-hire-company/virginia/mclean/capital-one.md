@@ -1,5 +1,6 @@
 ---
 title: Capital One
+createdDate: 2025-07-02
 ---
 
 # Capital One Financial Corporation

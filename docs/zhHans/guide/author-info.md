@@ -1,6 +1,7 @@
 ---
 title: 作者信息模块文档
 outline: deep
+createdDate: 2025-08-01
 ---
 
 # 作者信息模块

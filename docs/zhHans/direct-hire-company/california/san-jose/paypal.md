@@ -1,5 +1,6 @@
 ---
 title: PayPal
+createdDate: 2025-06-23
 ---
 
 # PayPal

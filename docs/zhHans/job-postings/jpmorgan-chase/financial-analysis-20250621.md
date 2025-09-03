@@ -1,6 +1,7 @@
 ---
 title: financial analyst 20250621
 expired: false
+createdDate: 2025-06-21
 ---
 
 # JpMorgan Chase 招聘信息

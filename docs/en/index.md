@@ -27,6 +27,7 @@ features:
     linkText: See which companies are hiring
     rel: noreferrer
 
+createdDate: 2025-03-14
 ---
 
 ## Job Compass by Atomeocean: An Open-Source Job Seeker Community

@@ -1,6 +1,7 @@
 ---
 title: principal software engineer 20250714
 expired: false
+createdDate: 2025-07-14
 ---
 
 # Warner Bros. Discovery 招聘信息

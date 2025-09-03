@@ -1,6 +1,7 @@
 ---
 title: SkyWater Technology
 lastUpdated: 2025-07-09
+createdDate: 2025-07-09
 ---
 
 # SkyWater Technology

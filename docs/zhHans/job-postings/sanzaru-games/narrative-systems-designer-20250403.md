@@ -1,3 +1,7 @@
+---
+createdDate: 2025-04-09
+---
+
 ﻿---
 title: narrative systems designer 20250403
 expired: false

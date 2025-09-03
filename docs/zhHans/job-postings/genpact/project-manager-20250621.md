@@ -1,6 +1,7 @@
 ---
 title: project manager 20250621
 expired: false
+createdDate: 2025-06-21
 ---
 
 # Genpact 招聘信息

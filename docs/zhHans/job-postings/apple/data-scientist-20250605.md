@@ -1,6 +1,7 @@
 ---
 title: data scientist 20250605
 expired: false
+createdDate: 2025-06-05
 ---
 
 # Apple 招聘信息
