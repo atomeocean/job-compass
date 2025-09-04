@@ -37,6 +37,6 @@ Mercury能力为零。和大公司谈劳务外包不是Mercury的老板擅长的
 > 一会人不够又要你马上去面试培训充人头
 > 人够了又不理你了直接失联
 
----
+### 签证数据
 
 Mercury Systems Inc. has filed 70 labor condition applications for H1B visa and 13 labor certifications for green card from fiscal year 2020 to 2022. Mercury Systems was ranked 3101 among all visa sponsors. Please note that 0 LCA for H1B Visa and 1 LC for green card have been denied or withdrawn during the same period.
