@@ -1,3 +1,6 @@
+import dayjs from "dayjs";
+import customParseFormat from "dayjs/plugin/customParseFormat";
+
 // 定义 Location 接口
 interface Location {
     addressLine1?: string;
@@ -44,3 +47,32 @@ export const countTransK = (count: number) => {
     }
     return count.toString()
 }
+
+// 解析日期格式
+dayjs.extend(customParseFormat);
+
+const FORMATS = ['YYYY-MM-DD', 'MM/DD/YYYY']; // 可按需扩充
+const FALLBACK = 'N/A'; // 解析失败时的默认值
+/**
+ * 将多种日期字符串格式转换为 'YYYY-MM-DD'。
+ * @param date 需解析的日期字符串
+ * @returns 格式化后的日期，或 'N/A' 表示无效/空值
+ */
+export const formatDate = (date: string | Date): string => {
+    if (!date) return FALLBACK;
+
+    // 如果是 ISO 字符串或 Date 对象 → 用 dayjs 默认解析方式
+    if (typeof date === 'string' && date.includes('T')) {
+        const parsed = dayjs(date); // 不传格式，不用 strict 模式
+        return parsed.isValid() ? parsed.format('YYYY-MM-DD') : FALLBACK;
+    }
+
+    if (date instanceof Date) {
+        const parsed = dayjs(date);
+        return parsed.isValid() ? parsed.format('YYYY-MM-DD') : FALLBACK;
+    }
+
+    // 否则使用格式匹配（严格模式）
+    const parsed = dayjs(date, FORMATS, undefined, true);
+    return parsed.isValid() ? parsed.format('YYYY-MM-DD') : FALLBACK;
+};
