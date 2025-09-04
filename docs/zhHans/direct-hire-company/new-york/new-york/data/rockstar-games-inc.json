@@ -1,0 +1,27 @@
+{
+  "companyInfo": {
+    "companyName": "Rockstar Games, Inc.",
+    "location": {
+      "addressLine1": "622 Broadway, 6th Floor",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "New York City",
+      "state": "New York",
+      "zipCode": "10012"
+    },
+    "contact": {
+      "phone": "+1 212-334-6633",
+      "email": "",
+      "website": "https://www.rockstargames.com",
+      "linkedin": "https://www.linkedin.com/company/rockstar-games/"
+    },
+    "industry": ["电子游戏", "电子游戏出版"],
+    "foundedYear": "1998",
+    "description": "一家美国的电子游戏发行公司，隶属于Take-Two Interactive，以《侠盗猎车手》、《荒野大镖客》、《马克思·佩恩》、《恶霸鲁尼》、《午夜俱乐部》、《虐杀原形》等知名系列而闻名。",
+    "mainProductsOrServices": ["《侠盗猎车手》系列", "《荒野大镖客》系列", "《马克思·佩恩》", "《恶霸鲁尼》", "《午夜俱乐部》", "《虐杀原形》"],
+    "companySize": "超过2000名员工（截至2018年）"
+  },
+  "metadata": {
+    "lastUpdated": "2025-09-04"
+  }
+}
