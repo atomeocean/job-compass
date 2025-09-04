@@ -1,14 +1,14 @@
-import {DefaultTheme, defineConfig, UserConfig} from 'vitepress'
+import { defineConfig, UserConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { bilibiliIconSvg } from '../assets/svg/icon-svg'
-import {VitePressI18nOptions} from "vitepress-i18n/types";
-import {withI18n} from "vitepress-i18n";
+import { VitePressI18nOptions } from "vitepress-i18n/types";
+import { withI18n } from "vitepress-i18n";
 import {
   GitChangelog,
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite';
-import {contributors} from "../_data/contributors";
+import { contributors } from "../_data/contributors";
 import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
@@ -228,7 +228,7 @@ const vitePressConfig: UserConfig = {
         // 在markdown文档渲染时，将页面统计组件拼接到h1标题下
         md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
           let htmlResult = slf.renderToken(tokens, idx, options)
-          if (tokens[idx].tag === 'h1') htmlResult += `<PageViewStatistic />`
+          if (tokens[idx].tag === 'h1') htmlResult += `<DocTitleMeta />`
           return htmlResult
         }
       })

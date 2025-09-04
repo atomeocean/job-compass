@@ -14,7 +14,7 @@ import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
 import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
 import SiteViewStatistic from "./components/siteStatistic/SiteViewStatistic.vue";
-import PageViewStatistic from "./components/siteStatistic/PageViewStatistic.vue";
+import DocTitleMeta from "./components/siteStatistic/DocTitleMeta.vue";
 import Giscus from "./components/Giscus";
 import { h } from 'vue';
 import {
@@ -46,7 +46,7 @@ export default {
     app.component("JobRecruiterInformation", JobRecruiterInformation);
     app.component("ReferenceSource", ReferenceSource);
     app.component("SiteViewStatistic", SiteViewStatistic);
-    app.component("PageViewStatistic", PageViewStatistic);
+    app.component("DocTitleMeta", DocTitleMeta);
     app.use(NolebaseGitChangelogPlugin);
 
     // 隐藏贡献者标题
