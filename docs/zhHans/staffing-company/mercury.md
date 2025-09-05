@@ -2,6 +2,7 @@
 title: Mercury System, Inc.
 createdDate: 2024-11-19
 outline: deep
+lastUpdated: 2025-09-04
 ---
 # Mercury System, Inc.
 
