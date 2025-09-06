@@ -1,0 +1,39 @@
+{
+  "companyName": "JPMorgan Chase & Co.",
+  "jobTitle": "Data Visualization Associate - Secure Insights",
+  "jobLocation": [
+    "USA, TX, Plano",
+    "8181 Communications Pkwy Bldg F, Plano, TX, 75024, US"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "项目分析，包括记录业务需求、详细说明问题和风险，以及起草业务流程和数据流",
+    "数据分析，包括数据收集、综合，并将结果转化为可行的解决方案",
+    "识别需求与现有程序/控制之间的差距并推动解决",
+    "与业务合作伙伴合作，设计和实施流程改进，并参与流程再造",
+    "开发和实施解决方案以增强客户体验并提高效率",
+    "定义用户验收测试计划，协调测试并传达结果",
+    "提供实施支持并确保实施符合要求",
+    "评估现有流程，挑战现状，并提出改进建议"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "3年以上业务分析经验",
+      "学士学位",
+      "Microsoft Office 熟练：中级到高级的Microsoft Office工具使用经验，包括：Excel：能够进行数据分析、创建复杂的电子表格并使用高级函数；PowerPoint：能够设计演示文稿以有效传达项目状态和发现",
+      "数据分析：能够收集、综合并将数据转化为可行的见解；具备强大的分析能力，能够理解和解释复杂的业务流程和数据流",
+      "熟练掌握SQL和Tableau",
+      "项目管理：有记录业务需求、识别问题和风险、起草业务流程的经验；能够定义用户验收测试计划、协调测试并传达结果"
+    ],
+    "preferredQualifications": [
+      "流程再造：在设计和实施流程改进以及参与流程再造以提高效率和客户体验方面有经验",
+      "问题解决：能够评估现有流程，挑战现状并提出改进建议",
+      "掌握Python者优先",
+      "Visio：能够创建流程图、图表和业务流程的可视化表示"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210648857",
+  "notes": ""
+}
