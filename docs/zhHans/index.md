@@ -69,9 +69,8 @@ features:
     linkText: 挂靠公司列表
     rel: noreferrer
 createdDate: 2024-11-18
-lastUpdated: 2025-09-03
+lastUpdated: 2025-09-06
 ---
-
 ## Job Compass：一个开放的求职者社区
 
 Job Compass是一个开源求职社区，致力于帮助在美国寻找工作的人获取最新的招聘信息和求职资源。这里的内容由志愿者共同维护，涵盖职位发布、面试经验、职业建议等，确保信息的开放性和透明度。
