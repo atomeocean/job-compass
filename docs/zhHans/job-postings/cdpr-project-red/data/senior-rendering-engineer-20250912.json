@@ -1,0 +1,40 @@
+{
+  "companyName": "CDPR Project Red",
+  "jobTitle": "Senior Rendering Engineer",
+  "jobLocation": ["Boston MA"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "维护与优化现有渲染系统",
+    "为大规模问题开发新的渲染解决方案",
+    "与美术团队紧密合作提供高效可行的解决方案",
+    "运用渲染知识赋予角色与世界生命力",
+    "优化性能与内存使用"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "7年以上行业经验",
+      "精通C++并具备深入的图形编程经验",
+      "具备UnrealEngine专业知识,最好有UE技术的已发售项目经验",
+      "广泛掌握渲染技术与GPU/CPU架构",
+      "具备全面的多线程编程经验",
+      "具备一种或多种低层图形API经验(DirectX12,Vulkan,主机等)",
+      "精通至少一种图形调试工具(RenderDoc,Pix,主机专用等)",
+      "具备低层性能分析与优化经验",
+      "具备良好的沟通能力、责任心、工作主人翁精神和敬业精神",
+      "具备积极主动的态度帮助团队更快更高效完成工作"
+    ],
+    "preferredQualifications": [
+      "至少发布过一个基于Unreal的项目"
+    ]
+  },
+  "salary": [],
+  "benefits": [
+    "公司支付的医疗保健(牙科、视力和心理)。",
+    "带薪休假—每位团队成员每年20天假期(两年后为26天)。",
+    "无着装要求—我们喜欢保持休闲。",
+    "401K雇主配比。",
+    "健身房会员报销。"
+  ],
+  "jobLink": "https://jobs.smartrecruiters.com/CDPROJEKTRED/744000081581555-senior-rendering-engineer-",
+  "notes": ""
+}
