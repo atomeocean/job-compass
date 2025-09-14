@@ -80,6 +80,7 @@ Job Compass是一个开源求职社区，致力于帮助在美国寻找工作的
 
 ## 热门公司
 
-- 亚马逊[Amazon](/direct-hire-company/washington/seattle/amazon.md)
+- 亚马逊 [Amazon](/direct-hire-company/washington/seattle/amazon.md)
+- 沃尔玛 [Walmart](/direct-hire-company/california/sunnyvale/walmart)
 
 <SiteViewStatistic />
