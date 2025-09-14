@@ -1,0 +1,40 @@
+{
+  "companyName": "Google",
+  "jobTitle": "Strategic Cloud Engineer, Application Modernization, Technical Delivery",
+  "jobLocation": [
+    "Reston, VA, USA"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "担任业务顾问并围绕云应用程序开发技术创建卓越中心，包括员工和劳动力的招聘、入职和管理",
+    "协助建立流程，推动服务交付 AppDev 战略，从而支持业务发展。负责 AppDev 相关的业务前期工作说明书 (SoW) 的支持和审批活动，并作为区域团队的联络人，处理任何与数据相关的需求",
+    "管理流程，为公共部门业务创建可复用的成果。与其他服务交付团队合作，为目标客户建立多种合规性或私有云相关解决方案的全球流程",
+    "向多个利益相关者群体展示技术材料",
+    "与企业高管就技术和非技术问题进行交流"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "计算机科学学士学位或同等实践经验",
+      "3年系统设计或一种编程语言（例如Java、C++、Python等）经验",
+      "拥有 3 年技术故障排除以及管理内部/外部合作伙伴或客户的经验",
+      "有效的美国政府最高机密/敏感隔离信息 (TS/SCI) 安全许可"
+    ],
+    "preferredQualifications": [
+      "具有为采用云解决方案的客户将业务需求转化为技术解决方案的经验",
+      "具有与渠道合作伙伴、系统集成商和第三方开发商合作提供解决方案的经验",
+      "具有将应用程序或工作负载迁移至 Google Cloud Platform 等公共云提供商的经验",
+      "能够与企业高管就技术和非技术问题进行交流"
+    ]
+  },
+  "salary": [
+    "$123,000 - $176,000（基础工资）",
+    "另含奖金、股票和福利"
+  ],
+  "benefits": [
+    "奖金",
+    "股票期权",
+    "健康保险等福利"
+  ],
+  "jobLink": "https://www.google.com/about/careers/applications/jobs/results/99453358971986630-strategic-cloud-engineer-application-modernization-technical-delivery",
+  "notes": ""
+}
