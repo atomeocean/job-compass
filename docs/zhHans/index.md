@@ -63,13 +63,13 @@ features:
     linkText: 查看内推信息
     rel: noreferrer
   - icon: 🕵️
-    title: 挂靠公司
-    details: 分辨挂靠公司，避免上当受骗。挂靠行为是签证欺诈违法行为
+    title: 身份挂靠
+    details: 分辨身份挂靠公司，避免上当受骗。挂靠行为是签证欺诈违法行为
     link: /visa-fraud-company/hongshu-27410952937
     linkText: 挂靠公司列表
     rel: noreferrer
 createdDate: 2024-11-18
-lastUpdated: 2025-09-06
+lastUpdated: 2025-09-13
 ---
 ## Job Compass：一个开放的求职者社区
 
@@ -80,6 +80,7 @@ Job Compass是一个开源求职社区，致力于帮助在美国寻找工作的
 
 ## 热门公司
 
-- 亚马逊[Amazon](/direct-hire-company/washington/seattle/amazon.md)
+- 亚马逊 [Amazon](/direct-hire-company/washington/seattle/amazon.md)
+- 沃尔玛 [Walmart](/direct-hire-company/california/sunnyvale/walmart)
 
 <SiteViewStatistic />
