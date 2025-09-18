@@ -2,6 +2,8 @@
 title: Fortinet OA
 description: Fortinet 2025年6月19日OA
 outline: deep
+createdDate: 2025-09-18
+lastUpdated: 2025-09-18
 ---
 # Fortinet Online Assessment
 
