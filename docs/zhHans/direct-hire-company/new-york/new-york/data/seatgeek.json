@@ -1,0 +1,27 @@
+{
+  "companyInfo": {
+    "companyName": "SeatGeek, Inc.",
+    "location": {
+      "addressLine1": "902 Broadway",
+      "addressLine2": "",
+      "county": "",
+      "cityOrTown": "New York City",
+      "state": "New York",
+      "zipCode": "10010"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://seatgeek.com",
+      "linkedin": "https://www.linkedin.com/company/seatgeek"
+    },
+    "industry": ["现场娱乐", "票务平台", "科技", "电商"],
+    "foundedYear": "2009",
+    "description": "SeatGeek 是总部位于纽约的票务平台，为体育比赛、音乐会和剧院等活动的门票提供买卖交易服务。最初作为二级票务市场的聚合平台启动，现在也为场馆和演出团体提供一级票务服务。公司以技术驱动、以用户体验为中心，致力于让购票过程更透明、更便利。",
+    "mainProductsOrServices": ["活动票务市场 (买卖门票)", "一级票务服务（为场馆/演出方提供票务平台）", "票务评估工具 / “Deal Score” 功能", "赛事 /演出体验平台（如 Rally）"],
+    "companySize": "约 800 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2025-09-19"
+  }
+}
