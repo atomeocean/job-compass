@@ -1,0 +1,47 @@
+{
+  "companyName": "JPMorgan Chase & Co.",
+  "jobTitle": "Data Scientist Associate",
+  "jobLocation": [
+    "USA, OH, Columbus",
+    "1111 Polaris Pkwy, Columbus, OH, 43240, US"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "分析客户、顾问和宏观行为趋势，与JPMorgan的USWM平台上提供的金融产品和解决方案相关（例如：托管解决方案、共同基金、ETF、银行和贷款）",
+    "为监管事项提供分析支持",
+    "分析金融流动数据以指导战略决策，包括形成、调查和研究假设，以及深入研究竞争对手的战略定位",
+    "使用各种数据工具和技术（包括行业标准和开源平台）来组装、组织和分析数据，包括Python、R和SQL",
+    "应用统计学、因果推断和机器学习建模方法和技术，包括聚类算法、基于树的模型、匹配方法和时间序列异常检测",
+    "向关键利益相关者（包括解决方案与建议、财务、法律以及数据和分析部门的高级领导者）展示研究结果"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "1年以上分析、数据科学、金融或管理/经济咨询领域的工作经验",
+      "相关领域的学士学位，如数学、统计学、工程、计算机科学、金融、经济学或其他适用的STEM学科",
+      "善于将复杂概念解释并转化为不同业务层级的受众能够理解的信息",
+      "具有较强的故事讲述能力",
+      "具备学习新理论和新技术的能力"
+    ],
+    "preferredQualifications": [
+      "硕士或博士学位",
+      "对金融证券和市场有知识或表现出兴趣",
+      "对高级统计学、计量经济学和/或机器学习有实际理解",
+      "对金融建模和经济学有实际理解",
+      "具备Python、SQL和/或R的知识或实际经验"
+    ]
+  },
+  "salary": [
+    "Base Pay/Salary: New York, NY $104,500.00 - $140,000.00"
+  ],
+  "benefits": [
+    "全面的医疗保险",
+    "现场健康与保健中心",
+    "退休储蓄计划",
+    "备用儿童照护",
+    "学费报销",
+    "心理健康支持",
+    "财务指导"
+  ],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210669434?utm_medium=jobboard&utm_source=LinkedIn",
+  "notes": ""
+}
