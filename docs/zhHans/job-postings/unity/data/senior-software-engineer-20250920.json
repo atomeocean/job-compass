@@ -1,0 +1,32 @@
+{
+  "companyName": "Unity",
+  "jobTitle": "Software Engineer, Backend Data",
+  "jobLocation": ["San Francisco CA"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "设计、构建和维护支持广告投放的后端服务和API。",
+    "开发可扩展的高可用系统，用于Unity的广告生态系统。",
+    "与工程师、产品经理和数据团队合作交付新功能。",
+    "改进后端系统的性能、可观测性和成本效率。",
+    "参与平台的架构决策和技术方向。"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "具有大规模构建后端服务的经验",
+      "精通Golang和关系型数据库(如MySQL)",
+      "熟悉云基础设施和可观测性工具(Kubernetes,Ray等)",
+      "具有Spark和Flink的经验",
+      "理解API设计、分布式系统和系统可靠性"
+    ],
+    "preferredQualifications": [
+      "具备广告技术、程序化广告或实时竞价系统的经验",
+      "具备基础设施即代码(如Terraform)的背景",
+      "熟悉网络、缓存或实时数据管道"
+    ]
+  },
+  "salary": ["$183,700 - $248,600/year"],
+  "benefits": [
+  ],
+  "jobLink": "https://unity.com/careers/positions/7264549?gh_jid=7264549",
+  "notes": "该职位不提供搬迁支持。"
+}
