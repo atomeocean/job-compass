@@ -1,6 +1,6 @@
 ---
 title: devops engineer 20250707
-expired: false
+expired: true
 createdDate: 2025-07-07
 lastUpdated: 2025-09-03
 ---

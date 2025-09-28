@@ -1,0 +1,41 @@
+{
+  "companyName": "Kaseya",
+  "jobTitle": "Senior Software Engineer",
+  "jobLocation": [
+    "USA, FL, Miami"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "设计和构建我们的 SaaS Protection 和 Backupify 产品",
+    "与产品管理部门合作开发新功能，以改善托管服务提供商 (MSP) 体验",
+    "为关系和非关系数据库（如 MySQL、Cassandra、Redis）以及消息传递基础设施（如 RabbitMQ、Kafka、Elasticsearch）设计和执行软件解决方案",
+    "推动创新和自动化以提高流程效率和效力",
+    "成为他人愿意效仿和受到启发的积极榜样",
+    "在大型、多区域、分布式系统的持续交付和维护中发挥关键作用",
+    "管理从设计到生产的整个产品生命周期，确保卓越的质量和可靠性"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "具有面向对象设计和解决问题能力的强大后端开发人员",
+      "拥有 8 年以上提供可靠且可维护软件的经验",
+      "接触调试低级 Linux 问题、利用命令行和 shell 脚本（bash）",
+      "数据结构、设计模式和算法方面的扎实基础",
+      "拥有使用公共云（例如 AWS、Azure、GCP）的经验",
+      "具有使用 Docker 和 Kubernetes 的经验",
+      "了解身份验证和授权框架/标准（例如 OAuth）",
+      "熟悉虚拟机管理程序（例如 VMWare、Hyper-V、VirtualBox、KVM）者优先",
+      "熟悉 ZFS 或类似的 COW 文件系统者优先",
+      "良好的书面和口头沟通能力"
+    ],
+    "preferredQualifications": [
+      "函数式编程经验",
+      "拥有主要以 Scala 为重点的软件开发和维护经验",
+      "愿意学习新语言的人",
+      "拥有PHP（Symfony 框架）、Ruby、Go 和 Python经验"
+    ]
+  },
+  "salary": [],
+  "benefits": [],
+  "jobLink": "https://www.kaseya.com/careers/jobs/id/5386317004/",
+  "notes": ""
+}
