@@ -1,0 +1,36 @@
+{
+  "companyName": "Twitch",
+  "jobTitle": "Software Engineer",
+  "jobLocation": ["Seattle, CA"],
+  "jobType": "Full Time",
+  "jobResponsibilities": [
+    "打造沉浸式交互体验,让观众在支持创作者的同时积极参与Twitch社区",
+    "设计并构建稳健且可扩展的应用程序,可支持数百万并发用户",
+    "跨团队协作,创造推动业务影响的整体解决方案",
+    "将客户反馈转化为创新功能,提升Twitch体验"
+],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "1年以上专业软件开发经验",
+      "具备构建用户喜爱的面向消费者产品的成功经验",
+      "精通现代编程语言和框架",
+      "具备敏锐的问题解决能力,专注于算法、数据结构和模式设计",
+      "计算机科学学士学位或同等实际经验"
+    ],
+    "preferredQualifications": [
+      "熟悉Twitch的技术栈:Golang,Typescript/React",
+      "具备AWS技术经验:如ECS,DynamoDB,Lambda,SQS和StepFunctions",
+      "对游戏、直播或Twitch平台充满热情"
+    ]
+  },
+  "salary": ["$99,500 - $200,000/year"],
+  "benefits": [
+    "医疗、牙科、视力及残疾保险",
+    "401(k) 退休计划",
+    "产假及育儿假",
+    "灵活的带薪休假（PTO）",
+    "亚马逊员工专属折扣"
+  ],
+  "jobLink": "https://job-boards.greenhouse.io/twitch/jobs/8186269002",
+  "notes": ""
+}
