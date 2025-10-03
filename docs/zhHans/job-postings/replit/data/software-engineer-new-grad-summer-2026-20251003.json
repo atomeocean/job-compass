@@ -1,0 +1,41 @@
+{
+  "companyName": "Replit",
+  "jobTitle": "软件工程师 - 新毕业生 (2026 夏季)",
+  "jobLocation": ["Foster City, CA"],
+  "jobType": "Full time",
+  "jobResponsibilities": [
+    "开发产品功能，使任何人都能轻松创建软件",
+    "构建能够理解意图并生成生产级应用的 AI 编码 Agent",
+    "搭建全球范围内可扩展的云基础设施，提供即时开发环境",
+    "开发一键部署与支持百万用户扩展的平台功能"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "2024–2026 年毕业，计算机科学、计算机工程或相关专业学位",
+      "熟练掌握至少一种现代编程语言（JavaScript/TypeScript、Python、Go 或 Rust）",
+      "具备全栈开发能力，熟悉 React、Node.js 与数据库技术",
+      "渴望学习新技术并承担更多责任",
+      "良好的跨团队协作和沟通能力"
+    ],
+    "preferredQualifications": [
+      "善于系统性解决复杂问题",
+      "能够独立完成任务并有效协作",
+      "具备出色的技术与非技术沟通能力",
+      "热衷于持续学习与行业最佳实践",
+      "重视自动化并推动构建自愈系统"
+    ]
+  },
+  "salary": ["$140,000 – $220,000/year", "提供股票期权", "奖金及绩效奖金"],
+  "benefits": [
+    "具有竞争力的薪资与股权",
+    "401(k) 退休金计划",
+    "健康、牙科、视力及人寿保险",
+    "短期与长期伤残保险",
+    "带薪产假、医疗假、护理假",
+    "交通补贴与健康津贴",
+    "灵活休假 (FTO) + 假期",
+    "季度团队聚会与办公室福利"
+  ],
+  "jobLink": "https://jobs.ashbyhq.com/replit/b5e81eae-06f9-4798-8988-2d06ca936dbc",
+  "notes": " "
+}
