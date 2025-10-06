@@ -1,3 +1,4 @@
+# This workflow updates the createdDate and lastUpdated fields in the frontmatter of markdown files
 name: Update Markdown Frontmatter
 
 on:
@@ -10,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout PR branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           ref: ${{ github.head_ref }}
