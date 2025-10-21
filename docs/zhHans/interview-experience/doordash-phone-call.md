@@ -1,8 +1,9 @@
 ---
 title: doordash电面
 outline: deep
+createdDate: 2025-10-20
+lastUpdated: 2025-10-20
 ---
-
 # DoorDash 电面面经
 
 题目和 [LeetCode 124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 很像，但不完全一样，因为 path 必须要以 alive 的节点作为起始和终点。
