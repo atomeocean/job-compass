@@ -8,7 +8,7 @@ lastUpdated: 2025-10-21
 
 ## 面试流程概览
 
-1. 初步沟通（Email → Phone Call）  
+1. 初步沟通（Email To Phone Call）  
    首先通过邮件约了一个 phone call，主要是一些简单的沟通和背景了解。  
    随后正式约了两轮 back-to-back 的面试（VO）
 
