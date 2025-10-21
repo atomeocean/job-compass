@@ -2,7 +2,7 @@
 title: 字节跳动数据平台开发一面
 description: 数据平台研发岗面试经验
 createdDate: 2025-09-26
-lastUpdated: 2025-09-26
+lastUpdated: 2025-10-21
 ---
 # 字节跳动数据平台开发一面
 1. 面试时间 2025年9月26日
