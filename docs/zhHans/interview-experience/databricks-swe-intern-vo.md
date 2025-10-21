@@ -2,7 +2,7 @@
 title: databricks swe intern vo
 outline: deep
 createdDate: 2025-10-20
-lastUpdated: 2025-10-20
+lastUpdated: 2025-10-21
 ---
 # 面经总结：LazyArray + Revenue Refer 双轮面试经历
 
