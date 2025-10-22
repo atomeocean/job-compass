@@ -3,7 +3,7 @@ title: 找工作必备术语与概念
 description: 在美国找工作过程中常见的术语与概念解释
 outline: deep
 createdDate: 2025-09-19
-lastUpdated: 2025-09-19
+lastUpdated: 2025-10-22
 ---
 # 美国找工作必备术语与概念
 
