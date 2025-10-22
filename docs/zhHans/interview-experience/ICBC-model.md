@@ -2,7 +2,7 @@
 title: 工商银行纽约支行model risk面经
 description: 
 createdDate: 2025-10-03
-lastUpdated: 2025-10-21
+lastUpdated: 2025-10-22
 ---
 # 工商银行纽约model risk面经
 1. 面试时间 2025年2月3日
