@@ -2,7 +2,7 @@
 title: Meta SDE 25 Intern OA面经
 description: Meta SDE 25 Intern
 createdDate: 2025-09-26
-lastUpdated: 2025-10-21
+lastUpdated: 2025-10-22
 ---
 # Meta SDE 25 Intern OA面经
 1. 面试时间 2025年5月20日
