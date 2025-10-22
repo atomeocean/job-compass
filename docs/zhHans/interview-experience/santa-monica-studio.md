@@ -2,7 +2,7 @@
 title: Santa Monica工作室
 description: Santa Monica工作室任务设计师（合同工）
 createdDate: 2025-08-05
-lastUpdated: 2025-09-03
+lastUpdated: 2025-10-22
 ---
 # 面试经验 - Quest Designer (Contract) at Santa Monica Studio
 
