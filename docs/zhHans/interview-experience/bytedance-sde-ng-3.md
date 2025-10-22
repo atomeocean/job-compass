@@ -2,7 +2,7 @@
 title: 字节跳动开发一面
 description: 自动化测试后端开发面试经验
 createdDate: 2025-10-17
-lastUpdated: 2025-10-21
+lastUpdated: 2025-10-22
 ---
 # 字节跳动自动化测试后端开发一面
 1. 面试时间 2025年10月17日
