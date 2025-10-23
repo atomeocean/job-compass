@@ -2,7 +2,7 @@
 title: 英伟达
 description: 英伟达软件工程师面经
 createdDate: 2025-10-22
-lastUpdated: 2025-10-22
+lastUpdated: 2025-10-23
 ---
 # NVIDIA软件工程师面试经验
 
