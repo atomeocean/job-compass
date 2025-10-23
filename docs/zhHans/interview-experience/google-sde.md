@@ -2,9 +2,8 @@
 title: Google
 description: Google 软件工程师（New Grad）面试经验
 createdDate: 2025-10-22
-lastUpdated: 2025-10-22
+lastUpdated: 2025-10-23
 ---
-
 # 美国Google公司软件工程师面试经验
 
 ## 1. 基本信息
