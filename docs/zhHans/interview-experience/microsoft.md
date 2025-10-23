@@ -2,9 +2,8 @@
 title: Microsoft
 description: Microsoft 软件工程师（New Grad）面试经验
 createdDate: 2024-09-30
-lastUpdated: 2024-09-30
+lastUpdated: 2025-10-23
 ---
-
 # 美国Microsoft公司软件工程师面试经验
 
 ## 1. 基本信息
