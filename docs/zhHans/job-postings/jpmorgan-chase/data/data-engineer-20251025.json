@@ -1,0 +1,55 @@
+{
+  "companyName": "JPMorgan Chase & Co.",
+  "jobTitle": "Software Engineer III - Data Engineer, Graph DB",
+  "jobLocation": [
+    "USA, NJ, Jersey City",
+    "USA, IL, Chicago"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "识别、分析并解释复杂数据集中的趋势或模式",
+    "创新管理、转换和验证数据的新方法",
+    "实施新的或增强的服务和脚本",
+    "构思、提议并为复杂问题实现图数据库（TigerGraph、Neo4J）解决方案",
+    "从主要和次要数据源获取和管理数据，并构建ETL管道",
+    "将质量保证最佳实践应用于所有工作产品",
+    "使用敏捷编程方法，与开发团队一起分析、设计并实现与业务相关的解决方案及核心架构变更",
+    "能够熟练学习前沿技术栈和应用，并将其应用于新项目"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "精通高级Python编程，具有丰富的Pandas和NumPy库使用经验",
+      "具备大数据技术（如Spark、Kafka、Databricks等）代码与基础架构经验，并能实现复杂的ETL转换",
+      "熟悉AWS服务，包括EC2、EMR、ASG、Lambda、EKS、RDS等",
+      "具有利用不同后端数据存储（RDS、Graph、Dynamo等）开发API的经验",
+      "熟练编写高效的SQL查询",
+      "对线性代数、统计学和算法有深入理解",
+      "具备使用UNIX shell脚本自动化文件准备和数据库加载的丰富经验",
+      "具有数据质量测试经验，能够编写测试用例和脚本，提出并解决数据问题",
+      "熟悉关系型数据库环境（Oracle、SQL Server等），并能使用数据库、表/视图、存储过程、任务代理等",
+      "具有较强的分析能力，能以高度准确性收集、组织、分析和传达大量信息",
+      "具备良好的开发规范和遵循最佳实践与标准的能力"
+    ],
+    "preferredQualifications": [
+      "具备数据科学、机器学习和人工智能相关经验者优先",
+      "具备Agentic框架、LangChain和LangGraph相关经验者优先",
+      "具备金融服务或商业银行经验者优先",
+      "熟悉NoSQL平台（MongoDB、AWS OpenSearch）者优先"
+    ]
+  },
+  "salary": [
+    "Chicago, IL: $114,000.00 - $155,000.00",
+    "Jersey City, NJ: $133,000.00 - $185,000.00"
+  ],
+  "benefits": [
+    "综合医疗保险",
+    "现场健康与保健中心",
+    "退休储蓄计划",
+    "备用儿童照护",
+    "学费报销",
+    "心理健康支持",
+    "财务咨询服务"
+  ],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210638229/?utm_medium=jobshare&utm_source=External+Job+Share",
+  "notes": ""
+}
