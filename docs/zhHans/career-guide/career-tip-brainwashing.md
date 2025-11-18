@@ -2,6 +2,7 @@
 title: 职场洗脑
 createdDate: 2025-08-15
 lastUpdated: 2025-09-03
+outline: deep
 ---
 # 职场洗脑
 
