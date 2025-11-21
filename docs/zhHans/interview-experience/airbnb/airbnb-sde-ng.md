@@ -1,4 +1,7 @@
-
+---
+createdDate: 2025-11-21
+lastUpdated: 2025-11-21
+---
 # Airbnb 面试经验（New Grad · 前端/后端方向）
 
 ## 1. 基本信息
