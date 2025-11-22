@@ -1,3 +1,7 @@
+---
+createdDate: 2025-11-21
+lastUpdated: 2025-11-21
+---
 # Uber Scientist 面试经验（Delivery Logistics 组 · Switchback + Guardrail 翻车案例）
 
 ## 1. 基本信息
