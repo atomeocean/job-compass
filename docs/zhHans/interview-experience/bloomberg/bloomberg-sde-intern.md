@@ -1,3 +1,7 @@
+---
+createdDate: 2025-11-21
+lastUpdated: 2025-11-21
+---
 # Bloomberg SDE New Grad 2026 面试挂经（第一人称 · 全流程）
 
 ## 1. 基本信息
