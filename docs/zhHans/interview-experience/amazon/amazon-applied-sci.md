@@ -1,3 +1,7 @@
+---
+createdDate: 2025-11-21
+lastUpdated: 2025-11-21
+---
 # Amazon Applied Scientist 面试经验（Phone Screen + VO 全流程）
 
 ## 1. 基本信息
