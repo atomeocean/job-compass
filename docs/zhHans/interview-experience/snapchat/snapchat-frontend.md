@@ -1,3 +1,7 @@
+---
+createdDate: 2025-11-21
+lastUpdated: 2025-11-21
+---
 # Snapchat L5 面试经验（FrontEnd · Seattle）
 
 ## 1. 基本信息
