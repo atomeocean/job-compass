@@ -1,10 +1,9 @@
 ---
 title: 内推综述
 createdDate: 2024-11-20
-lastUpdated: 2025-09-03
+lastUpdated: 2025-11-22
 outline: deep
 ---
-
 # Referral 内推
 
 ## 什么是Internal Referral（内推）
