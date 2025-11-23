@@ -21,11 +21,11 @@ hero:
       link: https://github.com/atomeocean/job-compass
 
 features:
-  - icon: 💼
-    title: 招聘信息
-    details: 最新的招聘信息，来自各大招聘网站和公司官网
-    link: /job-postings/overview
-    linkText: 查看招聘信息
+  - icon: 📝
+    title: 面试经验
+    details: 查看求职面试经验，了解面试流程和技巧
+    link: /interview-experience/rednote-ny
+    linkText: 查看面经
     rel: noreferrer
   - icon: 🏝️
     title: 上岸
@@ -33,11 +33,11 @@ features:
     link: /direct-hire-company/overview
     linkText: 查看哪些公司在招人
     rel: noreferrer
-  - icon: 📝
-    title: 面试经验
-    details: 查看求职面试经验，了解面试流程和技巧
-    link: /interview-experience/rednote-ny
-    linkText: 查看面经
+  - icon: 💼
+    title: 招聘信息
+    details: 最新的招聘信息，来自各大招聘网站和公司官网
+    link: /job-postings/overview
+    linkText: 查看招聘信息
     rel: noreferrer
   - icon: 🚢
     title: 上船
