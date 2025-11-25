@@ -1,3 +1,7 @@
+---
+createdDate: 2025-11-25
+lastUpdated: 2025-11-25
+---
 # Airbnb 面试经验（New Grad · VO1 + VO2 全流程）
 
 ## 1. 基本信息
