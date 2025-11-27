@@ -1,0 +1,17 @@
+name: require-assignee
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, assigned, unassigned]
+
+jobs:
+  check-assignee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail if no assignee
+        run: |
+          if [ "${{ github.event.pull_request.assignees }}" = "[]" ]; then
+            echo "❌ This PR must have at least one assignee."
+            exit 1
+          fi
+          echo "✅ Assignee exists."
