@@ -6,11 +6,12 @@ on:
 
 jobs:
   check-assignee:
+    name: Require Assignee Check
     runs-on: ubuntu-latest
     steps:
       - name: Fail if no assignee
         run: |
-          if [ "${{ github.event.pull_request.assignees }}" = "[]" ]; then
+          if [ "${{ toJson(github.event.pull_request.assignees) }}" = "[]" ]; then
             echo "❌ This PR must have at least one assignee."
             exit 1
           fi
