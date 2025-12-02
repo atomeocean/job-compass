@@ -1,0 +1,49 @@
+name: Sync PR to Logbook
+
+# 触发条件：当pr被合并时执行
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  sync-logbook:
+    # 仅当pr被merge时执行
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检查出当前仓库代码
+      - name: Checkout job compass repository
+        uses: actions/checkout@v5
+
+      # 2. 配置Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      # 3. 获取本次pr数据并利用脚本进行解析为json格式
+      - name: Run Python script with PR data
+        run: |
+          export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}"
+          JSON_OUTPUT=$(python scripts/parse_pr_payload.py --pr '${{ toJson(github.event.pull_request) }}')
+          
+          echo "PR_JSON<<EOF" >> $GITHUB_ENV
+          echo "$JSON_OUTPUT" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      # 4. 连接远程服务器并执行add_job_compass_pr_record脚本
+      - name: Execute remote logbook update
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.ATM_BOT_HOST }}
+          username: ${{ secrets.ATM_BOT_USER }}
+          key: ${{ secrets.ATM_BOT_SSH_KEY }}
+          port: ${{ secrets.ATM_BOT_PORT }}
+          envs: PR_JSON
+          script: |
+            echo "接收到的 PR JSON:"
+            echo "$PR_JSON"
+            cd ~/logbook
+            export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+            python3 scripts/local-scripts/logbook/add_job_compass_pr_record.py --pr_json "$PR_JSON"
