@@ -1,0 +1,24 @@
+{
+  "company": "url",
+  "position": {
+    "jobPostUrl": "string",
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "string"
+  },
+  "applicationSource": {
+    "channel": "string",
+    "referralDetails": "string"
+  },
+  "candidate": {
+    "education": "bachelor",
+    "background": "new_grad",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2025-01-15",
+    "roundType": "onsite",
+    "rate": 2,
+    "result": "pass"
+  }
+}
