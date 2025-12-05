@@ -1,7 +1,7 @@
 {
-  "company": "url",
+  "company": "apple",
   "position": {
-    "jobPostUrl": "string",
+    "jobPostUrl": null,
     "title": "Software Engineer",
     "level": "new-grad",
     "jobType": "string"
