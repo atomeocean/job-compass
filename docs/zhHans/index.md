@@ -69,7 +69,7 @@ features:
     linkText: 身份解决公司列表
     rel: noreferrer
 createdDate: 2024-11-18
-lastUpdated: 2025-11-22
+lastUpdated: 2025-12-06
 ---
 ## Job Compass：一个开放的求职者社区
 
