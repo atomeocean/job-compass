@@ -1,7 +1,7 @@
 ---
 title: Fortinet
 createdDate: 2025-11-07
-lastUpdated: 2025-11-07
+lastUpdated: 2025-12-07
 ---
 # Fortinet面试经验
 
