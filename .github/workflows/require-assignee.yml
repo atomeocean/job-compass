@@ -3,6 +3,8 @@ name: require-assignee
 on:
   pull_request:
     types: [opened, edited, synchronize, assigned, unassigned]
+  pull_request_review:
+    types: [ submitted, dismissed ]
 
 jobs:
   check-assignee:
