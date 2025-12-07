@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue'
+import { ref, onMounted, watch, computed } from 'vue'
 import { useData } from 'vitepress'
 import { getInterviewData, type InterviewData } from '../utils/interviewData'
 
@@ -24,118 +24,89 @@ onMounted(() => {
     loadData()
 })
 
-// Support navigating between pages without full reload
 watch(() => page.value.relativePath, () => {
     loadData()
+})
+
+const resultTagType = computed(() => {
+    const result = info.value?.interview?.result?.toLowerCase()
+    switch (result) {
+        case 'pass':
+        case 'offer':
+            return 'success'
+        case 'reject':
+        case 'fail':
+            return 'danger'
+        case 'pending':
+        case 'waiting':
+            return 'warning'
+        default:
+            return 'info'
+    }
 })
 </script>
 
 <template>
-  <div v-if="info" class="interview-detail">
+  <div v-if="info" class="interview-detail-container">
     <div class="header-row">
-      <h2 class="company-title">{{ info.company }} - {{ info.position?.title }}</h2>
-      <span class="tag result-tag" :class="info.interview?.result">{{ info.interview?.result }}</span>
+      <span class="company-title">{{ info.company }} - {{ info.position?.title }}</span>
+      <el-tag :type="resultTagType" effect="dark" size="small" class="result-tag">
+        {{ info.interview?.result?.toUpperCase() }}
+      </el-tag>
     </div>
-
-    <div class="info-grid">
-      <div class="info-item">
-        <div class="label">Level</div>
-        <div class="value">{{ info.position?.level }}</div>
-      </div>
-      <div class="info-item">
-        <div class="label">Job Type</div>
-        <div class="value">{{ info.position?.jobType }}</div>
-      </div>
-      <div class="info-item">
-        <div class="label">Date</div>
-        <div class="value">{{ info.interview?.date }}</div>
-      </div>
-      <div class="info-item">
-        <div class="label">Round</div>
-        <div class="value">{{ info.interview?.roundType }}</div>
-      </div>
-       <div class="info-item">
-        <div class="label">Rating</div>
-        <div class="value">{{ info.interview?.rate }} / 5</div>
-      </div>
-    </div>
+    
+    <el-descriptions :column="2" border size="small">
+      <el-descriptions-item label="Level">{{ info.position?.level }}</el-descriptions-item>
+      <el-descriptions-item label="Job Type">{{ info.position?.jobType }}</el-descriptions-item>
+      <el-descriptions-item label="Date">{{ info.interview?.date }}</el-descriptions-item>
+      <el-descriptions-item label="Round Type">{{ info.interview?.roundType }}</el-descriptions-item>
+      <el-descriptions-item label="Education" v-if="info.candidate?.education">
+        {{ info.candidate?.education }}
+      </el-descriptions-item>
+      <el-descriptions-item label="Experience" v-if="info.candidate?.yearsOfExperience !== undefined">
+        {{ info.candidate?.yearsOfExperience }} Years
+      </el-descriptions-item>
+      
+      <el-descriptions-item label="Rating" :span="2">
+          <el-rate
+              v-model="info.interview.rate"
+              disabled
+              show-score
+              text-color="#ff9900"
+              score-template="{value}"
+          />
+      </el-descriptions-item>
+    </el-descriptions>
   </div>
 </template>
 
-<style scoped>
-.interview-detail {
+<style scoped lang="scss">
+.interview-detail-container {
   margin: 1.5rem 0;
-  padding: 1.5rem;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background-color: var(--vp-c-bg-soft);
-}
 
-.header-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-}
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; // Spacing between header and table
 
-.company-title {
-  margin: 0 !important;
-  font-size: 1.25rem;
-  font-weight: 600;
-  border: none;
-  padding: 0;
-}
+    .company-title {
+      font-weight: 600;
+      font-size: 1.25em; // Slightly larger for title
+    }
+    
+    .result-tag {
+        font-weight: bold;
+    }
+  }
 
-.tag {
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-.tag.pass {
-  background-color: var(--vp-c-green-soft);
-  color: var(--vp-c-green-1);
-}
-
-.tag.offer {
-  background-color: var(--vp-c-green-soft);
-  color: var(--vp-c-green-1);
-}
-
-.tag.reject {
-  background-color: var(--vp-c-red-soft);
-  color: var(--vp-c-red-1);
-}
-
-.tag.pending {
-  background-color: var(--vp-c-yellow-soft);
-  color: var(--vp-c-yellow-1);
-}
-
-.info-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 1rem;
-}
-
-.info-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.label {
-  font-size: 0.75rem;
-  color: var(--vp-c-text-2);
-  margin-bottom: 2px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.value {
-  font-size: 0.95rem;
-  color: var(--vp-c-text-1);
-  font-weight: 500;
+  // Ensure descriptions table takes full width
+  :deep(.el-descriptions__body) {
+    width: 100%;
+  }
+  
+  :deep(.el-descriptions__table) {
+    width: 100%;
+  }
 }
 </style>
