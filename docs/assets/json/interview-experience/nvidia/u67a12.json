@@ -1,14 +1,14 @@
 {
-  "company": "url",
+  "company": "NVIDIA",
   "position": {
-    "jobPostUrl": "string",
+    "jobPostUrl": "https://www.nvidia.com/en-us/about-nvidia/careers/",
     "title": "Software Engineer",
     "level": "new-grad",
-    "jobType": "string"
+    "jobType": "software engineer"
   },
   "applicationSource": {
-    "channel": "string",
-    "referralDetails": "string"
+    "channel": "online application",
+    "referralDetails": "Not specified"
   },
   "candidate": {
     "education": "bachelor",
@@ -16,9 +16,9 @@
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "2025-01-15",
-    "roundType": "onsite",
-    "rate": 2,
+    "date": "recent",
+    "roundType": "technical phone screen",
+    "rate": 3,
     "result": "pass"
   }
 }
