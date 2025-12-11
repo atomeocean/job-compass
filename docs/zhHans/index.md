@@ -23,8 +23,8 @@ hero:
 features:
   - icon: 📝
     title: 面试经验
-    details: 查看求职面试经验，了解面试流程和技巧
-    link: /interview-experience/rednote-ny
+    details: 查看美国求职面试经验，了解面试流程和技巧
+    link: /interview-experience/essential-terms
     linkText: 查看面经
     rel: noreferrer
   - icon: 🏝️
