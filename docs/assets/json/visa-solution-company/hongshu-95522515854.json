@@ -1,0 +1,154 @@
+{
+    "basicInfo": {
+        "identifier": "hongshu-95522515854",
+        "companyName": "未公开",
+        "marketingPlatforms": [
+            {
+                "platform": "hongshu",
+                "platformDisplayName": "小红书",
+                "accountId": "95522515854",
+                "accountNickname": "努力的纽约打工人",
+                "isPrimary": true
+            }
+        ],
+        "contactInfo": {
+            "wechatId": "",
+            "phone": "",
+            "email": "",
+            "other": ""
+        },
+        "companyInfo": {
+            "registrationStatus": "未注册",
+            "address": "",
+            "operatingArea": "纽约",
+            "mainBusiness": "",
+            "officialWebsite": ""
+        }
+    },
+    "serviceInfo": {
+        "serviceTypes": [
+            "OPT挂靠",
+            "STEM OPT挂靠"
+        ],
+        "pricing": {
+            "OPT挂靠": {
+                "monthlyFee": "200-300",
+                "currency": "USD",
+                "note": "提到每个月200刀"
+            },
+            "STEM OPT挂靠": {
+                "monthlyFee": "未明确",
+                "currency": "USD",
+                "note": "会每月开工资单走payment系统"
+            }
+        },
+        "serviceFeatures": [
+            "每个月开工资单",
+            "走payment系统",
+            "相较其他公司更正规",
+            "帮助少数朋友挂靠"
+        ],
+        "serviceProcess": {
+            "applicationProcess": "",
+            "paystubIssuance": "每月发放",
+            "taxHandling": "通过payroll系统",
+            "otherNotes": "非盈利为目的，主要帮忙性质"
+        }
+    },
+    "credibilityAssessment": {
+        "credibilityRating": "中等",
+        "ratingExplanation": "文章作者现在所在公司提供挂靠服务，相较于之前被骗的公司更正规",
+        "positiveReviews": [
+            "每个月开工资单",
+            "走payment系统",
+            "非盈利性质，帮忙为主"
+        ],
+        "negativeReviews": [],
+        "riskWarnings": [
+            "公司名称未公开",
+            "服务规模较小",
+            "通过个人社交媒体营销"
+        ]
+    },
+    "marketingAnalysis": {
+        "marketingStrategy": "通过分享个人经历和避雷经验吸引客户",
+        "contentThemes": [
+            "OPT挂靠避雷",
+            "个人求职经历",
+            "正规挂靠标准科普"
+        ],
+        "publishTimeline": [
+            {
+                "date": "2025-08-06",
+                "title": "有些华人公司opt挂靠真的很无耻",
+                "mainContent": "曝光之前被骗经历，引出现在公司更正规",
+                "tags": [
+                    "opt",
+                    "opt挂靠",
+                    "stemopt",
+                    "留学生找工",
+                    "北美求职",
+                    "北美留学生"
+                ]
+            },
+            {
+                "date": "2025-08-12",
+                "title": "纽约留子毕业上岸日记: 从opt靠挂到拿offer",
+                "mainContent": "详细分享从毕业到上岸的完整经历",
+                "tags": [
+                    "北美求职",
+                    "留学生找工作",
+                    "留学生找工",
+                    "找工上岸日记",
+                    "北美留学生",
+                    "毕业求职",
+                    "opt",
+                    "stemopt",
+                    "opt挂靠"
+                ]
+            },
+            {
+                "date": "2025-08-19",
+                "title": "血泪经验: 正规的OPT/STEM OPT挂靠是咋样的",
+                "mainContent": "科普正规OPT和STEM OPT挂靠应有的标准",
+                "tags": [
+                    "opt挂靠",
+                    "stemopt",
+                    "stemopt挂靠",
+                    "北美找工",
+                    "北美留学生找工作",
+                    "北美留学生",
+                    "北美求职",
+                    "北美留子",
+                    "北美找工上岸",
+                    "opt避雷"
+                ]
+            }
+        ],
+        "marketingRhetoric": [
+            "先抑后扬",
+            "分享被骗经历",
+            "强调现在公司正规性",
+            "科普正规标准"
+        ]
+    },
+    "dataSource": {
+        "documentPath": "docs/zhHans/visa-solution-company/hongshu-95522515854.md",
+        "collectionDate": "2025-08-19",
+        "lastUpdated": "2025-09-03",
+        "sourceType": "小红书营销内容",
+        "verificationStatus": "未核实"
+    },
+    "adminNotes": {
+        "notes": [
+            "此公司通过小红书营销，采用分享个人经历的方式",
+            "公司名称未公开，难以核实真实性",
+            "强调相比骗子公司更正规，但缺乏实质证明"
+        ],
+        "tags": [
+            "待核实",
+            "公司信息不完整"
+        ],
+        "lastReviewDate": ""
+    }
+}
