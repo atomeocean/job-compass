@@ -144,3 +144,6 @@ dist
 
 # python脚本配置文件
 scripts/utils/config.py
+
+# python cache
+__pycache__/
