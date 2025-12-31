@@ -3,8 +3,13 @@ title: Palantir
 description: Palantir 软件工程师（New Grad）面试经验
 createdDate: 2025-10-22
 lastUpdated: 2025-10-23
+outline: deep
 ---
 # 美国Palantir公司软件工程师面试经验
+
+> [!CAUTION] 折叠原因
+> 某书广告号发布的低质量面经，已被折叠以维护文档质量。
+> 下方原文链接已无法打开。
 
 ## 1. 基本信息
 - **面试国家**：美国
