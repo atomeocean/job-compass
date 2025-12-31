@@ -3,9 +3,9 @@ title: 参与指南
 outline: [2,3]
 description: 如何参与到Job Compass开源项目的开发
 createdDate: 2025-03-17
-lastUpdated: 2025-09-03
+lastUpdated: 2025-12-31
 ---
-# 如何参与 Job Compass 开源项目
+# 如何参与Job Compass开源项目
 
 非常欢迎你参与 Job Compass 开源社区！我们相信每一份贡献都能帮助更多人找到理想的工作。你可以通过 GitHub 和 Discord 两种方式参与到我们的项目中。
 
@@ -29,7 +29,7 @@ GitHub 是我们主要的协作平台，你可以通过以下方式参与：
 
 在job compass中我们几乎不使用github自带wiki，而是用[job compass](https://jobcompass.atomeocean.com/)本身代替。
 
-### 使用 Discussions 讨论
+### 使用Discussions讨论
 
 - 如果你有项目相关的问题、建议或想法，请使用 GitHub 的 Discussions 功能。
 - 提问前建议先搜索历史话题，避免重复提问。
@@ -44,7 +44,7 @@ GitHub 是我们主要的协作平台，你可以通过以下方式参与：
 - 你可以在Discord中实时询问问题，获得更快的回复。
 - Discord 也定期举办线上会议、Q&A、协作编程活动。
 
-## 🎯 最佳实践与注意事项
+## 最佳实践与注意事项
 
 - 请保持友好、尊重和专业的交流氛围。
 - 尽量清晰、详细地描述你的问题或贡献。
