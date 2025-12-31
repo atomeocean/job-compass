@@ -5,6 +5,7 @@ on:
     types: [opened, edited, synchronize, assigned, unassigned]
   pull_request_review:
     types: [ submitted, dismissed ]
+  workflow_dispatch:
 
 jobs:
   check-assignee:
