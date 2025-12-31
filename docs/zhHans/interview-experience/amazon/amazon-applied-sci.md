@@ -1,6 +1,8 @@
 ---
+title: Applied Scientist
 createdDate: 2025-11-21
 lastUpdated: 2025-11-21
+outline: deep
 ---
 # Amazon Applied Scientist 面试经验（Phone Screen + VO 全流程）
 
@@ -13,7 +15,6 @@ lastUpdated: 2025-11-21
 - **候选人背景：** 博士，应届毕业生
 - **面试渠道：** LinkedIn reach out / 网上海投
 
----
 
 ## 2. 面试详情
 
@@ -24,7 +25,6 @@ lastUpdated: 2025-11-21
 - VO 后续五轮：Stats / ML / Coding / LP（每轮 1 小时）
 - 每轮均含 ~20 分钟 Leadership Principles
 
----
 
 ## 2.2 各轮面试内容与细节
 
@@ -57,7 +57,6 @@ lastUpdated: 2025-11-21
 - 周五结果：**通过**  
 - 约两周后进行 onsite（VO）
 
----
 
 ## **VO Full-round（6 轮）**
 
@@ -65,7 +64,6 @@ lastUpdated: 2025-11-21
 - 5 轮技术 + LP  
 - 每轮约 60 分钟
 
----
 
 ### **第二轮：Stats Application（统计题 · 难点）**
 
@@ -86,7 +84,7 @@ lastUpdated: 2025-11-21
 
 但都不是面试官要的方向。
 
-#### ✅ **期望答案（推测）：Kolmogorov–Smirnov Test（KS Test）**
+#### **期望答案（推测）：Kolmogorov–Smirnov Test（KS Test）**
 
 KS Test 特点：
 - 非参数检验（不需要假设数据服从正态）
@@ -102,7 +100,6 @@ KS Test 特点：
 
 #### **LP：Bias for Action, Deliver Results**
 
----
 
 ## 3. 技术重点与思考方式（非完整解答）
 
@@ -123,7 +120,6 @@ KS Test 特点：
 
 **KS 是最通用的答案。**
 
----
 
 ## 4. 面试结果反馈
 
@@ -131,7 +127,6 @@ KS Test 特点：
 - 其余 ML / LP 表现正常  
 - 整体偏学术 rigor，难度高  
 
----
 
 ## 5. 总结与建议
 
@@ -141,7 +136,6 @@ KS Test 特点：
 - RAG evaluation 虽非重点，但会深入问  
 - Coding 并非重难点，但不可忽略  
 
----
 
 ## 6. 小结
 
