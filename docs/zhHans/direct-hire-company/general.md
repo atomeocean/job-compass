@@ -1,10 +1,9 @@
 ---
 title: 目录综述
-lastUpdated: 2025-09-03
+lastUpdated: 2025-12-31
 createdDate: 2024-11-29
 outline: deep
 ---
-
 # 直接雇佣公司（Direct Hire Company）
 
 所谓 **直接雇佣公司（Direct Hire Company）**，是指那些**直接提供正式工作机会**、无需中介或第三方服务机构的用人单位。员工一旦录用，即以公司正式员工身份入职、全职上班，通常可获得更稳定的身份支持（如 H-1B 申请）与职业发展路径。

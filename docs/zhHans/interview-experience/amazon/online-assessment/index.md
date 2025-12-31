@@ -1,7 +1,7 @@
 ---
 title: OA
 createdDate: 2025-10-21
-lastUpdated: 2025-10-21
+lastUpdated: 2025-12-31
 ---
 # Amazon OA
 
