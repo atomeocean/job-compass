@@ -2,7 +2,7 @@
 title: CC许可证
 outline: deep
 createdDate: 2025-01-30
-lastUpdated: 2025-09-03
+lastUpdated: 2025-12-31
 ---
 # CC 许可证（Creative Commons License）
 
