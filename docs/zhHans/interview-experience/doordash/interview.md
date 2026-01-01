@@ -1,3 +1,7 @@
+---
+createdDate: 2025-12-31
+lastUpdated: 2025-12-31
+---
 # DoorDash 面试经验（NV Logistics 团队 · Bay Area）
 
 ## 1. 基本信息
