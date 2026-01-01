@@ -20,15 +20,12 @@ lastUpdated: 2025-12-31
 
 Stem Opt 挂靠：$395/月
 
-2026 H1B 帮chou Level I 25% 4000 Level II 47% 6000... http://xhslink.com/o/3lxvfRUrCDX
-Copy and open Xiaohongshu to view the full post！
 
 <ReferenceSource
 :sources="[
 {
 title: '2026 H1B 帮chou',
-link: '2026 H1B 帮chou Level I 25% 4000 Level II 47% 6000... http://xhslink.com/o/3lxvfRUrCDX
-Copy and open Xiaohongshu to view the full post！',
+link: '请复制下方文本',
 site: '小红书',
 author: 'Lexie美国移民规划中介·总规划师',
 date: '2025-12-26',
@@ -36,3 +33,8 @@ category: 'Post'
 },
 ]"
 />
+
+```text
+2026 H1B 帮chou Level I 25% 4000 Level II 47% 6000... http://xhslink.com/o/3lxvfRUrCDX
+Copy and open Xiaohongshu to view the full post！
+```
