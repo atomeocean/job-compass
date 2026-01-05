@@ -3,9 +3,8 @@ title: Markdown 语法指南
 description: Markdown 语法指南
 outline: deep
 createdDate: 2025-03-17
-lastUpdated: 2025-09-03
+lastUpdated: 2026-01-05
 ---
-
 # Markdown Cheatsheet
 
 该文档主要介绍在编写markdown文档时常用到的语法
