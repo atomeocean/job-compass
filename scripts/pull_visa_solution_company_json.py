@@ -7,6 +7,7 @@
 
 from scripts.utils.rsync_downloader import sync_remote_folder
 from scripts.utils.path_utils import get_project_root
+# 配置信息需要本地创建config.py文件
 from scripts.utils.config import (
     REMOTE_1030_VISA_SOLUTION_COMPANY_JSON_DIR
 )
