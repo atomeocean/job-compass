@@ -3,16 +3,13 @@ title: Json语法指南
 description: Json语法指南
 outline: deep
 createdDate: 2025-03-17
-lastUpdated: 2025-09-03
+lastUpdated: 2026-01-06
 ---
-
 # Json Cheatsheet
 
 该文档主要介绍在编写 Json 数据时常用到的语法
 
-[[toc]]
-
-## 1️⃣ JSON 基本格式
+## JSON 基本格式
 
 JSON（JavaScript Object Notation）是一种轻量级的数据格式，适用于存储和交换数据。
 
@@ -35,7 +32,7 @@ JSON（JavaScript Object Notation）是一种轻量级的数据格式，适用�
 }
 ```
 
-## 2️⃣ 常用数据类型
+## 常用数据类型
    
 - **字符串（String）：** 用双引号 "" 包裹的文本。
 
@@ -45,7 +42,7 @@ JSON（JavaScript Object Notation）是一种轻量级的数据格式，适用�
 
     - 示例："skills": ["Python", "Excel", "沟通能力"]
 
-## 3️⃣ Json 模版填充示范
+## Json 模版填充示范
 
 假设你有一个 JSON 模板如下：
 
@@ -89,7 +86,7 @@ JSON（JavaScript Object Notation）是一种轻量级的数据格式，适用�
 }
 ```
 
-## 4️⃣ 注意事项
+## 注意事项
 
 - **键名不能修改：** 模板中的键名（如 job_title、company 等）是固定的，不要修改。
 
