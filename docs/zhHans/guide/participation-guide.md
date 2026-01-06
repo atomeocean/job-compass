@@ -3,7 +3,7 @@ title: 项目开发参与指南
 outline: deep
 description: 如何参与到Job Compass开源项目的开发
 createdDate: 2025-03-17
-lastUpdated: 2025-12-31
+lastUpdated: 2026-01-06
 ---
 # 如何参与Job Compass开源项目
 

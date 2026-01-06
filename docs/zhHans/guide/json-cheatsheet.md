@@ -3,9 +3,8 @@ title: Json语法指南
 description: Json语法指南
 outline: deep
 createdDate: 2025-03-17
-lastUpdated: 2025-09-03
+lastUpdated: 2026-01-06
 ---
-
 # Json Cheatsheet
 
 该文档主要介绍在编写 Json 数据时常用到的语法
