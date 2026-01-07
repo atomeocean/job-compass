@@ -1,0 +1,27 @@
+{
+  "company": "tiktok",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Product Manager",
+    "level": "experienced",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "Master's degree",
+    "background": "AI/Trust & Safety product",
+    "yearsOfExperience": 3
+  },
+  "interview": {
+    "date": "2025-12-01",
+    "result": "accepted",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": 3 },
+      { "roundType": "technical", "rate": 4 },
+      { "roundType": "onsite", "rate": 4 }
+    ]
+  }
+}
