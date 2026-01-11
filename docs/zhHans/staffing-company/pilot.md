@@ -14,6 +14,26 @@ lastUpdated: 2025-09-03
 
 ## 招聘信息
 
+### 2026年1月
+
+微信名字 Lucia-pilot在微信群中群发招聘消息
+
+```text
+大家好，Pilot 2026年第一季度开班计划如下：
+1/19 Java Batch
+2/16 React Batch                  3/16 Python Batch        
+ ✅ 招募对象：
+• CS相关专业毕业
+• 身份不限（H1B除外）
+📢 提供：
+• Remote Training + Remote Marketing
+• 小班制教学，1v1 指导, 100% offer
+• Client 资源丰富，平均三个面试拿offer
+• day 1 绿卡，拒绝漫长等待期。
+• 健康保险、relocation fee, 一年15天PTO等！
+🧡三期batch已全部开放面试，欢迎来约！
+```
+
 ### 2024年12月
 
 在微信群发布了招聘信息
