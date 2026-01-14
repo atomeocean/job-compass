@@ -15,7 +15,7 @@ import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
 import SiteViewStatistic from "./components/siteStatistic/SiteViewStatistic.vue";
 import DocTitleMeta from "./components/siteStatistic/DocTitleMeta.vue";
-import Giscus from "./components/Giscus";
+import Giscus from "@ao-components/Giscus";
 import InterviewDetail from "./components/InterviewDetail.vue";
 import { h } from 'vue';
 import {
