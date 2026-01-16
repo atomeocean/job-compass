@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "moduleDetection": "force",
+    "types": ["vite/client", "node"],
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ao-types/*": ["docs/.vitepress/theme/types/*"],
+      "@ao-theme/*": ["docs/.vitepress/theme/*"],
+      "@ao-components/*": ["docs/.vitepress/theme/components/*"],
+      "@ao-utils/*": ["docs/.vitepress/theme/utils/*"],
+      "@ao-composables/*": ["docs/.vitepress/theme/composables/*"],
+      "@ao-constants/*": ["docs/.vitepress/theme/constants/*"]
+    },
+
+    "lib": ["ESNext", "DOM"]
+  },
+  "include": [
+    "docs/.vitepress/**/*.ts",
+    "docs/.vitepress/**/*.vue",
+    "docs/**/*.md",
+    "**/*.vue",
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -4,6 +4,8 @@ name: Update Markdown Frontmatter
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+    paths:
+      - 'docs/**'
 
 jobs:
   update-frontmatter:

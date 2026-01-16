@@ -1,0 +1,32 @@
+{
+    "company": "airbnb",
+    "position": {
+        "jobPostUrl": null,
+        "title": "New Grad Software Engineer",
+        "level": "new-grad",
+        "jobType": "full-time"
+    },
+    "applicationSource": {
+        "channel": "",
+        "referralDetails": ""
+    },
+    "candidate": {
+        "education": "CS/CE专业硕士",
+        "background": "",
+        "yearsOfExperience": 0
+    },
+    "interview": {
+        "date": "2025",
+        "result": "通过 → Team Match",
+        "rounds": [
+            {
+                "roundType": "VO1",
+                "rate": 5
+            },
+            {
+                "roundType": "VO2",
+                "rate": 5
+            }
+        ]
+    }
+}

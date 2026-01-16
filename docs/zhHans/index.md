@@ -21,23 +21,23 @@ hero:
       link: https://github.com/atomeocean/job-compass
 
 features:
+  - icon: 📝
+    title: 面试经验
+    details: 查看美国求职面试经验，了解面试流程和技巧
+    link: /interview-experience/essential-terms
+    linkText: 查看面经
+    rel: noreferrer
+  - icon: 🏝️
+    title: 上岸
+    details: 一步到位，入职直接效力新公司，开始新生活 Cheers!
+    link: /direct-hire-company/general
+    linkText: 查看哪些公司在招人
+    rel: noreferrer
   - icon: 💼
     title: 招聘信息
     details: 最新的招聘信息，来自各大招聘网站和公司官网
     link: /job-postings/overview
     linkText: 查看招聘信息
-    rel: noreferrer
-  - icon: 🏝️
-    title: 上岸
-    details: 一步到位，入职直接效力新公司，开始新生活 Cheers!
-    link: /direct-hire-company/overview
-    linkText: 查看哪些公司在招人
-    rel: noreferrer
-  - icon: 📝
-    title: 面试经验
-    details: 查看求职面试经验，了解面试流程和技巧
-    link: /interview-experience/rednote-ny
-    linkText: 查看面经
     rel: noreferrer
   - icon: 🚢
     title: 上船
@@ -63,13 +63,13 @@ features:
     linkText: 查看内推信息
     rel: noreferrer
   - icon: 🕵️
-    title: 身份挂靠
-    details: 分辨身份挂靠公司，避免上当受骗。只挂靠没有实际工作是签证欺诈违法行为
+    title: 在美身份解决
+    details: 分辨身份解决公司，避免上当受骗。只挂靠身份没有实际工作是签证欺诈违法行为
     link: /visa-fraud-company/hongshu-27410952937
-    linkText: 挂靠公司列表
+    linkText: 身份解决公司列表
     rel: noreferrer
 createdDate: 2024-11-18
-lastUpdated: 2025-09-18
+lastUpdated: 2025-12-11
 ---
 ## Job Compass：一个开放的求职者社区
 

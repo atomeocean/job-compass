@@ -1,0 +1,36 @@
+{
+  "company": "apple",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "string"
+  },
+  "applicationSource": {
+    "channel": "string",
+    "referralDetails": "string"
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "",
+    "rounds": [
+      {
+        "roundType": "phone-screen",
+        "rate": 3
+      },
+      {
+        "roundType": "technical",
+        "rate": 4
+      },
+      {
+        "roundType": "onsite",
+        "rate": 2
+      }
+    ]
+  }
+}

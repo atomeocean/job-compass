@@ -1,0 +1,32 @@
+{
+    "company": "stubhub",
+    "position": {
+        "jobPostUrl": null,
+        "title": "Senior / Staff Software Engineer",
+        "level": "senior",
+        "jobType": "full-time"
+    },
+    "applicationSource": {
+        "channel": "LinkedIn HR主动联系",
+        "referralDetails": "HR在LinkedIn主动reach out"
+    },
+    "candidate": {
+        "education": "",
+        "background": "多年后端开发经验，有多套微服务/分布式系统项目",
+        "yearsOfExperience": 4
+    },
+    "interview": {
+        "date": "2025年",
+        "result": "未通过",
+        "rounds": [
+            {
+                "roundType": "phone-screen",
+                "rate": 2
+            },
+            {
+                "roundType": "hiring-manager",
+                "rate": 1
+            }
+        ]
+    }
+}

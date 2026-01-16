@@ -1,0 +1,40 @@
+{
+  "companyName": "JPMorgan Chase & Co.",
+  "jobTitle": "Risk Management - Quant Modeling Lead - Vice President",
+  "jobLocation": [
+    "USA, NJ, Jersey City"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "评估模型规范的概念合理性；假设的合理性；输入的可靠性；已执行测试的完整性；实现的正确性；以及性能指标和风险度量的适用性与全面性",
+    "评估模型开发标准的遵循情况，包括模型设计的合理性、假设的合理性、输入的可靠性、测试的完整性、实现的正确性以及性能指标的适用性",
+    "与前台、财务和风险专业人员沟通，以监控模型的使用情况和性能表现",
+    "定义、记录并执行健全的AI/ML模型开发、验证和监控标准；领导相关举措以根据行业与监管变化更新标准",
+    "监督设计、开发和部署用于支持MRGR活动的生成式AI/大语言模型（GenAI/LLM）工具，确保这些工具的集成、治理与持续改进"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "拥有经济学、金融学、数学或工程等定量领域的博士或硕士学位",
+      "至少3年以上定量研究、开发或定量模型审查的经验",
+      "对统计学、机器学习和金融有深入理解",
+      "具备生成式AI的专业知识，包括大语言模型（LLMs）、Prompt设计及微调技术",
+      "精通Python",
+      "具备良好的口头和书面沟通能力"
+    ],
+    "preferredQualifications": []
+  },
+  "salary": [
+    "Jersey City, NJ $147,250.00 - $215,000.00"
+  ],
+  "benefits": [
+    "综合医疗保险",
+    "现场健康与保健中心",
+    "退休储蓄计划",
+    "备用儿童照护",
+    "学费报销",
+    "心理健康支持",
+    "财务辅导"
+  ],
+  "jobLink": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210684408?utm_medium=jobboard&utm_source=LinkedIn",
+  "notes": ""
+}

@@ -1,11 +1,3 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "moduleDetection": "force",
-    "types": ["vite/client"],
-    "allowSyntheticDefaultImports": true
-  },
-  "exclude": ["node_modules"]
+  "extends": "../../tsconfig.json"
 }
