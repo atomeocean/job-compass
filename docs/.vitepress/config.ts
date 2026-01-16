@@ -12,6 +12,7 @@ import { contributors } from "../_data/contributors";
 import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
+import {alias} from "./alias.ts";
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
@@ -88,6 +89,9 @@ const vitePressConfig: UserConfig = {
     'zhHans/:rest*': ':rest*'
   },
   vite: {
+    resolve: {
+      alias, // 引入路径别名
+    },
     optimizeDeps: {
       exclude: [
         '@nolebase/vitepress-plugin-inline-link-preview/client',
