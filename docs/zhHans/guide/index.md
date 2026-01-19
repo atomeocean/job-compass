@@ -1,5 +1,6 @@
 ---
-title: 指南
+title: 整体指南
 createdDate: 2024-12-02
-lastUpdated: 2025-09-03
+lastUpdated: 2025-12-31
 ---
+# Job Compass整体指南

@@ -1,7 +1,7 @@
 ---
 title: Moyi Tech
 createdDate: 2025-01-30
-lastUpdated: 2025-09-06
+lastUpdated: 2025-12-08
 ---
 # Moyi Tech
 
@@ -12,6 +12,14 @@ lastUpdated: 2025-09-06
 ## 招聘信息
 
 ## 航海日志
+
+### 2025年12月
+
+地址: 33 S Wood Ave, Suite 600, Iselin, NJ 08830
+
+兼职HR `Ella在努力减肥中`，小红书号 900158843，在小红书简介放上上面地址。
+
+自称自己在湾区，当码农兼职hr。
 
 ### 2025年1月
 

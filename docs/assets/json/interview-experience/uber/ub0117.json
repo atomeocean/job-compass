@@ -1,0 +1,26 @@
+{
+  "company": "uber",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Applied Scientist",
+    "level": "experienced",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "PhD",
+    "background": "Econ",
+    "yearsOfExperience": 3
+  },
+  "interview": {
+    "date": "2025-12-01",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "onsite", "rate": 4 },
+      { "roundType": "onsite", "rate": 4 }
+    ]
+  }
+}

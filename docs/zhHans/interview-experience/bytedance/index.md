@@ -1,6 +1,8 @@
 ---
-title: 字节跳动
-createdDate: 2025-10-21
-lastUpdated: 2025-10-21
+title: ByteDance
+createdDate: 2025-12-07
+lastUpdated: 2025-12-07
 ---
-# 字节跳动面试经验
+# ByteDance面试经验
+
+公司介绍页面链接暂无
