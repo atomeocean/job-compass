@@ -1,7 +1,7 @@
 ---
 title: New Grad SDE
 createdDate: 2025-11-21
-lastUpdated: 2025-11-21
+lastUpdated: 2026-01-18
 outline: deep
 ---
 # 亚马逊 SDE new grad 挂经（第一人称版）
