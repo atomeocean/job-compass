@@ -1,5 +1,6 @@
 ---
 title: New Grad SDE
+description: Amazon NG面试经验
 createdDate: 2025-11-21
 lastUpdated: 2025-11-21
 outline: deep
@@ -12,7 +13,7 @@ outline: deep
 - 面试国家：美国  
 - 职位：Amazon SDE New Grad  
 - 结果：挂  
-- 过程跨度：3 个月  
+- 过程跨度：3 个月
 
 ## 2. 面试流程时间线
 
