@@ -1,0 +1,24 @@
+{
+  "company": "Meta",
+  "position": {
+    "jobPostUrl": "",
+    "title": "E4 Software Engineer（Infra） ",
+    "level": "new-grad",
+    "jobType": "software engineer"
+  },
+  "applicationSource": {
+    "channel": "online application",
+    "referralDetails": "Not specified"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "recent",
+    "roundType": "technical phone screen",
+    "rate": 3,
+    "result": "fail"
+  }
+}
