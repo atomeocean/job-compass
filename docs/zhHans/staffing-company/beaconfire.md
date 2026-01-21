@@ -1,10 +1,9 @@
 ---
 title: BeaconFire
 createdDate: 2025-01-30
-lastUpdated: 2025-09-03
+lastUpdated: 2026-01-20
 outline: deep
 ---
-
 # BeaconFire Inc.
 
 ## 公司信息
