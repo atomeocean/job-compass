@@ -2,17 +2,18 @@
 title: BeaconFire
 createdDate: 2025-01-30
 lastUpdated: 2025-09-03
+outline: deep
 ---
 
 # BeaconFire Inc.
 
-## 📌 公司信息
+## 公司信息
 
 <StaffingCompanyTable companyJsonFileName="beaconfire"/>
 
-## 📢 招聘信息
+## 招聘信息
 
-## 🚢 航海日志
+## 航海日志
 
 ### 违约金篇
 
@@ -21,6 +22,39 @@ lastUpdated: 2025-09-03
 如果是marketing阶段，是有1on1培训的，违约金是每个月3000美元，封顶15000美元
 
 上了项目之后违约，距离12个月差多少个月，违约金按照1500每个月扣除，比如做了10个月，就得赔1500*2才行。
+
+### 2026年1月
+
+**beaconfire 一周体验 icc**
+1. hr爱答不理，仿佛摆烂要随时跑路，你爱来不来，招不到人不关我的事，直到找了其他人才转变态度
+2. 招进去之后没有任何人管，找不到材料不知道什么时候上课
+3. 所谓老师很年轻，感觉像是找不到工作或者之前的学员留任的，就是念PPT，每次学生有问题，不是错就是不会
+4. 今天莫名告知什么没通过，被remove access了
+5. 了解到的是上次培训的还有很多没上岸
+
+<script setup>
+const sources = [
+  {
+    title: 'beaconfire 一周体验 icc',
+    link: 'beaconfire 一周体验 icc 1. hr爱答不理,仿佛摆烂要... http://xhslink.com/o/XXGHpDrTrC Copy and open Xiaohongshu to view the full post!',
+    site: '小红书',
+    author: '好运',
+    date: '2026-01-20',
+    category: '笔记'
+  }
+]
+</script>
+
+<ReferenceSource :sources="sources" />
+
+下方评论
+> 我也加上了这个hr 昨晚加上的 到现在还不回信息 感觉这家ICC不靠谱
+> 
+> 那她就是故意不回的，因为她早上联系我了，让我删帖，而且一直举报我的帖子
+> 
+> 你是de batch吗？他们几个trainer全都一个样 刚毕业没几年 没实际de经验的人
+> 
+> 我之前遇到的他家的有的很冷淡，有的超热情。热情的我都有点怕，感觉非奸即盗
 
 ### 2024年12月
 
