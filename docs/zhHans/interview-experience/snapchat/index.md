@@ -1,7 +1,7 @@
 ---
 title: Snap
 createdDate: 2025-12-07
-lastUpdated: 2025-12-07
+lastUpdated: 2026-01-25
 ---
 # Snap面试经验
 
