@@ -1,0 +1,24 @@
+{
+    "company": "Snapchat",
+    "position": {
+        "jobPostUrl": "",
+        "title": "L5 Frontend Engineer",
+        "level": "mid-level",
+        "jobType": "frontend engineer"
+    },
+    "applicationSource": {
+        "channel": "recruiter contact",
+        "referralDetails": "LinkedIn"
+    },
+    "candidate": {
+        "education": "bachelor",
+        "background": "8 years experience",
+        "yearsOfExperience": 8
+    },
+    "interview": {
+        "date": "2025-01",
+        "roundType": "onsite",
+        "rate": 4,
+        "result": "pass"
+    }
+}
