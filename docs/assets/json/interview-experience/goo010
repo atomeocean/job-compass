@@ -1,7 +1,7 @@
 {
-  "company": "google", // 公司名称，统一小写
+  "company": "google", 
   "position": {
-    "jobPostUrl": null, // 职位发布链接，如无可填null
+    "jobPostUrl": null, 
     "title": "Software Engineer",
     "level": "new-grad",
     "jobType": "full time"
