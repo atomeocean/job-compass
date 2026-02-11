@@ -1,7 +1,7 @@
 <!--描述组件用于展示求职中介公司信息-->
 <!-- Table component for displaying staffing company information -->
-<script setup>
-import { ref, onMounted, defineProps } from 'vue'
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
 
 const props = defineProps({
   staffingCompanyJsonPath: {
