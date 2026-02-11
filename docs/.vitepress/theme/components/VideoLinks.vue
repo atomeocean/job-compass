@@ -1,6 +1,5 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 
-import { defineProps, withDefaults } from 'vue'
 import { ElMessage } from 'element-plus'
 
 //  用于展示多个平台的视频链接

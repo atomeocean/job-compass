@@ -1,5 +1,5 @@
 <!-- 展示美国公司静态信息的组件 -->
-<script setup>
+<script setup lang="ts">
 import { onMounted, ref, computed } from "vue";
 import {formatAddress} from "../utils/util.ts";
 
