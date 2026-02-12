@@ -6,13 +6,15 @@ lastUpdated: 2025-09-03
 
 # Rexpand
 
-## 📌 公司信息
+## 公司信息
 
 <StaffingCompanyTable companyJsonFileName="rexpand"/>
 
-## 📢 招聘信息
+## 招聘信息
 
-## 🚢 航海日志
+## 航海日志
+
+企业微信是Rexpand美国公司
 
 ### 2024年11月
 
