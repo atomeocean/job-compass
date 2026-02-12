@@ -1,9 +1,8 @@
 ---
 title: Rexpand
 createdDate: 2024-11-25
-lastUpdated: 2025-09-03
+lastUpdated: 2026-02-12
 ---
-
 # Rexpand
 
 ## 公司信息
