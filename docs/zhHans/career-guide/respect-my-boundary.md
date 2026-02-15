@@ -3,9 +3,8 @@ title: 不要让任何人零成本接近你
 description: 成角路上注意强调服务的边界感
 outline: deep
 createdDate: 2025-07-26
-lastUpdated: 2025-09-03
+lastUpdated: 2026-02-14
 ---
-
 # 不要让任何人零成本接近你
 
 在Job Compass这个平台，我们鼓励互帮互助，但是请尊重劳动和服务的价值。
