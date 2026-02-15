@@ -29,4 +29,19 @@ lastUpdated: 2025-09-03
 
 老话说得好，闷声发大财，组织也是一个道理，当它不再低调，最好的选择就是离开。
 
-Ref: https://www.zhihu.com/question/1941204188362171758/answer/1941254022343423476
+
+<ReferenceSource
+:sources="[
+{
+title: '来到了没有知识的荒原',
+link: 'https://www.zhihu.com/question/1941204188362171758/answer/1941254022343423476',
+site: '知乎',
+author: '未知',
+date: '未知',
+category: 'Post'
+}
+]"
+/>
+
+
+> 2026-02-14: 原文已经被知乎删除
