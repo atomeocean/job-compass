@@ -1,6 +1,6 @@
 <!--全局注册element plus中的时间线组件-->
-<script lang="ts" setup>
-import { PropType, defineProps } from 'vue';
+<script setup lang="ts">
+import { PropType } from 'vue';
 
 // 时间线上每个时间点显示的内容
 // api参考 https://element-plus.org/zh-CN/component/timeline.html

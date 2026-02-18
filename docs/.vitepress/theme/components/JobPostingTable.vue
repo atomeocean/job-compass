@@ -1,5 +1,5 @@
 <!-- 展示招聘信息的组件 -->
-<script setup>
+<script setup lang="ts">
 import { onMounted, ref } from "vue";
 import { Link } from "@element-plus/icons-vue";
 

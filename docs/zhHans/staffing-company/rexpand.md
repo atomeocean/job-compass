@@ -1,18 +1,19 @@
 ---
 title: Rexpand
 createdDate: 2024-11-25
-lastUpdated: 2025-09-03
+lastUpdated: 2026-02-12
 ---
-
 # Rexpand
 
-## 📌 公司信息
+## 公司信息
 
 <StaffingCompanyTable companyJsonFileName="rexpand"/>
 
-## 📢 招聘信息
+## 招聘信息
 
-## 🚢 航海日志
+## 航海日志
+
+企业微信是Rexpand美国公司
 
 ### 2024年11月
 

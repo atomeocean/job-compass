@@ -1,19 +1,19 @@
 {
   "companyInfo": {
     "companyName": "Rexpand",
-    "foundedYear": "",
+    "foundedYear": "2022",
     "contact": {
-      "phone": "",
+      "phone": "8740415461",
       "email": "",
       "website": ""
     },
     "location": {
-      "addressLine1": "",
+      "addressLine1": "108 Lakeland Ave",
       "addressLine2": "",
       "county": "",
-      "cityOrTown": "",
-      "state": "",
-      "zipCode": ""
+      "cityOrTown": "Dover Kent",
+      "state": "DE",
+      "zipCode": "19901"
     },
     "industry": []
   },
