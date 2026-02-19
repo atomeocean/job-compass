@@ -1,0 +1,28 @@
+{
+  "company": "google", 
+  "position": {
+    "jobPostUrl": null, 
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "full time"
+  },
+  "applicationSource": {
+    "channel": "direct apply",
+    "referralDetails": "na"
+  },
+  "candidate": {
+    "education": "na",
+    "background": "26ng",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2026-1-7",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "round 1",
+        "rate": 5
+      }
+    ]
+  }
+}
