@@ -1,0 +1,29 @@
+{
+  "company": "uber",
+  "position": {
+    "jobPostUrl": null,
+    "title": "software engineer",
+    "level": "L4",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "Econ",
+    "yearsOfExperience": 3
+  },
+  "interview": {
+    "date": "2025-01-09",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "phone screen", "rate": 4 },
+      { "roundType": "virtual onsite", "rate": 4 },
+      { "roundType": "virtual onsite", "rate": 4 },
+      { "roundType": "virtual onsite", "rate": 4 },
+      { "roundType": "virtual onsite", "rate": 4 }
+    ]
+  }
+}
