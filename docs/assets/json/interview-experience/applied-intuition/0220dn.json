@@ -1,0 +1,48 @@
+{
+  "company": "applied-intuition",
+  "position": { // 职位信息
+    "jobPostUrl": null,
+    "title": "Software Engineer", // 职位名称
+    "level": "new-grad", // 职位级别，如 intern / new-grad / experienced
+    "jobType": "string" // 职位类型，如 full-time / internship / contract
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "bachelor",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2025-11",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "phone-screen",
+        "rate": 1
+      },
+      {
+        "roundType": "technical",
+        "rate": 2
+      },
+      {
+        "roundType": "onsite",
+        "rate": 5
+      },
+      {
+        "roundType": "onsite",
+        "rate": 4
+      },
+      {
+        "roundType": "onsite",
+        "rate": 3
+      },
+      {
+        "roundType": "onsite",
+        "rate": 2
+      }
+    ]
+  }
+}
