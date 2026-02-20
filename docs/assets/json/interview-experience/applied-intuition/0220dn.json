@@ -1,10 +1,10 @@
 {
   "company": "applied-intuition",
-  "position": { // 职位信息
+  "position": {
     "jobPostUrl": null,
-    "title": "Software Engineer", // 职位名称
-    "level": "new-grad", // 职位级别，如 intern / new-grad / experienced
-    "jobType": "string" // 职位类型，如 full-time / internship / contract
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "string"
   },
   "applicationSource": {
     "channel": "direct-apply",
