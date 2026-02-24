@@ -3,6 +3,7 @@ title: American DataBank
 description: American DataBank
 createdDate: 2026-02-22
 lastUpdated: 2026-02-22
+outline: deep
 ---
 # American DataBank
 
@@ -17,3 +18,5 @@ P: 303-573-4856 / 1-800-200-0853
 F: 303-573-1298
 Disahealthcare.com
 ```
+
+## 相关文章
