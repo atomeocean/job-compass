@@ -2,7 +2,7 @@
 title: 背景调查
 description: 背景调查
 createdDate: 2026-02-22
-lastUpdated: 2026-02-22
+lastUpdated: 2026-02-24
 ---
 # 背景调查：美国公司入职前的必要环节
 

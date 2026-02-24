@@ -2,7 +2,7 @@
 title: Background Check
 description: Background Check
 createdDate: 2026-02-22
-lastUpdated: 2026-02-22
+lastUpdated: 2026-02-24
 ---
 # Background Checks: A Required Step Before Joining a U.S. Company
 
