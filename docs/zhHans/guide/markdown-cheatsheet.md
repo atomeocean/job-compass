@@ -1,15 +1,16 @@
 ---
-title: Markdown 语法指南
-description: Markdown 语法指南
+title: Markdown基础语法
+description: Markdown 基础语法指南
 outline: deep
 createdDate: 2025-03-17
 lastUpdated: 2026-01-05
 ---
-# Markdown Cheatsheet
+# Markdown 基础语法指南
 
 该文档主要介绍在编写markdown文档时常用到的语法
 
 ## 标题
+
 使用 `#` 号表示标题，`#` 的数量表示标题级别。
 
 ```markdown
@@ -27,7 +28,7 @@ lastUpdated: 2026-01-05
 - *斜体*：`*斜体文本*`
 - ***加粗 + 斜体***：`***加粗斜体文本***`
 
-👉 **示例**：
+### 示例
 
 **加粗文本**  
 *斜体文本*  
@@ -46,7 +47,7 @@ lastUpdated: 2026-01-05
 2. 有序项 2
 ```
 
-👉 **示例**：
+### 示例
 - 无序项 1
 - 无序项 2
 
@@ -68,12 +69,12 @@ lastUpdated: 2026-01-05
 > 这是一个引用示例
 ```
 
-👉 **示例**：
+### 示例
 > 这是一个引用示例
 
 ## 代码块
 
-- 行内代码：使用 `\``（反引号）包裹
+- 行内代码：使用 `\`（单个反引号）包裹
 - 多行代码块：使用三个反引号 ``` 包裹
 
 ```markdown
@@ -97,10 +98,11 @@ const function = () => {
 ```markdown
 ---
 ```
-👉 **示例**：
+### 示例
 
 ---
 
-## 参考
+## 相关文章
 
 - [Markdown 语法指南](https://markdown.com.cn)
+- [Markdown进阶语法](markdown-advanced-cheatsheet.md)
