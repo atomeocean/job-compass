@@ -10,8 +10,6 @@ lastUpdated: 2025-09-03
 
 本指南将详细介绍如何注册GitHub账号，并在本地配置Git环境，以便能够使用GitHub进行代码管理。指南包括 macOS 和 Windows 两种操作系统的配置步骤。
 
-[[toc]]
-
 ## 注册 GitHub 账号
 
 1. 打开浏览器，访问 [GitHub 官网](https://github.com/)
