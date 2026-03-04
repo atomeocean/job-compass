@@ -1,11 +1,10 @@
 ---
 title: 招聘信息文档指南
 outline: deep
-lastUpdated: 2025-09-03
+lastUpdated: 2026-03-04
 description: 在job compass发布招聘信息的流程
 createdDate: 2025-03-17
 ---
-
 # Job Posting发布指南
 
 > [!CAUTION] 前置条件：请先创建面经
