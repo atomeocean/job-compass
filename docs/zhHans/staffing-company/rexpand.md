@@ -1,9 +1,11 @@
 ---
-title: Rexpand
+title: 睿智班 Rexpand
+description: 睿智班 Rexpand
 createdDate: 2024-11-25
 lastUpdated: 2026-02-12
+outline: deep
 ---
-# Rexpand
+# Rexpand 睿智班
 
 ## 公司信息
 
@@ -14,6 +16,16 @@ lastUpdated: 2026-02-12
 ## 航海日志
 
 企业微信是Rexpand美国公司
+
+### 2026年3月
+
+
+发布AI编辑的广告
+> 🔥 2月第四周 【美国招聘岗位机会】来了
+> 
+> ✨ 校招&社招 · 实习&全职岗位同步开放
+> 
+> ✅ 回复【2】，获取定制求职计划
 
 ### 2024年11月
 
