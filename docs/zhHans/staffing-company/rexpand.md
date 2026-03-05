@@ -2,7 +2,7 @@
 title: 睿智班 Rexpand
 description: 睿智班 Rexpand
 createdDate: 2024-11-25
-lastUpdated: 2026-02-12
+lastUpdated: 2026-03-05
 outline: deep
 ---
 # Rexpand 睿智班
