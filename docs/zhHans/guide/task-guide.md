@@ -1,7 +1,7 @@
 ---
 title: 任务指南
 description: 任务的指南
-lastUpdated: 2026-03-04
+lastUpdated: 2026-03-09
 outline: [2,3]
 createdDate: 2025-03-17
 ---
@@ -25,6 +25,8 @@ createdDate: 2025-03-17
 ### 加入Atomeocean Discord社区
 
 加入到我们的[discord](https://discord.gg/qTHGss8GQH)讨论社区，与广大用户及开发团队实时交流，获取最新动态与技术支援。
+
+<iframe src="https://discord.com/widget?id=1018973329937420390&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 ### Office Hour
 
