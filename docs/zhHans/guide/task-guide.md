@@ -26,6 +26,8 @@ createdDate: 2025-03-17
 
 加入到我们的[discord](https://discord.gg/qTHGss8GQH)讨论社区，与广大用户及开发团队实时交流，获取最新动态与技术支援。
 
+<iframe src="https://discord.com/widget?id=1018973329937420390&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 ### Office Hour
 
 在使用过程中遇到疑问？欢迎参加我们的[轻量工作Office Hour](https://logbook.atomeocean.com/guide/service/office-hour/staff-office-hour.html)，通过语音方式与 Atomeocean 团队直接沟通。
