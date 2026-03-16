@@ -3,13 +3,11 @@ title: GitHub网页发布PR指南
 description: 本指南详细介绍如何在GitHub网页端发布Pull Request，包括提交修改、设置 Reviewer 和 Assignees 等步骤。
 outline: deep
 createdDate: 2025-03-08
-lastUpdated: 2025-09-03
+lastUpdated: 2026-03-09
 ---
 # GitHub 网页端发布 Pull Request (PR) 指南
 
 本指南将详细介绍当用户在GitHub网页端做出内容改动后，如何将更改的内容合并到目标仓库中
-
-[[toc]]
 
 ## Commit 内容修改
 
