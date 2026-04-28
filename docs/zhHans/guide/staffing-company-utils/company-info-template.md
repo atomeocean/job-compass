@@ -1,7 +1,7 @@
 ---
 title: 劳务派遣公司信息文档模版
 createdDate: 2025-03-27
-lastUpdated: 2025-09-03
+lastUpdated: 2026-04-28
 ---
 # 劳务派遣公司信息文档模版
 
