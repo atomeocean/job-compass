@@ -147,3 +147,9 @@ scripts/utils/config.py
 
 # python cache
 __pycache__/
+
+# Python
+.venv
+
+# AI tools
+.claude

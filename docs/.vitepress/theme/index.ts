@@ -30,6 +30,7 @@ import {
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css';
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
+import RelatedArticles from "@ao-components/RelatedArticles.vue";
 
 export default {
   ...DefaultTheme,
@@ -50,6 +51,7 @@ export default {
     app.component("DocTitleMeta", DocTitleMeta);
     app.component("InterviewDetail", InterviewDetail);
     app.use(NolebaseGitChangelogPlugin);
+    app.component('RelatedArticles', RelatedArticles);
 
     // 隐藏贡献者标题
     app.provide(InjectionKey, {
