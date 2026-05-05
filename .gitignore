@@ -153,3 +153,5 @@ __pycache__/
 
 # AI tools
 .claude
+!.claude/commands/
+.minimax/*
