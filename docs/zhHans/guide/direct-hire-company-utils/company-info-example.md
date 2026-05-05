@@ -5,7 +5,6 @@ outline: deep
 createdDate: 2025-03-19
 lastUpdated: 2026-05-05
 ---
-
 # 直招公司添加完整示例
 
 本文以 **Amazon** 为例，演示如何将一家直招公司添加到 Job Compass。
