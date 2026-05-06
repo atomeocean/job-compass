@@ -65,11 +65,15 @@ features:
 createdDate: 2024-11-18
 lastUpdated: 2026-05-05
 ---
+<script setup>
+import CommunityStatistic from '@ao-components/siteStatistic/CommunityStatistic.vue'
+</script>
+
 ## Job Compass：一个开放的求职者社区
 
 Job Compass 是一个开源求职社区，致力于帮助在美国寻找工作的人获取最新的招聘信息和求职资源。这里的内容由志愿者共同维护，涵盖职位发布、面试经验、职业建议等，确保信息的开放性和透明度。
 
-目前社区已收录 **234 条招聘信息**、**99 家直招公司** 和 **13 家中介公司**，并在持续更新中。
+<CommunityStatistic :job-postings="234" :direct-hire-companies="99" :staffing-companies="13" />
 
 无论你是求职者、招聘方，还是希望贡献信息的志愿者，我们都欢迎你的加入！一起构建一个自由共享、互帮互助的求职平台。
 
