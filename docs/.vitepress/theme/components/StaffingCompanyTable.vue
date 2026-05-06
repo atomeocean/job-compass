@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue';
 import {formatAddress} from "../utils/util.ts";
+import type { StaffingCompany } from "../types/staffingCompanyTypes.ts";
 
 // 定义 props，只接收文件名
 const props = defineProps({
@@ -11,7 +12,7 @@ const props = defineProps({
 });
 
 // 用于存储公司信息数据
-const company = ref({});
+const company = ref<StaffingCompany>({});
 
 // 动态加载 JSON 文件
 const jsonModules = import.meta.glob('/zhHans/staffing-company/data/*.json');
