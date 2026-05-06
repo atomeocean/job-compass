@@ -63,7 +63,7 @@ features:
     link: /visa-solution-company/hongshu-27410952937
     linkText: 身份解决公司列表
 createdDate: 2024-11-18
-lastUpdated: 2026-05-05
+lastUpdated: 2026-05-06
 ---
 <script setup>
 import CommunityStatistic from '@ao-components/siteStatistic/CommunityStatistic.vue'
