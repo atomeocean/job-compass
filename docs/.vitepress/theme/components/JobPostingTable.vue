@@ -2,6 +2,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 import { Link } from "@element-plus/icons-vue";
+import type { JobPosting } from "../types/jobPostingTypes.ts";
 
 // 定义 props
 const props = defineProps({
@@ -12,7 +13,7 @@ const props = defineProps({
 });
 
 // 用于存储招聘信息数据
-const jobPostingInfo = ref({});
+const jobPostingInfo = ref<JobPosting>({});
 
 // 动态加载 JSON 文件
 const jsonModules = import.meta.glob("/zhHans/job-postings/*/data/*.json");
