@@ -5,15 +5,18 @@ layout: home
 hero:
   name: "Job Compass"
   text: "北美求职指南"
-  tagline: 由志愿者维护的开源求职社区，帮你在北美找到下一份工作
+  tagline: 真实面经驱动的北美求职社区，由志愿者匿名共享与维护
   image:
     # TODO: 用一个 200–400px 的方形 logo 替换 favicon（favicon 渲染在 hero 区会模糊）
     src: /favicon.ico
     alt: Job Compass
   actions:
     - theme: brand
-      text: 查看最新招聘信息
-      link: /job-postings/overview
+      text: 浏览面经
+      link: /interview-experience/
+    - theme: alt
+      text: 分享我的面经
+      link: /guide/interview-experience-utils/contributing
     - theme: alt
       text: 什么是 Job Compass
       link: /guide/overview
@@ -49,8 +52,8 @@ features:
     linkText: 开始准备面试
   - icon: 📝
     title: 面试经验
-    details: 真实面经分享，了解各公司面试流程、题型与考察重点
-    link: /guide/interview-experience-utils/essential-terms
+    details: 各公司真实面经，覆盖流程、题型与考察重点；欢迎匿名贡献
+    link: /interview-experience/
     linkText: 查看面经
   - icon: 📚
     title: 职场建议
@@ -63,15 +66,34 @@ features:
     link: /visa-solution-company/hongshu-27410952937
     linkText: 身份解决公司列表
 createdDate: 2024-11-18
-lastUpdated: 2026-05-05
+lastUpdated: 2026-05-07
 ---
+<script setup>
+import CommunityStatistic from '@ao-components/siteStatistic/CommunityStatistic.vue'
+</script>
+
 ## Job Compass：一个开放的求职者社区
 
-Job Compass 是一个开源求职社区，致力于帮助在美国寻找工作的人获取最新的招聘信息和求职资源。这里的内容由志愿者共同维护，涵盖职位发布、面试经验、职业建议等，确保信息的开放性和透明度。
+Job Compass 是一个开源求职社区，核心是社区成员匿名分享的真实面经，并配套招聘信息、内推渠道、签证身份解决方案等求职资源。所有内容由志愿者共同维护，免费、透明、开放。
 
-目前社区已收录 **234 条招聘信息**、**99 家直招公司** 和 **13 家中介公司**，并在持续更新中。
+<CommunityStatistic :job-postings="234" :direct-hire-companies="99" :staffing-companies="13" />
 
 无论你是求职者、招聘方，还是希望贡献信息的志愿者，我们都欢迎你的加入！一起构建一个自由共享、互帮互助的求职平台。
+
+## 面经专区
+
+Job Compass 的核心是社区成员匿名分享的真实面经。无论你是想看别人的面试经历，还是想分享自己的，都可以从这里开始。
+
+### 📖 我想阅读面经
+
+- [浏览全部面经（按公司分类）](/interview-experience/)
+- [求职术语速查](/guide/interview-experience-utils/essential-terms)
+
+### ✍️ 我想分享面经
+
+- [面经贡献指南](/guide/interview-experience-utils/contributing) — 流程、隐私原则、文件命名
+- [面经必填字段 / Frontmatter 模版](/guide/interview-experience-utils/requirement)
+- [Markdown 速查](/guide/markdown-cheatsheet) ・ [GitHub 入门](/guide/github-setup-guide)
 
 ## 常见问题
 
