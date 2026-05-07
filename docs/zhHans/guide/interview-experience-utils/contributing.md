@@ -2,7 +2,7 @@
 title: 贡献指南
 description: 面试经验贡献规则和流程
 createdDate: 2025-12-31
-lastUpdated: 2025-12-31
+lastUpdated: 2026-05-07
 outline: deep
 ---
 # 面试经验贡献指南
