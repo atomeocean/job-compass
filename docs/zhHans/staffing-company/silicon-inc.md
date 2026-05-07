@@ -2,7 +2,7 @@
 title: Silicon Inc
 description: 一家加州湾区ICC
 createdDate: 2026-01-20
-lastUpdated: 2026-05-05
+lastUpdated: 2026-05-07
 outline: deep
 ---
 # Silicon Inc
