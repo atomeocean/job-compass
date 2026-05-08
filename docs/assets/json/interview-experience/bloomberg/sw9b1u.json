@@ -1,0 +1,28 @@
+{
+  "company": "bloomberg",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "网上海投",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "码农类本科",
+    "background": "new graduate",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "positive",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": 4
+      }
+    ]
+  }
+}
