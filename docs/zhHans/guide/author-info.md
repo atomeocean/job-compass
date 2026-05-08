@@ -2,7 +2,7 @@
 title: 作者信息模块文档
 outline: deep
 createdDate: 2025-08-01
-lastUpdated: 2025-09-03
+lastUpdated: 2026-05-08
 ---
 
 # 作者信息模块
@@ -27,7 +27,7 @@ lastUpdated: 2025-09-03
 
 在[contributor数组中](/_data/contributors.ts)添加名字等信息
 
-```
+```ts
 {
   name: 'Jack',
   username: 'k90zz',
@@ -38,10 +38,35 @@ lastUpdated: 2025-09-03
 
 ### 手动配置模式
 
+如果页面作者不是 Git 提交者，或者需要手动指定展示顺序，可以在页面 frontmatter 中添加作者信息。组件会优先读取 `authors`，也兼容 `author` 和 `contributors`。
+
 ```markdown
 <!-- 文章Front Matter示例 -->
 authors:
   - 张三
+```
+
+如果作者已经存在于 contributor 数组中，直接写名称、GitHub 用户名或 `mapByNameAliases` 中的别名即可自动匹配头像和主页链接：
+
+```yaml
+---
+title: 示例文章
+authors:
+  - Jack
+  - BellaZ0317
+---
+```
+
+也可以在 frontmatter 中直接写完整作者信息：
+
+```yaml
+---
+title: 示例文章
+authors:
+  - name: 张三
+    avatar: https://example.com/avatar.png
+    link: https://example.com/profile
+---
 ```
 
 ### 显示效果
@@ -65,4 +90,3 @@ authors:
 1. 检查Gravatar邮箱是否匹配
 2. 确认本地头像路径正确
 3. 查看控制台网络请求
-
