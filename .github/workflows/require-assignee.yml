@@ -2,20 +2,67 @@ name: require-assignee
 
 on:
   pull_request:
-    types: [opened, edited, synchronize, assigned, unassigned]
-  pull_request_review:
-    types: [ submitted, dismissed ]
+    types: [opened, synchronize, assigned, unassigned, reopened]
   workflow_dispatch:
+
+permissions:
+  checks: write
+  pull-requests: read
+
+concurrency:
+  group: require-assignee-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check-assignee:
-    name: Require Assignee Check
     runs-on: ubuntu-latest
     steps:
-      - name: Fail if no assignee
-        run: |
-          if [ "${{ toJson(github.event.pull_request.assignees) }}" = "[]" ]; then
-            echo "❌ This PR must have at least one assignee."
-            exit 1
-          fi
-          echo "✅ Assignee exists."
+      - name: Upsert assignee check run
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            if (!pr) return;
+            const sha = pr.head.sha;
+            const name = 'Require Assignee Check';
+            const hasAssignee = (pr.assignees || []).length > 0;
+            const conclusion = hasAssignee ? 'success' : 'failure';
+            const summary = hasAssignee
+              ? 'Assignee present.'
+              : 'This PR must have at least one assignee before it can be merged.';
+
+            const { data: { check_runs } } = await github.rest.checks.listForRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: sha,
+              check_name: name,
+            });
+
+            const base = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name,
+              head_sha: sha,
+              status: 'completed',
+              conclusion,
+              output: { title: name, summary },
+            };
+
+            if (check_runs.length > 0) {
+              await github.rest.checks.update({
+                ...base,
+                check_run_id: check_runs[0].id,
+              });
+              for (const stale of check_runs.slice(1)) {
+                await github.rest.checks.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  check_run_id: stale.id,
+                  status: 'completed',
+                  conclusion: 'neutral',
+                  output: { title: name, summary: 'Superseded by latest assignee check.' },
+                });
+              }
+            } else {
+              await github.rest.checks.create(base);
+            }
