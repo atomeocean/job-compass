@@ -1,0 +1,40 @@
+{
+  "company": "google",
+  "position": {
+    "jobPostUrl": null,
+    "title": "AI/ML Engineer",
+    "level": "l4",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "waitlist",
+    "rounds": [
+      {
+        "roundType": "behavioral",
+        "rate": 4
+      },
+      {
+        "roundType": "technical",
+        "rate": 4
+      },
+      {
+        "roundType": "technical",
+        "rate": 3
+      },
+      {
+        "roundType": "technical",
+        "rate": 3
+      }
+    ]
+  }
+}
