@@ -1,0 +1,28 @@
+{
+  "company": "walmart labs",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Mobile Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "online-application",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "oa",
+        "rate": 3
+      }
+    ]
+  }
+}
