@@ -1,0 +1,28 @@
+{
+  "company": "capital one",
+  "position": {
+    "jobPostUrl": null,
+    "title": "",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "online-assessment",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "oa",
+        "rate": 2
+      }
+    ]
+  }
+}
