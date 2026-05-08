@@ -1,0 +1,40 @@
+{
+  "company": "GEICO",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Senior Applied AI Engineer",
+    "level": "senior",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "passed",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": 4
+      },
+      {
+        "roundType": "technical",
+        "rate": 5
+      },
+      {
+        "roundType": "system-design",
+        "rate": 5
+      },
+      {
+        "roundType": "behavioral",
+        "rate": 5
+      }
+    ]
+  }
+}
