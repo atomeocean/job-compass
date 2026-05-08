@@ -1,4 +1,4 @@
-import { computed, type ComputedRef } from 'vue'
+import { computed, watch, type ComputedRef } from 'vue'
 import { useData } from 'vitepress'
 import { useChangelog } from '@nolebase/vitepress-plugin-git-changelog/client'
 import {
@@ -25,6 +25,11 @@ export function useContributors(): UseContributorsReturn {
 
   // 使用页面路径作为 key，确保每次路由切换都重新渲染组件
   const componentKey = computed(() => page.value.relativePath)
+
+  // 路由切换时重新拉取 git changelog 作者数据
+  watch(componentKey, () => {
+    useHmr()
+  })
 
   const frontmatterAuthors = computed<FrontmatterAuthor[]>(() => {
     const fm = page.value.frontmatter ?? {}
