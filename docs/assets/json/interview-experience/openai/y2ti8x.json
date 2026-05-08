@@ -1,0 +1,28 @@
+{
+  "company": "Open AI",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Machine Learning Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "内推",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "phd",
+    "background": "在职跳槽",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": 3
+      }
+    ]
+  }
+}
