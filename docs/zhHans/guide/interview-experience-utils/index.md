@@ -1,6 +1,8 @@
 ---
-title: 面试经验辅助文档
+title: 面经投稿手册
 createdDate: 2026-05-05
 lastUpdated: 2026-05-05
 ---
-用于在 Job Compass 中贡献面试经验的辅助文档与模版。
+# Job Compass面经投稿手册
+
+投稿前必读：汇总向 Job Compass 投稿面经所需的贡献指南、内容要求与常用术语对照。
