@@ -1,3 +1,7 @@
+---
+lastUpdated: 2026-05-08
+---
+
 # AGENTS.md
 
 This file gives Codex and other coding agents project-specific guidance for working in this repository. Codex reads repo guidance from `AGENTS.md`, so keep durable project rules here.
