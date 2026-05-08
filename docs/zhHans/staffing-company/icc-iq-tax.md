@@ -2,7 +2,7 @@
 title: 违约金是强迫贷款
 description: ICC/CCC的违约金是强迫贷款
 outline: deep
-lastUpdated: 2025-09-03
+lastUpdated: 2026-05-08
 createdDate: 2025-04-25
 ---
 # ICC/CCC的违约金是强迫贷款
