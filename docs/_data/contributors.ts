@@ -102,6 +102,14 @@ export const contributors : Contributor[] = [
     name: 'Mark',
     username: 'nepalter',
   },
+  {
+    name: 'Sung',
+    username: 'Zzzsbbb',
+    title: 'Software Engineer',
+    links: [
+      { type: '', icon: 'github', link: 'https://github.com/Zzzsbbb' }
+    ]
+  },
 
   // Ai助手
   {
