@@ -97,6 +97,11 @@ lastUpdated: YYYY-MM-DD
 - Prefer existing Element Plus patterns already used in the theme.
 - Keep business/data transformation logic in utilities or composables when it is shared.
 - Register globally used components through the existing theme entry pattern.
+- Keep Vue components thin and presentational when possible. Put page/runtime state coordination in `docs/.vitepress/theme/composables/`, and pure normalization, matching, sorting, or data transformation helpers in `docs/.vitepress/theme/utils/`.
+- For theme UI, prefer Element Plus components such as `el-space`, `el-link`, `el-avatar`, `el-text`, buttons, tags, tables, and form controls over raw HTML when an Element Plus component fits the job.
+- Prefer `@ao-` aliases for theme imports instead of long relative paths.
+- For route-dependent theme logic that reads VitePress `page` data or Nolebase git changelog data, explicitly handle route changes, for example by watching a page-relative key and refreshing derived data.
+- For multilingual names or initials, use Unicode-safe string handling such as `Array.from(value)[0]` instead of `charAt(0)`.
 
 ## Path Aliases
 

@@ -78,6 +78,14 @@ All aliases use the `@ao-` prefix (short for AtomOcean):
 - Define props explicitly with types
 - Keep components single-responsibility; no complex business logic inside components
 
+### SSR + SPA navigation gotchas
+
+These bite at runtime only — `npm run docs:build` passes even when broken. Always test with `npm run docs:dev` and click between pages before declaring done.
+
+- **Don't use `<component :is="'el-link'">` (or other Element Plus tags) in templates that render via SSR.** Vue's hydration resolves the dynamic component differently than the SSR pass for globally-registered Element Plus components, causing a hydration mismatch. The user sees a "blink and disappear" — SSR HTML flashes, then Vue discards it and re-renders client-side with empty data. Stick to static `v-if` / `v-else` branches.
+- **`useChangelog()` from `@nolebase/vitepress-plugin-git-changelog/client` does not auto-refresh on SPA navigation.** Calling `useHmr()` once in `onMounted` is not enough. Add `watch(() => page.value.relativePath, () => useHmr())` so the git author data re-fetches on every route change. Without it, navigating from page A to page B shows stale or empty contributors until the user manually refreshes.
+- **Keep `:key="page.value.relativePath"` on the root container of any v-for that depends on per-page data** (see `ContributorWrapper.vue`). It forces the v-for subtree to rebuild on route change. Removing it as "redundant" breaks SPA navigation.
+
 ## Critical Constraints
 
 - **Never modify `docs/_*` directories** (e.g., `docs/_data/`) — these are auto-synced by CI workflows
