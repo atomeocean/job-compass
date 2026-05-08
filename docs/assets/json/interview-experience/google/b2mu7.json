@@ -1,0 +1,28 @@
+{
+  "company": "google",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "internal referral"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": 4
+      }
+    ]
+  }
+}
