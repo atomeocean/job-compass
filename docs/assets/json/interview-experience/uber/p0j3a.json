@@ -1,0 +1,28 @@
+{
+  "company": "uber",
+  "position": {
+    "jobPostUrl": null,
+    "title": "",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "online-application",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "oa",
+        "rate": 3
+      }
+    ]
+  }
+}
