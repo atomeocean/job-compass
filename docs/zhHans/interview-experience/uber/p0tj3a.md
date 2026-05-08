@@ -30,8 +30,6 @@ outline: deep
 
 - **最终结果**：未知
 
-## 原文链接
-
 <ReferenceSource
 :sources="[
 {
