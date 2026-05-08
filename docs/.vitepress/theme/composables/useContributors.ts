@@ -16,14 +16,15 @@ export interface UseContributorsReturn {
   getDisplayName: (author: DisplayAuthor) => string
   getAvatarFallback: (author: DisplayAuthor) => string
   useHmr: () => void
-  pagePath: ComputedRef<string>
+  componentKey: ComputedRef<string>
 }
 
 export function useContributors(): UseContributorsReturn {
   const { page, lang } = useData()
   const { authors: gitAuthors, useHmr } = useChangelog()
 
-  const pagePath = computed(() => page.value.relativePath)
+  // 使用页面路径作为 key，确保每次路由切换都重新渲染组件
+  const componentKey = computed(() => page.value.relativePath)
 
   const frontmatterAuthors = computed<FrontmatterAuthor[]>(() => {
     const fm = page.value.frontmatter ?? {}
@@ -52,5 +53,5 @@ export function useContributors(): UseContributorsReturn {
   const getAvatarFallback = (author: DisplayAuthor): string =>
     (Array.from(getDisplayName(author))[0] ?? '').toUpperCase()
 
-  return { displayAuthors, getDisplayName, getAvatarFallback, useHmr, pagePath }
+  return { displayAuthors, getDisplayName, getAvatarFallback, useHmr, componentKey }
 }

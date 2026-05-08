@@ -2,7 +2,7 @@
   import { onMounted } from 'vue'
   import { useContributors } from '@ao-composables/useContributors'
 
-  const { displayAuthors, getDisplayName, getAvatarFallback, useHmr, pagePath } = useContributors()
+  const { displayAuthors, getDisplayName, getAvatarFallback, useHmr, componentKey } = useContributors()
 
   onMounted(() => {
     useHmr()
@@ -11,30 +11,49 @@
 
 <template>
   <el-space
-    :key="pagePath"
+    :key="componentKey"
     wrap
     :size="16"
     class="contributor-container vp-nolebase-git-changelog vp-nolebase-git-changelog-contributors vp-nolebase-git-changelog-contributors-container vp-nolebase-git-changelog-contributors-list"
   >
-    <component
-      :is="author.url ? 'el-link' : 'el-space'"
+    <template
       v-for="author of displayAuthors"
       :key="author.name"
-      v-bind="author.url
-        ? { href: author.url, underline: false, class: 'contributor-link no-icon' }
-        : { size: 8, class: 'contributor-item' }"
     >
-      <el-avatar
-        :size="32"
-        :src="author.avatarUrl"
-        :alt="`The avatar of contributor named as ${getDisplayName(author)}`"
+      <el-link
+        v-if="author.url"
+        :href="author.url"
+        :underline="false"
+        class="contributor-link no-icon"
       >
-        {{ getAvatarFallback(author) }}
-      </el-avatar>
-      <el-text class="contributor-name">
-        {{ getDisplayName(author) }}
-      </el-text>
-    </component>
+        <el-avatar
+          :size="32"
+          :src="author.avatarUrl"
+          :alt="`The avatar of contributor named as ${getDisplayName(author)}`"
+        >
+          {{ getAvatarFallback(author) }}
+        </el-avatar>
+        <el-text class="contributor-name">
+          {{ getDisplayName(author) }}
+        </el-text>
+      </el-link>
+      <el-space
+        v-else
+        :size="8"
+        class="contributor-item"
+      >
+        <el-avatar
+          :size="32"
+          :src="author.avatarUrl"
+          :alt="`The avatar of contributor named as ${getDisplayName(author)}`"
+        >
+          {{ getAvatarFallback(author) }}
+        </el-avatar>
+        <el-text class="contributor-name">
+          {{ getDisplayName(author) }}
+        </el-text>
+      </el-space>
+    </template>
   </el-space>
 </template>
 
