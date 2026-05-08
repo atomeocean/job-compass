@@ -1,11 +1,13 @@
 ---
-title: 面经需求
-description: 面试经验相关需求
+title: 面经需求讨论
+description: 面试经验相关需求讨论
 outline: deep
 createdDate: 2025-09-27
 lastUpdated: 2025-09-27
 ---
-# 面经需求
+# 面经需求讨论
+
+收集整理在查看面试经验时，大家都在关注哪些信息
 
 ## Metadata
 
