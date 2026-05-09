@@ -3,22 +3,13 @@ import { wechatIconSvg } from '../assets/svg/icon-svg';
 
 // 配置常量
 const CONFIG = {
-  baseAvatarUrl: 'https://atomeocean.cn/contributor-avatar/',
-  transparentImageBase: 'https://jpqae.atomeocean.com/transparent-image/',
+  defaultAvatarUrl: 'https://github.com/atomeocean.png',
   defaultOrg: 'Atomeocean',
   defaultOrgLink: 'https://github.com/atomeocean',
   defaultTitle: {
     contributor: 'Contributor',
   }
 } as const;
-
-// 获取头像工具函数
-const createAvatarUrl = (filename: string): string =>
-  `${CONFIG.baseAvatarUrl}${filename}`;
-
-// 获取自定义的头像
-const createTransparentImageUrl = (filename: string): string =>
-  `${CONFIG.transparentImageBase}${filename}`;
 
 // 获取GitHub头像的工具函数
 const createGitHubAvatarUrl = (username: string): string =>
@@ -30,68 +21,12 @@ const SOCIAL_LINKS = {
   linkedin: (profile: string) => `https://www.linkedin.com/in/${profile}/`,
 } as const;
 
-// 头像映射 - 按类型分组
-const AVATARS = {
-  // 自定义头像
-  custom: {
-    bojian: createTransparentImageUrl('1733688898896OWxCKG.webp'),
-    colton: createTransparentImageUrl('2024%2012%2010HejwgY.webp'),
-    dong: createTransparentImageUrl('2024%2012%2010xjZznz.webp'),
-    hanyu: createTransparentImageUrl('2024%2012%2011gEwzwU.webp'),
-    kan: createTransparentImageUrl('2024%2012%2011O63nGE.webp'),
-    kairui: createTransparentImageUrl('2024%2012%2011nl0IIB.webp'),
-    sarah: createTransparentImageUrl('1733689178757gY5XCe.webp'),
-  },
-  // 标准头像文件
-  standard: {
-    icho: 'icho-c-1718674796891.jpeg',
-    jack: 'atomeocean-jack-avatar.webp',
-    jiaqiM: 'jiaqi-m-1643255934632.webp',
-    junming: 'junming-w-1669263049522.jpeg',
-    mark: 'yunqiao-c-1680409444439.jpeg',
-    matthewMa: 'matthew-ma-avatar-162120241.webp',
-    meimei: 'meimei-z-1716062173318.jpeg',
-    nora: 'nora-r-1676860785162.jpeg',
-    patricia: 'yunhe-l-1681166636013.jpeg',
-    vicky: 'jiaqi-z-1690831788315.jpeg',
-    xiongchang: 'xiongchang-l-1729988926497.jpeg',
-    xucheng: 'xucheng-w-avatar-12051205.webp',
-    yining: 'yining-w-8564254687616545.webp',
-    zheng: 'zheng-f-1720891325466.jpeg',
-    zijian: 'zijian-x-1664983914608.jpeg',
-    zuchuan: 'zuchuan-l-1730162058954.jpeg',
-  },
-  // Atomeocean默认头像
-  default: 'default-contributor-avatar.webp'
-} as const;
-
 // 获取头像URL的统一函数
 const getAvatarUrl = (contributor: Contributor): string => {
   const { avatar, username } = contributor;
-  if (!avatar) {
-    // 如果没有avatar属性，使用GitHub头像
-    if (username) {
-      return createGitHubAvatarUrl(username);
-    }
-    else {
-      // 如果没有username，返回默认头像
-      return createAvatarUrl(AVATARS.default);
-    }
-  }
-  else {
-    if (/^https?:\/\//.test(avatar)) {
-      return avatar;
-    }
-    // 处理自定义头像
-    if (AVATARS.custom[avatar as keyof typeof AVATARS.custom]) {
-      return AVATARS.custom[avatar as keyof typeof AVATARS.custom];
-    }
-    // 拼接标准头像URL
-    if (AVATARS.standard[avatar as keyof typeof AVATARS.standard]) {
-      return createAvatarUrl(AVATARS.standard[avatar as keyof typeof AVATARS.standard]);
-    }
-    return createAvatarUrl(avatar);
-  }
+  if (avatar && /^https?:\/\//.test(avatar)) return avatar;
+  if (username) return createGitHubAvatarUrl(username);
+  return CONFIG.defaultAvatarUrl;
 };
 
 /**
@@ -107,7 +42,6 @@ export const contributors : Contributor[] = [
     name: 'Bojian',
     username: 'bojianwangny',
     mapByNameAliases: ['Bojian Wang'],
-    avatar: 'bojian',
     title: 'Developer',
     links: [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('bojianwangny') },
@@ -117,7 +51,6 @@ export const contributors : Contributor[] = [
     name: 'Jack',
     username: 'k90zz',
     mapByNameAliases: ['atomeocean jack6', 'jack6'],
-    avatar: 'jack',
     title: 'Developer',
     links: [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('k90zz') },
@@ -137,7 +70,6 @@ export const contributors : Contributor[] = [
     name: 'Colton',
     username: 'tengtianxiang',
     mapByNameAliases: ['Colton Teng'],
-    avatar: 'colton',
     title: 'Product Manager',
     desc: 'work in nyc',
     links: [
@@ -156,7 +88,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Mark',
     username: 'nepalter',
-    avatar: 'mark',
     title: 'Developer',
     desc: 'work in Oregon',
     links: [
@@ -175,7 +106,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Sarah',
     username: 'sarahsalad',
-    avatar: 'sarah',
     links: [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('sarahsalad') },
       { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('siheng-yu-5607a2138') },
@@ -184,7 +114,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Yining',
     username: 'yining1215',
-    avatar: 'yining',
     title: 'Developer',
     links: [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('yining1215') },
@@ -218,7 +147,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Kan',
     username: 'KanZhou0412',
-    avatar: 'kan',
     title: 'Developer',
     desc: '工作地点：新泽西',
     links: [
@@ -229,7 +157,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Leo',
     username: 'orochileo',
-    avatar: 'zuchuan',
     title: 'Developer',
     desc: 'work in California',
     links: [
@@ -240,7 +167,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Xiongchang',
     username: 'liu-xiongchang',
-    avatar: 'xiongchang',
     title: 'Developer',
     desc: 'work in Maryland',
     links: [
@@ -251,7 +177,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Xucheng(Shawn)',
     username: 'fakeple',
-    avatar: 'xucheng',
     title: 'Developer',
     desc: 'work in Washington',
     links: [
@@ -262,7 +187,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Dong',
     username: 'DongHuang7',
-    avatar: 'dong',
     title: 'Developer',
     desc: 'work in Texas',
     links: [
@@ -271,14 +195,13 @@ export const contributors : Contributor[] = [
   },
   {
     name: 'Hanyu',
-    avatar: 'hanyu',
     links: [
       { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('hanyu-wang-89206b21b') },
     ],
   },
   {
     name: 'Icho',
-    avatar: 'icho',
+    username: 'icho2021',
     title: 'Data analyst',
     links: [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('icho2021') },
@@ -297,7 +220,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Kairui Yin',
     username: 'KyrieYin',
-    avatar: 'kairui',
     title: 'Developer',
     links: [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('KyrieYin') },
@@ -307,7 +229,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Nora',
     username: 'NoraRen0523',
-    avatar: 'nora',
     title: 'Developer',
     links: [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('NoraRen0523') },
@@ -326,7 +247,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Junming',
     username: 'junwu168',
-    avatar: 'junming',
     title: 'Developer',
     org: 'UIUC',
     orgLink: 'https://illinois.edu/',
@@ -337,7 +257,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Jiaqi',
     username: 'jiaqima1110',
-    avatar: 'jiaqiM',
     title: 'Developer',
     desc: 'Fight On!',
     links: [
@@ -346,7 +265,6 @@ export const contributors : Contributor[] = [
   },
   {
     name: 'Vicky',
-    avatar: 'vicky',
     title: 'Data analyst',
     desc: 'North Carolina',
     links: [
@@ -356,7 +274,6 @@ export const contributors : Contributor[] = [
   {
     name: 'Matthew Ma',
     username: 'matthewmavp',
-    avatar: 'matthewMa',
     desc: '这是一段难忘的旅程',
     links: [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('matthewmavp') },
