@@ -4,6 +4,9 @@ description: Open AI MachineLearningEng技术电面
 createdDate: 2026-05-08
 lastUpdated: 2026-05-08
 outline: deep
+authors:
+  - name: Sung
+  - name: Patricia
 ---
 # Open AI公司 Machine Learning Eng技术电面经验
 

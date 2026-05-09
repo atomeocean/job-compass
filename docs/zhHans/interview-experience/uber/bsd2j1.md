@@ -4,8 +4,12 @@ description: Uber Software Engineer面试经验
 createdDate: 2026-05-08
 lastUpdated: 2026-05-08
 outline: deep
+authors:
+  - name: Sung
+  - name: Shuangshuang
+  - name: Matthew Ma
 ---
-# Uber公司Software Engineer面试经验
+# Uber Software Engineer面试经验
 
 <InterviewDetail />
 

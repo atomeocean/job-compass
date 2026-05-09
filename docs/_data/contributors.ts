@@ -1,10 +1,9 @@
 import type { Contributor } from '../types';
+import { wechatIconSvg } from '../assets/svg/icon-svg';
 
 // 配置常量
 const CONFIG = {
-  baseAvatarUrl: 'https://atomeocean.cn/contributor-avatar/',
-  defaultAvatarUrl: 'default-contributor-avatar.webp',
-  transparentImageBase: 'https://jpqae.atomeocean.com/transparent-image/',
+  defaultAvatarUrl: 'https://github.com/atomeocean.png',
   defaultOrg: 'Atomeocean',
   defaultOrgLink: 'https://github.com/atomeocean',
   defaultTitle: {
@@ -12,56 +11,22 @@ const CONFIG = {
   }
 } as const;
 
-// 获取头像工具函数
-const createAvatarUrl = (filename: string): string =>
-  `${CONFIG.baseAvatarUrl}${filename}`;
-
-// 获取自定义的头像
-const createTransparentImageUrl = (filename: string): string =>
-  `${CONFIG.transparentImageBase}${filename}`;
-
 // 获取GitHub头像的工具函数
 const createGitHubAvatarUrl = (username: string): string =>
   `https://github.com/${username}.png`
 
-// 头像映射 - 按类型分组
-const AVATARS = {
-  // 自定义头像
-  custom: {
-    colton: createTransparentImageUrl('2024%2012%2010HejwgY.webp'),
-  },
-  // 标准头像文件
-  standard: {
-    jack: 'atomeocean-jack-avatar.webp',
-  },
-  // Atomeocean默认头像
-  default: 'default-contributor-avatar.webp'
+// 抽取社交链接的重复部分
+const SOCIAL_LINKS = {
+  github: (username: string) => `https://github.com/${username}`,
+  linkedin: (profile: string) => `https://www.linkedin.com/in/${profile}/`,
 } as const;
 
 // 获取头像URL的统一函数
 const getAvatarUrl = (contributor: Contributor): string => {
   const { avatar, username } = contributor;
-  if (!avatar) {
-    // 如果没有avatar属性，使用GitHub头像
-    if (username) {
-      return createGitHubAvatarUrl(username);
-    }
-    else {
-      // 如果没有username，返回默认头像
-      return createAvatarUrl(AVATARS.default);
-    }
-  }
-  else {
-    // 处理自定义头像
-    if (AVATARS.custom[avatar as keyof typeof AVATARS.custom]) {
-      return AVATARS.custom[avatar as keyof typeof AVATARS.custom];
-    }
-    // 拼接标准头像URL
-    if (AVATARS.standard[avatar as keyof typeof AVATARS.standard]) {
-      return createAvatarUrl(AVATARS.standard[avatar as keyof typeof AVATARS.standard]);
-    }
-    return createAvatarUrl(AVATARS.default);
-  }
+  if (avatar && /^https?:\/\//.test(avatar)) return avatar;
+  if (username) return createGitHubAvatarUrl(username);
+  return CONFIG.defaultAvatarUrl;
 };
 
 /**
@@ -77,11 +42,19 @@ export const contributors : Contributor[] = [
     name: 'Bojian',
     username: 'bojianwangny',
     mapByNameAliases: ['Bojian Wang'],
+    title: 'Developer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('bojianwangny') },
+    ],
   },
   {
     name: 'Jack',
     username: 'k90zz',
     mapByNameAliases: ['atomeocean jack6', 'jack6'],
+    title: 'Developer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('k90zz') },
+    ],
   },
   {
     name: 'Bella',
@@ -89,27 +62,227 @@ export const contributors : Contributor[] = [
     title: 'Software Engineer',
     desc: 'work in PA',
     mapByNameAliases: ['Bella Zhong'],
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('BellaZ0317') },
+    ],
   },
   {
     name: 'Colton',
     username: 'tengtianxiang',
+    mapByNameAliases: ['Colton Teng'],
+    title: 'Product Manager',
+    desc: 'work in nyc',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('tengtianxiang') },
+      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('colton-teng-916419265') },
+      { type: 'wechat', icon: { svg: wechatIconSvg }, link: 'https://logbook.atomeocean.com/about-us/contact.html#colton' },
+    ],
   },
   {
     name: 'Han',
     username: 'MHeartSutra',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('MHeartSutra') },
+    ],
   },
   {
     name: 'Mark',
     username: 'nepalter',
+    title: 'Developer',
+    desc: 'work in Oregon',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('nepalter') }
+    ],
   },
-
-  // Ai助手
+  {
+    name: 'Sung',
+    username: 'Zzzsbbb',
+    title: 'Software Engineer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('Zzzsbbb') },
+    ],
+  },
+  {
+    name: 'Sarah',
+    username: 'sarahsalad',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('sarahsalad') }
+    ],
+  },
+  {
+    name: 'Yining',
+    username: 'yining1215',
+    title: 'Developer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('yining1215') },
+    ],
+  },
+  {
+    name: 'Shuangshuang',
+    username: 'sxiao23',
+    title: 'Developer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('sxiao23') },
+    ],
+  },
+  {
+    name: 'Oliver',
+    username: 'olivertang40',
+    title: 'Developer',
+    desc: 'work in Texas',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('olivertang40') },
+      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('oliver40') },
+    ],
+  },
+  {
+    name: 'Haoyu',
+    username: 'vacantfury',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('vacantfury') },
+    ],
+  },
+  {
+    name: 'Kan',
+    username: 'KanZhou0412',
+    title: 'Developer',
+    desc: '工作地点：新泽西',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('KanZhou0412') }
+    ],
+  },
+  {
+    name: 'Leo',
+    username: 'orochileo',
+    title: 'Developer',
+    desc: 'work in California',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('orochileo') }
+    ],
+  },
+  {
+    name: 'Xiongchang',
+    username: 'liu-xiongchang',
+    title: 'Developer',
+    desc: 'work in Maryland',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('liu-xiongchang') }
+    ],
+  },
+  {
+    name: 'Xucheng(Shawn)',
+    username: 'fakeple',
+    title: 'Developer',
+    desc: 'work in Washington',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('fakeple') }
+    ],
+  },
+  {
+    name: 'Dong',
+    username: 'DongHuang7',
+    title: 'Developer',
+    desc: 'work in Texas',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('DongHuang7') },
+    ],
+  },
+  {
+    name: 'Hanyu',
+    links: [
+      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('hanyu-wang-89206b21b') },
+    ],
+  },
+  {
+    name: 'Icho',
+    username: 'icho2021',
+    title: 'Data analyst',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('icho2021') }
+    ],
+  },
+  {
+    name: 'Dr Travis',
+    username: 'ckc035',
+    avatar: 'https://www.github.com/ckc035.png',
+    title: 'Developer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('ckc035') },
+    ],
+  },
+  {
+    name: 'Kairui Yin',
+    username: 'KyrieYin',
+    title: 'Developer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('KyrieYin') }
+    ],
+  },
+  {
+    name: 'Nora',
+    username: 'NoraRen0523',
+    title: 'Developer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('NoraRen0523') },
+      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('xue-r-05286a1b5') },
+    ],
+  },
+  {
+    name: 'Patricia',
+    username: 'Patricia011004',
+    avatar: 'https://www.github.com/Patricia011004.png',
+    title: 'Developer',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('Patricia011004') },
+    ],
+  },
+  {
+    name: 'Junming',
+    username: 'junwu168',
+    title: 'Developer',
+    org: 'UIUC',
+    orgLink: 'https://illinois.edu/',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('junwu168') },
+    ],
+  },
+  {
+    name: 'Jiaqi',
+    username: 'jiaqima1110',
+    title: 'Developer',
+    desc: 'Fight On!',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('jiaqima1110') },
+    ],
+  },
+  {
+    name: 'Vicky',
+    title: 'Data analyst',
+    desc: 'North Carolina',
+    links: [
+      { type: 'linkedin', icon: 'linkedin', link: 'https://www.linkedin.com/in/jiaqi-vicky-zhang/' },
+    ],
+  },
+  {
+    name: 'Matthew Ma',
+    username: 'matthewmavp',
+    desc: '这是一段难忘的旅程',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('matthewmavp') },
+    ],
+  },
+  {
+    name: 'Xuanwei',
+    username: 'winkywong1998',
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('winkywong1998') },
+    ],
+  },
   {
     name: 'copilot',
     username: 'Copilot',
-    avatar: 'https://atomeocean.cn/contributor-avatar/default-contributor-avatar.webp',
     links: [
-      { type: '', icon: 'github', link: 'https://github.com/atomeocean' }
+      { type: 'github', icon: 'github', link: CONFIG.defaultOrgLink }
     ]
   },
 ].map((contributor: Contributor) => ({
