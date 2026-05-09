@@ -91,8 +91,7 @@ export const contributors : Contributor[] = [
     title: 'Developer',
     desc: 'work in Oregon',
     links: [
-      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('nepalter') },
-      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('yunqiao-cai-51b4bb135') },
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('nepalter') }
     ],
   },
   {
@@ -107,8 +106,7 @@ export const contributors : Contributor[] = [
     name: 'Sarah',
     username: 'sarahsalad',
     links: [
-      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('sarahsalad') },
-      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('siheng-yu-5607a2138') },
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('sarahsalad') }
     ],
   },
   {
@@ -150,8 +148,7 @@ export const contributors : Contributor[] = [
     title: 'Developer',
     desc: '工作地点：新泽西',
     links: [
-      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('KanZhou0412') },
-      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('kan-karen-zhou') },
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('KanZhou0412') }
     ],
   },
   {
@@ -160,8 +157,7 @@ export const contributors : Contributor[] = [
     title: 'Developer',
     desc: 'work in California',
     links: [
-      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('orochileo') },
-      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('zuchuan-liao') },
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('orochileo') }
     ],
   },
   {
@@ -170,8 +166,7 @@ export const contributors : Contributor[] = [
     title: 'Developer',
     desc: 'work in Maryland',
     links: [
-      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('liu-xiongchang') },
-      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('xiongchang-liu-825238252') },
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('liu-xiongchang') }
     ],
   },
   {
@@ -180,8 +175,7 @@ export const contributors : Contributor[] = [
     title: 'Developer',
     desc: 'work in Washington',
     links: [
-      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('fakeple') },
-      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('xucheng-wang-732a97262') },
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('fakeple') }
     ],
   },
   {
@@ -204,8 +198,7 @@ export const contributors : Contributor[] = [
     username: 'icho2021',
     title: 'Data analyst',
     links: [
-      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('icho2021') },
-      { type: 'linkedin', icon: 'linkedin', link: 'https://www.linkedin.com/in/ichochoi/' },
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('icho2021') }
     ],
   },
   {
@@ -222,8 +215,7 @@ export const contributors : Contributor[] = [
     username: 'KyrieYin',
     title: 'Developer',
     links: [
-      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('KyrieYin') },
-      { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('kairuiyin') },
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('KyrieYin') }
     ],
   },
   {
