@@ -2,7 +2,7 @@
 title: Amazon
 outline: deep
 createdDate: 2025-03-19
-lastUpdated: 2026-05-12
+lastUpdated: 2026-05-13
 ---
 # Amazon
 
