@@ -9,60 +9,59 @@ permissions:
   checks: write
   pull-requests: read
 
-concurrency:
-  group: require-assignee-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: true
-
 jobs:
   check-assignee:
     runs-on: ubuntu-latest
     steps:
-      - name: Upsert assignee check run
+      - name: Create assignee check run
         uses: actions/github-script@v7
         with:
           script: |
-            const pr = context.payload.pull_request;
-            if (!pr) return;
-            const sha = pr.head.sha;
+            const payloadPr = context.payload.pull_request;
+            if (!payloadPr) return;
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const sha = payloadPr.head.sha;
             const name = 'Require Assignee Check';
+            const { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: payloadPr.number,
+            });
+
             const hasAssignee = (pr.assignees || []).length > 0;
             const conclusion = hasAssignee ? 'success' : 'failure';
             const summary = hasAssignee
               ? 'Assignee present.'
               : 'This PR must have at least one assignee before it can be merged.';
 
-            const { data: { check_runs } } = await github.rest.checks.listForRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: sha,
-              check_name: name,
-            });
-
-            const base = {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
+            const { data: latest } = await github.rest.checks.create({
+              owner,
+              repo,
               name,
               head_sha: sha,
               status: 'completed',
               conclusion,
               output: { title: name, summary },
-            };
+            });
 
-            if (check_runs.length > 0) {
+            const checkRuns = await github.paginate(github.rest.checks.listForRef, {
+              owner,
+              repo,
+              ref: sha,
+              check_name: name,
+              filter: 'all',
+              per_page: 100,
+            });
+
+            for (const stale of checkRuns.filter((checkRun) => checkRun.id !== latest.id)) {
               await github.rest.checks.update({
-                ...base,
-                check_run_id: check_runs[0].id,
+                owner,
+                repo,
+                check_run_id: stale.id,
+                status: 'completed',
+                conclusion: 'neutral',
+                output: { title: name, summary: 'Superseded by latest assignee check.' },
               });
-              for (const stale of check_runs.slice(1)) {
-                await github.rest.checks.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  check_run_id: stale.id,
-                  status: 'completed',
-                  conclusion: 'neutral',
-                  output: { title: name, summary: 'Superseded by latest assignee check.' },
-                });
-              }
-            } else {
-              await github.rest.checks.create(base);
             }
