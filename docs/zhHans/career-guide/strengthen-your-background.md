@@ -2,7 +2,7 @@
 title: 强化你的背景
 description: 职场中要强化你的背景
 outline: deep
-lastUpdated: 2026-05-18
+lastUpdated: 2026-05-21
 createdDate: 2025-07-22
 authors:
   - Mark
