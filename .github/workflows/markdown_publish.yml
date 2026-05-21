@@ -13,14 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Send Discord Notification
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}  # 使用 GitHub Secrets 存储 Webhook URL
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          curl -H "Content-Type: application/json" -X POST -d '{
-            "username": "Job Compass Github Bot",
-            "avatar_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-            "content": "**📢 New update in repository!**\n\n🚀 Repository: **${{ github.repository }}**\n🔄 Commit: `${{ github.sha }}`\n📝 [View changes](https://github.com/${{ github.repository }}/commit/${{ github.sha }})"
-          }' $DISCORD_WEBHOOK
+          python3 -m pip install --quiet requests
+          python3 scripts/send_discord_push_notification.py
