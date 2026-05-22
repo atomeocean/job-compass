@@ -1,7 +1,7 @@
 ---
 title: 劣币驱逐良币
 createdDate: 2025-11-17
-lastUpdated: 2025-11-17
+lastUpdated: 2026-05-22
 outline: deep
 ---
 # 劣币驱逐良币

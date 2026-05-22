@@ -6,6 +6,8 @@ authors:
   - Kevin
   - Xiongchang
   - Mark
+createdDate: 2026-05-22
+lastUpdated: 2026-05-22
 ---
 # 美工心理学
 
