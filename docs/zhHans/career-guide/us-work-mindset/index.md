@@ -1,6 +1,11 @@
 ---
 title: 美工心理学
 outline: deep
+authors:
+  - Leo
+  - Kevin
+  - Xiongchang
+  - Mark
 ---
 # 美工心理学
 
