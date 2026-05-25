@@ -1,3 +1,7 @@
+---
+createdDate: 2026-05-25
+lastUpdated: 2026-05-25
+---
 # H1B 签证被revoke
 
 H1B 签证被revoke，没注意到….人已经在国内
