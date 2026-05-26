@@ -4,7 +4,7 @@
     "jobPostUrl": null,
     "title": "Software Engineer",
     "level": "new-grad",
-    "jobType": "string"
+    "jobType": "full-time"
   },
   "applicationSource": {
     "channel": "online application",
@@ -16,8 +16,8 @@
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "",
-    "result": "",
+    "date": "2026-05-22",
+    "result": "offer",
     "rounds": [
       {
         "roundType": "onsite",
