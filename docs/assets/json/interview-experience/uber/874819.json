@@ -1,0 +1,26 @@
+{
+  "company": "uber",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "online application",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "Master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2026-03-21",
+    "rounds": [
+      { "roundType": "onsite", "rate": 3 },
+      { "roundType": "onsite", "rate": 3 },
+      { "roundType": "onsite", "rate": 3 }
+    ]
+  }
+}
