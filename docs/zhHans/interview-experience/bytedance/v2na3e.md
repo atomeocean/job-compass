@@ -2,7 +2,7 @@
 title: SRE Senior 面经
 description: ByteDance SRE 面试经验
 createdDate: 2026-05-26
-lastUpdated: 2026-05-26
+lastUpdated: 2026-05-27
 outline: deep
 ---
 # ByteDance SRE 面试经验
