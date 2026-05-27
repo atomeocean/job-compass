@@ -1,0 +1,29 @@
+{
+  "company": "Uber",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Frontend Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "内推",
+    "referralDetails": "internal referral"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "码农类硕士",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "phone screen", "rate": 3 },
+      { "roundType": "virtual onsite", "rate": 3 },
+      { "roundType": "virtual onsite", "rate": 2 },
+      { "roundType": "virtual onsite", "rate": 3 },
+      { "roundType": "virtual onsite", "rate": 3 }
+    ]
+  }
+}
