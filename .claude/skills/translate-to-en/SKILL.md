@@ -1,8 +1,9 @@
 ---
 name: translate-to-en
 description: Create an English mirror under docs/en/ of a Chinese article or folder under docs/zhHans/. Use when the user asks to translate, mirror, port, or create an English version of a markdown file or folder in this VitePress site. Accepts a single .md path or a folder path.
+createdDate: 2026-05-28
+lastUpdated: 2026-05-28
 ---
-
 # Translate Chinese docs to English mirror
 
 Create an English mirror of the Chinese content the user pointed at. The input is either:

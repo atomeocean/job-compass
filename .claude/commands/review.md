@@ -1,1 +1,5 @@
+---
+createdDate: 2026-05-28
+lastUpdated: 2026-05-28
+---
 Please review PR #$ARGUMENTS. Use `gh pr diff $ARGUMENTS` to get the changes, read relevant files for context, and provide feedback categorized as [BLOCKER] / [MAJOR] / [MINOR] / [NIT] with file and line references.
