@@ -1,4 +1,5 @@
 ---
+title: 工作中不要默默接锅
 createdDate: 2025-07-14
 lastUpdated: 2025-09-03
 ---
