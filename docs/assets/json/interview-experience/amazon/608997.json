@@ -1,0 +1,28 @@
+{
+  "company": "amazon",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "online application",
+    "referralDetails": "not specified"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2026-05-22",
+    "result": "offer",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}
