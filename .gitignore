@@ -152,9 +152,15 @@ __pycache__/
 .venv
 
 # AI tools
-.claude
+.claude/*
 !.claude/commands/
+!.claude/skills/
 .minimax/*
 
 # Mavis scratchpad
 scratchpad.md
+
+# Codex local files
+.codex/*
+!.codex/skills/
+!.codex/skills/**
