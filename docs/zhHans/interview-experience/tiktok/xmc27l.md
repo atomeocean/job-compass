@@ -6,7 +6,7 @@ company: TikTok
 position: SDE
 result: Offer
 createdDate: 2026-05-26
-lastUpdated: 2026-05-26
+lastUpdated: 2026-05-27
 outline: deep
 ---
 # TikTok SDE 面试经验
