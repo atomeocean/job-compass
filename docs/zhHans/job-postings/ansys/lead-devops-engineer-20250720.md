@@ -3,6 +3,10 @@ title: lead DevOps engineer 20250720
 expired: false
 createdDate: 2025-07-20
 lastUpdated: 2025-09-03
+authors:
+  - Mark
+  - Junming
+  - Matthew Ma
 ---
 
 # Ansys 招聘信息
