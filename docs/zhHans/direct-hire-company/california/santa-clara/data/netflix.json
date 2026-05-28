@@ -1,0 +1,37 @@
+{
+  "companyInfo": {
+    "companyName": "Netflix, Inc.",
+    "location": {
+      "addressLine1": "100 Winchester Circle",
+      "addressLine2": "",
+      "county": "Santa Clara County",
+      "cityOrTown": "Los Gatos",
+      "state": "CA",
+      "zipCode": "95032"
+    },
+    "contact": {
+      "phone": "+1-408-540-3700",
+      "email": "",
+      "website": "https://www.netflix.com",
+      "linkedin": "https://www.linkedin.com/company/netflix"
+    },
+    "industry": [
+      "流媒体",
+      "娱乐",
+      "互联网",
+      "影视制作"
+    ],
+    "foundedYear": "1997",
+    "description": "Netflix, Inc. 是全球领先的流媒体娱乐公司，总部位于美国加利福尼亚州洛斯加托斯。公司最初以DVD邮寄租赁业务起家，随后发展成为全球知名的视频流媒体平台。Netflix 提供电影、电视剧、纪录片、动画和原创内容制作服务，其原创作品在全球范围内具有广泛影响力。公司通过先进的推荐算法和全球化内容战略，为用户提供个性化的娱乐体验。",
+    "mainProductsOrServices": [
+      "在线视频流媒体服务",
+      "原创影视内容制作",
+      "纪录片与动画内容",
+      "全球数字娱乐订阅服务"
+    ],
+    "companySize": "约 14,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-05-28"
+  }
+}
