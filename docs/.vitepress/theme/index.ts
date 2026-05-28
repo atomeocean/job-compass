@@ -51,7 +51,6 @@ export default {
     app.component("DocTitleMeta", DocTitleMeta);
     app.component("InterviewDetail", InterviewDetail);
     app.use(NolebaseGitChangelogPlugin);
-    app.component('RelatedArticles', RelatedArticles);
 
     // 隐藏贡献者标题
     app.provide(InjectionKey, {
@@ -77,6 +76,7 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       'doc-before': () => h(ContributorWrapper),
+      'doc-footer-before': () => h(RelatedArticles),
       'doc-after': () => h(Giscus)
     })
   },
