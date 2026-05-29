@@ -1,12 +1,13 @@
 {
-  "company": "tiktok", 
+  "company": "tiktok",
   "position": {
     "title": "Software Engineer",
     "level": "new-grad",
-    "jobType": "full time"
+    "jobType": "full-time",
+	"jobPostUrl": null
   },
   "applicationSource": {
-    "channel": "direct apply",
+    "channel": "direct-apply",
     "referralDetails": ""
   },
   "candidate": {
@@ -19,10 +20,9 @@
     "result": "offer",
     "rounds": [
       {
-        "roundType": "Onsite", "rate": 3,
-        "roundType": "Onsite", "rate": 4
+        "roundType": "technical", "rate": 3,
+        "roundType": "hm", "rate": 4
       }
     ]
   }
 }
-
