@@ -1,0 +1,27 @@
+{
+  "company": "microsoft",
+  "position": {
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "full-time"
+    "jobPostUrl": null,
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "Master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2025-12-13",
+    "rounds": [
+      { "roundType": "techinical", "rate": 3 },
+      { "roundType": "techinical", "rate": 3 },
+      { "roundType": "techinical", "rate": 3 },
+      { "roundType": "hm", "rate": 2 }
+    ]
+  }
+}
