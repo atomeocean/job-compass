@@ -3,11 +3,11 @@
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "staff",
+    "level": "L5",
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "online-application",
+    "channel": "网上海投",
     "referralDetails": ""
   },
   "candidate": {
@@ -17,7 +17,7 @@
   },
   "interview": {
     "date": "",
-    "result": "ghosted",
+    "result": "unknown",
     "rounds": [
       { "roundType": "oa", "rate": 3 },
       { "roundType": "coding", "rate": 4 },
