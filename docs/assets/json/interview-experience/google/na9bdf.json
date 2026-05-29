@@ -3,7 +3,7 @@
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "L5",
+    "level": "l5",
     "jobType": "full-time"
   },
   "applicationSource": {
@@ -13,14 +13,14 @@
   "candidate": {
     "education": "master",
     "background": "码农类专业",
-    "yearsOfExperience": 0
+    "yearsOfExperience": null
   },
   "interview": {
     "date": "",
     "result": "unknown",
     "rounds": [
       {
-        "roundType": "phone-coding",
+        "roundType": "phone-screen",
         "rate": 2
       },
       {

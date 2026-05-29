@@ -68,7 +68,7 @@ title: 'Google Cloud SDE',
 link: 'https://www.1point3acres.com/bbs/thread-1177488-1-1.html',
 site: '一亩三分地',
 author: 'firemanysome',
-date: '2026-5-21',
+date: '2026-05-21',
 category: '海外面经'
 }
 ]"
