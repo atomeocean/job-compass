@@ -1,0 +1,26 @@
+{
+  "company": "bytedance",
+  "position": {
+    "jobPostUrl": null,
+    "title": "site reliability engineer",
+    "level": "senior",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": "HR reached out via LinkedIn"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "virtual onsite", "rate": 4 },
+      { "roundType": "virtual onsite", "rate": 2 }
+    ]
+  }
+}
