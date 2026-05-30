@@ -3,10 +3,10 @@
   "position": {
     "title": "Software Engineer",
     "level": "new-grad",
-    "jobType": "full time"
+    "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "direct apply",
+    "channel": "direct-apply",
     "referralDetails": ""
   },
   "candidate": {
@@ -15,13 +15,11 @@
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "2026-05-07",
+    "date": "2026-04-07",
     "result": "offer",
     "rounds": [
-      {
-        "roundType": "Onsite", "rate": 3,
-        "roundType": "Onsite", "rate": 3
-      }
+      { "roundType": "Onsite", "rate": 3 },
+      { "roundType": "Onsite", "rate": 3 }
     ]
   }
 }
