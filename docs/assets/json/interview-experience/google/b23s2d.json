@@ -19,6 +19,7 @@
     "date": "",
     "result": "unknown",
     "rounds": [
+      { "roundType": "onsite", "rate": 3 },
       { "roundType": "onsite", "rate": 3 }
     ]
   }
