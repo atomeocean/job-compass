@@ -23,10 +23,10 @@ export function useContributors(): UseContributorsReturn {
   const { page, lang } = useData()
   const { authors: gitAuthors, useHmr } = useChangelog()
 
-  // 使用页面路径作为 key，确保每次路由切换都重新渲染组件
+  // 使用页面路径作为key，确保每次路由切换都重新渲染组件
   const componentKey = computed(() => page.value.relativePath)
 
-  // 路由切换时重新拉取 git changelog 作者数据
+  // 路由切换时重新拉取git changelog作者数据
   watch(componentKey, () => {
     useHmr()
   })
