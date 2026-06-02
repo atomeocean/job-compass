@@ -3,7 +3,7 @@
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "R1",
+    "level": "",
     "jobType": "full-time"
   },
   "applicationSource": {
@@ -19,7 +19,7 @@
     "date": "",
     "result": "rejected",
     "rounds": [
-      { "roundType": "phone", "rate": 3}
+      { "roundType": "phone-screen", "rate": 3}
     ]
   }
 }

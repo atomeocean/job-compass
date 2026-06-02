@@ -5,7 +5,6 @@ createdDate: 2026-06-02
 lastUpdated: 2026-06-02
 outline: deep
 ---
-
 # Google R1 Software Engineer电话面试经验
 
 <InterviewDetail />
@@ -13,7 +12,7 @@ outline: deep
 ## 基本信息
 
 - **面试日期**：近期
-- **岗位**：Software Engineer（R1）
+- **岗位**：Software Engineer
 - **面试形式**：技术电面
 - **申请渠道**：网上海投
 - **候选人背景**：硕士，在职跳槽
