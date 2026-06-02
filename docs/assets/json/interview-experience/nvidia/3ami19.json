@@ -1,0 +1,28 @@
+{
+  "company": "NVIDIA",
+  "position": {
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "full-time",
+	"jobPostUrl": null
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2026-04-28",
+    "result": "offer",
+  "rounds": [
+      { "roundType": "coding", "rate": 3 },
+      { "roundType": "technical", "rate": 4 },
+      { "roundType": "technical", "rate": 4 },
+      { "roundType": "behavioral", "rate": 3 }
+    ]
+  }
+}
