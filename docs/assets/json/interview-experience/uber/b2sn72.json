@@ -11,15 +11,15 @@
     "referralDetails": "猎头联系"
   },
   "candidate": {
-    "education": "Master",
+    "education": "master",
     "background": "在职跳槽",
-    "yearsOfExperience": 0
+    "yearsOfExperience": null
   },
   "interview": {
     "date": "",
-    "result": "reject",
+    "result": "rejected",
     "rounds": [
-      { "roundType": "phone", "rate": 4 }
+      { "roundType": "phone-screen", "rate": 4 }
     ]
   }
 }
