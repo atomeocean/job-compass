@@ -1,0 +1,25 @@
+{
+  "company": "Uber",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Backend Engineer",
+    "level": "l4",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "phone", "rate": 4}
+    ]
+  }
+}
