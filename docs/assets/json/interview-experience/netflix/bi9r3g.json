@@ -1,0 +1,29 @@
+{
+  "company": "Netflix",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "L5",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "网上海投",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "码农类专业",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "oa", "rate": 3 },
+      { "roundType": "coding", "rate": 4 },
+      { "roundType": "system-design", "rate": 3},
+      { "roundType": "data-modeling", "rate": 4 },
+      { "roundType": "behavioral", "rate": 2 }
+    ]
+  }
+}
