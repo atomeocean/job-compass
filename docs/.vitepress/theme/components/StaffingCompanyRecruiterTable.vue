@@ -1,6 +1,4 @@
 <script setup lang="ts">
-
-
 const props = defineProps({
   staffingCompanyRecruiters: {
     type: Array,
@@ -18,5 +16,4 @@ const props = defineProps({
 </template>
 
 <style scoped>
-
 </style>
