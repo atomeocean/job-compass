@@ -2,7 +2,7 @@
 title: Software Engineer
 description: Netflix SDE 面试经验（Ghost全套）
 createdDate: 2026-05-29
-lastUpdated: 2026-05-29
+lastUpdated: 2026-06-01
 outline: deep
 ---
 # Netflix 软件工程师面试经验
