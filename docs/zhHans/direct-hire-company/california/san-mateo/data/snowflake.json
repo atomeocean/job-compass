@@ -1,0 +1,42 @@
+{
+  "companyInfo": {
+    "companyName": "Snowflake Inc.",
+    "location": {
+      "addressLine1": "135 Constitution Drive",
+      "addressLine2": "",
+      "county": "San Mateo County",
+      "cityOrTown": "Menlo Park",
+      "state": "CA",
+      "zipCode": "94025"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.snowflake.com",
+      "linkedin": "https://www.linkedin.com/company/snowflake-computing"
+    },
+    "industry": [
+      "云计算",
+      "数据平台",
+      "数据仓库",
+      "人工智能",
+      "数据分析"
+    ],
+    "foundedYear": "2012",
+    "description": "Snowflake 是一家总部位于美国加利福尼亚州 Menlo Park 的云数据平台公司，由 Benoit Dageville、Thierry Cruanes 和 Marcin Żukowski 于 2012 年创立。公司提供基于云原生架构的数据平台，帮助企业实现数据存储、处理、分析、共享以及 AI 应用开发。其核心产品 AI Data Cloud 支持跨 AWS、Microsoft Azure 和 Google Cloud 等多个云平台运行，使企业能够统一管理数据、构建数据湖、数据仓库和人工智能解决方案。Snowflake 于 2020 年在纽约证券交易所上市，是全球增长最快的企业级软件公司之一。",
+    "mainProductsOrServices": [
+      "AI Data Cloud：统一数据与 AI 平台",
+      "Snowflake Data Warehouse：云数据仓库",
+      "Snowflake Marketplace：数据与应用市场",
+      "Snowpark：开发者数据应用框架",
+      "Snowflake Cortex AI：生成式 AI 与大语言模型服务",
+      "Data Sharing：跨组织安全数据共享",
+      "Data Engineering：数据工程与 ETL 解决方案",
+      "Data Lake 与 Lakehouse 解决方案"
+    ],
+    "companySize": "5,000–10,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-06-02"
+  }
+}
