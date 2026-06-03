@@ -32,3 +32,15 @@ outline: deep
 
 算是一个大厂AI转型的signal，大家可能要留意一下。
 
+<ReferenceSource
+:sources="[
+{
+title: 'TIKTOK 10.31 NG SDE面试',
+link: 'https://www.xiaohongshu.com/explore/6906628c00000000070084a6?xsec_token=ABrP35C8SJ8BBxBPZa9BNyoq13yBF-FNkB-DKDuA_j9VU=&xsec_source=pc_user',
+site: '小红书',
+author: '湾区发型师',
+date: '2025-11-01',
+category: '海外面经'
+}
+]"
+/>
