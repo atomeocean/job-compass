@@ -19,10 +19,8 @@
     "date": "2025-11-01",
     "result": "offer",
     "rounds": [
-      {
-        "roundType": "technical", "rate": 3,
-        "roundType": "hm", "rate": 4
-      }
+      { "roundType": "technical", "rate": 3 },
+	  { "roundType": "hm", "rate": 4 }
     ]
   }
 }
