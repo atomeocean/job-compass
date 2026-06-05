@@ -1,0 +1,25 @@
+{
+  "company": "google",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "l4",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "online",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "",
+    "yearsOfExperience": 6
+  },
+  "interview": {
+    "date": "2026-05",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": 2 }
+    ]
+  }
+}
