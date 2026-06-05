@@ -1,9 +1,9 @@
 {
-  "company": "netflix",
+  "company": "Netflix",
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "senior",
+    "level": "",
     "jobType": "full-time"
   },
   "applicationSource": {
