@@ -1,0 +1,36 @@
+{
+  "company": "google",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "l5",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "码农类专业",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "phone-screen",
+        "rate": 2
+      },
+      {
+        "roundType": "coding",
+        "rate": 3
+      },
+      {
+        "roundType": "system-design",
+        "rate": 3
+      }
+    ]
+  }
+}
