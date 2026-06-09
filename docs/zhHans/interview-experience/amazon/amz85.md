@@ -1,0 +1,84 @@
+---
+title: Amazon BA
+description: Amazon BA Onsite面经
+date: null
+company: Amazon
+position: BA
+result: Offer
+createdDate: 2026-6-9
+lastUpdated: 2026-6-9
+---
+
+# Amazon BA 面经分享
+
+<InterviewDetail />
+
+## 背景
+
+今年的 Data 市场不太景气，我找工作花了好几个月，感觉比我 2018 年本科毕业和 2021 年研究生在美国毕业时还要难，也有可能是因为自己的要求变高了。
+
+## 面试时间线
+
+* **6月28日**：提交简历，日期不太确定。
+* **7月15日**：HR 联系我，要求完成 OA。
+* **7月18日**：完成 OA 两小时后，HR 通知我通过了，并安排电话面试。
+* **7月25日**：电话面试，次日通知通过。面试内容包括 Data Visualization、SQL 和一个 Leadership Principle 问题。
+* **7月28日**：一直没收到 Onsite 邀请，于是去询问 HR。HR 回复说面试官认为 LP 的问题问得不够，时间不够，所以需要再加一轮面试。这轮包括 SQL 和 Data Visualization。
+* **8月5日**：加面电话面试，由 Hiring Manager 直接面试我，主要考察 LP。
+* **8月6日**：收到 Onsite 邮件。
+* **8月23日**：Onsite loop，共 5 轮。其中一轮是 SQL，一轮是 Data Visualization，还有一轮 Case，其余都是 LP。
+* **8月26日**：收到口头 offer。
+
+## 面试过程
+
+### OA
+
+OA 之后反馈速度很快。我在完成 OA 两小时后就收到了 HR 的通过通知，并进入电话面试安排。
+
+### 电话面试
+
+电话面试主要包括：
+
+* Data Visualization
+* SQL
+* Leadership Principle
+
+这轮面完后，第二天 HR 通知我通过。
+
+### 加面电话面试
+
+因为第一轮电话面试中，面试官认为 LP 问得不够充分，所以后来又加了一轮电话面试。这一轮由 Hiring Manager 直接面试，主要考察 LP，同时也涉及 SQL 和 Data Visualization。
+
+### Onsite Loop
+
+Onsite 一共有 5 轮：
+
+1. SQL
+2. Data Visualization
+3. Case
+4. Leadership Principles
+5. Bar Raiser / Leadership Principles
+
+让我比较意外的是，Onsite 的整体体验其实非常好。我最喜欢的是 Case 和 Data 相关的那一轮，面试过程很像聊天，虽然也问了不少专业问题。SQL 那一轮体验也很不错。
+
+## 准备建议
+
+* LP 一定要准备充分，最好准备二十个以上的故事。
+* 不要多个 LP 都依赖同一个故事，故事的多样性非常重要。
+* 每个故事都要能讲清楚背景、行动、结果、影响和反思。
+* 面试官可能会要求你换一个例子，所以不要只准备最顺手的几个经历。
+* SQL 和 Data Visualization 是 BA 面试中的重点，要熟悉常见数据分析场景。
+* Case 轮更看重结构化思考、业务判断和数据驱动决策。
+* Bar Raiser 会深挖很多细节，回答时要逻辑清晰，并且明确对应到 Amazon LP。
+
+## Offer 等待期
+
+8月23日完成 Onsite，8月26日收到口头 offer。Onsite 之后大概等了 3 天。
+
+## 总结
+
+整体来说，Amazon BA 面试非常重视 Leadership Principles，同时也会重点考察 SQL、Data Visualization 和业务分析能力。
+
+这次流程虽然持续时间较长，但每轮反馈都比较及时，HR 也非常负责。建议大家在准备技术和业务分析能力的同时，一定要认真打磨 LP 故事，并准备足够多样化的例子。
+
+希望这篇面经能帮助大家更好地了解 Amazon BA 面试流程，祝大家都能顺利上岸！
