@@ -1,5 +1,5 @@
 {
-  "company": "netflix",
+  "company": "Netflix",
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
@@ -19,7 +19,7 @@
     "date": "",
     "result": "pass",
     "rounds": [
-      { "roundType": "behavioral", "rate": 2 }
+      { "roundType": "phone-screen", "rate": 2 }
     ]
   }
 }
