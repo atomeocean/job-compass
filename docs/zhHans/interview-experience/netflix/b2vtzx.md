@@ -5,7 +5,6 @@ createdDate: 2026-06-09
 lastUpdated: 2026-06-09
 outline: deep
 ---
-
 # HR screening chat面试经验
 
 <InterviewDetail />
