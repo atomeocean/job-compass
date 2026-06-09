@@ -1,0 +1,137 @@
+{
+  "title": "Amazon BA",
+  "description": "Amazon BA Onsite面经",
+  "date": null,
+  "company": "Amazon",
+  "position": "BA",
+  "result": "Offer",
+  "createdDate": 2026-6-9,
+  "lastUpdated": 2026-6-9,
+  "interviewDetail": {
+    "background": "今年Data市场不太景气，找工作花了好几个月。整体感觉比2018年本科毕业和2021年研究生在美国毕业时还要难，也可能是因为自己的要求变高了。",
+    "timeline": [
+      {
+        "date": "06-28",
+        "event": "提交简历",
+        "note": "具体日期不太确定"
+      },
+      {
+        "date": "07-15",
+        "event": "HR联系",
+        "note": "要求完成OA"
+      },
+      {
+        "date": "07-18",
+        "event": "完成OA并通过",
+        "note": "完成OA两小时后，HR通知通过，并安排电话面试"
+      },
+      {
+        "date": "07-25",
+        "event": "电话面试",
+        "note": "次日通知通过，内容包括Data Visualization、SQL和一个Leadership Principle问题"
+      },
+      {
+        "date": "07-28",
+        "event": "询问Onsite安排",
+        "note": "因为一直没有收到Onsite邀请，于是询问HR。HR回复说面试官认为LP问题问得不够，需要再加一轮面试。这轮包括SQL和Data Visualization。"
+      },
+      {
+        "date": "08-05",
+        "event": "加面电话面试",
+        "note": "由Hiring Manager直接面试，主要考察Leadership Principles"
+      },
+      {
+        "date": "08-06",
+        "event": "收到Onsite邮件",
+        "note": "确认进入Onsite loop"
+      },
+      {
+        "date": "08-23",
+        "event": "Onsite Loop",
+        "note": "共5轮，包括SQL、Data Visualization、Case以及多轮Leadership Principles"
+      },
+      {
+        "date": "08-26",
+        "event": "收到口头Offer",
+        "note": "Onsite后三天收到口头offer"
+      }
+    ],
+    "interviewProcess": {
+      "oa": {
+        "focus": [
+          "基础数据分析能力",
+          "SQL",
+          "逻辑思维"
+        ],
+        "result": "完成后两小时收到通过通知"
+      },
+      "phoneInterview": {
+        "focus": [
+          "Data Visualization",
+          "SQL",
+          "Leadership Principles"
+        ],
+        "experience": "电话面试后第二天收到通过通知"
+      },
+      "additionalInterview": {
+        "interviewer": "Hiring Manager",
+        "focus": [
+          "Leadership Principles",
+          "SQL",
+          "Data Visualization"
+        ],
+        "reason": "前一轮面试官认为LP问题考察不够充分，因此增加一轮"
+      },
+      "onsiteLoop": {
+        "totalRounds": 5,
+        "rounds": [
+          {
+            "type": "SQL",
+            "focus": "SQL查询能力、数据处理思路和分析逻辑"
+          },
+          {
+            "type": "Data Visualization",
+            "focus": "数据可视化能力、图表选择、数据表达和业务洞察"
+          },
+          {
+            "type": "Case",
+            "focus": "业务分析、结构化思考、数据驱动决策"
+          },
+          {
+            "type": "Leadership Principles",
+            "focus": "行为面试，围绕Amazon LP深挖项目和经历"
+          },
+          {
+            "type": "Bar Raiser",
+            "focus": "高强度LP追问，注重细节、影响力和文化匹配度"
+          }
+        ],
+        "experience": "整体Onsite体验很好，Case和Data相关轮次像聊天一样，虽然问了不少专业问题。SQL轮体验也不错。"
+      }
+    },
+    "hrExperience": {
+      "feedbackSpeed": "每次面试后基本都会在24到48小时内给出结果",
+      "support": "HR非常负责，电话面试和最终面试前都会打电话帮助过一遍故事"
+    },
+    "preparationTips": [
+      "Leadership Principles一定要准备充分，最好准备二十个以上的故事。",
+      "终面中非技术轮问题很多，基本每个LP都可能要求分享两个故事，有时甚至需要三个。",
+      "故事多样性非常重要，避免多个LP都使用同一个例子。",
+      "面试官会根据自己岗位对BA的需求来追问，如果故事不符合预期，可能会要求换一个例子。",
+      "每个故事都要准备足够细节，包括背景、行动、结果、影响和反思。",
+      "Bar Raiser轮追问非常多，很符合Amazon风格，需要清晰展示LP对应的关键点。",
+      "讲故事时要确保重点突出，不要只是复述经历，而是要体现Leadership Principle。"
+    ],
+    "keyTakeaways": [
+      "Amazon BA面试非常重视SQL、Data Visualization和业务分析能力。",
+      "LP是整个流程中的核心，尤其是Onsite和Bar Raiser轮。",
+      "HR沟通和反馈节奏较快，整体流程虽然时间线较长，但每轮结果反馈都比较及时。",
+      "Case和Data轮更像讨论业务问题，重点是结构化思考和数据洞察。"
+    ],
+    "offer": {
+      "type": "口头Offer",
+      "receivedDate": "08-26",
+      "waitingPeriodAfterOnsite": "约3天"
+    }
+  }
+}
