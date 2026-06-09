@@ -6,9 +6,8 @@ company: Amazon
 position: BA
 result: Offer
 createdDate: 2026-6-9
-lastUpdated: 2026-6-9
+lastUpdated: 2026-06-09
 ---
-
 # Amazon BA 面经分享
 
 <InterviewDetail />
