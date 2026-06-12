@@ -2,7 +2,7 @@
 title: 健康组电面
 description: Oracle 健康组技术电面面经
 createdDate: 2026-06-09
-lastUpdated: 2026-06-09
+lastUpdated: 2026-06-12
 outline: deep
 ---
 # Oracle健康组技术电面面经
