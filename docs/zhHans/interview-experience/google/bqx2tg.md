@@ -2,7 +2,7 @@
 title: L4 R1时间线
 description: Google L4 Software Engineer R1面试经验
 createdDate: 2026-06-05
-lastUpdated: 2026-06-05
+lastUpdated: 2026-06-12
 outline: deep
 ---
 # Google L4 Software Engineer R1面试经验
