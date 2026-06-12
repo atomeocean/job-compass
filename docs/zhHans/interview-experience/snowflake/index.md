@@ -1,7 +1,7 @@
 ---
 title: Snowflake
 createdDate: 2025-12-07
-lastUpdated: 2025-12-07
+lastUpdated: 2026-06-12
 ---
 # Snowflake面试经验
 
