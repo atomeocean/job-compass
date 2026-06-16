@@ -1,55 +1,39 @@
 {
   "company": "Amazon",
   "position": {
-    "jobPostUrl": null,
+    "jobPostUrl": http://xhslink.com/o/HHyukpkczG,
     "title": "Business Analyst",
     "level": "",
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "direct application",
-    "referralDetails": null
+    "channel": "direct application"
   },
   "candidate": {
     "education": "硕士",
-    "background": "在职跳槽",
-    "yearsOfExperience": null
+    "background": "在职跳槽"
   },
   "interview": {
     "date": "08-23",
     "result": "offer",
     "rounds": [
       {
-        "roundType": "oa",
-        "rate": null
+        "roundType": "oa"
       },
       {
-        "roundType": "phone interview",
-        "rate": null
+        "roundType": "phone-screen"
       },
       {
-        "roundType": "additional phone interview",
-        "rate": null
+        "roundType": "additional phone screen"
       },
       {
-        "roundType": "sql",
-        "rate": null
+        "roundType": "technical"
       },
       {
-        "roundType": "data visualization",
-        "rate": null
+        "roundType": "case"
       },
       {
-        "roundType": "case",
-        "rate": null
-      },
-      {
-        "roundType": "leadership principles",
-        "rate": null
-      },
-      {
-        "roundType": "bar raiser",
-        "rate": null
+        "roundType": "leadership principles"
       }
     ]
   }
