@@ -1,0 +1,25 @@
+{
+  "company": "Uber",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "l5",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": "猎头联系"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": 4 }
+    ]
+  }
+}
