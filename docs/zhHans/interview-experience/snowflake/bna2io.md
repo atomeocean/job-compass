@@ -2,7 +2,7 @@
 title: Senior Software Engineer
 description: Snowflake Senior Software Engineer技术电面经验
 createdDate: 2026-06-04
-lastUpdated: 2026-06-04
+lastUpdated: 2026-06-19
 outline: deep
 ---
 # Snowflake Senior Software Engineer技术电面经验
