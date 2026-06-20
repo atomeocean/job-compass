@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Coinbase Global, Inc.",
+    "location": {
+      "addressLine1": "201 Park Avenue South",
+      "addressLine2": "",
+      "county": "New York County",
+      "cityOrTown": "New York",
+      "state": "NY",
+      "zipCode": "10003"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.coinbase.com",
+      "linkedin": "https://www.linkedin.com/company/coinbase"
+    },
+    "industry": ["加密货币", "区块链", "金融科技", "Web3"],
+    "foundedYear": "2012",
+    "description": "Coinbase 是美国最大的加密货币交易平台之一，提供加密资产的买卖、存储和管理服务。公司致力于构建开放的金融系统，为全球用户提供安全、合规的加密货币交易体验。Coinbase 于 2021 年在纳斯达克上市（股票代码：COIN），是首家在美国主要交易所上市的加密货币交易平台。",
+    "mainProductsOrServices": [
+      "加密货币交易平台",
+      "Coinbase Wallet",
+      "Coinbase Prime（机构服务）",
+      "Base（Layer 2 区块链网络）"
+    ],
+    "companySize": "约 3,500 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-06-20"
+  }
+}
