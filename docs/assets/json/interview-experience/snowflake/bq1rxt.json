@@ -1,0 +1,28 @@
+{
+  "company": "snowflake",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "other",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "应届毕业生",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "phone",
+        "rate": 3
+      }
+    ]
+  }
+}
