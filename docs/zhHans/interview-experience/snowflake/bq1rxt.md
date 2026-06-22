@@ -5,7 +5,6 @@ createdDate: 2026-06-21
 lastUpdated: 2026-06-21
 outline: deep
 ---
-
 # Snowflake Software Engineer技术电面经验
 
 <InterviewDetail />
