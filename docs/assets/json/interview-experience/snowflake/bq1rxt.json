@@ -1,5 +1,5 @@
 {
-  "company": "snowflake",
+  "company": "Snowflake",
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
@@ -7,7 +7,7 @@
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "other",
+    "channel": "",
     "referralDetails": ""
   },
   "candidate": {
@@ -20,7 +20,7 @@
     "result": "pass",
     "rounds": [
       {
-        "roundType": "phone",
+        "roundType": "phone-screen",
         "rate": 3
       }
     ]
