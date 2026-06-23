@@ -2,7 +2,7 @@
 title: 电面面经
 description: Bloomberg Software Engineer技术电面经验
 createdDate: 2026-06-06
-lastUpdated: 2026-06-22
+lastUpdated: 2026-06-23
 outline: deep
 ---
 # Bloomberg Software Engineer技术电面经验
