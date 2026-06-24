@@ -1,5 +1,5 @@
 {
-  "company": "airbnb",
+  "company": "Airbnb",
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
@@ -13,14 +13,14 @@
   "candidate": {
     "education": "硕士",
     "background": "在职跳槽",
-    "yearsOfExperience": 0
+    "yearsOfExperience": null
   },
   "interview": {
     "date": "",
-    "result": "pass",
+    "result": "offer",
     "rounds": [
       {
-        "roundType": "phone",
+        "roundType": "phone-screen",
         "rate": 4
       },
       {
