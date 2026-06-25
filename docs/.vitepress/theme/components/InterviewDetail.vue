@@ -63,7 +63,7 @@ const resultTagType = computed(() => {
       <el-descriptions-item label="Education" v-if="info.candidate?.education">
         {{ info.candidate?.education }}
       </el-descriptions-item>
-      <el-descriptions-item label="Experience" v-if="info.candidate?.yearsOfExperience !== undefined">
+      <el-descriptions-item label="Experience" v-if="info.candidate?.yearsOfExperience != null">
         {{ info.candidate?.yearsOfExperience }} Years
       </el-descriptions-item>
       

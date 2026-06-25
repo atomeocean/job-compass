@@ -1,8 +1,25 @@
 ---
-title: Referral概述
-createdDate: 2024-11-20
-lastUpdated: 2025-09-03
+title: Directory Overview
+description: This page introduces all Markdown files in the current directory with brief descriptions.
+lastUpdated: 2026-06-19
 ---
-# Referral 内推
+<script setup>
+const overviewItems = [
+  {
+    "title": "Airbnb",
+    "description": "This file mainly introduces content related to Airbnb.",
+    "href": "./airbnb.md",
+    "order": 0,
+    "kind": "article"
+  }
+]
+</script>
 
-Referral 是指公司员工推荐朋友加入公司，公司给予员工一定的奖励。内推是一种常见的招聘方式，它可以帮助公司快速找到合适的人才，也可以帮助员工的朋友找到合适的工作。
+# Directory Overview
+
+Below is an introduction to all Markdown files and subdirectories in this directory:
+
+<DirectoryOverview :items="overviewItems" />
+
+> [!NOTE] Please generate this file via the script
+> This file can only be built via the generate_folder_overview script and must not be edited directly.

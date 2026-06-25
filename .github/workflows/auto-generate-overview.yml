@@ -1,0 +1,71 @@
+name: Auto Generate Folder Overview
+
+on:
+  schedule:
+    # 每天 UTC 时间 00:00 运行
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许手动触发
+
+concurrency:
+  group: auto-generate-overview
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-overview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run overview generation script
+        run: |
+          export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}"
+          python scripts/generate_folder_overview.py --all
+
+      - name: Create or update Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto/update-overview
+          base: main
+          add-paths: |
+            docs/zhHans/**/overview.md
+            docs/en/**/overview.md
+          commit-message: 'chore: auto-update folder overview files'
+          title: '🤖 自动更新目录概述文件'
+          body: |
+            ## 自动生成的 PR
+
+            此 PR 由 GitHub Actions 自动生成，用于更新目录概述文件。
+
+            ### 变更内容
+            - 自动运行 `scripts/generate_folder_overview.py --all` 脚本
+            - 更新了相关目录的 `overview.md` 文件
+
+            ### 检查清单
+            - [ ] 检查生成的 overview.md 文件内容是否正确
+            - [ ] 确认所有链接可以正常访问
+
+            ---
+            *此 PR 由 [auto-generate-overview workflow](https://github.com/${{ github.repository }}/actions/workflows/auto-generate-overview.yml) 自动创建*
+          author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
+          committer: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
+          delete-branch: false
+          labels: |
+            automated
+            documentation
