@@ -1,5 +1,5 @@
 {
-  "company": "google",
+  "company": "Google",
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
@@ -7,13 +7,13 @@
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "online",
+    "channel": "网上海投",
     "referralDetails": ""
   },
   "candidate": {
     "education": "硕士",
     "background": "在职跳槽",
-    "yearsOfExperience": 0
+    "yearsOfExperience": null
   },
   "interview": {
     "date": "",
