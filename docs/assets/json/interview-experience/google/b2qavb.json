@@ -1,0 +1,28 @@
+{
+  "company": "google",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "L4",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "online",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "在职跳槽",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 2
+      }
+    ]
+  }
+}
