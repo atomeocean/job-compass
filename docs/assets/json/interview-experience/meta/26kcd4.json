@@ -1,0 +1,24 @@
+{
+    "company": "Meta",
+    "position": {
+        "jobPostUrl": "",
+        "title": "Product Designer",
+        "level": "mid-level",
+        "jobType": "product designer"
+    },
+    "applicationSource": {
+        "channel": "online application",
+        "referralDetails": "Not specified"
+    },
+    "candidate": {
+        "education": "master",
+        "background": "",
+        "yearsOfExperience": 0
+    },
+    "interview": {
+        "date": "past",
+        "roundType": "video interview",
+        "rate": 4,
+        "result": "fail"
+    }
+}
