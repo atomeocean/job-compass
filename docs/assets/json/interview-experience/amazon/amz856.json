@@ -1,0 +1,27 @@
+{
+  "company": "Amazon",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Business Analyst",
+    "level": null,
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "online-application",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "在职跳槽",
+    "yearsOfExperience": 5
+  },
+  "interview": {
+    "date": "2026-05-26",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": 4 },
+      { "roundType": "technical", "rate": 3 },
+      { "roundType": "behavioral", "rate": 3 }
+    ]
+  }
+}
