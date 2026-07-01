@@ -3,7 +3,7 @@ title: Pilot Technologies LLC
 description: icc
 outline: deep
 createdDate: 2024-11-19
-lastUpdated: 2026-01-14
+lastUpdated: 2026-07-01
 ---
 # Pilot Technologies LLC
 
@@ -32,6 +32,13 @@ lastUpdated: 2026-01-14
 • 健康保险、relocation fee, 一年15天PTO等！
 🧡三期batch已全部开放面试，欢迎来约！
 ```
+
+### 2025年5月
+
+Icc办h1b还要收钱，在Pilot NJ，但是已经在icc服役了两年了，抽中h1b还要自费几千块。
+还是默认icc办h1b需要自费呢，不是很懂
+
+http://xhslink.com/o/7T1YKp5tO0T
 
 ### 2024年12月
 
