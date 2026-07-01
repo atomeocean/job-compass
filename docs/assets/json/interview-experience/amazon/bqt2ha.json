@@ -1,5 +1,5 @@
 {
-  "company": "amazon",
+  "company": "Amazon",
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer II",
@@ -7,7 +7,7 @@
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "online",
+    "channel": "网上海投",
     "referralDetails": ""
   },
   "candidate": {
@@ -17,7 +17,7 @@
   },
   "interview": {
     "date": "",
-    "result": "other",
+    "result": "unknown",
     "rounds": [
       {
         "roundType": "onsite",
