@@ -8,6 +8,7 @@ import StaffingCompanyInformation from "./components/StaffingCompanyInformation.
 import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiterTable.vue";
 import StaffingCompanyTable from "./components/StaffingCompanyTable.vue";
 import DirectoryTree from "./components/DirectoryTree.vue";
+import DirectoryOverview from "./components/DirectoryOverview.vue";
 import VideoLinks from "./components/VideoLinks.vue";
 import JobPostingTable from "./components/JobPostingTable.vue";
 import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
@@ -41,6 +42,7 @@ export default {
     app.component("TimelineComponent", TimelineComponent);
     app.component("StaffingCompanyRecruiterTable", StaffingCompanyRecruiterTable);
     app.component("DirectoryTree", DirectoryTree);
+    app.component("DirectoryOverview", DirectoryOverview);
     app.component("VideoLinks", VideoLinks);
     app.component("JobPostingTable", JobPostingTable);
     app.component("DirectHireCompanyTable", DirectHireCompanyTable);
