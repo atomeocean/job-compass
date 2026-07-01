@@ -1,7 +1,7 @@
 ---
 title: Coinbase
 createdDate: 2026-06-20
-lastUpdated: 2026-06-20
+lastUpdated: 2026-07-01
 ---
 # Coinbase Global, Inc.
 
