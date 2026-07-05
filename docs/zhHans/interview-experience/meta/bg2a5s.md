@@ -2,7 +2,7 @@
 title: se电面
 description: Meta Software Engineer Phone Screen面试经验
 createdDate: 2026-06-16
-lastUpdated: 2026-06-16
+lastUpdated: 2026-07-04
 outline: deep
 ---
 # Meta Software Engineer Phone Screen面试经验
