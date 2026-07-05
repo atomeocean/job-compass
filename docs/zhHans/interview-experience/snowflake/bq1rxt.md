@@ -2,7 +2,7 @@
 title: 雪花电面
 description: Snowflake Software Engineer技术电面经验
 createdDate: 2026-06-21
-lastUpdated: 2026-06-22
+lastUpdated: 2026-07-05
 outline: deep
 ---
 # Snowflake Software Engineer技术电面经验
