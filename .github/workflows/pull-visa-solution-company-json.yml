@@ -1,0 +1,104 @@
+# 定时任务将Json data store中的visa solution company json同步到本仓库
+# 本仓库为公开仓库，scripts/utils/config.py 不入库（见 .gitignore），
+# 运行时通过 GitHub Secrets 生成 config.py（字段说明见 scripts/utils/config-ex.py）
+name: Pull Visa Solution Company JSON
+
+on:
+  schedule:
+    # Every 30 minutes
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: pull-visa-solution-company-json
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  pull-visa-solution-company-json:
+    runs-on: "0101202309031030"
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install rsync
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync
+
+      - name: Setup SSH key
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY_0101202309031030 }}
+          REMOTE_HOST: ${{ secrets.REMOTE_SERVER_1030_HOST }}
+          REMOTE_PORT: ${{ secrets.REMOTE_SERVER_1030_PORT }}
+        run: |
+          if [ -z "$SSH_KEY" ] || [ -z "$REMOTE_HOST" ]; then
+            echo "::error::缺少 SSH_KEY_0101202309031030 或 REMOTE_SERVER_1030_HOST secret"
+            exit 1
+          fi
+          mkdir -p ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/id_rsa_atmBot_0101202309031030
+          chmod 600 ~/.ssh/id_rsa_atmBot_0101202309031030
+          ssh-keyscan -p "${REMOTE_PORT:-22}" -H "$REMOTE_HOST" >> ~/.ssh/known_hosts
+
+      - name: Create config.py from secrets
+        env:
+          REMOTE_HOST: ${{ secrets.REMOTE_SERVER_1030_HOST }}
+          REMOTE_PORT: ${{ secrets.REMOTE_SERVER_1030_PORT }}
+          REMOTE_USER: ${{ secrets.REMOTE_SERVER_1030_USER }}
+          REMOTE_JSON_DIR: ${{ secrets.REMOTE_1030_VISA_SOLUTION_COMPANY_JSON_DIR }}
+        run: |
+          if [ -z "$REMOTE_USER" ] || [ -z "$REMOTE_JSON_DIR" ]; then
+            echo "::error::缺少 REMOTE_SERVER_1030_USER 或 REMOTE_1030_VISA_SOLUTION_COMPANY_JSON_DIR secret"
+            exit 1
+          fi
+          cat > scripts/utils/config.py << EOF
+          # 由 GitHub Actions 运行时生成，字段说明见 config-ex.py
+          REMOTE_SERVER_1030_HOST = '${REMOTE_HOST}'
+          REMOTE_SERVER_1030_PORT = ${REMOTE_PORT:-22}
+          REMOTE_SERVER_1030_USER = '${REMOTE_USER}'
+          SSH_PRIVATE_KEY_PATH_1030 = '~/.ssh/id_rsa_atmBot_0101202309031030'
+          REMOTE_1030_VISA_SOLUTION_COMPANY_JSON_DIR = '${REMOTE_JSON_DIR}'
+          EOF
+
+      - name: Run Python script
+        run: |
+          export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}"
+          python scripts/pull_visa_solution_company_json.py
+
+      - name: Create or update PR
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto/pull-visa-solution-company-json
+          base: main
+          add-paths: |
+            docs/assets/json/visa-solution-company/**
+          commit-message: "chore(data): refresh docs/assets/json/visa-solution-company from remote"
+          title: "chore(data): 定时同步 visa-solution-company JSON"
+          body: |
+            自动同步 `docs/assets/json/visa-solution-company/`，
+            由 `scripts/pull_visa_solution_company_json.py` 从远程服务器拉取。
+
+            ---
+            *此 PR 由 [pull-visa-solution-company-json workflow](https://github.com/${{ github.repository }}/actions/workflows/pull-visa-solution-company-json.yml) 自动创建*
+          labels: data contribution
+          author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          committer: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          delete-branch: false
