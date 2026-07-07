@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   pull-visa-solution-company-json:
-    runs-on: "0101202309031030"
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
