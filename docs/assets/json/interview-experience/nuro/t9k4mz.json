@@ -1,0 +1,32 @@
+{
+    "company": "nuro",
+    "position": {
+      "jobPostUrl": null,
+      "title": "TPM/PM, AI Evaluation & Safety Deployment",
+      "level": "experienced",
+      "jobType": "full-time"
+    },
+    "applicationSource": {
+      "channel": "direct-apply",
+      "referralDetails": ""
+    },
+    "candidate": {
+      "education": "Master's",
+      "background": "~4 years as a TPM at a large tech company; no prior autonomous driving experience; currently employed and switching jobs",
+      "yearsOfExperience": 4
+    },
+    "interview": {
+      "date": "",
+      "result": "pending",
+      "rounds": [
+        {
+          "roundType": "recruiter-screen",
+          "rate": 3
+        },
+        {
+          "roundType": "hiring-manager",
+          "rate": 4
+        }
+      ]
+    }
+  }
