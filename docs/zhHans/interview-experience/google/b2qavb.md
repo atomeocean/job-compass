@@ -31,15 +31,11 @@ outline: deep
 
 属于会议室（Meeting Rooms）系列题目的变体。
 
----
-
 ### 第二轮：Behavioral Interview
 
 常规 BQ。
 
 主要围绕过往项目经历、团队合作以及行为问题展开。
-
----
 
 ### 第三轮：Coding
 
@@ -55,15 +51,11 @@ outline: deep
 
 属于区间处理和统计类题目。
 
----
-
 ### 第四轮：Coding
 
 题目属于经典 Topological Sort（拓扑排序）。
 
 整体属于比较容易识别题型的一道图论题。
-
----
 
 ### 加面：AI / ML
 
