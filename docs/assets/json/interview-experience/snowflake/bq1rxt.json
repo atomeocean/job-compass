@@ -2,24 +2,27 @@
   "company": "Snowflake",
   "position": {
     "jobPostUrl": null,
-    "title": "Senior Software Engineer",
-    "level": "Senior",
+    "title": "Software Engineer",
+    "level": "",
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "online",
+    "channel": "",
     "referralDetails": ""
   },
   "candidate": {
     "education": "硕士",
-    "background": "在职跳槽",
-    "yearsOfExperience": 8
+    "background": "应届毕业生",
+    "yearsOfExperience": 0
   },
   "interview": {
     "date": "",
-    "result": "rejected",
+    "result": "pass",
     "rounds": [
-      { "roundType": "phone-screen", "rate": 3 }
+      {
+        "roundType": "phone-screen",
+        "rate": 3
+      }
     ]
   }
 }
