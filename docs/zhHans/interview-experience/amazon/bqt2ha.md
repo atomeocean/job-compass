@@ -28,8 +28,6 @@ outline: deep
 
 所有题目都是从零开始手写，没有 test case 运行环节。
 
----
-
 ## Coding 1
 
 ### Kth Largest Binary Perfect Tree
@@ -47,8 +45,6 @@ outline: deep
 - 树的遍历
 - 子树结构判断
 - 排序 / 优先级选择
-
----
 
 ## Coding 2
 
@@ -75,8 +71,6 @@ outline: deep
 - 条件组合判断
 - 双层遍历优化
 
----
-
 ## System Design
 
 ### Primary DB + Read Replicas
@@ -98,8 +92,6 @@ outline: deep
 - 数据一致性问题
 - 恢复策略
 
----
-
 ## OOD
 
 ### Snake Game（贪吃蛇）
@@ -120,8 +112,6 @@ outline: deep
 - 状态管理
 - 扩展性（例如多蛇 / 不同模式）
 
----
-
 ## 面试体验
 
 整体节奏比较标准 Amazon 风格：
@@ -132,8 +122,6 @@ outline: deep
 - OOD 经典题
 
 难度中等偏上，主要压力在时间分配和完整表达。
-
----
 
 ## 面试结果反馈
 
