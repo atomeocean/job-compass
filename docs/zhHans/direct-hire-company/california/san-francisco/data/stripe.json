@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Stripe, Inc.",
+    "location": {
+      "addressLine1": "354 Oyster Point Boulevard",
+      "addressLine2": "",
+      "county": "San Mateo County",
+      "cityOrTown": "South San Francisco",
+      "state": "CA",
+      "zipCode": "94080"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.stripe.com",
+      "linkedin": "https://www.linkedin.com/company/stripe"
+    },
+    "industry": ["金融科技", "在线支付", "互联网基础设施", "SaaS"],
+    "foundedYear": "2010",
+    "description": "Stripe 是一家全球领先的在线支付基础设施公司，为互联网企业提供支付处理、收入管理和金融服务的技术解决方案。公司由 Patrick Collison 和 John Collison 兄弟于 2010 年在旧金山创立，目前服务于全球数百万企业，包括 Amazon、Google、Shopify 等。Stripe 的产品涵盖支付网关、订阅管理、发票、欺诈检测、企业融资等多个领域。",
+    "mainProductsOrServices": [
+      "Stripe Payments（在线支付处理）",
+      "Stripe Billing（订阅与计费管理）",
+      "Stripe Connect（平台支付）",
+      "Stripe Atlas（企业注册服务）",
+      "Stripe Radar（欺诈检测）"
+    ],
+    "companySize": "约 8,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-07-06"
+  }
+}
