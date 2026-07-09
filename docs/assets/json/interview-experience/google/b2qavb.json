@@ -1,25 +1,28 @@
 {
-  "company": "Snowflake",
+  "company": "Google",
   "position": {
     "jobPostUrl": null,
-    "title": "Senior Software Engineer",
-    "level": "Senior",
+    "title": "Software Engineer",
+    "level": "L4",
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "online",
+    "channel": "网上海投",
     "referralDetails": ""
   },
   "candidate": {
     "education": "硕士",
     "background": "在职跳槽",
-    "yearsOfExperience": 8
+    "yearsOfExperience": null
   },
   "interview": {
     "date": "",
-    "result": "rejected",
+    "result": "pass",
     "rounds": [
-      { "roundType": "phone-screen", "rate": 3 }
+      {
+        "roundType": "onsite",
+        "rate": 2
+      }
     ]
   }
 }
