@@ -2,7 +2,7 @@
 title: SDE2 onsite
 description: Amazon SDE2 Onsite面试经验
 createdDate: 2026-06-30
-lastUpdated: 2026-07-08
+lastUpdated: 2026-07-09
 outline: deep
 ---
 # Amazon SDE2 Onsite面试经验
