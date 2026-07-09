@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Salesforce, Inc.",
+    "location": {
+      "addressLine1": "415 Mission Street",
+      "addressLine2": "3rd Floor",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105"
+    },
+    "contact": {
+      "phone": "+1 415-901-7000",
+      "email": "",
+      "website": "https://www.salesforce.com",
+      "linkedin": "https://www.linkedin.com/company/salesforce"
+    },
+    "industry": ["云计算", "企业软件", "CRM", "人工智能"],
+    "foundedYear": "1999",
+    "description": "Salesforce 是全球领先的客户关系管理（CRM）平台提供商，为企业提供销售、服务、营销、商务和 IT 团队的云端解决方案。公司以其旗舰产品 Sales Cloud、Service Cloud 以及 AI 平台 Einstein 闻名，服务全球超过 15 万家企业客户。Salesforce 总部位于旧金山 Salesforce Tower，是道琼斯工业平均指数成分股之一。",
+    "mainProductsOrServices": [
+      "Sales Cloud",
+      "Service Cloud",
+      "Salesforce Platform",
+      "Slack（团队协作）",
+      "Tableau（数据分析）"
+    ],
+    "companySize": "约 72,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-06-22"
+  }
+}
