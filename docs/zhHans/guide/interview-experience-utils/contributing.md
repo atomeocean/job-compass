@@ -8,6 +8,7 @@ relatedArticles:
   - title: Atomeocean面经贡献流程指南
     href: https://logbook.atomeocean.com/guide/light-weight-work/ceremonial-contribution/interview-experience-contribution.html
     category: 流程指南
+adminNote: 以这篇为准
 ---
 # 面试经验贡献指南
 
