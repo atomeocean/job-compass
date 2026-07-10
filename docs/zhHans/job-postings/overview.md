@@ -1,7 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-06-19
+lastUpdated: 2026-07-10
 ---
 <script setup>
 const overviewItems = [
@@ -436,13 +436,6 @@ const overviewItems = [
     "title": "Warner Bros. Discovery",
     "description": "该文件主要介绍 Warner Bros. Discovery 的相关内容。",
     "href": "./warner-bros-discovery/index.md",
-    "order": 0,
-    "kind": "folder"
-  },
-  {
-    "title": "招聘信息辅助文档",
-    "description": "该文件主要介绍 招聘信息辅助文档 的相关内容。",
-    "href": "./job-postings-utils/index.md",
     "order": 0,
     "kind": "folder"
   }

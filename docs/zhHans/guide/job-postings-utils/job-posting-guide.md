@@ -1,15 +1,26 @@
 ---
 title: 招聘信息文档指南
 outline: deep
-lastUpdated: 2026-03-04
+lastUpdated: 2026-07-10
 description: 在job compass发布招聘信息的流程
 createdDate: 2025-03-17
+adminNote: 以这篇为准
 ---
 # Job Posting发布指南
 
-> [!CAUTION] 前置条件：请先创建面经
-> 为确保信息的完整性与参考价值，发布 Job Post 前，需先完成关联面试经验的添加。
-> 请您先创建面经，再继续发布 Job Post。
+## 受理范围警告
+
+> [!CAUTION] 职位发布类提交暂不受理
+> 目前**单独的职位发布类内容提交将不予受理**，仅以下场景除外：
+>
+> - 已存在对应的面经，**且**能提供对应职位链接作为佐证。
+>
+> 为确保信息的完整性与参考价值，请先创建面经，再继续发布 Job Post。相关准入规则后续会补充完善，请以本页面最新说明为准。
+
+> [!WARNING] 开放式问题：部分职位链接返回 404
+> 实测发现部分已收录的职位链接访问时返回 404。如何跟进和处理失效链接（例如定期校验链接有效性、职位关闭后及时更新或下线对应信息）尚无最终方案，后续优化方案将在此跟进，欢迎在 PR 或 Discord 中提出建议。
+> 
+> 新的PR中，请务必确保职位链接有效，若发现失效链接，请在PR中说明，并提供可访问的职位链接。
 
 本文介绍如何按照流程添加一篇招聘信息文档，以便在Job Compass网站上展示相关职位信息。
 
@@ -54,7 +65,7 @@ createdDate: 2025-03-17
 ### 2. 创建`index.md`文件
 
 1. 复制模板内容  
-   将[模板文件](/job-postings/job-postings-utils/index.md)的内容复制到 `index.md` 中。
+   将[模板文件](/guide/job-postings-utils/index.md)的内容复制到 `index.md` 中。
 
 2. 编辑文件标题
   - 修改`title`字段的值（原模板为 `{{公司名称}}`）为正确的公司名称。**一定要去掉双大括号**。
@@ -121,7 +132,7 @@ software-engineer-20250102.md
 ## 7 创建职位Markdown文件
 
 1. 回到公司名称文件夹，创建一个与第5步同名的Markdown文件，文件名为`职位名称-日期.md`（例如：`software-engineer-20250102.md`）
-2. 将[模版文件中的职位markdown文件模板部分](/job-postings/job-postings-utils/job-posting-template.md#职位markdown文件模板) 中的内容复制到该文件中
+2. 将[模版文件中的职位markdown文件模板部分](/guide/job-postings-utils/job-posting-template.md#职位markdown文件模板) 中的内容复制到该文件中
 3. 将片段中的`title`值替换为文件名，并用空格替换连字符，例如：`software engineer 20250102`
 4. 将片段中的`{公司名称}`替换为实际公司名称。
    - 示例：`{公司名称} 招聘信息`替换为`Amazon 招聘信息`

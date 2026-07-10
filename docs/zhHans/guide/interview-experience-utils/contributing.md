@@ -2,12 +2,13 @@
 title: 贡献指南
 description: 面试经验贡献规则和流程
 createdDate: 2025-12-31
-lastUpdated: 2026-07-09
+lastUpdated: 2026-07-10
 outline: deep
 relatedArticles:
   - title: Atomeocean面经贡献流程指南
     href: https://logbook.atomeocean.com/guide/light-weight-work/ceremonial-contribution/interview-experience-contribution.html
     category: 流程指南
+adminNote: 以这篇为准
 ---
 # 面试经验贡献指南
 

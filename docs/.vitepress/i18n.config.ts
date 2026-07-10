@@ -46,16 +46,22 @@ export const vitePressI18nOptions : VitePressI18nOptions = {
     zhHans: {
       nav: [
         {
-          text: '产品',
+          text: '参与指南',
           items: [
-            { text: '主站', link: 'https://atomeocean.com' },
-            { text: 'Cruise', link: 'https://cruise.atomeocean.com'}
+            { text: '目录概述', link: '/guide/overview.md' },
+            { text: '项目开发参与指南', link: '/guide/participation-guide.md' },
+            { text: '任务指南', link: '/guide/task-guide.md' },
+            { text: '贡献指南', link: '/guide/contribution-guide/index.md' },
+            { text: '面试经验贡献指南', link: '/guide/interview-experience-utils/contributing.md' },
+            { text: 'GitHub网页发布PR指南', link: '/guide/github-pull-request-guide.md' },
           ]
         },
         {
           text: '资源',
           items: [
             { text: '鸣谢', link: '/guide/team.md' },
+            { text: '主站', link: 'https://atomeocean.com' },
+            { text: 'Cruise', link: 'https://cruise.atomeocean.com'}
           ]
         }
       ],
