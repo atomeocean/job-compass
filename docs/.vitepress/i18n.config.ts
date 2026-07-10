@@ -46,9 +46,9 @@ export const vitePressI18nOptions : VitePressI18nOptions = {
     zhHans: {
       nav: [
         {
-          text: '指南',
+          text: '参与指南',
           items: [
-            { text: '整体指南', link: '/guide/overview.md' },
+            { text: '目录概述', link: '/guide/overview.md' },
             { text: '项目开发参与指南', link: '/guide/participation-guide.md' },
             { text: '任务指南', link: '/guide/task-guide.md' },
             { text: '贡献指南', link: '/guide/contribution-guide/index.md' },
