@@ -2,6 +2,8 @@
 title: SWE Onsite
 description: Coinbase软件工程师Onsite面试经验，系统设计题考察Ring Buffer
 outline: deep
+createdDate: 2026-07-10
+lastUpdated: 2026-07-10
 ---
 # Coinbase公司软件工程师Onsite面试经验
 
