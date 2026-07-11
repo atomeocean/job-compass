@@ -2,14 +2,16 @@
 title: 直招公司信息文档指南
 description: 直招公司信息文档指南，提供如何查找、创建和填充直招公司信息的详细步骤。
 outline: deep
-lastUpdated: 2026-05-05
+lastUpdated: 2026-07-10
 createdDate: 2025-03-19
+adminNote: 以这篇为准
 ---
 # Direct Hire Company 添加流程
 
 > [!CAUTION] 添加前阅读
 > 请确保在添加一家直招公司信息前，Job Compass 已经存在该公司的面试经验文档（可先在 Job Compass 的「面试经验」板块或相关仓库目录中按公司名称搜索进行确认）。
 > 如果确认不存在，请先补充或创建该公司的面试经验文档，再回来添加该公司的信息。
+> 单独添加直招公司信息而没有对应的面试经验文档，可能会导致PR被直接关闭。
 
 ## 流程概览
 

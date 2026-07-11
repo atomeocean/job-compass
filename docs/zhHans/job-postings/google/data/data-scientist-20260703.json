@@ -1,0 +1,39 @@
+{
+  "companyName": "Google",
+  "jobTitle": "Business Data Scientist, Platform Journey Analytics and Measurement",
+  "jobLocation": [
+    "USA, CO, Boulder",
+    "USA, IL, Chicago"
+  ],
+  "jobType": "全职",
+  "jobResponsibilities": [
+    "进行定量数据分析，为产品和业务提供推荐，包括影响分析、市场和用户理解、战略分析以及用户行为分析。",
+    "向多层级利益相关者有效展示分析结果和推荐。",
+    "开发、规划和执行实验，在产品层面大规模迭代构建和原型化想法。",
+    "与跨职能利益相关者合作，理解其业务需求，完成端到端分析，包括数据收集、分析、持续规模化交付和演示。",
+    "全面理解 Google 的数据结构和指标，并在需要时倡导变更以支持规模化运营。"
+  ],
+  "candidateQualifications": {
+    "basicQualifications": [
+      "统计学、工程学、科学或其他量化领域硕士学位，或具备同等的实际经验",
+      "3年或以上使用分析方法解决产品或业务问题的经验，熟练编码（如 Python、R、SQL）、数据库查询或统计分析，或具备相关博士学位"
+    ],
+    "preferredQualifications": [
+      "4年或以上使用分析方法解决产品或业务问题的经验，熟练编码（如 Python、R、SQL）、数据库查询或统计分析，或具备相关博士学位",
+      "具备战略分析或运营管理支持经验，并有向高管展示的经验",
+      "具备网站分析经验",
+      "具备 AI 平台相关经验"
+    ]
+  },
+  "salary": [
+    "$138,000 - $198,000 USD",
+    "另含 15% 奖金目标、股权和福利"
+  ],
+  "benefits": [
+    "奖金",
+    "股权激励",
+    "公司福利（详情可见官网）"
+  ],
+  "jobLink": "https://www.google.com/about/careers/applications/jobs/results/110914006452970182-business-data-scientist-platform-journey-analytics-and-measurement",
+  "notes": "申请窗口至少开放至 2026 年 7 月 14 日，具体以业务需求为准。"
+}
