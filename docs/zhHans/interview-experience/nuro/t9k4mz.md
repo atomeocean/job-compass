@@ -1,7 +1,7 @@
 ---
 title: TPM/PM
 createdDate: 2026-07-07
-lastUpdated: 2026-07-07
+lastUpdated: 2026-07-11
 outline: deep
 ---
 # Nuro TPM/PM 面试经验
