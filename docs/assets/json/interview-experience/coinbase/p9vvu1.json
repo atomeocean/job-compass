@@ -1,0 +1,28 @@
+{
+  "company": "Coinbase",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "网上海投",
+    "referralDetails": "na"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "other",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}
