@@ -16,8 +16,8 @@
       "yearsOfExperience": 4
     },
     "interview": {
-      "date": "",
-      "result": "pending",
+      "date": "2026-04-01",
+      "result": "Pass",
       "rounds": [
         {
           "roundType": "recruiter-screen",
