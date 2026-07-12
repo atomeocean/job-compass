@@ -46,3 +46,16 @@ Have Backbone; Disagree and Commit、Invent and Simplify、Insist on the Highest
 
 ## 引用来源
 
+<ReferenceSource
+:sources="[
+  {
+    title: '26sde面筋全套',
+    link: 'https://www.1point3acres.com/interview/thread/1182648',
+    site: '一亩三分地',
+    author: '飞龙哥在天',
+    date: '2026-07-10',
+    category: '面经',
+    description: 'Amazon L4 SDE 全职面试完整面经，含4轮BQ+technical穿插的详细过程与题目'
+  }
+]"
+/>
