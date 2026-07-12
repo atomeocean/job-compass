@@ -1,0 +1,28 @@
+{
+  "company": "salesforce",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "other",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "其他",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "other",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 5
+      }
+    ]
+  }
+}
