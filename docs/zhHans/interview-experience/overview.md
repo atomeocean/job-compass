@@ -1,8 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-07-09
-createdDate: 2026-07-09
+lastUpdated: 2026-07-12
 ---
 <script setup>
 const overviewItems = [
@@ -45,6 +44,13 @@ const overviewItems = [
     "title": "Capital One",
     "description": "该文件主要介绍 Capital One 的相关内容。",
     "href": "./capital-one/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Coinbase",
+    "description": "Coinbase 面试经验分享",
+    "href": "./coinbase/index.md",
     "order": 0,
     "kind": "folder"
   },
