@@ -43,9 +43,9 @@ const totalArticles = computed(() =>
   <div class="iel">
     <div class="iel__toolbar">
       <el-radio-group v-model="filter">
-        <el-radio-button label="all">全部</el-radio-button>
-        <el-radio-button label="new">近期有更新</el-radio-button>
-        <el-radio-button label="many">面经 ≥ 3 篇</el-radio-button>
+        <el-radio-button value="all">全部</el-radio-button>
+        <el-radio-button value="new">近期有更新</el-radio-button>
+        <el-radio-button value="many">面经 ≥ 3 篇</el-radio-button>
       </el-radio-group>
       <span class="iel__count">{{ filteredItems.length }} 家公司 · 共 {{ totalArticles }} 篇</span>
     </div>
