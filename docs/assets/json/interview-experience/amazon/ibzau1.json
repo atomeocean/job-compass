@@ -1,0 +1,40 @@
+{
+  "company": "amazon",
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE",
+    "level": "L4", 
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "码农类硕士，全职求职（2026年7-9月批次）",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "accepted",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": 4
+      },
+      {
+        "roundType": "technical",
+        "rate": 3
+      },
+      {
+        "roundType": "technical",
+        "rate": 4
+      },
+      {
+        "roundType": "behavioral",
+        "rate": 3
+      }
+    ]
+  }
+}
