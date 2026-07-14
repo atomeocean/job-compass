@@ -11,6 +11,8 @@ outline: deep
 - 公司信息：[Amazon](https://www.amazon.jobs/)
 - 面试时间：2026年7月
 
+<InterviewDetail /> 
+
 ## 背景
 
 候选人为码农类硕士，2026年7-9月批次全职求职，面试的是 L4 SDE 职位。
