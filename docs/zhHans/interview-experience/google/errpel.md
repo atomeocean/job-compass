@@ -66,7 +66,7 @@ Output: 2
   {
     title: 'Google L4 面经',
     site: '一亩三分地',
-    url: 'https://www.1point3acres.com/interview/thread/1182964'
+    url: 'https://www.1point3acres.com/interview/thread/1182964',
     author: '地里匿名用户',
     date: '2026-07-14',
     category: '面经',
