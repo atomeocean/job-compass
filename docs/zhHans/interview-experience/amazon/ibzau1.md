@@ -1,7 +1,7 @@
 ---
 title: SDE
 createdDate: 2026-07-12
-lastUpdated: 2026-07-12
+lastUpdated: 2026-07-14
 outline: deep
 ---
 # Amazon L4 SDE 面试经验
