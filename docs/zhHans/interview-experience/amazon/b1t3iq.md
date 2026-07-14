@@ -5,7 +5,6 @@ createdDate: 2026-07-13
 lastUpdated: 2026-07-13
 outline: deep
 ---
-
 # Amazon L5 Software Development Engineer Phone Screen面试经验
 
 <InterviewDetail />
