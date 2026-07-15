@@ -16,6 +16,7 @@ relatedArticles:
 抖音商家认证账号
 
 ## 企业认证详情
+
 1. 认证信息：商家认证账号（带蓝色对勾标识）
 2. 企业名称：滨乐荟（深圳）顾问有限公司
 3. 企业代码：91440300MA5HTK522K
@@ -26,18 +27,31 @@ relatedArticles:
 
 2026年7月
 
-![直播截图](https://github.com/tengtianxiang/picx-images-hosting/raw/master/immigrant-agent/douyin-binlehui.9gx98bivmd.webp)
+<ImageWrapper
+  src="https://github.com/tengtianxiang/picx-images-hosting/raw/master/immigrant-agent/douyin-binlehui.9gx98bivmd.webp"
+  alt="滨乐荟抖音直播截图"
+  caption="2026 年 7 月 · 抖音直播截图"
+/>
 
 这人说USC当地就业ok
 
 > [!NOTE] 在直播自称
 > 在康奈尔的学习的专业是心理学
+> 
 > 后台私信我
 
 ## 同一账号下另一个女主播 
 
-![直播截图](https://github.com/tengtianxiang/picx-images-hosting/raw/master/immigrant-agent/douyin-binlehui-nv-live.7i12hzjhkq.webp)
+<ImageWrapper
+  src="https://github.com/tengtianxiang/picx-images-hosting/raw/master/immigrant-agent/douyin-binlehui-nv-live.7i12hzjhkq.webp"
+  alt="另一位女主播抖音直播截图"
+  caption="另一位女主播 · 抖音直播截图"
+/>
 
-![直播截图](https://github.com/tengtianxiang/picx-images-hosting/raw/master/immigrant-agent/douyin-binlehui-nv-hao.9o0h3rbink.webp)
+<ImageWrapper
+  src="https://github.com/tengtianxiang/picx-images-hosting/raw/master/immigrant-agent/douyin-binlehui-nv-hao.9o0h3rbink.webp"
+  alt="另一位女主播抖音直播截图"
+  caption="另一位女主播 · 抖音直播截图"
+/>
 
 
