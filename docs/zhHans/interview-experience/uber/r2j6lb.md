@@ -1,7 +1,7 @@
 ---
 title: New Grad SWE
 createdDate: 2026-07-14
-lastUpdated: 2026-07-14
+lastUpdated: 2026-07-15
 outline: deep
 ---
 # Uber New Grad SWE 面试经验
