@@ -4,7 +4,6 @@ createdDate: 2026-07-14
 lastUpdated: 2026-07-14
 outline: deep
 ---
-
 # Uber New Grad SWE 面试经验
 
 ## 面试基本信息
