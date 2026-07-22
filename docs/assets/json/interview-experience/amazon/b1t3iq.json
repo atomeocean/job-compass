@@ -1,0 +1,28 @@
+{
+  "company": "Amazon",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer",
+    "level": "L5",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "在职跳槽",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "reject",
+    "rounds": [
+      {
+        "roundType": "phone",
+        "rate": 3
+      }
+    ]
+  }
+}
