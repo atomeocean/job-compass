@@ -1,0 +1,28 @@
+{
+  "company": "disney",
+  "position": {
+    "jobPostUrl": null,
+    "title": "AI Product Intern",
+    "level": "intern",
+    "jobType": "internship"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "应届毕业生",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2026-07",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "case",
+        "rate": 5
+      }
+    ]
+  }
+}
