@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Databricks, Inc.",
+    "location": {
+      "addressLine1": "160 Spear Street",
+      "addressLine2": "Suite 1300",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105"
+    },
+    "contact": {
+      "phone": "+1 866-330-0121",
+      "email": "",
+      "website": "https://www.databricks.com",
+      "linkedin": "https://www.linkedin.com/company/databricks"
+    },
+    "industry": ["大数据", "人工智能", "云计算", "数据工程"],
+    "foundedYear": "2013",
+    "description": "Databricks 是全球领先的数据和人工智能平台公司，由 Apache Spark 的创始团队创立。公司提供统一的数据湖仓（Lakehouse）平台，帮助企业在一个平台上完成数据工程、数据科学、机器学习和数据分析。Databricks 总部位于旧金山，是目前估值最高的 AI 独角兽公司之一。",
+    "mainProductsOrServices": [
+      "Databricks Lakehouse Platform",
+      "Delta Lake",
+      "MLflow",
+      "Databricks SQL",
+      "Mosaic AI"
+    ],
+    "companySize": "约 7,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-07-23"
+  }
+}
