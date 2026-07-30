@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Bloomberg L.P.",
+    "location": {
+      "addressLine1": "731 Lexington Avenue",
+      "addressLine2": "",
+      "county": "New York County",
+      "cityOrTown": "New York",
+      "state": "NY",
+      "zipCode": "10022"
+    },
+    "contact": {
+      "phone": "+1 212-318-2000",
+      "email": "",
+      "website": "https://www.bloomberg.com",
+      "linkedin": "https://www.linkedin.com/company/bloomberg-lp"
+    },
+    "industry": ["金融科技", "数据分析", "媒体", "企业软件"],
+    "foundedYear": "1981",
+    "description": "Bloomberg 是全球领先的金融数据、软件和媒体公司，以其核心产品 Bloomberg Terminal 闻名，为全球金融专业人士提供实时市场数据、新闻和分析工具。公司同时运营 Bloomberg News、Bloomberg Television 等媒体业务。总部位于纽约曼哈顿。",
+    "mainProductsOrServices": [
+      "Bloomberg Terminal",
+      "Bloomberg News",
+      "Bloomberg Intelligence",
+      "Bloomberg Law",
+      "Bloomberg Government"
+    ],
+    "companySize": "约 20,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-07-21"
+  }
+}
