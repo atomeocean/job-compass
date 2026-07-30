@@ -1,0 +1,37 @@
+{
+  "project": "NieR:Automata",
+  "documentType": "gameplay-and-system-analysis",
+  "category": "research",
+  "researchFocus": [
+    "combat system",
+    "player customization",
+    "level and world design",
+    "multiple gameplay perspectives",
+    "narrative integration",
+    "progression systems"
+  ],
+  "analysisPurpose": "Study how NieR:Automata integrates action combat, exploration, customization, multiple gameplay perspectives, and narrative progression into a unified player experience.",
+  "designSystems": {
+    "coreGameplayLoop": "Explore → Encounter → Combat → Collect Resources → Upgrade → Progress Story → Explore New Areas",
+    "primaryMechanics": [
+      "real-time action combat",
+      "melee and ranged attacks",
+      "dodging",
+      "Chip customization",
+      "exploration",
+      "perspective changes"
+    ],
+    "progressionTypes": [
+      "character progression",
+      "narrative progression",
+      "knowledge progression"
+    ]
+  },
+  "designTakeaways": [
+    "Layer customization systems on top of simple core mechanics",
+    "Use perspective changes to create gameplay variation",
+    "Integrate mechanics with narrative themes",
+    "Design multiple forms of player progression",
+    "Recontextualize existing content through new narrative information"
+  ]
+}
