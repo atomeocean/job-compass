@@ -1,7 +1,7 @@
 ---
 title: Fortinet
 createdDate: 2026-07-28
-lastUpdated: 2026-07-28
+lastUpdated: 2026-07-30
 ---
 # Fortinet, Inc.
 
