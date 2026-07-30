@@ -2,11 +2,14 @@
 title: 贡献指南
 description: 面试经验贡献规则和流程
 createdDate: 2025-12-31
-lastUpdated: 2026-07-11
+lastUpdated: 2026-07-15
 outline: deep
 relatedArticles:
   - title: Atomeocean面经贡献流程指南
     href: https://logbook.atomeocean.com/guide/light-weight-work/ceremonial-contribution/interview-experience-contribution.html
+    category: 流程指南
+  - title: Atomeocean仪式性贡献流程指南
+    href: https://logbook.atomeocean.com/guide/light-weight-work/ceremonial-contribution/process-guide.html
     category: 流程指南
 adminNote: 以这篇为准
 ---
@@ -14,7 +17,7 @@ adminNote: 以这篇为准
 
 ## 阅读须知
 
-1. 本文是一份**简要指南**，只概述基本流程和规则。完整的操作步骤请参考 [Atomeocean面经贡献流程指南](https://logbook.atomeocean.com/guide/light-weight-work/ceremonial-contribution/interview-experience-contribution.html)。
+1. 本文是一份**简要指南**，只概述基本流程和规则。完整的操作步骤请参考 [Atomeocean仪式性贡献流程指南](https://logbook.atomeocean.com/guide/light-weight-work/ceremonial-contribution/process-guide.html)。
 2. **设备要求**：请使用笔记本电脑或台式电脑完成贡献流程，不支持 iPad、iPhone 等移动设备。
 3. **账号要求**：需要注册并登录 [GitHub](https://github.com/) 账号。
 
