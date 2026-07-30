@@ -2,7 +2,7 @@
 title: phone screen L5
 description: Amazon L5 Software Development Engineer Phone Screen面试经验
 createdDate: 2026-07-13
-lastUpdated: 2026-07-13
+lastUpdated: 2026-07-30
 outline: deep
 ---
 # Amazon L5 Software Development Engineer Phone Screen面试经验
