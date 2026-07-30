@@ -1,7 +1,7 @@
 ---
 title: Bloomberg
 createdDate: 2026-07-21
-lastUpdated: 2026-07-29
+lastUpdated: 2026-07-30
 ---
 # Bloomberg L.P.
 
