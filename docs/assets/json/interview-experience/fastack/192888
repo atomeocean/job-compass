@@ -1,0 +1,52 @@
+{
+  "project": "Fastack",
+  "documentType": "gameplay-mechanic-design",
+  "category": "design",
+  "designFocus": [
+    "melee attack",
+    "dodge",
+    "combat loop",
+    "player decision-making",
+    "enemy interaction",
+    "combat feedback"
+  ],
+  "designPurpose": "Design a simple real-time combat foundation centered around melee attacks and dodging, with an emphasis on responsiveness, readability, timing, positioning, and future expandability.",
+  "coreGameplayLoop": "Observe → Position → Attack → React → Dodge → Reposition",
+  "primaryMechanics": {
+    "meleeAttack": "A primary offensive action that allows the player to damage enemies through timed attacks and positioning.",
+    "dodge": "A defensive action that allows the player to avoid incoming attacks and reposition during combat."
+  },
+  "userStories": [
+    "As a player, I want to perform a melee attack so that I can damage enemies and progress through combat encounters.",
+    "As a player, I want to dodge incoming attacks so that I can avoid damage and reposition myself during combat.",
+    "As a player, I want to recognize enemy attack patterns so that I can choose the right moment to attack or dodge.",
+    "As a player, I want clear combat feedback so that I can understand the result of my actions.",
+    "As a player, I want successful timing and positioning to improve my combat performance so that I feel rewarded for learning enemy behavior."
+  ],
+  "systemStates": [
+    "Idle",
+    "Attacking",
+    "Dodging",
+    "Recovery"
+  ],
+  "futureIterations": [
+    "light and heavy attacks",
+    "attack combos",
+    "perfect dodge timing",
+    "counterattacks",
+    "stamina management",
+    "different weapon types",
+    "enemy-specific attack patterns",
+    "hit reactions",
+    "knockback",
+    "special abilities"
+  ],
+  "successCriteria": [
+    "Players can understand how to attack and dodge.",
+    "Players can identify when an enemy is about to attack.",
+    "Successful dodging provides a meaningful advantage.",
+    "Attacking requires meaningful timing or positioning.",
+    "Improved performance comes from learning enemy behavior.",
+    "The combat loop remains engaging across repeated encounters."
+  ]
+}
