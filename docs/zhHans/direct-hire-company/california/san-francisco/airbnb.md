@@ -1,7 +1,7 @@
 ---
 title: Airbnb
 createdDate: 2026-07-18
-lastUpdated: 2026-07-29
+lastUpdated: 2026-07-30
 ---
 # Airbnb, Inc.
 
