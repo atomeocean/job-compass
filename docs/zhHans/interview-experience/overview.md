@@ -1,10 +1,17 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-07-12
+lastUpdated: 2026-07-30
 ---
 <script setup>
 const overviewItems = [
+  {
+    "title": "Airbnb",
+    "description": "Airbnb 面试经验分享",
+    "href": "./airbnb/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
   {
     "title": "Amazon",
     "description": "Amazon 面试经验分享",
@@ -149,6 +156,13 @@ const overviewItems = [
     "title": "Rednote",
     "description": "该文件主要介绍 Rednote 的相关内容。",
     "href": "./rednote/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Salesforce",
+    "description": "Salesforce 面试经验分享",
+    "href": "./salesforce/index.md",
     "order": 0,
     "kind": "folder"
   },

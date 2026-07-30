@@ -18,6 +18,7 @@ import SiteViewStatistic from "./components/siteStatistic/SiteViewStatistic.vue"
 import DocTitleMeta from "./components/siteStatistic/DocTitleMeta.vue";
 import Giscus from "@ao-components/Giscus";
 import InterviewDetail from "./components/InterviewDetail.vue";
+import InterviewExperienceList from "./components/InterviewExperienceList.vue";
 import { h } from 'vue';
 import {
   InjectionKey,
@@ -52,6 +53,7 @@ export default {
     app.component("SiteViewStatistic", SiteViewStatistic);
     app.component("DocTitleMeta", DocTitleMeta);
     app.component("InterviewDetail", InterviewDetail);
+    app.component("InterviewExperienceList", InterviewExperienceList);
     app.use(NolebaseGitChangelogPlugin);
 
     // 隐藏贡献者标题

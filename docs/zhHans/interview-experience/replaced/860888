@@ -1,0 +1,137 @@
+---
+title: REPLACED
+createdDate: 2026-07-01
+lastUpdated: 2026-07-01
+outline: deep
+---
+
+# REPLACED Gameplay and System Analysis
+
+## Research Overview
+
+- Game: REPLACED
+- Analysis Type: Gameplay and System Analysis
+- Research Focus: Level Design, Combat, Narrative Integration, Progression Systems
+
+## Core Gameplay Loop
+
+The primary gameplay loop can be summarized as:
+
+**Explore → Discover → Encounter → Combat → Progress → Uncover Narrative**
+
+Players move through interconnected environments, discover new locations and narrative information, encounter enemies or environmental challenges, and progress through the story.
+
+The game alternates between exploration and combat rather than treating them as completely separate gameplay modes. This creates a consistent rhythm that supports both gameplay and narrative pacing.
+
+## Level and Environment Design
+
+REPLACED uses a primarily side-scrolling structure while incorporating multiple layers of depth and environmental spaces.
+
+The level design serves several purposes:
+
+- Guide players through a linear narrative progression.
+- Create opportunities for environmental storytelling.
+- Establish visual contrast between different locations.
+- Provide spaces for combat encounters and traversal challenges.
+- Control pacing between exploration, combat, and narrative moments.
+
+Environmental landmarks and visual composition help communicate where the player should move next without relying entirely on explicit UI instructions.
+
+The environment also contributes to world-building. Architecture, technology, lighting, and background activity communicate information about the setting and its social conditions.
+
+## Combat System
+
+The combat system emphasizes fast-paced melee encounters and responsive player actions.
+
+The core combat loop can be represented as:
+
+**Approach Enemy → Attack → React to Enemy Behavior → Dodge / Counter → Defeat Enemy**
+
+Combat encounters are designed around enemy positioning and timing. Players need to recognize enemy attacks and respond appropriately rather than relying only on repeated attacks.
+
+This creates a relationship between:
+
+- Player positioning
+- Attack timing
+- Enemy attack patterns
+- Defensive actions
+- Encounter composition
+
+The combat system therefore functions as both a mechanical challenge and a pacing tool.
+
+## Encounter Design
+
+Enemy encounters are placed within the level structure to create changes in gameplay intensity.
+
+A typical progression can be represented as:
+
+**Exploration → Low Intensity → Combat Encounter → Recovery → Exploration → Higher Intensity Encounter**
+
+This pacing structure prevents continuous combat from becoming repetitive and gives narrative sequences more impact.
+
+Encounter composition can also influence player behavior. Different enemy types encourage players to change positioning, timing, and attack priorities.
+
+## Narrative Integration
+
+REPLACED integrates narrative information directly into the player's progression through the world.
+
+The game uses several methods to communicate narrative:
+
+- Environmental storytelling
+- Character dialogue
+- Cinematic sequences
+- Visual composition
+- World architecture
+- Player movement through spaces
+
+This creates a connection between the player's physical progression and the story's progression.
+
+Instead of presenting the world only as a series of disconnected gameplay stages, the environment itself becomes part of the narrative structure.
+
+## Progression and Player Motivation
+
+The player's motivation is supported by several overlapping progression systems.
+
+### Mechanical Progression
+
+Players improve their combat capabilities and gain access to new gameplay opportunities.
+
+### Narrative Progression
+
+Players gradually uncover information about the world and characters.
+
+### Spatial Progression
+
+Players move through increasingly complex environments and discover new areas.
+
+These progression types reinforce each other. Mechanical progression provides gameplay motivation, while narrative and spatial progression provide contextual motivation.
+
+## Design Takeaways
+
+### 1. Combine Gameplay and Narrative Pacing
+
+Combat and exploration can be structured as alternating parts of a larger gameplay rhythm.
+
+### 2. Use Environment as Narrative
+
+Level design can communicate world-building information without requiring explicit exposition.
+
+### 3. Make Combat Support the Setting
+
+Combat encounters should feel connected to the world and environment rather than functioning as isolated gameplay challenges.
+
+### 4. Control Player Attention
+
+Visual composition, lighting, environmental landmarks, and encounter placement can guide player attention naturally.
+
+### 5. Layer Multiple Forms of Progression
+
+Mechanical, narrative, and spatial progression can work together to maintain player motivation.
+
+## Conclusion
+
+REPLACED demonstrates how exploration, combat, level design, and narrative presentation can be integrated into a cohesive experience.
+
+The most relevant takeaway is the integration between systems. The level structure establishes pacing, combat provides moment-to-moment interaction, and environmental storytelling continuously reinforces the game's world and narrative.
+
+These principles can be applied when designing levels and gameplay systems where mechanics and narrative need to support each other rather than functioning as independent components.
