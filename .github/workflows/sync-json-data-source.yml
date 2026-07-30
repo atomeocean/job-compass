@@ -1,4 +1,4 @@
-name: Sync PR to JSON Data Source
+name: Sync PR to JSON Data Source Repo
 
 # 触发条件：当pr被合并时执行
 on:
