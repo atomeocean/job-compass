@@ -1,7 +1,7 @@
 ---
 title: AI Product Intern
 createdDate: 2026-07-14
-lastUpdated: 2026-07-29
+lastUpdated: 2026-07-30
 outline: deep
 ---
 # Disney AI Product Intern 面试经验
