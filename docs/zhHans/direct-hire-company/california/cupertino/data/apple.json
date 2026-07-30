@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Apple Inc.",
+    "location": {
+      "addressLine1": "One Apple Park Way",
+      "addressLine2": "",
+      "county": "Santa Clara County",
+      "cityOrTown": "Cupertino",
+      "state": "CA",
+      "zipCode": "95014"
+    },
+    "contact": {
+      "phone": "+1 408-996-1010",
+      "email": "",
+      "website": "https://www.apple.com",
+      "linkedin": "https://www.linkedin.com/company/apple"
+    },
+    "industry": ["消费电子", "软件", "半导体", "人工智能"],
+    "foundedYear": "1976",
+    "description": "Apple 是全球领先的消费电子和软件公司，以 iPhone、Mac、iPad、Apple Watch 等硬件产品以及 iOS、macOS 等操作系统闻名。公司同时运营 App Store、Apple Music、iCloud 等服务业务。Apple 总部位于加州 Cupertino 的 Apple Park，是全球市值最高的公司之一。",
+    "mainProductsOrServices": [
+      "iPhone",
+      "Mac",
+      "iPad",
+      "Apple Watch",
+      "Apple Services（App Store、Apple Music、iCloud）"
+    ],
+    "companySize": "约 164,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-07-18"
+  }
+}
