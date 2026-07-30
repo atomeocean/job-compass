@@ -1,0 +1,31 @@
+{
+  "companyInfo": {
+    "companyName": "Airbnb, Inc.",
+    "location": {
+      "addressLine1": "888 Brannan Street",
+      "addressLine2": "",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94103"
+    },
+    "contact": {
+      "phone": "+1 415-510-4027",
+      "email": "",
+      "website": "https://www.airbnb.com",
+      "linkedin": "https://www.linkedin.com/company/airbnb"
+    },
+    "industry": ["科技", "在线旅游", "短租平台", "共享经济"],
+    "foundedYear": "2008",
+    "description": "Airbnb 是全球领先的在线短租和旅行体验平台，连接房东与旅客，提供覆盖全球 220 多个国家和地区的住宿和体验服务。公司于 2020 年在纳斯达克上市，总部位于旧金山。Airbnb 以其独特的共享经济模式重新定义了旅行住宿行业。",
+    "mainProductsOrServices": [
+      "Airbnb 住宿预订",
+      "Airbnb Experiences（体验活动）",
+      "Airbnb for Work（商旅服务）"
+    ],
+    "companySize": "约 6,900 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-07-18"
+  }
+}
