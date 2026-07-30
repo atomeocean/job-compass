@@ -1,0 +1,35 @@
+{
+  "project": "REPLACED",
+  "documentType": "gameplay-and-system-analysis",
+  "category": "research",
+  "researchFocus": [
+    "level design",
+    "environmental storytelling",
+    "combat system",
+    "encounter design",
+    "narrative integration",
+    "progression systems"
+  ],
+  "analysisPurpose": "Study how REPLACED integrates exploration, combat, environmental storytelling, and progression into a cohesive gameplay experience.",
+  "designSystems": {
+    "coreGameplayLoop": "Explore → Discover → Encounter → Combat → Progress → Uncover Narrative",
+    "primaryMechanics": [
+      "exploration",
+      "melee combat",
+      "environmental interaction",
+      "narrative discovery"
+    ],
+    "progressionTypes": [
+      "mechanical progression",
+      "narrative progression",
+      "spatial progression"
+    ]
+  },
+  "designTakeaways": [
+    "Combine gameplay and narrative pacing",
+    "Use environment as a narrative tool",
+    "Integrate combat encounters with the setting",
+    "Guide player attention through environmental composition",
+    "Layer multiple forms of progression"
+  ]
+}
