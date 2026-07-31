@@ -1,0 +1,89 @@
+{
+    "basicInfo": {
+        "identifier": "hongshu-26775619661",
+        "companyName": "未公开",
+        "marketingPlatforms": [
+            {
+                "platform": "hongshu",
+                "platformDisplayName": "小红书",
+                "accountId": "26775619661",
+                "accountNickname": "Nicole",
+                "isPrimary": true
+            }
+        ],
+        "contactInfo": {
+            "wechatId": "IRSCAA",
+            "phone": "",
+            "email": "",
+            "other": ""
+        },
+        "companyInfo": {
+            "registrationStatus": "",
+            "address": "",
+            "operatingArea": "",
+            "mainBusiness": "",
+            "officialWebsite": ""
+        }
+    },
+    "serviceInfo": {
+        "serviceTypes": [
+            "OPT挂靠",
+            "STEM OPT挂靠",
+            "H1b抽签"
+        ],
+        "pricing": {
+            "STEM OPT挂靠": {
+                "monthlyFee": "未明确",
+                "currency": "usd",
+                "note": ""
+            }
+        },
+        "serviceFeatures": [
+            ""
+        ],
+        "serviceProcess": {
+            "applicationProcess": "",
+            "paystubIssuance": "",
+            "taxHandling": "",
+            "otherNotes": ""
+        }
+    },
+    "credibilityAssessment": {
+        "credibilityRating": "",
+        "ratingExplanation": "",
+        "positiveReviews": [
+            ""
+        ],
+        "negativeReviews": [],
+        "riskWarnings": [
+            "通过个人社交媒体营销"
+        ]
+    },
+    "marketingAnalysis": {
+        "marketingStrategy": "",
+        "contentThemes": [
+            ""
+        ],
+        "publishTimeline": [
+        ],
+        "marketingRhetoric": [
+            ""
+        ]
+    },
+    "dataSource": {
+        "documentPath": "docs/zhHans/visa-solution-company/hongshu-26775619661.md",
+        "collectionDate": "2025-08-19",
+        "lastUpdated": "2025-09-03",
+        "sourceType": "小红书营销内容",
+        "verificationStatus": "未核实"
+    },
+    "adminNotes": {
+        "notes": [
+            ""
+        ],
+        "tags": [
+            ""
+        ],
+        "lastReviewDate": ""
+    }
+}
