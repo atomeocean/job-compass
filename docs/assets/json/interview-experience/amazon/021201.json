@@ -3,7 +3,7 @@
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",
-    "level": "New Grad",
+    "level": "new-grad",
     "jobType": "full-time"
   },
   "applicationSource": {
@@ -12,7 +12,7 @@
   },
   "candidate": {
     "education": "硕士",
-    "background": "在职跳槽",
+    "background": "",
     "yearsOfExperience": 0
   },
   "interview": {
@@ -20,7 +20,7 @@
     "result": "pass",
     "rounds": [
       {
-        "roundType": "phone",
+        "roundType": "technical",
         "rate": 3
       }
     ]
