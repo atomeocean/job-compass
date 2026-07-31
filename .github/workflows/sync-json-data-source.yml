@@ -1,15 +1,23 @@
 name: Sync PR to JSON Data Source Repo
 
-# 触发条件：当pr被合并时执行
+# 触发条件：pr 被合并时自动执行，或手动指定 PR 编号补跑
 on:
   pull_request:
     types: [closed]
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: '要同步的 PR 编号（例如 858）'
+        required: true
+
+permissions:
+  contents: read
+  pull-requests: read
 
 jobs:
   sync-json-data-source:
-    # 仅当pr被merge时执行
-    if: github.event.pull_request.merged == true
+    # 自动触发时仅当 pr 被 merge；手动触发时始终放行
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
@@ -23,17 +31,40 @@ jobs:
         with:
           python-version: '3.13'
 
-      # 3. 获取本次pr数据并利用脚本进行解析为json格式
+      # 3. 准备 PR payload：自动触发用 event，手动触发从 API 拉取
+      - name: Resolve PR payload
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_PR_NUMBER: ${{ inputs.pr_number }}
+          EVENT_PR_PAYLOAD: ${{ toJson(github.event.pull_request) }}
+        run: |
+          set -e
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "手动触发，拉取 PR #${INPUT_PR_NUMBER} 数据"
+            gh api "repos/${GITHUB_REPOSITORY}/pulls/${INPUT_PR_NUMBER}" > pr_payload.json
+            merged=$(jq -r '.merged' pr_payload.json)
+            if [ "$merged" != "true" ]; then
+              echo "::error::PR #${INPUT_PR_NUMBER} 尚未合并，终止同步"
+              exit 1
+            fi
+          else
+            printf '%s' "$EVENT_PR_PAYLOAD" > pr_payload.json
+          fi
+          echo "PR 标题: $(jq -r '.title' pr_payload.json)"
+
+      # 4. 利用脚本将 PR 数据解析为 json 格式
       - name: Run Python script with PR data
         run: |
+          set -e
           export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}"
-          JSON_OUTPUT=$(python scripts/parse_pr_payload.py --pr '${{ toJson(github.event.pull_request) }}')
+          JSON_OUTPUT=$(python scripts/parse_pr_payload.py --pr "$(cat pr_payload.json)")
 
           echo "PR_JSON<<EOF" >> $GITHUB_ENV
           echo "$JSON_OUTPUT" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
-      # 4. 连接远程服务器并执行add_job_compass_pr_record脚本
+      # 5. 连接远程服务器并执行add_job_compass_pr_record脚本
       - name: Execute remote json data source update
         uses: appleboy/ssh-action@master
         with:
