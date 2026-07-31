@@ -14,7 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.ATM_LIHAI_PAT }}
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
