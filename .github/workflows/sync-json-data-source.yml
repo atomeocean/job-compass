@@ -4,6 +4,7 @@ name: Sync PR to JSON Data Source Repo
 on:
   pull_request:
     types: [closed]
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   sync-json-data-source:
