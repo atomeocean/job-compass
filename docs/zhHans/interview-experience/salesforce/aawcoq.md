@@ -2,6 +2,8 @@
 title: General Hire技术面
 description: Salesforce General Hire技术面试经验
 outline: deep
+createdDate: 2026-07-31
+lastUpdated: 2026-07-31
 ---
 # Salesforce General Hire技术面试经验
 
