@@ -1,8 +1,6 @@
 ---
 title: Software Development Engineer L5
 description: Amazon L5 Software Development Engineer Onsite面试经验
-createdDate: 2026-07-31
-lastUpdated: 2026-07-31
 outline: deep
 ---
 
@@ -16,9 +14,9 @@ outline: deep
 - **面试形式**：Phone Screen + Virtual Onsite（4轮）
 - **申请渠道**：内推
 - **候选人背景**：硕士，应届毕业生
-- **面试结果**：Fail
+- **面试结果**：未通过
 
-## Timeline
+## 时间线
 
 - 内推后约两周收到 Recruiter 联系
 - Recruiter Call 后约一周进行 Phone Screen
@@ -27,7 +25,9 @@ outline: deep
 
 整体流程推进速度比较快。
 
-## Recruiter Call
+## 面试详情
+
+### Recruiter Call
 
 Recruiter Call 主要介绍了：
 
@@ -38,11 +38,11 @@ Recruiter Call 主要介绍了：
 
 没有涉及任何技术内容。
 
-## Phone Screen
+### Phone Screen
 
 Phone Screen 时长约 45 分钟。
 
-### Coding
+#### Coding
 
 算法题为 LeetCode 中等难度题，整体难度不高。
 
@@ -52,7 +52,7 @@ Phone Screen 时长约 45 分钟。
 - 一边写代码一边解释思路
 - 分析 Time Complexity 和 Space Complexity
 
-### Leadership Principles
+#### Leadership Principles
 
 这一轮主要考察：
 
@@ -63,9 +63,7 @@ LP 部分采用标准 STAR 形式，但不会只听完整个故事，而是不�
 
 整体发挥不错，顺利进入 VO。
 
-## Virtual Onsite
-
-### Round 1
+### Virtual Onsite Round 1
 
 #### Coding
 
@@ -83,7 +81,7 @@ LP 部分采用标准 STAR 形式，但不会只听完整个故事，而是不�
 
 两道 LP，都进行了比较深入的追问，一个故事会持续讨论好几分钟。
 
-### Round 2
+### Virtual Onsite Round 2
 
 #### Coding
 
@@ -102,7 +100,7 @@ LP 部分采用标准 STAR 形式，但不会只听完整个故事，而是不�
 
 依然会围绕人与团队协作不断深挖。
 
-### Round 3（Bar Raiser）
+### Virtual Onsite Round 3（Bar Raiser · System Design）
 
 这一轮是 System Design。
 
@@ -142,7 +140,7 @@ LP 部分采用标准 STAR 形式，但不会只听完整个故事，而是不�
 
 System Design 更重要的是说明为什么这样设计，以及不同方案之间的取舍，而不仅仅是实现方式。
 
-### Round 4
+### Virtual Onsite Round 4
 
 #### Coding
 
@@ -195,7 +193,7 @@ Amazon 的 System Design 更希望看到的是设计思考过程，而不仅仅�
 
 ## 面试结果反馈
 
-- **最终结果**：Fail
+- **最终结果**：未通过（VO 结束两天后收到拒信）
 
 <ReferenceSource
 :sources="[
