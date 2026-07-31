@@ -1,4 +1,4 @@
-name: Sync PR to Logbook
+name: Sync PR to JSON Data Source Repo
 
 # 触发条件：当pr被合并时执行
 on:
@@ -6,7 +6,7 @@ on:
     types: [closed]
 
 jobs:
-  sync-logbook:
+  sync-json-data-source:
     # 仅当pr被merge时执行
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
@@ -27,13 +27,13 @@ jobs:
         run: |
           export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}"
           JSON_OUTPUT=$(python scripts/parse_pr_payload.py --pr '${{ toJson(github.event.pull_request) }}')
-          
+
           echo "PR_JSON<<EOF" >> $GITHUB_ENV
           echo "$JSON_OUTPUT" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       # 4. 连接远程服务器并执行add_job_compass_pr_record脚本
-      - name: Execute remote logbook update
+      - name: Execute remote json data source update
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.ATM_BOT_HOST }}
@@ -42,6 +42,7 @@ jobs:
           port: ${{ secrets.ATM_BOT_PORT }}
           envs: PR_JSON
           script: |
+            set -e
             echo "接收到的 PR JSON:"
             echo "$PR_JSON"
             export PYENV_ROOT="$HOME/.pyenv"
@@ -49,5 +50,20 @@ jobs:
             eval "$(pyenv init -)"
             which python3 && python3 --version
             cd ~/json-data-source
+
+            # 在仓库内的虚拟环境中安装依赖（glom 等），避免污染 pyenv 全局解释器
+            if [ ! -f .venv/bin/activate ]; then
+              echo "未检测到 .venv，创建虚拟环境"
+              python3 -m venv .venv
+            fi
+            . .venv/bin/activate
+            if [ -f requirements.txt ]; then
+              python3 -m pip install --quiet --requirement requirements.txt
+            else
+              echo "json-data-source 缺少 requirements.txt，仅安装已知依赖 glom"
+              python3 -m pip install --quiet glom
+            fi
+            python3 --version
+
             export PYTHONPATH="${PYTHONPATH}:$(pwd)"
             python3 scripts/domains/job-compass/add_job_compass_pr_record.py --pr_json "$PR_JSON"
