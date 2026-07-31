@@ -1,0 +1,97 @@
+{
+  "basicInfo": {
+    "identifier": "hongshu-267756119661",
+    "companyName": "未公开",
+    "marketingPlatforms": [
+      {
+        "platform": "hongshu",
+        "platformDisplayName": "小红书",
+        "accountId": "267756119661",
+        "accountNickname": "Nicole",
+        "isPrimary": true
+      }
+    ],
+    "contactInfo": {
+      "wechatId": "",
+      "phone": "",
+      "email": "",
+      "other": ""
+    },
+    "companyInfo": {
+      "registrationStatus": "未注册",
+      "address": "",
+      "operatingArea": "",
+      "mainBusiness": "",
+      "officialWebsite": ""
+    }
+  },
+  "serviceInfo": {
+    "serviceTypes": [
+      "OPT挂靠",
+      "STEM OPT挂靠",
+      "H1b自雇指导"
+    ],
+    "pricing": {
+      "OPT挂靠": {
+        "monthlyFee": "",
+        "currency": "",
+        "note": ""
+      },
+      "STEM OPT挂靠": {
+        "monthlyFee": "",
+        "currency": "",
+        "note": ""
+      }
+    },
+    "serviceFeatures": [
+      ""
+    ],
+    "serviceProcess": {
+      "applicationProcess": "",
+      "paystubIssuance": "",
+      "taxHandling": "",
+      "otherNotes": ""
+    }
+  },
+  "credibilityAssessment": {
+    "credibilityRating": "",
+    "ratingExplanation": "",
+    "positiveReviews": [
+      ""
+    ],
+    "negativeReviews": [],
+    "riskWarnings": [
+      "公司名称未公开",
+      "服务规模较小",
+      "通过个人社交媒体营销"
+    ]
+  },
+  "marketingAnalysis": {
+    "marketingStrategy": "",
+    "contentThemes": [
+      ""
+    ],
+    "publishTimeline": [
+    ],
+    "marketingRhetoric": [
+      ""
+    ]
+  },
+  "dataSource": {
+    "documentPath": "docs/zhHans/visa-solution-company/hongshu-267756119661.md",
+    "collectionDate": "2026-02-01",
+    "lastUpdated": "2026-02-01",
+    "sourceType": "小红书营销内容",
+    "verificationStatus": "未核实"
+  },
+  "adminNotes": {
+    "notes": [
+      "强调相比骗子公司更正规，但缺乏实质证明"
+    ],
+    "tags": [
+      "待核实",
+      "公司信息不完整"
+    ],
+    "lastReviewDate": ""
+  }
+}
