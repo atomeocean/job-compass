@@ -3,7 +3,6 @@ title: General Hire技术面
 description: Salesforce General Hire技术面试经验
 outline: deep
 ---
-
 # Salesforce General Hire技术面试经验
 
 <InterviewDetail />
