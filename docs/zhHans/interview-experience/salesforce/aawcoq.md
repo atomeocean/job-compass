@@ -1,8 +1,6 @@
 ---
 title: General Hire技术面
 description: Salesforce General Hire技术面试经验
-createdDate: 2026-07-31
-lastUpdated: 2026-07-31
 outline: deep
 ---
 
@@ -13,16 +11,18 @@ outline: deep
 ## 基本信息
 
 - **岗位**：Software Engineer（General Hire）
-- **面试形式**：OA + 技术电面
+- **面试形式**：OA + Hiring Manager + 技术面（OOD）
 - **申请渠道**：网上海投
 - **候选人背景**：硕士，在职跳槽
-- **面试结果**：Fail
+- **面试结果**：未通过
 
-## 面试流程
+## 面试详情
 
-### Round 1：Online Assessment
+### 面试过程的详细描述
 
-首先收到 Future 发来的在线测试。
+#### Round 1：Online Assessment
+
+首先收到 Salesforce 发来的在线测试（原文写作 "Future"，推测为 Salesforce 的招聘项目 Futureforce）。
 
 平台为 HackerRank，题目整体偏 LeetCode 风格。
 
@@ -34,7 +34,7 @@ outline: deep
 
 HR 对团队介绍比较笼统，只说明是一个 iOS 相关开发团队，并且希望候选人能够在 9 月入职，时间要求比较紧。
 
-### Round 2：Hiring Manager
+#### Round 2：Hiring Manager
 
 Manager 详细介绍了团队情况。
 
@@ -57,7 +57,7 @@ Manager 表示没有关系，因为团队目前属于 0-1 阶段，更看重学�
 
 期间 HR 再次强调，希望能够提前到 8 月入职。
 
-### Round 3：Technical Interview
+#### Round 3：Technical Interview
 
 这一轮主要是一道与团队业务相关的 OOD（面向对象设计）题。
 
@@ -82,7 +82,7 @@ Senior 表示团队内部使用 Claude，并且拥有 Unlimited Token，可以�
 
 面试结束时，对方表示会联系 HR 安排下一周去 San Francisco Onsite。
 
-## 后续流程
+### 面试流程与后续进展
 
 之后整个流程开始变得比较混乱。
 
@@ -106,7 +106,7 @@ Senior 表示团队内部使用 Claude，并且拥有 Unlimited Token，可以�
 - 系统状态始终显示 **In Progress**，也无法重新申请其他团队。
 - 多次联系 HR 后，再也没有收到回复。
 
-## 面试体验
+### 和面试官沟通细节
 
 整体最大的感受是流程比较混乱。
 
@@ -127,9 +127,9 @@ Senior 表示团队内部使用 Claude，并且拥有 Unlimited Token，可以�
 
 整个流程持续了较长时间，最终没有进入 Onsite。
 
-## 面试结果反馈
+### 面试结果反馈
 
-- **最终结果**：Fail
+- **最终结果**：未通过（模板拒信，无具体反馈）
 
 <ReferenceSource
 :sources="[
