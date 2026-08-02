@@ -20,12 +20,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.13'
 
@@ -66,6 +66,7 @@ jobs:
           author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           committer: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           delete-branch: false
+          assignees: tengtianxiang
           labels: |
             automated
             documentation
