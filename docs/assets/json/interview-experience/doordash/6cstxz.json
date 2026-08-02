@@ -1,0 +1,40 @@
+{
+  "company": "doordash",
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE",
+    "level": "experienced",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "在职跳槽",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "case",
+        "rate": 3
+      },
+      {
+        "roundType": "technical",
+        "rate": 4
+      },
+      {
+        "roundType": "technical",
+        "rate": 3
+      },
+      {
+        "roundType": "hiring-manager",
+        "rate": 2
+      }
+    ]
+  }
+}
