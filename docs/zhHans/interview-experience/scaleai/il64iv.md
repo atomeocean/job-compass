@@ -1,10 +1,9 @@
 ---
 title: SWE
 createdDate: 2026-07-18
-lastUpdated: 2026-07-18
+lastUpdated: 2026-08-02
 outline: deep
 ---
-
 # Scale AI SWE 面试经验
 
 ## 面试基本信息
