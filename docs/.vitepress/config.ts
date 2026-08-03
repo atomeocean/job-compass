@@ -8,7 +8,7 @@ import {
   GitChangelog,
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite';
-import { contributors } from "../_data/contributors";
+import { allContributors } from "../_data/contributors";
 import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
@@ -108,7 +108,7 @@ const vitePressConfig: UserConfig = {
       // 集成git记录插件
       GitChangelog({
         repoURL: () => 'https://github.com/atomeocean/job-compass',
-        mapAuthors: contributors
+        mapAuthors: allContributors
       }),
       GitChangelogMarkdownSection({
         sections: {

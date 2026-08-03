@@ -1,5 +1,5 @@
 import type { Contributor } from '../types';
-import { wechatIconSvg } from '../assets/svg/icon-svg';
+import { authorPageIconSvg, wechatIconSvg } from '../assets/svg/icon-svg';
 
 // 配置常量
 const CONFIG = {
@@ -7,7 +7,8 @@ const CONFIG = {
   defaultOrg: 'Atomeocean',
   defaultOrgLink: 'https://github.com/atomeocean',
   defaultTitle: {
-    contributor: 'Contributor',
+    current: 'Contributor',
+    legacy: 'Alumni',
   }
 } as const;
 
@@ -29,14 +30,34 @@ const getAvatarUrl = (contributor: Contributor): string => {
   return CONFIG.defaultAvatarUrl;
 };
 
+// 团队页卡片上的作者主页入口（authorPageSlug 对应 docs/zhHans/guide/author-list/<slug>.md）
+const authorPageLink = (slug: string) => (
+  { type: 'authorPage', icon: { svg: authorPageIconSvg }, link: `/guide/author-list/${slug}` }
+);
+
+// 补齐默认头像、职称、组织信息，并在配置了 authorPageSlug 时追加作者主页入口
+const withDefaults = (defaultTitle: string) => (contributor: Contributor): Contributor => ({
+  ...contributor,
+  avatar: getAvatarUrl(contributor),
+  title: contributor.title || defaultTitle,
+  org: contributor.org || CONFIG.defaultOrg,
+  orgLink: contributor.orgLink || CONFIG.defaultOrgLink,
+  links: contributor.authorPageSlug
+    ? [...(contributor.links ?? []), authorPageLink(contributor.authorPageSlug)]
+    : contributor.links,
+});
+
 /**
  * name：在页面中展示的作者名称
  * username：相关联的github用户名
  * mapByNameAliases：使用的git名称列表，可对列表中的名称一一匹配
  * avatar：头像链接
  * links：profile跳转链接（可添加多个跳转链接，但贡献者列表只会默认选择第一个链接进行跳转）
+ * authorPageSlug：作者主页文件名（不含 .md），配置后作者栏和团队页会跳转到作者主页
  */
-export const contributors : Contributor[] = [
+
+// 当前贡献者
+export const currentContributors: Contributor[] = [
   // 贡献者名单
   {
     name: 'Bojian',
@@ -194,6 +215,17 @@ export const contributors : Contributor[] = [
     ],
   },
   {
+    name: 'copilot',
+    username: 'Copilot',
+    links: [
+      { type: 'github', icon: 'github', link: CONFIG.defaultOrgLink }
+    ],
+  },
+].map(withDefaults(CONFIG.defaultTitle.current));
+
+// 已经离职的贡献者
+export const legacyContributors: Contributor[] = [
+  {
     name: 'Icho',
     username: 'icho2021',
     title: 'Data analyst',
@@ -278,17 +310,10 @@ export const contributors : Contributor[] = [
       { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('winkywong1998') },
     ],
   },
-  {
-    name: 'copilot',
-    username: 'Copilot',
-    links: [
-      { type: 'github', icon: 'github', link: CONFIG.defaultOrgLink }
-    ]
-  },
-].map((contributor: Contributor) => ({
-  ...contributor,
-  avatar: getAvatarUrl(contributor),
-  title: contributor.title || CONFIG.defaultTitle.contributor,
-  org: contributor.org || CONFIG.defaultOrg,
-  orgLink: contributor.orgLink || CONFIG.defaultOrgLink,
-}));
+].map(withDefaults(CONFIG.defaultTitle.legacy));
+
+// 记录所有的贡献者列表，作者栏映射和插件配置都使用这一份数据
+export const allContributors: Contributor[] = [
+  ...currentContributors,
+  ...legacyContributors,
+];
