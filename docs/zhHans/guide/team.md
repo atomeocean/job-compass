@@ -3,7 +3,7 @@ title: 团队信息
 layout: page
 sidebar: false
 createdDate: 2025-07-26
-lastUpdated: 2025-09-03
+lastUpdated: 2026-08-02
 ---
 <script setup lang="ts">
 import {
@@ -12,7 +12,7 @@ import {
   VPTeamMembers,
   VPTeamPageSection
 } from 'vitepress/theme';
-import {contributors} from '/_data/contributors';
+import {currentContributors, legacyContributors} from '/_data/contributors';
 
 
 </script>
@@ -27,6 +27,19 @@ import {contributors} from '/_data/contributors';
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
-    :members="contributors"
+    :members="currentContributors"
   />
+
+  <VPTeamPageSection>
+    <template #title>历史贡献者</template>
+    <template #lead>
+      致敬那些曾在Job Compass留下独特印记的人们。他们为项目奠定了坚实的基础，贡献虽然属于过去，影响却持续至今。
+    </template>
+    <template #members>
+      <VPTeamMembers
+        size="small"
+        :members="legacyContributors"
+      />
+    </template>
+  </VPTeamPageSection>
 </VPTeamPage>
