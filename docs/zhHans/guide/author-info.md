@@ -2,7 +2,7 @@
 title: 作者信息模块文档
 outline: deep
 createdDate: 2025-08-01
-lastUpdated: 2026-08-01
+lastUpdated: 2026-08-02
 ---
 # 作者信息模块
 
