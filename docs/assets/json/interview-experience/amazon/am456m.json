@@ -1,0 +1,18 @@
+{
+  "company": "Amazon",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "general",
+    "referralDetails": "海投"
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  }
+}
