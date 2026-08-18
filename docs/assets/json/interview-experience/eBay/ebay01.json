@@ -1,0 +1,28 @@
+{
+  "company": "eBay",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "senior",
+    "jobType": "string"
+  },
+  "applicationSource": {
+    "channel": "string",
+    "referralDetails": "string"
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 2.6
+  },
+  "interview": {
+    "date": "",
+    "result": "",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}
