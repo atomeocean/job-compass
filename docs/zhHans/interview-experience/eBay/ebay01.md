@@ -2,7 +2,7 @@
 title: eBay SDE 面试经验
 description: eBay SDE 三轮面试经验，包含 DSA、System Design 和 Hiring Manager Round
 createdDate: 2026-08-18
-lastUpdated: 2026-08-18
+lastUpdated: 2026-08-24
 outline: deep
 ---
 # eBay SDE 面试经验
