@@ -1,11 +1,9 @@
 ---
-title: eBay SDE 面试经验
-description: eBay SDE 三轮面试经验，包含 DSA、System Design 和 Hiring Manager Round
-createdDate: 2026-08-18
-lastUpdated: 2026-08-24
+title: eBay SDE2 面试经验
+description: eBay SDE2 三轮面试经验，包含 DSA、System Design 和 Hiring Manager Round
 outline: deep
 ---
-# eBay SDE 面试经验
+# eBay SDE2 面试经验
 
 <InterviewDetail />
 
@@ -39,7 +37,7 @@ outline: deep
 
 ```text
 answer[i] = 第 i 天之后需要等待多少天才能遇到更高温度
-````
+```
 
 如果之后没有更高温度，则：
 
@@ -74,16 +72,16 @@ answer[i] = 0
 
 讨论的问题包括：
 
-* 下单过程中菜单发生变化，或者商品突然 unavailable，如何处理？
-* Menu Database 应该选择什么数据库？
-* 如何获取实时菜单更新？
-* 餐厅列表实时变化如何同步？
-* 系统中哪些地方适合使用 Cache？
+- 下单过程中菜单发生变化，或者商品突然 unavailable，如何处理？
+- Menu Database 应该选择什么数据库？
+- 如何获取实时菜单更新？
+- 餐厅列表实时变化如何同步？
+- 系统中哪些地方适合使用 Cache？
 
 此外还问了：
 
-* Why eBay?
-* Why are you leaving your current company?
+- Why eBay?
+- Why are you leaving your current company?
 
 整体这一轮感觉很好。
 
@@ -99,8 +97,8 @@ answer[i] = 0
 
 设计一个 Dashboard，实时展示 eBay：
 
-* Top 10 Items by quantities sold
-* Top 10 Categories by quantities sold
+- Top 10 Items by quantities sold
+- Top 10 Categories by quantities sold
 
 需求澄清后开始设计，面试官会深入追问每一个设计决策。
 
@@ -108,50 +106,50 @@ answer[i] = 0
 
 主要包括：
 
-* Item Quantity Aggregator 如何设计？
-* Category Aggregator 如何设计？
-* Aggregator 如何确定当前 quantity？
-* 在 eBay 流量规模下，多频繁更新 State Store？
-* 高频写入和低频写入分别有什么优缺点？
-* 如何从 RocksDB 中获取最终聚合结果？
-* 如果每个 Partition 都有独立 RocksDB，如何聚合所有 Partition 的数据？
-* 什么时候触发跨 Partition 的最终聚合？
-* 如果有 100 万个 Event，是否需要向 Intermediate Kafka Topic 发布 100 万条消息？
-* 如果不需要，如何优化？
+- Item Quantity Aggregator 如何设计？
+- Category Aggregator 如何设计？
+- Aggregator 如何确定当前 quantity？
+- 在 eBay 流量规模下，多频繁更新 State Store？
+- 高频写入和低频写入分别有什么优缺点？
+- 如何从 RocksDB 中获取最终聚合结果？
+- 如果每个 Partition 都有独立 RocksDB，如何聚合所有 Partition 的数据？
+- 什么时候触发跨 Partition 的最终聚合？
+- 如果有 100 万个 Event，是否需要向 Intermediate Kafka Topic 发布 100 万条消息？
+- 如果不需要，如何优化？
 
 主要涉及：
 
-* Kafka
-* Partition
-* Stream Aggregation
-* RocksDB
-* State Store
-* Batch / Incremental Update
-* Event Aggregation
+- Kafka
+- Partition
+- Stream Aggregation
+- RocksDB
+- State Store
+- Batch / Incremental Update
+- Event Aggregation
 
 ### Behavioral Questions
 
-* 有没有和 Team Member 发生冲突？如何解决？
-* 有没有和 Manager 意见冲突？如何解决？
-* Why eBay?
+- 有没有和 Team Member 发生冲突？如何解决？
+- 有没有和 Manager 意见冲突？如何解决？
+- Why eBay?
 
 ## 面试总结
 
 整体三轮分别为：
 
-* **Round 1**：DSA
-* **Round 2**：System Design
-* **Round 3**：HM + System Design + Behavioral
+- **Round 1**：DSA
+- **Round 2**：System Design
+- **Round 3**：HM + System Design + Behavioral
 
 System Design 的追问比较深入，尤其关注：
 
-* 实时数据处理
-* Kafka Partition
-* Aggregation
-* RocksDB
-* State Management
-* 写入频率和性能权衡
-* 大规模数据下的系统优化
+- 实时数据处理
+- Kafka Partition
+- Aggregation
+- RocksDB
+- State Management
+- 写入频率和性能权衡
+- 大规模数据下的系统优化
 
 最终收到 Positive Response，目前等待 Offer Letter。
 
@@ -159,10 +157,11 @@ System Design 的追问比较深入，尤其关注：
 :sources="[
 {
 title: 'eBay | SDE-2 interview experience | Virtual',
-link: '[https://www.1point3acres.com/bbs/thread-1179582-1-1.html](http://xhslink.com/o/HHyukpkczG](https://leetcode.com/discuss/post/8467010/ebay-sde-2-interview-experience-virtual-h2rgv/)',
+link: 'https://leetcode.com/discuss/post/8467010/ebay-sde-2-interview-experience-virtual-h2rgv/',
 site: 'LeetCode',
-author: '匿名',
-date: '2026-08-18'
+author: '匿名用户',
+date: '2026-08-18',
+category: '海外面经'
 }
 ]"
 />

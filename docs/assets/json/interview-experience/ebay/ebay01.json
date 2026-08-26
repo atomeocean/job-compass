@@ -3,21 +3,21 @@
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "senior",
-    "jobType": "string"
+    "level": "SDE2",
+    "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "string",
-    "referralDetails": "string"
+    "channel": "",
+    "referralDetails": ""
   },
   "candidate": {
     "education": "",
-    "background": "",
-    "yearsOfExperience": 2.6
+    "background": "在职跳槽",
+    "yearsOfExperience": 2
   },
   "interview": {
     "date": "",
-    "result": "",
+    "result": "pending",
     "rounds": [
       {
         "roundType": "onsite",
