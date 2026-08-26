@@ -1,0 +1,28 @@
+{
+  "company": "eBay",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "SDE2",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "在职跳槽",
+    "yearsOfExperience": 2
+  },
+  "interview": {
+    "date": "",
+    "result": "pending",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}
