@@ -2,6 +2,8 @@
 title: eBay SDE2 面试经验
 description: eBay SDE2 三轮面试经验，包含 DSA、System Design 和 Hiring Manager Round
 outline: deep
+createdDate: 2026-08-26
+lastUpdated: 2026-08-26
 ---
 # eBay SDE2 面试经验
 
