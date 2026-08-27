@@ -2,7 +2,7 @@
 title: BeaconFire
 description: 新泽西ICC
 createdDate: 2025-01-30
-lastUpdated: 2026-08-07
+lastUpdated: 2026-08-26
 outline: deep
 ---
 # BeaconFire Inc.
