@@ -1,7 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-07-30
+lastUpdated: 2026-08-27
 ---
 <script setup>
 const overviewItems = [
@@ -72,6 +72,13 @@ const overviewItems = [
     "title": "DoorDash",
     "description": "该文件主要介绍 DoorDash 的相关内容。",
     "href": "./doordash/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "eBay",
+    "description": "eBay SDE 面试经验分享",
+    "href": "./ebay/index.md",
     "order": 0,
     "kind": "folder"
   },
