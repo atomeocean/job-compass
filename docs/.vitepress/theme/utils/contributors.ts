@@ -1,5 +1,5 @@
 import type { AuthorInfo } from '@nolebase/vitepress-plugin-git-changelog/client'
-import { contributors as contributorProfiles } from '../../../_data/contributors'
+import { allContributors as contributorProfiles } from '../../../_data/contributors'
 
 export type { AuthorInfo }
 export { contributorProfiles }
@@ -68,6 +68,12 @@ export const getProfileUrl = (profile?: ContributorProfile): string | undefined 
   getPreferredLink(profile?.links)
   ?? (profile?.username ? `https://github.com/${profile.username}` : undefined)
 
+const AUTHOR_PAGE_BASE = '/guide/author-list/'
+
+// 配置了 authorPageSlug 的贡献者，作者栏优先跳转到站内作者主页
+export const getAuthorPageUrl = (profile?: ContributorProfile): string | undefined =>
+  profile?.authorPageSlug ? `${AUTHOR_PAGE_BASE}${profile.authorPageSlug}` : undefined
+
 export const getFallbackAvatar = (name: string): string =>
   `https://gravatar.com/avatar/${encodeURIComponent(name)}?d=retro`
 
@@ -124,7 +130,8 @@ export const resolveFrontmatterAuthor = (
   return {
     name,
     i18n: authorInfo?.i18n,
-    url: authorInfo?.url
+    url: getAuthorPageUrl(profile)
+      ?? authorInfo?.url
       ?? authorInfo?.link
       ?? getPreferredLink(authorInfo?.links)
       ?? getProfileUrl(profile)
@@ -145,7 +152,9 @@ export const resolveGitAuthor = (author: AuthorInfo): DisplayAuthor => {
   return {
     name: profile?.name ?? author.name,
     i18n: author.i18n,
-    url: author.url ?? getProfileUrl(profile),
+    url: getAuthorPageUrl(profile)
+      ?? author.url
+      ?? getProfileUrl(profile),
     avatarUrl,
     commitsCount: author.commitsCount,
     avatarFallback: !profile?.avatar && !author.avatarUrl,
