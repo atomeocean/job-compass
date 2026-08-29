@@ -8,24 +8,36 @@
   },
   "applicationSource": {
     "channel": "网上海投",
-    "referralDetails": "na"
+    "referralDetails": ""
   },
   "candidate": {
     "education": "bachelor",
     "background": "在职跳槽",
-    "yearsOfExperience": 0
+    "yearsOfExperience": null
   },
   "interview": {
-    "date": "2026-01-13",
-    "result": "fail",
+    "date": "",
+    "result": "unknown",
     "rounds": [
       {
         "roundType": "oa",
         "rate": 3
       },
       {
-        "roundType": "onsite",
+        "roundType": "coding",
         "rate": 2
+      },
+      {
+        "roundType": "coding",
+        "rate": 2
+      },
+      {
+        "roundType": "system-design",
+        "rate": 2
+      },
+      {
+        "roundType": "behavioral",
+        "rate": 4
       }
     ]
   }
