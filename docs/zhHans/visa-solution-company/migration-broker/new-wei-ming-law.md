@@ -1,7 +1,7 @@
 ---
 title: 新未名
 createdDate: 2026-08-04
-lastUpdated: 2026-08-28
+lastUpdated: 2026-09-01
 ---
 # 新未名
 
