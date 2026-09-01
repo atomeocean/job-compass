@@ -14,9 +14,7 @@ outline: deep
 - **岗位**：Software Development Engineer (SDE) Intern
 - **地点**：Redwood Shores, CA
 - **面试形式**：Recruiter 面试 + Coding + Hiring Manager 面试
-- **候选人身份**：匿名
 - **面试结果**：Accepted Offer
-- **面试体验**：Positive
 - **整体难度**：Easy
 
 ## 面试流程

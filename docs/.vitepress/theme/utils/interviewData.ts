@@ -1,8 +1,12 @@
-import type { InterviewData } from '../types/interview'; // We might need to define types or just use any
-
 // Define interfaces locally for self-containment or in a types file.
 // Given strict instructions, I'll put types here or use 'any' if types/ doesn't exist suitable.
 // I saw 'types' dir in theme, but better to keep it simple.
+
+/** 单轮面试记录，rate 表示该轮的难度（1-5） */
+export interface InterviewRound {
+    roundType: string;
+    rate: number;
+}
 
 export interface InterviewData {
     company: string;
@@ -23,9 +27,12 @@ export interface InterviewData {
     };
     interview: {
         date: string;
-        roundType: string;
-        rate: number;
         result: string;
+        /** 当前主流写法：逐轮记录（70 个面经 JSON 中 65 个使用） */
+        rounds?: InterviewRound[];
+        /** 早期扁平写法，仅少数文件仍在使用，组件内做兼容 */
+        roundType?: string;
+        rate?: number;
     };
 }
 

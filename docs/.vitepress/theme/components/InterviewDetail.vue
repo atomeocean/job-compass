@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, computed } from 'vue'
 import { useData } from 'vitepress'
-import { getInterviewData, type InterviewData } from '../utils/interviewData'
+import { getInterviewData, type InterviewData, type InterviewRound } from '../utils/interviewData'
 
 const { page } = useData()
 const info = ref<InterviewData | null>(null)
@@ -29,20 +29,66 @@ watch(() => page.value.relativePath, () => {
 })
 
 const resultTagType = computed(() => {
-    const result = info.value?.interview?.result?.toLowerCase()
+    const result = (info.value?.interview?.result ?? '').trim().toLowerCase()
+
+    // 「未通过」必须先于「通过」判断，否则会被前缀匹配吞掉
+    if (result.startsWith('未通过')) return 'danger'
+    if (result.startsWith('通过')) return 'success'
+
     switch (result) {
         case 'pass':
+        case 'passed':
         case 'offer':
+        case 'accepted':
+        case 'positive':
             return 'success'
         case 'reject':
+        case 'rejected':
         case 'fail':
+        case 'failed':
             return 'danger'
         case 'pending':
         case 'waiting':
+        case 'waitlist':
             return 'warning'
         default:
             return 'info'
     }
+})
+
+/** 首字母大写；OA / HM / VO1 这类缩写保持全大写 */
+const ROUND_TYPE_ACRONYMS = new Set(['oa', 'hm', 'vo', 'vo1', 'vo2'])
+
+const formatRoundType = (roundType?: string): string => {
+    const raw = (roundType ?? '').trim()
+    if (!raw) return 'Round'
+
+    return raw
+        .split(/[-_\s]+/)
+        .map((word) => {
+            if (ROUND_TYPE_ACRONYMS.has(word.toLowerCase())) return word.toUpperCase()
+            return word.charAt(0).toUpperCase() + word.slice(1)
+        })
+        .join(' ')
+}
+
+/**
+ * 绝大多数面经 JSON 用 interview.rounds 逐轮记录；
+ * 少数早期文件仍是 interview.roundType / interview.rate 的扁平写法，这里做兼容。
+ */
+const rounds = computed<InterviewRound[]>(() => {
+    const interview = info.value?.interview
+    if (!interview) return []
+
+    if (Array.isArray(interview.rounds) && interview.rounds.length > 0) {
+        return interview.rounds
+    }
+
+    if (interview.roundType || interview.rate != null) {
+        return [{ roundType: interview.roundType ?? '', rate: interview.rate ?? 0 }]
+    }
+
+    return []
 })
 </script>
 
@@ -59,17 +105,21 @@ const resultTagType = computed(() => {
       <el-descriptions-item label="Level">{{ info.position?.level }}</el-descriptions-item>
       <el-descriptions-item label="Job Type">{{ info.position?.jobType }}</el-descriptions-item>
       <el-descriptions-item label="Date">{{ info.interview?.date }}</el-descriptions-item>
-      <el-descriptions-item label="Round Type">{{ info.interview?.roundType }}</el-descriptions-item>
       <el-descriptions-item label="Education" v-if="info.candidate?.education">
         {{ info.candidate?.education }}
       </el-descriptions-item>
       <el-descriptions-item label="Experience" v-if="info.candidate?.yearsOfExperience != null">
         {{ info.candidate?.yearsOfExperience }} Years
       </el-descriptions-item>
-      
-      <el-descriptions-item label="Rating" :span="2">
+
+      <el-descriptions-item
+          v-for="(round, index) in rounds"
+          :key="`${round.roundType}-${index}`"
+          :label="formatRoundType(round.roundType)"
+          :span="2"
+      >
           <el-rate
-              v-model="info.interview.rate"
+              :model-value="round.rate ?? 0"
               disabled
               show-score
               text-color="#ff9900"

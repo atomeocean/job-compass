@@ -17,7 +17,7 @@
   },
   "interview": {
     "date": "2026-08-30",
-    "result": "accepted",
+    "result": "offer",
     "rounds": [
       { "roundType": "recruiter-screen", "rate": 2 },
       { "roundType": "coding", "rate": 2 },
