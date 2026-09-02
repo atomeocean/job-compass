@@ -1,0 +1,28 @@
+{
+  "company": "robinhood", 
+  "position": { 
+    "jobPostUrl": null, 
+    "title": "Software Engineer", 
+    "level": "experienced", 
+    "jobType": "full-time"
+  },
+  "applicationSource": {  
+    "channel": "direct-apply", 
+    "referralDetails": "" 
+  },
+  "candidate": { 
+    "education": "Master's in Computer Scienc", 
+    "background": "SDE", 
+    "yearsOfExperience": 4
+  },
+  "interview": { 
+    "date": "2021-04-21", 
+    "result": "accepted", 
+    "rounds": [ 
+      {
+        "roundType": "phone-screen", 
+        "rate": 3 
+      }
+    ]
+  }
+}
