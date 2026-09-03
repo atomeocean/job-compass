@@ -1,3 +1,7 @@
+---
+createdDate: 2026-09-02
+lastUpdated: 2026-09-02
+---
 # CLAUDE.md — scripts
 
 Python helper scripts. Most are invoked by GitHub Actions workflows; a few are local

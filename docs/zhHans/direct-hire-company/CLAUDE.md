@@ -1,3 +1,7 @@
+---
+createdDate: 2026-09-02
+lastUpdated: 2026-09-02
+---
 # CLAUDE.md — direct-hire-company
 
 直接雇佣公司 (companies that hire employees directly, no staffing agency in between). Pages
