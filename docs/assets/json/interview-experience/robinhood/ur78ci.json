@@ -11,13 +11,13 @@
     "referralDetails": "" 
   },
   "candidate": { 
-    "education": "Master's in Computer Scienc", 
+    "education": "Master's in Computer Science", 
     "background": "SDE", 
     "yearsOfExperience": 4
   },
   "interview": { 
-    "date": "2021-04-21", 
-    "result": "accepted", 
+    "date": "2026-04-21", 
+    "result": "next round", 
     "rounds": [ 
       {
         "roundType": "phone-screen", 
