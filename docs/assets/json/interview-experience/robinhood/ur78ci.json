@@ -1,27 +1,27 @@
 {
-  "company": "robinhood", 
-  "position": { 
-    "jobPostUrl": null, 
-    "title": "Software Engineer", 
-    "level": "experienced", 
+  "company": "Robinhood",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "experienced",
     "jobType": "full-time"
   },
-  "applicationSource": {  
-    "channel": "direct-apply", 
-    "referralDetails": "" 
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
   },
-  "candidate": { 
-    "education": "Master's in Computer Science", 
-    "background": "SDE", 
+  "candidate": {
+    "education": "Master's in Computer Science",
+    "background": "SDE",
     "yearsOfExperience": 4
   },
-  "interview": { 
-    "date": "2026-04-21", 
-    "result": "next round", 
-    "rounds": [ 
+  "interview": {
+    "date": "2026-04-21",
+    "result": "pass",
+    "rounds": [
       {
-        "roundType": "phone-screen", 
-        "rate": 3 
+        "roundType": "phone-screen",
+        "rate": 3
       }
     ]
   }
