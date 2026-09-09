@@ -1,0 +1,28 @@
+{
+  "company": "amazon",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer",
+    "level": "SDE2",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "Online application",
+    "referralDetails": "海投"
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "",
+    "yearsOfExperience": 3
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": 3
+      }
+    ]
+  }
+}
