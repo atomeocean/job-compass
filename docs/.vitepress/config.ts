@@ -31,6 +31,8 @@ const commonSidebarConfig =  {
   useTitleFromFrontmatter: true,
   useFolderTitleFromIndexFile: true,
   sortMenusByFrontmatterOrder: true,
+  // 代理指令文件，不是站点内容
+  excludePattern: ['CLAUDE.md'],
 };
 
 const vitePressSidebarOptions = [
@@ -85,6 +87,8 @@ const vitePressConfig: UserConfig = {
       'data-website-id': 'f96064e8-353c-4979-9ad0-ad33ffa0060c'
     }]
   ],
+  // CLAUDE.md 是给编码代理看的目录级说明，不参与站点构建
+  srcExclude: ['**/CLAUDE.md'],
   rewrites: {
     'zhHans/:rest*': ':rest*'
   },

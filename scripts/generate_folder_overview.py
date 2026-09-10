@@ -33,6 +33,8 @@ REPO_ROOT = get_project_root()
 
 OVERVIEW_FILENAME = "overview.md"
 INDEX_FILENAME = "index.md"
+# 面向编码代理的目录级说明文件，不是站点内容，不进入 overview
+AGENT_DOC_FILENAMES = frozenset({"CLAUDE.md", "AGENTS.md", "GEMINI.md"})
 DOC_ROOTS = ("docs/zhHans", "docs/en")
 KIND_FOLDER = "folder"
 KIND_ARTICLE = "article"
@@ -176,6 +178,7 @@ def build_overview_items(
             entry.is_file()
             and entry.suffix == ".md"
             and entry.name not in {OVERVIEW_FILENAME, INDEX_FILENAME}
+            and entry.name not in AGENT_DOC_FILENAMES
         ):
             source_path = entry
             relative_path = Path(entry.name)
