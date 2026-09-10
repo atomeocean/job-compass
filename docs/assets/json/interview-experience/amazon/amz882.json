@@ -1,5 +1,5 @@
 {
-  "company": "amazon",
+  "company": "Amazon",
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",
@@ -7,21 +7,41 @@
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "Online application",
+    "channel": "online-application",
     "referralDetails": "海投"
   },
   "candidate": {
     "education": "硕士",
-    "background": "",
-    "yearsOfExperience": 3
+    "background": "在职跳槽",
+    "yearsOfExperience": 3.3
   },
   "interview": {
-    "date": "",
-    "result": "pass",
+    "date": "2026-08-31",
+    "result": "未通过 SDE2",
     "rounds": [
+      {
+        "roundType": "oa",
+        "rate": 3
+      },
+      {
+        "roundType": "phone-screen",
+        "rate": 3
+      },
+      {
+        "roundType": "system-design",
+        "rate": 4
+      },
       {
         "roundType": "technical",
         "rate": 3
+      },
+      {
+        "roundType": "hiring-manager",
+        "rate": 3
+      },
+      {
+        "roundType": "technical",
+        "rate": 4
       }
     ]
   }
