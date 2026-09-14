@@ -9,25 +9,70 @@ on:
     paths:
       - '**/*.json'
 
+# 只需要读代码；显式声明后 fork PR 的只读 token 也能正常工作
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
+      # 不要传 token：fork PR 拿不到仓库 secret，会以 "Input required and not
+      # supplied: token" 在这一步直接失败，后面的校验根本跑不到。
+      # 默认的 GITHUB_TOKEN 足够 checkout 公开仓库和 PR 的合并提交。
       - name: Checkout Code
         uses: actions/checkout@v6
         with:
-          token: ${{ secrets.ATM_LIHAI_PAT }}
+          # 需要完整历史才能和 base 提交做 diff
+          fetch-depth: 0
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Validate changed JSON files
+      - name: Collect changed JSON files
+        id: collect
+        env:
+          # pull_request 事件没有 github.event.before，必须用 PR 的 base 提交
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
         run: |
-          echo "Checking changed JSON files..."
-          git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.json$' | while IFS= read -r file; do
-            echo "Validating $file"
-            if ! jq empty "$file"; then
-              echo "❌ Invalid JSON: $file"
-              exit 1
+          set -euo pipefail
+
+          range=""
+          if [ -n "${BASE_SHA}" ] \
+            && [ "${BASE_SHA}" != "0000000000000000000000000000000000000000" ] \
+            && git cat-file -e "${BASE_SHA}^{commit}" 2>/dev/null; then
+            range="${BASE_SHA}...${HEAD_SHA}"
+          fi
+
+          if [ -n "${range}" ]; then
+            echo "Diff range: ${range}"
+            # --diff-filter=ACMR 排除已删除的文件，否则 jq 会对不存在的路径报错
+            git diff --name-only --diff-filter=ACMR "${range}" -- '*.json' > changed.txt
+          else
+            # 新分支首次推送等拿不到 base 的情况，退回全量校验
+            echo "No usable base commit, validating all tracked JSON files"
+            git ls-files '*.json' > changed.txt
+          fi
+
+          echo "Changed JSON files: $(wc -l < changed.txt)"
+          cat changed.txt
+
+      - name: Validate JSON syntax
+        run: |
+          set -uo pipefail
+
+          failed=0
+          while IFS= read -r file; do
+            [ -n "${file}" ] || continue
+            if jq empty "${file}" 2>/dev/null; then
+              echo "✅ ${file}"
+            else
+              echo "❌ Invalid JSON: ${file}"
+              jq empty "${file}" || true
+              failed=1
             fi
-          done
+          done < changed.txt
+
+          if [ "${failed}" -ne 0 ]; then
+            echo "JSON 校验未通过"
+            exit 1
+          fi
+          echo "全部 JSON 校验通过"
