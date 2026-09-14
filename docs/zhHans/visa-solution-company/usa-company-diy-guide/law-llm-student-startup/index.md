@@ -1,6 +1,8 @@
 ---
 title: 法学LLM学生创业方向
 description: 记录法学背景留学生在美国自建公司、自雇执业的可行方向与真实案例
+createdDate: 2026-09-14
+lastUpdated: 2026-09-14
 ---
 # 法学LLM学生创业方向
 
