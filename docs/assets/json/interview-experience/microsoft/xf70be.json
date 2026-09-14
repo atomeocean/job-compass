@@ -1,0 +1,40 @@
+{
+  "company": "Microsoft",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "hiring-manager",
+        "rate": 2
+      },
+      {
+        "roundType": "coding",
+        "rate": 3
+      },
+      {
+        "roundType": "coding",
+        "rate": 3
+      },
+      {
+        "roundType": "system-design",
+        "rate": 4
+      }
+    ]
+  }
+}
