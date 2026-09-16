@@ -1,9 +1,10 @@
 ---
 title: 黄牌紧急提醒
 description: 黄牌提醒
-lastUpdated: 2025-06-21
+lastUpdated: 2026-09-16
 outline: deep
 order: 7
+createdDate: 2026-09-16
 ---
 # Atomeocean轻量工作紧急提醒
 

@@ -1,8 +1,9 @@
 ---
 title: 常规通知
-lastUpdated: 2025-06-21
+lastUpdated: 2026-09-16
 outline: deep
 order: 3
+createdDate: 2026-09-16
 ---
 # 轻量员工普通通知
 

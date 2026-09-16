@@ -1,9 +1,10 @@
 ---
 title: 红牌紧急提醒
 description: 最后通牒
-lastUpdated: 2025-06-21
+lastUpdated: 2026-09-16
 outline: deep
 order: 9
+createdDate: 2026-09-16
 ---
 # Atomeocean轻量工作紧急提醒
 
