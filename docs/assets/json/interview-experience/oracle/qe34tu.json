@@ -1,0 +1,27 @@
+{
+  "company": "Oracle",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer (SDE) Intern",
+    "level": "",
+    "jobType": "internship"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2026-08-30",
+    "result": "offer",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": 2 },
+      { "roundType": "coding", "rate": 2 },
+      { "roundType": "hiring-manager", "rate": 2 }
+    ]
+  }
+}
