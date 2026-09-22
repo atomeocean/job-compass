@@ -3,6 +3,8 @@ title: 美国鼓励创业与小公司的文化
 description: 美国联邦政府、统计机构、学术界和移民局普遍公开支持创业和小公司，从免费创业辅导、非稀释性研发资金到外国创业者的移民路径。本文梳理这一主流声音背后的常理，并整理 SBA、SBIR、Census、USCIS 等代表性资源。
 outline: deep
 tags: [牌坊]
+createdDate: 2026-09-22
+lastUpdated: 2026-09-22
 ---
 # 美国鼓励创业与小公司的文化
 

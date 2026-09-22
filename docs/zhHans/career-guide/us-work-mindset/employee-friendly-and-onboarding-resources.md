@@ -3,6 +3,8 @@ title: 美国职场新人入职关怀
 description: 美国主流商业媒体、人力资源协会和政府机构普遍主张对职场新人进行系统的入职关怀。本文梳理这一主流声音背后的常理，并整理 HBR、SHRM、Gallup、OPM 等代表性文章与资源。
 outline: deep
 tags: [牌坊]
+createdDate: 2026-09-22
+lastUpdated: 2026-09-22
 ---
 # 美国职场新人入职关怀
 
