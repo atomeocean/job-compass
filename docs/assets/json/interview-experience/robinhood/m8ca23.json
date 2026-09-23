@@ -1,9 +1,9 @@
 {
-  "company": "Robinhood",
+  "company": "robinhood",
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "experienced",
+    "level": "mid-level",
     "jobType": "full-time"
   },
   "applicationSource": {
@@ -11,17 +11,25 @@
     "referralDetails": ""
   },
   "candidate": {
-    "education": "Master's in Computer Science",
+    "education": "master",
     "background": "SDE",
     "yearsOfExperience": 4
   },
   "interview": {
     "date": "2026-05-14",
-    "result": "Reject",
+    "result": "rejected",
     "rounds": [
       {
-        "roundType": "onsite",
+        "roundType": "system-design",
+        "rate": 3
+      },
+      {
+        "roundType": "coding",
         "rate": 4
+      },
+      {
+        "roundType": "behavioral",
+        "rate": 3
       }
     ]
   }
