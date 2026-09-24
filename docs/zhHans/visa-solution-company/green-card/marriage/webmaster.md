@@ -1,3 +1,7 @@
+---
+createdDate: 2026-09-24
+lastUpdated: 2026-09-24
+---
 # 婚绿时间线
 
 lz的485在今天被approve了，给大家分享一下lz经历的时间线
