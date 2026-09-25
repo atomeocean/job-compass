@@ -1,0 +1,22 @@
+name: Notify Discord on active-month Label
+
+on:
+  issues:
+    types: [labeled]
+  pull_request:
+    types: [labeled]
+
+jobs:
+  notify:
+    if: github.event.label.name == 'active-month'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord Notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          curl -sf -X POST "$DISCORD_WEBHOOK" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n \
+              --arg content "🏷️ **active-month** 标签已添加: ${{ github.event.issue.html_url || github.event.pull_request.html_url }}" \
+              '{content: $content}')"
