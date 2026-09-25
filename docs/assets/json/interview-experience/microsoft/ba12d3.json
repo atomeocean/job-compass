@@ -1,0 +1,44 @@
+{
+  "company": "microsoft",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer SDE-2",
+    "level": "SDE-2",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "other",
+    "referralDetails": null
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "在职跳槽",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 4
+      },
+      {
+        "roundType": "onsite",
+        "rate": 4
+      },
+      {
+        "roundType": "onsite",
+        "rate": 4
+      },
+      {
+        "roundType": "onsite",
+        "rate": 5
+      },
+      {
+        "roundType": "behavioral",
+        "rate": 3
+      }
+    ]
+  }
+}
