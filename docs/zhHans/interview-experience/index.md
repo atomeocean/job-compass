@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-08-26
+lastUpdated: 2026-09-23
 layout: page
 sidebar: false
 ---
@@ -10,9 +10,10 @@ sidebar: false
 // 来自各公司 index.md frontmatter；articleCount/lastUpdated/createdDate 为需要
 // 脚本扩展输出的新字段）。当前数据基于 2026-07-13 的仓库内容生成。
 const interviewItems = [
+  {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 2, "lastUpdated": "2026-09-23", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
   {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 8, "lastUpdated": "2026-07-09", "createdDate": "2025-10-21"},
-  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 10, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
+  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 12, "lastUpdated": "2026-09-14", "createdDate": "2025-10-22"},
   {"title": "Snowflake", "description": "SWE 技术电面经验", "href": "./snowflake/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
   {"title": "Netflix", "description": "HR Screening 与技术面", "href": "./netflix/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2026-05-29"},
   {"title": "Notion", "description": "Notion 面试经验分享", "href": "./notion/index.md", "articleCount": 1, "lastUpdated": "2026-07-08", "createdDate": "2026-06-05"},
