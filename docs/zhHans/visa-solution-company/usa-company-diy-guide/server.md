@@ -5,6 +5,8 @@ outline: deep
 tags: [工作记录检查]
 authors:
   - Jack
+createdDate: 2026-09-25
+lastUpdated: 2026-09-25
 ---
 # 服务器
 
