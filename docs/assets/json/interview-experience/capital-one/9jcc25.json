@@ -1,9 +1,9 @@
 {
-  "company": "Capital One",
+  "company": "capital-one",
   "position": {
     "jobPostUrl": null,
     "title": "Fullstack Software Engineer",
-    "level": "Mid-level",
+    "level": "mid-level",
     "jobType": "full-time"
   },
   "applicationSource": {
@@ -17,7 +17,7 @@
   },
   "interview": {
     "date": "2025-06-10",
-    "result": "passed",
+    "result": "pass",
     "rounds": [
       {
         "roundType": "oa",
@@ -32,7 +32,7 @@
         "rate": 3
       },
       {
-        "roundType": "case-study",
+        "roundType": "technical",
         "rate": 3
       },
       {
