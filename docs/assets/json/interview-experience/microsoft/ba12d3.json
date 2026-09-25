@@ -3,7 +3,7 @@
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer SDE-2",
-    "level": "SDE-2",
+    "level": "l4",
     "jobType": "full-time"
   },
   "applicationSource": {
@@ -11,9 +11,9 @@
     "referralDetails": null
   },
   "candidate": {
-    "education": "硕士",
-    "background": "在职跳槽",
-    "yearsOfExperience": 0
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 3
   },
   "interview": {
     "date": "",

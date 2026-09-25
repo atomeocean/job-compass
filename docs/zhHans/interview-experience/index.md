@@ -24,7 +24,7 @@ const interviewItems = [
   {"title": "Uber", "description": "Uber 面试经验分享", "href": "./uber/index.md", "articleCount": 10, "lastUpdated": "2026-06-10", "createdDate": "2025-11-21"},
   {"title": "TikTok", "description": "SDE Intern 面经", "href": "./tiktok/index.md", "articleCount": 4, "lastUpdated": "2026-06-05", "createdDate": "2025-09-26"},
   {"title": "Nvidia", "description": "Nvidia 面试经验分享", "href": "./nvidia/index.md", "articleCount": 2, "lastUpdated": "2026-06-01", "createdDate": "2025-10-22"},
-  {"title": "Microsoft", "description": "Microsoft 面试经验分享", "href": "./microsoft/index.md", "articleCount": 1, "lastUpdated": "2026-06-01", "createdDate": "2026-05-28"},
+  {"title": "Microsoft", "description": "Microsoft 面试经验分享", "href": "./microsoft/index.md", "articleCount": 2, "lastUpdated": "2026-09-25", "createdDate": "2026-05-28"},
   {"title": "ByteDance", "description": "SDE NG 多轮面经", "href": "./bytedance/index.md", "articleCount": 4, "lastUpdated": "2026-05-27", "createdDate": "2025-08-27"},
   {"title": "Apple", "description": "Apple 面试经验分享", "href": "./apple/index.md", "articleCount": 2, "lastUpdated": "2026-05-08", "createdDate": "2025-10-22"},
   {"title": "GEICO", "description": "GEICO 面试经验分享", "href": "./geico/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
