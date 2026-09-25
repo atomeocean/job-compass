@@ -1,7 +1,7 @@
 ---
 title: 红牌紧急提醒
 description: 最后通牒
-lastUpdated: 2026-09-16
+lastUpdated: 2026-09-25
 outline: deep
 order: 9
 createdDate: 2026-09-16

@@ -1,7 +1,7 @@
 ---
 title: 违例友好提醒
 description: Atomeocean轻量工作友好提醒邮件模板，相当于违例警告
-lastUpdated: 2026-09-16
+lastUpdated: 2026-09-25
 createdDate: 2026-09-16
 ---
 # Atomeocean轻量工作友好提醒

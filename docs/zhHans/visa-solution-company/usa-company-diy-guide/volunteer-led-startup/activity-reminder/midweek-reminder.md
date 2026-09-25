@@ -2,7 +2,7 @@
 title: 周中提醒
 description: 提醒轻量组员工完成工作量
 outline: deep
-lastUpdated: 2026-09-16
+lastUpdated: 2026-09-25
 order: 1
 createdDate: 2026-09-16
 ---

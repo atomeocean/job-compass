@@ -1,7 +1,7 @@
 ---
 title: 黄牌紧急提醒
 description: 黄牌提醒
-lastUpdated: 2026-09-16
+lastUpdated: 2026-09-25
 outline: deep
 order: 7
 createdDate: 2026-09-16
