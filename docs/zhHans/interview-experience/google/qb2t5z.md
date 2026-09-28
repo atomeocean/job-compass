@@ -23,12 +23,12 @@ lastUpdated: 2026-09-25
 
 ### 面试流程
 
-* 5月7日：网申 SWE III
-* 7月8日：xWF 联系候选人
-* 8月5日：进行 R1 面试
-* 8月7日左右：收到 xWF 未通过邮件
+- 5月7日：网申 SWE III
+- 7月8日：xWF 联系候选人
+- 8月5日：进行 R1 面试
+- 8月7日左右：收到 xWF 未通过邮件
 
-候选人提到，去年曾经参加过 GHA（Going Higher and Further）流程但最终简历挂掉，这次申请时直接跳过了相关流程。
+候选人提到，去年曾经参加过 GHA（Google Hiring Assessment）流程但最终简历挂掉，这次申请时直接跳过了相关流程。
 
 ### R1
 
@@ -43,10 +43,10 @@ Behavioral 部分首先要求候选人进行自我介绍，之后主要围绕过
 
 主要问题包括：
 
-* Tell me about a time you had a conflict with a coworker.
-* Tell me about a mistake you made and how you resolved it.
-* Tell me about a time when a teammate left the team and you had to take over their project.
-* Tell me about a time you took the initiative to fix a problem.
+- Tell me about a time you had a conflict with a coworker.
+- Tell me about a mistake you made and how you resolved it.
+- Tell me about a time when a teammate left the team and you had to take over their project.
+- Tell me about a time you took the initiative to fix a problem.
 
 整体以具体经历为主，面试官会针对候选人的回答继续追问。
 
@@ -64,25 +64,33 @@ Coding 题目属于 String Parsing / Environment Variable Substitution 类型。
 
 题目背景类似 Shell Environment Variable Substitution：
 
-.zshrc 中设置 environment variable，例如：
+`.zshrc` 中设置 environment variable，例如：
 
-export NAME = "Tom"
+```bash
+export NAME="Tom"
+```
 
 输入字符串：
 
+```text
 Hello I'm %NAME%
+```
 
-要求实现一个 Class，用于存储 environment variables，并解析输入字符串，将 %KEY% 替换为对应的 value。
+要求实现一个 Class，用于存储 environment variables，并解析输入字符串，将 `%KEY%` 替换为对应的 value。
 
 例如：
 
+```python
 set("NAME", "Tom")
 get("NAME")
 parse("Hello I'm %NAME%")
+```
 
 最终输出：
 
+```text
 Hello I'm Tom
+```
 
 候选人理解这道题主要是实现一个简单的 environment variable store + parser。
 
@@ -92,15 +100,15 @@ Coding 完成后，候选人直接告诉面试官已经完成。面试官随后�
 
 从评论区来看，有其他用户指出这道题还可能涉及更多复杂情况，例如：
 
-* 变量中嵌套变量；
-* Lazy Update；
-* Cycle Dependency 检测。
+- 变量中嵌套变量；
+- Lazy Update；
+- Cycle Dependency 检测。
 
-原帖作者随后表示，如果没有面试官提醒，自己当时并没有想到这些情况。
+原帖作者表示自己当时并没有考虑到这些情况。
 
 ### 面试结果反馈
 
-- **最终结果**：Failed
+8月7日左右，候选人收到 xWF 邮件，通知 R1 未通过。
 
 <ReferenceSource
 :sources="[

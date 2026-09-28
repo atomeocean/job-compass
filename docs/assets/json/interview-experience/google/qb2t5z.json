@@ -1,6 +1,5 @@
 {
   "company": "google",
-  
   "position": {
     "jobPostUrl": null,
     "title": "SWE III",
@@ -8,19 +7,17 @@
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "online-application",
+    "channel": "direct-apply",
     "referralDetails": ""
   },
-
   "candidate": {
-    "education": "硕士",
+    "education": "master",
     "background": "2.5年工作经验，目前在Amazon从事Java Backend工作，在职跳槽",
     "yearsOfExperience": 2.5
   },
-
   "interview": {
     "date": "2026-08-05",
-    "result": "fail",
+    "result": "rejected",
     "rounds": [
       {
         "roundType": "behavioral",
