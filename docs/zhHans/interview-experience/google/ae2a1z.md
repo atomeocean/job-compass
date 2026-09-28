@@ -2,7 +2,7 @@
 title: Google L4 面试经验
 description: Google L4 Software Engineer 面试经验，包含 Phone Interview、Onsite Coding 以及 Googleyness & Leadership 行为面试。
 createdDate: 2026-09-24
-lastUpdated: 2026-09-24
+lastUpdated: 2026-09-28
 outline: deep
 ---
 # Google L4 面试经验
