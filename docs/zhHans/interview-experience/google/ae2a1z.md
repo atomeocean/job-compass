@@ -12,7 +12,7 @@ outline: deep
 ## 基本信息
 
 - **岗位**：Software Engineer（L4）
-- **面试形式**Phone Interview + Onsite
+- **面试形式**：Phone Interview + Onsite
 - **申请渠道**：网上海投
 - **候选人背景**：硕士，在职跳槽
 - **面试结果**：Pass
@@ -30,13 +30,13 @@ outline: deep
 
 ### Onsite Coding 1：温度监控系统
 
-设计一个温度监控系统的数据结构，支持实时插入温度数据，并高效查询最近 N 天的数据。
+设计一个温度监控系统的数据结构，支持实时插入温度数据，并高效查询最近 N 个温度读数。
 
 需要实现：
 
-1. insert(temperature)：插入一个新的温度读数。
-2. get_moving_average()：返回最近 N 个温度读数的滑动平均值。
-3. get_max_temp()：返回最近 N 个温度读数中的最大值，要求时间复杂度为 O(1)。
+1. `insert(temperature)`：插入一个新的温度读数。
+2. `get_moving_average()`：返回最近 N 个温度读数的滑动平均值。
+3. `get_max_temp()`：返回最近 N 个温度读数中的最大值，要求时间复杂度为 O(1)。
 
 ### Onsite Coding 2：网格地图送货
 
@@ -53,13 +53,15 @@ outline: deep
 
 需要实现：
 
+```python
 shouldPrintMessage(timestamp, message)
+```
 
 如果同一个 message 在过去 10 秒内没有被打印过，则允许打印并返回 true，否则返回 false。
 
 主要难点是处理乱序到达的日志，例如时间戳为 12 的日志先于时间戳为 10 的日志到达。
 
-## BQ 面试
+### BQ 面试
 
 行为面试主要考察团队协作、冲突解决以及个人成长。
 
@@ -67,10 +69,6 @@ shouldPrintMessage(timestamp, message)
 
 1. 描述一次与 Product Manager 在产品方向或技术实现上产生严重分歧的经历，以及如何通过沟通最终达成共识。
 2. 当项目面临紧急 Deadline，而技术债（Tech Debt）已经严重影响开发效率时，如何平衡业务交付与代码质量。
-
-## 面试结果反馈
-
-- **最终结果：** Pass
 
 <ReferenceSource
 :sources="[

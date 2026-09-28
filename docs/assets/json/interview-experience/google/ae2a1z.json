@@ -3,36 +3,36 @@
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer L4",
-    "level": "L4",
+    "level": "l4",
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "other",
-    "referralDetails": null
+    "channel": "direct-apply",
+    "referralDetails": ""
   },
   "candidate": {
-    "education": "硕士",
+    "education": "master",
     "background": "在职跳槽",
-    "yearsOfExperience": 0
+    "yearsOfExperience": null
   },
   "interview": {
     "date": "",
     "result": "pass",
     "rounds": [
       {
-        "roundType": "phone",
+        "roundType": "phone-screen",
         "rate": 4
       },
       {
-        "roundType": "onsite",
+        "roundType": "coding",
         "rate": 4
       },
       {
-        "roundType": "onsite",
+        "roundType": "coding",
         "rate": 4
       },
       {
-        "roundType": "onsite",
+        "roundType": "coding",
         "rate": 4
       },
       {
