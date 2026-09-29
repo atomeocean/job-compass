@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-09-25
+lastUpdated: 2026-09-28
 layout: page
 sidebar: false
 ---
@@ -13,7 +13,7 @@ const interviewItems = [
   {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 2, "lastUpdated": "2026-09-23", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
   {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 8, "lastUpdated": "2026-07-09", "createdDate": "2025-10-21"},
-  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 12, "lastUpdated": "2026-09-14", "createdDate": "2025-10-22"},
+  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 14, "lastUpdated": "2026-09-28", "createdDate": "2025-10-22"},
   {"title": "Snowflake", "description": "SWE 技术电面经验", "href": "./snowflake/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
   {"title": "Netflix", "description": "HR Screening 与技术面", "href": "./netflix/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2026-05-29"},
   {"title": "Notion", "description": "Notion 面试经验分享", "href": "./notion/index.md", "articleCount": 1, "lastUpdated": "2026-07-08", "createdDate": "2026-06-05"},
@@ -30,7 +30,7 @@ const interviewItems = [
   {"title": "GEICO", "description": "GEICO 面试经验分享", "href": "./geico/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
   {"title": "Open AI", "description": "Open AI 面试经验分享", "href": "./openai/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
   {"title": "Walmart labs", "description": "Walmart labs 面试经验分享", "href": "./walmart/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
-  {"title": "Capital One", "description": "Capital One 面试经验分享", "href": "./capital-one/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2025-10-22"},
+  {"title": "Capital One", "description": "Capital One 面试经验分享", "href": "./capital-one/index.md", "articleCount": 2, "lastUpdated": "2026-09-25", "createdDate": "2025-10-22"},
   {"title": "Applied Intuition", "description": "Applied Intuition 面试经验分享", "href": "./applied-intuition/index.md", "articleCount": 1, "lastUpdated": "2026-02-20", "createdDate": "2026-02-20"},
   {"title": "Snap", "description": "Snap 面试经验分享", "href": "./snapchat/index.md", "articleCount": 1, "lastUpdated": "2026-01-25", "createdDate": "2025-11-21"},
   {"title": "Stubhub", "description": "Stubhub 面试经验分享", "href": "./stubhub/index.md", "articleCount": 2, "lastUpdated": "2026-01-06", "createdDate": "2025-11-21"},

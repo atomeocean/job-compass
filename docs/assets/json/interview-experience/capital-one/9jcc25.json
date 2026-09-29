@@ -1,0 +1,44 @@
+{
+  "company": "capital-one",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Fullstack Software Engineer",
+    "level": "mid-level",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "online-assessment",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "4年以上工作经验，面试前有一年多待业期",
+    "yearsOfExperience": 4
+  },
+  "interview": {
+    "date": "2025-06-10",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "oa",
+        "rate": 2
+      },
+      {
+        "roundType": "coding",
+        "rate": 3
+      },
+      {
+        "roundType": "system-design",
+        "rate": 3
+      },
+      {
+        "roundType": "technical",
+        "rate": 3
+      },
+      {
+        "roundType": "behavioral",
+        "rate": 2
+      }
+    ]
+  }
+}
