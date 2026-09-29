@@ -1,6 +1,6 @@
 name: notify-logbook-pr-review
 
-# 每当有人提交一次 PR review，就通知 logbook 仓库建一条工时记录 issue。
+# 每当有人提交一次 PR review，就通知 logbook 仓库建一条工作记录 issue。
 # 实际的建 issue 逻辑和模板都在 logbook 侧（.github/workflows/create-pr-review-issue.yml），
 # 这里只负责发 repository_dispatch。
 #
@@ -24,17 +24,17 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
           AUTHOR: ${{ github.event.pull_request.user.login }}
           REVIEWER: ${{ github.event.review.user.login }}
+          CREATED_AT: ${{ github.event.pull_request.created_at }}
         run: |
-          # 贡献者写成「GitHub 用户名（姓名）」，姓名未公开时只留用户名
+          # 姓名未公开时退回 GitHub 用户名
           NAME=$(gh api "users/$AUTHOR" --jq '.name // ""')
-          CONTRIBUTOR="$AUTHOR"
-          if [ -n "$NAME" ]; then
-            CONTRIBUTOR="$AUTHOR（$NAME）"
+          if [ -z "$NAME" ]; then
+            NAME="$AUTHOR"
           fi
 
           gh api repos/atomeocean/logbook/dispatches \
             -f event_type=job-compass-pr-review \
             -f "client_payload[pr_url]=$PR_URL" \
-            -f "client_payload[contributor]=$CONTRIBUTOR" \
-            -f "client_payload[assignee]=$REVIEWER" \
-            -f "client_payload[hours]="
+            -f "client_payload[name]=$NAME" \
+            -f "client_payload[created_at]=$CREATED_AT" \
+            -f "client_payload[assignee]=$REVIEWER"
