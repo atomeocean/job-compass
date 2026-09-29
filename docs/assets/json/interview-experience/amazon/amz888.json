@@ -1,0 +1,40 @@
+{
+  "company": "Amazon",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer",
+    "level": "SDE1",
+    "jobType": null
+  },
+  "applicationSource": {
+    "channel": null,
+    "referralDetails": null
+  },
+  "candidate": {
+    "education": null,
+    "background": null,
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2026-08",
+    "result": "未通过",
+    "rounds": [
+      {
+        "roundType": "bar-raiser",
+        "rate": null
+      },
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "low-level-design",
+        "rate": null
+      }
+    ]
+  }
+}
