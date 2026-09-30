@@ -1,38 +1,38 @@
 {
-  "company": "Amazon",
+  "company": "amazon",
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",
-    "level": "SDE1",
-    "jobType": null
+    "level": "new-grad",
+    "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": null,
-    "referralDetails": null
+    "channel": "",
+    "referralDetails": ""
   },
   "candidate": {
-    "education": null,
-    "background": null,
+    "education": "",
+    "background": "",
     "yearsOfExperience": null
   },
   "interview": {
-    "date": "2026-08",
-    "result": "未通过",
+    "date": "",
+    "result": "rejected",
     "rounds": [
       {
-        "roundType": "bar-raiser",
+        "roundType": "behavioral",
         "rate": null
       },
       {
-        "roundType": "technical",
+        "roundType": "coding",
         "rate": null
       },
       {
-        "roundType": "technical",
+        "roundType": "coding",
         "rate": null
       },
       {
-        "roundType": "low-level-design",
+        "roundType": "system-design",
         "rate": null
       }
     ]
