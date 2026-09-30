@@ -2,6 +2,8 @@
 title: L4
 description: Google L4 Software Engineer 电面与Onsite面试经验
 outline: deep
+createdDate: 2026-09-30
+lastUpdated: 2026-09-30
 ---
 # Google L4 Software Engineer 电面与Onsite面试经验
 

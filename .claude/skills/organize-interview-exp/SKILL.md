@@ -1,8 +1,9 @@
 ---
 name: organize-interview-exp
 description: Organize a pasted 面经 (link + author + full post text) verbatim into an interview-experience page pair — markdown under docs/zhHans/interview-experience/<company>/ and matching JSON under docs/assets/json/interview-experience/<company>/ — keeping the author's own first-person wording and only adding structure. Use when the user pastes the full text of an interview post and asks to 整理 / add it. English posts are literally translated to Chinese first.
+createdDate: 2026-09-30
+lastUpdated: 2026-09-30
 ---
-
 # Organize a pasted 面经 verbatim
 
 The user pastes three things: the post's **link**, its **author**, and the **full post text**.
