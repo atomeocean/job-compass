@@ -2,7 +2,7 @@
 title: 刘欢的飞升
 description: 刘欢的飞升技巧在美国职场中同样非常好用
 createdDate: 2026-09-27
-lastUpdated: 2026-09-29
+lastUpdated: 2026-09-30
 outline: deep
 ---
 # 刘欢的飞升在美国职场中的应用
