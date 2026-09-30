@@ -7,32 +7,32 @@
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "online-application",
+    "channel": "",
     "referralDetails": ""
   },
   "candidate": {
-    "education": "硕士",
+    "education": "master",
     "background": "在职跳槽",
     "yearsOfExperience": null
   },
   "interview": {
-    "date": null,
-    "result": "other",
+    "date": "",
+    "result": "unknown",
     "rounds": [
       {
-        "roundType": "coding",
+        "roundType": "oa",
         "rate": 4
       },
       {
-        "roundType": "debugging",
+        "roundType": "oa",
         "rate": 4
       },
       {
-        "roundType": "work-style-assessment",
+        "roundType": "oa",
         "rate": 1
       },
       {
-        "roundType": "personality-assessment",
+        "roundType": "oa",
         "rate": 1
       }
     ]
