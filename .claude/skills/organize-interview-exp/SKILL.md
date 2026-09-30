@@ -50,7 +50,13 @@ The only edits allowed:
 4. Link a LeetCode problem the author already names: `LC98` →
    `[LC98](https://leetcode.com/problems/validate-binary-search-tree/)`. The visible text stays
    the author's. Link only when you are certain of the problem's slug.
-5. Write `## 基本信息` and `## 面试结果反馈` as short structured fields. These are extracted
+5. Bold the author's own **labels** — a short name for the content that follows, ending in a
+   colon — so a round with several parts scans easily. A label on its own line
+   (`Warmup Question:` → `**Warmup Question**:`) or opening a line (`追问：如果…` →
+   `**追问**：如果…`). The label text and its colon stay exactly as written, with the colon
+   **outside** the `**`: markdown-it leaves `**追问：**如果` unbolded, showing literal
+   asterisks. A lead-in sentence like 「比如优先检查：」 is prose, so it stays plain.
+6. Write `## 基本信息` and `## 面试结果反馈` as short structured fields. These are extracted
    metadata, so the phrasing is yours, but every value comes from the source.
 
 Keep the author's own lists as lists and their prose as prose. Keep their descriptions of the
@@ -94,6 +100,8 @@ outline: deep
 <the author's overall description of the process, verbatim>
 
 ### 第一轮：Coding
+
+**<author's label, e.g. Warmup Question>**:
 
 <the author's text for this round, verbatim>
 
