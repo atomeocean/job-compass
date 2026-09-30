@@ -177,7 +177,7 @@ predate that table, so take their shape, not their values.
 6. **Write the JSON**, then **the markdown**.
 7. **Check** — done when all four pass:
    - `python3 -c "import json; json.load(open('<json path>'))"`
-   - `python3 .claude/skills/organize-interview-exp/check_verbatim.py <md path> <source file>`
+   - `python3 scripts/check_verbatim.py <md path> <source file>`
      prints `OK`. Every line it lists is a sentence that drifted from the source: restore the
      source wording and rerun.
    - `grep -c '^---$' <md path>` prints `2`.

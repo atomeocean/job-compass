@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Check that every body line of an interview-experience markdown appears verbatim in the source.
+"""
+检查面经 markdown 的正文是否逐行照录自原文（organize-interview-exp skill 的自检步骤）。
 
-Usage: python3 check_verbatim.py <article.md> <source.txt>
+用法（在仓库根目录运行）：
+    python3 scripts/check_verbatim.py <article.md> <source.txt>
 
-Skips frontmatter, heading lines, <InterviewDetail />, the <ReferenceSource> block, code-fence
-markers, and the extracted-metadata sections (## 基本信息, ## 面试结果反馈). Every remaining line
-is stripped of Markdown markup and whitespace, then substring-matched against the source.
-Exits 1 and prints the offending lines if any are not found.
+跳过 frontmatter、标题行、<InterviewDetail />、<ReferenceSource> 块、代码块标记，以及提取元信息的
+「## 基本信息」「## 面试结果反馈」两节。其余每一行去掉 Markdown 标记和空白后，与原文做子串匹配。
+有匹配不上的行时逐行打印，并以退出码 1 结束。
 """
 import re
 import sys
@@ -61,7 +62,7 @@ def body_lines(md: str):
 
 def main() -> int:
     if len(sys.argv) != 3:
-        print(__doc__.strip().splitlines()[2], file=sys.stderr)
+        print("用法: python3 scripts/check_verbatim.py <article.md> <source.txt>", file=sys.stderr)
         return 2
 
     with open(sys.argv[1], encoding="utf-8") as f:

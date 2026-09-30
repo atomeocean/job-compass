@@ -54,6 +54,9 @@ Local / manual:
 - `convert_html_to_markdown.py` — one-off HTML → Markdown conversion via BeautifulSoup.
 - `notify_direct_hire_company_subscribers.py` — reads subscriber email + filename out of
   Markdown frontmatter.
+- `check_verbatim.py` — the `organize-interview-exp` skill's self-check: lists 面经 body lines
+  that don't appear verbatim in the pasted source. Standard library only, so it needs no
+  `PYTHONPATH`.
 
 `sync-json-data-source.yml` also calls `scripts/domains/job-compass/add_job_compass_pr_record.py`.
 That path is **on the remote server**, not in this repo — don't go looking for it here.
