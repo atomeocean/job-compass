@@ -6,4 +6,4 @@ lastUpdated: 2025-12-07
 ---
 # Apple面试经验
 
-公司介绍页面链接暂无
+公司介绍页面：[Apple Inc.](/direct-hire-company/california/cupertino/apple)
