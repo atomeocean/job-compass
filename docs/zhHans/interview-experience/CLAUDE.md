@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-09-10
+lastUpdated: 2026-10-01
 ---
 # CLAUDE.md — interview-experience
 
@@ -10,6 +10,11 @@ in this directory.
 
 For the authoring workflow (turning a shared 面经 into a page), use the
 `web-source-to-interview` skill. This file documents the structural contract only.
+
+When a page keeps a source's discriminatory or hostile remark about a race, ethnicity,
+nationality, or region, follow that paragraph with the fixed `::: warning 免责声明` block —
+wording and scope in the **Race / nationality disclaimer** section of
+[organize-interview-exp](../../../.claude/skills/organize-interview-exp/SKILL.md).
 
 ## The file pair
 

@@ -2,7 +2,7 @@
 name: organize-interview-exp
 description: Organize a pasted 面经 (link + author + full post text) verbatim into an interview-experience page pair — markdown under docs/zhHans/interview-experience/<company>/ and matching JSON under docs/assets/json/interview-experience/<company>/ — keeping the author's own first-person wording and only adding structure. Use when the user pastes the full text of an interview post and asks to 整理 / add it. English posts are literally translated to Chinese first.
 createdDate: 2026-09-30
-lastUpdated: 2026-09-30
+lastUpdated: 2026-10-01
 ---
 # Organize a pasted 面经 verbatim
 
@@ -72,6 +72,28 @@ even 「求大米」 — stays; flag it in the report so the user can decide.
 
 Sections are separated by headings alone: the only `---` lines are the two around the
 frontmatter.
+
+## Race / nationality disclaimer
+
+When the source makes a **discriminatory or hostile** remark about a race, ethnicity,
+nationality, or region — contempt, insults, or hostility toward the group, like
+「这些恶心人的国人」 or 「清理掉这些…」 — the text still stays verbatim, and the paragraph
+holding it is followed directly by this block, worded exactly so:
+
+```markdown
+::: warning 免责声明
+以上言论仅代表原帖作者个人观点，不代表 Atomeocean 的观点和立场。
+:::
+```
+
+The block covers only the paragraph right above it, not the whole page: put one after each
+paragraph that holds such a remark, and none anywhere else.
+
+Identity labels on their own — 三哥 / 老印 / 印度小哥 / 国人面试官 / 中东的哥们 — don't
+trigger it; they're kept as written under the interviewer-description rule above.
+
+`check_verbatim.py` skips this block by its opener line, so change the wording here and in
+the script together. Quote the triggering phrases in the report.
 
 ## Markdown skeleton
 
@@ -184,5 +206,6 @@ predate that table, so take their shape, not their values.
    - `grep -c '^---$' <md path>` prints `2`.
    - The md and json paths match below `interview-experience/`.
 8. **Report**: the two file paths, fields left empty or `rate: 0`, platform text removed,
-   author-written filler flagged, whether the post was translated from English, and the check
+   author-written filler flagged, whether the race / nationality disclaimer was added (and the
+   phrases that triggered it), whether the post was translated from English, and the check
    results. Leave the changes uncommitted.
