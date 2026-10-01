@@ -56,7 +56,7 @@ title: '香蕉厂senior as 店面',
 link: 'https://www.1point3acres.com/bbs/thread-1191099-1-1.html',
 site: '一亩三分地',
 author: '匿名用户-Z4YPD',
-date: '',
+date: '2026-09-28',
 category: '海外面经'
 }
 ]"
