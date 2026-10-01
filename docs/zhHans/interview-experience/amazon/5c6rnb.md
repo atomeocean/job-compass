@@ -2,6 +2,8 @@
 title: Senior AS 店面
 description: Amazon Senior Applied Scientist Phone Screen面试经验
 outline: deep
+createdDate: 2026-10-01
+lastUpdated: 2026-10-01
 ---
 # Amazon Senior Applied Scientist Phone Screen面试经验
 
