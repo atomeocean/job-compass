@@ -58,7 +58,7 @@ features:
   - icon: 📚
     title: 职场建议
     details: 北美职场文化、汇报关系与生存指南
-    link: /career-guide/manager-is-god
+    link: /career-guide/us-work-mindset/manager-is-god.md
     linkText: 熟悉北美职场
   - icon: 🕵️
     title: 在美身份
@@ -66,10 +66,10 @@ features:
     link: /visa-solution-company/hongshu-27410952937
     linkText: 身份解决公司列表
 createdDate: 2024-11-18
-lastUpdated: 2026-05-07
+lastUpdated: 2026-10-01
 ---
 <script setup>
-import CommunityStatistic from '@ao-components/siteStatistic/CommunityStatistic.vue'
+import CommunityStatistic from '@ao-components/siteStatistic/CommunityStatistic.vue';
 </script>
 
 ## Job Compass：一个开放的求职者社区
@@ -84,12 +84,12 @@ Job Compass 是一个开源求职社区，核心是社区成员匿名分享的�
 
 Job Compass 的核心是社区成员匿名分享的真实面经。无论你是想看别人的面试经历，还是想分享自己的，都可以从这里开始。
 
-### 📖 我想阅读面经
+### 我想阅读面经
 
 - [浏览全部面经（按公司分类）](/interview-experience/)
 - [求职术语速查](/guide/interview-experience-utils/essential-terms)
 
-### ✍️ 我想分享面经
+### 我想分享面经
 
 - [面经贡献指南](/guide/interview-experience-utils/contributing) — 流程、隐私原则、文件命名
 - [面经必填字段 / Frontmatter 模版](/guide/interview-experience-utils/requirement)
@@ -100,7 +100,7 @@ Job Compass 的核心是社区成员匿名分享的真实面经。无论你是�
 - **完全免费吗？** 是。所有内容开源、免费访问，无需注册。
 - **信息从哪来？** 来自社区志愿者整理的公开招聘信息和亲历的面试经验。
 - **怎么贡献？** 直接在 [GitHub](https://github.com/atomeocean/job-compass) 提 PR，或参考 [任务指南](/guide/task-guide)。
-
+- 这是一个美国合规项目吗？ 是的，AI模型只使用指定美国国家安全级别的Claude
 ## 热门公司
 
 - 亚马逊 [Amazon](/direct-hire-company/washington/seattle/amazon)

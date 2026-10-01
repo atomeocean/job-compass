@@ -1,8 +1,13 @@
 {
   "permissions": {
+    "deny": [],
     "allow": [
       "Bash(xargs cat)",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(gh auth *)",
+      "Bash(git ls-tree *)",
+      "Edit(/.claude/commands/connect-related-articles.md)"
     ]
-  }
+  },
+  "hooks": {}
 }
