@@ -5,14 +5,16 @@
 用法（在仓库根目录运行）：
     python3 scripts/check_verbatim.py <article.md> <source.txt>
 
-跳过 frontmatter、标题行、<InterviewDetail />、<ReferenceSource> 块、代码块标记，以及提取元信息的
-「## 基本信息」「## 面试结果反馈」两节。其余每一行去掉 Markdown 标记和空白后，与原文做子串匹配。
+跳过 frontmatter、标题行、<InterviewDetail />、<ReferenceSource> 块、种族 / 国籍免责声明块、代码块标记，
+以及提取元信息的「## 基本信息」「## 面试结果反馈」两节。其余每一行去掉 Markdown 标记和空白后，与原文做子串匹配。
 有匹配不上的行时逐行打印，并以退出码 1 结束。
 """
 import re
 import sys
 
 METADATA_SECTIONS = {"基本信息", "面试结果反馈"}
+# skill 加的种族 / 国籍免责声明容器的首行，措辞改动需与 SKILL.md 同步
+DISCLAIMER_OPENER = "::: warning 免责声明"
 
 LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
 LIST_MARKER = re.compile(r"^\s*(?:[-*+]|\d+[.)]|>)\s+")
@@ -34,9 +36,18 @@ def body_lines(md: str):
 
     in_metadata = False
     in_reference = False
+    in_disclaimer = False
     for lineno in range(i, len(lines)):
         line = lines[lineno]
         stripped = line.strip()
+
+        if in_disclaimer:
+            if stripped == ":::":
+                in_disclaimer = False
+            continue
+        if stripped == DISCLAIMER_OPENER:
+            in_disclaimer = True
+            continue
 
         if in_reference:
             if stripped.endswith("/>"):
