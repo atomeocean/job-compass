@@ -1,0 +1,28 @@
+{
+  "company": "amazon",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Senior Applied Scientist",
+    "level": "senior",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": "猎头"
+  },
+  "candidate": {
+    "education": "phd",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "phone-screen",
+        "rate": 0
+      }
+    ]
+  }
+}
