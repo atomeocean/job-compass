@@ -47,6 +47,7 @@ def body_lines(md: str):
             continue
         if stripped == DISCLAIMER_OPENER:
             in_disclaimer = True
+            disclaimer_lineno = lineno + 1
             continue
 
         if in_reference:
@@ -70,6 +71,10 @@ def body_lines(md: str):
 
         yield lineno + 1, line
 
+    # 未闭合的免责声明块会吞掉后面所有行，导致检查假通过
+    if in_disclaimer:
+        raise ValueError(f"第 {disclaimer_lineno} 行的免责声明块缺少闭合的 :::")
+
 
 def main() -> int:
     if len(sys.argv) != 3:
@@ -82,10 +87,14 @@ def main() -> int:
         source = normalize(LINK.sub(r"\1", f.read()))
 
     missing = []
-    for lineno, line in body_lines(md):
-        text = LIST_MARKER.sub("", LINK.sub(r"\1", line))
-        if normalize(text) not in source:
-            missing.append((lineno, line))
+    try:
+        for lineno, line in body_lines(md):
+            text = LIST_MARKER.sub("", LINK.sub(r"\1", line))
+            if normalize(text) not in source:
+                missing.append((lineno, line))
+    except ValueError as e:
+        print(f"错误: {e}", file=sys.stderr)
+        return 1
 
     if not missing:
         print("OK: every body line appears verbatim in the source")
