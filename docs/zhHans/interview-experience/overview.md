@@ -1,8 +1,9 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-09-29
+lastUpdated: 2026-10-03
 ---
+
 <script setup>
 const overviewItems = [
   {
@@ -107,6 +108,13 @@ const overviewItems = [
     "title": "ICBC",
     "description": "该文件主要介绍 ICBC 的相关内容。",
     "href": "./icbc/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "LinkedIn",
+    "description": "LinkedIn 面试经验分享",
+    "href": "./linkedin/index.md",
     "order": 0,
     "kind": "folder"
   },
