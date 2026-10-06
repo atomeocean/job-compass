@@ -1,0 +1,32 @@
+{
+  "companyInfo": {
+    "companyName": "Applied Intuition, Inc.",
+    "location": {
+      "addressLine1": "860 W California Ave",
+      "addressLine2": "",
+      "county": "Santa Clara County",
+      "cityOrTown": "Sunnyvale",
+      "state": "CA",
+      "zipCode": "94086"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.appliedintuition.com",
+      "linkedin": "https://www.linkedin.com/company/applied-intuition-inc"
+    },
+    "industry": ["自动驾驶", "汽车软件", "国防科技", "人工智能"],
+    "foundedYear": "2017",
+    "description": "Applied Intuition 是一家面向车辆智能化的软件公司，由 Qasar Younis 和 Peter Ludwig 于 2017 年创立。公司最初以自动驾驶仿真与测试工具起家，现已扩展到车载操作系统和自动驾驶系统，服务汽车、卡车、国防、采矿、建筑和农业等行业。总部于 2025 年从 Mountain View 迁至 Sunnyvale，并在华盛顿特区、圣地亚哥、安娜堡、伦敦、斯图加特、慕尼黑、斯德哥尔摩、班加罗尔、首尔、东京等地设有办公室。",
+    "mainProductsOrServices": [
+      "车辆智能开发工具（仿真、测试与验证）",
+      "Vehicle OS（车载操作系统）",
+      "Self-Driving System（自动驾驶系统）",
+      "国防领域自主系统"
+    ],
+    "companySize": "1,000 至 2,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-10-06"
+  }
+}
