@@ -1,5 +1,7 @@
 ---
 title: Applied Intuition
+createdDate: 2026-10-06
+lastUpdated: 2026-10-06
 ---
 # Applied Intuition, Inc.
 
