@@ -97,6 +97,7 @@ const vitePressConfig: UserConfig = {
       alias, // 引入路径别名
     },
     optimizeDeps: {
+      include: ['mermaid'],
       exclude: [
         '@nolebase/vitepress-plugin-inline-link-preview/client',
         'vitepress'
@@ -155,8 +156,9 @@ const vitePressConfig: UserConfig = {
     }
   },
   // https://github.com/emersonbottero/vitepress-plugin-mermaid
-  mermaid:{
-    //mermaidConfig !theme here works for light mode since dark theme is forced in dark mode
+  mermaid: {
+    // The wrapper defaults to loose mode; diagram labels must remain untrusted.
+    securityLevel: "strict",
   },
   markdown: {
     config: (md) => {

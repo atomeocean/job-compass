@@ -6,7 +6,7 @@
     "@types/node": "^25.0.3",
     "busuanzi.pure.js": "^1.0.3",
     "husky": "^9.1.7",
-    "mermaid": "^11.9.0",
+    "mermaid": "^11.16.1",
     "prettier": "^3.4.2",
     "sass-embedded": "^1.89.2",
     "typescript": "^5.9.3",
