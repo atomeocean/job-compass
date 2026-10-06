@@ -11,13 +11,13 @@ outline: deep
 ---
 # TikTok MLE 面试经验（两轮技术面）
 
-## 基本信息
-- 公司信息：[TikTok](https://careers.tiktok.com/)
-- 岗位：Machine Learning Engineer (CV/NLP/Multimodal/LLM)，New Grad
-- 地点：San Jose 或 Bellevue，onsite
-- 面试时间：2025年3月
-
 <InterviewDetail />
+
+## 基本信息
+- **公司信息**：[TikTok](https://careers.tiktok.com/)
+- **岗位**：Machine Learning Engineer (CV/NLP/Multimodal/LLM)，New Grad
+- **地点**：San Jose 或 Bellevue，onsite
+- **面试时间**：2025年3月
 
 ## 面试过程
 
@@ -27,9 +27,9 @@ outline: deep
 ### 第一轮：技术面（Lark 视频，45 到 60 分钟）
 recruiter 提前说明了前两轮的结构（两轮一样），也发了一份准备文档，每轮分三块：
 1. 项目讨论：围绕简历上的项目，结合领域知识和 ML 基础、算法问题。
-讲了一些之前做prompt engineering的项目经历，面试官觉得很trivial。他们这个岗是想找一些电商审核，需要有一些处理视频的经验。
-2. Coding：难度大概 LeetCode medium（难度参考：[200. 岛屿数量 Number of Islands](https://leetcode.com/problems/number-of-islands/)，用 DFS/BFS 遍历网格），再加一些 CS 基础。
 
+   讲了一些之前做prompt engineering的项目经历，面试官觉得很trivial。他们这个岗是想找一些电商审核，需要有一些处理视频的经验。
+2. Coding：难度大概 LeetCode medium（难度参考：[200. 岛屿数量 Number of Islands](https://leetcode.com/problems/number-of-islands/)，用 DFS/BFS 遍历网格），再加一些 CS 基础。
 
 大概五天后收到 positive feedback，进入第二轮。
 
