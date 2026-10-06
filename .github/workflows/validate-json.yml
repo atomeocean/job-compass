@@ -1,4 +1,4 @@
-# This workflow validates changed JSON files in the pull request.
+# Validate changed JSON using only read access to this repository.
 name: Validate JSON Files
 
 on:
@@ -9,25 +9,39 @@ on:
     paths:
       - '**/*.json'
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          token: ${{ secrets.ATM_LIHAI_PAT }}
+          fetch-depth: 0
+          persist-credentials: false
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Validate changed JSON files
+        env:
+          BASE_SHA: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
         run: |
-          echo "Checking changed JSON files..."
-          git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.json$' | while IFS= read -r file; do
-            echo "Validating $file"
-            if ! jq empty "$file"; then
-              echo "❌ Invalid JSON: $file"
-              exit 1
-            fi
-          done
+          set -euo pipefail
+          paths_file="$RUNNER_TEMP/changed-json-paths"
+
+          # A newly pushed branch has no previous commit; inspect its full tree.
+          if [ -z "$BASE_SHA" ] || [[ "$BASE_SHA" =~ ^0+$ ]]; then
+            git ls-tree -r --name-only -z "$HEAD_SHA" > "$paths_file"
+          else
+            git diff --name-only -z --diff-filter=ACMR "$BASE_SHA" "$HEAD_SHA" -- > "$paths_file"
+          fi
+
+          while IFS= read -r -d '' file; do
+            [[ "$file" == *.json ]] || continue
+            printf 'Validating %s\n' "$file"
+            jq empty -- "$file"
+          done < "$paths_file"
