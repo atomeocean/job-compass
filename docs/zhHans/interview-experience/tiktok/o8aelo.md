@@ -6,7 +6,7 @@ company: TikTok
 position: Machine Learning Engineer
 result: Rejected
 createdDate: 2026-10-01
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-06
 outline: deep
 ---
 # TikTok MLE 面试经验（两轮技术面）
