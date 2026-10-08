@@ -1,0 +1,28 @@
+{
+  "company": "microsoft",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "mid-level",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2026-10",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}
