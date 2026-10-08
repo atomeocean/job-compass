@@ -16,12 +16,12 @@
     "yearsOfExperience": null
   },
   "interview": {
-    "date": "2026-10",
+    "date": "",
     "result": "rejected",
     "rounds": [
       {
         "roundType": "onsite",
-        "rate": 3
+        "rate": 0
       }
     ]
   }

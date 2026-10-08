@@ -11,7 +11,7 @@ lastUpdated: 2026-10-07
 
 ## 基本信息
 
-- **岗位**：Software Engineer（要求 3+ 年经验；原帖未写明岗位名称，根据考察内容推断）
+- **岗位**：Software Engineer
 - **面试形式**：Loop（3 轮：HR + Hiring Manager + System Design、Object-Oriented Design、Data Structures & Algorithms）
 - **面试结果**：Rejected
 
@@ -97,11 +97,15 @@ lastUpdated: 2026-10-07
 
 我最大的收获是要准备好过去项目中设计决策的详细例子：约束、备选方案、trade-offs、生产环境中遇到的挑战，以及学到的经验教训。
 
+对于收到过类似反馈的人：你们是怎么积累实践层面的 system design 深度，并在之后的面试中展示出来的？
+
 ## 面试结果反馈
 
 - **最终结果**：Rejected
-- **正面反馈**：扎实的理论知识、清晰的推理和扎实的 DSA 能力
-- **主要顾虑**：展示出来的实践经验（尤其是更大规模系统的 system design）对目标级别来说不够深入；他们认为有基础和潜力，但需要更多真实世界的 system design 经验
+
+正面反馈强调了扎实的理论知识、清晰的推理和扎实的 DSA 能力。
+
+主要的顾虑是，我展示出来的实践经验——尤其是在更大规模系统的 system design 方面——对于他们在目标级别上的期望来说不够深入。他们觉得我有基础和潜力，但需要更多真实世界的 system design 经验。
 
 <ReferenceSource
 :sources="[
