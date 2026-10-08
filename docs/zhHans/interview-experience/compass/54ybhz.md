@@ -1,7 +1,7 @@
 ---
 title: {SDE}
 createdDate: {2025-10-22}
-lastUpdated: {2026-01-06}
+lastUpdated: 2026-10-08
 outline: deep
 ---
 # Compass SDE 面试经验
