@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-09-10
+lastUpdated: 2026-10-09
 ---
 # CLAUDE.md — VitePress theme
 

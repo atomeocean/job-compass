@@ -2,7 +2,7 @@
 title: Nomura风险分析面经
 description: 
 createdDate: 2025-09-15
-lastUpdated: 2025-12-04
+lastUpdated: 2026-10-09
 ---
 # Nomura风险分析一面面经
 
