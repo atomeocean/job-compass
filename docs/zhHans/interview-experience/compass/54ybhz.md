@@ -1,8 +1,9 @@
 ---
 title: Compass SDE 技术电面
 description: Compass SDE Technical Phone Screen面试经验
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-09
 outline: deep
+createdDate: 2026-10-09
 ---
 # Compass SDE 面试经验
 
