@@ -1,7 +1,7 @@
 ---
 title: Tiktok SDE 25 Summer Intern面经
 createdDate: 2025-09-26
-lastUpdated: 2025-10-22
+lastUpdated: 2026-10-09
 sourceType: unknown
 ---
 # 字节跳动数据平台开发一面

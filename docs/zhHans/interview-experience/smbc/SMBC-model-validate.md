@@ -2,7 +2,7 @@
 title: SMBC模型验证面经
 description: 
 createdDate: 2025-09-15
-lastUpdated: 2025-10-22
+lastUpdated: 2026-10-09
 sourceType: unknown
 ---
 # SMBC模型验证面经

@@ -2,7 +2,7 @@
 title: 贝塞斯达
 description: 贝塞斯达初级系统设计师
 createdDate: 2025-10-22
-lastUpdated: 2025-10-22
+lastUpdated: 2026-10-09
 sourceType: unknown
 ---
 # 贝塞斯达面试经验 - Systems Designer at Bethesda Game Studios

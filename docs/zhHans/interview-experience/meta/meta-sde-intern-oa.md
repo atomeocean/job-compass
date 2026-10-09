@@ -2,7 +2,7 @@
 title: Meta SDE 25 Intern OA面经
 description: Meta SDE 25 Intern
 createdDate: 2025-09-26
-lastUpdated: 2025-10-22
+lastUpdated: 2026-10-09
 sourceType: unknown
 ---
 # Meta SDE 25 Intern OA面经

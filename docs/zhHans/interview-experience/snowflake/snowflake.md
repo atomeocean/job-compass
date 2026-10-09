@@ -2,7 +2,7 @@
 title: Snowflake
 description: Snowflake 软件工程师面试经验 - Round 1
 createdDate: 2025-10-22
-lastUpdated: 2025-10-23
+lastUpdated: 2026-10-09
 ---
 # 美国Snowflake公司软件工程师面试经验
 

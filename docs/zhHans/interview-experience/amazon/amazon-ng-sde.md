@@ -2,7 +2,7 @@
 title: New Grad SDE
 description: Amazon NG面试经验
 createdDate: 2025-11-21
-lastUpdated: 2026-01-20
+lastUpdated: 2026-10-09
 outline: deep
 sourceType: unknown
 ---

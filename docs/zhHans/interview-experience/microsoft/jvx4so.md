@@ -2,7 +2,7 @@
 title: Microsoft Onsite
 description: Microsoft SDE NG 面经
 createdDate: 2026-05-28
-lastUpdated: 2026-06-01
+lastUpdated: 2026-10-09
 outline: deep
 sourceType: unknown
 ---

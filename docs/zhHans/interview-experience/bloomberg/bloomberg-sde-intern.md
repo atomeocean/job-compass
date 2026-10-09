@@ -1,6 +1,6 @@
 ---
 createdDate: 2025-11-21
-lastUpdated: 2025-12-01
+lastUpdated: 2026-10-09
 sourceType: unknown
 ---
 # Bloomberg SDE New Grad 2026 面试挂经（第一人称 · 全流程）

@@ -2,7 +2,7 @@
 title: doordash电面
 outline: deep
 createdDate: 2025-10-20
-lastUpdated: 2025-10-21
+lastUpdated: 2026-10-09
 sourceType: unknown
 ---
 # DoorDash 电面面经
