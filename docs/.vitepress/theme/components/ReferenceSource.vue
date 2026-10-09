@@ -1,14 +1,17 @@
-<!--在文章中显示内容引用来源-->
+<!--在文章中显示内容引用来源；original 模式下显示原创声明-->
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import { ElCard, ElButton, ElTag } from 'element-plus'
 import { Link as ElIconLink } from '@element-plus/icons-vue'
+import type { ReferenceSourceItem } from '@ao-types/referenceSourceTypes'
 
-const props = defineProps({
-  sources: {
-    type: Array,
-    required: true
-  }
+withDefaults(defineProps<{
+  sources?: ReferenceSourceItem[]
+  original?: boolean
+  author?: string
+}>(), {
+  sources: () => [],
+  original: false,
+  author: ''
 })
 
 const openLink = (url: string): void => {
@@ -19,7 +22,16 @@ const openLink = (url: string): void => {
 </script>
 
 <template>
-  <div class="reference-container">
+  <div v-if="original" class="reference-container">
+    <h2>原创声明</h2>
+
+    <el-card class="reference-card">
+      <p>本文为作者亲身面试经历的原创分享，首发于 Job Compass。如需转载，请注明出处并附上本页链接。</p>
+      <p v-if="author"><strong>作者：</strong>{{ author }}</p>
+    </el-card>
+  </div>
+
+  <div v-else class="reference-container">
     <h2>引用来源</h2>
 
     <el-card v-for="(source, index) in sources" :key="index" class="reference-card">

@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-09-10
+lastUpdated: 2026-10-09
 ---
 # CLAUDE.md — VitePress theme
 
@@ -40,12 +40,12 @@ Global registration happens in [index.ts](index.ts) via `app.component(...)` ins
 `enhanceApp`. Markdown pages can only use globally registered components, so any component
 meant for content **must** be added there.
 
-Three components are wired through layout slots instead, and are not globally registered:
+Four components are wired through layout slots instead, and are not globally registered:
 
 | Slot | Component |
 |---|---|
 | `doc-before` | `ContributorWrapper` |
-| `doc-footer-before` | `RelatedArticles` |
+| `doc-footer-before` | `OriginalStatement`, then `RelatedArticles` |
 | `doc-after` | `Giscus` |
 
 `<DocTitleMeta />` is not written by hand either — a custom markdown-it plugin in

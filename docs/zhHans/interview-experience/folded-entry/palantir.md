@@ -2,10 +2,12 @@
 title: Palantir
 description: Palantir 软件工程师（New Grad）面试经验
 createdDate: 2025-10-22
-lastUpdated: 2025-12-31
+lastUpdated: 2026-10-09
 outline: deep
 ---
 # 美国Palantir公司软件工程师面试经验
+
+<InterviewDetail />
 
 > [!CAUTION] 折叠原因
 > 某书广告号发布的低质量面经，已被折叠以维护文档质量。
@@ -73,5 +75,13 @@ outline: deep
     - 面试准备不应只专注于LeetCode，更需要深入理解公司的使命和真实的客户挑战。
     - 对于New Grad而言，展现处理混乱现实数据的能力和系统设计思维同样拥有机会。
 
-## 原文链接
-- 本文经验总结自小红书用户分享的面试经历。[点击查看原文](https://www.xiaohongshu.com/explore/68ac4a72000000001d005e10?xsec_token=ABL-OyFpST4vvRxxvqDYJyKURvmB3QpcOhbwbswTUHyp8=&xsec_source=pc_search&source=web_search_result_notes)。
+<ReferenceSource
+:sources="[
+{
+title: '小红书用户分享的面试经历',
+link: 'https://www.xiaohongshu.com/explore/68ac4a72000000001d005e10?xsec_token=ABL-OyFpST4vvRxxvqDYJyKURvmB3QpcOhbwbswTUHyp8=&xsec_source=pc_search&source=web_search_result_notes',
+site: '小红书',
+category: '海外面经'
+}
+]"
+/>

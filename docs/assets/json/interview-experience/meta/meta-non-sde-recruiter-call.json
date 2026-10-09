@@ -1,0 +1,26 @@
+{
+  "company": "meta",
+  "sourceType": "repost",
+  "position": {
+    "jobPostUrl": null,
+    "title": "",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null }
+    ]
+  }
+}

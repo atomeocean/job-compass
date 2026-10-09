@@ -1,8 +1,10 @@
 ---
 createdDate: 2025-11-21
-lastUpdated: 2026-01-06
+lastUpdated: 2026-10-09
 ---
 # StubHub 面试经验（Senior / Staff SDE）
+
+<InterviewDetail />
 
 > HR 在 LinkedIn 上 reach out，定位 Senior/Staff 级别 SDE，最后挂了，记录一下流程和感受，也给之后面 StubHub 的人踩踩坑。
 

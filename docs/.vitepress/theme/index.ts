@@ -33,6 +33,7 @@ import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css';
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import RelatedArticles from "@ao-components/RelatedArticles.vue";
+import OriginalStatement from "@ao-components/OriginalStatement.vue";
 
 export default {
   ...DefaultTheme,
@@ -80,7 +81,7 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       'doc-before': () => h(ContributorWrapper),
-      'doc-footer-before': () => h(RelatedArticles),
+      'doc-footer-before': () => [h(OriginalStatement), h(RelatedArticles)],
       'doc-after': () => h(Giscus)
     })
   },

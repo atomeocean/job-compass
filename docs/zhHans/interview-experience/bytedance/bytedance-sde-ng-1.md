@@ -2,9 +2,11 @@
 title: 字节跳动北美后端一面
 description: 电商开发岗面试经验
 createdDate: 2025-08-27
-lastUpdated: 2025-10-21
+lastUpdated: 2026-10-09
 ---
 # 字节跳动北美后端一面
+
+<InterviewDetail />
 1. 面试时间 2025年8月26日
 2. 岗位类别 应届后端开发
 3. 学历 CS研究生

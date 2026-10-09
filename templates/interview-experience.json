@@ -1,5 +1,6 @@
 {
   "company": "url",
+  "sourceType": "repost",
   "position": {
     "jobPostUrl": "string",
     "title": "string",
