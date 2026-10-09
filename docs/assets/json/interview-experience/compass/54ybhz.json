@@ -1,29 +1,28 @@
 {
   "company": "compass",
-  "position": { 
-    "jobPostUrl": null, 
+  "position": {
+    "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "mid-level", 
+    "level": "mid-level",
     "jobType": "full-time"
   },
-  "applicationSource": { 
+  "applicationSource": {
     "channel": "direct-apply",
-    "referralDetails": "" 
+    "referralDetails": ""
   },
-  "candidate": { 
-    "education": "Master's in Computer Science",
-    "background": "", 
-    "yearsOfExperience": 4 
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 4
   },
   "interview": {
-    "date": "2026-09-04", 
-    "result": "accepted", 
-    "rounds": [ 
+    "date": "2026-09-04",
+    "result": "pass",
+    "rounds": [
       {
-        "roundType": "technical",
+        "roundType": "phone-screen",
         "rate": 3
       }
-
     ]
   }
 }
