@@ -13,6 +13,8 @@ import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
 import {alias} from "./alias.ts";
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
@@ -46,6 +48,22 @@ const vitePressSidebarOptions = [
   })
 ];
 
+
+/**
+ * 推断面经页面的来源类型，供 InterviewDetail 标签和 OriginalStatement 卡片使用：
+ * frontmatter 手写的 sourceType 优先（如 unknown）；否则文中有 <ReferenceSource> 即为转载，没有即为原创
+ * @param filePath - 相对 srcDir 的源文件路径，如 "zhHans/interview-experience/google/12ab56.md"
+ */
+const inferInterviewSourceType = (
+  filePath: string,
+  source: string,
+  frontmatter: Record<string, any>
+): string | undefined => {
+  if (!/^zhHans\/interview-experience\/.+\.md$/.test(filePath)) return undefined
+  if (/\/(index|overview)\.md$/.test(filePath)) return undefined
+  if (frontmatter.sourceType) return frontmatter.sourceType
+  return source.includes('<ReferenceSource') ? 'repost' : 'original'
+}
 
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig = {
@@ -172,7 +190,13 @@ const vitePressConfig: UserConfig = {
       })
     }
   },
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
+  transformPageData(pageData, { siteConfig }) {
+    if (!pageData.filePath.startsWith('zhHans/interview-experience/')) return
+    const source = readFileSync(join(siteConfig.srcDir, pageData.filePath), 'utf-8')
+    const sourceType = inferInterviewSourceType(pageData.filePath, source, pageData.frontmatter)
+    if (sourceType) pageData.frontmatter.sourceType = sourceType
+  }
 };
 
 export default defineConfig(

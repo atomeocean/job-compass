@@ -4,6 +4,7 @@ description: Microsoft SDE NG 面经
 createdDate: 2026-05-28
 lastUpdated: 2026-06-01
 outline: deep
+sourceType: unknown
 ---
 # Microsoft线下面试经验
 

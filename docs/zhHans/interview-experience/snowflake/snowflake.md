@@ -67,5 +67,13 @@ lastUpdated: 2025-10-23
     3.  **沟通与澄清**：面对开放性问题，主动、精准的提问能力至关重要。
     4.  **知识迁移**：具备将现实问题抽象并转化为已知算法模型的能力是一项核心优势。
 
-## 原文链接
-- 本文经验总结自小红书用户分享的面试经历，[点击查看原文](https://www.xiaohongshu.com/explore/67eb0a78000000001c01257f?xsec_token=ABgOGgez9YWnsd5chv6psiGk7DLUtpjztggJM6bsNFFSw=&xsec_source=pc_search&source=web_search_result_notes)。
+<ReferenceSource
+:sources="[
+{
+title: '小红书用户分享的面试经历',
+link: 'https://www.xiaohongshu.com/explore/67eb0a78000000001c01257f?xsec_token=ABgOGgez9YWnsd5chv6psiGk7DLUtpjztggJM6bsNFFSw=&xsec_source=pc_search&source=web_search_result_notes',
+site: '小红书',
+category: '海外面经'
+}
+]"
+/>

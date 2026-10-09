@@ -3,7 +3,7 @@ import { ref, onMounted, watch, computed } from 'vue'
 import { useData } from 'vitepress'
 import { getInterviewData, type InterviewData, type InterviewRound } from '../utils/interviewData'
 
-const { page } = useData()
+const { page, frontmatter } = useData()
 const info = ref<InterviewData | null>(null)
 const loading = ref(true)
 
@@ -56,6 +56,18 @@ const resultTagType = computed(() => {
     }
 })
 
+/** 来源标签：sourceType 由 config.ts 的 transformPageData 按文中是否有 <ReferenceSource> 推断 */
+const sourceTag = computed(() => {
+    switch (frontmatter.value.sourceType) {
+        case 'original':
+            return { label: '原创分享', type: 'primary' as const }
+        case 'repost':
+            return { label: '转载', type: 'info' as const }
+        default:
+            return null
+    }
+})
+
 /** 首字母大写；OA / HM / VO1 这类缩写保持全大写 */
 const ROUND_TYPE_ACRONYMS = new Set(['oa', 'hm', 'vo', 'vo1', 'vo2'])
 
@@ -96,9 +108,14 @@ const rounds = computed<InterviewRound[]>(() => {
   <div v-if="info" class="interview-detail-container">
     <div class="header-row">
       <span class="company-title">{{ info.company }} - {{ info.position?.title }}</span>
-      <el-tag :type="resultTagType" effect="dark" size="small" class="result-tag">
-        {{ info.interview?.result?.toUpperCase() }}
-      </el-tag>
+      <el-space :size="8">
+        <el-tag v-if="sourceTag" :type="sourceTag.type" effect="plain" size="small">
+          {{ sourceTag.label }}
+        </el-tag>
+        <el-tag :type="resultTagType" effect="dark" size="small" class="result-tag">
+          {{ info.interview?.result?.toUpperCase() }}
+        </el-tag>
+      </el-space>
     </div>
     
     <el-descriptions :column="2" border size="small">

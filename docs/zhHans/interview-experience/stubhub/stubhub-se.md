@@ -1,6 +1,7 @@
 ---
 createdDate: 2025-11-21
 lastUpdated: 2026-01-06
+sourceType: unknown
 ---
 # StubHub 面试经验（Senior / Staff SDE）
 

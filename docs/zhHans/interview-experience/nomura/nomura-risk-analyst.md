@@ -3,6 +3,7 @@ title: Nomura风险分析面经
 description: 
 createdDate: 2025-09-15
 lastUpdated: 2025-12-04
+sourceType: unknown
 ---
 # Nomura风险分析一面面经
 1. 面试时间 2025年9月11日

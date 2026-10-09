@@ -40,6 +40,24 @@ Consequences:
 Older articles (about a quarter of them) predate the component and have no JSON. That is
 acceptable for existing files, but **every new page ships both files**.
 
+## Source attribution
+
+Whether a page is a 转载 (repost) or a 原创分享 (author's own experience) is **inferred**, not
+declared: `transformPageData` in [config.ts](../../.vitepress/config.ts) sets
+`frontmatter.sourceType` to `repost` when the file contains `<ReferenceSource`, and to
+`original` when it doesn't. `InterviewDetail` turns that into a tag next to the result, and
+`original` pages get a 原创声明 card appended automatically through the `doc-footer-before` slot
+([OriginalStatement.vue](../../.vitepress/theme/components/OriginalStatement.vue)).
+
+- **Repost** — end the page with `<ReferenceSource :sources="[...]" />`, as the 面经 skills
+  already do. A repost without it gets labelled 原创分享.
+- **Original** — write nothing. Do **not** hand-write `<ReferenceSource original />`; the slot
+  already renders it and the card would appear twice. When a maintainer submits on the
+  author's behalf, `originalAuthor: <name>` in frontmatter adds a 作者 line to the card.
+- **Unconfirmed** — `sourceType: unknown` in frontmatter suppresses both the tag and the card.
+  Older pages whose origin nobody can confirm carry it; never remove it to make a page look
+  original.
+
 ## Slugs
 
 Short opaque slugs are the norm for community-submitted 面经 (`amz445`, `b1t3iq`, `021201`);
