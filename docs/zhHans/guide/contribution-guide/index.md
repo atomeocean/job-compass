@@ -2,7 +2,7 @@
 title: 贡献指南
 description: 如何参与贡献 Job Compass 项目，包括内容提交、代码修改、问题反馈等完整流程
 createdDate: 2026-05-28
-lastUpdated: 2026-05-28
+lastUpdated: 2026-10-09
 outline: deep
 authors:
   - Mark

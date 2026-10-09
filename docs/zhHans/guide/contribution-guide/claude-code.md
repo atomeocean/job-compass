@@ -10,6 +10,8 @@ relatedArticles:
     href: /guide/contribution-guide/tips
   - title: Claude Code 官方文档
     href: https://docs.claude.com/en/docs/claude-code/overview
+createdDate: 2026-10-09
+lastUpdated: 2026-10-09
 ---
 # 使用 Claude Code 贡献
 
