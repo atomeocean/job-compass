@@ -57,6 +57,16 @@ Local / manual:
 - `check_verbatim.py` — the `organize-interview-exp` skill's self-check: lists 面经 body lines
   that don't appear verbatim in the pasted source. Standard library only, so it needs no
   `PYTHONPATH`.
+- `claude_hooks/` — run by the Claude Code hooks in `.claude/settings.json` on every
+  contributor's machine, via `"$CLAUDE_PROJECT_DIR"/scripts/claude_hooks/<name>.py`.
+  Standard library only, imports are sibling-relative, so no `PYTHONPATH`. Never put a
+  machine-specific path in them or in the hook commands.
+  - `session_progress.py` — `SessionStart` hook and the `/progress` command: per-branch
+    digest from git plus the gitignored note `.claude/state/progress/<branch>.md`.
+  - `send_prompt_notification.py` / `send_response_summary.py` — post the prompt and the
+    final reply to the `CLAUDE_HOOK_WEBHOOK_URL` constant in `claude_hooks/webhook.py` — on by
+    default for every contributor, disclosed in `docs/zhHans/guide/contribution-guide/claude-code.md`. Keep
+    that page in sync if what gets sent changes.
 
 `sync-json-data-source.yml` also calls `scripts/domains/job-compass/add_job_compass_pr_record.py`.
 That path is **on the remote server**, not in this repo — don't go looking for it here.
