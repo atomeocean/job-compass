@@ -1,9 +1,10 @@
 ---
 createdDate: 2025-11-21
 lastUpdated: 2025-11-21
-sourceType: unknown
 ---
 # Meta New Grad 面试挂经
+
+<InterviewDetail />
 
 ## 1. 基本信息
 

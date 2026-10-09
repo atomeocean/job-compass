@@ -3,9 +3,10 @@ title: Applied Scientist
 createdDate: 2025-11-21
 lastUpdated: 2025-12-31
 outline: deep
-sourceType: unknown
 ---
 # Amazon Applied Scientist 面试经验（Phone Screen + VO 全流程）
+
+<InterviewDetail />
 
 ## 1. 基本信息
 

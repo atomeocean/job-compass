@@ -2,14 +2,19 @@
 // Given strict instructions, I'll put types here or use 'any' if types/ doesn't exist suitable.
 // I saw 'types' dir in theme, but better to keep it simple.
 
-/** 单轮面试记录，rate 表示该轮的难度（1-5） */
+/** 单轮面试记录，rate 表示该轮的难度（1-5），原文未提及难度时为 null */
 export interface InterviewRound {
     roundType: string;
-    rate: number;
+    rate: number | null;
 }
+
+/** 面经来源：作者原创分享 / 转载自网络 / 来源未确认 */
+export type InterviewSourceType = 'original' | 'repost' | 'unknown';
 
 export interface InterviewData {
     company: string;
+    /** 唯一来源；构建时由 config.ts 的 transformPageData 读出并写入页面 frontmatter */
+    sourceType?: InterviewSourceType;
     position: {
         title: string;
         level: string;
@@ -23,7 +28,7 @@ export interface InterviewData {
     candidate?: {
         education: string;
         background: string;
-        yearsOfExperience: number;
+        yearsOfExperience: number | null;
     };
     interview: {
         date: string;

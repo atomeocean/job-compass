@@ -6,6 +6,8 @@ outline: deep
 ---
 # Meta Recruiter 电面挂经
 
+<InterviewDetail />
+
 ## 面试经历
 非码农岗，Meta自家recruiter，电话30分钟聊了岗位细节，问了工作中匹配JD的一些经历，结束的时候说会发给Manager。
 

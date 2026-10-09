@@ -1,0 +1,26 @@
+{
+  "company": "tiktok",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE Intern",
+    "level": "intern",
+    "jobType": "internship"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "CS研究生",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2025-04-21",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "technical", "rate": null }
+    ]
+  }
+}

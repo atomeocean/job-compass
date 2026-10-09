@@ -6,7 +6,7 @@ import ReferenceSource from '@ao-components/ReferenceSource.vue'
 
 const { page, frontmatter } = useData()
 
-// sourceType 由 config.ts 的 transformPageData 推断：文中没有 <ReferenceSource> 的面经即为 original
+// sourceType 来自面经 JSON，由 config.ts 的 transformPageData 在构建时写入 frontmatter
 const isOriginal = computed(() => frontmatter.value.sourceType === 'original')
 </script>
 

@@ -1,5 +1,6 @@
 {
   "company": "amazon",
+  "sourceType": "unknown",
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",

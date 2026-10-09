@@ -165,6 +165,7 @@ predate that table, so take their shape, not their values.
 ```json
 {
   "company": "<company dir name>",
+  "sourceType": "repost",
   "position": { "jobPostUrl": null, "title": "<Role>", "level": "<l5 / new-grad / \"\">", "jobType": "full-time" },
   "applicationSource": { "channel": "<vocabulary value>", "referralDetails": "<e.g. 内推 / \"\">" },
   "candidate": { "education": "<bachelor / master / phd / \"\">", "background": "<e.g. 在职跳槽 / \"\">", "yearsOfExperience": null },
@@ -177,8 +178,9 @@ predate that table, so take their shape, not their values.
 ```
 
 - `rounds`: one entry per interview stage (OA, phone screen, onsite loop).
+- `sourceType` is always `repost` here — the page cites the post with `<ReferenceSource>`.
 - `rate` is difficulty 1–5 from the author's own words (「中等」→ 3, 「不算高」→ 2). When the
-  author gives none, use `0` and say so in the report.
+  author gives none, use `null` and say so in the report.
 - Unstated fields: `""` for strings, `null` for `jobPostUrl` and `yearsOfExperience`.
 - `interview.date` is the interview date; the post date belongs in `<ReferenceSource>`.
 

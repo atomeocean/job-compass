@@ -2,9 +2,10 @@
 title: Tiktok SDE 25 Summer Intern面经
 createdDate: 2025-09-26
 lastUpdated: 2025-10-22
-sourceType: unknown
 ---
 # 字节跳动数据平台开发一面
+
+<InterviewDetail />
 1. 面试时间 2025年3月14日
 2. 岗位类别 后端开发实习-支付业务
 3. 学历 CS研究生

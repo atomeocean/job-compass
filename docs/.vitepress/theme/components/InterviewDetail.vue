@@ -56,7 +56,13 @@ const resultTagType = computed(() => {
     }
 })
 
-/** 来源标签：sourceType 由 config.ts 的 transformPageData 按文中是否有 <ReferenceSource> 推断 */
+/** 结果为空或 unknown 时不显示结果标签 */
+const showResultTag = computed(() => {
+    const result = (info.value?.interview?.result ?? '').trim().toLowerCase()
+    return result !== '' && result !== 'unknown'
+})
+
+/** 来源标签：sourceType 来自面经 JSON，由 config.ts 的 transformPageData 在构建时写入 frontmatter */
 const sourceTag = computed(() => {
     switch (frontmatter.value.sourceType) {
         case 'original':
@@ -97,7 +103,7 @@ const rounds = computed<InterviewRound[]>(() => {
     }
 
     if (interview.roundType || interview.rate != null) {
-        return [{ roundType: interview.roundType ?? '', rate: interview.rate ?? 0 }]
+        return [{ roundType: interview.roundType ?? '', rate: interview.rate ?? null }]
     }
 
     return []
@@ -107,21 +113,24 @@ const rounds = computed<InterviewRound[]>(() => {
 <template>
   <div v-if="info" class="interview-detail-container">
     <div class="header-row">
-      <span class="company-title">{{ info.company }} - {{ info.position?.title }}</span>
+      <span class="company-title">
+        {{ info.company }}<template v-if="info.position?.title"> - {{ info.position.title }}</template>
+      </span>
       <el-space :size="8">
         <el-tag v-if="sourceTag" :type="sourceTag.type" effect="plain" size="small">
           {{ sourceTag.label }}
         </el-tag>
-        <el-tag :type="resultTagType" effect="dark" size="small" class="result-tag">
+        <el-tag v-if="showResultTag" :type="resultTagType" effect="dark" size="small" class="result-tag">
           {{ info.interview?.result?.toUpperCase() }}
         </el-tag>
       </el-space>
     </div>
     
     <el-descriptions :column="2" border size="small">
-      <el-descriptions-item label="Level">{{ info.position?.level }}</el-descriptions-item>
-      <el-descriptions-item label="Job Type">{{ info.position?.jobType }}</el-descriptions-item>
-      <el-descriptions-item label="Date">{{ info.interview?.date }}</el-descriptions-item>
+      <!-- 早期面经补写的 JSON 常有空字段，空值不占格子 -->
+      <el-descriptions-item label="Level" v-if="info.position?.level">{{ info.position?.level }}</el-descriptions-item>
+      <el-descriptions-item label="Job Type" v-if="info.position?.jobType">{{ info.position?.jobType }}</el-descriptions-item>
+      <el-descriptions-item label="Date" v-if="info.interview?.date">{{ info.interview?.date }}</el-descriptions-item>
       <el-descriptions-item label="Education" v-if="info.candidate?.education">
         {{ info.candidate?.education }}
       </el-descriptions-item>
@@ -136,12 +145,14 @@ const rounds = computed<InterviewRound[]>(() => {
           :span="2"
       >
           <el-rate
-              :model-value="round.rate ?? 0"
+              v-if="round.rate != null"
+              :model-value="round.rate"
               disabled
               show-score
               text-color="#ff9900"
               score-template="{value}"
           />
+          <el-text v-else type="info" size="small">未提及难度</el-text>
       </el-descriptions-item>
     </el-descriptions>
   </div>

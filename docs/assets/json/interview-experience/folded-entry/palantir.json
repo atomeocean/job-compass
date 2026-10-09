@@ -1,14 +1,15 @@
 {
-  "company": "amazon",
+  "company": "palantir",
+  "sourceType": "repost",
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
     "level": "new-grad",
-    "jobType": "string"
+    "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "string",
-    "referralDetails": "string"
+    "channel": "",
+    "referralDetails": ""
   },
   "candidate": {
     "education": "",
@@ -17,12 +18,9 @@
   },
   "interview": {
     "date": "",
-    "result": "",
+    "result": "pass",
     "rounds": [
-      {
-        "roundType": "onsite",
-        "rate": 3
-      }
+      { "roundType": "system-design", "rate": null }
     ]
   }
 }

@@ -3,9 +3,10 @@ title: SMBC模型验证面经
 description: 
 createdDate: 2025-09-15
 lastUpdated: 2025-10-22
-sourceType: unknown
 ---
 # SMBC模型验证面经
+
+<InterviewDetail />
 1. 面试时间 2025年9月12日
 2. 岗位类别 模型风险分析
 3. 学历 金融硕士

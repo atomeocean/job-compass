@@ -1,0 +1,28 @@
+{
+  "company": "icbc",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Model Risk",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "同学内推"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "金融硕士，有一段风控相关全职经历（非银行金融）",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2025-02-03",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
+      { "roundType": "behavioral", "rate": null },
+      { "roundType": "technical", "rate": null }
+    ]
+  }
+}

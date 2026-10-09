@@ -1,0 +1,26 @@
+{
+  "company": "rednote",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "市场经理",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "hiring-manager", "rate": null }
+    ]
+  }
+}

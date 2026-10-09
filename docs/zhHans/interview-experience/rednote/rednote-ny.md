@@ -3,9 +3,10 @@ title: 小红书北美
 description: 小红书纽约招产品经理面经
 createdDate: 2025-08-05
 lastUpdated: 2025-09-03
-sourceType: unknown
 ---
 # 小红书北美面经
+
+<InterviewDetail />
 
 岗位：市场经理 
 

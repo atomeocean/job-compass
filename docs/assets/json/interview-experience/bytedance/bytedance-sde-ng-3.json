@@ -1,0 +1,26 @@
+{
+  "company": "bytedance",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "后端开发-自动化测试",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "CS 研究生，有后端数据服务开发工作经历",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2025-10-17",
+    "result": "pending",
+    "rounds": [
+      { "roundType": "technical", "rate": null }
+    ]
+  }
+}

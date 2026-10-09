@@ -3,9 +3,10 @@ title: 贝塞斯达
 description: 贝塞斯达初级系统设计师
 createdDate: 2025-10-22
 lastUpdated: 2025-10-22
-sourceType: unknown
 ---
 # 贝塞斯达面试经验 - Systems Designer at Bethesda Game Studios
+
+<InterviewDetail />
 
 ## 基本要求
 - **面试国家**：美国

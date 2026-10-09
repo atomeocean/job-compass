@@ -3,9 +3,10 @@ title: 字节跳动开发一面
 description: 自动化测试后端开发面试经验
 createdDate: 2025-10-17
 lastUpdated: 2025-10-22
-sourceType: unknown
 ---
 # 字节跳动自动化测试后端开发一面
+
+<InterviewDetail />
 1. 面试时间 2025年10月17日
 2. 岗位类别 应届后端开发-自动化测试
 3. 学历 CS研究生

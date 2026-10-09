@@ -71,6 +71,7 @@ anonymize the original author, objective tone, no attacks on interviewers.
    ```json
    {
      "company": "<Company>",
+     "sourceType": "repost",
      "position": {
        "jobPostUrl": null,
        "title": "<Role>",
@@ -96,7 +97,8 @@ anonymize the original author, objective tone, no attacks on interviewers.
    }
    ```
    Use `""` / `null` / `"na"` for unknowns — never guess. One `rounds` entry per
-   round the source describes.
+   round the source describes. `sourceType` is always `repost` for a page built from a web
+   source (it ends with `<ReferenceSource>`).
 
 6. **Write the markdown** `docs/zhHans/interview-experience/<company>/<slug>.md`,
    following `docs/zhHans/interview-experience/openai/y2ti8x.md`:

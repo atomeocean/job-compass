@@ -7,6 +7,8 @@ outline: deep
 ---
 # 美国Palantir公司软件工程师面试经验
 
+<InterviewDetail />
+
 > [!CAUTION] 折叠原因
 > 某书广告号发布的低质量面经，已被折叠以维护文档质量。
 > 下方原文链接已无法打开。
