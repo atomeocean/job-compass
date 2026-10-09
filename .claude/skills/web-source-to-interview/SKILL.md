@@ -1,8 +1,8 @@
 ---
 name: web-source-to-interview
 description: Turn a shared interview experience (面经) from a web link (RedNote/小红书, 一亩三分地, forum thread) or pasted text into an interview-experience page pair — the markdown under docs/zhHans/interview-experience/<company>/ plus its matching JSON under docs/assets/json/interview-experience/<company>/. Use when the user gives a 面经/interview writeup and asks to add it to the site. For non-interview sources use web-source-to-article instead.
+lastUpdated: 2026-10-09
 ---
-
 # Create an interview-experience (面经) page from a web source
 
 Produce a **file pair** for one interview experience:
