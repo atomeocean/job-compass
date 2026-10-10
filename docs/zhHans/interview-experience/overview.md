@@ -1,8 +1,9 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-10-09
+lastUpdated: 2026-10-10
 ---
+
 <script setup>
 const overviewItems = [
   {
@@ -58,6 +59,13 @@ const overviewItems = [
     "title": "Coinbase",
     "description": "Coinbase 面试经验分享",
     "href": "./coinbase/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Compass",
+    "description": "Compass 面试经验分享",
+    "href": "./compass/index.md",
     "order": 0,
     "kind": "folder"
   },
