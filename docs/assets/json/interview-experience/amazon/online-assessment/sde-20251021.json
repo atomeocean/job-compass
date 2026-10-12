@@ -1,0 +1,26 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "oa", "rate": null }
+    ]
+  }
+}

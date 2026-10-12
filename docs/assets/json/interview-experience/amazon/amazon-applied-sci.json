@@ -1,0 +1,32 @@
+{
+  "company": "amazon",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Applied Scientist",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "other",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "phd",
+    "background": "博士，应届毕业生",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": null },
+      { "roundType": "technical", "rate": null },
+      { "roundType": "technical", "rate": 4 },
+      { "roundType": "technical", "rate": null },
+      { "roundType": "technical", "rate": null },
+      { "roundType": "technical", "rate": null },
+      { "roundType": "technical", "rate": null }
+    ]
+  }
+}

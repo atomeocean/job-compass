@@ -1,0 +1,29 @@
+{
+  "company": "meta",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "New Grad Software Engineer",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "应届，提前投递",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
+      { "roundType": "coding", "rate": null },
+      { "roundType": "coding", "rate": null },
+      { "roundType": "behavioral", "rate": null }
+    ]
+  }
+}

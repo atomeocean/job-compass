@@ -1,0 +1,26 @@
+{
+  "company": "nomura",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "风险分析",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "金融硕士",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2025-09-11",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "onsite", "rate": null }
+    ]
+  }
+}
