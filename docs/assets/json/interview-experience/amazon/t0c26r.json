@@ -1,5 +1,6 @@
 {
   "company": "amazon",
+  "sourceType": "repost",
   "position": {
     "jobPostUrl": null,
     "title": "SDE",

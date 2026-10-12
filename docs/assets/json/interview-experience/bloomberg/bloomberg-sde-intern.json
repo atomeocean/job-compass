@@ -1,0 +1,30 @@
+{
+  "company": "bloomberg",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE New Grad 2026",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "",
+    "background": "新毕业生",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "technical", "rate": 4 },
+      { "roundType": "coding", "rate": null },
+      { "roundType": "coding", "rate": null },
+      { "roundType": "hiring-manager", "rate": null },
+      { "roundType": "behavioral", "rate": null }
+    ]
+  }
+}

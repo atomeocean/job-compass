@@ -13,6 +13,8 @@ import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
 import {alias} from "./alias.ts";
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
@@ -46,6 +48,32 @@ const vitePressSidebarOptions = [
   })
 ];
 
+
+const INTERVIEW_SOURCE_TYPES = ['original', 'repost', 'unknown']
+
+/**
+ * 读取面经页面的来源类型，供 InterviewDetail 标签和 OriginalStatement 卡片使用。
+ * 面经 JSON 的 sourceType 是唯一来源；JSON 缺失、字段缺失或取值不合法都按 unknown 处理（不显示标签和声明）
+ * @param filePath - 相对 srcDir 的源文件路径，如 "zhHans/interview-experience/google/12ab56.md"
+ * @returns 非面经文章页返回 undefined
+ */
+const readInterviewSourceType = (srcDir: string, filePath: string): string | undefined => {
+  const match = filePath.match(/^zhHans\/interview-experience\/(.+)\.md$/)
+  if (!match || /(^|\/)(index|overview)$/.test(match[1])) return undefined
+
+  const jsonPath = join(srcDir, 'assets/json/interview-experience', `${match[1]}.json`)
+  if (!existsSync(jsonPath)) {
+    console.warn(`[sourceType] ${filePath} 缺少对应的面经 JSON：${jsonPath}`)
+    return 'unknown'
+  }
+  try {
+    const { sourceType } = JSON.parse(readFileSync(jsonPath, 'utf-8'))
+    return INTERVIEW_SOURCE_TYPES.includes(sourceType) ? sourceType : 'unknown'
+  } catch (error) {
+    console.warn(`[sourceType] 无法解析 ${jsonPath}：${error}`)
+    return 'unknown'
+  }
+}
 
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig = {
@@ -172,7 +200,22 @@ const vitePressConfig: UserConfig = {
       })
     }
   },
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
+  transformPageData(pageData, { siteConfig }) {
+    const sourceType = readInterviewSourceType(siteConfig.srcDir, pageData.filePath)
+    if (!sourceType) return
+    // 只是把 JSON 的值带进页面数据，方便组件在 SSR 时读取；md frontmatter 里手写的 sourceType 会被覆盖
+    pageData.frontmatter.sourceType = sourceType
+
+    const hasReferenceSource = readFileSync(join(siteConfig.srcDir, pageData.filePath), 'utf-8')
+      .includes('<ReferenceSource')
+    if (sourceType === 'repost' && !hasReferenceSource) {
+      console.warn(`[sourceType] ${pageData.filePath} 标为 repost，但正文没有 <ReferenceSource>`)
+    }
+    if (sourceType === 'original' && hasReferenceSource) {
+      console.warn(`[sourceType] ${pageData.filePath} 标为 original，但正文写了 <ReferenceSource>`)
+    }
+  }
 };
 
 export default defineConfig(

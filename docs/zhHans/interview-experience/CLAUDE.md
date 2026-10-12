@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-09
 ---
 # CLAUDE.md — interview-experience
 
@@ -33,12 +33,34 @@ Consequences:
 - The **full subpath after `interview-experience/` must match**, not just the basename.
 - Renaming or moving the `.md` without moving the `.json` silently breaks the page — the
   component logs to the console and renders nothing.
-- Known-broken today: `amazon/onsite/608997.md` and `amazon/onsite/260414.md` sit one level
-  deeper than their JSON at `amazon/608997.json` / `amazon/260414.json`. Fix by moving the
-  JSON to `amazon/onsite/`, not by adding a prop.
 
-Older articles (about a quarter of them) predate the component and have no JSON. That is
-acceptable for existing files, but **every new page ships both files**.
+**Every page has its JSON** — the older articles that predated the component were backfilled
+from their Markdown, with whatever the text did not say left empty. Every new page ships both
+files, and places `<InterviewDetail />` directly under the H1.
+
+## Source attribution
+
+Whether a page is a 转载 (repost) or a 原创分享 (author's own experience) is declared by the
+JSON's `sourceType` — **the single source of truth**. `transformPageData` in
+[config.ts](../../.vitepress/config.ts) reads it at build time and copies it into the page's
+`frontmatter.sourceType` so components can use it during SSR; a `sourceType` hand-written in
+Markdown frontmatter is overwritten. `InterviewDetail` turns it into a tag next to the result,
+and `original` pages get a 原创声明 card appended through the `doc-footer-before` slot
+([OriginalStatement.vue](../../.vitepress/theme/components/OriginalStatement.vue)).
+
+| `sourceType` | Use when | Markdown must |
+|---|---|---|
+| `repost` | Content comes from another post | end with `<ReferenceSource :sources="[...]" />` |
+| `original` | Confirmed to be the submitter's own interview | **not** contain `<ReferenceSource>` — the slot already renders the 原创声明 card |
+| `unknown` | Origin can't be confirmed | either |
+
+- A missing or invalid value is treated as `unknown` (no tag, no card), so forgetting the
+  field never mislabels a repost as original. The build prints a `[sourceType]` warning when
+  `repost` lacks `<ReferenceSource>` or `original` has one.
+- Never flip `unknown` to `original` without confirmation from the author or a maintainer.
+- When a maintainer submits an original on the author's behalf, `originalAuthor: <name>` in
+  the Markdown frontmatter adds a 作者 line to the card.
+- `docs:dev` does not pick up a JSON-only edit to `sourceType`; restart the dev server.
 
 ## Slugs
 
@@ -53,6 +75,7 @@ Typed by [interviewData.ts](../../.vitepress/theme/utils/interviewData.ts).
 ```json
 {
   "company": "amazon",
+  "sourceType": "repost",
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",
@@ -72,16 +95,20 @@ Typed by [interviewData.ts](../../.vitepress/theme/utils/interviewData.ts).
 - `company` matches the directory name (lowercase kebab-case).
 - `rounds[]` is the current shape. A flat `interview.roundType` + `interview.rate` is a legacy
   form still present in a few files and tolerated by the component — do not write new ones.
-- `rate` is that round's **difficulty**, 1–5.
+- `rate` is that round's **difficulty**, 1–5, or `null` when the source doesn't say (shown as
+  未提及难度).
+- `yearsOfExperience` is `null` when unknown; empty `level` / `jobType` / `date` / `result:
+  "unknown"` are simply not shown.
 
 ### Vocabulary
 
-The existing 70 JSON files have drifted badly (mixed case, mixed languages, and literal
+The older JSON files have drifted badly (mixed case, mixed languages, and literal
 `"string"` placeholders left over from the template). **Do not copy a neighbour's values
 blindly.** Use these:
 
 | Field | Use | Seen in the wild — do not imitate |
 |---|---|---|
+| `sourceType` | `repost`, `original`, `unknown` — see **Source attribution** | missing |
 | `position.level` | `intern`, `new-grad`, `mid-level`, `senior`, or a company ladder in lowercase (`l4`, `l5`) | `L4`, `SDE2`, `Senior` |
 | `position.jobType` | `full-time`, `internship`, `contract` | `string`, `full time`, `software engineer` |
 | `applicationSource.channel` | `direct-apply`, `referral`, `recruiter`, `online-assessment`, `other` | `string`, `网上海投`, `online application` |

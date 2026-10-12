@@ -1,8 +1,8 @@
 ---
 name: web-source-to-interview
 description: Turn a shared interview experience (面经) from a web link (RedNote/小红书, 一亩三分地, forum thread) or pasted text into an interview-experience page pair — the markdown under docs/zhHans/interview-experience/<company>/ plus its matching JSON under docs/assets/json/interview-experience/<company>/. Use when the user gives a 面经/interview writeup and asks to add it to the site. For non-interview sources use web-source-to-article instead.
+lastUpdated: 2026-10-09
 ---
-
 # Create an interview-experience (面经) page from a web source
 
 Produce a **file pair** for one interview experience:
@@ -71,6 +71,7 @@ anonymize the original author, objective tone, no attacks on interviewers.
    ```json
    {
      "company": "<Company>",
+     "sourceType": "repost",
      "position": {
        "jobPostUrl": null,
        "title": "<Role>",
@@ -96,7 +97,8 @@ anonymize the original author, objective tone, no attacks on interviewers.
    }
    ```
    Use `""` / `null` / `"na"` for unknowns — never guess. One `rounds` entry per
-   round the source describes.
+   round the source describes. `sourceType` is always `repost` for a page built from a web
+   source (it ends with `<ReferenceSource>`).
 
 6. **Write the markdown** `docs/zhHans/interview-experience/<company>/<slug>.md`,
    following `docs/zhHans/interview-experience/openai/y2ti8x.md`:

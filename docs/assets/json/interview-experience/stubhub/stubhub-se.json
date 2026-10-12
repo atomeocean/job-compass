@@ -1,0 +1,27 @@
+{
+  "company": "stubhub",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Senior / Staff Software Engineer",
+    "level": "senior",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "多年后端开发经验",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
+      { "roundType": "hiring-manager", "rate": null }
+    ]
+  }
+}

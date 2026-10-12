@@ -1,0 +1,30 @@
+{
+  "company": "doordash",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": "https://careersatdoordash.com/jobs/engineering-manager-logistics-platform/7376391/",
+    "title": "Software Engineer, IC",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "1–3 年工作经验，在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "oa", "rate": 4 },
+      { "roundType": "technical", "rate": null },
+      { "roundType": "system-design", "rate": null },
+      { "roundType": "hiring-manager", "rate": null },
+      { "roundType": "recruiter-screen", "rate": null }
+    ]
+  }
+}

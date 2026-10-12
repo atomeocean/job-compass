@@ -2,10 +2,12 @@
 title: New Grad SDE
 description: Amazon NG面试经验
 createdDate: 2025-11-21
-lastUpdated: 2026-01-20
+lastUpdated: 2026-10-09
 outline: deep
 ---
 # 亚马逊 SDE new grad 挂经（第一人称版）
+
+<InterviewDetail />
 
 ## 1. 基本信息
 
