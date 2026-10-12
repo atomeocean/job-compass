@@ -1,0 +1,29 @@
+{
+  "company": "microsoft",
+  "sourceType": "repost",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "mid-level",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 3
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 0
+      }
+    ]
+  }
+}
