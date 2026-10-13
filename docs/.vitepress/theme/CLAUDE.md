@@ -18,11 +18,21 @@ theme/
   types/          shared TS interfaces and enums
   utils/          pure helpers (contributors.ts, interviewData.ts, interviewFormat.ts,
                   referenceSource.ts, util.ts)
+  constants/      aiContributors.ts, logbookAuthors.ts
   style/          brand-colors.css — Atomeocean blues (--ao-blue-*), mirrored from logbook
 ```
 
-There is **no `constants/` directory** even though the `@ao-constants` alias is defined in
-[alias.ts](../alias.ts). Create the folder if you genuinely need it; don't assume it exists.
+## Author bar (`ContributorWrapper`)
+
+The author bar merges frontmatter authors with git commit authors, then matches each one to a
+profile in `docs/_data/contributors.ts` plus [constants/aiContributors.ts](constants/aiContributors.ts).
+The plugin uses the same list as `mapAuthors` in [config.ts](../config.ts). Claude co-authors
+are merged into a single "Claude" author by the `noreply@anthropic.com` email.
+
+Author pages live on **logbook**, not here. If a contributor's GitHub username is listed in
+[constants/logbookAuthors.ts](constants/logbookAuthors.ts), their avatar and name link to
+`https://logbook.atomeocean.com/guide/author-list/<slug>`, which opens in a new tab. When logbook
+adds a new author page, add a line there. Everyone else falls back to their GitHub profile.
 
 ## Path aliases
 

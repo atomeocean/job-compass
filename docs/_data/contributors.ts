@@ -215,6 +215,13 @@ export const currentContributors: Contributor[] = [
     ],
   },
   {
+    name: 'Johnny Boy',
+    mapByEmailAliases: ['management@atomeocean.com'],
+    links: [
+      { type: 'github', icon: 'github', link: CONFIG.defaultOrgLink },
+    ],
+  },
+  {
     name: 'copilot',
     username: 'Copilot',
     links: [
