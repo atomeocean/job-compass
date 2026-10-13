@@ -6,11 +6,6 @@ outline: deep
 ---
 # Google Software Engineer 面试经验
 
-## 面试基本信息
-
-- 公司信息：[Google](https://careers.google.com)
-- 面试时间：2026年4-6月
-
 <InterviewDetail />
 
 ## 背景

@@ -9,13 +9,6 @@ createdDate: 2026-10-09
 
 <InterviewDetail />
 
-## 面试基本信息
-
-- **公司信息**：[Compass](https://www.compass.com/careers/)
-- **岗位**：Software Engineer（general backend role）
-- **面试形式**：Technical Phone Screen
-- **面试时间**：2026年Q3
-
 ## 面试过程
 
 面试的岗位是general backend role，这一轮是technical phone screen。 面试官自己随口出的题，形式和lc上的count island很像，就是1和0的2d-array里数connected 1s，主要是bfs/dfs那一套。写码过程中会主动追问code功能，熟练度不够的话容易被打断思路卡壳。后续又追问了count marina（紧邻岛屿的水面），也是一样的思路。

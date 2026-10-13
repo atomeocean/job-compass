@@ -9,15 +9,6 @@ lastUpdated: 2026-08-29
 
 <InterviewDetail />
 
-## 基本信息
-
-- **面试岗位**：Software Engineer（码农类General）
-- **学历背景**：本科
-- **工作类型**：全职
-- **投递方式**：网上海投
-- **面试流程**：OA + Onsite（Coding 两轮 + System Design + BQ）
-- **当前状态**：在职跳槽
-
 ## 面试详情
 
 ### OA：Bank System

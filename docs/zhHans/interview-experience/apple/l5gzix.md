@@ -9,13 +9,6 @@ lastUpdated: 2026-10-01
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Engineer（码农类General）
-- **面试形式**：OA（在线笔试）
-- **申请渠道**：网上海投
-- **候选人背景**：硕士，在职跳槽
-
 ## 面试详情
 
 ### Coding

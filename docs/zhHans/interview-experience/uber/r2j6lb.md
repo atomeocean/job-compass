@@ -6,11 +6,6 @@ outline: deep
 ---
 # Uber New Grad SWE 面试经验
 
-## 面试基本信息
-
-- 公司信息：Uber（官网链接未提供，待补充）
-- 面试时间：2026年5月
-
 <InterviewDetail />
 
 ## 面试过程

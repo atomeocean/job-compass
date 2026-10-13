@@ -9,15 +9,6 @@ lastUpdated: 2026-09-14
 
 <InterviewDetail />
 
-## 基本信息
-
-- **面试岗位**：Software Engineer（码农类 General，L4）
-- **学历背景**：硕士
-- **工作类型**：全职
-- **面试形式**：技术电面 + Onsite
-- **当前状态**：在职跳槽
-- **面试结果**：Pass
-
 ## 面试详情
 
 ### 面试流程

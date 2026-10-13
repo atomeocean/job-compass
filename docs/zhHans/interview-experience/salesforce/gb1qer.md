@@ -9,14 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：Onsite
-- **申请渠道**：Other
-- **候选人背景**：硕士
-- **面试结果**：Other
-
 ## 面试详情
 
 Onsite 主要是一道动态规划题。

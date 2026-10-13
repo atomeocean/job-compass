@@ -13,11 +13,11 @@
   },
   "candidate": {
     "education": "phd",
-    "background": "博士，应届毕业生",
+    "background": "应届毕业生",
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "",
+    "date": "2025",
     "result": "unknown",
     "rounds": [
       { "roundType": "phone-screen", "rate": null },

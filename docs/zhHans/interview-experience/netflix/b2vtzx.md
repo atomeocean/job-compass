@@ -9,12 +9,7 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Engineer
 - **面试形式**：HR screening chat（30分钟）
-- **申请渠道**：LinkedIn recruiter主动联系
-- **候选人背景**：硕士，在职跳槽
 - **面试结果**：Pass（进入后续60分钟coding电面）
 
 ## 面试内容

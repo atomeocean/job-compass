@@ -13,11 +13,11 @@
   },
   "candidate": {
     "education": "master",
-    "background": "",
+    "background": "在职跳槽",
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "",
+    "date": "2026-05",
     "result": "rejected",
     "rounds": [
       { "roundType": "virtual onsite", "rate": 4 },

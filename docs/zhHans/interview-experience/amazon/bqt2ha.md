@@ -9,14 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Development Engineer II（SDE2）
-- **面试形式**：Onsite
-- **申请渠道**：网上海投
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Other
-
 ## 面试详情
 
 整体是标准 Amazon Onsite 流程。

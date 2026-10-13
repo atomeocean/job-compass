@@ -9,13 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **面试日期**：近期
-- **工作类型**：全职
-- **投递方式**：网上海投
-- **面试形式**：Online Assessment
-
 ## 面试详情
 
 ### 第一题 Balanced Numbers

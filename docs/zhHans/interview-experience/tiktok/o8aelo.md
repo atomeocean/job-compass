@@ -13,13 +13,10 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-- **公司信息**：[TikTok](https://careers.tiktok.com/)
+## 面试过程
+
 - **岗位**：Machine Learning Engineer (CV/NLP/Multimodal/LLM)，New Grad
 - **地点**：San Jose 或 Bellevue，onsite
-- **面试时间**：2025年3月
-
-## 面试过程
 
 ### 投递和筛选
 网申通过后，recruiter 先发邮件做了一轮书面筛选，都是常规问题：毕业和可入职时间、现在的雇主、最早入职日期、能不能 relocate、能不能接受每周 4 到 5 天到办公室，以及工作身份和是否需要 sponsor。

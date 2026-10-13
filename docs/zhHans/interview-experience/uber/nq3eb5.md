@@ -9,15 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **面试日期**：近期
-- **岗位**：Backend Engineer
-- **岗位等级**：L4
-- **面试形式**：Phone Screen
-- **申请渠道**：内推
-- **候选人背景**：硕士
-
 ## 面试详情
 
 ### 电话面试

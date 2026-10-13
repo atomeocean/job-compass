@@ -9,11 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- 公司信息：[Robinhood](https://careers.robinhood.com/)
-- 面试时间：2026年Q2
-
 ## 面试过程
 
 Robinhood SDE 岗位第一轮technical电面，一道题目，45分钟内完成+反问。题目不是LC原题，他们家有自己题库。

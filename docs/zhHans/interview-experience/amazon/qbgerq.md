@@ -9,14 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Development Engineer
-- **面试形式**：Virtual Onsite
-- **申请渠道**：内推
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Pass
-
 ## 面试详情
 
 整体流程包含 Behavioral Questions 和 Coding 两部分。

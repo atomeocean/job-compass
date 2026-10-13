@@ -9,15 +9,6 @@ lastUpdated: 2026-07-11
 
 <InterviewDetail />
 
-## 基本信息
-
-- **面试岗位**：Software Engineer（码农类General）
-- **学历背景**：硕士
-- **工作类型**：全职
-- **投递方式**：网上海投
-- **面试形式**：Onsite
-- **当前状态**：在职跳槽
-
 ## 面试详情
 
 ### 系统设计：Design Ring Buffer

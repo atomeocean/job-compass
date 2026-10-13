@@ -6,11 +6,6 @@ outline: deep
 ---
 # Nuro TPM/PM 面试经验
 
-## 基本信息
-
-- 公司：[Nuro](https://www.nuro.ai)
-- 面试时间：2026 Q2
-
 <InterviewDetail />
 
 ## 面试详情

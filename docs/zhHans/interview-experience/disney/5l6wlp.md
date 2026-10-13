@@ -6,11 +6,6 @@ outline: deep
 ---
 # Disney AI Product Intern 面试经验
 
-## 面试基本信息
-
-- 公司信息：Disney（官方职位链接未提供）
-- 面试时间：2026年7-9月
-
 <InterviewDetail />
 
 ## 面试过程

@@ -9,14 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Development Engineer（L5）
-- **面试形式**：Phone Screen
-- **申请渠道**：内推
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Fail
-
 ## 面试详情
 
 整场面试包含三部分：

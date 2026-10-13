@@ -9,14 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：Phone Screen + Virtual Onsite
-- **申请渠道**：内推
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Pass
-
 ## 时间线
 
 ### Day 1

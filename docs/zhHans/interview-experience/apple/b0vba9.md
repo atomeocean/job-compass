@@ -9,16 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **面试日期**：近期
-- **面试岗位**：Software Engineer
-- **学历背景**：硕士
-- **工作类型**：全职
-- **投递方式**：内推
-- **面试形式**：技术电面 + Onsite
-- **当前状态**：在职跳槽
-
 ## 面试详情
 
 流程走得很快，从recruiter reach out到结果，只花了三周不到。

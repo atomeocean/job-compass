@@ -9,14 +9,6 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：技术电面
-- **申请渠道**：Other
-- **候选人背景**：硕士，应届毕业生
-- **面试结果**：Pass
-
 ## 面试详情
 
 ### 第一轮

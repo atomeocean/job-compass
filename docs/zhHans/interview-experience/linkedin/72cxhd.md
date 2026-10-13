@@ -9,15 +9,9 @@ lastUpdated: 2026-10-01
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：Onsite（VO 5轮）
-- **申请渠道**：内推
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Fail
-
 ## 面试详情
+
+- **面试形式**：Onsite（VO 5轮）
 
 VO 5轮
 

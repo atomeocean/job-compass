@@ -6,16 +6,10 @@ lastUpdated: 2026-10-09
 
 <InterviewDetail />
 
-## 1. 基本信息
+## 1. 面试流程概览
 
-- 面试国家：美国  
-- 公司：Meta  
-- 职位：New Grad Software Engineer  
-- 面试类型：2 Tech + 1 Behavioral（当天下午 back-to-back）  
-- 背景：应届、提前投递  
-- 结果：Fail（Onsite 后收到拒信）  
-
-## 2. 面试流程概览
+- 面试类型：2 Tech + 1 Behavioral（当天下午 back-to-back）
+- 结果：Fail（Onsite 后收到拒信）
 
 - Recruiter 电话约面  
 - 三轮 Onsite：Tech → Tech → Behavioral  
@@ -24,7 +18,7 @@ lastUpdated: 2026-10-09
 整体节奏非常快，follow-up 一轮接一轮。  
 Meta NG 的面试整体感觉不算难，但临场反应要求特别高。
 
-## 3. Tech 轮（第一轮）
+## 2. Tech 轮（第一轮）
 
 面试官简单寒暄结束后，让我一句话自我介绍，然后直接开始做题。
 
@@ -50,7 +44,7 @@ Meta NG 的面试整体感觉不算难，但临场反应要求特别高。
 我解释可以拆成两次 BFS，把距离拼起来。  
 整体问得挺深，但我觉得这一轮我撑住了。
 
-## 4. Tech 轮（第二轮）
+## 3. Tech 轮（第二轮）
 
 节奏和第一轮几乎一样，面试官更快、更直接。
 
@@ -76,7 +70,7 @@ Meta NG 的面试整体感觉不算难，但临场反应要求特别高。
 
 结束时我感觉时间有点紧，但没有明显错误。
 
-## 5. Behavioral（第三轮）
+## 4. Behavioral（第三轮）
 
 这一轮全是常规 BQ，没有奇怪问题。
 
@@ -91,13 +85,13 @@ Meta NG 的面试整体感觉不算难，但临场反应要求特别高。
 我用 STAR 格式把事情讲清楚了。  
 面试官态度很温和，但我不知道这轮对结果有没有加分。
 
-## 6. 最终结果
+## 5. 最终结果
 
 与 Recruiter 通话后一周左右，我收到了拒信。  
 没有任何 feedback。  
 猜测应该是 Tech 轮表现不够强，或者 follow-up 的解释不够深入。
 
-## 7. Recruiter 的关键提醒（与我面试感受一致）
+## 6. Recruiter 的关键提醒（与我面试感受一致）
 
 Recruiter 在 prep call 就说过：
 
@@ -110,7 +104,7 @@ Recruiter 在 prep call 就说过：
 
 所以我基本确定我是挂在 Tech 轮。
 
-## 8. 我的复盘
+## 7. 我的复盘
 
 ### 1. follow-up 反应不够快  
 Meta Tech 轮会疯狂追问，我有几次讲得不够精炼。
@@ -125,7 +119,7 @@ Meta 的两轮 Tech 时间都很紧。
 ### 4. BQ 不能救 coding  
 这一点 Recruiter 讲过，但到了现场我还是有点侥幸。
 
-## 9. Takeaways（经验教训）
+## 8. Takeaways（经验教训）
 
 - Tech 轮最重要的是 follow-up  
 - 每道题都要主动讲 time/space complexity  
@@ -133,7 +127,7 @@ Meta 的两轮 Tech 时间都很紧。
 - Meta 的 Tech 问题不难，但深度问得狠  
 - 第一题不能拖时间，一拖后面整个节奏乱掉  
 
-## 10. 小结
+## 9. 小结
 
 这一轮 Meta NG 对我的最大提醒就是：  
 **你以为自己准备好了，但 follow-up 暴露真实水平。**
