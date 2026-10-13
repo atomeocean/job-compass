@@ -2,7 +2,7 @@
 title: Software Engineer R1 挂经
 description: Google R1 Software Engineer电话面试经验
 createdDate: 2026-06-02
-lastUpdated: 2026-06-02
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Google R1 Software Engineer电话面试经验

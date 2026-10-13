@@ -2,7 +2,7 @@
 title: Bloomberg SWE 面经
 description: Bloomberg SWE面试经验分享
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Bloomberg公司SWE面试经验

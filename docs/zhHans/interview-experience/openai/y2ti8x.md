@@ -2,7 +2,7 @@
 title: MachineLearningEng 挂经
 description: Open AI MachineLearningEng技术电面
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 authors:
   - name: Sung

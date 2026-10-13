@@ -2,7 +2,7 @@
 title: 前端 Frontend Engineer 面经
 description: Uber Frontend Engineer OA+技术电面经验分享
 createdDate: 2026-05-27
-lastUpdated: 2026-05-27
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Uber 前端 面试经验

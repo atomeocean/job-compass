@@ -2,7 +2,7 @@
 title: Uber OA
 description: Uber Software Engineer Online Assessment面试经验
 createdDate: 2026-06-03
-lastUpdated: 2026-06-03
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Uber Software Engineer OA面试经验

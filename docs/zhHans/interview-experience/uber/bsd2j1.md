@@ -2,7 +2,7 @@
 title: Software Engineer
 description: Uber Software Engineer面试经验
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 authors:
   - name: Sung

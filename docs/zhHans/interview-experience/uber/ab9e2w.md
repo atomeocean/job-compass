@@ -2,7 +2,7 @@
 title: Software Engineer
 description: Uber OA+技术电面经验分享
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Uber公司OA+技术电面经验分享

@@ -2,7 +2,7 @@
 title: Uber OA
 description: Uber在线面试经验
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Uber公司在线测评面试经验

@@ -2,7 +2,7 @@
 title: Google L4 四轮全套面经
 description: Google L4 AI/ML四轮全套面经
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Google公司L4 AI/ML Engineer Onsite面试经验

@@ -2,7 +2,7 @@
 title: Amazon OA
 description: Amazon Software Engineer Online Assessment面试经验
 createdDate: 2026-09-30
-lastUpdated: 2026-09-30
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Amazon OA面试经验

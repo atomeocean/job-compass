@@ -2,7 +2,7 @@
 title: 网飞电面挂
 description: Netflix Software Engineer技术电面经验
 createdDate: 2026-06-05
-lastUpdated: 2026-06-05
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Netflix Software Engineer技术电面经验
