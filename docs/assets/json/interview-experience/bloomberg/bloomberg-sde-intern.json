@@ -13,11 +13,11 @@
   },
   "candidate": {
     "education": "",
-    "background": "新毕业生",
+    "background": "新毕业生（refer 内推）",
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "",
+    "date": "2024–2025 秋季",
     "result": "rejected",
     "rounds": [
       { "roundType": "technical", "rate": 4 },

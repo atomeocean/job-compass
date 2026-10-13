@@ -2,23 +2,12 @@
 title: Google L4 四轮全套面经
 description: Google L4 AI/ML四轮全套面经
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Google公司L4 AI/ML Engineer Onsite面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：近期
-- **面试岗位**：AI/ML Engineer
-- **岗位级别**：L4
-- **学历背景**：硕士
-- **工作类型**：全职
-- **投递方式**：内推
-- **面试形式**：Onsite
-- **当前状态**：在职跳槽
 
 ## 面试详情
 

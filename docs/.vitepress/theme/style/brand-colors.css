@@ -1,0 +1,14 @@
+/**
+ * Atomeocean 标志色，与 logbook 的 docs/.vitepress/theme/style/brand-colors.css 保持一致。
+ *
+ * 三支是同一族的明暗档（色相 206°/215°/216°，相对亮度 0.42/0.22/0.06），由浅入深。
+ * 白底上做文字时只有 --ao-blue-deep 达到 AA（9.3:1）；--ao-blue 只有 3.9:1，
+ * 用于描边、图标、悬停态和大字；--ao-blue-light 不用于文字。
+ * 需要淡化时用 color-mix 兑底色，例如
+ * `color-mix(in srgb, var(--ao-blue) 6%, var(--vp-c-bg))`，别改这里的值。
+ */
+:root {
+  --ao-blue-light: #65b5f4;
+  --ao-blue: #217cff;
+  --ao-blue-deep: #0b4397;
+}

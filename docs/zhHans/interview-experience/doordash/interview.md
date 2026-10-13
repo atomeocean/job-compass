@@ -1,24 +1,14 @@
 ---
 createdDate: 2025-12-31
-lastUpdated: 2026-10-09
+lastUpdated: 2026-10-12
 ---
 # DoorDash 面试经验（NV Logistics 团队 · Bay Area）
 
 <InterviewDetail />
 
-## 1. 基本信息
+## 1. 面试详情
 
-- **公司名称：** DoorDash
-- **Job Compass 公司链接：** DoorDash
-- **面试日期：** 2025 年 4–6 月
-- **面试职位：** Software Engineer, IC
-- **职位链接：** https://careersatdoordash.com/jobs/engineering-manager-logistics-platform/7376391/
-- **候选人背景：** 1–3 年工作经验，硕士学历，在职跳槽
-
-
-## 2. 面试详情
-
-### 2.1 面试流程概览
+### 1.1 面试流程概览
 
 - OA（在线测评）
 - 技术一面（Coding + 项目）
@@ -26,14 +16,12 @@ lastUpdated: 2026-10-09
 - HM / Manager 面
 - HR 面（薪资沟通）
 
-
-## 2.2 各轮面试内容与细节
+## 1.2 各轮面试内容与细节
 
 ### **第一轮：OA**
 
 - 难度偏高，与社区常见 DoorDash 高频题一致。  
 - 建议重点复习 Array、Graph、DP、Sliding Window 等题型。
-
 
 ### **第二轮：技术一面（Coding + 项目）**
 
@@ -54,7 +42,6 @@ lastUpdated: 2026-10-09
 
 #### 面试官背景
 - 来自核心工程团队，技术追问深入但态度友好。
-
 
 ### **第三轮：技术二面（System Design）**
 
@@ -83,7 +70,6 @@ lastUpdated: 2026-10-09
 - 说明如何保证实时性 & 稳定性  
 - 面试官会根据回答继续追问扩展性
 
-
 ### **第四轮：HM / Manager 面**
 
 内容包括：
@@ -95,7 +81,6 @@ lastUpdated: 2026-10-09
 
 整体气氛轻松，是双向了解的过程。
 
-
 ### **第五轮：HR 面（薪资 & 地点沟通）**
 
 HR 提到的重点：
@@ -104,15 +89,13 @@ HR 提到的重点：
 - 可选办公地点：SF / NYC / Seattle  
 - 最终数字尚未确认，会根据 team match 进一步沟通
 
-
-## 3. 解决方法与思考步骤（非完整解答）
+## 2. 解决方法与思考步骤（非完整解答）
 
 ### **Coding 题（LRU → LFU）**
 
 - 解释为何选择 HashMap + Doubly Linked List  
 - LRU 扩展为 LFU 需要维护 **frequency list**  
 - 核心是降低更新频率的复杂度
-
 
 ### **System Design（ETA 系统）**
 
@@ -128,15 +111,13 @@ HR 提到的重点：
 
 - 提前准备 scalability 常用模式（sharding、fallback、ranking）
 
-
-## 4. 面试结果反馈
+## 3. 面试结果反馈
 
 - **最终结果：Pass**  
 - HM 面后收到口头 offer，但薪资数字未公布  
 - 面试官普遍友好，氛围合作，不是压力面
 
-
-## 5. 总结与建议
+## 4. 总结与建议
 
 - OA 难度偏高，强烈建议先刷 DoorDash 高频题  
 - System Design 是流程中权重最大的部分，需要准备 scalability & trade-offs  

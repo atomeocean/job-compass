@@ -2,20 +2,12 @@
 title: se电面
 description: Meta Software Engineer Phone Screen面试经验
 createdDate: 2026-06-16
-lastUpdated: 2026-07-05
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Meta Software Engineer Phone Screen面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：Phone Screen
-- **申请渠道**：网上海投
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：未知
 
 ## 面试详情
 

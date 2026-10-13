@@ -2,20 +2,12 @@
 title: L4过经
 description: Google L4 Software Engineer Onsite面试经验
 createdDate: 2026-06-28
-lastUpdated: 2026-07-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Google L4 Software Engineer Onsite面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Engineer（L4）
-- **面试形式**：Onsite
-- **申请渠道**：网上海投
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Pass
 
 ## 面试详情
 

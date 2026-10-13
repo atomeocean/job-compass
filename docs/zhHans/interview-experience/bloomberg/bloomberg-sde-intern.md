@@ -1,21 +1,12 @@
 ---
 createdDate: 2025-11-21
-lastUpdated: 2026-10-09
+lastUpdated: 2026-10-12
 ---
 # Bloomberg SDE New Grad 2026 面试挂经（第一人称 · 全流程）
 
 <InterviewDetail />
 
-## 1. 基本信息
-
-- 面试国家：美国  
-- 公司名称：Bloomberg  
-- 面试日期：2024–2025 秋季  
-- 面试职位：SDE New Grad 2026  
-- 候选人背景：新毕业生（refer 内推）  
-- 结果：挂  
-
-## 2. 面试流程概览
+## 1. 面试流程概览
 
 - Virtual 面（项目 + BQ + Coding）  
 - On-campus Round 1（BQ + 两道 Coding）  
@@ -23,7 +14,7 @@ lastUpdated: 2026-10-09
 - EM 面（项目 Deep Dive）  
 - HR 面（BQ + 签证 & 毕业时间）  
 
-## 3. Timeline
+## 2. Timeline
 
 ### 9.23  
 refer 后提交申请。
@@ -79,12 +70,12 @@ HR：
 ### 10.20  
 据信。
 
-## 4. 详细面试过程（我的真实翻车点）
+## 3. 详细面试过程（我的真实翻车点）
 
-### 4.1 Virtual 面  
+### 3.1 Virtual 面  
 项目 + BQ 顺利，Coding 难但写完了。
 
-### 4.2 On-campus 两轮  
+### 3.2 On-campus 两轮  
 每天都是相同流程：BQ + 两题 Coding，问得紧凑，节奏快。
 
 我感觉 Bloomberg 很重视：
@@ -93,7 +84,7 @@ HR：
 - follow-up 优化  
 - 解释 reasoning 的能力  
 
-### 4.3 EM 面（最大挂点）
+### 3.3 EM 面（最大挂点）
 
 我误以为 EM 会问 high-level 的架构，结果完全不是。
 
@@ -110,7 +101,7 @@ HR：
 
 尤其是 overlap & routing，这两块是我最不熟的，被连续追问。
 
-## 5. 我为什么挂（复盘）
+## 4. 我为什么挂（复盘）
 
 ### 1. 项目准备太 high-level  
 EM 问的是实现细节，我只准备到宏观层面。
@@ -124,7 +115,7 @@ EM 问的是实现细节，我只准备到宏观层面。
 ### 4. Bloomberg 的 EM 面比预期更偏 infra  
 深度比普通 system design 更底层。
 
-## 6. Takeaways（经验教训）
+## 5. Takeaways（经验教训）
 
 - 讲项目时要主动主导话题方向  
 - Database & sharding 必须准备到能画出 read/write path 的程度  

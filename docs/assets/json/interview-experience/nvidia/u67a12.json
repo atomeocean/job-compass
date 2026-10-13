@@ -1,6 +1,11 @@
 {
   "company": "NVIDIA",
   "sourceType": "repost",
+  "source": {
+    "site": "小红书",
+    "author": "",
+    "link": "https://www.xiaohongshu.com/explore/68d6b1ff000000000e0261ed?xsec_token=ABbTdSP13tQszQQtIr0A1knhXjrGOchaLIHsBxT5_gvvA=&xsec_source=pc_search&source=web_search_result_notes"
+  },
   "position": {
     "jobPostUrl": "https://www.nvidia.com/en-us/about-nvidia/careers/",
     "title": "Software Engineer",

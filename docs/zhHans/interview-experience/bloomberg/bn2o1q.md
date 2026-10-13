@@ -2,21 +2,12 @@
 title: 电面面经
 description: Bloomberg Software Engineer技术电面经验
 createdDate: 2026-06-06
-lastUpdated: 2026-06-23
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Bloomberg Software Engineer技术电面经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：近期
-- **岗位**：Software Engineer
-- **面试形式**：技术电面
-- **申请渠道**：网上海投
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Pass
 
 ## 面试详情
 

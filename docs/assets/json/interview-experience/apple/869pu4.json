@@ -1,6 +1,11 @@
 {
   "company": "apple",
   "sourceType": "repost",
+  "source": {
+    "site": "小红书",
+    "author": "",
+    "link": "https://www.xiaohongshu.com/explore/68477c2e000000002101ba62?xsec_token=AB6FvriejCjRE9s5U-i4c09s5DVvAJDni918oWrq8QAk4=&xsec_source=pc_search&source=web_search_result_notes"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
@@ -17,7 +22,7 @@
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "",
+    "date": "2025年Q4",
     "result": "",
     "rounds": [
       {

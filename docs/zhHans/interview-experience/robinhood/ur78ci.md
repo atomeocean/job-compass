@@ -2,17 +2,12 @@
 title: SDE电面
 description: Robinhood Software Engineer 技术电面经验，referral credit leaderboard 算法题
 createdDate: 2026-09-02
-lastUpdated: 2026-09-03
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Robinhood SDE 电面经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- 公司信息：[Robinhood](https://careers.robinhood.com/)
-- 面试时间：2026年Q2
 
 ## 面试过程
 

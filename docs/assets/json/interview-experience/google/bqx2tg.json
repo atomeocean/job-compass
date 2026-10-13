@@ -1,6 +1,11 @@
 {
   "company": "google",
   "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "lrddrl",
+    "link": "https://www.1point3acres.com/bbs/thread-1179303-1-1.html"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
@@ -13,7 +18,7 @@
   },
   "candidate": {
     "education": "硕士",
-    "background": "在职跳槽",
+    "background": "在职跳槽，6年工作经验",
     "yearsOfExperience": 6
   },
   "interview": {

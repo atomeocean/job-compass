@@ -3,20 +3,15 @@ title: Microsoft MAI Copilot Onsite 面试经验
 description: Microsoft MAI Copilot 四轮 Onsite 面试经验
 outline: deep
 createdDate: 2026-09-13
-lastUpdated: 2026-09-14
+lastUpdated: 2026-10-12
 ---
 # Microsoft MAI Copilot Onsite 面试经验
 
 <InterviewDetail />
 
-## 基本信息
+## 面试详情
 
 - **面试岗位**：Software Engineer（MAI Copilot 团队）
-- **工作类型**：全职
-- **面试形式**：Onsite，共四轮
-- **当前状态**：未通过
-
-## 面试详情
 
 ### Hiring Manager 面试
 

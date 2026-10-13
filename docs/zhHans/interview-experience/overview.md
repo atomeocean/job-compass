@@ -1,7 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-10-09
+lastUpdated: 2026-10-13
 ---
 <script setup>
 const overviewItems = [
@@ -62,6 +62,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "Compass",
+    "description": "Compass 面试经验分享",
+    "href": "./compass/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "Databricks",
     "description": "该文件主要介绍 Databricks 的相关内容。",
     "href": "./databricks/index.md",
@@ -98,7 +105,7 @@ const overviewItems = [
   },
   {
     "title": "Google",
-    "description": "该文件主要介绍 Google 的相关内容。",
+    "description": "Google 面试经验分享",
     "href": "./google/index.md",
     "order": 0,
     "kind": "folder"

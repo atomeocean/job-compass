@@ -2,22 +2,12 @@
 title: 网飞电面挂
 description: Netflix Software Engineer技术电面经验
 createdDate: 2026-06-05
-lastUpdated: 2026-06-05
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Netflix Software Engineer技术电面经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：近期
-- **岗位**：Software Engineer
-- **岗位等级**: Senior
-- **面试形式**：技术电面
-- **申请渠道**：猎头联系
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Fail
 
 ## 面试详情
 

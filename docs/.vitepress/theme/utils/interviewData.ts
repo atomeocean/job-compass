@@ -11,10 +11,51 @@ export interface InterviewRound {
 /** 面经来源：作者原创分享 / 转载自网络 / 来源未确认 */
 export type InterviewSourceType = 'original' | 'repost' | 'unknown';
 
+/** 转载面经的原帖，信息卡上的「查看原帖」用；和正文末尾 <ReferenceSource> 的同名字段保持一致 */
+export interface InterviewSource {
+    site?: string;
+    author?: string;
+    link: string;
+}
+
+/** 本篇亮点：由编辑手写，默认为空数组；为空时页面不显示亮点区 */
+export interface InterviewHighlight {
+    /** 短标题，例如「写代码只剩 20 分钟」 */
+    title: string;
+    /** 一句话说明 */
+    detail?: string;
+    /** 可选，正文标题的锚点，例如 "#第-1-轮-coding"；填了标题就能点击跳转 */
+    anchor?: string;
+}
+
+/** 求职时间线事件类型，决定节点样式 */
+export type InterviewTimelineType = 'apply' | 'reply' | 'oa' | 'schedule' | 'interview' | 'result' | 'other';
+
+/** 求职时间线上的一个事件，例如「3 月 1 日网申」；和面试当天的内容（正文）是两块 */
+export interface InterviewTimelineEvent {
+    /** 'YYYY-MM-DD' 或 'YYYY-MM'；原文没给出确切日期时为 null */
+    date: string | null;
+    /** 原文的说法，date 为 null 或只到月份时显示，例如「约两周后」「Day 10」 */
+    dateText?: string;
+    /** 事件名，例如「网申」「收到回复」「Onsite 两轮」 */
+    event: string;
+    type?: InterviewTimelineType;
+    /** 该事件对应 interview.rounds 的第几轮，从 1 开始 */
+    rounds?: number[];
+    /** 一句补充说明 */
+    note?: string;
+}
+
 export interface InterviewData {
     company: string;
     /** 唯一来源；构建时由 config.ts 的 transformPageData 读出并写入页面 frontmatter */
     sourceType?: InterviewSourceType;
+    /** sourceType 为 repost 时填写，取自正文末尾的 <ReferenceSource> */
+    source?: InterviewSource;
+    /** 本篇亮点，编辑手写，默认 [] */
+    highlights?: InterviewHighlight[];
+    /** 求职时间线，按时间先后排列，默认 [] */
+    timeline?: InterviewTimelineEvent[];
     position: {
         title: string;
         level: string;
@@ -41,7 +82,25 @@ export interface InterviewData {
     };
 }
 
-// Map all potential JSON files. 
+/** 面经文章页在路由中的位置；relativePath 是 rewrites 之后的路径，例如 interview-experience/google/8nmi24.md */
+export interface InterviewPathInfo {
+    company: string;
+    slug: string;
+}
+
+const ARTICLE_PATH = /^(?:zhHans\/)?interview-experience\/([^/]+)\/([^/]+)\.md$/;
+
+/**
+ * 判断是不是面经文章页，各级 index / overview 不算。
+ * 挂在布局插槽里的组件每一页都会渲染，先用它过滤，避免在其他页面去找不存在的 JSON。
+ */
+export function parseInterviewPath(relativePath: string): InterviewPathInfo | null {
+    const match = relativePath.match(ARTICLE_PATH);
+    if (!match || match[2] === 'index' || match[2] === 'overview') return null;
+    return { company: match[1], slug: match[2] };
+}
+
+// Map all potential JSON files.
 // Note: import.meta.glob is lazy by default.
 // The path is relative to THIS file.
 const jsonModules = import.meta.glob('../../../assets/json/interview-experience/**/*.json');

@@ -1,6 +1,11 @@
 {
   "company": "amazon",
   "sourceType": "repost",
+  "source": {
+    "site": "Xiaohongshu",
+    "author": "Hongshu ID：7210427699",
+    "link": "http://xhslink.com/o/ALFH6prZNH5"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "SDE",

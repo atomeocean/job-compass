@@ -1,6 +1,11 @@
 {
   "company": "microsoft",
   "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "Anonymous User",
+    "link": "https://leetcode.com/discuss/post/8551527/microsoft-interview-experience-3-years-e-emxk/"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
