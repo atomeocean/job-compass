@@ -1,6 +1,11 @@
 {
   "company": "Oracle",
   "sourceType": "repost",
+  "source": {
+    "site": "Glassdoor",
+    "author": "Anonymous employee",
+    "link": "https://www.glassdoor.com/Interview/Oracle-Interview-E1737-RVW105386853.htm"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer (SDE) Intern",

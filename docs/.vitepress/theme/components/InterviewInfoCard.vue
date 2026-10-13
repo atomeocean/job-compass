@@ -49,8 +49,17 @@ const rounds = computed(() =>
   }))
 )
 
+/** 转载且 JSON 写了原帖链接时显示「查看原帖」按钮；没有链接时退回到一行文字 */
+const sourceLink = computed(() =>
+  props.sourceType === 'repost' ? cleanValue(props.data.source?.link) : ''
+)
+
 const sourceLabel = computed(() => {
-  if (props.sourceType === 'repost') return '转载内容，来源见文末'
+  if (props.sourceType === 'repost') {
+    const from = [cleanValue(props.data.source?.site), cleanValue(props.data.source?.author)].filter(Boolean).join(' · ')
+    if (sourceLink.value) return from ? `转载自 ${from}` : ''
+    return '转载内容，来源见文末'
+  }
   if (props.sourceType === 'original') return '作者原创分享'
   return ''
 })
@@ -95,7 +104,12 @@ const sourceLabel = computed(() => {
       </div>
     </div>
 
-    <div v-if="sourceLabel" class="info-card__source">{{ sourceLabel }}</div>
+    <div v-if="sourceLink || sourceLabel" class="info-card__source">
+      <a v-if="sourceLink" :href="sourceLink" target="_blank" rel="noopener noreferrer" class="info-card__source-btn">
+        查看原帖<el-icon><TopRight /></el-icon>
+      </a>
+      <span v-if="sourceLabel">{{ sourceLabel }}</span>
+    </div>
   </div>
 </template>
 
@@ -209,10 +223,35 @@ const sourceLabel = computed(() => {
   }
 
   &__source {
-    padding-top: 10px;
+    display: grid;
+    gap: 6px;
+    padding-top: 12px;
     border-top: 1px dashed var(--vp-c-divider);
     font-size: 12px;
+    text-align: center;
     color: var(--vp-c-text-3);
+    overflow-wrap: anywhere;
+  }
+
+  /* .vp-doc a 的下划线和颜色在这里不适用（窄屏时卡片在正文里） */
+  &__source-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    height: 34px;
+    border-radius: 8px;
+    background: var(--vp-c-brand-1);
+    color: var(--vp-c-white);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background: var(--vp-c-brand-2);
+      color: var(--vp-c-white);
+    }
   }
 }
 

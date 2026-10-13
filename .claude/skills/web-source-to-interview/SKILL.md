@@ -72,6 +72,7 @@ anonymize the original author, objective tone, no attacks on interviewers.
    {
      "company": "<Company>",
      "sourceType": "repost",
+     "source": { "site": "<小红书 / 一亩三分地>", "author": "<author or ''>", "link": "<post url>" },
      "position": {
        "jobPostUrl": null,
        "title": "<Role>",
@@ -102,7 +103,8 @@ anonymize the original author, objective tone, no attacks on interviewers.
    later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
    Use `""` / `null` / `"na"` for unknowns — never guess. One `rounds` entry per
    round the source describes. `sourceType` is always `repost` for a page built from a web
-   source (it ends with `<ReferenceSource>`).
+   source (it ends with `<ReferenceSource>`); `source` repeats that block's `site` / `author` /
+   `link` exactly.
 
 6. **Write the markdown** `docs/zhHans/interview-experience/<company>/<slug>.md`,
    following `docs/zhHans/interview-experience/openai/y2ti8x.md`:
