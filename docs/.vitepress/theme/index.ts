@@ -3,6 +3,7 @@ import ImageWrapper from './components/ImageWrapper.vue';
 import ElementPlus from 'element-plus'
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import 'element-plus/dist/index.css'
+import './style/brand-colors.css'
 import TimelineComponent from "./components/TimelineComponent.vue";
 import StaffingCompanyInformation from "./components/StaffingCompanyInformation.vue";
 import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiterTable.vue";
