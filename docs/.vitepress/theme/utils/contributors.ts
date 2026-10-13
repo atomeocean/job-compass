@@ -1,8 +1,10 @@
 import type { AuthorInfo } from '@nolebase/vitepress-plugin-git-changelog/client'
-import { allContributors as contributorProfiles } from '../../../_data/contributors'
+import { allContributors } from '../../../_data/contributors'
+import { aiContributors } from '@ao-constants/aiContributors'
+import { LOGBOOK_AUTHOR_PAGE_BASE, logbookAuthorPageSlugs } from '@ao-constants/logbookAuthors'
 
 export type { AuthorInfo }
-export { contributorProfiles }
+export const contributorProfiles = [...allContributors, ...aiContributors]
 
 export type ContributorProfile = (typeof contributorProfiles)[number]
 
@@ -68,11 +70,12 @@ export const getProfileUrl = (profile?: ContributorProfile): string | undefined 
   getPreferredLink(profile?.links)
   ?? (profile?.username ? `https://github.com/${profile.username}` : undefined)
 
-const AUTHOR_PAGE_BASE = '/guide/author-list/'
-
-// 配置了 authorPageSlug 的贡献者，作者栏优先跳转到站内作者主页
-export const getAuthorPageUrl = (profile?: ContributorProfile): string | undefined =>
-  profile?.authorPageSlug ? `${AUTHOR_PAGE_BASE}${profile.authorPageSlug}` : undefined
+// 在 logbook 有作者主页的贡献者，作者栏优先跳转到 logbook 的作者主页
+export const getAuthorPageUrl = (profile?: ContributorProfile): string | undefined => {
+  const slug = profile?.authorPageSlug
+    ?? (profile?.username ? logbookAuthorPageSlugs[profile.username.toLowerCase()] : undefined)
+  return slug ? `${LOGBOOK_AUTHOR_PAGE_BASE}${slug}` : undefined
+}
 
 export const getFallbackAvatar = (name: string): string =>
   `https://gravatar.com/avatar/${encodeURIComponent(name)}?d=retro`
