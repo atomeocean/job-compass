@@ -1,6 +1,11 @@
 {
   "company": "palantir",
   "sourceType": "repost",
+  "source": {
+    "site": "小红书",
+    "author": "",
+    "link": "https://www.xiaohongshu.com/explore/68ac4a72000000001d005e10?xsec_token=ABL-OyFpST4vvRxxvqDYJyKURvmB3QpcOhbwbswTUHyp8=&xsec_source=pc_search&source=web_search_result_notes"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",

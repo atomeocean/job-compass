@@ -1,6 +1,11 @@
 {
   "company": "amazon",
   "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "匿名用户",
+    "link": "https://leetcode.com/discuss/post/8535500/amazon-swe-new-grad-2026-usa-interview-e-oqe0/"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer I",

@@ -1,6 +1,11 @@
 {
   "company": "Amazon",
   "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "匿名用户",
+    "link": "https://leetcode.com/discuss/post/8512004/amazon-sde2-interview-experience-oa-phon-jhvj/"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer II",

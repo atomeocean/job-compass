@@ -1,6 +1,11 @@
 {
   "company": "url",
   "sourceType": "repost",
+  "source": {
+    "site": "小红书",
+    "author": "",
+    "link": "https://www.xiaohongshu.com/explore/68b5805a000000001c00e8b5?xsec_token=ABvlJ8Gz5nur3fkl90O0MFnjhxbcf142THUPwOEu9kbtE=&xsec_source=pc_search&source=web_search_result_notes"
+  },
   "position": {
     "jobPostUrl": "string",
     "title": "Software Engineer",

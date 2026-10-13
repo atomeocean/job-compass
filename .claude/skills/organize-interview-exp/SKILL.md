@@ -2,7 +2,7 @@
 name: organize-interview-exp
 description: Organize a pasted 面经 (link + author + full post text) verbatim into an interview-experience page pair — markdown under docs/zhHans/interview-experience/<company>/ and matching JSON under docs/assets/json/interview-experience/<company>/ — keeping the author's own first-person wording and only adding structure. Use when the user pastes the full text of an interview post and asks to 整理 / add it. English posts are literally translated to Chinese first.
 createdDate: 2026-09-30
-lastUpdated: 2026-10-12
+lastUpdated: 2026-10-13
 ---
 # Organize a pasted 面经 verbatim
 
@@ -165,6 +165,7 @@ predate that table, so take their shape, not their values.
 {
   "company": "<company dir name>",
   "sourceType": "repost",
+  "source": { "site": "<一亩三分地 / 小红书 / …>", "author": "<author>", "link": "<post url>" },
   "position": { "jobPostUrl": null, "title": "<Role>", "level": "<l5 / new-grad / \"\">", "jobType": "full-time" },
   "applicationSource": { "channel": "<vocabulary value>", "referralDetails": "<e.g. 内推 / \"\">" },
   "candidate": { "education": "<bachelor / master / phd / \"\">", "background": "<e.g. 在职跳槽 / \"\">", "yearsOfExperience": null },
@@ -181,7 +182,8 @@ predate that table, so take their shape, not their values.
 - `highlights` and `timeline` are always `[]`: highlights are written by an editor by hand
   later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
 - `rounds`: one entry per interview stage (OA, phone screen, onsite loop).
-- `sourceType` is always `repost` here — the page cites the post with `<ReferenceSource>`.
+- `sourceType` is always `repost` here — the page cites the post with `<ReferenceSource>`, and
+  `source` repeats its `site` / `author` / `link` exactly (the info card's 查看原帖 button).
 - `rate` is difficulty 1–5 from the author's own words (「中等」→ 3, 「不算高」→ 2). When the
   author gives none, use `null` and say so in the report.
 - Unstated fields: `""` for strings, `null` for `jobPostUrl` and `yearsOfExperience`.

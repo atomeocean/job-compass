@@ -1,6 +1,11 @@
 {
   "company": "eBay",
   "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "匿名用户",
+    "link": "https://leetcode.com/discuss/post/8467010/ebay-sde-2-interview-experience-virtual-h2rgv/"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
