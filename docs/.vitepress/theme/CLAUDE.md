@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-12
+lastUpdated: 2026-10-13
 ---
 # CLAUDE.md — VitePress theme
 
@@ -16,7 +16,9 @@ theme/
   components/     25 components (+ components/siteStatistic/)
   composables/    useContributors.ts, useInterviewData.ts
   types/          shared TS interfaces and enums
-  utils/          pure helpers (contributors.ts, interviewData.ts, interviewFormat.ts, util.ts)
+  utils/          pure helpers (contributors.ts, interviewData.ts, interviewFormat.ts,
+                  referenceSource.ts, util.ts)
+  style/          brand-colors.css — Atomeocean blues (--ao-blue-*), mirrored from logbook
 ```
 
 There is **no `constants/` directory** even though the `@ao-constants` alias is defined in
