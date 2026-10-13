@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-12
+lastUpdated: 2026-10-13
 ---
 # CLAUDE.md — interview-experience
 
@@ -77,7 +77,7 @@ and `original` pages get a 原创声明 card appended through the `doc-footer-be
 
 | `sourceType` | Use when | Markdown must |
 |---|---|---|
-| `repost` | Content comes from another post | end with `<ReferenceSource :sources="[...]" />` |
+| `repost` | Content comes from another post | end with `<ReferenceSource :sources="[...]" />`, and the JSON gets a matching `source` |
 | `original` | Confirmed to be the submitter's own interview | **not** contain `<ReferenceSource>` — the slot already renders the 原创声明 card |
 | `unknown` | Origin can't be confirmed | either |
 
@@ -87,6 +87,9 @@ and `original` pages get a 原创声明 card appended through the `doc-footer-be
 - Never flip `unknown` to `original` without confirmation from the author or a maintainer.
 - When a maintainer submits an original on the author's behalf, `originalAuthor: <name>` in
   the Markdown frontmatter adds a 作者 line to the card.
+- A `repost` JSON carries `source: { site, author, link }`, copied from the page's
+  `<ReferenceSource>`; the info card's 查看原帖 button reads it. The build prints a `[source]`
+  warning when it is missing or its `link` does not appear in the Markdown.
 - `docs:dev` does not pick up a JSON-only edit to `sourceType`; restart the dev server.
 
 ## Slugs
@@ -103,6 +106,7 @@ Typed by [interviewData.ts](../../.vitepress/theme/utils/interviewData.ts).
 {
   "company": "amazon",
   "sourceType": "repost",
+  "source": { "site": "小红书", "author": "<post author>", "link": "<post url>" },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",

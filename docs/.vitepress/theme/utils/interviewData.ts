@@ -11,6 +11,13 @@ export interface InterviewRound {
 /** 面经来源：作者原创分享 / 转载自网络 / 来源未确认 */
 export type InterviewSourceType = 'original' | 'repost' | 'unknown';
 
+/** 转载面经的原帖，信息卡上的「查看原帖」用；和正文末尾 <ReferenceSource> 的同名字段保持一致 */
+export interface InterviewSource {
+    site?: string;
+    author?: string;
+    link: string;
+}
+
 /** 本篇亮点：由编辑手写，默认为空数组；为空时页面不显示亮点区 */
 export interface InterviewHighlight {
     /** 短标题，例如「写代码只剩 20 分钟」 */
@@ -43,6 +50,8 @@ export interface InterviewData {
     company: string;
     /** 唯一来源；构建时由 config.ts 的 transformPageData 读出并写入页面 frontmatter */
     sourceType?: InterviewSourceType;
+    /** sourceType 为 repost 时填写，取自正文末尾的 <ReferenceSource> */
+    source?: InterviewSource;
     /** 本篇亮点，编辑手写，默认 [] */
     highlights?: InterviewHighlight[];
     /** 求职时间线，按时间先后排列，默认 [] */

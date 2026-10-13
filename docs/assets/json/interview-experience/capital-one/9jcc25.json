@@ -1,6 +1,11 @@
 {
   "company": "capital-one",
   "sourceType": "repost",
+  "source": {
+    "site": "Reddit",
+    "author": "Impressive-East6891",
+    "link": "https://www.reddit.com/r/csMajors/comments/1l7kyj5/capital_one_interview_experience/"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Fullstack Mid-level Software Engineer",

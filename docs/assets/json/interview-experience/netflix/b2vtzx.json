@@ -1,6 +1,11 @@
 {
   "company": "Netflix",
   "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "leperking0909",
+    "link": "https://www.1point3acres.com/bbs/thread-1179689-1-1.html"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",

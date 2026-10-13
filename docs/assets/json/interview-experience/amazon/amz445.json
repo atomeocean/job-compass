@@ -1,6 +1,11 @@
 {
   "company": "Amazon",
   "sourceType": "repost",
+  "source": {
+    "site": "RedNote",
+    "author": "momo接offer",
+    "link": "http://xhslink.com/o/58HxF8tdPXF"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",

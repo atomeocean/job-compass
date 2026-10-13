@@ -1,7 +1,7 @@
 ---
 name: web-source-to-interview
 description: Turn a shared interview experience (面经) from a web link (RedNote/小红书, 一亩三分地, forum thread) or pasted text into an interview-experience page pair — the markdown under docs/zhHans/interview-experience/<company>/ plus its matching JSON under docs/assets/json/interview-experience/<company>/. Use when the user gives a 面经/interview writeup and asks to add it to the site. For non-interview sources use web-source-to-article instead.
-lastUpdated: 2026-10-12
+lastUpdated: 2026-10-13
 ---
 # Create an interview-experience (面经) page from a web source
 
@@ -72,6 +72,7 @@ anonymize the original author, objective tone, no attacks on interviewers.
    {
      "company": "<Company>",
      "sourceType": "repost",
+     "source": { "site": "<小红书 / 一亩三分地>", "author": "<author or ''>", "link": "<post url>" },
      "position": {
        "jobPostUrl": null,
        "title": "<Role>",
@@ -102,7 +103,8 @@ anonymize the original author, objective tone, no attacks on interviewers.
    later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
    Use `""` / `null` / `"na"` for unknowns — never guess. One `rounds` entry per
    round the source describes. `sourceType` is always `repost` for a page built from a web
-   source (it ends with `<ReferenceSource>`).
+   source (it ends with `<ReferenceSource>`); `source` repeats that block's `site` / `author` /
+   `link` exactly.
 
 6. **Write the markdown** `docs/zhHans/interview-experience/<company>/<slug>.md`,
    following `docs/zhHans/interview-experience/openai/y2ti8x.md`:
