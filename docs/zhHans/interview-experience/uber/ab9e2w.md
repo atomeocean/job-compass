@@ -2,22 +2,12 @@
 title: Software Engineer
 description: Uber OA+技术电面经验分享
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Uber公司OA+技术电面经验分享
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：近期
-- **面试岗位**：Software Engineer
-- **学历背景**：硕士
-- **工作类型**：全职
-- **投递方式**：网上海投
-- **面试形式**：Online Assessment + 技术电面
-- **当前状态**：在职跳槽
 
 ## 面试详情
 

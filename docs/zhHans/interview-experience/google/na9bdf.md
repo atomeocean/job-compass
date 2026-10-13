@@ -2,20 +2,12 @@
 title: L5 Cloud SDE
 description: Google Cloud SDE L5 面试经验
 createdDate: 2026-05-29
-lastUpdated: 2026-06-09
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Google Cloud SDE 面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：2026-05-21
-- **工作类型**：全职
-- **面试形式**：Phone Coding + Onsite（Coding + System Design）
-- **职位等级**：L5
-- **候选人背景**：硕士，在职跳槽
 
 ## 面试详情
 

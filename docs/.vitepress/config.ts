@@ -13,6 +13,7 @@ import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
 import {alias} from "./alias.ts";
+import { buildInterviewNav } from './interviewNav';
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -206,6 +207,10 @@ const vitePressConfig: UserConfig = {
     if (!sourceType) return
     // 只是把 JSON 的值带进页面数据，方便组件在 SSR 时读取；md frontmatter 里手写的 sourceType 会被覆盖
     pageData.frontmatter.sourceType = sourceType
+    // 面经文章页不显示站点侧栏（用 sidebar: false，不用 layout: page，后者会丢掉 vp-doc 样式和 doc-* 插槽），
+    // 回到同公司其他面经靠面包屑和「本公司面经」抽屉，数据在这里一并生成
+    pageData.frontmatter.sidebar = false
+    pageData.frontmatter.interviewNav = buildInterviewNav(siteConfig.srcDir, pageData.filePath)
 
     const hasReferenceSource = readFileSync(join(siteConfig.srcDir, pageData.filePath), 'utf-8')
       .includes('<ReferenceSource')

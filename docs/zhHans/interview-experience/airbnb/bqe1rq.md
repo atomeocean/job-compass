@@ -2,20 +2,12 @@
 title: Software Engineer全流程面试经验与时间线
 description: Airbnb Software Engineer全流程面试经验与时间线
 createdDate: 2026-06-24
-lastUpdated: 2026-06-26
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Airbnb Software Engineer全流程面试经验与时间线
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：Phone Screen + Virtual Onsite
-- **申请渠道**：内推
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Pass
 
 ## 时间线
 

@@ -1,20 +1,13 @@
 ---
 title: Compass SDE 技术电面
 description: Compass SDE Technical Phone Screen面试经验
-lastUpdated: 2026-10-09
+lastUpdated: 2026-10-12
 outline: deep
 createdDate: 2026-10-09
 ---
 # Compass SDE 面试经验
 
 <InterviewDetail />
-
-## 面试基本信息
-
-- **公司信息**：[Compass](https://www.compass.com/careers/)
-- **岗位**：Software Engineer（general backend role）
-- **面试形式**：Technical Phone Screen
-- **面试时间**：2026年Q3
 
 ## 面试过程
 

@@ -3,19 +3,15 @@ title: 3+年经验 Loop挂经
 description: Microsoft Mid-level Software Engineer Loop面试经验
 outline: deep
 createdDate: 2026-10-07
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-12
 ---
 # Microsoft Mid-level Software Engineer Loop面试经验
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：Loop（3 轮：HR + Hiring Manager + System Design、Object-Oriented Design、Data Structures & Algorithms）
-- **面试结果**：Rejected
-
 ## 面试详情
+
+- **面试形式**：Loop（3 轮：HR + Hiring Manager + System Design、Object-Oriented Design、Data Structures & Algorithms）
 
 分享一下我在 Microsoft 面试一个要求 3+ 年经验的岗位的经历。整个 loop 包括三场面试，涵盖了我的背景、system design、object-oriented design 和 coding。
 

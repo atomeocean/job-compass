@@ -2,19 +2,13 @@
 title: Snowflake
 description: Snowflake 软件工程师面试经验 - Round 1
 createdDate: 2025-10-22
-lastUpdated: 2026-10-09
+lastUpdated: 2026-10-12
 ---
 # 美国Snowflake公司软件工程师面试经验
 
 <InterviewDetail />
 
-## 1. 基本信息
-- **面试国家**：美国
-- **公司信息**：Snowflake
-- **面试日期**：近期
-- **面试职位**：软件工程师
-
-## 2. 面试详情
+## 1. 面试详情
 
 ### 面试过程的详细描述
 

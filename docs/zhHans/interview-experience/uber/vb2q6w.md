@@ -2,25 +2,17 @@
 title: Uber OA
 description: Uber Software Engineer Online Assessment面试经验
 createdDate: 2026-06-03
-lastUpdated: 2026-06-03
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Uber Software Engineer OA面试经验
 
 <InterviewDetail />
 
-## 基本信息
+## 面试详情
 
-- **面试日期**：近期
-- **岗位**：Software Engineer
-- **面试形式**：Online Assessment
-- **申请渠道**：内推
-- **候选人背景**：硕士，在职跳槽
 - **考试平台**：HackerRank
 - **考试时长**：90分钟
-- **面试结果**：未知
-
-## 面试详情
 
 ### OA 环境
 

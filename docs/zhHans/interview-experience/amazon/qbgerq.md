@@ -2,20 +2,12 @@
 title: vo面经
 description: Amazon Software Development Engineer VO面试经验
 createdDate: 2026-07-06
-lastUpdated: 2026-07-06
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Amazon Software Development Engineer VO面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Development Engineer
-- **面试形式**：Virtual Onsite
-- **申请渠道**：内推
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Pass
 
 ## 面试详情
 

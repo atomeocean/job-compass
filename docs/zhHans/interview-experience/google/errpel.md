@@ -1,15 +1,10 @@
 ---
 title: SE
 createdDate: 2026-07-14
-lastUpdated: 2026-07-30
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Google Software Engineer 面试经验
-
-## 面试基本信息
-
-- 公司信息：[Google](https://careers.google.com)
-- 面试时间：2026年4-6月
 
 <InterviewDetail />
 
