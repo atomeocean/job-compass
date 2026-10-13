@@ -34,6 +34,9 @@ import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import RelatedArticles from "@ao-components/RelatedArticles.vue";
 import OriginalStatement from "@ao-components/OriginalStatement.vue";
+import InterviewBreadcrumb from "@ao-components/InterviewBreadcrumb.vue";
+import InterviewAsideCard from "@ao-components/InterviewAsideCard.vue";
+import InterviewDocFooter from "@ao-components/InterviewDocFooter.vue";
 
 export default {
   ...DefaultTheme,
@@ -80,8 +83,10 @@ export default {
   },
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'doc-before': () => h(ContributorWrapper),
-      'doc-footer-before': () => [h(OriginalStatement), h(RelatedArticles)],
+      // 面经相关的三个组件只在面经文章页渲染，其他页面输出为空
+      'doc-before': () => [h(InterviewBreadcrumb), h(ContributorWrapper)],
+      'aside-top': () => h(InterviewAsideCard),
+      'doc-footer-before': () => [h(InterviewDocFooter), h(OriginalStatement), h(RelatedArticles)],
       'doc-after': () => h(Giscus)
     })
   },

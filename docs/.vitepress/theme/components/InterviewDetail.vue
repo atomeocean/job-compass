@@ -1,190 +1,128 @@
+<!--
+  面经页正文顶部：本篇亮点 + 窄屏时的信息卡。写在 Markdown 的 H1 下面，不接收 props，
+  数据来自与 Markdown 路径对应的 JSON（见 utils/interviewData.ts）。
+  宽屏（≥1280px）时信息卡改由右侧栏的 InterviewAsideCard 显示，这里隐藏。
+-->
 <script setup lang="ts">
-import { ref, onMounted, watch, computed } from 'vue'
+import { computed } from 'vue'
 import { useData } from 'vitepress'
-import { getInterviewData, type InterviewData, type InterviewRound } from '../utils/interviewData'
+import { useInterviewData } from '@ao-composables/useInterviewData'
+import { parseInterviewPath } from '@ao-utils/interviewData'
+import { cleanValue, formatCompanyTitle } from '@ao-utils/interviewFormat'
+import InterviewInfoCard from '@ao-components/InterviewInfoCard.vue'
 
-const { page, frontmatter } = useData()
-const info = ref<InterviewData | null>(null)
-const loading = ref(true)
+const { frontmatter } = useData()
+const { data, nav, pageKey } = useInterviewData()
 
-const loadData = async () => {
-    loading.value = true
-    info.value = null
-    
-    if (page.value && page.value.relativePath) {
-        const data = await getInterviewData(page.value.relativePath)
-        if (data) {
-            info.value = data
-        }
-    }
-    loading.value = false
-}
+/** 亮点由编辑手写，默认为空数组；为空时整块不显示 */
+const highlights = computed(() =>
+  (data.value?.highlights ?? []).filter((item) => cleanValue(item?.title))
+)
 
-onMounted(() => {
-    loadData()
-})
+const companyTitle = computed(() =>
+  formatCompanyTitle(nav.value?.company.title, data.value?.company, parseInterviewPath(pageKey.value)?.company)
+)
 
-watch(() => page.value.relativePath, () => {
-    loadData()
-})
-
-const resultTagType = computed(() => {
-    const result = (info.value?.interview?.result ?? '').trim().toLowerCase()
-
-    // 「未通过」必须先于「通过」判断，否则会被前缀匹配吞掉
-    if (result.startsWith('未通过')) return 'danger'
-    if (result.startsWith('通过')) return 'success'
-
-    switch (result) {
-        case 'pass':
-        case 'passed':
-        case 'offer':
-        case 'accepted':
-        case 'positive':
-            return 'success'
-        case 'reject':
-        case 'rejected':
-        case 'fail':
-        case 'failed':
-            return 'danger'
-        case 'pending':
-        case 'waiting':
-        case 'waitlist':
-            return 'warning'
-        default:
-            return 'info'
-    }
-})
-
-/** 结果为空或 unknown 时不显示结果标签 */
-const showResultTag = computed(() => {
-    const result = (info.value?.interview?.result ?? '').trim().toLowerCase()
-    return result !== '' && result !== 'unknown'
-})
-
-/** 来源标签：sourceType 来自面经 JSON，由 config.ts 的 transformPageData 在构建时写入 frontmatter */
-const sourceTag = computed(() => {
-    switch (frontmatter.value.sourceType) {
-        case 'original':
-            return { label: '原创分享', type: 'primary' as const }
-        case 'repost':
-            return { label: '转载', type: 'info' as const }
-        default:
-            return null
-    }
-})
-
-/** 首字母大写；OA / HM / VO1 这类缩写保持全大写 */
-const ROUND_TYPE_ACRONYMS = new Set(['oa', 'hm', 'vo', 'vo1', 'vo2'])
-
-const formatRoundType = (roundType?: string): string => {
-    const raw = (roundType ?? '').trim()
-    if (!raw) return 'Round'
-
-    return raw
-        .split(/[-_\s]+/)
-        .map((word) => {
-            if (ROUND_TYPE_ACRONYMS.has(word.toLowerCase())) return word.toUpperCase()
-            return word.charAt(0).toUpperCase() + word.slice(1)
-        })
-        .join(' ')
-}
-
-/**
- * 绝大多数面经 JSON 用 interview.rounds 逐轮记录；
- * 少数早期文件仍是 interview.roundType / interview.rate 的扁平写法，这里做兼容。
- */
-const rounds = computed<InterviewRound[]>(() => {
-    const interview = info.value?.interview
-    if (!interview) return []
-
-    if (Array.isArray(interview.rounds) && interview.rounds.length > 0) {
-        return interview.rounds
-    }
-
-    if (interview.roundType || interview.rate != null) {
-        return [{ roundType: interview.roundType ?? '', rate: interview.rate ?? null }]
-    }
-
-    return []
-})
+/** 页面关掉了右侧栏时，宽屏也要在正文里显示信息卡 */
+const asideOff = computed(() => frontmatter.value.aside === false)
 </script>
 
 <template>
-  <div v-if="info" class="interview-detail-container">
-    <div class="header-row">
-      <span class="company-title">
-        {{ info.company }}<template v-if="info.position?.title"> - {{ info.position.title }}</template>
-      </span>
-      <el-space :size="8">
-        <el-tag v-if="sourceTag" :type="sourceTag.type" effect="plain" size="small">
-          {{ sourceTag.label }}
-        </el-tag>
-        <el-tag v-if="showResultTag" :type="resultTagType" effect="dark" size="small" class="result-tag">
-          {{ info.interview?.result?.toUpperCase() }}
-        </el-tag>
-      </el-space>
-    </div>
-    
-    <el-descriptions :column="2" border size="small">
-      <!-- 早期面经补写的 JSON 常有空字段，空值不占格子 -->
-      <el-descriptions-item label="Level" v-if="info.position?.level">{{ info.position?.level }}</el-descriptions-item>
-      <el-descriptions-item label="Job Type" v-if="info.position?.jobType">{{ info.position?.jobType }}</el-descriptions-item>
-      <el-descriptions-item label="Date" v-if="info.interview?.date">{{ info.interview?.date }}</el-descriptions-item>
-      <el-descriptions-item label="Education" v-if="info.candidate?.education">
-        {{ info.candidate?.education }}
-      </el-descriptions-item>
-      <el-descriptions-item label="Experience" v-if="info.candidate?.yearsOfExperience != null">
-        {{ info.candidate?.yearsOfExperience }} Years
-      </el-descriptions-item>
+  <div v-if="data" :key="pageKey" class="interview-detail">
+    <section v-if="highlights.length" class="interview-highlights" aria-label="本篇亮点">
+      <div class="interview-highlights__title">
+        <el-icon><Opportunity /></el-icon>本篇亮点
+      </div>
+      <ul class="interview-highlights__list">
+        <li v-for="(item, index) in highlights" :key="index">
+          <a v-if="item.anchor" :href="item.anchor" class="interview-highlights__name">{{ item.title }}</a>
+          <strong v-else class="interview-highlights__name">{{ item.title }}</strong>
+          <span v-if="item.detail" class="interview-highlights__detail">{{ item.detail }}</span>
+        </li>
+      </ul>
+    </section>
 
-      <el-descriptions-item
-          v-for="(round, index) in rounds"
-          :key="`${round.roundType}-${index}`"
-          :label="formatRoundType(round.roundType)"
-          :span="2"
-      >
-          <el-rate
-              v-if="round.rate != null"
-              :model-value="round.rate"
-              disabled
-              show-score
-              text-color="#ff9900"
-              score-template="{value}"
-          />
-          <el-text v-else type="info" size="small">未提及难度</el-text>
-      </el-descriptions-item>
-    </el-descriptions>
+    <InterviewInfoCard
+      class="interview-detail__card"
+      :class="{ 'is-aside-off': asideOff }"
+      :data="data"
+      :company-title="companyTitle"
+      :source-type="frontmatter.sourceType"
+      variant="inline"
+    />
   </div>
 </template>
 
 <style scoped lang="scss">
-.interview-detail-container {
-  margin: 1.5rem 0;
+/* 间距放在子元素上：亮点为空且宽屏隐藏信息卡时，这里不留空白 */
+.interview-highlights {
+  margin: 24px 0 8px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: var(--vp-c-brand-soft);
 
-  .header-row {
+  &__title {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem; // Spacing between header and table
+    gap: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--vp-c-brand-1);
+  }
 
-    .company-title {
-      font-weight: 600;
-      font-size: 1.25em; // Slightly larger for title
-    }
-    
-    .result-tag {
-        font-weight: bold;
+  /* 覆盖 .vp-doc 的列表样式 */
+  &__list {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      position: relative;
+      margin: 0;
+      padding-left: 16px;
+      line-height: 1.7;
+      color: var(--vp-c-text-2);
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0.72em;
+        left: 2px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--vp-c-brand-1);
+      }
     }
   }
 
-  // Ensure descriptions table takes full width
-  :deep(.el-descriptions__body) {
-    width: 100%;
+  &__name {
+    margin-right: 8px;
+    font-weight: 600;
+    color: var(--vp-c-text-1);
   }
-  
-  :deep(.el-descriptions__table) {
-    width: 100%;
+
+  a.interview-highlights__name {
+    color: var(--vp-c-brand-1);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.interview-detail__card {
+  margin: 20px 0 8px;
+}
+
+/* 右侧栏可见时（VitePress 在 ≥1280px 显示 aside），信息卡只在右侧栏出现一次 */
+@media (min-width: 1280px) {
+  .interview-detail__card:not(.is-aside-off) {
+    display: none;
   }
 }
 </style>

@@ -13,10 +13,10 @@ file is about the code.
 ```
 theme/
   index.ts        theme entry: global component registration, Element Plus, layout slots
-  components/     21 components (+ components/siteStatistic/)
-  composables/    useContributors.ts
+  components/     25 components (+ components/siteStatistic/)
+  composables/    useContributors.ts, useInterviewData.ts
   types/          shared TS interfaces and enums
-  utils/          pure helpers (contributors.ts, interviewData.ts, util.ts)
+  utils/          pure helpers (contributors.ts, interviewData.ts, interviewFormat.ts, util.ts)
 ```
 
 There is **no `constants/` directory** even though the `@ao-constants` alias is defined in
@@ -40,13 +40,28 @@ Global registration happens in [index.ts](index.ts) via `app.component(...)` ins
 `enhanceApp`. Markdown pages can only use globally registered components, so any component
 meant for content **must** be added there.
 
-Four components are wired through layout slots instead, and are not globally registered:
+These components are wired through layout slots instead, and are not globally registered:
 
 | Slot | Component |
 |---|---|
-| `doc-before` | `ContributorWrapper` |
-| `doc-footer-before` | `OriginalStatement`, then `RelatedArticles` |
+| `doc-before` | `InterviewBreadcrumb`, then `ContributorWrapper` |
+| `aside-top` | `InterviewAsideCard` |
+| `doc-footer-before` | `InterviewDocFooter`, `OriginalStatement`, then `RelatedArticles` |
 | `doc-after` | `Giscus` |
+
+The three `Interview*` slot components render on every page, so each one checks first and
+outputs nothing outside interview article pages: `InterviewBreadcrumb` keys off
+`frontmatter.interviewNav`, the other two use `useInterviewData`, which skips the JSON lookup
+unless `parseInterviewPath` matches. Together with `<InterviewDetail />` in the Markdown they
+make up the 面经 page — see
+[interview-experience/CLAUDE.md](../../zhHans/interview-experience/CLAUDE.md) for what shows
+where.
+
+`frontmatter.interviewNav` (breadcrumb and company drawer data) and `frontmatter.sidebar = false`
+are set at build time by `transformPageData` in [config.ts](../config.ts), via
+[interviewNav.ts](../interviewNav.ts), the same way `sourceType` is. They are available during
+SSR and change with the page on SPA navigation, but under `docs:dev` they are recomputed only
+when the Markdown file changes.
 
 `<DocTitleMeta />` is not written by hand either — a custom markdown-it plugin in
 [config.ts](../config.ts) appends it after every `h1` during render.
@@ -70,9 +85,11 @@ always verify with `npm run docs:dev` and click between pages before declaring d
 - **Keep `:key="page.value.relativePath"` on the root of any subtree driven by per-page data.**
   It forces a rebuild on route change. Removing it as "redundant" breaks SPA navigation:
   navigating A → B leaves stale or empty data until a manual refresh.
-- **Data-loading components must reload on route change, not just on mount.** Both
-  `InterviewDetail` and `ContributorWrapper` pair `onMounted(load)` with
-  `watch(() => page.value.relativePath, load)`. Copy that pattern.
+- **Data-loading components must reload on route change, not just on mount.**
+  [useInterviewData.ts](composables/useInterviewData.ts) (used by `InterviewDetail`,
+  `InterviewAsideCard` and `InterviewDocFooter`) and `ContributorWrapper` pair
+  `onMounted(load)` with `watch(() => page.value.relativePath, load)`. Copy that pattern;
+  `useInterviewData` also drops a result that arrives after the user has already moved on.
 
 ## Loading JSON content
 

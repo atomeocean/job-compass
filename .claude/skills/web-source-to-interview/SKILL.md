@@ -93,9 +93,13 @@ anonymize the original author, objective tone, no attacks on interviewers.
        "rounds": [
          { "roundType": "<phone screen / technical / onsite / vo>", "rate": 3 }
        ]
-     }
+     },
+     "highlights": [],
+     "timeline": []
    }
    ```
+   `highlights` and `timeline` are always `[]`: highlights are written by an editor by hand
+   later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
    Use `""` / `null` / `"na"` for unknowns — never guess. One `rounds` entry per
    round the source describes. `sourceType` is always `repost` for a page built from a web
    source (it ends with `<ReferenceSource>`).
@@ -108,10 +112,11 @@ anonymize the original author, objective tone, no attacks on interviewers.
    - `# H1` naming company + role, e.g. `# 美国Google公司软件工程师面试经验`.
    - `<InterviewDetail />` on its own line right after the H1 (globally registered,
      no import).
-   - `## 基本信息` — bullets from
-     `docs/zhHans/guide/interview-experience-utils/requirement.md`, only the ones the
-     source supports: **面试日期 / 面试岗位 / 学历背景 / 工作类型 / 投递方式 / 面试形式 / 当前状态**.
-   - `## 面试详情` — subsections as fits the source, typically:
+   - **No `## 基本信息` list** — 面试日期 / 岗位 / 学历 / 工作类型 / 投递方式 / 面试形式 / 结果
+     go in the JSON (step 5), where the page's info card shows them.
+   - `## 面试详情` — open with bullets only for facts the JSON has no field for (team,
+     location, test platform, duration) and the source states; then subsections as fits the
+     source, typically:
      `### 面试过程的详细描述` (one `####` per round; state the questions, link
      LeetCode problems like `[LeetCode 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)`),
      `### 解决方法`, `### 面试流程`, `### 和面试官沟通细节`, `### 面试结果反馈`.
