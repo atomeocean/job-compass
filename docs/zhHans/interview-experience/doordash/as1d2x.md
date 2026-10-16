@@ -2,6 +2,8 @@
 title: 经典店面过经
 description: DoorDash Software Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-10-16
+lastUpdated: 2026-10-16
 ---
 # DoorDash Software Engineer 技术电面面试经验
 
