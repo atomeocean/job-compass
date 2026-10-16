@@ -15,7 +15,6 @@ lastUpdated: 2026-10-16
 - **岗位方向：** Full Stack
 - **面试地点：** 加拿大
 
-
 在加拿大最近面的ebay mts2 的职位，oa加vo5轮后面又加了一轮和architect面，和architect那轮炸了，过了快两周收到拒信 full stack, 平心而论不难，没有leetcode。一轮一轮说吧。
 
 ### 第一轮：OA
