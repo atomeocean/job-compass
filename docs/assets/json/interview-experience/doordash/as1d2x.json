@@ -1,0 +1,36 @@
+{
+  "company": "doordash",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "ytxu",
+    "link": "https://www.1point3acres.com/bbs/thread-1193262-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "bachelor",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "phone-screen",
+        "rate": 5
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
