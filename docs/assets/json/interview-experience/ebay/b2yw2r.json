@@ -27,11 +27,11 @@
     "rounds": [
       {
         "roundType": "oa",
-        "rate": null
+        "rate": 4
       },
       {
         "roundType": "onsite",
-        "rate": null
+        "rate": 3
       }
     ]
   },
