@@ -2,6 +2,8 @@
 title: TikTok MLE 电商组面经
 description: TikTok Machine Learning Engineer, Ecommerce 面经：书面筛选和第一轮技术面
 outline: deep
+createdDate: 2026-10-17
+lastUpdated: 2026-10-17
 ---
 # TikTok Machine Learning Engineer（电商）面试经验
 
