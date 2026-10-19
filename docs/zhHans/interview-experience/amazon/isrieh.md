@@ -2,7 +2,7 @@
 title: Amazon Ops
 description: Amazon Support Ops specialist 面试经验
 createdDate: 2026-10-15
-lastUpdated: 2026-10-15
+lastUpdated: 2026-10-19
 outline: deep
 ---
 # Amazon Support Ops specialist 面试经验
