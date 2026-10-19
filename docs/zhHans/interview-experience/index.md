@@ -14,8 +14,8 @@ const interviewItems = [
   {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 1, "lastUpdated": "2026-10-01", "createdDate": "2026-10-01"},
   {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 2, "lastUpdated": "2026-09-23", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
-  {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 19, "lastUpdated": "2026-10-01", "createdDate": "2025-10-21"},
-  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 15, "lastUpdated": "2026-09-30", "createdDate": "2025-10-22"},
+  {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 20, "lastUpdated": "2026-10-19", "createdDate": "2025-10-21"},
+  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 16, "lastUpdated": "2026-10-19", "createdDate": "2025-10-22"},
   {"title": "Snowflake", "description": "SWE 技术电面经验", "href": "./snowflake/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
   {"title": "Netflix", "description": "HR Screening 与技术面", "href": "./netflix/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2026-05-29"},
   {"title": "Notion", "description": "Notion 面试经验分享", "href": "./notion/index.md", "articleCount": 1, "lastUpdated": "2026-07-08", "createdDate": "2026-06-05"},
@@ -23,7 +23,7 @@ const interviewItems = [
   {"title": "Airbnb", "description": "SWE 全流程面经与时间线", "href": "./airbnb/index.md", "articleCount": 2, "lastUpdated": "2026-06-26", "createdDate": "2025-11-25"},
   {"title": "Bloomberg", "description": "SDE Intern 与电面经验", "href": "./bloomberg/index.md", "articleCount": 3, "lastUpdated": "2026-06-23", "createdDate": "2025-11-21"},
   {"title": "Oracle", "description": "健康组技术电面面经", "href": "./oracle/index.md", "articleCount": 1, "lastUpdated": "2026-06-12", "createdDate": "2026-06-09"},
-  {"title": "Uber", "description": "Uber 面试经验分享", "href": "./uber/index.md", "articleCount": 10, "lastUpdated": "2026-06-10", "createdDate": "2025-11-21"},
+  {"title": "Uber", "description": "Uber 面试经验分享", "href": "./uber/index.md", "articleCount": 11, "lastUpdated": "2026-10-19", "createdDate": "2025-11-21"},
   {"title": "TikTok", "description": "SDE Intern 面经", "href": "./tiktok/index.md", "articleCount": 5, "lastUpdated": "2026-10-06", "createdDate": "2025-09-26"},
   {"title": "Nvidia", "description": "Nvidia 面试经验分享", "href": "./nvidia/index.md", "articleCount": 2, "lastUpdated": "2026-06-01", "createdDate": "2025-10-22"},
   {"title": "Microsoft", "description": "Microsoft 面试经验分享", "href": "./microsoft/index.md", "articleCount": 4, "lastUpdated": "2026-10-08", "createdDate": "2026-05-28"},
@@ -46,6 +46,7 @@ const interviewItems = [
   {"title": "Databricks", "description": "SWE Intern VO 面经", "href": "./databricks/index.md", "articleCount": 1, "lastUpdated": "2025-10-21", "createdDate": "2025-10-20"},
   {"title": "Fortinet", "description": "Fortinet 面试经验分享", "href": "./fortinet/index.md", "articleCount": 1, "lastUpdated": "2025-09-18", "createdDate": "2025-09-18"},
   {"title": "Rednote", "description": "纽约岗位面经", "href": "./rednote/index.md", "articleCount": 1, "lastUpdated": "2025-09-03", "createdDate": "2025-08-05"}
+  {"title": "Nuro", "description": "Nuro面经", "href": "./nuro/index.md", "articleCount": 2, "lastUpdated": "2026-10-19", "createdDate": "2026-07-07"}
 ]
 
 const totalArticles = interviewItems.reduce((sum, i) => sum + i.articleCount, 0)
