@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-10-13
+lastUpdated: 2026-10-16
 layout: page
 sidebar: false
 ---
@@ -36,7 +36,7 @@ const interviewItems = [
   {"title": "Applied Intuition", "description": "Applied Intuition 面试经验分享", "href": "./applied-intuition/index.md", "articleCount": 1, "lastUpdated": "2026-02-20", "createdDate": "2026-02-20"},
   {"title": "Snap", "description": "Snap 面试经验分享", "href": "./snapchat/index.md", "articleCount": 1, "lastUpdated": "2026-01-25", "createdDate": "2025-11-21"},
   {"title": "Stubhub", "description": "Stubhub 面试经验分享", "href": "./stubhub/index.md", "articleCount": 2, "lastUpdated": "2026-01-06", "createdDate": "2025-11-21"},
-  {"title": "DoorDash", "description": "电面与面试流程", "href": "./doordash/index.md", "articleCount": 2, "lastUpdated": "2025-12-31", "createdDate": "2025-10-20"},
+  {"title": "DoorDash", "description": "电面与面试流程", "href": "./doordash/index.md", "articleCount": 3, "lastUpdated": "2026-10-16", "createdDate": "2025-10-20"},
   {"title": "被折叠", "description": "Palantir 等被折叠公司条目", "href": "./folded-entry/index.md", "articleCount": 1, "lastUpdated": "2025-12-31", "createdDate": "2025-10-22"},
   {"title": "Nomura", "description": "Risk Analyst 面经", "href": "./nomura/index.md", "articleCount": 1, "lastUpdated": "2025-12-04", "createdDate": "2025-09-15"},
   {"title": "Bethesda Game Studios", "description": "游戏工作室面试分享", "href": "./bethesda-game-studios/index.md", "articleCount": 1, "lastUpdated": "2025-10-22", "createdDate": "2025-10-22"},
