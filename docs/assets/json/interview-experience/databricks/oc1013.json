@@ -1,11 +1,11 @@
 {
   "company": "databricks",
-  "sourceType": "glassdoor",
+  "sourceType": "reddit",
   "position": {
     "jobPostUrl": null,
-    "title": "Software Engineer Intern",
-    "level": "intern",
-    "jobType": "internship"
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": ""
   },
   "applicationSource": {
     "channel": "",
@@ -14,19 +14,23 @@
   "candidate": {
     "education": "",
     "background": "",
-    "yearsOfExperience": 0
+    "yearsOfExperience": null
   },
   "interview": {
-    "date": "2026-10-04",
-    "result": "rejected",
+    "date": "2026-09-24",
+    "result": "unknown",
     "rounds": [
       {
         "roundType": "coding",
-        "rate": 3
+        "rate": null
       },
       {
-        "roundType": "oop",
-        "rate": 3
+        "roundType": "coding",
+        "rate": null
+      },
+      {
+        "roundType": "system-design",
+        "rate": null
       }
     ]
   }
