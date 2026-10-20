@@ -1,0 +1,34 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "source": { 
+    "site": "一亩三分地", 
+    "author": "ylz3333", 
+    "link": "https://www.1point3acres.com/bbs/thread-1192262-1-1.html"
+  },
+  "position": { 
+    "jobPostUrl": null, 
+    "title": "SDE Intern", 
+    "level": "intern", 
+    "jobType": "internship"
+  },
+  "applicationSource": { 
+    "channel": "referral", 
+    "referralDetails": "内推" 
+  },
+  "candidate": { 
+    "education": "bachelor", 
+    "background": "应届毕业生", 
+    "yearsOfExperience": null
+ },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "oa", "rate": null },
+      { "roundType": "onsite", "rate": 3 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
