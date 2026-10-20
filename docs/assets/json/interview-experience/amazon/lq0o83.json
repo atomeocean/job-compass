@@ -1,0 +1,52 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "匿名用户",
+    "link": "https://leetcode.com/discuss/post/8580673/amazon-sde-1-interview-experience-select-b50i/"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer I",
+    "level": "sde1",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "oa",
+        "rate": null
+      },
+      {
+        "roundType": "technical",
+        "rate": 4
+      },
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "hiring-manager",
+        "rate": null
+      },
+      {
+        "roundType": "behavioral",
+        "rate": null
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
