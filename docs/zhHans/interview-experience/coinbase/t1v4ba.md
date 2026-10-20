@@ -2,6 +2,8 @@
 title: Coinbase 电面
 description: Coinbase Software Engineer 电面面试经验
 outline: deep
+createdDate: 2026-10-20
+lastUpdated: 2026-10-20
 ---
 # Coinbase 电面
 
