@@ -20,12 +20,26 @@ recruiter 先发邮件做了一轮书面筛选，都是常规问题：找工作�
 回复后大概一周，两轮技术面一起排好了。recruiter 说第二轮是提前排的，第一轮没过就直接取消。
 
 ### 第一轮：技术面
-recruiter 提前发了准备文档，说明每轮分三块，不同面试官风格会不一样：
-1. 项目讨论：围绕简历上的项目，问模型为什么这么选、数据怎么来、效果怎么评估，中间穿插 ML 基础题。
 
-   ML 基础问得比较细，重点是 attention 机制：self-attention 的公式，Q、K、V 每一步的维度，为什么要除以 √d_k，multi-head 有什么用，以及 attention 的计算复杂度和序列长度的关系。还问了样本不平衡怎么处理，这种情况下为什么看 precision、recall 和 AUC，而不是 accuracy。
-2. Coding：一道 LeetCode medium（难度参考：[347. 前 K 个高频元素 Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)，用哈希表计数，再用堆或者桶排序取前 K 个），再加一些 CS 基础。
-3. 工作经历：过去的项目和背景是否匹配，也会聊到一些 system design。
+recruiter 提前发了准备文档，说明每轮分三块，不同面试官风格会不一样
+
+#### 项目讨论
+
+围绕简历上的项目，问模型为什么这么选、数据怎么来、效果怎么评估，中间穿插 ML 基础题。
+
+ML 基础问得比较细，重点是 attention 机制：self-attention 的公式，Q、K、V 每一步的维度，为什么要除以 √d_k，multi-head 有什么用，以及 attention 的计算复杂度和序列长度的关系。还问了样本不平衡怎么处理，这种情况下为什么看 precision、recall 和 AUC，而不是 accuracy。
+
+#### coding
+
+一道 LeetCode medium（难度参考：[347. 前 K 个高频元素 Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)，用哈希表计数，再用堆或者桶排序取前 K 个），再加一些 CS 基础。
+
+#### 工作经历
+
+过去的项目和背景是否匹配，也会聊到一些 system design。
+
+## 面试结果反馈
+
+- **最终结果**：Fail
 
 面完两天收到拒信，第二轮取消，没有具体反馈。
 
