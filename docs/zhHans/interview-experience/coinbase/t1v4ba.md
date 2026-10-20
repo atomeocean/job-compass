@@ -1,9 +1,9 @@
 ---
-title: 电面
+title: Coinbase 电面
 description: Coinbase Software Engineer 电面面试经验
 outline: deep
 ---
-# Coinbase Software Engineer 电面面试经验
+# Coinbase 电面
 
 <InterviewDetail />
 
