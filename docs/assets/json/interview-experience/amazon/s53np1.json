@@ -4,17 +4,17 @@
   "source": {
     "site": "LeetCode",
     "author": "匿名用户",
-    "link": "https://leetcode.com/discuss/post/8580673/amazon-sde-1-interview-experience-select-b50i/"
+    "link": "https://leetcode.com/discuss/post/8520348/amazon-sde-1-newgrad-sde-interview-exper-picx/"
   },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer I",
-    "level": "sde1",
+    "level": "new-grad",
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "",
-    "referralDetails": ""
+    "channel": "referral",
+    "referralDetails": "内推"
   },
   "candidate": {
     "education": "",
@@ -22,16 +22,12 @@
     "yearsOfExperience": null
   },
   "interview": {
-    "date": "",
+    "date": "2026-08-24",
     "result": "pass",
     "rounds": [
       {
-        "roundType": "oa",
+        "roundType": "coding",
         "rate": null
-      },
-      {
-        "roundType": "technical",
-        "rate": 4
       },
       {
         "roundType": "technical",
