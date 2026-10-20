@@ -2,6 +2,8 @@
 title: 2026 Amazon summer 被拒
 description: Amazon Intern SDE Onsite面试经验
 outline: deep
+createdDate: 2026-10-20
+lastUpdated: 2026-10-20
 ---
 # 2026 Amazon summer 被拒
 
