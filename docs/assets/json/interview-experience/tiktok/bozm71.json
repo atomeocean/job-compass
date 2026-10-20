@@ -1,0 +1,53 @@
+{
+  "company": "tiktok",
+  "sourceType": "original",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Machine Learning Engineer, Ecommerce",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2025-09-04",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
+      { "roundType": "technical", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": [
+    {
+      "date": "2025-08-26",
+      "event": "recruiter 书面筛选",
+      "type": "reply"
+    },
+    {
+      "date": "2025-09-02",
+      "event": "两轮技术面一起排好",
+      "type": "schedule"
+    },
+    {
+      "date": "2025-09-04",
+      "event": "第一轮技术面",
+      "type": "interview",
+      "rounds": [
+        2
+      ]
+    },
+    {
+      "date": "2025-09-06",
+      "event": "第一轮未通过，第二轮取消",
+      "type": "result"
+    }
+  ]
+}
