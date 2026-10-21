@@ -30,5 +30,22 @@
     ]
   },
   "highlights": [],
-  "timeline": []
+  "timeline": [
+    {
+      "date": "2025-12-01",
+      "event": "OA",
+      "type": "interview",
+      "rounds": [
+        1
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "event": "Onsite",
+      "type": "interview",
+      "rounds": [
+        2
+      ]
+    }
+  ]
 }
