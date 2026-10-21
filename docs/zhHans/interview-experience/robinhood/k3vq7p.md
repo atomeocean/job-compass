@@ -27,10 +27,15 @@ R2：Design Job Scheduler 🟠
 
 R3：（仅 CorpEng 部门有，但被取消了 🔴）设计一个包含 AI/LLM components 的 production-ready internal system
 
+## 面试体验
+
+- **面试体验：** 一般
+- **面试难度：** 困难
+
+
 ## 面试结果反馈
 
-- **最终结果**：面完 2 轮被挂（Fail）
-- **体验 / 难度**：Neutral / Hard
+- **面试结果**：面完 2 轮被挂（Fail）
 
 <ReferenceSource
 :sources="[
