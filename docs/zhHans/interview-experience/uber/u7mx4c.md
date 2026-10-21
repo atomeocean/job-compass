@@ -2,6 +2,8 @@
 title: Staff Machine Learning Engineer
 description: Uber Machine Learning Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-10-21
+lastUpdated: 2026-10-21
 ---
 # Uber Staff Machine Learning Engineer电话面试经验
 
