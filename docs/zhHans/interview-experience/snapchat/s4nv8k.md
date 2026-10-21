@@ -2,6 +2,8 @@
 title: onsite挂经
 description: Snap SDE - ML Infra Onsite面试经验
 outline: deep
+createdDate: 2026-10-21
+lastUpdated: 2026-10-21
 ---
 # Snap SDE - ML Infra Onsite面试经验
 
