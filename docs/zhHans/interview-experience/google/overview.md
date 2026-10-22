@@ -1,8 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-10-12
-createdDate: 2026-10-12
+lastUpdated: 2026-10-21
 ---
 <script setup>
 const overviewItems = [
@@ -24,6 +23,13 @@ const overviewItems = [
     "title": "Google SDE",
     "description": "Google SDE Onsite面经",
     "href": "./8nmi24.md",
+    "order": 0,
+    "kind": "article"
+  },
+  {
+    "title": "Google电面面经",
+    "description": "Google Software Engineer 技术电面面试经验",
+    "href": "./ab2n3x.md",
     "order": 0,
     "kind": "article"
   },
