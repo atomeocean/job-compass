@@ -1,5 +1,5 @@
 ---
-title: onsite挂经
+title: SDE ML Infra Onsite
 description: Snap SDE - ML Infra Onsite面试经验
 outline: deep
 ---
@@ -24,17 +24,17 @@ outline: deep
 
 结果最后考了我一个类似于control plane和data plane分离的CI/CD，需要做region level hosts distribution。由于那周完全没练传统题，做的一般不过应该可能算还行（不是很有把握）。
 
-### 第二轮：Coding
+#### 第二轮：Coding
 
 第一轮code是[1254](https://leetcode.com/problems/number-of-closed-islands/)，感谢国人老哥是给我放水了，不过可惜由于上一轮的原因我那一周刷题比较少。结果这道题有一个核心算法以外的逻辑bug，面试老哥好像把我的代码粘贴到后台用ai review了一下，然后给了两个会出错的测试案例。那天状态也一般花了20分钟没看出来哪里出问题了。 应该是挂了
 
-### 第三轮：Coding
+#### 第三轮：Coding
 
 雷达重合问题，给了每个雷达的坐标和半径，第一问是输出跟每个雷达有重合的雷达是哪些。然后第二个问题是说把所有雷达放在一个长方形墙里面，判断一个一个物体能不能在不被雷达发现的情况下从左边墙到达右边墙。
 
 解法应该是用union find把所有雷达合并成一个个cluster,然后看每个cluster能覆盖的纵坐标范围，如果有任何一个cluster能覆盖整个长方形的纵坐标，就不能通过。这一部分代码没写完，不过主体union-find写完了，剩余的一点思路也交流了。
 
-### 第四轮：AI coding
+#### 第四轮：AI coding
 
 这轮面试也很奇怪，按照prep meeting/邮件和面经内容来看，应该是要从零写一个小程序，主要考一些sys design和full cycle software development工作方式，结果面试官说他是第二次面，然后准备了一道有code base的题目，code base是go, 我说我没写过看不懂，prefer python, c++和java也可以。
 
