@@ -1,8 +1,6 @@
 ---
 description: Show where this branch's work stands, or update the branch's progress note
 argument-hint: "[save] [-n <sessions>]"
-createdDate: 2026-10-09
-lastUpdated: 2026-10-09
 ---
 Report — or update — the current state of work on this branch. Progress facts come from the
 committed helper script, **not** from your own memory of the conversation and not from a fresh

@@ -7,7 +7,7 @@ def get_modified_md_files():
     """
     print("➡️ 调用 get_modified_md_files() ...")
     result = subprocess.run(
-        ["git", "diff", "--diff-filter=AM", "--name-only", "origin/main...HEAD"],
+        ["git", "diff", "--diff-filter=AM", "--name-only", "origin/main...HEAD", "--", "docs/"],
         capture_output=True, text=True
     )
     print(f"git diff 输出:\n{result.stdout}")
