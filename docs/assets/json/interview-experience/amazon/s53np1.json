@@ -25,22 +25,8 @@
     "date": "2026-08-24",
     "result": "pass",
     "rounds": [
-      {
-        "roundType": "coding",
-        "rate": null
-      },
-      {
-        "roundType": "technical",
-        "rate": null
-      },
-      {
-        "roundType": "hiring-manager",
-        "rate": null
-      },
-      {
-        "roundType": "behavioral",
-        "rate": null
-      }
+      { "roundType": "oa", "rate": null },
+      { "roundType": "onsite", "rate": null }
     ]
   },
   "highlights": [],
