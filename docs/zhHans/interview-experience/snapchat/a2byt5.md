@@ -14,7 +14,7 @@ outline: deep
 - **面试平台**：HackerRank CodePair
 
 我看地里没人提过 Snap 的 Security Engineer 面试情况，刚刚面了第一轮，来分享一下信息。
-面试总共 1 小时。
+面试总共 1 小时。lz 是 PhD NG。
 
 ### 第一轮：技术电面
 
@@ -27,8 +27,11 @@ outline: deep
 **Coding 部分**：
 
 用 HackerRank CodePair。（写的时候不小心误触了一下 MacBook 的切换窗口键，不知道会不会在 HackerRank 后台有影响。）但是面试官没让我 share screen，我问他要不要我 share screen，他说不用。
+
 考的是 [LeetCode 210](https://leetcode.com/problems/course-schedule-ii/)（Course Schedule II），需要用 topological sort。面试官比较注重思路，会一直追问为什么用 topological sorting、brute-force approach 是什么，以及为什么选择当前解法。
+
 最后代码在还有 5 分钟结束的时候写完了。我认为思路是对的，面试官也是淡淡地肯定（看不出态度），但是跑 test case 的时候发现有 bug。
+
 当时只剩 5 分钟，面试官想留时间给 Q&A，所以就没有让我继续 debug。
 
 ## 面试体验
@@ -39,7 +42,7 @@ outline: deep
 
 - **最终结果**：暂未出结果
 
-HR当时打电话说，如果通过了，后续的面试还会有AI-assisted coding。如果有人做过 Snap 家的 AI-assisted coding，也可以交流。
+另外，HR当时打电话说，如果通过了，后续的面试还会有AI-assisted coding。如果有人做过 Snap 家的 AI-assisted coding，也可以交流。
 
 <ReferenceSource
 :sources="[
