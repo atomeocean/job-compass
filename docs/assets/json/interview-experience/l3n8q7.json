@@ -1,0 +1,33 @@
+{
+  "company": "linkedin",
+  "sourceType": "repost",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "ic2",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "other",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}
