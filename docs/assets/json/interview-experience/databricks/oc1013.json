@@ -1,0 +1,37 @@
+{
+  "company": "databricks",
+  "sourceType": "reddit",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2026-09-24",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "coding",
+        "rate": null
+      },
+      {
+        "roundType": "coding",
+        "rate": null
+      },
+      {
+        "roundType": "system-design",
+        "rate": null
+      }
+    ]
+  }
+}
