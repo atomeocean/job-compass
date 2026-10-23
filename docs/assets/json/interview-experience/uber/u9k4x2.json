@@ -1,0 +1,32 @@
+{
+  "company": "uber",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "experienced",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": 4
+      },
+      {
+        "roundType": "onsite",
+        "rate": 4
+      }
+    ]
+  }
+}
