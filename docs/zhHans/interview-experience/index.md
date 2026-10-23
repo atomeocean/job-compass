@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-10-22
+lastUpdated: 2026-10-23
 layout: page
 sidebar: false
 ---
@@ -34,7 +34,7 @@ const interviewItems = [
   {"title": "Walmart labs", "description": "Walmart labs 面试经验分享", "href": "./walmart/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
   {"title": "Capital One", "description": "Capital One 面试经验分享", "href": "./capital-one/index.md", "articleCount": 2, "lastUpdated": "2026-09-25", "createdDate": "2025-10-22"},
   {"title": "Applied Intuition", "description": "Applied Intuition 面试经验分享", "href": "./applied-intuition/index.md", "articleCount": 1, "lastUpdated": "2026-02-20", "createdDate": "2026-02-20"},
-  {"title": "Snap", "description": "Snap 面试经验分享", "href": "./snapchat/index.md", "articleCount": 2, "lastUpdated": "2026-10-21", "createdDate": "2025-11-21"},
+  {"title": "Snap", "description": "Snap 面试经验分享", "href": "./snapchat/index.md", "articleCount": 3, "lastUpdated": "2026-10-23", "createdDate": "2025-11-21"},
   {"title": "Stubhub", "description": "Stubhub 面试经验分享", "href": "./stubhub/index.md", "articleCount": 2, "lastUpdated": "2026-01-06", "createdDate": "2025-11-21"},
   {"title": "DoorDash", "description": "电面与面试流程", "href": "./doordash/index.md", "articleCount": 3, "lastUpdated": "2026-10-16", "createdDate": "2025-10-20"},
   {"title": "被折叠", "description": "Palantir 等被折叠公司条目", "href": "./folded-entry/index.md", "articleCount": 1, "lastUpdated": "2025-12-31", "createdDate": "2025-10-22"},
