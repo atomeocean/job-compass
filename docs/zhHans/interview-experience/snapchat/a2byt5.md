@@ -2,6 +2,8 @@
 title: Security Engineer（IAM方向）L4 一面
 description: Snap L4 Security Engineer 电面面试经验
 outline: deep
+createdDate: 2026-10-23
+lastUpdated: 2026-10-23
 ---
 # Snap L4 Security Engineer 电面面试经验
 
