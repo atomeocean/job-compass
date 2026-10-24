@@ -40,7 +40,7 @@ lastUpdated: 2025-09-03
 
 #### 1 创建公司 Json 文件
 
-前往[data 目录](/staffing-company/data)，查看找到的公司信息是否已存在
+前往[data 目录](https://github.com/atomeocean/job-compass/tree/main/docs/zhHans/staffing-company/data)，查看找到的公司信息是否已存在
 
 如果该公司信息尚未收录，则在当前文件夹中创建一个新的Json文件。
 
