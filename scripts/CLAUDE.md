@@ -57,6 +57,10 @@ Local / manual:
 - `check_verbatim.py` — the `organize-interview-exp` skill's self-check: lists 面经 body lines
   that don't appear verbatim in the pasted source. Standard library only, so it needs no
   `PYTHONPATH`.
+- `check_internal_links.py` — lists internal links in `docs/zhHans` and `docs/en` whose
+  target page or file does not exist (the build sets `ignoreDeadLinks: true`, so it never
+  reports them). Case-exact, follows the `zhHans/:rest*` rewrite and the `/en/` prefix, and
+  checks `<<<` snippet imports. Standard library only, so it needs no `PYTHONPATH`.
 
 `sync-json-data-source.yml` also calls `scripts/domains/job-compass/add_job_compass_pr_record.py`.
 That path is **on the remote server**, not in this repo — don't go looking for it here.
