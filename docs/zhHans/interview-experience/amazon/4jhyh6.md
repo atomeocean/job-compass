@@ -2,6 +2,8 @@
 title: Business-Analyst
 description: Amazon New Grad Business Analyst 面试经验
 outline: deep
+createdDate: 2026-10-25
+lastUpdated: 2026-10-25
 ---
 # Amazon New Grad Business Analyst 面试经验
 
