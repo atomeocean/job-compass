@@ -5,7 +5,6 @@ outline: deep
 createdDate: 2026-10-26
 lastUpdated: 2026-10-26
 ---
-
 # Google软件工程师两轮面试经验：Behavioral 与最大效率路径
 
 <InterviewDetail />
