@@ -1,11 +1,16 @@
 {
   "company": "databricks",
-  "sourceType": "reddit",
+  "sourceType": "repost",
+  "source": {
+    "site": "Reddit", 
+    "author": "Aoki_zhang", 
+    "link": "https://www.reddit.com/r/OfferEngineering/comments/1wp95qm/databricks_software_engineer_swe_onsite_interview/"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
     "level": "",
-    "jobType": ""
+    "jobType": "full-time"
   },
   "applicationSource": {
     "channel": "",
@@ -17,21 +22,12 @@
     "yearsOfExperience": null
   },
   "interview": {
-    "date": "2026-09-24",
+    "date": "2026-09",
     "result": "unknown",
     "rounds": [
-      {
-        "roundType": "coding",
-        "rate": null
-      },
-      {
-        "roundType": "coding",
-        "rate": null
-      },
-      {
-        "roundType": "system-design",
-        "rate": null
-      }
+      { "roundType": "onsite", "rate": null }
     ]
-  }
+  },
+  "highlights": [],
+  "timeline": []
 }
