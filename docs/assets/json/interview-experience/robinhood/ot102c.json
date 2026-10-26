@@ -1,11 +1,16 @@
 {
   "company": "robinhood",
-  "sourceType": "reddit",
+  "sourceType": "repost",
+  "source": {
+    "site": "Reddit",
+    "author": "Aoki_zhang",
+    "link": "https://www.reddit.com/r/OfferEngineering/comments/1x47k93/robinhood_swe_interview_dont_memorize_the_system/"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
     "level": "",
-    "jobType": ""
+    "jobType": "full-time"
   },
   "applicationSource": {
     "channel": "",
@@ -17,21 +22,12 @@
     "yearsOfExperience": null
   },
   "interview": {
-    "date": "2026-10-12",
+    "date": "",
     "result": "unknown",
     "rounds": [
-      {
-        "roundType": "project-deep-dive",
-        "rate": null
-      },
-      {
-        "roundType": "system-design",
-        "rate": null
-      },
-      {
-        "roundType": "coding",
-        "rate": null
-      }
+      { "roundType": "onsite", "rate": null }
     ]
-  }
+  },
+  "highlights": [],
+  "timeline": []
 }
