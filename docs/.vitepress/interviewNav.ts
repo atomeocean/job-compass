@@ -10,7 +10,7 @@ const ARTICLE_FILE = /^zhHans\/interview-experience\/([^/]+)\/([^/]+)\.md$/
 const NON_ARTICLE = new Set(['index', 'overview', 'CLAUDE'])
 
 /** frontmatter 里的单行 title；面经页和公司 index.md 都是这种写法 */
-const readFrontmatterTitle = (file: string): string => {
+export const readFrontmatterTitle = (file: string): string => {
   const block = readFileSync(file, 'utf-8').match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? ''
   const title = block.match(/^title:\s*(.+?)\s*$/m)?.[1] ?? ''
   return title.replace(/^(['"])(.*)\1$/, '$2')
