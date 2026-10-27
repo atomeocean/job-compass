@@ -2,6 +2,8 @@
 title: SDE 3 phone screen
 description: Google SDE 3 Software Engineer Phone Screen面试经验
 outline: deep
+createdDate: 2026-10-27
+lastUpdated: 2026-10-27
 ---
 # Google SDE 3 Software Engineer Phone Screen面试经验
 
