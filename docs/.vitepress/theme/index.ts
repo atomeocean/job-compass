@@ -38,6 +38,7 @@ import OriginalStatement from "@ao-components/OriginalStatement.vue";
 import InterviewBreadcrumb from "@ao-components/InterviewBreadcrumb.vue";
 import InterviewAsideCard from "@ao-components/InterviewAsideCard.vue";
 import InterviewDocFooter from "@ao-components/InterviewDocFooter.vue";
+import SiteFooter from "@ao-components/SiteFooter.vue";
 
 export default {
   ...DefaultTheme,
@@ -88,7 +89,9 @@ export default {
       'doc-before': () => [h(InterviewBreadcrumb), h(ContributorWrapper)],
       'aside-top': () => h(InterviewAsideCard),
       'doc-footer-before': () => [h(InterviewDocFooter), h(OriginalStatement), h(RelatedArticles)],
-      'doc-after': () => h(Giscus)
+      'doc-after': () => h(Giscus),
+      // 英文页脚，中文页不渲染
+      'layout-bottom': () => h(SiteFooter)
     })
   },
 };

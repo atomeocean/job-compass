@@ -5,8 +5,17 @@ import { useData } from "vitepress";
 
 const PAGE_VIEW_ID = "busuanzi_value_page_pv";
 
-const pv = ref('加载中...')
-const  { page } = useData()
+const  { page, localeIndex } = useData()
+
+// vitepress-i18n 把中文的 localeIndex 映射成 'root'，英文页是 'en'
+const isEn = localeIndex.value === 'en'
+const LABELS = isEn
+  ? { created: 'Published', updated: 'Updated', views: 'Views', loading: 'Loading…' }
+  : { created: '发表于', updated: '更新于', views: '阅读量', loading: '加载中...' }
+
+const pv = ref(LABELS.loading)
+// busuanzi 无响应时「加载中」会一直挂着；英文页等拿到数字再显示阅读量，中文页保持原样
+const pvLoaded = ref(false)
 
 const DEFAULT_DATE = "2021-08-21"
 
@@ -25,6 +34,7 @@ const getPV = () => {
   if (text) {
     // 将浏览量千分位进行转换
     pv.value = countTransK(parseInt(text));
+    pvLoaded.value = true;
   } else {
     setTimeout(getPV, 500);
   }
@@ -40,18 +50,18 @@ onMounted(() => {
     <div class="tags">
       <div class="created-time">
         <el-icon><Calendar /></el-icon>
-        <span>发表于 {{ createdDate }}</span>
+        <span>{{ LABELS.created }} {{ createdDate }}</span>
       </div>
       <div class="updated-time">
         <el-icon><Clock /></el-icon>
-        <span>更新于 {{ lastUpdatedDate }}</span>
+        <span>{{ LABELS.updated }} {{ lastUpdatedDate }}</span>
       </div>
-      <div class="reader">
+      <div v-if="!isEn || pvLoaded" class="reader">
         <el-icon><Avatar /></el-icon>
-        <span>阅读量 {{ pv }}
-          <span :id="PAGE_VIEW_ID" style="display: none" />
-        </span>
+        <span>{{ LABELS.views }} {{ pv }}</span>
       </div>
+      <!-- busuanzi 往这里写数字，必须一直渲染，不能放进上面的 v-if -->
+      <span :id="PAGE_VIEW_ID" style="display: none" />
     </div>
   </div>
 </template>
