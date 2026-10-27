@@ -1,15 +1,10 @@
 ---
 title: AI Product Intern
 createdDate: 2026-07-14
-lastUpdated: 2026-07-30
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Disney AI Product Intern 面试经验
-
-## 面试基本信息
-
-- 公司信息：Disney（官方职位链接未提供）
-- 面试时间：2026年7-9月
 
 <InterviewDetail />
 

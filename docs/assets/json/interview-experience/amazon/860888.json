@@ -1,5 +1,11 @@
 {
   "company": "Amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "HardcoreDummy",
+    "link": "https://www.1point3acres.com/bbs/thread-1184465-1-1.html"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",

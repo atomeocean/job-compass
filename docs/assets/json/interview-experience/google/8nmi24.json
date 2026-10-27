@@ -1,5 +1,11 @@
 {
   "company": "google", 
+  "sourceType": "repost",
+  "source": {
+    "site": "小红书",
+    "author": "昨日下雨",
+    "link": "https://www.xiaohongshu.com/explore/69cbe6b3000000001a02cbb4?xsec_token=AB2as6bXvh8CkOXR8R8idEhd78fcw9Ozj57Fj4-WqWl00=&xsec_source=pc_search&source=web_search_result_notes"
+  },
   "position": {
     "title": "Software Engineer",
     "level": "new-grad",

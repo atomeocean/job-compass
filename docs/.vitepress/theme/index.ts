@@ -3,6 +3,7 @@ import ImageWrapper from './components/ImageWrapper.vue';
 import ElementPlus from 'element-plus'
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import 'element-plus/dist/index.css'
+import './style/brand-colors.css'
 import TimelineComponent from "./components/TimelineComponent.vue";
 import StaffingCompanyInformation from "./components/StaffingCompanyInformation.vue";
 import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiterTable.vue";
@@ -33,6 +34,11 @@ import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css';
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import RelatedArticles from "@ao-components/RelatedArticles.vue";
+import OriginalStatement from "@ao-components/OriginalStatement.vue";
+import InterviewBreadcrumb from "@ao-components/InterviewBreadcrumb.vue";
+import InterviewAsideCard from "@ao-components/InterviewAsideCard.vue";
+import InterviewDocFooter from "@ao-components/InterviewDocFooter.vue";
+import SiteFooter from "@ao-components/SiteFooter.vue";
 
 export default {
   ...DefaultTheme,
@@ -79,9 +85,13 @@ export default {
   },
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'doc-before': () => h(ContributorWrapper),
-      'doc-footer-before': () => h(RelatedArticles),
-      'doc-after': () => h(Giscus)
+      // 面经相关的三个组件只在面经文章页渲染，其他页面输出为空
+      'doc-before': () => [h(InterviewBreadcrumb), h(ContributorWrapper)],
+      'aside-top': () => h(InterviewAsideCard),
+      'doc-footer-before': () => [h(InterviewDocFooter), h(OriginalStatement), h(RelatedArticles)],
+      'doc-after': () => h(Giscus),
+      // 英文页脚，中文页不渲染
+      'layout-bottom': () => h(SiteFooter)
     })
   },
 };

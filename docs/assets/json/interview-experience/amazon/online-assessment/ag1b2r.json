@@ -1,0 +1,46 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "Sundriyanting",
+    "link": "https://www.1point3acres.com/bbs/thread-1191311-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "oa",
+        "rate": 4
+      },
+      {
+        "roundType": "oa",
+        "rate": 4
+      },
+      {
+        "roundType": "oa",
+        "rate": 1
+      },
+      {
+        "roundType": "oa",
+        "rate": 1
+      }
+    ]
+  }
+}

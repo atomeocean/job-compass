@@ -1,0 +1,46 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "匿名用户",
+    "link": "https://leetcode.com/discuss/post/8535500/amazon-swe-new-grad-2026-usa-interview-e-oqe0/"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer I",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2026-08",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "behavioral",
+        "rate": null
+      },
+      {
+        "roundType": "coding",
+        "rate": null
+      },
+      {
+        "roundType": "coding",
+        "rate": null
+      },
+      {
+        "roundType": "system-design",
+        "rate": null
+      }
+    ]
+  }
+}

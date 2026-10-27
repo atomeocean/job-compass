@@ -1,0 +1,26 @@
+{
+  "company": "fortinet",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2025-06-19",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "oa", "rate": null }
+    ]
+  }
+}

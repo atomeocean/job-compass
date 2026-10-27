@@ -2,21 +2,12 @@
 title: Backend Engineer
 description: Uber L4 Backend Engineer电话面试经验
 createdDate: 2026-05-30
-lastUpdated: 2026-06-02
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Uber L4 Backend Engineer电话面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：近期
-- **岗位**：Backend Engineer
-- **岗位等级**：L4
-- **面试形式**：Phone Screen
-- **申请渠道**：内推
-- **候选人背景**：硕士
 
 ## 面试详情
 

@@ -1,0 +1,27 @@
+{
+  "company": "bethesda-game-studios",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Systems Designer",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2023-11",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
+      { "roundType": "hiring-manager", "rate": null }
+    ]
+  }
+}

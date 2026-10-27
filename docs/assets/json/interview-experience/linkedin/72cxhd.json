@@ -1,0 +1,34 @@
+{
+  "company": "linkedin",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "匿名用户-Q9OPZ",
+    "link": "https://www.1point3acres.com/bbs/thread-1190814-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}

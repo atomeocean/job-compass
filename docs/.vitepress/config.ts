@@ -9,10 +9,14 @@ import {
   GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite';
 import { allContributors } from "../_data/contributors";
+import { aiContributors } from "./theme/constants/aiContributors";
 import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
 import {alias} from "./alias.ts";
+import { buildInterviewNav } from './interviewNav';
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
@@ -46,6 +50,44 @@ const vitePressSidebarOptions = [
   })
 ];
 
+
+const INTERVIEW_SOURCE_TYPES = ['original', 'repost', 'unknown']
+
+/**
+ * 读取面经页面的来源类型，供 InterviewDetail 标签和 OriginalStatement 卡片使用。
+ * 面经 JSON 的 sourceType 是唯一来源；JSON 缺失、字段缺失或取值不合法都按 unknown 处理（不显示标签和声明）
+ * @param filePath - 相对 srcDir 的源文件路径，如 "zhHans/interview-experience/google/12ab56.md"
+ * @returns 非面经文章页返回 undefined
+ */
+const readInterviewSourceType = (srcDir: string, filePath: string): string | undefined => {
+  const match = filePath.match(/^zhHans\/interview-experience\/(.+)\.md$/)
+  if (!match || /(^|\/)(index|overview)$/.test(match[1])) return undefined
+
+  const jsonPath = join(srcDir, 'assets/json/interview-experience', `${match[1]}.json`)
+  if (!existsSync(jsonPath)) {
+    console.warn(`[sourceType] ${filePath} 缺少对应的面经 JSON：${jsonPath}`)
+    return 'unknown'
+  }
+  try {
+    const { sourceType } = JSON.parse(readFileSync(jsonPath, 'utf-8'))
+    return INTERVIEW_SOURCE_TYPES.includes(sourceType) ? sourceType : 'unknown'
+  } catch (error) {
+    console.warn(`[sourceType] 无法解析 ${jsonPath}：${error}`)
+    return 'unknown'
+  }
+}
+
+/** 转载面经 JSON 里的原帖链接 source.link；读不到时返回空字符串（JSON 缺失或损坏已由 readInterviewSourceType 报警告） */
+const readInterviewSourceLink = (srcDir: string, filePath: string): string => {
+  const match = filePath.match(/^zhHans\/interview-experience\/(.+)\.md$/)
+  if (!match) return ''
+  try {
+    const { source } = JSON.parse(readFileSync(join(srcDir, 'assets/json/interview-experience', `${match[1]}.json`), 'utf-8'))
+    return typeof source?.link === 'string' ? source.link.trim() : ''
+  } catch {
+    return ''
+  }
+}
 
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig = {
@@ -112,7 +154,7 @@ const vitePressConfig: UserConfig = {
       // 集成git记录插件
       GitChangelog({
         repoURL: () => 'https://github.com/atomeocean/job-compass',
-        mapAuthors: allContributors
+        mapAuthors: [...allContributors, ...aiContributors]
       }),
       GitChangelogMarkdownSection({
         sections: {
@@ -172,7 +214,35 @@ const vitePressConfig: UserConfig = {
       })
     }
   },
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
+  transformPageData(pageData, { siteConfig }) {
+    const sourceType = readInterviewSourceType(siteConfig.srcDir, pageData.filePath)
+    if (!sourceType) return
+    // 只是把 JSON 的值带进页面数据，方便组件在 SSR 时读取；md frontmatter 里手写的 sourceType 会被覆盖
+    pageData.frontmatter.sourceType = sourceType
+    // 面经文章页不显示站点侧栏（用 sidebar: false，不用 layout: page，后者会丢掉 vp-doc 样式和 doc-* 插槽），
+    // 回到同公司其他面经靠面包屑和「本公司面经」抽屉，数据在这里一并生成
+    pageData.frontmatter.sidebar = false
+    pageData.frontmatter.interviewNav = buildInterviewNav(siteConfig.srcDir, pageData.filePath)
+
+    const markdown = readFileSync(join(siteConfig.srcDir, pageData.filePath), 'utf-8')
+    const hasReferenceSource = markdown.includes('<ReferenceSource')
+    if (sourceType === 'repost' && !hasReferenceSource) {
+      console.warn(`[sourceType] ${pageData.filePath} 标为 repost，但正文没有 <ReferenceSource>`)
+    }
+    if (sourceType === 'original' && hasReferenceSource) {
+      console.warn(`[sourceType] ${pageData.filePath} 标为 original，但正文写了 <ReferenceSource>`)
+    }
+    // 信息卡的「查看原帖」读 JSON 的 source.link，它应与正文 <ReferenceSource> 里的链接一致
+    if (sourceType === 'repost') {
+      const sourceLink = readInterviewSourceLink(siteConfig.srcDir, pageData.filePath)
+      if (!sourceLink) {
+        console.warn(`[source] ${pageData.filePath} 标为 repost，但 JSON 没有 source.link`)
+      } else if (hasReferenceSource && !markdown.includes(sourceLink)) {
+        console.warn(`[source] ${pageData.filePath} JSON 的 source.link 与正文 <ReferenceSource> 的链接不一致`)
+      }
+    }
+  }
 };
 
 export default defineConfig(

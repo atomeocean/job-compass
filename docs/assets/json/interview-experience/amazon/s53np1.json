@@ -1,0 +1,46 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "匿名用户",
+    "link": "https://leetcode.com/discuss/post/8520348/amazon-sde-1-newgrad-sde-interview-exper-picx/"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer I",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2026-08-24",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "oa", "rate": null },
+      { "roundType": "onsite", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": [
+    { "date": "2026-02-10", "event": "通过内推投递", "type": "apply" },
+    { "date": "2026-07-10", "event": "收到 OA", "type": "oa" },
+    { "date": "2026-07-11", "event": "完成 OA", "type": "oa", "rounds": [1] },
+    { "date": "2026-07-15", "event": "换了新的 Job ID", "type": "other", "note": "原 Job ID 变成 No longer under consideration" },
+    { "date": "2026-07-20", "event": "通过 OA", "type": "reply" },
+    { "date": "2026-07-28", "event": "Recruiter 联系", "type": "schedule", "note": "询问 8 月 17–21 日的空闲时间" },
+    { "date": "2026-08-14", "event": "收到暂定日程", "type": "schedule", "note": "Save the Date 邮件" },
+    { "date": "2026-08-18", "event": "收到确认邮件", "type": "schedule", "note": "附面试官信息" },
+    { "date": "2026-08-20", "event": "面试", "type": "interview", "rounds": [2] },
+    { "date": "2026-08-24", "event": "面试", "type": "interview", "rounds": [2] },
+    { "date": "2026-08-27", "event": "拿到 Offer", "type": "result" }
+  ]
+}

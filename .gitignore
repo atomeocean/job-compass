@@ -155,6 +155,8 @@ __pycache__/
 .claude/*
 !.claude/commands/
 !.claude/skills/
+!.claude/rules/
+!.claude/settings.json
 .minimax/*
 
 # Mavis scratchpad

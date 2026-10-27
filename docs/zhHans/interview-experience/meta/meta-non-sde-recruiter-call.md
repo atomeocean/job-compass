@@ -1,10 +1,12 @@
 ---
 title: Recruiter 电面挂经
 createdDate: 2025-11-04
-lastUpdated: 2025-11-04
+lastUpdated: 2026-10-09
 outline: deep
 ---
 # Meta Recruiter 电面挂经
+
+<InterviewDetail />
 
 ## 面试经历
 非码农岗，Meta自家recruiter，电话30分钟聊了岗位细节，问了工作中匹配JD的一些经历，结束的时候说会发给Manager。

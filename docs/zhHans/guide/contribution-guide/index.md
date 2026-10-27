@@ -2,7 +2,7 @@
 title: 贡献指南
 description: 如何参与贡献 Job Compass 项目，包括内容提交、代码修改、问题反馈等完整流程
 createdDate: 2026-05-28
-lastUpdated: 2026-05-28
+lastUpdated: 2026-10-09
 outline: deep
 authors:
   - Mark
@@ -25,6 +25,7 @@ authors:
 |---|---|
 | [贡献技巧](/guide/contribution-guide/tips.md) | 分支命名、frontmatter 填写、Markdown 写作规范 |
 | [常见问题排查](/guide/contribution-guide/troubleshooting.md) | 侧边栏不显示、构建报错、组件无数据等问题的解决方案 |
+| [使用 Claude Code 贡献](/guide/contribution-guide/claude-code.md) | 项目内置的 skills、`/progress` 命令，以及 hooks 会发送哪些内容、如何关闭 |
 
 ## 相关资源
 

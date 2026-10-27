@@ -2,22 +2,12 @@
 title: Software Engineer挂经
 description: Apple公司Software Engineer面试经验
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Apple公司Software Engineer面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：近期
-- **面试岗位**：Software Engineer
-- **学历背景**：硕士
-- **工作类型**：全职
-- **投递方式**：内推
-- **面试形式**：技术电面 + Onsite
-- **当前状态**：在职跳槽
 
 ## 面试详情
 

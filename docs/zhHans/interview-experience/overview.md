@@ -1,7 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-09-10
+lastUpdated: 2026-10-21
 ---
 <script setup>
 const overviewItems = [
@@ -62,6 +62,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "Compass",
+    "description": "Compass 面试经验分享",
+    "href": "./compass/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "Databricks",
     "description": "该文件主要介绍 Databricks 的相关内容。",
     "href": "./databricks/index.md",
@@ -98,7 +105,7 @@ const overviewItems = [
   },
   {
     "title": "Google",
-    "description": "该文件主要介绍 Google 的相关内容。",
+    "description": "Google 面试经验分享",
     "href": "./google/index.md",
     "order": 0,
     "kind": "folder"
@@ -111,9 +118,23 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "LinkedIn",
+    "description": "LinkedIn 面试经验分享",
+    "href": "./linkedin/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "Meta",
     "description": "该文件主要介绍 Meta 的相关内容。",
     "href": "./meta/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Microsoft",
+    "description": "Microsoft SDE 面试经验分享",
+    "href": "./microsoft/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -135,6 +156,13 @@ const overviewItems = [
     "title": "Notion",
     "description": "该文件主要介绍 Notion 的相关内容。",
     "href": "./notion/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Nuro",
+    "description": "该文件主要介绍 Nuro 的相关内容。",
+    "href": "./nuro/index.md",
     "order": 0,
     "kind": "folder"
   },

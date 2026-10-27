@@ -1,5 +1,11 @@
 {
   "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "嘿嘿在面试等offer",
+    "link": "https://www.1point3acres.com/bbs/thread-1184612-1-1.html"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",

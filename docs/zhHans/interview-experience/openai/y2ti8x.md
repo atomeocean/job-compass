@@ -2,7 +2,7 @@
 title: MachineLearningEng 挂经
 description: Open AI MachineLearningEng技术电面
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 authors:
   - name: Sung
@@ -11,16 +11,6 @@ authors:
 # Open AI公司 Machine Learning Eng技术电面经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：近期
-- **面试岗位**：Machine Learning Engineer
-- **学历背景**：博士
-- **工作类型**：全职
-- **投递方式**：内推
-- **面试形式**：技术电面
-- **当前状态**：在职跳槽
 
 ## 面试详情
 

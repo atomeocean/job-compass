@@ -1,0 +1,29 @@
+{
+  "company": "amazon",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE New Grad",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "oa", "rate": null },
+      { "roundType": "behavioral", "rate": null },
+      { "roundType": "coding", "rate": null },
+      { "roundType": "coding", "rate": 4 }
+    ]
+  }
+}
