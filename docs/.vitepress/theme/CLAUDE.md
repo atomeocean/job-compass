@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-13
+lastUpdated: 2026-10-27
 ---
 # CLAUDE.md — VitePress theme
 
@@ -13,12 +13,14 @@ file is about the code.
 ```
 theme/
   index.ts        theme entry: global component registration, Element Plus, layout slots
-  components/     25 components (+ components/siteStatistic/)
-  composables/    useContributors.ts, useInterviewData.ts
+  components/     26 components (+ components/siteStatistic/, components/home/ for /en/)
+  composables/    useContributors.ts, useInterviewData.ts, useBusuanzi.ts
   types/          shared TS interfaces and enums
   utils/          pure helpers (contributors.ts, interviewData.ts, interviewFormat.ts,
-                  referenceSource.ts, util.ts)
-  constants/      aiContributors.ts, logbookAuthors.ts
+                  referenceSource.ts, team.ts, util.ts)
+  constants/      aiContributors.ts, logbookAuthors.ts, teamMembers.ts, companyNames.ts,
+                  footerLinks.ts
+  data/           siteStats.data.ts — build-time data loader for the English homepage
   style/          brand-colors.css — Atomeocean blues (--ao-blue-*), mirrored from logbook
 ```
 
@@ -60,6 +62,7 @@ These components are wired through layout slots instead, and are not globally re
 | `aside-top` | `InterviewAsideCard` |
 | `doc-footer-before` | `InterviewDocFooter`, `OriginalStatement`, then `RelatedArticles` |
 | `doc-after` | `Giscus` |
+| `layout-bottom` | `SiteFooter` (English pages only) |
 
 The three `Interview*` slot components render on every page, so each one checks first and
 outputs nothing outside interview article pages: `InterviewBreadcrumb` keys off
@@ -77,6 +80,32 @@ when the Markdown file changes.
 
 `<DocTitleMeta />` is not written by hand either — a custom markdown-it plugin in
 [config.ts](../config.ts) appends it after every `h1` during render.
+
+## English homepage (`/en/`)
+
+`docs/en/index.md` is `layout: page` and renders [components/home/EnHome.vue](components/home/EnHome.vue).
+The hero and the company grid share one search query. Every number comes from
+[data/siteStats.data.ts](data/siteStats.data.ts), a VitePress data loader that runs at build time,
+so the numbers are in the static HTML.
+
+- The loader counts JSON and Markdown files and reads `git log`. Git numbers need full history
+  (`fetch-depth: 0`, which `deploy.yml` has). On a shallow clone the loader returns `git: null` and
+  those numbers are hidden rather than wrong. Loaders are bundled separately from `config.ts`, so
+  they cannot use the `@ao-` aliases.
+- The team section lists employees only. `contributors.ts` has no employee flag, so the list lives
+  in [constants/teamMembers.ts](constants/teamMembers.ts); names, titles and avatars still come
+  from `contributors.ts`.
+- Company names come from each company's `index.md` title, corrected by
+  [constants/companyNames.ts](constants/companyNames.ts). A company without an `index.md` links
+  to its newest report instead of a 404.
+- Readership comes from busuanzi via [composables/useBusuanzi.ts](composables/useBusuanzi.ts),
+  which `SiteViewStatistic` (Chinese homepage) and `DocTitleMeta` (article view count) also use.
+  The numbers only exist in the browser; when busuanzi is down or blocked, all three stay hidden
+  instead of showing 0 or a permanent "loading". Render the placeholder `<span>` outside any
+  `v-if`, or busuanzi has nowhere to write.
+- [components/SiteFooter.vue](components/SiteFooter.vue) is ported from logbook and renders on
+  English pages only; links live in [constants/footerLinks.ts](constants/footerLinks.ts). Add pages
+  that exist only in English to `EN_ONLY_PATHS`, so the footer's 中文 link falls back to `/`.
 
 ## SSR + SPA navigation gotchas
 

@@ -12,21 +12,25 @@ export const vitePressI18nOptions : VitePressI18nOptions = {
     en: 'English',
   },
   searchProvider: 'local',
+  // 英文页没有自己的 description 时用这一句，避免回落到站点级的中文描述
+  description: {
+    en: 'Interview experiences from the U.S. job market, structured, sourced and kept current. Built and maintained by Atomeocean.',
+  },
   themeConfig: {
     // 根据不同语言配置不同的导航栏
     en: {
+      logo: { light: '/logo.svg', dark: '/logo-dark.svg', alt: 'Atomeocean' },
       nav: [
+        { text: 'About', link: '/en/guide/about.md' },
+        { text: 'Team', link: '/en/guide/team.md' },
         {
-          text: 'Atomeocean Products',
+          text: 'Atomeocean',
           items: [
-            { text: 'Atomeocean', link: 'https://atomeocean.com' },
-            { text: 'Cruise', link: 'https://cruise.atomeocean.com'}
-          ]
-        },
-        {
-          text: 'Resource',
-          items: [
-            { text: 'Meet our team', link: '/team-information/team.md' },
+            { text: 'About Atomeocean', link: 'https://logbook.atomeocean.com/en/about-us/' },
+            { text: 'Company Credentials', link: 'https://logbook.atomeocean.com/en/about-us/legal-credentials/' },
+            { text: 'Careers', link: 'https://logbook.atomeocean.com/en/careers/job-post/overview.html' },
+            { text: 'Logbook', link: 'https://logbook.atomeocean.com/en/' },
+            { text: 'atomeocean.com', link: 'https://atomeocean.com' },
           ]
         }
       ],
