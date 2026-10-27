@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { SiteStats } from '../../data/siteStats.data'
-import { BUSUANZI_SITE_PV_ID, BUSUANZI_SITE_UV_ID, useBusuanziSiteStats } from '@ao-composables/useBusuanziSiteStats'
+import { BUSUANZI_IDS, useBusuanziCounts } from '@ao-composables/useBusuanzi'
 
 const props = defineProps<{ stats: SiteStats }>()
-const { pageViews, visitors, ready } = useBusuanziSiteStats()
+const { counts, ready } = useBusuanziCounts(['sitePv', 'siteUv'])
 
 const format = (value: number) => value.toLocaleString('en-US')
 
@@ -35,12 +35,12 @@ const tiles = [
       <p v-if="ready" class="readership" title="Live count across all pages of the site">
         <span class="dot" aria-hidden="true" />
         <strong>Readership to date</strong>
-        <span>{{ format(pageViews) }} page views</span>
+        <span>{{ format(counts.sitePv) }} page views</span>
         <span aria-hidden="true">·</span>
-        <span>{{ format(visitors) }} unique visitors</span>
+        <span>{{ format(counts.siteUv) }} unique visitors</span>
       </p>
-      <span :id="BUSUANZI_SITE_PV_ID" hidden />
-      <span :id="BUSUANZI_SITE_UV_ID" hidden />
+      <span :id="BUSUANZI_IDS.sitePv" hidden />
+      <span :id="BUSUANZI_IDS.siteUv" hidden />
       <p class="caption">
         Counts are computed from the
         <a class="home-link" href="https://github.com/atomeocean/job-compass" target="_blank" rel="noopener">public GitHub repository</a>
