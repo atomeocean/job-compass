@@ -1,0 +1,36 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "GeeksforGeeks",
+    "author": "匿名用户",
+    "link": "https://www.geeksforgeeks.org/interview-experiences/amazon-interview-experience-business-analyst/"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Business Analyst",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "coding",
+        "rate": null
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

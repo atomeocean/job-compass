@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import type { HomeLocale } from '@ao-types/homeTypes'
 import type { GitActivity, SiteStats } from '../../data/siteStats.data'
-import { BUSUANZI_SITE_PV_ID, BUSUANZI_SITE_UV_ID, useBusuanziSiteStats } from '@ao-composables/useBusuanziSiteStats'
+import { BUSUANZI_IDS, useBusuanziCounts } from '@ao-composables/useBusuanzi'
 
 const props = withDefaults(defineProps<{ stats: SiteStats; locale?: HomeLocale }>(), { locale: 'en' })
-const { pageViews, visitors, ready } = useBusuanziSiteStats()
+const { counts, ready } = useBusuanziCounts(['sitePv', 'siteUv'])
 
 const format = (value: number) => value.toLocaleString('en-US')
 
@@ -96,12 +96,12 @@ const tiles = copy.tiles(stats, stats.git)
       <p v-if="ready" class="readership" :title="copy.readershipTitle">
         <span class="dot" aria-hidden="true" />
         <strong>{{ copy.readership }}</strong>
-        <span>{{ copy.pageViews(format(pageViews)) }}</span>
+        <span>{{ copy.pageViews(format(counts.sitePv)) }}</span>
         <span aria-hidden="true">·</span>
-        <span>{{ copy.visitors(format(visitors)) }}</span>
+        <span>{{ copy.visitors(format(counts.siteUv)) }}</span>
       </p>
-      <span :id="BUSUANZI_SITE_PV_ID" hidden />
-      <span :id="BUSUANZI_SITE_UV_ID" hidden />
+      <span :id="BUSUANZI_IDS.sitePv" hidden />
+      <span :id="BUSUANZI_IDS.siteUv" hidden />
       <p class="caption">
         {{ copy.captionBefore }}<a class="home-link" href="https://github.com/atomeocean/job-compass" target="_blank" rel="noopener">{{ copy.captionLink }}</a>{{ copy.captionAfter }}<template v-if="stats.git">{{ copy.commits(stats.git) }}</template>{{ copy.end }}
       </p>

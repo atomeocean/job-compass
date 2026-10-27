@@ -1,21 +1,17 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
 import { countTransK, formatDate } from "../../utils/util";
 import { useData } from "vitepress";
-
-const PAGE_VIEW_ID = "busuanzi_value_page_pv";
+import { BUSUANZI_IDS, useBusuanziCounts } from "@ao-composables/useBusuanzi";
 
 const  { page, localeIndex } = useData()
 
 // vitepress-i18n 把中文的 localeIndex 映射成 'root'，英文页是 'en'
-const isEn = localeIndex.value === 'en'
-const LABELS = isEn
-  ? { created: 'Published', updated: 'Updated', views: 'Views', loading: 'Loading…' }
-  : { created: '发表于', updated: '更新于', views: '阅读量', loading: '加载中...' }
+const LABELS = localeIndex.value === 'en'
+  ? { created: 'Published', updated: 'Updated', views: 'Views' }
+  : { created: '发表于', updated: '更新于', views: '阅读量' }
 
-const pv = ref(LABELS.loading)
-// busuanzi 无响应时「加载中」会一直挂着；英文页等拿到数字再显示阅读量，中文页保持原样
-const pvLoaded = ref(false)
+// 阅读量等 busuanzi 返回数字后才显示；服务无响应时不显示，而不是一直「加载中」
+const { counts, ready } = useBusuanziCounts(['pagePv'])
 
 const DEFAULT_DATE = "2021-08-21"
 
@@ -26,23 +22,6 @@ const createdDate = createdDateRaw ? formatDate(new Date(createdDateRaw)) : DEFA
 // 从 frontmatter 读取最后更新日期
 const lastUpdatedRaw = page.value.frontmatter?.lastUpdated
 const lastUpdatedDate = lastUpdatedRaw ? formatDate(new Date(lastUpdatedRaw)) : createdDate
-
-const getPV = () => {
-  // 读取busuanzi服务器返回的浏览量
-  const el = document.querySelector(`#${PAGE_VIEW_ID}`);
-  const text = el?.innerHTML;
-  if (text) {
-    // 将浏览量千分位进行转换
-    pv.value = countTransK(parseInt(text));
-    pvLoaded.value = true;
-  } else {
-    setTimeout(getPV, 500);
-  }
-}
-
-onMounted(() => {
-  getPV()
-})
 </script>
 
 <template>
@@ -56,12 +35,13 @@ onMounted(() => {
         <el-icon><Clock /></el-icon>
         <span>{{ LABELS.updated }} {{ lastUpdatedDate }}</span>
       </div>
-      <div v-if="!isEn || pvLoaded" class="reader">
+      <div v-if="ready" class="reader">
         <el-icon><Avatar /></el-icon>
-        <span>{{ LABELS.views }} {{ pv }}</span>
+        <!-- 将浏览量千分位进行转换 -->
+        <span>{{ LABELS.views }} {{ countTransK(counts.pagePv) }}</span>
       </div>
       <!-- busuanzi 往这里写数字，必须一直渲染，不能放进上面的 v-if -->
-      <span :id="PAGE_VIEW_ID" style="display: none" />
+      <span :id="BUSUANZI_IDS.pagePv" style="display: none" />
     </div>
   </div>
 </template>
