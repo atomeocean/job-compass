@@ -2,6 +2,8 @@
 title: Business Analyst SQL
 description: Amazon Business Analyst SQL 面试经验
 outline: deep
+createdDate: 2026-10-27
+lastUpdated: 2026-10-27
 ---
 # Amazon Business Analyst SQL 面试经验
 
