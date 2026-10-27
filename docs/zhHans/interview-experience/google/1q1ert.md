@@ -3,7 +3,7 @@ title: Google SDE3两轮面试经验：Behavioral 与最大效率路径
 description: 两轮面试涵盖项目经历、设计取舍与图论 Coding，因讨论耗时未完成代码验证，最终未通过
 outline: deep
 createdDate: 2026-10-26
-lastUpdated: 2026-10-26
+lastUpdated: 2026-10-27
 ---
 # Google软件工程师两轮面试经验：Behavioral 与最大效率路径
 
