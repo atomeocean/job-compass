@@ -3,6 +3,8 @@ title: Team
 description: The Atomeocean team that builds and maintains Job Compass.
 layout: page
 sidebar: false
+createdDate: 2026-10-27
+lastUpdated: 2026-10-27
 ---
 <script setup lang="ts">
 import {

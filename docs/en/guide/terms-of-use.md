@@ -3,6 +3,8 @@ title: Terms of Use
 description: The terms that apply when you use Job Compass, including how community content, contributions and removal requests are handled.
 outline: deep
 comment: false
+createdDate: 2026-10-27
+lastUpdated: 2026-10-27
 ---
 # Terms of Use
 

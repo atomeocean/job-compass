@@ -3,6 +3,8 @@ title: Privacy Policy
 description: How information about visitors to Job Compass is collected and used, including analytics, advertising and comments.
 outline: deep
 comment: false
+createdDate: 2026-10-27
+lastUpdated: 2026-10-27
 ---
 # Privacy Policy
 

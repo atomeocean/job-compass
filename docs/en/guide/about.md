@@ -3,6 +3,8 @@ title: About Job Compass
 description: What Job Compass is, who builds it, and how interview reports are collected, structured, reviewed and published.
 outline: deep
 comment: false
+createdDate: 2026-10-27
+lastUpdated: 2026-10-27
 ---
 # About Job Compass
 

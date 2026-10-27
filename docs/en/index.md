@@ -25,7 +25,7 @@ head:
     - type: application/ld+json
     - '{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://atomeocean.com/#organization","name":"Atomeocean","url":"https://atomeocean.com","logo":"https://jobcompass.atomeocean.com/logo.svg","foundingDate":"2021","email":"customer@atomeocean.com","address":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY","addressCountry":"US"},"sameAs":["https://github.com/atomeocean","https://www.youtube.com/@atomeocean","https://x.com/atomeocean"]},{"@type":"WebSite","@id":"https://jobcompass.atomeocean.com/en/#website","name":"Job Compass","url":"https://jobcompass.atomeocean.com/en/","inLanguage":"en","publisher":{"@id":"https://atomeocean.com/#organization"}}]}'
 createdDate: 2025-03-14
-lastUpdated: 2025-09-03
+lastUpdated: 2026-10-27
 ---
 <script setup>
 import EnHome from '@ao-components/home/EnHome.vue'
