@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-10-23
+lastUpdated: 2026-10-27
 layout: page
 sidebar: false
 ---
@@ -12,7 +12,7 @@ sidebar: false
 const interviewItems = [
   {"title": "Compass", "description": "Compass 面试经验分享", "href": "./compass/index.md", "articleCount": 1, "lastUpdated": "2026-10-09", "createdDate": "2026-10-09"},
   {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 2, "lastUpdated": "2026-10-20", "createdDate": "2026-10-01"},
-  {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 3, "lastUpdated": "2026-10-21", "createdDate": "2026-09-02"},
+  {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 4, "lastUpdated": "2026-10-26", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
   {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 22, "lastUpdated": "2026-10-22", "createdDate": "2025-10-21"},
   {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 16, "lastUpdated": "2026-10-19", "createdDate": "2025-10-22"},
@@ -43,7 +43,7 @@ const interviewItems = [
   {"title": "Whatnot", "description": "SDE Video Interview 面经", "href": "./whatnot/index.md", "articleCount": 1, "lastUpdated": "2025-10-22", "createdDate": "2025-10-16"},
   {"title": "ICBC", "description": "Model 岗位面经", "href": "./icbc/index.md", "articleCount": 1, "lastUpdated": "2025-10-22", "createdDate": "2025-10-03"},
   {"title": "SMBC", "description": "Model Validation 面经", "href": "./smbc/index.md", "articleCount": 1, "lastUpdated": "2025-10-22", "createdDate": "2025-09-15"},
-  {"title": "Databricks", "description": "SWE Intern VO 面经", "href": "./databricks/index.md", "articleCount": 1, "lastUpdated": "2025-10-21", "createdDate": "2025-10-20"},
+  {"title": "Databricks", "description": "SWE Intern VO 面经", "href": "./databricks/index.md", "articleCount": 2, "lastUpdated": "2026-10-23", "createdDate": "2025-10-20"},
   {"title": "Fortinet", "description": "Fortinet 面试经验分享", "href": "./fortinet/index.md", "articleCount": 1, "lastUpdated": "2025-09-18", "createdDate": "2025-09-18"},
   {"title": "Rednote", "description": "纽约岗位面经", "href": "./rednote/index.md", "articleCount": 1, "lastUpdated": "2025-09-03", "createdDate": "2025-08-05"},
   {"title": "Nuro", "description": "Nuro面经", "href": "./nuro/index.md", "articleCount": 2, "lastUpdated": "2026-10-19", "createdDate": "2026-07-07"},

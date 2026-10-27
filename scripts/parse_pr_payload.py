@@ -30,11 +30,36 @@ def parse_pr_payload(payload):
     pr_data["mergedAt"] = payload["merged_at"]
     pr_data["link"] = payload["html_url"]
 
-    # 审核员信息可能不存在，需要单独处理
-    reviewers = payload.get("requested_reviewers", [])
-    pr_data["reviewer"] = reviewers[0]["login"] if reviewers else ""
+    pr_data["reviewer"] = resolve_reviewer(payload)
 
     return pr_data
+
+
+def resolve_reviewer(payload):
+    """
+    确定PR的审核员
+    requested_reviewers 只列还没提交review的人，审核员一approve就会被GitHub移出，
+    合并时通常已经是空的，所以优先看workflow补进来的reviews列表
+    :param payload: 完整的pr信息（reviews 字段由 workflow 从 /pulls/{n}/reviews 补充）
+    :return: 审核员的GitHub账号，找不到时为空字符串
+    """
+    opener = payload["user"]["login"]
+    # 排除PR发起人自己的评论
+    reviews = [
+        review for review in payload.get("reviews", [])
+        if review.get("user") and review["user"]["login"] != opener
+    ]
+
+    # 最后一个approve的人，其次是最后一个提交过review的人
+    approved = [review for review in reviews if review["state"] == "APPROVED"]
+    if approved:
+        return approved[-1]["user"]["login"]
+    if reviews:
+        return reviews[-1]["user"]["login"]
+
+    # 都没有时退回到仍待审核的人
+    requested = payload.get("requested_reviewers", [])
+    return requested[0]["login"] if requested else ""
 
 
 def main():
