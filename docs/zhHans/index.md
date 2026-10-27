@@ -22,7 +22,7 @@ head:
     - property: og:url
       content: https://jobcompass.atomeocean.com/
 createdDate: 2024-11-18
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-27
 ---
 <script setup>
 import ZhHome from '@ao-components/home/ZhHome.vue'
