@@ -1,0 +1,30 @@
+{
+  "company": "compass",
+  "sourceType": "original",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "mid-level",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "",
+    "yearsOfExperience": 4
+  },
+  "interview": {
+    "date": "2026-09-28",
+    "result": "fail",
+    "rounds": [
+      {
+        "roundType": "VO technical",
+        "rate": 4
+      }
+    ]
+  }
+}
+
