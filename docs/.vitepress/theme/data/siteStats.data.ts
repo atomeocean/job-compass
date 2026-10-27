@@ -21,11 +21,31 @@ export interface GitActivity {
   since: string
   /** 最后一次提交的日期，如 "Oct 27, 2026" */
   lastUpdated: string
+  /** 第一次、最后一次提交的日期，如 "2024-11-18"；中文首页按中文格式自己拼 */
+  firstCommitDate: string
+  lastCommitDate: string
   pullRequestsMerged30d: number
   activeContributors90d: number
 }
 
+/** 面经 JSON 的 sourceType；缺失或不认识的算 unknown */
+export type SourceType = 'original' | 'repost' | 'unknown'
+
+/** 中文首页「最新面经」的一行；level、result 是面经 JSON 里的原值，由页面用 interviewFormat 转成文案 */
+export interface LatestReport {
+  company: string
+  /** 文章 frontmatter 的 title */
+  title: string
+  href: string
+  /** 文章的 createdDate，统一成 YYYY-MM-DD */
+  date: string
+  level: string
+  result: string
+  sourceType: SourceType
+}
+
 export interface SiteStats {
+  /** 不含 NON_COMPANY_DIRS 里被折叠的帖子 */
   interviewReports: number
   /** 按面经数从多到少；不含 NON_COMPANY_DIRS */
   companies: CompanyStat[]
@@ -36,6 +56,9 @@ export interface SiteStats {
   jobPostingStates: number
   interviewPrepGuides: number
   careerGuides: number
+  sourceTypes: Record<SourceType, number>
+  /** 按 createdDate 从新到旧的前 LATEST_REPORT_COUNT 篇 */
+  latestReports: LatestReport[]
   git: GitActivity | null
   buildYear: number
 }
@@ -55,6 +78,8 @@ const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 const PULL_REQUEST_SUBJECT = /\(#\d+\)\s*$|^Merge pull request #\d+/
 const BOT_EMAIL = /\[bot\]|noreply@anthropic\.com|\+copilot@users\.noreply\.github\.com/i
 const DAY_MS = 24 * 60 * 60 * 1000
+/** 「最新面经」按级别筛选时从这么多篇里筛，筛完每一类也还有几篇可看 */
+const LATEST_REPORT_COUNT = 40
 
 const readJson = (file: string): any => {
   try {
@@ -64,6 +89,15 @@ const readJson = (file: string): any => {
     return null
   }
 }
+
+/** createdDate 的写法不统一（2026-6-9、{2025-11-22}），统一成 YYYY-MM-DD；认不出时返回空字符串 */
+const normalizeDate = (raw: string): string => {
+  const match = raw.match(/(\d{4})-(\d{1,2})-(\d{1,2})/)
+  return match ? `${match[1]}-${match[2].padStart(2, '0')}-${match[3].padStart(2, '0')}` : ''
+}
+
+const readCreatedDate = (file: string): string =>
+  normalizeDate(readFileSync(file, 'utf-8').match(/^createdDate:\s*(.+)$/m)?.[1] ?? '')
 
 /** "2026-10-27T00:35:05-04:00" → "Oct 27, 2026"；直接取字符串里的日期，不受构建机时区影响 */
 const formatDay = (iso: string): string => {
@@ -96,10 +130,7 @@ const companyHref = (companyDir: string, slug: string): string => {
   if (existsSync(join(companyDir, 'index.md'))) return `/interview-experience/${slug}/`
   const newest = readdirSync(companyDir)
     .filter((file) => file.endsWith('.md') && !NON_ARTICLE.has(file))
-    .map((file) => ({
-      file,
-      createdDate: readFileSync(join(companyDir, file), 'utf-8').match(/^createdDate:\s*(\S+)/m)?.[1] ?? '',
-    }))
+    .map((file) => ({ file, createdDate: readCreatedDate(join(companyDir, file)) }))
     .sort((a, b) => b.createdDate.localeCompare(a.createdDate))[0]
   return newest ? `/interview-experience/${slug}/${newest.file.slice(0, -3)}.html` : '/interview-experience/'
 }
@@ -125,6 +156,8 @@ const readGitActivity = (cwd: string, now: number): GitActivity | null => {
       commits: commits.length,
       since: formatMonth(commits[commits.length - 1].date),
       lastUpdated: formatDay(commits[0].date),
+      firstCommitDate: commits[commits.length - 1].date.slice(0, 10),
+      lastCommitDate: commits[0].date.slice(0, 10),
       pullRequestsMerged30d: within(30).filter((commit) => PULL_REQUEST_SUBJECT.test(commit.subject)).length,
       activeContributors90d: new Set(
         within(90).filter((commit) => !BOT_EMAIL.test(commit.email)).map((commit) => commit.email),
@@ -137,13 +170,13 @@ const readGitActivity = (cwd: string, now: number): GitActivity | null => {
 }
 
 /**
- * 英文首页和页脚用的站点统计，构建时从仓库计算，结果直接进静态 HTML，浏览器端不再请求。
- * 面经 / 公司 / 职位数来自 JSON，栏目篇数来自 Markdown，活跃度来自 git 历史（部署 workflow 是 fetch-depth: 0）。
+ * 中英文首页和英文页脚用的站点统计，构建时从仓库计算，结果直接进静态 HTML，浏览器端不再请求。
+ * 面经 / 公司 / 职位数来自 JSON，栏目篇数和最新面经的标题、日期来自 Markdown，活跃度来自 git 历史（部署 workflow 是 fetch-depth: 0）。
  */
 export default defineLoader({
   watch: [
     '../../../assets/json/interview-experience/**/*.json',
-    '../../../zhHans/interview-experience/*/index.md',
+    '../../../zhHans/interview-experience/**/*.md',
     '../../../zhHans/direct-hire-company/**/*.json',
     '../../../zhHans/job-postings/*/data/*.json',
     '../../../zhHans/interview-prepare/**/*.md',
@@ -154,12 +187,16 @@ export default defineLoader({
     const inDir = (dir: string) => files.filter((file) => relative(srcDir, file).split(sep).join('/').startsWith(dir))
     const articles = (dir: string) => inDir(dir).filter((file) => file.endsWith('.md') && !NON_ARTICLE.has(basename(file)))
 
-    const reports = inDir(INTERVIEW_JSON).filter((file) => file.endsWith('.json'))
+    // path 是面经在 JSON 目录下的路径、不含 .json，如 "amazon/amz445"，第一段是公司目录
+    const reports = inDir(INTERVIEW_JSON)
+      .filter((file) => file.endsWith('.json'))
+      .map((file) => {
+        const path = relative(join(srcDir, INTERVIEW_JSON), file).split(sep).join('/').slice(0, -'.json'.length)
+        return { file, path, slug: path.split('/')[0] }
+      })
+      .filter((report) => !NON_COMPANY_DIRS.has(report.slug))
     const reportsPerCompany = new Map<string, number>()
-    for (const file of reports) {
-      const slug = relative(join(srcDir, INTERVIEW_JSON), file).split(sep)[0]
-      if (!NON_COMPANY_DIRS.has(slug)) reportsPerCompany.set(slug, (reportsPerCompany.get(slug) ?? 0) + 1)
-    }
+    for (const { slug } of reports) reportsPerCompany.set(slug, (reportsPerCompany.get(slug) ?? 0) + 1)
     const companies = [...reportsPerCompany]
       .map(([slug, count]) => {
         const companyDir = join(srcDir, 'zhHans/interview-experience', slug)
@@ -168,6 +205,29 @@ export default defineLoader({
         return { slug, name: companyName(slug, title), reports: count, href: companyHref(companyDir, slug) }
       })
       .sort((a, b) => b.reports - a.reports || a.name.localeCompare(b.name))
+
+    const companyNames = new Map(companies.map((company) => [company.slug, company.name]))
+    const sourceTypes: Record<SourceType, number> = { original: 0, repost: 0, unknown: 0 }
+    const latestReports: LatestReport[] = []
+    for (const { file, path, slug } of reports) {
+      const report = readJson(file) ?? {}
+      const sourceType: SourceType =
+        report.sourceType === 'original' || report.sourceType === 'repost' ? report.sourceType : 'unknown'
+      sourceTypes[sourceType] += 1
+      const article = join(srcDir, 'zhHans/interview-experience', `${path}.md`)
+      const date = existsSync(article) ? readCreatedDate(article) : ''
+      if (!date) continue
+      latestReports.push({
+        company: companyNames.get(slug) ?? slug,
+        title: readFrontmatterTitle(article) || path,
+        href: `/interview-experience/${path}.html`,
+        date,
+        level: String(report.position?.level ?? ''),
+        result: String(report.interview?.result ?? ''),
+        sourceType,
+      })
+    }
+    latestReports.sort((a, b) => b.date.localeCompare(a.date) || a.href.localeCompare(b.href))
 
     const postings = inDir('zhHans/job-postings/').map(readJson).filter(Boolean)
     const employers = new Set(postings.map((posting) => String(posting.companyName ?? '').trim().toLowerCase()).filter(Boolean))
@@ -190,6 +250,8 @@ export default defineLoader({
       jobPostingStates: states.size,
       interviewPrepGuides: articles('zhHans/interview-prepare/').length,
       careerGuides: articles('zhHans/career-guide/').length,
+      sourceTypes,
+      latestReports: latestReports.slice(0, LATEST_REPORT_COUNT),
       git: readGitActivity(srcDir, now),
       buildYear: new Date(now).getFullYear(),
     }
