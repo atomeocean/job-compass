@@ -14,7 +14,7 @@ file is about the code.
 theme/
   index.ts        theme entry: global component registration, Element Plus, layout slots
   components/     26 components (+ components/siteStatistic/, components/home/ for /en/)
-  composables/    useContributors.ts, useInterviewData.ts, useBusuanziSiteStats.ts
+  composables/    useContributors.ts, useInterviewData.ts, useBusuanzi.ts
   types/          shared TS interfaces and enums
   utils/          pure helpers (contributors.ts, interviewData.ts, interviewFormat.ts,
                   referenceSource.ts, team.ts, util.ts)
@@ -98,9 +98,11 @@ so the numbers are in the static HTML.
 - Company names come from each company's `index.md` title, corrected by
   [constants/companyNames.ts](constants/companyNames.ts). A company without an `index.md` links
   to its newest report instead of a 404.
-- Readership comes from busuanzi via
-  [composables/useBusuanziSiteStats.ts](composables/useBusuanziSiteStats.ts). The numbers only exist
-  in the browser, and the row stays hidden if busuanzi fails to load.
+- Readership comes from busuanzi via [composables/useBusuanzi.ts](composables/useBusuanzi.ts),
+  which `SiteViewStatistic` (Chinese homepage) and `DocTitleMeta` (article view count) also use.
+  The numbers only exist in the browser; when busuanzi is down or blocked, all three stay hidden
+  instead of showing 0 or a permanent "loading". Render the placeholder `<span>` outside any
+  `v-if`, or busuanzi has nowhere to write.
 - [components/SiteFooter.vue](components/SiteFooter.vue) is ported from logbook and renders on
   English pages only; links live in [constants/footerLinks.ts](constants/footerLinks.ts). Add pages
   that exist only in English to `EN_ONLY_PATHS`, so the footer's 中文 link falls back to `/`.
