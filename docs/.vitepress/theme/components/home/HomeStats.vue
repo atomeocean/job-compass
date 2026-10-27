@@ -1,24 +1,85 @@
 <script setup lang="ts">
-import type { SiteStats } from '../../data/siteStats.data'
+import type { HomeLocale } from '@ao-types/homeTypes'
+import type { GitActivity, SiteStats } from '../../data/siteStats.data'
 import { BUSUANZI_SITE_PV_ID, BUSUANZI_SITE_UV_ID, useBusuanziSiteStats } from '@ao-composables/useBusuanziSiteStats'
 
-const props = defineProps<{ stats: SiteStats }>()
+const props = withDefaults(defineProps<{ stats: SiteStats; locale?: HomeLocale }>(), { locale: 'en' })
 const { pageViews, visitors, ready } = useBusuanziSiteStats()
 
 const format = (value: number) => value.toLocaleString('en-US')
 
+interface Tile {
+  value: number
+  label: string
+  detail: string
+}
+
+interface StatsCopy {
+  tiles: (stats: SiteStats, git: GitActivity | null) => Tile[]
+  readershipTitle: string
+  readership: string
+  pageViews: (count: string) => string
+  visitors: (count: string) => string
+  /** 说明数字来源的一句话，中间夹一个 GitHub 仓库的链接 */
+  captionBefore: string
+  captionLink: string
+  captionAfter: string
+  commits: (git: GitActivity) => string
+  end: string
+}
+
+const COPY: Record<HomeLocale, StatsCopy> = {
+  en: {
+    tiles: (stats, git) => [
+      { value: stats.interviewReports, label: 'Interview reports', detail: `across ${stats.companies.length} companies` },
+      { value: stats.companyProfiles, label: 'Company profiles', detail: 'U.S. employers' },
+      ...(git
+        ? [
+            { value: git.pullRequestsMerged30d, label: 'Pull requests merged', detail: 'in the last 30 days' },
+            { value: git.activeContributors90d, label: 'Active contributors', detail: 'in the last 90 days' },
+          ]
+        : []),
+    ],
+    readershipTitle: 'Live count across all pages of the site',
+    readership: 'Readership to date',
+    pageViews: (count) => `${count} page views`,
+    visitors: (count) => `${count} unique visitors`,
+    captionBefore: 'Counts are computed from the ',
+    captionLink: 'public GitHub repository',
+    captionAfter: ' each time the site is built',
+    commits: (git) => ` · ${format(git.commits)} commits since ${git.since}`,
+    end: '.',
+  },
+  zh: {
+    tiles: (stats, git) => [
+      { value: stats.interviewReports, label: '篇面经', detail: `覆盖 ${stats.companies.length} 家公司` },
+      { value: stats.companyProfiles, label: '家公司资料', detail: '美国直招雇主' },
+      ...(git
+        ? [
+            { value: git.pullRequestsMerged30d, label: '个 PR 已合并', detail: '近 30 天' },
+            { value: git.activeContributors90d, label: '位活跃贡献者', detail: '近 90 天' },
+          ]
+        : []),
+    ],
+    readershipTitle: '全站所有页面的实时累计',
+    readership: '累计阅读',
+    pageViews: (count) => `${count} 次浏览`,
+    visitors: (count) => `${count} 位访客`,
+    captionBefore: '以上数字在每次构建网站时，从',
+    captionLink: '公开的 GitHub 仓库',
+    captionAfter: '统计',
+    commits: (git) => {
+      const [year, month] = git.firstCommitDate.split('-').map(Number)
+      return ` · 自 ${year} 年 ${month} 月起共 ${format(git.commits)} 次提交`
+    },
+    end: '。',
+  },
+}
+
 const { stats } = props
-const tiles = [
-  { value: stats.interviewReports, label: 'Interview reports', detail: `across ${stats.companies.length} companies` },
-  { value: stats.companyProfiles, label: 'Company profiles', detail: 'U.S. employers' },
-  // 活跃度来自 git 历史，构建环境拿不到时整组不显示
-  ...(stats.git
-    ? [
-        { value: stats.git.pullRequestsMerged30d, label: 'Pull requests merged', detail: 'in the last 30 days' },
-        { value: stats.git.activeContributors90d, label: 'Active contributors', detail: 'in the last 90 days' },
-      ]
-    : []),
-]
+const copy = COPY[props.locale]
+// 活跃度来自 git 历史，构建环境拿不到时整组不显示
+const tiles = copy.tiles(stats, stats.git)
 </script>
 
 <template>
@@ -32,19 +93,17 @@ const tiles = [
         </div>
       </div>
       <!-- busuanzi 的数字只在浏览器里出现；加载失败或超时整行不显示，不会显示 0 -->
-      <p v-if="ready" class="readership" title="Live count across all pages of the site">
+      <p v-if="ready" class="readership" :title="copy.readershipTitle">
         <span class="dot" aria-hidden="true" />
-        <strong>Readership to date</strong>
-        <span>{{ format(pageViews) }} page views</span>
+        <strong>{{ copy.readership }}</strong>
+        <span>{{ copy.pageViews(format(pageViews)) }}</span>
         <span aria-hidden="true">·</span>
-        <span>{{ format(visitors) }} unique visitors</span>
+        <span>{{ copy.visitors(format(visitors)) }}</span>
       </p>
       <span :id="BUSUANZI_SITE_PV_ID" hidden />
       <span :id="BUSUANZI_SITE_UV_ID" hidden />
       <p class="caption">
-        Counts are computed from the
-        <a class="home-link" href="https://github.com/atomeocean/job-compass" target="_blank" rel="noopener">public GitHub repository</a>
-        each time the site is built<template v-if="stats.git"> · {{ format(stats.git.commits) }} commits since {{ stats.git.since }}</template>.
+        {{ copy.captionBefore }}<a class="home-link" href="https://github.com/atomeocean/job-compass" target="_blank" rel="noopener">{{ copy.captionLink }}</a>{{ copy.captionAfter }}<template v-if="stats.git">{{ copy.commits(stats.git) }}</template>{{ copy.end }}
       </p>
     </div>
   </section>

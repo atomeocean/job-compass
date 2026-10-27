@@ -13,14 +13,14 @@ file is about the code.
 ```
 theme/
   index.ts        theme entry: global component registration, Element Plus, layout slots
-  components/     26 components (+ components/siteStatistic/, components/home/ for /en/)
+  components/     26 components (+ components/siteStatistic/, components/home/ for / and /en/)
   composables/    useContributors.ts, useInterviewData.ts, useBusuanziSiteStats.ts
   types/          shared TS interfaces and enums
-  utils/          pure helpers (contributors.ts, interviewData.ts, interviewFormat.ts,
-                  referenceSource.ts, team.ts, util.ts)
+  utils/          pure helpers (companyMatch.ts, contributors.ts, interviewData.ts,
+                  interviewFormat.ts, referenceSource.ts, team.ts, util.ts)
   constants/      aiContributors.ts, logbookAuthors.ts, teamMembers.ts, companyNames.ts,
                   footerLinks.ts
-  data/           siteStats.data.ts — build-time data loader for the English homepage
+  data/           siteStats.data.ts — build-time data loader for both homepages
   style/          brand-colors.css — Atomeocean blues (--ao-blue-*), mirrored from logbook
 ```
 
@@ -81,23 +81,36 @@ when the Markdown file changes.
 `<DocTitleMeta />` is not written by hand either — a custom markdown-it plugin in
 [config.ts](../config.ts) appends it after every `h1` during render.
 
-## English homepage (`/en/`)
+## Homepages (`/` and `/en/`)
 
-`docs/en/index.md` is `layout: page` and renders [components/home/EnHome.vue](components/home/EnHome.vue).
-The hero and the company grid share one search query. Every number comes from
-[data/siteStats.data.ts](data/siteStats.data.ts), a VitePress data loader that runs at build time,
-so the numbers are in the static HTML.
+`docs/zhHans/index.md` and `docs/en/index.md` are `layout: page` and render
+[components/home/ZhHome.vue](components/home/ZhHome.vue) and
+[components/home/EnHome.vue](components/home/EnHome.vue). On both, the hero and the company grid
+share one search query. Every number comes from [data/siteStats.data.ts](data/siteStats.data.ts),
+a VitePress data loader that runs at build time, so the numbers are in the static HTML.
 
+- `HomeHero`, `HomeCompanyGrid`, `HomeProcess` and `HomeStats` are shared. They take
+  `locale="zh"` or `locale="en"` (the default) and keep both languages' copy in a `COPY` table
+  inside the component, so a wording change happens there, not in the page. The latest-reports
+  list, the stage links and the FAQ are Chinese-only; the sections, team and operator blocks are
+  English-only. Layout classes both pages use (`.home-section`, `.home-title`, …) live in
+  [components/home/home-page.scss](components/home/home-page.scss), under `.home-page`.
 - The loader counts JSON and Markdown files and reads `git log`. Git numbers need full history
   (`fetch-depth: 0`, which `deploy.yml` has). On a shallow clone the loader returns `git: null` and
   those numbers are hidden rather than wrong. Loaders are bundled separately from `config.ts`, so
-  they cannot use the `@ao-` aliases.
-- The team section lists employees only. `contributors.ts` has no employee flag, so the list lives
-  in [constants/teamMembers.ts](constants/teamMembers.ts); names, titles and avatars still come
-  from `contributors.ts`.
+  they cannot use the `@ao-` aliases. Folded posts (`folded-entry/`) are not counted as reports.
+- `latestReports` is the newest 40 reports by the article's `createdDate`. Some articles write it
+  as `2026-6-9` or `{2025-11-22}`, so the loader normalises the date before sorting. The Chinese
+  homepage filters the list into 实习 / 应届 / 社招 with `levelGroup` in
+  [utils/interviewFormat.ts](utils/interviewFormat.ts), and formats dates from the build year
+  rather than `Date.now()`, so SSR and hydration render the same text.
+- The team section (English homepage) lists employees only. `contributors.ts` has no employee
+  flag, so the list lives in [constants/teamMembers.ts](constants/teamMembers.ts); names, titles
+  and avatars still come from `contributors.ts`.
 - Company names come from each company's `index.md` title, corrected by
   [constants/companyNames.ts](constants/companyNames.ts). A company without an `index.md` links
-  to its newest report instead of a 404.
+  to its newest report instead of a 404. The company search also matches the Chinese nicknames
+  in `COMPANY_ALIASES` there (亚麻 finds Amazon), via [utils/companyMatch.ts](utils/companyMatch.ts).
 - Readership comes from busuanzi via
   [composables/useBusuanziSiteStats.ts](composables/useBusuanziSiteStats.ts). The numbers only exist
   in the browser, and the row stays hidden if busuanzi fails to load.
