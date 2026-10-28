@@ -18,13 +18,16 @@
   },
   "interview": {
     "date": "2026-09-28",
-    "result": "fail",
+    "result": "rejected",
     "rounds": [
       {
-        "roundType": "VO technical",
+        "roundType": "technical",
         "rate": 4
       }
     ]
-  }
+  },
+  "highlights": [],
+  "timeline": [
+    { "date": "2026-09-28", "event": "VO 技术面", "type": "interview", "rounds": [1] }
+  ]
 }
-
