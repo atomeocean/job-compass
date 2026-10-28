@@ -2,6 +2,8 @@
 title: Compass SDE VO 技术面
 description: Compass SDE VO Technical 面试经验
 outline: deep
+createdDate: 2026-10-28
+lastUpdated: 2026-10-28
 ---
 # Compass SDE VO 技术面
 
