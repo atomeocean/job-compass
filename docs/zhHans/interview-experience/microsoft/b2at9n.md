@@ -2,6 +2,8 @@
 title: SDE Loop Onsite面经
 description: Microsoft SDE Loop Onsite面试经验
 outline: deep
+createdDate: 2026-10-29
+lastUpdated: 2026-10-29
 ---
 # Microsoft SDE Loop Onsite面试经验
 
