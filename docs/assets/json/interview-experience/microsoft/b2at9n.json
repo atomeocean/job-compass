@@ -1,0 +1,36 @@
+{
+  "company": "microsoft",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "匿名用户-EHNMT",
+    "link": "https://www.1point3acres.com/bbs/thread-1194079-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "sde",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "onsite",
+        "rate": null
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
