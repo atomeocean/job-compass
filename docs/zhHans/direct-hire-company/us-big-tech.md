@@ -2,8 +2,9 @@
 title: 美国大司
 description: 介绍美国大司的定义
 outline: deep
+createdDate: 2026-10-29
+lastUpdated: 2026-10-29
 ---
-
 # 美国大司
 
 简称大司，指所有在留学生心目中认为“美国的正经公司”。

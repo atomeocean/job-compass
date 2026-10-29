@@ -1,7 +1,7 @@
 ---
 title: Snowflake Inc.
 createdDate: 2026-06-02
-lastUpdated: 2026-06-04
+lastUpdated: 2026-10-29
 outline: deep
 ---
 # Snowflake Inc.
