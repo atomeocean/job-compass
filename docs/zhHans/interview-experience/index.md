@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-10-27
+lastUpdated: 2026-10-29
 layout: page
 sidebar: false
 ---
@@ -10,7 +10,7 @@ sidebar: false
 // 来自各公司 index.md frontmatter；articleCount/lastUpdated/createdDate 为需要
 // 脚本扩展输出的新字段）。当前数据基于 2026-07-13 的仓库内容生成。
 const interviewItems = [
-  {"title": "Compass", "description": "Compass 面试经验分享", "href": "./compass/index.md", "articleCount": 1, "lastUpdated": "2026-10-09", "createdDate": "2026-10-09"},
+  {"title": "Compass", "description": "Compass 面试经验分享", "href": "./compass/index.md", "articleCount": 2, "lastUpdated": "2026-10-28", "createdDate": "2026-10-09"},
   {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 2, "lastUpdated": "2026-10-20", "createdDate": "2026-10-01"},
   {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 4, "lastUpdated": "2026-10-26", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
@@ -26,7 +26,7 @@ const interviewItems = [
   {"title": "Uber", "description": "Uber 面试经验分享", "href": "./uber/index.md", "articleCount": 12, "lastUpdated": "2026-10-21", "createdDate": "2025-11-21"},
   {"title": "TikTok", "description": "SDE Intern 面经", "href": "./tiktok/index.md", "articleCount": 6, "lastUpdated": "2026-10-20", "createdDate": "2025-09-26"},
   {"title": "Nvidia", "description": "Nvidia 面试经验分享", "href": "./nvidia/index.md", "articleCount": 2, "lastUpdated": "2026-06-01", "createdDate": "2025-10-22"},
-  {"title": "Microsoft", "description": "Microsoft 面试经验分享", "href": "./microsoft/index.md", "articleCount": 4, "lastUpdated": "2026-10-08", "createdDate": "2026-05-28"},
+  {"title": "Microsoft", "description": "Microsoft 面试经验分享", "href": "./microsoft/index.md", "articleCount": 5, "lastUpdated": "2026-10-29", "createdDate": "2026-05-28"},
   {"title": "ByteDance", "description": "SDE NG 多轮面经", "href": "./bytedance/index.md", "articleCount": 4, "lastUpdated": "2026-05-27", "createdDate": "2025-08-27"},
   {"title": "Apple", "description": "Apple 面试经验分享", "href": "./apple/index.md", "articleCount": 4, "lastUpdated": "2026-10-13", "createdDate": "2025-10-22"},
   {"title": "GEICO", "description": "GEICO 面试经验分享", "href": "./geico/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
