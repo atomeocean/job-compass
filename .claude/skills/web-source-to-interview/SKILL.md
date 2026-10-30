@@ -123,6 +123,9 @@ anonymize the original author, objective tone, no attacks on interviewers.
      LeetCode problems like `[LeetCode 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)`),
      `### 解决方法`, `### 面试流程`, `### 和面试官沟通细节`, `### 面试结果反馈`.
      Mark inferences explicitly (e.g. "从行文语气推断") rather than stating them as fact.
+     `### 面试结果反馈` is only for what the source says beyond the result itself (HR feedback,
+     rejection reason) — never restate pass / rejected there, the JSON `result` shows it; if
+     that is all the source says, leave the section out.
    - End with `<ReferenceSource>` citing the source (globally registered, inline props):
      ```vue
      <ReferenceSource
