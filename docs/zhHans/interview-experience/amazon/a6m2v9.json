@@ -1,0 +1,37 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "sde-ii",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "online-assessment",
+        "rate": null
+      },
+      {
+        "roundType": "phone-screen",
+        "rate": null
+      },
+      {
+        "roundType": "onsite",
+        "rate": null
+      }
+    ]
+  }
+}
