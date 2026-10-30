@@ -29,10 +29,6 @@ lastUpdated: 2026-10-27
 
 我也没有问 constraints，也没有做任何 assumptions，比如有多少 nodes 或 edges。是不是一定保证有路径。我没能问出这些问题，面试官也把这些指出来了。
 
-## 面试结果反馈
-
-- **最终结果**：Rejected
-
 <ReferenceSource
 :sources="[
 {
