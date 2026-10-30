@@ -52,10 +52,15 @@ anonymize the original author, objective tone, no attacks on interviewers.
    ```markdown
    ---
    title: <Company>
+   description: <Company> 面试经验分享
    ---
+   <script setup>
+   import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.vue'
+   </script>
+
    # <Company>面试经验
 
-   公司介绍页面链接暂无
+   <CompanyInterviewList />
    ```
 
 4. **Generate the slug** — a random 6-char lowercase alphanumeric ID (existing

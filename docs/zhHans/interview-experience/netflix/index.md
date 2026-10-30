@@ -3,6 +3,10 @@ title: Netflix
 createdDate: 2026-05-29
 lastUpdated: 2026-05-29
 ---
+<script setup>
+import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.vue'
+</script>
+
 # Netflix面试经验
 
-公司介绍页面：[Netflix, Inc.](/direct-hire-company/california/santa-clara/netflix)
+<CompanyInterviewList />

@@ -201,10 +201,41 @@ a value, and never leave the template's `"string"` placeholder.
 
 ## Company `index.md`
 
-Each `<company>/index.md` needs frontmatter `title` (display name, e.g. `Amazon`) and
-`description` (short blurb). Both are read by `generate_folder_overview.py` and surface in the
-listings, so a missing `description` shows up as generic filler text on the section page. The
-`title` is also the company name in every article's breadcrumb, drawer and info card.
+Every company folder needs an `index.md`: it is the page behind the homepage company grid, the
+section table, the breadcrumb and the drawer, so a missing one means a 404 from the section table.
+
+```markdown
+---
+title: Amazon
+description: Amazon 面试经验分享
+---
+<script setup>
+import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.vue'
+</script>
+
+# Amazon面试经验
+
+<CompanyInterviewList />
+```
+
+- `title` (display name) and `description` (short blurb) are read by
+  `generate_folder_overview.py` and surface in the listings, so a missing `description` shows up
+  as generic filler text on the section page. The `title` is also the company name in every
+  article's breadcrumb, drawer and info card.
+- `<CompanyInterviewList />` takes no props and is the whole point of the page: everyone landing
+  here came to read 面经, so it lists all of the company's, newest 收录时间 first, with a
+  实习 / 应届 / 社招 filter. It is not registered globally, so every page needs the import too. The
+  build prints an `[interviewCompany]` warning when the import or the tag is missing.
+- **Don't write a company-intro link by hand.** `interviewNav.ts` finds the page in
+  `direct-hire-company/**/<company>.md` by the folder name and shows a small link above the list,
+  or nothing when there is none. A new intro page is picked up automatically; it only needs the
+  same slug as the interview folder.
+- `transformPageData` sets `sidebar: false` and `aside: false` here, the same way it does on
+  articles: the list replaces the sidebar. It also sets `contributors: false`, since whoever
+  committed the `index.md` did not write the 面经, and overwrites `lastUpdated` with the newest
+  report's `createdDate`, so 「更新于」 means the list, not the shell file.
+- Stage subfolders (`amazon/onsite/`) are listed under the company like any other article, and
+  their pages get the same breadcrumb, drawer and info card.
 
 ## Landing pages
 
@@ -213,7 +244,9 @@ listings, so a missing `description` shows up as generic filler text on the sect
   yet output `articleCount` / `lastUpdated` / `createdDate`
   ([interviewExperienceListTypes.ts](../../.vitepress/theme/types/interviewExperienceListTypes.ts)).
   When you add a company, add its row here too.
-- `overview.md` — **generated**, never edit by hand.
+- `overview.md` — **generated**, never edit by hand. Nothing links to a company-level
+  `overview.md` any more; `<CompanyInterviewList />` is the list readers see, because the
+  overview only knows `title` / `description` and is refreshed nightly.
 
 ## folded-entry/
 

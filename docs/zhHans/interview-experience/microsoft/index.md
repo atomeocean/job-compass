@@ -4,6 +4,10 @@ description: Microsoft SDE 面试经验分享
 createdDate: 2026-09-25
 lastUpdated: 2026-09-25
 ---
+<script setup>
+import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.vue'
+</script>
+
 # Microsoft面试经验
 
-公司介绍页面：[Microsoft](/direct-hire-company/washington/redmond/microsoft)
+<CompanyInterviewList />
