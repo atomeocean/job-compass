@@ -60,9 +60,11 @@ The only edits allowed:
 6. Put the extracted metadata (date, role, level, education, channel, result, rounds,
    background) in the **JSON only** — the page's info card shows it, so there is no
    `## 基本信息` list. A fact the JSON has no field for (team, location, test platform,
-   duration) is a bullet at the top of `## 面试详情`. Write `## 面试结果反馈` as short
-   structured fields. The phrasing of extracted fields is yours, but every value comes from the
-   source.
+   duration) is a bullet at the top of `## 面试详情`. The result itself (pass / rejected) is
+   never repeated in the Markdown — no `- **最终结果**` line. Write `## 面试结果反馈` only when
+   the author says more about the outcome (HR feedback, rejection reason, their own reaction),
+   and keep that text verbatim. The phrasing of extracted fields is yours, but every value comes
+   from the source.
 
 Keep the author's own lists as lists and their prose as prose. Keep their descriptions of the
 interviewer as written.
@@ -132,7 +134,7 @@ outline: deep
 
 ## 面试结果反馈
 
-- **最终结果**：<…>
+<the author's own words about the outcome, verbatim — omit this section if they only state the result>
 
 <ReferenceSource
 :sources="[
@@ -198,7 +200,8 @@ predate that table, so take their shape, not their values.
 3. **Pick the folder**: `<company>` is lowercase kebab-case. If the company folder has
    stage subfolders (e.g. `amazon/online-assessment/`) and the post belongs to one, use it —
    the md and json paths mirror each other below `interview-experience/`. For a new company,
-   create `<company>/index.md` modelled on `google/index.md` with `title` and `description`.
+   create `<company>/index.md` modelled on `google/index.md` with `title` and `description`,
+   keeping its `<script setup>` import and the `<CompanyInterviewList />` under the H1.
 4. **Update the landing page** `docs/zhHans/interview-experience/index.md`: in
    `interviewItems`, bump the company's `articleCount` and set `lastUpdated` to today, or add a
    row for a new company.

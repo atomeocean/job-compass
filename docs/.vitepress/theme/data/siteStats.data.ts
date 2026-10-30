@@ -3,7 +3,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { basename, join, relative, sep } from 'node:path'
 import { defineLoader, type SiteConfig } from 'vitepress'
 // 数据加载器由 Vite 单独打包执行，不经过 config.ts 里的 alias，这里只能用相对路径
-import { readFrontmatterTitle } from '../../interviewNav'
+import { readCreatedDate, readFrontmatterTitle } from '../../interviewNav'
 import { ENGLISH_COMPANY_NAMES, NON_COMPANY_DIRS } from '../constants/companyNames'
 
 export interface CompanyStat {
@@ -90,15 +90,6 @@ const readJson = (file: string): any => {
   }
 }
 
-/** createdDate 的写法不统一（2026-6-9、{2025-11-22}），统一成 YYYY-MM-DD；认不出时返回空字符串 */
-const normalizeDate = (raw: string): string => {
-  const match = raw.match(/(\d{4})-(\d{1,2})-(\d{1,2})/)
-  return match ? `${match[1]}-${match[2].padStart(2, '0')}-${match[3].padStart(2, '0')}` : ''
-}
-
-const readCreatedDate = (file: string): string =>
-  normalizeDate(readFileSync(file, 'utf-8').match(/^createdDate:\s*(.+)$/m)?.[1] ?? '')
-
 /** "2026-10-27T00:35:05-04:00" → "Oct 27, 2026"；直接取字符串里的日期，不受构建机时区影响 */
 const formatDay = (iso: string): string => {
   const [year, month, day] = iso.slice(0, 10).split('-').map(Number)
@@ -115,7 +106,7 @@ const capitalize = (word: string): string => {
   return first.toUpperCase() + rest.join('')
 }
 
-/** 先查英文写法表；index.md 的 title 全是小写时（uber、applied-intuition）按单词首字母大写 */
+/** 先查英文写法表；index.md 的 title 全是小写时按单词首字母大写 */
 const companyName = (slug: string, title: string): string => {
   if (ENGLISH_COMPANY_NAMES[slug]) return ENGLISH_COMPANY_NAMES[slug]
   const text = title || slug
@@ -123,7 +114,7 @@ const companyName = (slug: string, title: string): string => {
 }
 
 /**
- * 公司网格的链接。有些公司目录没有 index.md（uber、stubhub 等），链过去会 404，
+ * 公司网格的链接。公司目录漏建 index.md 时链过去会 404，
  * 这时指向 createdDate 最新的一篇面经：文章页的「本公司面经」抽屉能看到同公司其余面经。
  */
 const companyHref = (companyDir: string, slug: string): string => {

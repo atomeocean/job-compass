@@ -1,6 +1,6 @@
 // 首页公司网格用的显示名（中英文首页共用）。默认取面经公司目录 index.md 的 title，那里有几处是旧写法或小写
-// （Open AI、Rednote、Walmart labs、stubhub），首页在这里换成公司自己的写法。
-// 全小写的 title（uber、applied-intuition）不用登记，数据加载时会按单词首字母大写。
+// （Open AI、Rednote、Walmart labs），首页在这里换成公司自己的写法。
+// 全小写的 title 不用登记，数据加载时会按单词首字母大写。
 export const ENGLISH_COMPANY_NAMES: Record<string, string> = {
   nvidia: 'NVIDIA',
   openai: 'OpenAI',
