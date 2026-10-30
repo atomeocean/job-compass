@@ -3,7 +3,7 @@ title: SDE 3 phone screen
 description: Google SDE 3 Software Engineer Phone Screen面试经验
 outline: deep
 createdDate: 2026-10-27
-lastUpdated: 2026-10-27
+lastUpdated: 2026-10-30
 ---
 # Google SDE 3 Software Engineer Phone Screen面试经验
 
@@ -28,10 +28,6 @@ lastUpdated: 2026-10-27
 对于这道题，我立刻就想到了 dijkstra's algorithm，并解释了我会怎么解。但面试官问那 DFS 和 BFS 呢？我讲了用 DFS 我会怎么解，但时间复杂度会是 O(V!)，所以我没有提这个方案。然后他问我 BFS 的解法。我试着讲一个 BFS 的答案，但没能找到解法，讲了几个思路，他指出那些行不通，后来他告诉我用 BFS 是解不出来的。于是我开始写 dijkstra's 的解法，然后时间就用完了。我没来得及用一个例子把代码走一遍。我只讲了这个解法的时间和空间复杂度。
 
 我也没有问 constraints，也没有做任何 assumptions，比如有多少 nodes 或 edges。是不是一定保证有路径。我没能问出这些问题，面试官也把这些指出来了。
-
-## 面试结果反馈
-
-- **最终结果**：Rejected
 
 <ReferenceSource
 :sources="[

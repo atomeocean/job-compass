@@ -1,4 +1,4 @@
-<!--面经页标题上方的面包屑和「本公司面经」按钮，通过 doc-before 插槽挂载；数据由构建时写入的 frontmatter.interviewNav 提供，非面经文章页不渲染-->
+<!--面经页标题上方的面包屑和「本公司面经」按钮，通过 doc-before 插槽挂载；数据由构建时写入的 frontmatter.interviewNav 提供，只在面经文章页和公司目录页渲染-->
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { useData } from 'vitepress'
@@ -11,6 +11,8 @@ const nav = computed(() => frontmatter.value.interviewNav as InterviewNav | unde
 const pageTitle = computed(() => frontmatter.value.title || page.value.title)
 /** relativePath 是 rewrites 之后的路径，和 interviewNav.items[].href 同一格式 */
 const currentHref = computed(() => `/${page.value.relativePath.replace(/\.md$/, '')}`)
+/** 公司目录页本身就是面经列表：面包屑到公司为止，也不需要抽屉 */
+const isCompanyPage = computed(() => currentHref.value === `${nav.value?.company.href}index`)
 
 const drawerOpen = ref(false)
 
@@ -25,13 +27,16 @@ watch(() => page.value.relativePath, () => {
     <nav class="interview-crumbs__trail" aria-label="面包屑">
       <a href="/interview-experience/">面试经验</a>
       <span aria-hidden="true">/</span>
-      <a :href="nav.company.href">{{ nav.company.title }}</a>
-      <span aria-hidden="true">/</span>
-      <span aria-current="page">{{ pageTitle }}</span>
+      <span v-if="isCompanyPage" aria-current="page">{{ nav.company.title }}</span>
+      <template v-else>
+        <a :href="nav.company.href">{{ nav.company.title }}</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">{{ pageTitle }}</span>
+      </template>
     </nav>
 
     <button
-      v-if="nav.items.length > 1"
+      v-if="!isCompanyPage && nav.items.length > 1"
       type="button"
       class="interview-crumbs__drawer-btn"
       aria-haspopup="dialog"
@@ -43,7 +48,7 @@ watch(() => page.value.relativePath, () => {
       <em>{{ nav.items.length }}</em>
     </button>
 
-    <ClientOnly>
+    <ClientOnly v-if="!isCompanyPage">
       <InterviewCompanyDrawer v-model="drawerOpen" :nav="nav" :current-href="currentHref" />
     </ClientOnly>
   </div>
