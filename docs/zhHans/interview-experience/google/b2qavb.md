@@ -2,7 +2,7 @@
 title: L4过经
 description: Google L4 Software Engineer Onsite面试经验
 createdDate: 2026-06-28
-lastUpdated: 2026-10-29
+lastUpdated: 2026-10-30
 outline: deep
 ---
 # Google L4 Software Engineer Onsite面试经验
