@@ -1,0 +1,33 @@
+{
+  "company": "google",
+  "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "Anonymous User",
+    "link": "https://leetcode.com/discuss/post/8572982/google-sde-3-interview-phone-screen-expe-ov8g/"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

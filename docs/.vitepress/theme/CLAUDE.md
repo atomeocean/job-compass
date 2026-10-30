@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-13
+lastUpdated: 2026-10-27
 ---
 # CLAUDE.md — VitePress theme
 
@@ -13,12 +13,14 @@ file is about the code.
 ```
 theme/
   index.ts        theme entry: global component registration, Element Plus, layout slots
-  components/     25 components (+ components/siteStatistic/)
-  composables/    useContributors.ts, useInterviewData.ts
+  components/     26 components (+ components/siteStatistic/, components/home/ for / and /en/)
+  composables/    useContributors.ts, useInterviewData.ts, useBusuanzi.ts
   types/          shared TS interfaces and enums
-  utils/          pure helpers (contributors.ts, interviewData.ts, interviewFormat.ts,
-                  referenceSource.ts, util.ts)
-  constants/      aiContributors.ts, logbookAuthors.ts
+  utils/          pure helpers (companyMatch.ts, contributors.ts, interviewData.ts,
+                  interviewFormat.ts, referenceSource.ts, team.ts, util.ts)
+  constants/      aiContributors.ts, logbookAuthors.ts, teamMembers.ts, companyNames.ts,
+                  footerLinks.ts
+  data/           siteStats.data.ts — build-time data loader for both homepages
   style/          brand-colors.css — Atomeocean blues (--ao-blue-*), mirrored from logbook
 ```
 
@@ -60,6 +62,7 @@ These components are wired through layout slots instead, and are not globally re
 | `aside-top` | `InterviewAsideCard` |
 | `doc-footer-before` | `InterviewDocFooter`, `OriginalStatement`, then `RelatedArticles` |
 | `doc-after` | `Giscus` |
+| `layout-bottom` | `SiteFooter` (English pages only) |
 
 The three `Interview*` slot components render on every page, so each one checks first and
 outputs nothing outside interview article pages: `InterviewBreadcrumb` keys off
@@ -77,6 +80,45 @@ when the Markdown file changes.
 
 `<DocTitleMeta />` is not written by hand either — a custom markdown-it plugin in
 [config.ts](../config.ts) appends it after every `h1` during render.
+
+## Homepages (`/` and `/en/`)
+
+`docs/zhHans/index.md` and `docs/en/index.md` are `layout: page` and render
+[components/home/ZhHome.vue](components/home/ZhHome.vue) and
+[components/home/EnHome.vue](components/home/EnHome.vue). On both, the hero and the company grid
+share one search query. Every number comes from [data/siteStats.data.ts](data/siteStats.data.ts),
+a VitePress data loader that runs at build time, so the numbers are in the static HTML.
+
+- `HomeHero`, `HomeCompanyGrid`, `HomeProcess` and `HomeStats` are shared. They take
+  `locale="zh"` or `locale="en"` (the default) and keep both languages' copy in a `COPY` table
+  inside the component, so a wording change happens there, not in the page. The latest-reports
+  list, the stage links and the FAQ are Chinese-only; the sections, team and operator blocks are
+  English-only. Layout classes both pages use (`.home-section`, `.home-title`, …) live in
+  [components/home/home-page.scss](components/home/home-page.scss), under `.home-page`.
+- The loader counts JSON and Markdown files and reads `git log`. Git numbers need full history
+  (`fetch-depth: 0`, which `deploy.yml` has). On a shallow clone the loader returns `git: null` and
+  those numbers are hidden rather than wrong. Loaders are bundled separately from `config.ts`, so
+  they cannot use the `@ao-` aliases. Folded posts (`folded-entry/`) are not counted as reports.
+- `latestReports` is the newest 40 reports by the article's `createdDate`. Some articles write it
+  as `2026-6-9` or `{2025-11-22}`, so the loader normalises the date before sorting. The Chinese
+  homepage filters the list into 实习 / 应届 / 社招 with `levelGroup` in
+  [utils/interviewFormat.ts](utils/interviewFormat.ts), and formats dates from the build year
+  rather than `Date.now()`, so SSR and hydration render the same text.
+- The team section (English homepage) lists employees only. `contributors.ts` has no employee
+  flag, so the list lives in [constants/teamMembers.ts](constants/teamMembers.ts); names, titles
+  and avatars still come from `contributors.ts`.
+- Company names come from each company's `index.md` title, corrected by
+  [constants/companyNames.ts](constants/companyNames.ts). A company without an `index.md` links
+  to its newest report instead of a 404. The company search also matches the Chinese nicknames
+  in `COMPANY_ALIASES` there (亚麻 finds Amazon), via [utils/companyMatch.ts](utils/companyMatch.ts).
+- Readership comes from busuanzi via [composables/useBusuanzi.ts](composables/useBusuanzi.ts),
+  which `DocTitleMeta` (article view count) and the now-unused `SiteViewStatistic` also use.
+  The numbers only exist in the browser; when busuanzi is down or blocked, they stay hidden
+  instead of showing 0 or a permanent "loading". Render the placeholder `<span>` outside any
+  `v-if`, or busuanzi has nowhere to write.
+- [components/SiteFooter.vue](components/SiteFooter.vue) is ported from logbook and renders on
+  English pages only; links live in [constants/footerLinks.ts](constants/footerLinks.ts). Add pages
+  that exist only in English to `EN_ONLY_PATHS`, so the footer's 中文 link falls back to `/`.
 
 ## SSR + SPA navigation gotchas
 
