@@ -1,7 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-08-18
+lastUpdated: 2026-10-30
 ---
 <script setup>
 const overviewItems = [
@@ -142,6 +142,13 @@ const overviewItems = [
     "title": "目录综述",
     "description": "直接雇佣公司",
     "href": "./general.md",
+    "order": 0,
+    "kind": "article"
+  },
+  {
+    "title": "美国大司",
+    "description": "介绍美国大司的定义",
+    "href": "./us-big-tech.md",
     "order": 0,
     "kind": "article"
   }
