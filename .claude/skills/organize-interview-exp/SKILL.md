@@ -60,9 +60,11 @@ The only edits allowed:
 6. Put the extracted metadata (date, role, level, education, channel, result, rounds,
    background) in the **JSON only** — the page's info card shows it, so there is no
    `## 基本信息` list. A fact the JSON has no field for (team, location, test platform,
-   duration) is a bullet at the top of `## 面试详情`. Write `## 面试结果反馈` as short
-   structured fields. The phrasing of extracted fields is yours, but every value comes from the
-   source.
+   duration) is a bullet at the top of `## 面试详情`. The result itself (pass / rejected) is
+   never repeated in the Markdown — no `- **最终结果**` line. Write `## 面试结果反馈` only when
+   the author says more about the outcome (HR feedback, rejection reason, their own reaction),
+   and keep that text verbatim. The phrasing of extracted fields is yours, but every value comes
+   from the source.
 
 Keep the author's own lists as lists and their prose as prose. Keep their descriptions of the
 interviewer as written.
@@ -132,7 +134,7 @@ outline: deep
 
 ## 面试结果反馈
 
-- **最终结果**：<…>
+<the author's own words about the outcome, verbatim — omit this section if they only state the result>
 
 <ReferenceSource
 :sources="[

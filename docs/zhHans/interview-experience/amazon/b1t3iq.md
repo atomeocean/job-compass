@@ -52,10 +52,6 @@ outline: deep
 
 如果是组招（Team Matching）岗位，建议提前准备一些基础的系统设计内容，即使 Recruiter 没有提前说明。
 
-## 面试结果反馈
-
-- **最终结果**：Fail
-
 <ReferenceSource
 :sources="[
 {
