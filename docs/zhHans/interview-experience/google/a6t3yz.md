@@ -2,6 +2,8 @@
 title: tech phone interview
 description: Google技术电面面试经验
 outline: deep
+createdDate: 2026-10-30
+lastUpdated: 2026-10-30
 ---
 # Google技术电面面试经验
 
