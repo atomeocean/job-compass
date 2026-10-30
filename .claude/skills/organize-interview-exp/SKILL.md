@@ -200,7 +200,8 @@ predate that table, so take their shape, not their values.
 3. **Pick the folder**: `<company>` is lowercase kebab-case. If the company folder has
    stage subfolders (e.g. `amazon/online-assessment/`) and the post belongs to one, use it —
    the md and json paths mirror each other below `interview-experience/`. For a new company,
-   create `<company>/index.md` modelled on `google/index.md` with `title` and `description`.
+   create `<company>/index.md` modelled on `google/index.md` with `title` and `description`,
+   keeping its `<script setup>` import and the `<CompanyInterviewList />` under the H1.
 4. **Update the landing page** `docs/zhHans/interview-experience/index.md`: in
    `interviewItems`, bump the company's `articleCount` and set `lastUpdated` to today, or add a
    row for a new company.

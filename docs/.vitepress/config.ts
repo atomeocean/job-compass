@@ -14,7 +14,7 @@ import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
 import {alias} from "./alias.ts";
-import { buildInterviewNav } from './interviewNav';
+import { buildInterviewCompanyNav, buildInterviewNav } from './interviewNav';
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -216,6 +216,22 @@ const vitePressConfig: UserConfig = {
   },
   ignoreDeadLinks: true,
   transformPageData(pageData, { siteConfig }) {
+    // 公司目录页就是这家公司的面经列表：侧栏和大纲都用不上，和文章页一样不显示站点侧栏。
+    // index.md 只是列表的壳，它的提交人不是面经作者，所以不显示贡献者；「更新于」取最新一篇面经的收录日期
+    const companyNav = buildInterviewCompanyNav(siteConfig.srcDir, pageData.filePath)
+    if (companyNav) {
+      pageData.frontmatter.sidebar = false
+      pageData.frontmatter.aside = false
+      pageData.frontmatter.contributors = false
+      pageData.frontmatter.interviewNav = companyNav
+      pageData.frontmatter.lastUpdated = companyNav.items[0]?.createdDate || pageData.frontmatter.lastUpdated
+      // 组件由页面自己引入，漏了 import 时标签会被当成未知元素，页面上同样什么都没有
+      if (!/import CompanyInterviewList[\s\S]*<CompanyInterviewList/.test(readFileSync(join(siteConfig.srcDir, pageData.filePath), 'utf-8'))) {
+        console.warn(`[interviewCompany] ${pageData.filePath} 没有引入并使用 <CompanyInterviewList />，页面上不会列出面经`)
+      }
+      return
+    }
+
     const sourceType = readInterviewSourceType(siteConfig.srcDir, pageData.filePath)
     if (!sourceType) return
     // 只是把 JSON 的值带进页面数据，方便组件在 SSR 时读取；md frontmatter 里手写的 sourceType 会被覆盖
