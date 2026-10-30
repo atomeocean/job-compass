@@ -1,11 +1,58 @@
 <script setup lang="ts">
 import { Search } from '@element-plus/icons-vue'
-import type { SiteStats } from '../../data/siteStats.data'
+import type { HomeLocale } from '@ao-types/homeTypes'
+import type { GitActivity, SiteStats } from '../../data/siteStats.data'
 
-const props = defineProps<{ stats: SiteStats }>()
+const props = withDefaults(defineProps<{ stats: SiteStats; locale?: HomeLocale }>(), { locale: 'en' })
 // 搜索词：只筛选下方的公司网格，全文搜索仍走导航栏的站内搜索
 const query = defineModel<string>({ required: true })
 const emit = defineEmits<{ browse: [] }>()
+
+interface HeroCopy {
+  badge: string
+  badgeHref: string
+  /** 标题按行给出，中文在逗号处断行 */
+  headline: string[]
+  intro: (stats: SiteStats) => string
+  placeholder: string
+  searchLabel: string
+  popular: string
+  updated: (git: GitActivity) => string
+  merged: (git: GitActivity) => string
+  github: string
+}
+
+const COPY: Record<HomeLocale, HeroCopy> = {
+  en: {
+    badge: 'Built by Atomeocean · New York, NY',
+    badgeHref: 'https://logbook.atomeocean.com/en/about-us/',
+    headline: ['Know the interview before you walk in.'],
+    intro: (stats) =>
+      `${stats.interviewReports} structured interview reports from ${stats.companies.length} companies, each recorded by role, level and interview round, plus company profiles, job postings and career guides.`,
+    placeholder: 'Find a company, e.g. Amazon or Snowflake',
+    searchLabel: 'Find a company',
+    popular: 'Most reports:',
+    updated: (git) => `Updated ${git.lastUpdated}`,
+    merged: (git) => `${git.pullRequestsMerged30d} pull requests merged in the last 30 days`,
+    github: 'Open source on GitHub ↗',
+  },
+  zh: {
+    badge: '开源 · 免费 · 志愿者共建',
+    badgeHref: '/guide/participation-guide.html',
+    headline: ['下一场面试，', '先看看别人怎么过的'],
+    intro: (stats) =>
+      `${stats.interviewReports} 篇真实面经，覆盖 ${stats.companies.length} 家公司，按岗位、级别和面试轮次整理；还有内推、招聘信息和身份避坑指南。`,
+    placeholder: '搜公司，试试「亚麻」「狗家」「微软」',
+    searchLabel: '搜索公司',
+    popular: '面经最多：',
+    updated: (git) => `更新于 ${git.lastCommitDate}`,
+    merged: (git) => `近 30 天合并 ${git.pullRequestsMerged30d} 个 PR`,
+    github: 'GitHub 开源 ↗',
+  },
+}
+
+const copy = COPY[props.locale]
+const badgeIsExternal = copy.badgeHref.startsWith('http')
 
 /** 搜索框下方的快捷入口：面经最多的 6 家 */
 const popular = props.stats.companies.slice(0, 6)
@@ -17,30 +64,34 @@ const pick = (name: string) => {
 </script>
 
 <template>
-  <section class="hero">
+  <section class="hero" :class="`hero--${locale}`">
     <div class="home-container hero-inner">
-      <a class="badge" href="https://logbook.atomeocean.com/en/about-us/" target="_blank" rel="noopener">
+      <a
+        class="badge"
+        :href="copy.badgeHref"
+        :target="badgeIsExternal ? '_blank' : undefined"
+        :rel="badgeIsExternal ? 'noopener' : undefined"
+      >
         <img src="/logo-dark.svg" alt="" width="22" height="16" />
-        Built by Atomeocean · New York, NY
+        {{ copy.badge }}
       </a>
-      <h1 class="headline">Know the interview before you walk in.</h1>
-      <p class="intro">
-        {{ stats.interviewReports }} structured interview reports from {{ stats.companies.length }} companies, each
-        recorded by role, level and interview round, plus company profiles, job postings and career guides.
-      </p>
+      <h1 class="headline">
+        <template v-for="(line, index) in copy.headline" :key="line"><br v-if="index > 0" />{{ line }}</template>
+      </h1>
+      <p class="intro">{{ copy.intro(stats) }}</p>
       <form class="search" role="search" @submit.prevent="emit('browse')">
         <el-icon class="search-icon" :size="22"><Search /></el-icon>
         <input
           v-model="query"
           class="search-input"
           type="search"
-          placeholder="Find a company, e.g. Amazon or Snowflake"
-          aria-label="Find a company"
+          :placeholder="copy.placeholder"
+          :aria-label="copy.searchLabel"
           autocomplete="off"
         />
       </form>
       <div class="popular">
-        <span>Most reports:</span>
+        <span>{{ copy.popular }}</span>
         <button v-for="company in popular" :key="company.slug" class="chip" type="button" @click="pick(company.name)">
           {{ company.name }}<b>{{ company.reports }}</b>
         </button>
@@ -48,12 +99,12 @@ const pick = (name: string) => {
       <p class="trust">
         <template v-if="stats.git">
           <span class="dot" aria-hidden="true" />
-          <span>Updated {{ stats.git.lastUpdated }}</span>
+          <span>{{ copy.updated(stats.git) }}</span>
           <span class="sep" aria-hidden="true">·</span>
-          <span>{{ stats.git.pullRequestsMerged30d }} pull requests merged in the last 30 days</span>
+          <span>{{ copy.merged(stats.git) }}</span>
           <span class="sep" aria-hidden="true">·</span>
         </template>
-        <a href="https://github.com/atomeocean/job-compass" target="_blank" rel="noopener">Open source on GitHub ↗</a>
+        <a href="https://github.com/atomeocean/job-compass" target="_blank" rel="noopener">{{ copy.github }}</a>
       </p>
     </div>
   </section>
@@ -124,6 +175,14 @@ const pick = (name: string) => {
   line-height: 1.05;
   letter-spacing: -0.032em;
   color: #fff;
+}
+
+/* 中文标题：汉字不收字距，行高放宽；断行写在文案里，不靠 max-width */
+.hero--zh .headline {
+  max-width: none;
+  font-size: 54px;
+  line-height: 1.2;
+  letter-spacing: 0;
 }
 
 .intro {
@@ -250,6 +309,10 @@ const pick = (name: string) => {
 
   .headline {
     font-size: 38px;
+  }
+
+  .hero--zh .headline {
+    font-size: 34px;
   }
 
   .intro {
