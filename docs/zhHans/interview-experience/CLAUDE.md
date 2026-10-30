@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-13
+lastUpdated: 2026-10-30
 ---
 # CLAUDE.md — interview-experience
 
