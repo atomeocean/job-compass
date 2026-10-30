@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-27
+lastUpdated: 2026-10-30
 ---
 # CLAUDE.md — VitePress theme
 
@@ -13,7 +13,8 @@ file is about the code.
 ```
 theme/
   index.ts        theme entry: global component registration, Element Plus, layout slots
-  components/     26 components (+ components/siteStatistic/, components/home/ for / and /en/)
+  components/     26 components (+ components/siteStatistic/, components/interview/,
+                  components/home/ for / and /en/); new ones go in a category subfolder, not here
   composables/    useContributors.ts, useInterviewData.ts, useBusuanzi.ts
   types/          shared TS interfaces and enums
   utils/          pure helpers (companyMatch.ts, contributors.ts, interviewData.ts,
@@ -29,7 +30,8 @@ theme/
 The author bar merges frontmatter authors with git commit authors, then matches each one to a
 profile in `docs/_data/contributors.ts` plus [constants/aiContributors.ts](constants/aiContributors.ts).
 The plugin uses the same list as `mapAuthors` in [config.ts](../config.ts). Claude co-authors
-are merged into a single "Claude" author by the `noreply@anthropic.com` email.
+are merged into a single "Claude" author by the `noreply@anthropic.com` email. A page with
+`contributors: false` in its frontmatter shows no bar.
 
 Author pages live on **logbook**, not here. If a contributor's GitHub username is listed in
 [constants/logbookAuthors.ts](constants/logbookAuthors.ts), their avatar and name link to
@@ -51,8 +53,9 @@ the table components use root-absolute glob patterns like `/zhHans/job-postings/
 ## Registering a component
 
 Global registration happens in [index.ts](index.ts) via `app.component(...)` inside
-`enhanceApp`. Markdown pages can only use globally registered components, so any component
-meant for content **must** be added there.
+`enhanceApp`, and is for components used across many kinds of pages. A component that serves one
+kind of page is imported in that page's `<script setup>` instead, so it stays out of the theme
+bundle: `ZhHome` / `EnHome` on the homepages, `CompanyInterviewList` on company pages.
 
 These components are wired through layout slots instead, and are not globally registered:
 
@@ -65,18 +68,19 @@ These components are wired through layout slots instead, and are not globally re
 | `layout-bottom` | `SiteFooter` (English pages only) |
 
 The three `Interview*` slot components render on every page, so each one checks first and
-outputs nothing outside interview article pages: `InterviewBreadcrumb` keys off
-`frontmatter.interviewNav`, the other two use `useInterviewData`, which skips the JSON lookup
-unless `parseInterviewPath` matches. Together with `<InterviewDetail />` in the Markdown they
-make up the 面经 page — see
+outputs nothing elsewhere: `InterviewBreadcrumb` keys off `frontmatter.interviewNav` (articles
+and company pages), the other two use `useInterviewData`, which skips the JSON lookup unless
+`parseInterviewPath` matches. Together with `<InterviewDetail />` in the Markdown they make up
+the 面经 page — see
 [interview-experience/CLAUDE.md](../../zhHans/interview-experience/CLAUDE.md) for what shows
 where.
 
-`frontmatter.interviewNav` (breadcrumb and company drawer data) and `frontmatter.sidebar = false`
-are set at build time by `transformPageData` in [config.ts](../config.ts), via
-[interviewNav.ts](../interviewNav.ts), the same way `sourceType` is. They are available during
-SSR and change with the page on SPA navigation, but under `docs:dev` they are recomputed only
-when the Markdown file changes.
+`frontmatter.interviewNav` and `frontmatter.sidebar = false` are set at build time by
+`transformPageData` in [config.ts](../config.ts), via [interviewNav.ts](../interviewNav.ts), the
+same way `sourceType` is. On articles `interviewNav` feeds the breadcrumb and company drawer; on
+`<company>/index.md` it feeds the breadcrumb and `<CompanyInterviewList />`. It is available
+during SSR and changes with the page on SPA navigation, but under `docs:dev` it is recomputed
+only when the Markdown file changes.
 
 `<DocTitleMeta />` is not written by hand either — a custom markdown-it plugin in
 [config.ts](../config.ts) appends it after every `h1` during render.

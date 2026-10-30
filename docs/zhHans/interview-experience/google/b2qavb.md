@@ -2,7 +2,7 @@
 title: L4过经
 description: Google L4 Software Engineer Onsite面试经验
 createdDate: 2026-06-28
-lastUpdated: 2026-10-12
+lastUpdated: 2026-10-30
 outline: deep
 ---
 # Google L4 Software Engineer Onsite面试经验
@@ -75,10 +75,6 @@ Coding 题大多属于经典题型或常见变体，重点还是：
 AI / ML 加面主要考察基础知识储备。
 
 整个流程体验不错，不过流程推进时间比较长。
-
-## 面试结果反馈
-
-- **最终结果**：Pass
 
 <ReferenceSource
 :sources="[

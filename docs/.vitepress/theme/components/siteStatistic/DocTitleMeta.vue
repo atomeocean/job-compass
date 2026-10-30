@@ -15,13 +15,17 @@ const { counts, ready } = useBusuanziCounts(['pagePv'])
 
 const DEFAULT_DATE = "2021-08-21"
 
+// YAML 把 2026-10-27 解析成 UTC 零点，按本地时区格式化时美国读者会看到前一天，SSR 和浏览器渲染也对不上，
+// 所以开头是完整日期时直接取这一段；其他写法（2026-6-9）照旧交给 Date
+const toDay = (raw: any): string => formatDate(String(raw).match(/^\d{4}-\d{2}-\d{2}/)?.[0] ?? new Date(raw))
+
 // 从 frontmatter 读取创建日期
 const createdDateRaw = page.value.frontmatter?.createdDate
-const createdDate = createdDateRaw ? formatDate(new Date(createdDateRaw)) : DEFAULT_DATE
+const createdDate = createdDateRaw ? toDay(createdDateRaw) : DEFAULT_DATE
 
 // 从 frontmatter 读取最后更新日期
 const lastUpdatedRaw = page.value.frontmatter?.lastUpdated
-const lastUpdatedDate = lastUpdatedRaw ? formatDate(new Date(lastUpdatedRaw)) : createdDate
+const lastUpdatedDate = lastUpdatedRaw ? toDay(lastUpdatedRaw) : createdDate
 </script>
 
 <template>

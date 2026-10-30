@@ -88,7 +88,7 @@ export interface InterviewPathInfo {
     slug: string;
 }
 
-const ARTICLE_PATH = /^(?:zhHans\/)?interview-experience\/([^/]+)\/([^/]+)\.md$/;
+const ARTICLE_PATH = /^(?:zhHans\/)?interview-experience\/([^/]+)\/(.+)\.md$/;
 
 /**
  * 判断是不是面经文章页，各级 index / overview 不算。
@@ -96,7 +96,7 @@ const ARTICLE_PATH = /^(?:zhHans\/)?interview-experience\/([^/]+)\/([^/]+)\.md$/
  */
 export function parseInterviewPath(relativePath: string): InterviewPathInfo | null {
     const match = relativePath.match(ARTICLE_PATH);
-    if (!match || match[2] === 'index' || match[2] === 'overview') return null;
+    if (!match || /(^|\/)(index|overview)$/.test(match[2])) return null;
     return { company: match[1], slug: match[2] };
 }
 
