@@ -61,6 +61,12 @@ Local / manual:
   target page or file does not exist (the build sets `ignoreDeadLinks: true`, so it never
   reports them). Case-exact, follows the `zhHans/:rest*` rewrite and the `/en/` prefix, and
   checks `<<<` snippet imports. Standard library only, so it needs no `PYTHONPATH`.
+- `check_interview_data.py` — checks the interview-experience file pairs and data records:
+  a record with no article at its subpath, an article placing `<InterviewDetail />` with no
+  record (the card only logs to the console, so the build never fails), invalid JSON, fields
+  of the wrong kind for `interviewData.ts`, template placeholders, and ratings outside 1–5.
+  Errors exit 1; vocabulary drift and other contract gaps that still render are warnings
+  (`--warnings` lists them). Standard library only, so it needs no `PYTHONPATH`.
 
 `sync-json-data-source.yml` also calls `scripts/domains/job-compass/add_job_compass_pr_record.py`.
 That path is **on the remote server**, not in this repo — don't go looking for it here.
