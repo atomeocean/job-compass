@@ -2,7 +2,7 @@
 title: Contribution Guide
 description: Rules and process for contributing interview experiences
 createdDate: 2025-12-31
-lastUpdated: 2026-07-15
+lastUpdated: 2026-10-31
 outline: deep
 authors:
 relatedArticles:
