@@ -1,9 +1,10 @@
 <script setup lang="ts">
   import { onMounted } from 'vue'
-  import { useRouter } from 'vitepress'
+  import { useData, useRouter } from 'vitepress'
   import { useContributors } from '@ao-composables/useContributors'
 
   const { displayAuthors, getDisplayName, getAvatarFallback, useHmr, componentKey } = useContributors()
+  const { frontmatter } = useData()
   const router = useRouter()
 
   const isExternalUrl = (url: string): boolean =>
@@ -24,6 +25,7 @@
 
 <template>
   <el-space
+    v-if="frontmatter.contributors !== false"
     :key="componentKey"
     wrap
     :size="16"

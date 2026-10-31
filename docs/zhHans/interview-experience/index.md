@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-10-29
+lastUpdated: 2026-10-30
 layout: page
 sidebar: false
 ---
@@ -14,8 +14,8 @@ const interviewItems = [
   {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 2, "lastUpdated": "2026-10-20", "createdDate": "2026-10-01"},
   {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 4, "lastUpdated": "2026-10-26", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
-  {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 23, "lastUpdated": "2026-10-27", "createdDate": "2025-10-21"},
-  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 17, "lastUpdated": "2026-10-27", "createdDate": "2025-10-22"},
+  {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 24, "lastUpdated": "2026-10-30", "createdDate": "2025-10-21"},
+  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 18, "lastUpdated": "2026-10-30", "createdDate": "2025-10-22"},
   {"title": "Snowflake", "description": "SWE 技术电面经验", "href": "./snowflake/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
   {"title": "Netflix", "description": "HR Screening 与技术面", "href": "./netflix/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2026-05-29"},
   {"title": "Notion", "description": "Notion 面试经验分享", "href": "./notion/index.md", "articleCount": 1, "lastUpdated": "2026-07-08", "createdDate": "2026-06-05"},

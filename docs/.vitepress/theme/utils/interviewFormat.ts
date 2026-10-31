@@ -28,6 +28,7 @@ const LEVEL_LABELS: Record<string, string> = {
   'new-grad': '应届 NG',
   'mid-level': '中级',
   senior: '高级',
+  experienced: '社招',
 }
 
 /** 级别；公司职级（l4、L5）统一大写 */
@@ -40,7 +41,7 @@ export const formatLevel = (level?: string): string => {
 export type LevelGroup = 'intern' | 'new-grad' | 'experienced'
 
 /**
- * 中文首页「最新面经」的级别筛选：实习 / 应届 / 社招。
+ * 中文首页「最新面经」和公司面经列表的级别筛选：实习 / 应届 / 社招。
  * mid-level、senior、L4 及以上、SDE2 及以上算社招；L3、SDE1 应届和社招都有，跟看不出级别的一样返回 null，只出现在「全部」里
  */
 export const levelGroup = (level?: string): LevelGroup | null => {
@@ -48,7 +49,7 @@ export const levelGroup = (level?: string): LevelGroup | null => {
   if (!key) return null
   if (key === 'intern' || key === 'internship' || key.includes('实习')) return 'intern'
   if (key === 'new-grad' || key === 'ng' || key.includes('应届')) return 'new-grad'
-  if (['mid-level', 'senior', 'staff', 'principal'].includes(key) || key.includes('社招')) return 'experienced'
+  if (['mid-level', 'senior', 'staff', 'principal', 'experienced'].includes(key) || key.includes('社招')) return 'experienced'
   const ladder = key.match(/^(l|sde-?)(\d+)$/)
   if (!ladder) return null
   return Number(ladder[2]) >= (ladder[1] === 'l' ? 4 : 2) ? 'experienced' : null
