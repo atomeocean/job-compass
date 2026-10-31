@@ -33,9 +33,10 @@ Consequences:
 - The **full subpath after `interview-experience/` must match**, not just the basename.
 - Renaming or moving the `.md` without moving the `.json` silently breaks the page — the
   component logs to the console and renders nothing.
-- Known-broken today: `amazon/onsite/608997.md` and `amazon/onsite/260414.md` sit one level
-  deeper than their JSON at `amazon/608997.json` / `amazon/260414.json`. Fix by moving the
-  JSON to `amazon/onsite/`, not by adding a prop.
+- A pair one folder apart is fixed by moving the JSON to the article's folder, not by adding
+  a prop (as done for `amazon/onsite/608997` and `amazon/onsite/260414`).
+- `python3 scripts/check_interview_data.py` finds broken pairs, wrong field kinds and
+  template placeholders; run it after adding or moving either file.
 
 Older articles (about a quarter of them) predate the component and have no JSON. That is
 acceptable for existing files, but **every new page ships both files**.
