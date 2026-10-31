@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-30
+lastUpdated: 2026-10-31
 ---
 # CLAUDE.md — interview-experience
 
@@ -252,4 +252,5 @@ import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.
 
 `folded-entry/` holds 面经 that were demoted rather than deleted: ad accounts, duplicates, and
 obviously fabricated posts. LLM-generated 面经 are deleted outright, not folded. Move a page
-here instead of deleting it when it falls into those categories.
+here instead of deleting it when it falls into those categories. The criteria are the **来源质量**
+rule in [contributing.md](../guide/interview-experience-utils/contributing.md).
