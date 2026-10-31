@@ -1,8 +1,9 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-10-28
+lastUpdated: 2026-10-31
 ---
+
 <script setup>
 const overviewItems = [
   {
@@ -121,6 +122,13 @@ const overviewItems = [
     "title": "SWE L4 面经",
     "description": "Google L4 软件工程师技术电面与 Onsite 三轮 Coding 及 Googleyness & Leadership 面经",
     "href": "./r35xtw.md",
+    "order": 0,
+    "kind": "article"
+  },
+  {
+    "title": "tech phone interview",
+    "description": "Google技术电面面试经验",
+    "href": "./a6t3yz.md",
     "order": 0,
     "kind": "article"
   }

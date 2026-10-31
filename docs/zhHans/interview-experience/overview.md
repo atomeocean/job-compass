@@ -1,8 +1,9 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-10-21
+lastUpdated: 2026-10-31
 ---
+
 <script setup>
 const overviewItems = [
   {
@@ -23,6 +24,13 @@ const overviewItems = [
     "title": "Apple",
     "description": "Apple 面试经验分享",
     "href": "./apple/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Applied Intuition",
+    "description": "Applied Intuition 面试经验分享",
+    "href": "./applied-intuition/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -72,6 +80,13 @@ const overviewItems = [
     "title": "Databricks",
     "description": "该文件主要介绍 Databricks 的相关内容。",
     "href": "./databricks/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Disney",
+    "description": "Disney 面试经验分享",
+    "href": "./disney/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -230,9 +245,23 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "StubHub",
+    "description": "StubHub 面试经验分享",
+    "href": "./stubhub/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "TikTok",
     "description": "该文件主要介绍 TikTok 的相关内容。",
     "href": "./tiktok/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Uber",
+    "description": "Uber 面试经验分享",
+    "href": "./uber/index.md",
     "order": 0,
     "kind": "folder"
   },
