@@ -24,6 +24,9 @@ read it before writing.
   do not fetch the link to fill it in.
 - **No link or no author** → ask; both go into `<ReferenceSource>`.
 - **Company or role not determinable from the text** → ask.
+- **Source fails the 来源质量 rule** in
+  [contributing.md](../../../docs/zhHans/guide/interview-experience-utils/contributing.md)
+  → tell the user why and end the turn; do not write the page.
 
 ## English source: translate literally first
 
