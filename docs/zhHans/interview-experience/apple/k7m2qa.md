@@ -2,6 +2,8 @@
 title: ICT4 两轮店面 coding
 description: Apple ICT4 Software Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-11-02
+lastUpdated: 2026-11-02
 ---
 # Apple ICT4 Software Engineer 技术电面面试经验
 
