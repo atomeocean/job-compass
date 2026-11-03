@@ -2,7 +2,7 @@
 title: Software Engineer挂经
 description: Apple公司Software Engineer面试经验
 createdDate: 2026-05-08
-lastUpdated: 2026-10-12
+lastUpdated: 2026-11-03
 outline: deep
 ---
 # Apple公司Software Engineer面试经验
@@ -29,10 +29,6 @@ lc word search II
 **round2：** project dive deep，然后System Design：设计 Amazon S3。
 **round3：** lc 394，215
 **round4：** hm聊天，感觉一般时间他都让我提问，也没问我啥BQ
-
-## 面试结果反馈
-
-- **最终结果**：未通过
 
 <ReferenceSource
 :sources="[
