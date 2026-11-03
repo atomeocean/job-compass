@@ -1,0 +1,37 @@
+{
+  "company": "snapchat",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "匿名用户-EEFHZ",
+    "link": "https://www.1point3acres.com/bbs/thread-1195213-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Machine Learning Engineer",
+    "level": "l4",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "technical", "rate": null },
+      { "roundType": "coding", "rate": 2 },
+      { "roundType": "system-design", "rate": null },
+      { "roundType": "technical", "rate": null },
+      { "roundType": "system-design", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
