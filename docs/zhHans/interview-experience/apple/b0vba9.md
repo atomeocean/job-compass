@@ -30,10 +30,6 @@ lc word search II
 **round3：** lc 394，215
 **round4：** hm聊天，感觉一般时间他都让我提问，也没问我啥BQ
 
-## 面试结果反馈
-
-- **最终结果**：未通过
-
 <ReferenceSource
 :sources="[
 {
