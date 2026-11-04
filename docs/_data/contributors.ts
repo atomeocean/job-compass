@@ -157,6 +157,14 @@ export const currentContributors: Contributor[] = [
     ],
   },
   {
+    name: 'GentleXu',
+    username: 'GentleXu',
+    mapByEmailAliases: ['xugengtao@outlook.com'],
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('GentleXu') },
+    ],
+  },
+  {
     name: 'Haoyu',
     username: 'vacantfury',
     links: [

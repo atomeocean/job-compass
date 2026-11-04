@@ -63,13 +63,14 @@ const COPY: Record<HomeLocale, ProcessCopy> = {
     steps: [
       { title: '投稿', role: '求职者', text: '分享自己的面试经历，作者的真实姓名和联系方式不会公开。' },
       { title: '整理', role: '志愿者', text: '按统一格式记录公司、岗位、级别、轮次和结果；转载会注明原帖出处。' },
-      { title: '审核', role: '社区成员', text: '每次改动都通过 GitHub PR 提交，要通过自动检查，并由至少一位社区成员审核。' },
+      { title: '审核', role: '社区成员', text: '每次改动都通过 GitHub PR 提交，要通过自动检查，并由至少一位社区成员按社区规则审核。' },
       { title: '上线', role: '自动完成', text: '合并后自动发布到面经页面，作者栏署上每一位参与者。' },
     ],
     sources: (stats) =>
       `目前 ${stats.sourceTypes.repost} 篇转载、${stats.sourceTypes.original} 篇原创、${stats.sourceTypes.unknown} 篇来源待确认。广告号、重复和明显造假的帖子会被折叠，不会混在列表里。`,
     actions: [
       { text: '分享我的面经', href: '/guide/interview-experience-utils/contributing.html', primary: true },
+      { text: '社区规则', href: '/guide/rules/' },
       { text: '参与指南', href: '/guide/participation-guide.html' },
       { text: '加入 Discord ↗', href: 'https://discord.gg/qTHGss8GQH' },
     ],

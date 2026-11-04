@@ -2,10 +2,11 @@
 title: 劳务派遣公司信息文档指南
 outline: deep
 createdDate: 2025-04-02
-lastUpdated: 2025-09-03
+lastUpdated: 2026-11-04
 ---
-
 # Staffing Company使用指南
+
+提交前请阅读[社区规则](/guide/rules/)，其中与劳务派遣公司信息关系最大的是[禁止引流和广告](/guide/rules/promotion)和[禁止 AI 灌水内容](/guide/rules/no-ai-content)。
 
 ## 文档概述
 

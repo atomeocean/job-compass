@@ -17,3 +17,7 @@
 - [ ] 新功能
 - [ ] 文档更新
 - [ ] 代码结构优化
+
+## 提交前确认
+
+- [ ] 内容符合[社区规则](https://jobcompass.atomeocean.com/guide/rules/)：没有 AI 灌水、无意义内容、引流或广告

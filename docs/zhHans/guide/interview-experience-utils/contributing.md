@@ -2,7 +2,7 @@
 title: 贡献指南
 description: 面试经验贡献规则和流程
 createdDate: 2025-12-31
-lastUpdated: 2026-10-31
+lastUpdated: 2026-11-04
 outline: deep
 authors:
 relatedArticles:
@@ -22,14 +22,8 @@ adminNote: 以这篇为准
 2. **隐私保护**：
    - 请勿泄露作者的真实姓名、联系方式或其他个人非公开信息。
 3. **客观友好**：描述面试过程时请保持客观，避免使用攻击性的语言。
-4. **拒绝灌水**：AI工具仅限于协助生成Json文件。
-5. **来源质量**：转载面经需至少包含可复述的题目或流程细节。以下内容不予收录：
-   - 核心内容只是商业网站、题库或课程的链接
-   - 发布账号主要用于导流或推广
-   - 明显虚假或与已收录内容重复
-   - LLM 生成
-
-   已收录的内容如果后来发现属于前三类，移入 `folded-entry/`；LLM 生成的直接删除。
+4. **遵守社区规则**：[禁止 AI 灌水内容](/guide/rules/no-ai-content)、[禁止无意义内容](/guide/rules/low-quality)、[禁止引流和广告](/guide/rules/promotion)。
+   已收录的面经如果后来发现属于无意义内容或引流广告，移入[被折叠的面经](/interview-experience/folded-entry/)；AI 生成的直接删除。
 
 ## 阅读须知
 
