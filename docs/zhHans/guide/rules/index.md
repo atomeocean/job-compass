@@ -2,6 +2,8 @@
 title: 社区规则
 description: Job Compass 投稿和评论区共同遵守的规则，包括规则列表、用词约定、违规处理、典型案例的写法、举报与申诉，以及每次修订的记录
 outline: deep
+createdDate: 2026-11-04
+lastUpdated: 2026-11-04
 ---
 # 社区规则
 

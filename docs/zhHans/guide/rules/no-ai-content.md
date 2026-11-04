@@ -3,6 +3,8 @@ title: 禁止 AI 灌水内容
 description: 不收录内容本身由 AI 生成、没有真实经历或可靠出处支撑的投稿；AI 用到什么程度算灌水由管理员逐个判定，判定先例见本页的典型案例
 outline: deep
 order: 1
+createdDate: 2026-11-04
+lastUpdated: 2026-11-04
 ---
 # 禁止 AI 灌水内容
 

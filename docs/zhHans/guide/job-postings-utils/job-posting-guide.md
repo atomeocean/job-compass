@@ -1,7 +1,7 @@
 ---
 title: 招聘信息文档指南
 outline: deep
-lastUpdated: 2026-07-10
+lastUpdated: 2026-11-04
 description: 在job compass发布招聘信息的流程
 createdDate: 2025-03-17
 adminNote: 以这篇为准

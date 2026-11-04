@@ -3,6 +3,8 @@ title: 评论区规定
 description: 在 Job Compass 页面下方评论时需要遵守的规定，以及违规评论的处理、举报与申诉方式
 outline: deep
 order: 4
+createdDate: 2026-11-04
+lastUpdated: 2026-11-04
 ---
 # 评论区规定
 

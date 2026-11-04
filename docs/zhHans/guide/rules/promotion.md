@@ -3,6 +3,8 @@ title: 禁止引流和广告
 description: 不收录以推广、导流或收费服务为目的的内容，包括留联系方式、拉群、推广付费内推和课程、只为推广外部网站的链接；评论区同样适用
 outline: deep
 order: 3
+createdDate: 2026-11-04
+lastUpdated: 2026-11-04
 ---
 # 禁止引流和广告
 

@@ -3,6 +3,8 @@ title: 禁止无意义内容
 description: 不收录没有实质信息、与求职无关、重复、明显虚假或测试占位的投稿；面经至少要包含可以复述的题目或流程细节
 outline: deep
 order: 2
+createdDate: 2026-11-04
+lastUpdated: 2026-11-04
 ---
 # 禁止无意义内容
 

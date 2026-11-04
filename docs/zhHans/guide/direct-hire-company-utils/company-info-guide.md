@@ -2,7 +2,7 @@
 title: 直招公司信息文档指南
 description: 直招公司信息文档指南，提供如何查找、创建和填充直招公司信息的详细步骤。
 outline: deep
-lastUpdated: 2026-07-10
+lastUpdated: 2026-11-04
 createdDate: 2025-03-19
 adminNote: 以这篇为准
 ---

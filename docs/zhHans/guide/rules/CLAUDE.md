@@ -1,3 +1,7 @@
+---
+createdDate: 2026-11-04
+lastUpdated: 2026-11-04
+---
 # CLAUDE.md — community rules (`guide/rules/`)
 
 One rule per page. A page's path is the rule's permanent link: maintainers paste it into the

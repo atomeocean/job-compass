@@ -2,7 +2,7 @@
 title: 贡献技巧
 outline: deep
 createdDate: 2026-05-28
-lastUpdated: 2026-05-28
+lastUpdated: 2026-11-04
 order: 1
 authors:
   - Mark
