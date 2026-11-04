@@ -2,6 +2,8 @@
 title: staff sde 技术电面
 description: Rippling Staff Software Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-11-04
+lastUpdated: 2026-11-04
 ---
 # Rippling Staff Software Engineer 技术电面面试经验
 
