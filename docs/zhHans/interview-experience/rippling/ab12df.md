@@ -1,5 +1,5 @@
 ---
-title: staff 技术电面
+title: staff sde 技术电面
 description: Rippling Staff Software Engineer 技术电面面试经验
 outline: deep
 ---
@@ -21,7 +21,7 @@ system chat是原题 News Aggregator
 
 用户关注多个分类，可能几百个
 
-**follow up问题：**
+**follow up问题**：
 
 - 怎么分页
 - 怎么去重
