@@ -1,12 +1,14 @@
 ---
 title: 招聘信息文档指南
 outline: deep
-lastUpdated: 2026-07-10
+lastUpdated: 2026-11-04
 description: 在job compass发布招聘信息的流程
 createdDate: 2025-03-17
 adminNote: 以这篇为准
 ---
 # Job Posting发布指南
+
+提交前请阅读[社区规则](/guide/rules/)，其中与招聘信息关系最大的是[禁止引流和广告](/guide/rules/promotion)和[禁止无意义内容](/guide/rules/low-quality)。
 
 ## 受理范围警告
 

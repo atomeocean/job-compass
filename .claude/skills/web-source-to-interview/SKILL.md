@@ -26,9 +26,11 @@ anonymize the original author, objective tone, no attacks on interviewers.
   returns a summary at best. If the fetched content doesn't include the actual
   interview questions in enough detail to restate them faithfully, ask the user to
   paste the original text and end the turn. Do not fabricate question details.
-- **Source fails the 来源质量 rule** in
-  [contributing.md](../../../docs/zhHans/guide/interview-experience-utils/contributing.md)
-  → tell the user why and end the turn; do not write the page.
+- **Source breaks a community rule**:
+  [no-ai-content](../../../docs/zhHans/guide/rules/no-ai-content.md),
+  [low-quality](../../../docs/zhHans/guide/rules/low-quality.md) or
+  [promotion](../../../docs/zhHans/guide/rules/promotion.md)
+  → tell the user which rule and why, and end the turn; do not write the page.
 
 ## Token discipline
 
