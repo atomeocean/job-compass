@@ -252,8 +252,8 @@ import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.
 
 `folded-entry/` holds 面经 that were demoted rather than deleted: ad accounts, posts with no
 substance, duplicates, and obviously fabricated posts. LLM-generated 面经 are deleted outright, not
-folded. Move a page here instead of deleting it when it falls into those categories. The criteria
-are the community rules [promotion.md](../guide/rules/promotion.md) and
-[low-quality.md](../guide/rules/low-quality.md); deletion follows
+folded. Move a page here instead of deleting it, or instead of closing its PR, when it falls into
+those categories. The criteria are the community rules [promotion.md](../guide/rules/promotion.md)
+and [low-quality.md](../guide/rules/low-quality.md); deletion follows
 [no-ai-content.md](../guide/rules/no-ai-content.md). A folded page's `折叠原因` callout links the
 rule it broke.
