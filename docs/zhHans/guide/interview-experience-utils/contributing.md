@@ -23,7 +23,7 @@ adminNote: 以这篇为准
    - 请勿泄露作者的真实姓名、联系方式或其他个人非公开信息。
 3. **客观友好**：描述面试过程时请保持客观，避免使用攻击性的语言。
 4. **遵守社区规则**：[禁止 AI 灌水内容](/guide/rules/no-ai-content)、[禁止无意义内容](/guide/rules/low-quality)、[禁止引流和广告](/guide/rules/promotion)。
-   已收录的面经如果后来发现属于无意义内容或引流广告，移入[被折叠的面经](/interview-experience/folded-entry/)；AI 生成的直接删除。
+   属于无意义内容或引流广告的面经，不论是否已经合并，都移入[被折叠的面经](/interview-experience/folded-entry/)；AI 生成的直接删除。
 
 ## 阅读须知
 

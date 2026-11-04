@@ -36,7 +36,9 @@ What a case may say, the five-per-page cap and the appeal route are public polic
 
 ## Archiving a case
 
-Archive only content a rule page cites as a case, in the public repo `atomeocean/code-recycle-bin`:
+A folded 面经 stays on this site, so its case links the folded page. Archive only cited content that
+gets deleted (AI-generated content, violations outside 面经), in the public repo
+`atomeocean/code-recycle-bin`:
 
 - Path `docs/zhHans/job-compass/rules/<rule-file-name>/<YYYY-MM-DD>-<slug>.md`, the folder named
   after the rule's file here. It is as permanent as the rule's path.
@@ -55,15 +57,26 @@ Archive only content a rule page cites as a case, in the public repo `atomeocean
 - Link it from the rule page by its GitHub file URL,
   `https://github.com/atomeocean/code-recycle-bin/blob/main/docs/zhHans/job-compass/rules/...`.
 
-## Closing a violating PR
+## Handling a violating PR
 
-Reply with the rule page, the part that breaks it and the appeal route, then close. The reply is
-read on GitHub, so the link is absolute:
+The outcome follows the rule page's 违规处理:
+
+- **面经 breaking `low-quality` or `promotion`**: fold it on the PR branch, then merge. Move the
+  `.md` to `interview-experience/folded-entry/` and its JSON to the mirrored
+  `assets/json/interview-experience/folded-entry/`; prefix the title with the company; add a
+  `> [!CAUTION] 折叠原因` callout under `<InterviewDetail />` that links the rule; update the
+  company's and 被折叠's `articleCount` in `interview-experience/index.md`.
+- **AI-generated content, or a violation outside 面经**: close the PR.
+
+Reply first, with the rule page, the part that breaks it, the outcome and the appeal route. The
+reply is read on GitHub, so the link is absolute:
 
 ```text
 感谢投稿。这个 PR 违反了社区规则中的「<规则名>」：https://jobcompass.atomeocean.com/guide/rules/<文件名>.html
 
 具体问题：<哪部分内容、为什么违规>
+
+<折叠：这篇面经会移入「被折叠的面经」后合并，页面保留，但不出现在面经列表里。｜关闭：这个 PR 会关闭。>
 
 如果你认为判定有误，直接在这个 PR 里回复说明，管理员会复核。
 ```

@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-11-03
+lastUpdated: 2026-11-04
 layout: page
 sidebar: false
 ---
@@ -14,7 +14,7 @@ const interviewItems = [
   {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 2, "lastUpdated": "2026-10-20", "createdDate": "2026-10-01"},
   {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 4, "lastUpdated": "2026-10-26", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
-  {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 24, "lastUpdated": "2026-10-30", "createdDate": "2025-10-21"},
+  {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 23, "lastUpdated": "2026-10-30", "createdDate": "2025-10-21"},
   {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 18, "lastUpdated": "2026-10-30", "createdDate": "2025-10-22"},
   {"title": "Snowflake", "description": "SWE 技术电面经验", "href": "./snowflake/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
   {"title": "Netflix", "description": "HR Screening 与技术面", "href": "./netflix/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2026-05-29"},
@@ -37,7 +37,7 @@ const interviewItems = [
   {"title": "Snap", "description": "Snap 面试经验分享", "href": "./snapchat/index.md", "articleCount": 4, "lastUpdated": "2026-11-03", "createdDate": "2025-11-21"},
   {"title": "Stubhub", "description": "Stubhub 面试经验分享", "href": "./stubhub/index.md", "articleCount": 2, "lastUpdated": "2026-01-06", "createdDate": "2025-11-21"},
   {"title": "DoorDash", "description": "电面与面试流程", "href": "./doordash/index.md", "articleCount": 3, "lastUpdated": "2026-10-16", "createdDate": "2025-10-20"},
-  {"title": "被折叠", "description": "Palantir 等被折叠公司条目", "href": "./folded-entry/index.md", "articleCount": 1, "lastUpdated": "2025-12-31", "createdDate": "2025-10-22"},
+  {"title": "被折叠", "description": "Palantir 等被折叠公司条目", "href": "./folded-entry/index.md", "articleCount": 3, "lastUpdated": "2026-11-04", "createdDate": "2025-10-22"},
   {"title": "Nomura", "description": "Risk Analyst 面经", "href": "./nomura/index.md", "articleCount": 1, "lastUpdated": "2025-12-04", "createdDate": "2025-09-15"},
   {"title": "Bethesda Game Studios", "description": "游戏工作室面试分享", "href": "./bethesda-game-studios/index.md", "articleCount": 1, "lastUpdated": "2025-10-22", "createdDate": "2025-10-22"},
   {"title": "Whatnot", "description": "SDE Video Interview 面经", "href": "./whatnot/index.md", "articleCount": 1, "lastUpdated": "2025-10-22", "createdDate": "2025-10-16"},
