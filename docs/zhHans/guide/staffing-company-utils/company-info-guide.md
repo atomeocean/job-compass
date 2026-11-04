@@ -7,6 +7,8 @@ lastUpdated: 2025-09-03
 
 # Staffing Company使用指南
 
+提交前请阅读[社区规则](/guide/rules/)，其中与劳务派遣公司信息关系最大的是[禁止引流和广告](/guide/rules/promotion)和[禁止 AI 灌水内容](/guide/rules/no-ai-content)。
+
 ## 文档概述
 
 本指南旨在为劳务派遣公司信息收集任务提供清晰的操作指引，帮助相关人员高效、准确地完成数据采集任务。文档内容涵盖三大任务核心模块：

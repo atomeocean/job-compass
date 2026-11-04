@@ -15,6 +15,7 @@ authors:
 
 | 步骤 | 操作 | 说明 |
 |:---:|---|---|
+| 0 | [阅读社区规则](/guide/rules/) | 了解哪些内容不予收录 |
 | 1 | [Fork 并克隆仓库](/guide/github-setup-guide.md) | 完成本地 Git 环境配置 |
 | 2 | 新建分支，进行内容修改 | 参考[贡献技巧](/guide/contribution-guide/tips.md)了解命名规范 |
 | 3 | [提交 Pull Request](/guide/github-pull-request-guide.md) | 填写标题和描述，指定 Reviewer |
@@ -29,6 +30,7 @@ authors:
 
 ## 相关资源
 
+- [社区规则](/guide/rules/)
 - [GitHub 注册与本地配置](/guide/github-setup-guide.md)
 - [GitHub 网页端发布 PR 指南](/guide/github-pull-request-guide.md)
 - [Markdown 语法速查](/guide/markdown-cheatsheet.md)

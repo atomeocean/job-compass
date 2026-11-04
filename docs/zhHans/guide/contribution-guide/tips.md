@@ -70,6 +70,7 @@ order: 1                # 可选，控制侧边栏排序，数字越小越靠前
 
 提交 PR 前，建议逐项确认：
 
+- [ ] 内容符合[社区规则](/guide/rules/)
 - [ ] frontmatter 中 `title`、`createdDate`、`lastUpdated` 均已填写
 - [ ] 文件和文件夹命名符合 kebab-case 规范
 - [ ] 新增文件夹已包含 `index.md`

@@ -15,6 +15,14 @@ const items: { question: string; answer: AnswerPart[] }[] = [
     answer: [{ text: '来自社区志愿者整理的公开招聘信息和亲历的面试经验。' }],
   },
   {
+    question: '会收录 AI 生成的内容或广告吗？',
+    answer: [
+      { text: '不收。AI 灌水、无意义内容和引流广告都在禁止之列，已收录的发现后会删除或折叠，评论区也有单独的规定。详见' },
+      { text: '社区规则', href: '/guide/rules/' },
+      { text: '。' },
+    ],
+  },
+  {
     question: '怎么贡献？',
     answer: [
       { text: '直接在 ' },

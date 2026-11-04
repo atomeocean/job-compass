@@ -65,6 +65,7 @@ schema, component props). Read it before adding or editing files there:
 - [docs/zhHans/interview-experience/CLAUDE.md](docs/zhHans/interview-experience/CLAUDE.md)
 - [docs/zhHans/direct-hire-company/CLAUDE.md](docs/zhHans/direct-hire-company/CLAUDE.md)
 - [docs/zhHans/staffing-company/CLAUDE.md](docs/zhHans/staffing-company/CLAUDE.md)
+- [docs/zhHans/guide/rules/CLAUDE.md](docs/zhHans/guide/rules/CLAUDE.md)
 - [docs/.vitepress/theme/CLAUDE.md](docs/.vitepress/theme/CLAUDE.md)
 - [scripts/CLAUDE.md](scripts/CLAUDE.md)
 
