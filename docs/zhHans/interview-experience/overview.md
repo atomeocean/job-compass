@@ -1,7 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-11-02
+lastUpdated: 2026-11-05
 ---
 <script setup>
 const overviewItems = [
@@ -205,6 +205,13 @@ const overviewItems = [
     "title": "Rednote",
     "description": "该文件主要介绍 Rednote 的相关内容。",
     "href": "./rednote/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Rippling",
+    "description": "Rippling面试经验分享",
+    "href": "./rippling/index.md",
     "order": 0,
     "kind": "folder"
   },
