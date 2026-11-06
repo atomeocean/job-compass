@@ -23,11 +23,17 @@ outline: deep
 
 ### VO
 
-第一轮code review 一段TS code 大概200来行，要求以comment的形式写review，不要求改动。主要是一些常见的undefined/null 的判断，Interface的定义，以及按照design doc去找code里面business logic的bug，test cases是否合理。难度适中，这轮positive feedback
+#### 第一轮: Code Review 
 
-第二轮写code，要求手搓一个class 实现Promise的功能，只能用JavaScript，由于好久没手搓JS了刚开始语法上就出现了问题搞得我节奏大乱，最后没完全写完then，收到了mix feedback
+一段TS code 大概200来行，要求以comment的形式写review，不要求改动。主要是一些常见的undefined/null 的判断，Interface的定义，以及按照design doc去找code里面business logic的bug，test cases是否合理。难度适中，这轮positive feedback
 
-第三轮backend design 这轮不是System Design，主要focus在设计一个类似Google Drive的backend，focus在business logic和DB scheme design上，收到了positive feedback
+#### 第二轮：Coding
+
+要求手搓一个class 实现Promise的功能，只能用JavaScript，由于好久没手搓JS了刚开始语法上就出现了问题搞得我节奏大乱，最后没完全写完then，收到了mix feedback
+
+#### 第三轮 Backend Design 
+
+这轮不是System Design，主要focus在设计一个类似Google Drive的backend，focus在business logic和DB scheme design上，收到了positive feedback
 
 ### HM
 

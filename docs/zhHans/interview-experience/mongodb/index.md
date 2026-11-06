@@ -6,6 +6,6 @@ description: MongoDB 面试经验分享
 import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.vue'
 </script>
 
-# MongoDB 面试经验
+# MongoDB面试经验
 
 <CompanyInterviewList />
