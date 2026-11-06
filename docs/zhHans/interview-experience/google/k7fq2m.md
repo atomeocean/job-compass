@@ -2,6 +2,8 @@
 title: Senior FDE 新鲜面经
 description: Google Senior Forward Deployed Engineer Fast Track面试经验
 outline: deep
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 # Google Senior Forward Deployed Engineer Fast Track面试经验
 
