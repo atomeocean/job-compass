@@ -50,7 +50,7 @@ const interviewItems = [
   {"title": "Coinbase", "description": "Coinbase面经", "href": "./coinbase/index.md", "articleCount": 3, "lastUpdated": "2026-10-20", "createdDate": "2026-07-10"},
   {"title": "Rippling", "description": "Rippling面经", "href": "./rippling/index.md", "articleCount": 3, "lastUpdated": "2026-11-06", "createdDate": "2026-11-04"},
   {"title": "Stripe", "description": "Stripe面经", "href": "./stripe/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
-  {"title": "SIG", "description": "SIG面经", "href": "./sig/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"}
+  {"title": "SIG", "description": "SIG面经", "href": "./sig/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "Affirm", "description": "Affirm面经", "href": "./affirm/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"}
 ]
 

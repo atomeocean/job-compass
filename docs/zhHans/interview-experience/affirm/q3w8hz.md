@@ -1,9 +1,9 @@
 ---
 title: ng frontend 面经
-description: Affirm New Grad Frontend Engineer 技术电面面试经验
+description: Affirm New Grad Frontend Engineer HR + coding + HM面试经验
 outline: deep
 ---
-# Affirm New Grad Frontend Engineer 技术电面面试经验
+# Affirm New Grad Frontend Engineer HR + coding + HM面试经验
 
 <InterviewDetail />
 
