@@ -1,9 +1,9 @@
 ---
 title: mid level backend面经
-description: Robinhood Mid Level Backend Onsite面试经验
+description: Robinhood Mid Level Backend 店面 + VO面试经验
 outline: deep
 ---
-# Robinhood Mid Level Backend Onsite面试经验
+# Robinhood Mid Level Backend 店面 + VO面试经验
 
 <InterviewDetail />
 
