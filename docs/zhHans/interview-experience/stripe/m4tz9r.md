@@ -2,6 +2,8 @@
 title: MLE 电面面经
 description: Stripe Machine Learning Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 # Stripe Machine Learning Engineer 技术电面面试经验
 
