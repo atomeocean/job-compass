@@ -2,6 +2,8 @@
 title: SIG 二面面经
 description: SIG Intern 金工类实习 技术电面面试经验
 outline: deep
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 # SIG Intern 金工类实习 技术电面面试经验
 
