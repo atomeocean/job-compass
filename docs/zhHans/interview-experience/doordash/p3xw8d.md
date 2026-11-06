@@ -2,6 +2,8 @@
 title: DA面经
 description: DoorDash Data Analyst Onsite面试经验
 outline: deep
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 # DoorDash Data Analyst Onsite面试经验
 
