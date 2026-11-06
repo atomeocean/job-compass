@@ -2,6 +2,8 @@
 title: 电面
 description: Rippling Software Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 # Rippling Software Engineer 技术电面面试经验
 
