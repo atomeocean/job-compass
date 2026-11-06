@@ -21,8 +21,6 @@ outline: deep
 
 ## 面试结果反馈
 
-- **反馈时间**：周五面试，周一收到 Onsite 邀请
-
 周五面的，周一就收到onsite邀请了，感谢国人大哥，好人一生平安🙏
 
 <ReferenceSource

@@ -25,7 +25,7 @@
     "date": "",
     "result": "pass",
     "rounds": [
-      { "roundType": "phone-screen", "rate": 2 }
+      { "roundType": "phone-screen", "rate": 5 }
     ]
   },
   "highlights": [],
