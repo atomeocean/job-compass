@@ -9,13 +9,17 @@ outline: deep
 
 ## 面试详情
 
-### VO
+### AI coding
 
-**AI coding**：面经题，一个 HR 管理 employee 信息的系统，可以更改员工薪资等。原本的版本是 edit 就直接生效，要求可以 edit 未来的 change，例如 salary = 20，然后设置一个 effective date，到那个日期才生效。有 frontend / backend / DB。
+面经题，一个 HR 管理 employee 信息的系统，可以更改员工薪资等。原本的版本是 edit 就直接生效，要求可以 edit 未来的 change，例如 salary = 20，然后设置一个 effective date，到那个日期才生效。有 frontend / backend / DB。
 
-**System Design**：Google News aggregator。人很好的白人大哥面的，沟通很流畅。
+### System Design
 
-**Project Deep Dive**：是一个 director 面的，人不错。我讲满一个小时，中间也有很多问题与讨论。
+Google News aggregator。人很好的白人大哥面的，沟通很流畅。
+
+### Project Deep Dive
+
+Project Deep Dive是一个 director 面的，人不错。我讲满一个小时，中间也有很多问题与讨论。
 
 ## 面试结果反馈
 
