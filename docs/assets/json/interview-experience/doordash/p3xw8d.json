@@ -26,8 +26,8 @@
     "result": "rejected",
     "rounds": [
       { "roundType": "recruiter-screen", "rate": null },
-      { "roundType": "technical", "rate": 3 },
-      { "roundType": "onsite", "rate": 3 }
+      { "roundType": "technical", "rate": null },
+      { "roundType": "onsite", "rate": null }
     ]
   },
   "highlights": [],

@@ -23,9 +23,15 @@ outline: deep
 
 Final round共三轮
 
-第一轮 HM interview，主要也偏向 case，给了一个 specific feature，让你分析怎么 define metrics and build a dashboard for different stakeholders。
+#### 第一轮：HM interview
+
+主要也偏向 case，给了一个 specific feature，让你分析怎么 define metrics and build a dashboard for different stakeholders。
+
+#### 第二轮：database design
 
 第二轮比较 confusing，是组里一个 DA 来面 database design。实际上更多是讨论 feature definition，题量很大，没说完，最后没来得及 review SQL，估计挂在这了。
+
+#### 第三轮：BQ
 
 第三轮 BQ with VP，问了一些过往经历、AI usage、怎么分析 metric decrease、conflicts 等等，比较基础。
 
