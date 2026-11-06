@@ -2,7 +2,7 @@
 title: Amazon
 outline: deep
 createdDate: 2025-03-19
-lastUpdated: 2025-09-03
+lastUpdated: 2026-11-06
 ---
 <script setup>
 import ArticleList from '@ao-components/articleList/ArticleList.vue'

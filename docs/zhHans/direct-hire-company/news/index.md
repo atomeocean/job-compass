@@ -1,6 +1,8 @@
 ---
 title: 公司新闻
 order: 1
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 # 公司新闻
 

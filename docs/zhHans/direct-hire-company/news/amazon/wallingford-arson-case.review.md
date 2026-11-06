@@ -1,8 +1,9 @@
 ---
 title: 审阅意见：西雅图华林福德纵火案报道
 description: 逐条说明这篇 Amazon 公司新闻待修正的问题：文中男子已被撤销指控并获释，标题却写成已定罪；与 Amazon 的关联没有注明出处；译文有多处错误；来源是 Reddit 转贴。并给出原因和修改建议。
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
-
 # 审阅意见：西雅图华林福德纵火案报道
 
 - 原文：[25岁亚麻中国SDE放火杀人](/direct-hire-company/news/amazon/wallingford-arson-case)

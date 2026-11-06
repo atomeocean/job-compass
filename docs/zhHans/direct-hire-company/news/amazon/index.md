@@ -1,5 +1,7 @@
 ---
 title: Amazon
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 <script setup>
 import ArticleList from '@ao-components/articleList/ArticleList.vue'
