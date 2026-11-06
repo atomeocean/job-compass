@@ -2,6 +2,8 @@
 title: VO挂经
 description: Rippling Software Engineer Onsite面试经验
 outline: deep
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 # Rippling Software Engineer Onsite面试经验
 
