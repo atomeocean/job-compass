@@ -1,0 +1,35 @@
+{
+  "company": "affirm",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "匿名用户-FXBDS",
+    "link": "https://www.1point3acres.com/bbs/thread-1196023-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Frontend Engineer",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "应届毕业生",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
+      { "roundType": "coding", "rate": 3 },
+      { "roundType": "hiring-manager", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
