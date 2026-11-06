@@ -15,11 +15,11 @@ Fast track 面试，只有一轮RBK + 一轮coding。
 
 ### RBK
 
-**RBK**：设计一个agentic flow （还有content generation的选项，我没选）。要求设计一个可以自动退货，check inventory，issue refund和查看退款状态的agent。 需要HITL
+设计一个agentic flow （还有content generation的选项，我没选）。要求设计一个可以自动退货，check inventory，issue refund和查看退款状态的agent。 需要HITL
 
 ### Coding
 
-**coding**： prefix sum + differential sequence. 请参考[LC 1109](https://leetcode.com/problems/corporate-flight-bookings/)
+prefix sum + differential sequence. 请参考[LC 1109](https://leetcode.com/problems/corporate-flight-bookings/)
 
 <ReferenceSource
 :sources="[
