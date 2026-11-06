@@ -31,6 +31,15 @@ COLOR_ORANGE = 0xE67E22
 FILE_LIST_LIMIT = 10
 FIELD_VALUE_CHAR_LIMIT = 1024
 DESCRIPTION_CHAR_LIMIT = 2000
+TITLE_CHAR_LIMIT = 256
+COMMIT_LINE_LIMIT = 5
+
+STATUS_VERB = {"A": "新增", "M": "更新", "D": "删除"}
+# 标题优先挑新增的文章，其次是修改、删除
+STATUS_PRIORITY = {"A": 0, "M": 1, "D": 2}
+# 这两类页面会跟着文章一起改，但本身不是"一篇文章"：
+# index.md 是公司 / 目录首页，overview.md 由脚本每晚生成
+NON_ARTICLE_BASENAMES = {"index.md", "overview.md"}
 
 
 def aggregate_changed_files(commits):
@@ -66,6 +75,85 @@ def format_file_list(status_by_path):
     return body, total
 
 
+def read_frontmatter_title(path):
+    """读 Markdown frontmatter 里的 title；文件不存在（比如被删了）或没写 title 时返回 None。
+
+    只认最简单的 `title: xxx` 一行，不引入 YAML 依赖——workflow 里只装了 requests。
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.read().splitlines()
+    except OSError:
+        return None
+    if not lines or lines[0].strip() != "---":
+        return None
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+        if line.startswith("title:"):
+            title = line[len("title:"):].strip().strip("'\"")
+            return title or None
+    return None
+
+
+def is_article(path):
+    return (
+        path.startswith("docs/")
+        and path.endswith(".md")
+        and os.path.basename(path) not in NON_ARTICLE_BASENAMES
+    )
+
+
+def article_display_name(path):
+    """文章的显示名：「所在目录 index.md 的 title · 文章自己的 title」。
+
+    面经的文章 title 往往只有岗位（如 "ng frontend 面经"），公司名在同目录的
+    index.md 里，拼起来才看得出是哪家公司的哪篇。读不到 title 就退回文件名。
+    """
+    title = read_frontmatter_title(path) or os.path.splitext(os.path.basename(path))[0]
+    parent_title = read_frontmatter_title(os.path.join(os.path.dirname(path), "index.md"))
+    if parent_title and parent_title != title:
+        return f"{parent_title} · {title}"
+    return title
+
+
+def build_title(status_by_path, commits):
+    """标题写出改了哪篇文章，而不是"N commit pushed"。"""
+    articles = sorted(
+        (p for p in status_by_path if is_article(p)),
+        key=lambda p: (STATUS_PRIORITY.get(status_by_path[p], 9), p),
+    )
+    if articles:
+        primary = articles[0]
+        title = f"{STATUS_VERB.get(status_by_path[primary], '更新')}：{article_display_name(primary)}"
+        if len(articles) > 1:
+            title += f" 等 {len(articles)} 篇"
+    else:
+        # 只改了 index.md / overview.md 之类的页面
+        first_line = ((commits[-1].get("message") if commits else "") or "").splitlines()
+        title = f"更新：{first_line[0]}" if first_line else "更新文档"
+    if len(title) > TITLE_CHAR_LIMIT:
+        title = title[: TITLE_CHAR_LIMIT - 3] + "..."
+    return title
+
+
+def build_description(commits):
+    """每个 commit 只取 message 第一行；squash merge 的正文常常很长，放进卡片只会刷屏。"""
+    lines = []
+    for commit in commits[-COMMIT_LINE_LIMIT:]:
+        message = (commit.get("message") or "").strip()
+        first_line = message.splitlines()[0] if message else "(no commit message)"
+        lines.append(first_line)
+    if len(commits) > COMMIT_LINE_LIMIT:
+        lines.insert(0, f"…（共 {len(commits)} 个 commit，只列最后 {COMMIT_LINE_LIMIT} 个）")
+    if not lines:
+        return "(no commit message)"
+    description = "\n".join(f"• {line}" for line in lines) if len(lines) > 1 else lines[0]
+    if len(description) > DESCRIPTION_CHAR_LIMIT:
+        description = description[: DESCRIPTION_CHAR_LIMIT - 3] + "..."
+    return description
+
+
 def build_payload(event, repo, ref_name, actor, server_url):
     commits = event.get("commits") or []
     head_commit = event.get("head_commit") or {}
@@ -78,19 +166,18 @@ def build_payload(event, repo, ref_name, actor, server_url):
     file_list_value, total_files = format_file_list(status_by_path)
 
     author_name = (head_commit.get("author") or {}).get("name") or actor
-    commit_msg = head_commit.get("message") or "(no commit message)"
-    if len(commit_msg) > DESCRIPTION_CHAR_LIMIT:
-        commit_msg = commit_msg[: DESCRIPTION_CHAR_LIMIT - 3] + "..."
 
     head_sha = head_commit.get("id") or event.get("after") or ""
     short_sha = head_sha[:7] if head_sha else "?"
-    head_url = head_commit.get("url") or f"{server_url}/{repo}/commit/{head_sha}"
 
-    commit_count = len(commits)
-    commit_word = "commit" if commit_count == 1 else "commits"
+    # 分支几乎永远是 main、commit 数几乎永远是 1，不再单独占字段；
+    # 只有不是 main 时才在页脚注明
+    footer = f"{repo} · {short_sha}"
+    if ref_name and ref_name != "main":
+        footer += f" · {ref_name}"
 
     embed = {
-        "title": f"Markdown update: {commit_count} {commit_word} pushed to {repo}",
+        "title": build_title(status_by_path, commits),
         "url": compare_url,
         "color": color,
         "author": {
@@ -98,22 +185,15 @@ def build_payload(event, repo, ref_name, actor, server_url):
             "url": f"{server_url}/{actor}",
             "icon_url": f"{server_url}/{actor}.png",
         },
-        "description": commit_msg,
+        "description": build_description(commits),
         "fields": [
-            {"name": "Branch", "value": ref_name, "inline": True},
-            {"name": "Commits", "value": str(commit_count), "inline": True},
-            {
-                "name": "Latest SHA",
-                "value": f"[`{short_sha}`]({head_url})",
-                "inline": True,
-            },
             {
                 "name": f"Changed files ({total_files})",
                 "value": file_list_value,
                 "inline": False,
             },
         ],
-        "footer": {"text": repo},
+        "footer": {"text": footer},
     }
     if head_commit.get("timestamp"):
         embed["timestamp"] = head_commit["timestamp"]
@@ -122,6 +202,8 @@ def build_payload(event, repo, ref_name, actor, server_url):
         "username": "Job Compass GitHub Bot",
         "avatar_url": GITHUB_MARK_PNG,
         "embeds": [embed],
+        # commit message 里的 @everyone / @用户 不触发提醒
+        "allowed_mentions": {"parse": []},
     }
 
 
