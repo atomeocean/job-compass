@@ -2,6 +2,8 @@
 title: ng frontend 面经
 description: Affirm New Grad Frontend Engineer HR + coding + HM面试经验
 outline: deep
+createdDate: 2026-11-06
+lastUpdated: 2026-11-06
 ---
 # Affirm New Grad Frontend Engineer HR + coding + HM面试经验
 
