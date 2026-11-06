@@ -9,8 +9,6 @@ outline: deep
 
 ## 面试详情
 
-- **面试形式**：技术电面
-
 最近面的 Stripe MLE，两轮电面都过了，等 onsite。这是我第一次面 MLE，对我来说也是个挑战。
 
 ### 第一轮：coding
