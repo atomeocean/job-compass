@@ -25,8 +25,6 @@ outline: deep
 
 ## 面试结果反馈
 
-- **最终结果**：WaitList，目前 ghost
-
 全打出来了，但是目前ghost，可能投的太晚了没有hc了
 
 <ReferenceSource
