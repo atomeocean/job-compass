@@ -1,0 +1,34 @@
+{
+  "company": "google",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "zppolished11",
+    "link": "https://www.1point3acres.com/bbs/thread-1195898-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Forward Deployed Engineer",
+    "level": "senior",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": "猎头"
+  },
+  "candidate": {
+    "education": "phd",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pending",
+    "rounds": [
+      { "roundType": "system-design", "rate": 3 },
+      { "roundType": "coding", "rate": 3 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
