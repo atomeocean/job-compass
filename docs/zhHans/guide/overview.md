@@ -1,7 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-07-10
+lastUpdated: 2026-11-05
 ---
 <script setup>
 const overviewItems = [
@@ -23,6 +23,13 @@ const overviewItems = [
     "title": "直招公司信息辅助文档",
     "description": "该文件主要介绍 直招公司信息辅助文档 的相关内容。",
     "href": "./direct-hire-company-utils/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "社区规则",
+    "description": "Job Compass 投稿和评论区共同遵守的规则，包括规则列表、用词约定、违规处理、典型案例的写法、举报与申诉，以及每次修订的记录",
+    "href": "./rules/index.md",
     "order": 0,
     "kind": "folder"
   },
