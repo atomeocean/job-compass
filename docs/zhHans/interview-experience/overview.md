@@ -1,10 +1,18 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-11-05
+lastUpdated: 2026-11-07
 ---
+
 <script setup>
 const overviewItems = [
+  {
+    "title": "Affirm",
+    "description": "Affirm 面试经验分享",
+    "href": "./affirm/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
   {
     "title": "Airbnb",
     "description": "Airbnb 面试经验分享",
@@ -153,6 +161,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "MongoDB",
+    "description": "MongoDB 面试经验分享",
+    "href": "./mongodb/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "Netflix",
     "description": "该文件主要介绍 Netflix 的相关内容。",
     "href": "./netflix/index.md",
@@ -230,6 +245,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "SIG",
+    "description": "SIG 面试经验分享",
+    "href": "./sig/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "SMBC",
     "description": "该文件主要介绍 SMBC 的相关内容。",
     "href": "./smbc/index.md",
@@ -247,6 +269,13 @@ const overviewItems = [
     "title": "Snowflake",
     "description": "该文件主要介绍 Snowflake 的相关内容。",
     "href": "./snowflake/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Stripe",
+    "description": "Stripe 面试经验分享",
+    "href": "./stripe/index.md",
     "order": 0,
     "kind": "folder"
   },

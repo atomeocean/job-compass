@@ -1,8 +1,9 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-11-02
+lastUpdated: 2026-11-07
 ---
+
 <script setup>
 const overviewItems = [
   {
@@ -93,6 +94,13 @@ const overviewItems = [
     "title": "SE",
     "description": "该文件主要介绍 SE 的相关内容。",
     "href": "./errpel.md",
+    "order": 0,
+    "kind": "article"
+  },
+  {
+    "title": "Senior FDE 新鲜面经",
+    "description": "Google Senior Forward Deployed Engineer Fast Track面试经验",
+    "href": "./k7fq2m.md",
     "order": 0,
     "kind": "article"
   },
