@@ -1,87 +1,85 @@
 ---
-title: Sr. MLE Onsite 挂经
-description: Pinterest Senior Machine Learning Engineer 店面加两天 Onsite（Coding、HM、ML Practitioner、ML 系统设计）面经，最终未拿到 offer
+title: Sr. MLE onsite挂经
+description: Pinterest Senior Machine Learning Engineer Onsite面试经验
 outline: deep
 createdDate: 2026-11-07
 lastUpdated: 2026-11-07
 ---
-# 美国Pinterest公司高级机器学习工程师面试经验
+# Pinterest Senior Machine Learning Engineer Onsite面试经验
 
 <InterviewDetail />
 
 ## 面试详情
 
-- **面试形式**：店面 1 轮 + Onsite 5 轮（分两天）
-- **候选人背景**：业界工作约 5 年，论文多发表于研究生阶段
+大家好，我上个月参加了 Pinterest Sr. MLE 职位的 onsite loop。我没有拿到 offer，但我还是想在这里分享我的经历，这样可以帮到其他人。
 
-### 面试流程
+### Timeline
 
-- **店面**：8 月最后一周，单轮 1 小时
-- **Onsite**：9 月中旬，分两天进行
-  - 第一天：Coding × 2
-  - 第二天：HM 面（Behavioral）、ML Practitioner、ML System Design
-- **结果**：最后一轮 Onsite 结束一周后收到拒信
+Screening round - 8 月最后一周 - 1 小时单轮
 
-### 面试过程的详细描述
+Onsite round - 分两天 - 9 月中旬
 
-#### 店面：Coding
+- Day 1 - Coding
+  - 2 轮
+- Day 2
+  - HM interview - behavioral
+  - ML practitioner
+  - ML system design
 
-- 先花 10 分钟介绍项目
-- 接着 10 分钟快问快答 3 道 ML 问题
-- 最后是 2 道互相关联的 Coding 题，外加 1 道（同样相关的）加分题：
-  - 一道 DFS 题，分两问
-  - 可选加分题是 follow-up，有 DP 解法，只讨论了思路，没要求写代码
+拒信 - 最后一轮 onsite 一周后
 
-#### Onsite 第一天 第 1 轮：Coding
+### Screening：Coding
 
-- 要求实现一个数据结构。楼主知道这个数据结构，但之前没练过，它也不在 Pinterest 或 Meta 的近期题单上
-- 楼主表示这轮发挥不好：并不是不知道该怎么做，而是第一次 Onsite 太紧张，没发挥出来
+问了 project explainer，10 分钟，
+3 个 ML 问题，10 分钟（快问快答），
+然后是 2 道互相关联的 coding 题 + 加分 coding 题（也是相关的）
 
-#### Onsite 第一天 第 2 轮：Coding
+- DFS 题（分 2 部分）
+- 可选的 Bonus question - 一个有 DP 解法的 follow-up（只讨论了思路，没要求写代码）
 
-- 一道 Meta Top 100 高频题的简单变形，数组类题目；就算没见过原题也不难
-- 楼主这轮发挥不错，还做完并写出了可选的 follow-up
+### Onsite
 
-#### Onsite 第二天：HM 面（Behavioral）
+#### Coding #1
 
-- HM 经验很丰富，不会让候选人照着准备好的稿子一直讲自己的经历。楼主自认表现还行，但不如自己在其他 HM 面里出彩
-- 考察重点是常规的 senior 话题：跨团队沟通、带人（mentoring）、一个技术深度类故事、冲突处理
-- 楼主注意到，和大厂不同，Pinterest 也很在意工程细节。比如被问到自己的技术栈是什么——楼主没准备这个问题，临场给了个回答，HM 看起来不太满意
+- 我被要求实现一个我知道但之前没练过的数据结构（不在 Pinterest 或 Meta 的近期题目列表里）
+- 我在这一轮很挣扎，不是因为我不知道需要做什么，而是因为这是我的第一次 onsite，我因为紧张搞砸了
 
-#### Onsite 第二天：ML Practitioner
+#### Coding #2
 
-楼主原本以为这轮是另一场设计面，结果完全出乎意料，可能是和 recruiter 之间有沟通误会，没有针对性准备。这轮分两部分：
+- 另一家公司（Meta）的一道 top-100 题目的简单变形。即使你之前没见过这道题也很容易做。数组类题目。
+- 我这轮做得很好。还解出并写完了一个可选的 follow-up
 
-- **第一部分：聊自己的论文**
-  - 面试官想讨论楼主发表过的研究论文。楼主已在业界工作 5 年，论文大多是 5 年多前读研时写的，楼主说明了这些和业界经历关系不大，但面试官仍想聊
-  - 楼主挑了一篇面试官比较感兴趣的，讲了解决方案的核心思路和架构，面试官能跟上，也比较满意
-  - 面试官关心：问题定义、解法的直觉、模型架构，以及论文中 baseline 方法的一些细节
-- **第二部分：ML 知识细节**
-  - 有些问题比一般 ML 课程讲得更细
-  - 例如：解释 Transformer 架构（现在比较常规）；解释对比损失（contrastive loss），楼主会但觉得不算常规考点；还有 Learning to Rank 算法相关问题，楼主只了解表层
-- 楼主自评这轮高于平均水平，但 ML 知识部分有 1–2 题没答上
+#### HM interview
 
-#### Onsite 第二天：ML System Design
+- HM 很资深，所以他没有直接把发言权交给我、让我复述练好的关于我经历的独白。我觉得我表现还行，但比我在其他 HM 面试里显得没那么出彩。
+- 总体来说，重点包括常规的 senior 内容，即 cross functional communication、mentoring、一个 technical depth 类的故事、conflict resolution。但我注意到，和大型科技公司不同，Pinterest 似乎也在意工程相关的细节。比如，有一次我被问到我的 tech stack 是什么——这个我没有准备，但我还是给出了一些回答——他看起来对我说的不太满意。
 
-- 一道标准的 ML 系统设计题
-- 楼主建议把一套标准题目及其中的所有细节都过一遍，楼主用的是 ByteByteGo 的 [Machine Learning System Design Interview](https://bytebytego.com/intro/machine-learning-system-design-interview)
-- 与其多刷案例，不如把每个案例都吃透：设计中提到的每个细节，都要能展开讲。比如楼主就是在做相似度搜索类案例时才学到对比学习的
+#### ML practitioner
 
-### 和面试官沟通细节
+- 这一轮让我很意外。我原本以为这会是另一轮 design。可能是 recruiter 和我之间有些沟通误会，但就被问到的内容而言，我是毫无准备地进了这一轮。这是一个分 2 部分的面试。
+- 在第一部分，面试官想讨论我的某篇研究论文。我已经在业界工作 5 年了，我的大部分论文是 5 年多前读研时写的。我跟他们说了这一点，想表达讨论 5 年多前的东西和我的业界经验有点不相关。但他们似乎还是想讨论，我觉得这有点奇怪，不过我挑了一篇他们似乎喜欢的论文，带他们过了一遍解决方案的主要思路/架构。他们似乎能跟上，并对回答感到满意。
+- 他们想知道问题定义、解决方案的直觉、模型架构，以及研究中实现的 baseline 方法的一些细节。
+- 在面试的第二部分，他们问了我 ML 话题的细节。有些问题比 ML 课程里会讨论的更具体。
+- 例如，我被要求解释 transformer 架构，这在现在是标准的。但我也被要求解释 contrastive loss，这个我知道，但我认为不算标准。然后还有关于 learning to rank 算法的问题，这个我只知道表层细节。
+- 总的来说，我觉得我在这一轮表现高于平均，但我在 ML 话题上错过了 1-2 个问题。
 
-- 楼主觉得 Pinterest 面试官的深度，比自己同期参加的另外两场 Onsite（一家 FAANG、一家给 FAANG 级薪资的中型公司）都要高
-- HM 和其他面试官都很好相处，楼主据此推测这是个不错的工作环境
+#### ML system design
 
-### 面试结果反馈
+这是一道标准的 ML system design 题。我推荐大家做一套标准的这类题目，包括其中的所有细节。我跟的是这个 - https://bytebytego.com/intro/machine-learning-system-design-interview
 
-- 最后一轮 Onsite 一周后收到拒信，没有得到明确反馈
-- 楼主认为第一轮 Coding 是挂掉的主要原因
+与其做更多的 case study，我推荐把所有 case study 都理解到足够的深度。你在设计中说的每一个细节，你都应该了解它周边的细节。例如，我在做 ML design 资料里的 similarity search 类 case study 之前并不知道 contrastive learning。
 
-### 备考建议（楼主原文总结）
+## 面试体验
 
-- ML System Design：系统性地准备一套标准题，重在深度而非数量
-- ML Practitioner：提前和 recruiter 确认轮次内容；准备好讲自己的论文，并复习 Transformer、对比学习、Learning to Rank 等较细的 ML 知识点
-- HM 面：除了常规 senior 行为题，也要准备好聊自己的技术栈等工程细节
+总的来说，我发现 Pinterest 面试官的深度比我参加的另外 2 个 onsite（一个 FAANG，另一个是给 FAANG 级薪资的中型公司）更高。
+
+manager 和其他面试官也都很好相处，所以我猜这是个工作的好地方。
+
+祝大家好运！我希望这能帮助大家准备面试！
+
+## 面试结果反馈
+
+我没有收到明确的反馈，但我认为第一轮 coding 搞砸了我的机会。
 
 <ReferenceSource
 :sources="[
