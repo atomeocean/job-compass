@@ -2,6 +2,8 @@
 title: Sr. MLE Onsite 挂经
 description: Pinterest Senior Machine Learning Engineer 店面加两天 Onsite（Coding、HM、ML Practitioner、ML 系统设计）面经，最终未拿到 offer
 outline: deep
+createdDate: 2026-11-07
+lastUpdated: 2026-11-07
 ---
 # 美国Pinterest公司高级机器学习工程师面试经验
 
