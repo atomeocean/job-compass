@@ -67,6 +67,12 @@ Local / manual:
   of the wrong kind for `interviewData.ts`, template placeholders, and ratings outside 1–5.
   Errors exit 1; vocabulary drift and other contract gaps that still render are warnings
   (`--warnings` lists them). Standard library only, so it needs no `PYTHONPATH`.
+- `check_section_index.py` — checks the hand-maintained `interviewItems` rows in
+  `docs/zhHans/interview-experience/index.md` against the company folders: a company folder
+  with an `index.md` and articles but no row, and an `articleCount` that differs from the
+  folder's article pages (nested folders included; `index.md`, `overview.md` and agent notes
+  left out). Dates are not checked. Exits 1 on any error; run it after adding an article or
+  a company folder. Standard library only, so it needs no `PYTHONPATH`.
 - `claude_hooks/` — run by the Claude Code hooks in `.claude/settings.json` on every
   contributor's machine, via `"$CLAUDE_PROJECT_DIR"/scripts/claude_hooks/<name>.py`.
   Standard library only, imports are sibling-relative, so no `PYTHONPATH`. Never put a
