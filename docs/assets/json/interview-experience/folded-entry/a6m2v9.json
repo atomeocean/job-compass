@@ -1,0 +1,35 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "PracHub",
+    "author": "匿名",
+    "link": "https://prachub.com/interview-experiences/amazon-software-engineer-interview-experience-withdrew-from-the-sde-ii-virtual-onsite"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer",
+    "level": "sde2",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": "HR 在 LinkedIn 上主动联系"
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "oa", "rate": null },
+      { "roundType": "phone-screen", "rate": null },
+      { "roundType": "onsite", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

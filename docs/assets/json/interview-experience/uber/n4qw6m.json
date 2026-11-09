@@ -1,5 +1,11 @@
 {
   "company": "Uber",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "WillWang98",
+    "link": "https://www.1point3acres.com/bbs/thread-1177671-1-1.html"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Frontend Engineer",
@@ -12,7 +18,7 @@
   },
   "candidate": {
     "education": "master",
-    "background": "码农类硕士",
+    "background": "在职跳槽",
     "yearsOfExperience": 0
   },
   "interview": {

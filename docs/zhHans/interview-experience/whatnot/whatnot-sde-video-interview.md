@@ -2,9 +2,11 @@
 title: Whatnot26NG开发Video Interview
 description: Whatnot video interview面经
 createdDate: 2025-10-16
-lastUpdated: 2025-10-22
+lastUpdated: 2026-10-09
 ---
 # Whatnot 2026 new grad SDE视频面
+
+<InterviewDetail />
 1. 面试时间 2025年10月16日
 2. 岗位类别 应届后端开发
 3. 学历 CS研究生

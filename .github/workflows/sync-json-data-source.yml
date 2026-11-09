@@ -53,6 +53,15 @@ jobs:
           fi
           echo "PR 标题: $(jq -r '.title' pr_payload.json)"
 
+          # 审核员 approve 后会从 requested_reviewers 移除，合并时 payload 里看不到，
+          # 另拉 reviews 列表补进 payload（只留账号和状态，免得评论正文撑大命令行参数）
+          pr_number=$(jq -r '.number' pr_payload.json)
+          gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls/${pr_number}/reviews?per_page=100" \
+            --jq '.[] | {user: {login: .user.login}, state}' | jq -s '.' > reviews.json
+          jq --slurpfile reviews reviews.json '.reviews = $reviews[0]' pr_payload.json > pr_payload.tmp
+          mv pr_payload.tmp pr_payload.json
+          echo "PR 审核记录: $(jq -c '.reviews' pr_payload.json)"
+
       # 4. 利用脚本将 PR 数据解析为 json 格式
       - name: Run Python script with PR data
         run: |

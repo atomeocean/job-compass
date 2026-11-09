@@ -1,0 +1,48 @@
+{
+  "company": "uber",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "半円",
+    "link": "https://www.1point3acres.com/bbs/thread-1193526-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "黑车 Uber SDE PhD ML Intern 过经 + timeline",
+    "level": "",
+    "jobType": "internship"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "phd",
+    "background": "其他",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "oa",
+        "rate": 5
+      },
+      {
+        "roundType": "phone-screen",
+        "rate": 4
+      },
+      {
+        "roundType": "phone-screen",
+        "rate": 4
+      },
+      {
+        "roundType": "team-match",
+        "rate": 4
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

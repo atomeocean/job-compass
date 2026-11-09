@@ -2,20 +2,12 @@
 title: phone screen L5
 description: Amazon L5 Software Development Engineer Phone Screen面试经验
 createdDate: 2026-07-13
-lastUpdated: 2026-07-30
+lastUpdated: 2026-10-30
 outline: deep
 ---
 # Amazon L5 Software Development Engineer Phone Screen面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Development Engineer（L5）
-- **面试形式**：Phone Screen
-- **申请渠道**：内推
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Fail
 
 ## 面试详情
 
@@ -59,10 +51,6 @@ outline: deep
 - 与团队业务相关的小型 System Design
 
 如果是组招（Team Matching）岗位，建议提前准备一些基础的系统设计内容，即使 Recruiter 没有提前说明。
-
-## 面试结果反馈
-
-- **最终结果**：Fail
 
 <ReferenceSource
 :sources="[

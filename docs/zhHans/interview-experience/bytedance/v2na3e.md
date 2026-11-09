@@ -2,22 +2,16 @@
 title: SRE Senior 面经
 description: ByteDance SRE 面试经验
 createdDate: 2026-05-26
-lastUpdated: 2026-05-27
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # ByteDance SRE 面试经验
 
 <InterviewDetail />
 
-## 1. 基本信息
-
-- 公司信息：ByteDance
-- 面试时间：2026年5月
-- 候选人背景：码农类General，硕士，在职跳槽
-- 投递渠道：猎头 / HR 在 LinkedIn 上主动联系
-- 结果：Fail（第二轮后收到 Thank You letter）
-
 ## 面试详情
+
+- 结果：Fail（第二轮后收到 Thank You letter）
 
 原计划四轮，每轮一小时，第四轮为 Hiring Manager 面。先约前两轮，过了再约三四轮。实际只进行了两轮即被拒。
 

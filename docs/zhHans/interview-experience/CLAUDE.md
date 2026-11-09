@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-10-01
+lastUpdated: 2026-11-04
 ---
 # CLAUDE.md — interview-experience
 
@@ -38,8 +38,63 @@ Consequences:
 - `python3 scripts/check_interview_data.py` finds broken pairs, wrong field kinds and
   template placeholders; run it after adding or moving either file.
 
-Older articles (about a quarter of them) predate the component and have no JSON. That is
-acceptable for existing files, but **every new page ships both files**.
+**Every page has its JSON** — the older articles that predated the component were backfilled
+from their Markdown, with whatever the text did not say left empty. Every new page ships both
+files, and places `<InterviewDetail />` directly under the H1.
+
+## What the page renders
+
+Most of a 面经 page's chrome comes from the JSON and the company folder, not from the
+Markdown:
+
+| Where | What | Built from |
+|---|---|---|
+| Above the H1 | breadcrumb, and a 「<Company> 面经」button opening a drawer of this company's 面经 | the folder, the company `index.md` `title`, each sibling's frontmatter `title` and JSON |
+| Under the H1 (`<InterviewDetail />`) | 本篇亮点, then the info card on screens narrower than 1280px | JSON `highlights`; the rest of the JSON |
+| Right aside (≥ 1280px) | the info card: company, role, result, level, date, channel, background, each round's difficulty | JSON |
+| After the article | 求职时间线, and a 「帮忙补充」link while `highlights` is empty | JSON `timeline` / `highlights` |
+
+- Interview article pages have **no site sidebar**: `transformPageData` in
+  [config.ts](../../.vitepress/config.ts) sets `sidebar: false` on them (not `layout: page`, which
+  would drop the `vp-doc` styles and the `doc-*` slots) and builds the drawer list
+  ([interviewNav.ts](../../.vitepress/interviewNav.ts)).
+- **No 「基本信息」 list in the Markdown.** Date, role, level, education, job type, channel,
+  result, rounds and background belong in the JSON, where the info card shows them. A fact with
+  no JSON field (team, location, test platform, duration, what a round covered) goes as a bullet
+  at the top of the first content section (`## 面试详情` / `## 面试过程`), or right under
+  `<InterviewDetail />` when that section is a single round. The old lists were removed from
+  all pages this way in one pass.
+- A hand-written 「时间线」 section overlaps a JSON `timeline`; moving those into the JSON is a
+  separate, later pass — leave them in place until then.
+- The drawer list is read when the Markdown compiles; under `docs:dev`, restart the dev server
+  after a JSON-only edit to see it change.
+
+## Source attribution
+
+Whether a page is a 转载 (repost) or a 原创分享 (author's own experience) is declared by the
+JSON's `sourceType` — **the single source of truth**. `transformPageData` in
+[config.ts](../../.vitepress/config.ts) reads it at build time and copies it into the page's
+`frontmatter.sourceType` so components can use it during SSR; a `sourceType` hand-written in
+Markdown frontmatter is overwritten. The info card turns it into a 转载 / 原创分享 line,
+and `original` pages get a 原创声明 card appended through the `doc-footer-before` slot
+([OriginalStatement.vue](../../.vitepress/theme/components/OriginalStatement.vue)).
+
+| `sourceType` | Use when | Markdown must |
+|---|---|---|
+| `repost` | Content comes from another post | end with `<ReferenceSource :sources="[...]" />`, and the JSON gets a matching `source` |
+| `original` | Confirmed to be the submitter's own interview | **not** contain `<ReferenceSource>` — the slot already renders the 原创声明 card |
+| `unknown` | Origin can't be confirmed | either |
+
+- A missing or invalid value is treated as `unknown` (no tag, no card), so forgetting the
+  field never mislabels a repost as original. The build prints a `[sourceType]` warning when
+  `repost` lacks `<ReferenceSource>` or `original` has one.
+- Never flip `unknown` to `original` without confirmation from the author or a maintainer.
+- When a maintainer submits an original on the author's behalf, `originalAuthor: <name>` in
+  the Markdown frontmatter adds a 作者 line to the card.
+- A `repost` JSON carries `source: { site, author, link }`, copied from the page's
+  `<ReferenceSource>`; the info card's 查看原帖 button reads it. The build prints a `[source]`
+  warning when it is missing or its `link` does not appear in the Markdown.
+- `docs:dev` does not pick up a JSON-only edit to `sourceType`; restart the dev server.
 
 ## Slugs
 
@@ -54,6 +109,8 @@ Typed by [interviewData.ts](../../.vitepress/theme/utils/interviewData.ts).
 ```json
 {
   "company": "amazon",
+  "sourceType": "repost",
+  "source": { "site": "小红书", "author": "<post author>", "link": "<post url>" },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",
@@ -66,42 +123,123 @@ Typed by [interviewData.ts](../../.vitepress/theme/utils/interviewData.ts).
     "date": "",
     "result": "pass",
     "rounds": [{ "roundType": "technical", "rate": 3 }]
-  }
+  },
+  "highlights": [],
+  "timeline": []
 }
 ```
 
 - `company` matches the directory name (lowercase kebab-case).
 - `rounds[]` is the current shape. A flat `interview.roundType` + `interview.rate` is a legacy
   form still present in a few files and tolerated by the component — do not write new ones.
-- `rate` is that round's **difficulty**, 1–5.
+- `rate` is that round's **difficulty**, 1–5, or `null` when the source doesn't say (shown as
+  未提及难度).
+- `yearsOfExperience` is `null` when unknown; empty `level` / `jobType` / `date` / `result:
+  "unknown"` are simply not shown.
+- `highlights` and `timeline` are `[]` by default; a missing field reads the same as `[]`, so
+  older files need no backfill.
+
+### `highlights` — written by a person
+
+The 本篇亮点 box at the top of the page. **The skills always write `[]`**; an editor fills it in
+by hand afterwards.
+
+```json
+"highlights": [
+  { "title": "写代码只剩 20 分钟", "detail": "clarify 和实现细节讨论占了大半时间", "anchor": "#coding问题" }
+]
+```
+
+- 1–3 items: a short `title` (about 15 characters) and a one-sentence `detail`.
+- `anchor` is optional: the id of a heading on this page, which makes the title a link.
+- Highlights restate what the post says; never add a claim the post doesn't make.
+- While it is empty, the box is not rendered at all, and the page footer shows a 「帮忙补充」
+  link that opens this JSON for editing on GitHub.
+
+### `timeline` — dated steps, not interview-day content
+
+The 求职时间线 rendered after the article: applying, replies, scheduling, each interview, the
+result. What was asked *inside* an interview stays in the Markdown.
+
+```json
+"timeline": [
+  { "date": "2026-03-01", "event": "网申", "type": "apply" },
+  { "date": "2026-03-10", "event": "安排面试", "type": "schedule", "note": "约定 04-07 Onsite" },
+  { "date": "2026-04-07", "event": "Onsite 两轮", "type": "interview", "rounds": [1, 2] },
+  { "date": null, "event": "拿到 Offer", "type": "result" }
+]
+```
+
+- Events in chronological order. The skills write `[]` for now.
+- `date` holds only what the post states precisely: `YYYY-MM-DD`, or `YYYY-MM` when it names
+  just the month. Otherwise `null`, with the post's own words in `dateText` (`约两周后`,
+  `Day 10`). Don't fill in a missing year unless the post or `interview.date` pins it down.
+- The page shows the gap in days only between two full dates, and flags the longest gap when
+  there are at least two.
+- `rounds` are 1-based indexes into `interview.rounds`; `note` is one short line.
 
 ### Vocabulary
 
-The existing 70 JSON files have drifted badly (mixed case, mixed languages, and literal
+The older JSON files have drifted badly (mixed case, mixed languages, and literal
 `"string"` placeholders left over from the template). **Do not copy a neighbour's values
 blindly.** Use these:
 
 | Field | Use | Seen in the wild — do not imitate |
 |---|---|---|
+| `sourceType` | `repost`, `original`, `unknown` — see **Source attribution** | missing |
 | `position.level` | `intern`, `new-grad`, `mid-level`, `senior`, or a company ladder in lowercase (`l4`, `l5`) | `L4`, `SDE2`, `Senior` |
 | `position.jobType` | `full-time`, `internship`, `contract` | `string`, `full time`, `software engineer` |
 | `applicationSource.channel` | `direct-apply`, `referral`, `recruiter`, `online-assessment`, `other` | `string`, `网上海投`, `online application` |
 | `candidate.education` | `bachelor`, `master`, `phd` | `硕士`, `Master's degree`, `na` |
 | `interview.result` | `pass`, `rejected`, `pending`, `unknown` | `Pass`, `passed`, `fail`, `未通过` |
 | `roundType` | `oa`, `recruiter-screen`, `phone-screen`, `technical`, `coding`, `system-design`, `behavioral`, `hiring-manager`, `onsite` | `techinical`, `VO1`, `round 1` |
+| `timeline[].type` | `apply`, `reply`, `oa`, `schedule`, `interview`, `result`, `other` | — |
 
-`interview.result` also flows through
-[interviewResultEnum.ts](../../.vitepress/theme/types/interviewResultEnum.ts), whose
-`InterviewResultMap` supplies the display label and colour.
+The Chinese labels and colours shown on the page come from
+[interviewFormat.ts](../../.vitepress/theme/utils/interviewFormat.ts), which also tolerates the
+legacy values in the right-hand column. (`InterviewResultMap` in `interviewResultEnum.ts` is not
+used by these pages.)
 
 Leave a field as `""` (or `null` for `jobPostUrl`) when the source does not say — never invent
 a value, and never leave the template's `"string"` placeholder.
 
 ## Company `index.md`
 
-Each `<company>/index.md` needs frontmatter `title` (display name, e.g. `Amazon`) and
-`description` (short blurb). Both are read by `generate_folder_overview.py` and surface in the
-listings, so a missing `description` shows up as generic filler text on the section page.
+Every company folder needs an `index.md`: it is the page behind the homepage company grid, the
+section table, the breadcrumb and the drawer, so a missing one means a 404 from the section table.
+
+```markdown
+---
+title: Amazon
+description: Amazon 面试经验分享
+---
+<script setup>
+import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.vue'
+</script>
+
+# Amazon面试经验
+
+<CompanyInterviewList />
+```
+
+- `title` (display name) and `description` (short blurb) are read by
+  `generate_folder_overview.py` and surface in the listings, so a missing `description` shows up
+  as generic filler text on the section page. The `title` is also the company name in every
+  article's breadcrumb, drawer and info card.
+- `<CompanyInterviewList />` takes no props and is the whole point of the page: everyone landing
+  here came to read 面经, so it lists all of the company's, newest 收录时间 first, with a
+  实习 / 应届 / 社招 filter. It is not registered globally, so every page needs the import too. The
+  build prints an `[interviewCompany]` warning when the import or the tag is missing.
+- **Don't write a company-intro link by hand.** `interviewNav.ts` finds the page in
+  `direct-hire-company/**/<company>.md` by the folder name and shows a small link above the list,
+  or nothing when there is none. A new intro page is picked up automatically; it only needs the
+  same slug as the interview folder.
+- `transformPageData` sets `sidebar: false` and `aside: false` here, the same way it does on
+  articles: the list replaces the sidebar. It also sets `contributors: false`, since whoever
+  committed the `index.md` did not write the 面经, and overwrites `lastUpdated` with the newest
+  report's `createdDate`, so 「更新于」 means the list, not the shell file.
+- Stage subfolders (`amazon/onsite/`) are listed under the company like any other article, and
+  their pages get the same breadcrumb, drawer and info card.
 
 ## Landing pages
 
@@ -110,10 +248,16 @@ listings, so a missing `description` shows up as generic filler text on the sect
   yet output `articleCount` / `lastUpdated` / `createdDate`
   ([interviewExperienceListTypes.ts](../../.vitepress/theme/types/interviewExperienceListTypes.ts)).
   When you add a company, add its row here too.
-- `overview.md` — **generated**, never edit by hand.
+- `overview.md` — **generated**, never edit by hand. Nothing links to a company-level
+  `overview.md` any more; `<CompanyInterviewList />` is the list readers see, because the
+  overview only knows `title` / `description` and is refreshed nightly.
 
 ## folded-entry/
 
-`folded-entry/` holds 面经 that were demoted rather than deleted: ad accounts, duplicates, and
-obviously fabricated posts. LLM-generated 面经 are deleted outright, not folded. Move a page
-here instead of deleting it when it falls into those categories.
+`folded-entry/` holds 面经 that were demoted rather than deleted: ad accounts, posts with no
+substance, duplicates, and obviously fabricated posts. LLM-generated 面经 are deleted outright, not
+folded. Move a page here instead of deleting it, or instead of closing its PR, when it falls into
+those categories. The criteria are the community rules [promotion.md](../guide/rules/promotion.md)
+and [low-quality.md](../guide/rules/low-quality.md); deletion follows
+[no-ai-content.md](../guide/rules/no-ai-content.md). A folded page's `折叠原因` callout links the
+rule it broke.

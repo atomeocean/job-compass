@@ -1,5 +1,6 @@
 {
     "company": "Snapchat",
+    "sourceType": "unknown",
     "position": {
         "jobPostUrl": "",
         "title": "L5 Frontend Engineer",
@@ -12,7 +13,7 @@
     },
     "candidate": {
         "education": "bachelor",
-        "background": "8 years experience",
+        "background": "8 years experience，在职跳槽",
         "yearsOfExperience": 8
     },
     "interview": {

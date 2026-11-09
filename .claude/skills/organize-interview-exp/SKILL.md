@@ -2,7 +2,7 @@
 name: organize-interview-exp
 description: Organize a pasted 面经 (link + author + full post text) verbatim into an interview-experience page pair — markdown under docs/zhHans/interview-experience/<company>/ and matching JSON under docs/assets/json/interview-experience/<company>/ — keeping the author's own first-person wording and only adding structure. Use when the user pastes the full text of an interview post and asks to 整理 / add it. English posts are literally translated to Chinese first.
 createdDate: 2026-09-30
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-13
 ---
 # Organize a pasted 面经 verbatim
 
@@ -24,6 +24,11 @@ read it before writing.
   do not fetch the link to fill it in.
 - **No link or no author** → ask; both go into `<ReferenceSource>`.
 - **Company or role not determinable from the text** → ask.
+- **Source breaks a community rule**:
+  [no-ai-content](../../../docs/zhHans/guide/rules/no-ai-content.md),
+  [low-quality](../../../docs/zhHans/guide/rules/low-quality.md) or
+  [promotion](../../../docs/zhHans/guide/rules/promotion.md)
+  → tell the user which rule and why, and end the turn; do not write the page.
 
 ## English source: translate literally first
 
@@ -57,8 +62,14 @@ The only edits allowed:
    `**追问**：如果…`). The label text and its colon stay exactly as written, with the colon
    **outside** the `**`: markdown-it leaves `**追问：**如果` unbolded, showing literal
    asterisks. A lead-in sentence like 「比如优先检查：」 is prose, so it stays plain.
-6. Write `## 基本信息` and `## 面试结果反馈` as short structured fields. These are extracted
-   metadata, so the phrasing is yours, but every value comes from the source.
+6. Put the extracted metadata (date, role, level, education, channel, result, rounds,
+   background) in the **JSON only** — the page's info card shows it, so there is no
+   `## 基本信息` list. A fact the JSON has no field for (team, location, test platform,
+   duration) is a bullet at the top of `## 面试详情`. The result itself (pass / rejected) is
+   never repeated in the Markdown — no `- **最终结果**` line. Write `## 面试结果反馈` only when
+   the author says more about the outcome (HR feedback, rejection reason, their own reaction),
+   and keep that text verbatim. The phrasing of extracted fields is yours, but every value comes
+   from the source.
 
 Keep the author's own lists as lists and their prose as prose. Keep their descriptions of the
 interviewer as written.
@@ -110,15 +121,9 @@ outline: deep
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：<Role>（<Level>）
-- **面试形式**：<Phone Screen / Onsite / OA …>
-- **申请渠道**：<内推 / 网上海投 …>
-- **候选人背景**：<…>
-- **面试结果**：<Pass / Fail / Pending …>
-
 ## 面试详情
+
+- **<fact with no JSON field, e.g. 团队 / 考试平台>**：<…>
 
 <the author's overall description of the process, verbatim>
 
@@ -134,7 +139,7 @@ outline: deep
 
 ## 面试结果反馈
 
-- **最终结果**：<…>
+<the author's own words about the outcome, verbatim — omit this section if they only state the result>
 
 <ReferenceSource
 :sources="[
@@ -150,7 +155,8 @@ category: '海外面经'
 />
 ```
 
-- `## 基本信息`: include only the fields the source supports.
+- No `## 基本信息` list: those fields live in the JSON. The bullets under `## 面试详情` are only
+  for facts the JSON can't hold, and only when the source states them; otherwise omit them.
 - `###` subsections follow the source's own rounds or parts (`### 第一轮：Coding`,
   `### Behavioral Questions`, `### 加面：AI / ML`).
 - Omit `createdDate` / `lastUpdated`; CI injects them.
@@ -165,6 +171,8 @@ predate that table, so take their shape, not their values.
 ```json
 {
   "company": "<company dir name>",
+  "sourceType": "repost",
+  "source": { "site": "<一亩三分地 / 小红书 / …>", "author": "<author>", "link": "<post url>" },
   "position": { "jobPostUrl": null, "title": "<Role>", "level": "<l5 / new-grad / \"\">", "jobType": "full-time" },
   "applicationSource": { "channel": "<vocabulary value>", "referralDetails": "<e.g. 内推 / \"\">" },
   "candidate": { "education": "<bachelor / master / phd / \"\">", "background": "<e.g. 在职跳槽 / \"\">", "yearsOfExperience": null },
@@ -172,13 +180,19 @@ predate that table, so take their shape, not their values.
     "date": "<interview date the author states, else \"\">",
     "result": "<pass / rejected / pending / unknown>",
     "rounds": [{ "roundType": "<oa / phone-screen / onsite …>", "rate": 3 }]
-  }
+  },
+  "highlights": [],
+  "timeline": []
 }
 ```
 
+- `highlights` and `timeline` are always `[]`: highlights are written by an editor by hand
+  later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
 - `rounds`: one entry per interview stage (OA, phone screen, onsite loop).
+- `sourceType` is always `repost` here — the page cites the post with `<ReferenceSource>`, and
+  `source` repeats its `site` / `author` / `link` exactly (the info card's 查看原帖 button).
 - `rate` is difficulty 1–5 from the author's own words (「中等」→ 3, 「不算高」→ 2). When the
-  author gives none, use `0` and say so in the report.
+  author gives none, use `null` and say so in the report.
 - Unstated fields: `""` for strings, `null` for `jobPostUrl` and `yearsOfExperience`.
 - `interview.date` is the interview date; the post date belongs in `<ReferenceSource>`.
 
@@ -191,7 +205,8 @@ predate that table, so take their shape, not their values.
 3. **Pick the folder**: `<company>` is lowercase kebab-case. If the company folder has
    stage subfolders (e.g. `amazon/online-assessment/`) and the post belongs to one, use it —
    the md and json paths mirror each other below `interview-experience/`. For a new company,
-   create `<company>/index.md` modelled on `google/index.md` with `title` and `description`.
+   create `<company>/index.md` modelled on `google/index.md` with `title` and `description`,
+   keeping its `<script setup>` import and the `<CompanyInterviewList />` under the H1.
 4. **Update the landing page** `docs/zhHans/interview-experience/index.md`: in
    `interviewItems`, bump the company's `articleCount` and set `lastUpdated` to today, or add a
    row for a new company.

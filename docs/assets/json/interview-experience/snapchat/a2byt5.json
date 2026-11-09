@@ -1,0 +1,33 @@
+{
+  "company": "snapchat",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "匿名用户-OI2WW",
+    "link": "https://www.1point3acres.com/bbs/thread-1194018-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Security Engineer (IAM)",
+    "level": "l4",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "phd",
+    "background": "应届毕业生 (PhD NG)",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pending",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": 3 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

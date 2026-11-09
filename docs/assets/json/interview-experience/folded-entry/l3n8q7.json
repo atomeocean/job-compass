@@ -1,0 +1,38 @@
+{
+  "company": "linkedin",
+  "sourceType": "repost",
+  "source": {
+    "site": "PracHub",
+    "author": "",
+    "link": "https://prachub.com/interview-experiences/linkedin-software-engineer-interview-experience-a-five-round-ic2-loop-with-an-ai-coding-round"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "ic2",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "other",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}

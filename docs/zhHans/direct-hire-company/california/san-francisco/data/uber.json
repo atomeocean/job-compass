@@ -1,0 +1,33 @@
+{
+  "companyInfo": {
+    "companyName": "Uber Technologies, Inc.",
+    "location": {
+      "addressLine1": "1725 3rd Street",
+      "addressLine2": "",
+      "county": "San Francisco County",
+      "cityOrTown": "San Francisco",
+      "state": "CA",
+      "zipCode": "94158"
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "https://www.uber.com",
+      "linkedin": "https://www.linkedin.com/company/uber-com"
+    },
+    "industry": ["网约车", "外卖配送", "货运物流", "出行科技"],
+    "foundedYear": "2009",
+    "description": "Uber 美国滴滴",
+    "mainProductsOrServices": [
+      "Uber 网约车服务（Mobility）",
+      "Uber Eats：外卖与生鲜杂货配送",
+      "Uber Freight：货运物流平台",
+      "Uber One：会员订阅计划",
+      "Uber for Business：企业出行与配送服务"
+    ],
+    "companySize": "约 31,000 名员工"
+  },
+  "metadata": {
+    "lastUpdated": "2026-11-03"
+  }
+}

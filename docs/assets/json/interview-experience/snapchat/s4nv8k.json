@@ -1,0 +1,34 @@
+{
+  "company": "snapchat",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地", 
+    "author": "匿名用户-IAM0W", 
+    "link": "https://www.1point3acres.com/bbs/thread-1192328-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null, 
+    "title": "SDE - ML Infra", 
+    "level": "", 
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply", 
+    "referralDetails": "" 
+  },
+  "candidate": {
+    "education": "master", 
+    "background": "在职跳槽", 
+    "yearsOfExperience": null 
+  },
+  "interview": {
+    "date": "2026-09",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": null },
+      { "roundType": "onsite", "rate": 3 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

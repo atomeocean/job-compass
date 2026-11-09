@@ -2,20 +2,12 @@
 title: Software Engineer 面经
 description: Salesforce Software Engineer Onsite面试经验
 createdDate: 2026-07-11
-lastUpdated: 2026-07-14
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Salesforce Software Engineer Onsite面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：Onsite
-- **申请渠道**：Other
-- **候选人背景**：硕士
-- **面试结果**：Other
 
 ## 面试详情
 

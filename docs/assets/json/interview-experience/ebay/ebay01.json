@@ -1,5 +1,11 @@
 {
   "company": "eBay",
+  "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "匿名用户",
+    "link": "https://leetcode.com/discuss/post/8467010/ebay-sde-2-interview-experience-virtual-h2rgv/"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
@@ -12,7 +18,7 @@
   },
   "candidate": {
     "education": "",
-    "background": "在职跳槽",
+    "background": "在职跳槽，2 YOE + 6 个月同团队实习",
     "yearsOfExperience": 2
   },
   "interview": {

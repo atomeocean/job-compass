@@ -1,0 +1,31 @@
+{
+  "company": "snowflake",
+  "sourceType": "repost",
+  "source": {
+    "site": "小红书",
+    "author": "",
+    "link": "https://www.xiaohongshu.com/explore/67eb0a78000000001c01257f?xsec_token=ABgOGgez9YWnsd5chv6psiGk7DLUtpjztggJM6bsNFFSw=&xsec_source=pc_search&source=web_search_result_notes"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "软件工程师",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "technical", "rate": null }
+    ]
+  }
+}

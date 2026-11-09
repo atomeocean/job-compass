@@ -3,20 +3,11 @@ title: SWE Onsite
 description: Coinbase软件工程师Onsite面试经验，系统设计题考察Ring Buffer
 outline: deep
 createdDate: 2026-07-10
-lastUpdated: 2026-07-11
+lastUpdated: 2026-10-12
 ---
 # Coinbase公司软件工程师Onsite面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试岗位**：Software Engineer（码农类General）
-- **学历背景**：硕士
-- **工作类型**：全职
-- **投递方式**：网上海投
-- **面试形式**：Onsite
-- **当前状态**：在职跳槽
 
 ## 面试详情
 

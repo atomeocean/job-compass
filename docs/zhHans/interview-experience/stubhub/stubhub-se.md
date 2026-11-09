@@ -1,22 +1,14 @@
 ---
 createdDate: 2025-11-21
-lastUpdated: 2026-01-06
+lastUpdated: 2026-10-12
 ---
 # StubHub 面试经验（Senior / Staff SDE）
 
+<InterviewDetail />
+
 > HR 在 LinkedIn 上 reach out，定位 Senior/Staff 级别 SDE，最后挂了，记录一下流程和感受，也给之后面 StubHub 的人踩踩坑。
 
-
-## 1. 基本信息
-
-- **面试国家：** 美国  
-- **公司名称：** StubHub  
-- **面试时间：** 2025 年  
-- **面试职位：** Senior / Staff Software Engineer  
-- **获取渠道：** HR 在 LinkedIn 主动联系  
-- **候选人背景：** 多年后端开发经验，有多套微服务 / 分布式系统项目
-
-## 2. 面试详情
+## 1. 面试详情
 
 StubHub 的工程岗包含：
 
@@ -35,14 +27,12 @@ StubHub 的工程岗包含：
 
 整体来看，StubHub 软件工程师面试的 **整体通过率不高**，有统计说大概 25% 左右，属于“刷人比较狠”的公司之一。
 
-
-
-### 2.1 HR Reach Out
+### 1.1 HR Reach Out
 
 - HR 通过 LinkedIn 联系，说明在招 Senior/Staff 级别的工程师，聊了简历和过往项目，大致确认技术栈 match。  
 - 之后约了 **Hiring Manager（HM）面** 作为第一轮正式技术面，时长 45–60 分钟。
 
-### 2.2 第一轮：HM 面（Project Deep Dive，老毛子）
+### 1.2 第一轮：HM 面（Project Deep Dive，老毛子）
 
 - HM 是东欧口音，一开始先花了 **10–15 分钟介绍组里做的东西**：  
   - 团队负责的业务域、核心系统、大概的技术栈  
@@ -87,7 +77,7 @@ StubHub 的工程岗包含：
 
 ---
 
-## 3.总结 StubHub 对 Senior/Staff 的期待
+## 2.总结 StubHub 对 Senior/Staff 的期待
 
 从这次挂经 + 网上其他面经，能看出 StubHub 对 Senior/Staff 的共通预期：
 
@@ -111,10 +101,8 @@ StubHub 的工程岗包含：
 4. **文化/体验不算特别友好，选人较狠**  
    - 从公开评价看，工程师对 StubHub 的评分和面试体验普遍一般，通过率不高。  
 
-
-## 5. 小结
+## 4. 小结
 
 这次 StubHub Senior/Staff 面试最后挂在 HM 环节，本质上不是算法或者代码问题，而是 **“如何把技术工作讲成有业务价值的故事”** 的问题。  
-
 
 希望这篇挂经能帮之后要面 StubHub 的同学少踩点坑。

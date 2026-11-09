@@ -1,5 +1,11 @@
 {
   "company": "url",
+  "sourceType": "repost",
+  "source": {
+    "site": "",
+    "author": "",
+    "link": ""
+  },
   "position": {
     "jobPostUrl": "string",
     "title": "string",
@@ -20,5 +26,7 @@
     "roundType": "onsite",
     "rate": 2,
     "result": "pass"
-  }
+  },
+  "highlights": [],
+  "timeline": []
 }

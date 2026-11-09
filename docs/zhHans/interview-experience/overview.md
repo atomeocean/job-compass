@@ -1,7 +1,7 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-09-29
+lastUpdated: 2026-11-05
 ---
 <script setup>
 const overviewItems = [
@@ -23,6 +23,13 @@ const overviewItems = [
     "title": "Apple",
     "description": "Apple 面试经验分享",
     "href": "./apple/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Applied Intuition",
+    "description": "Applied Intuition 面试经验分享",
+    "href": "./applied-intuition/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -62,9 +69,23 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "Compass",
+    "description": "Compass 面试经验分享",
+    "href": "./compass/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "Databricks",
     "description": "该文件主要介绍 Databricks 的相关内容。",
     "href": "./databricks/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Disney",
+    "description": "Disney 面试经验分享",
+    "href": "./disney/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -98,7 +119,7 @@ const overviewItems = [
   },
   {
     "title": "Google",
-    "description": "该文件主要介绍 Google 的相关内容。",
+    "description": "Google 面试经验分享",
     "href": "./google/index.md",
     "order": 0,
     "kind": "folder"
@@ -107,6 +128,13 @@ const overviewItems = [
     "title": "ICBC",
     "description": "该文件主要介绍 ICBC 的相关内容。",
     "href": "./icbc/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "LinkedIn",
+    "description": "LinkedIn 面试经验分享",
+    "href": "./linkedin/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -146,6 +174,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "Nuro",
+    "description": "该文件主要介绍 Nuro 的相关内容。",
+    "href": "./nuro/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "Nvidia",
     "description": "该文件主要介绍 Nvidia 的相关内容。",
     "href": "./nvidia/index.md",
@@ -170,6 +205,13 @@ const overviewItems = [
     "title": "Rednote",
     "description": "该文件主要介绍 Rednote 的相关内容。",
     "href": "./rednote/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Rippling",
+    "description": "Rippling面试经验分享",
+    "href": "./rippling/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -209,9 +251,23 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "StubHub",
+    "description": "StubHub 面试经验分享",
+    "href": "./stubhub/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "TikTok",
     "description": "该文件主要介绍 TikTok 的相关内容。",
     "href": "./tiktok/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Uber",
+    "description": "Uber 面试经验分享",
+    "href": "./uber/index.md",
     "order": 0,
     "kind": "folder"
   },

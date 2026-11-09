@@ -1,8 +1,8 @@
 ---
 name: web-source-to-interview
 description: Turn a shared interview experience (面经) from a web link (RedNote/小红书, 一亩三分地, forum thread) or pasted text into an interview-experience page pair — the markdown under docs/zhHans/interview-experience/<company>/ plus its matching JSON under docs/assets/json/interview-experience/<company>/. Use when the user gives a 面经/interview writeup and asks to add it to the site. For non-interview sources use web-source-to-article instead.
+lastUpdated: 2026-10-13
 ---
-
 # Create an interview-experience (面经) page from a web source
 
 Produce a **file pair** for one interview experience:
@@ -26,6 +26,11 @@ anonymize the original author, objective tone, no attacks on interviewers.
   returns a summary at best. If the fetched content doesn't include the actual
   interview questions in enough detail to restate them faithfully, ask the user to
   paste the original text and end the turn. Do not fabricate question details.
+- **Source breaks a community rule**:
+  [no-ai-content](../../../docs/zhHans/guide/rules/no-ai-content.md),
+  [low-quality](../../../docs/zhHans/guide/rules/low-quality.md) or
+  [promotion](../../../docs/zhHans/guide/rules/promotion.md)
+  → tell the user which rule and why, and end the turn; do not write the page.
 
 ## Token discipline
 
@@ -52,10 +57,15 @@ anonymize the original author, objective tone, no attacks on interviewers.
    ```markdown
    ---
    title: <Company>
+   description: <Company> 面试经验分享
    ---
+   <script setup>
+   import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.vue'
+   </script>
+
    # <Company>面试经验
 
-   公司介绍页面链接暂无
+   <CompanyInterviewList />
    ```
 
 4. **Generate the slug** — a random 6-char lowercase alphanumeric ID (existing
@@ -71,6 +81,8 @@ anonymize the original author, objective tone, no attacks on interviewers.
    ```json
    {
      "company": "<Company>",
+     "sourceType": "repost",
+     "source": { "site": "<小红书 / 一亩三分地>", "author": "<author or ''>", "link": "<post url>" },
      "position": {
        "jobPostUrl": null,
        "title": "<Role>",
@@ -92,11 +104,17 @@ anonymize the original author, objective tone, no attacks on interviewers.
        "rounds": [
          { "roundType": "<phone screen / technical / onsite / vo>", "rate": 3 }
        ]
-     }
+     },
+     "highlights": [],
+     "timeline": []
    }
    ```
+   `highlights` and `timeline` are always `[]`: highlights are written by an editor by hand
+   later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
    Use `""` / `null` / `"na"` for unknowns — never guess. One `rounds` entry per
-   round the source describes.
+   round the source describes. `sourceType` is always `repost` for a page built from a web
+   source (it ends with `<ReferenceSource>`); `source` repeats that block's `site` / `author` /
+   `link` exactly.
 
 6. **Write the markdown** `docs/zhHans/interview-experience/<company>/<slug>.md`,
    following `docs/zhHans/interview-experience/openai/y2ti8x.md`:
@@ -106,14 +124,18 @@ anonymize the original author, objective tone, no attacks on interviewers.
    - `# H1` naming company + role, e.g. `# 美国Google公司软件工程师面试经验`.
    - `<InterviewDetail />` on its own line right after the H1 (globally registered,
      no import).
-   - `## 基本信息` — bullets from
-     `docs/zhHans/guide/interview-experience-utils/requirement.md`, only the ones the
-     source supports: **面试日期 / 面试岗位 / 学历背景 / 工作类型 / 投递方式 / 面试形式 / 当前状态**.
-   - `## 面试详情` — subsections as fits the source, typically:
+   - **No `## 基本信息` list** — 面试日期 / 岗位 / 学历 / 工作类型 / 投递方式 / 面试形式 / 结果
+     go in the JSON (step 5), where the page's info card shows them.
+   - `## 面试详情` — open with bullets only for facts the JSON has no field for (team,
+     location, test platform, duration) and the source states; then subsections as fits the
+     source, typically:
      `### 面试过程的详细描述` (one `####` per round; state the questions, link
      LeetCode problems like `[LeetCode 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)`),
      `### 解决方法`, `### 面试流程`, `### 和面试官沟通细节`, `### 面试结果反馈`.
      Mark inferences explicitly (e.g. "从行文语气推断") rather than stating them as fact.
+     `### 面试结果反馈` is only for what the source says beyond the result itself (HR feedback,
+     rejection reason) — never restate pass / rejected there, the JSON `result` shows it; if
+     that is all the source says, leave the section out.
    - End with `<ReferenceSource>` citing the source (globally registered, inline props):
      ```vue
      <ReferenceSource

@@ -2,20 +2,12 @@
 title: L4 R1时间线
 description: Google L4 Software Engineer R1面试经验
 createdDate: 2026-06-05
-lastUpdated: 2026-06-12
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Google L4 Software Engineer R1面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Engineer（L4）
-- **面试形式**：技术电面 + BQ
-- **申请渠道**：网上海投
-- **候选人背景**：硕士，6年工作经验
-- **面试结果**：Pass
 
 ## 时间线
 

@@ -3,19 +3,11 @@ title: L4
 description: Google L4 Software Engineer 电面与Onsite面试经验
 outline: deep
 createdDate: 2026-09-30
-lastUpdated: 2026-09-30
+lastUpdated: 2026-10-12
 ---
 # Google L4 Software Engineer 电面与Onsite面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Engineer（L4）
-- **面试形式**：Phone Interview ×2 + Onsite
-- **申请渠道**：Other
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Other（未说明）
 
 ## 面试详情
 

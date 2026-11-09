@@ -1,0 +1,48 @@
+{
+  "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "GeeksforGeeks",
+    "author": "匿名",
+    "link": "https://www.geeksforgeeks.org/interview-experiences/amazon-interview-experience-for-support-ops-specialist/"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Support Ops specialist",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "bachelor",
+    "background": "应届",
+    "yearsOfExperience": 1
+  },
+  "interview": {
+    "date": "2024-11-01",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "phone-screen",
+        "rate": 1
+      },
+      {
+        "roundType": "technical",
+        "rate": 2
+      },
+      {
+        "roundType": "behavioral",
+        "rate": 2
+      },
+      {
+        "roundType": "hiring-manager",
+        "rate": 3
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

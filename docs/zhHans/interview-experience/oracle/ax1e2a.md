@@ -2,20 +2,12 @@
 title: 健康组电面
 description: Oracle 健康组技术电面面经
 createdDate: 2026-06-09
-lastUpdated: 2026-06-12
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Oracle健康组技术电面面经
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：技术电面
-- **申请渠道**：网上海投
-- **候选人背景**：硕士，在职跳槽
-- **面试结果**：Fail
 
 ## 面试流程
 

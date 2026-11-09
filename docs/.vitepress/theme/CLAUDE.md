@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-09-10
+lastUpdated: 2026-10-30
 ---
 # CLAUDE.md — VitePress theme
 
@@ -13,14 +13,30 @@ file is about the code.
 ```
 theme/
   index.ts        theme entry: global component registration, Element Plus, layout slots
-  components/     21 components (+ components/siteStatistic/)
-  composables/    useContributors.ts
+  components/     26 components (+ components/siteStatistic/, components/interview/,
+                  components/home/ for / and /en/); new ones go in a category subfolder, not here
+  composables/    useContributors.ts, useInterviewData.ts, useBusuanzi.ts
   types/          shared TS interfaces and enums
-  utils/          pure helpers (contributors.ts, interviewData.ts, util.ts)
+  utils/          pure helpers (companyMatch.ts, contributors.ts, interviewData.ts,
+                  interviewFormat.ts, referenceSource.ts, team.ts, util.ts)
+  constants/      aiContributors.ts, logbookAuthors.ts, teamMembers.ts, companyNames.ts,
+                  footerLinks.ts
+  data/           siteStats.data.ts — build-time data loader for both homepages
+  style/          brand-colors.css — Atomeocean blues (--ao-blue-*), mirrored from logbook
 ```
 
-There is **no `constants/` directory** even though the `@ao-constants` alias is defined in
-[alias.ts](../alias.ts). Create the folder if you genuinely need it; don't assume it exists.
+## Author bar (`ContributorWrapper`)
+
+The author bar merges frontmatter authors with git commit authors, then matches each one to a
+profile in `docs/_data/contributors.ts` plus [constants/aiContributors.ts](constants/aiContributors.ts).
+The plugin uses the same list as `mapAuthors` in [config.ts](../config.ts). Claude co-authors
+are merged into a single "Claude" author by the `noreply@anthropic.com` email. A page with
+`contributors: false` in its frontmatter shows no bar.
+
+Author pages live on **logbook**, not here. If a contributor's GitHub username is listed in
+[constants/logbookAuthors.ts](constants/logbookAuthors.ts), their avatar and name link to
+`https://logbook.atomeocean.com/guide/author-list/<slug>`, which opens in a new tab. When logbook
+adds a new author page, add a line there. Everyone else falls back to their GitHub profile.
 
 ## Path aliases
 
@@ -37,19 +53,76 @@ the table components use root-absolute glob patterns like `/zhHans/job-postings/
 ## Registering a component
 
 Global registration happens in [index.ts](index.ts) via `app.component(...)` inside
-`enhanceApp`. Markdown pages can only use globally registered components, so any component
-meant for content **must** be added there.
+`enhanceApp`, and is for components used across many kinds of pages. A component that serves one
+kind of page is imported in that page's `<script setup>` instead, so it stays out of the theme
+bundle: `ZhHome` / `EnHome` on the homepages, `CompanyInterviewList` on company pages.
 
-Three components are wired through layout slots instead, and are not globally registered:
+These components are wired through layout slots instead, and are not globally registered:
 
 | Slot | Component |
 |---|---|
-| `doc-before` | `ContributorWrapper` |
-| `doc-footer-before` | `RelatedArticles` |
+| `doc-before` | `InterviewBreadcrumb`, then `ContributorWrapper` |
+| `aside-top` | `InterviewAsideCard` |
+| `doc-footer-before` | `InterviewDocFooter`, `OriginalStatement`, then `RelatedArticles` |
 | `doc-after` | `Giscus` |
+| `layout-bottom` | `SiteFooter` (English pages only) |
+
+The three `Interview*` slot components render on every page, so each one checks first and
+outputs nothing elsewhere: `InterviewBreadcrumb` keys off `frontmatter.interviewNav` (articles
+and company pages), the other two use `useInterviewData`, which skips the JSON lookup unless
+`parseInterviewPath` matches. Together with `<InterviewDetail />` in the Markdown they make up
+the 面经 page — see
+[interview-experience/CLAUDE.md](../../zhHans/interview-experience/CLAUDE.md) for what shows
+where.
+
+`frontmatter.interviewNav` and `frontmatter.sidebar = false` are set at build time by
+`transformPageData` in [config.ts](../config.ts), via [interviewNav.ts](../interviewNav.ts), the
+same way `sourceType` is. On articles `interviewNav` feeds the breadcrumb and company drawer; on
+`<company>/index.md` it feeds the breadcrumb and `<CompanyInterviewList />`. It is available
+during SSR and changes with the page on SPA navigation, but under `docs:dev` it is recomputed
+only when the Markdown file changes.
 
 `<DocTitleMeta />` is not written by hand either — a custom markdown-it plugin in
 [config.ts](../config.ts) appends it after every `h1` during render.
+
+## Homepages (`/` and `/en/`)
+
+`docs/zhHans/index.md` and `docs/en/index.md` are `layout: page` and render
+[components/home/ZhHome.vue](components/home/ZhHome.vue) and
+[components/home/EnHome.vue](components/home/EnHome.vue). On both, the hero and the company grid
+share one search query. Every number comes from [data/siteStats.data.ts](data/siteStats.data.ts),
+a VitePress data loader that runs at build time, so the numbers are in the static HTML.
+
+- `HomeHero`, `HomeCompanyGrid`, `HomeProcess` and `HomeStats` are shared. They take
+  `locale="zh"` or `locale="en"` (the default) and keep both languages' copy in a `COPY` table
+  inside the component, so a wording change happens there, not in the page. The latest-reports
+  list, the stage links and the FAQ are Chinese-only; the sections, team and operator blocks are
+  English-only. Layout classes both pages use (`.home-section`, `.home-title`, …) live in
+  [components/home/home-page.scss](components/home/home-page.scss), under `.home-page`.
+- The loader counts JSON and Markdown files and reads `git log`. Git numbers need full history
+  (`fetch-depth: 0`, which `deploy.yml` has). On a shallow clone the loader returns `git: null` and
+  those numbers are hidden rather than wrong. Loaders are bundled separately from `config.ts`, so
+  they cannot use the `@ao-` aliases. Folded posts (`folded-entry/`) are not counted as reports.
+- `latestReports` is the newest 40 reports by the article's `createdDate`. Some articles write it
+  as `2026-6-9` or `{2025-11-22}`, so the loader normalises the date before sorting. The Chinese
+  homepage filters the list into 实习 / 应届 / 社招 with `levelGroup` in
+  [utils/interviewFormat.ts](utils/interviewFormat.ts), and formats dates from the build year
+  rather than `Date.now()`, so SSR and hydration render the same text.
+- The team section (English homepage) lists employees only. `contributors.ts` has no employee
+  flag, so the list lives in [constants/teamMembers.ts](constants/teamMembers.ts); names, titles
+  and avatars still come from `contributors.ts`.
+- Company names come from each company's `index.md` title, corrected by
+  [constants/companyNames.ts](constants/companyNames.ts). A company without an `index.md` links
+  to its newest report instead of a 404. The company search also matches the Chinese nicknames
+  in `COMPANY_ALIASES` there (亚麻 finds Amazon), via [utils/companyMatch.ts](utils/companyMatch.ts).
+- Readership comes from busuanzi via [composables/useBusuanzi.ts](composables/useBusuanzi.ts),
+  which `DocTitleMeta` (article view count) and the now-unused `SiteViewStatistic` also use.
+  The numbers only exist in the browser; when busuanzi is down or blocked, they stay hidden
+  instead of showing 0 or a permanent "loading". Render the placeholder `<span>` outside any
+  `v-if`, or busuanzi has nowhere to write.
+- [components/SiteFooter.vue](components/SiteFooter.vue) is ported from logbook and renders on
+  English pages only; links live in [constants/footerLinks.ts](constants/footerLinks.ts). Add pages
+  that exist only in English to `EN_ONLY_PATHS`, so the footer's 中文 link falls back to `/`.
 
 ## SSR + SPA navigation gotchas
 
@@ -70,9 +143,11 @@ always verify with `npm run docs:dev` and click between pages before declaring d
 - **Keep `:key="page.value.relativePath"` on the root of any subtree driven by per-page data.**
   It forces a rebuild on route change. Removing it as "redundant" breaks SPA navigation:
   navigating A → B leaves stale or empty data until a manual refresh.
-- **Data-loading components must reload on route change, not just on mount.** Both
-  `InterviewDetail` and `ContributorWrapper` pair `onMounted(load)` with
-  `watch(() => page.value.relativePath, load)`. Copy that pattern.
+- **Data-loading components must reload on route change, not just on mount.**
+  [useInterviewData.ts](composables/useInterviewData.ts) (used by `InterviewDetail`,
+  `InterviewAsideCard` and `InterviewDocFooter`) and `ContributorWrapper` pair
+  `onMounted(load)` with `watch(() => page.value.relativePath, load)`. Copy that pattern;
+  `useInterviewData` also drops a result that arrives after the user has already moved on.
 
 ## Loading JSON content
 

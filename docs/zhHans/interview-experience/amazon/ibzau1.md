@@ -1,17 +1,12 @@
 ---
 title: SDE
 createdDate: 2026-07-12
-lastUpdated: 2026-07-14
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Amazon L4 SDE 面试经验
 
-<InterviewDetail /> 
-
-## 面试基本信息
-
-- 公司信息：[Amazon](https://www.amazon.jobs/)
-- 面试时间：2026年7月
+<InterviewDetail />
 
 ## 背景
 

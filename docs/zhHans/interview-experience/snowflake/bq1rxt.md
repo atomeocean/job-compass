@@ -2,20 +2,12 @@
 title: 雪花电面
 description: Snowflake Software Engineer技术电面经验
 createdDate: 2026-06-21
-lastUpdated: 2026-07-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Snowflake Software Engineer技术电面经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **岗位**：Software Engineer
-- **面试形式**：技术电面
-- **申请渠道**：Other
-- **候选人背景**：硕士，应届毕业生
-- **面试结果**：Pass
 
 ## 面试详情
 

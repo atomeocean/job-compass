@@ -1,0 +1,34 @@
+{
+  "company": "rippling",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "Owenli20",
+    "link": "https://www.1point3acres.com/bbs/thread-1195734-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "staff",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "system-design", "rate": 3 },
+      { "roundType": "hiring-manager", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

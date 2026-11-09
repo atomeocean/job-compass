@@ -3,20 +3,11 @@ title: SWE L4 面经
 description: Google L4 软件工程师技术电面与 Onsite 三轮 Coding 及 Googleyness & Leadership 面经
 outline: deep
 createdDate: 2026-09-14
-lastUpdated: 2026-09-14
+lastUpdated: 2026-10-12
 ---
 # Google L4 软件工程师面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试岗位**：Software Engineer（码农类 General，L4）
-- **学历背景**：硕士
-- **工作类型**：全职
-- **面试形式**：技术电面 + Onsite
-- **当前状态**：在职跳槽
-- **面试结果**：Pass
 
 ## 面试详情
 

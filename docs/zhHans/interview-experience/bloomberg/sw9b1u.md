@@ -2,23 +2,12 @@
 title: Bloomberg SWE 面经
 description: Bloomberg SWE面试经验分享
 createdDate: 2026-05-08
-lastUpdated: 2026-05-08
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Bloomberg公司SWE面试经验
 
 <InterviewDetail />
-
-## 基本信息
-
-- **面试日期**：近期
-- **面试岗位**：Software Engineer
-- **岗位级别**：New Grad
-- **学历背景**：本科
-- **工作类型**：全职
-- **投递方式**：网上海投
-- **面试形式**：技术电面
-- **当前状态**：应届毕业生
 
 ## 面试详情
 

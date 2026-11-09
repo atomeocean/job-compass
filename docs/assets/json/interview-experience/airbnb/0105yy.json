@@ -1,5 +1,6 @@
 {
     "company": "airbnb",
+    "sourceType": "unknown",
     "position": {
         "jobPostUrl": null,
         "title": "New Grad Software Engineer",

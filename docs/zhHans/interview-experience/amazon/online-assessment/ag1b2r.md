@@ -2,22 +2,16 @@
 title: Amazon OA
 description: Amazon Software Engineer Online Assessment面试经验
 createdDate: 2026-09-30
-lastUpdated: 2026-09-30
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Amazon OA面试经验
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Engineer
-- **学历**：硕士
-- **候选人背景**：在职跳槽
-- **面试流程**：Coding + Django Debug + Work Style Assessment + Personality Assessment
-- **面试结果**：未知
-
 ## 面试详情
+
+- **面试流程**：Coding + Django Debug + Work Style Assessment + Personality Assessment
 
 ### Coding
 

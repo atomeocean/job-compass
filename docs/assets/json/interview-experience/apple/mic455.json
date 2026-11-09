@@ -1,0 +1,40 @@
+{
+  "company": "apple",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "匿名用户-GGO5Z",
+    "link": "https://www.1point3acres.com/bbs/thread-1192876-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Development Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": "网上海投"
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      {
+        "roundType": "phone-screen",
+        "rate": 5
+      },
+      {
+        "roundType": "onsite",
+        "rate": 4
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

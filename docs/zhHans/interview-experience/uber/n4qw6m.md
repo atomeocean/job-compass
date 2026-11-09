@@ -2,24 +2,17 @@
 title: 前端 Frontend Engineer 面经
 description: Uber Frontend Engineer OA+技术电面经验分享
 createdDate: 2026-05-27
-lastUpdated: 2026-05-27
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Uber 前端 面试经验
 
 <InterviewDetail />
 
-## 基本信息
+## 面试详情
 
-- **面试日期**：近期
 - **面试岗位**：Software Engineer
 - **学历背景**：硕士，偏后端，简历上有一年前端经历
-- **工作类型**：全职
-- **投递方式**：内推
-- **面试形式**：Online Assessment + 技术电面
-- **当前状态**：在职跳槽
-
-## 面试详情
 
 ### 面试流程概览
 

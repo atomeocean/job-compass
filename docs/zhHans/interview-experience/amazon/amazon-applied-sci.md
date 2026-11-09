@@ -1,32 +1,25 @@
 ---
 title: Applied Scientist
 createdDate: 2025-11-21
-lastUpdated: 2025-12-31
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Amazon Applied Scientist 面试经验（Phone Screen + VO 全流程）
 
-## 1. 基本信息
+<InterviewDetail />
 
-- **面试国家：** 美国
-- **公司名称：** Amazon
-- **面试日期：** 2025 年
-- **面试职位：** Applied Scientist（AS）
-- **候选人背景：** 博士，应届毕业生
+## 1. 面试详情
+
 - **面试渠道：** LinkedIn reach out / 网上海投
 
-
-## 2. 面试详情
-
-### 2.1 面试流程概览
+### 1.1 面试流程概览
 
 - Phone Screen（ML + Project Deep Dive）
 - VO 第一轮：Project Presentation
 - VO 后续五轮：Stats / ML / Coding / LP（每轮 1 小时）
 - 每轮均含 ~20 分钟 Leadership Principles
 
-
-## 2.2 各轮面试内容与细节
+## 1.2 各轮面试内容与细节
 
 ### **第一轮：Phone Screen**
 
@@ -57,13 +50,11 @@ outline: deep
 - 周五结果：**通过**  
 - 约两周后进行 onsite（VO）
 
-
 ## **VO Full-round（6 轮）**
 
 - 1 轮 Project Presentation  
 - 5 轮技术 + LP  
 - 每轮约 60 分钟
-
 
 ### **第二轮：Stats Application（统计题 · 难点）**
 
@@ -100,8 +91,7 @@ KS Test 特点：
 
 #### **LP：Bias for Action, Deliver Results**
 
-
-## 3. 技术重点与思考方式（非完整解答）
+## 2. 技术重点与思考方式（非完整解答）
 
 ### **RAG Evaluation**
 
@@ -120,15 +110,13 @@ KS Test 特点：
 
 **KS 是最通用的答案。**
 
-
-## 4. 面试结果反馈
+## 3. 面试结果反馈
 
 - Stats Application 表现不佳 → 高概率挂点  
 - 其余 ML / LP 表现正常  
 - 整体偏学术 rigor，难度高  
 
-
-## 5. 总结与建议
+## 4. 总结与建议
 
 - Amazon AS 比一般 ML/DS 面试更强调 **统计基础**  
 - KS test、non-parametric tests 必须熟悉  
@@ -136,8 +124,7 @@ KS Test 特点：
 - RAG evaluation 虽非重点，但会深入问  
 - Coding 并非重难点，但不可忽略  
 
-
-## 6. 小结
+## 5. 小结
 
 AS 面试侧重：
 

@@ -1,5 +1,11 @@
 {
   "company": "bytedance",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "匿名用户-T2THA",
+    "link": "https://www.1point3acres.com/bbs/thread-1177932-1-1.html"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "site reliability engineer",
@@ -12,11 +18,11 @@
   },
   "candidate": {
     "education": "master",
-    "background": "",
+    "background": "在职跳槽",
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "",
+    "date": "2026-05",
     "result": "rejected",
     "rounds": [
       { "roundType": "virtual onsite", "rate": 4 },

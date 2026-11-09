@@ -1,5 +1,11 @@
 {
   "company": "amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "小红书",
+    "author": "一颗草莓",
+    "link": "http://xhslink.com/o/6SnNWgGY7tO"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",

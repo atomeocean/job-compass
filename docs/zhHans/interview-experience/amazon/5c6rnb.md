@@ -3,20 +3,15 @@ title: Senior AS 店面
 description: Amazon Senior Applied Scientist Phone Screen面试经验
 outline: deep
 createdDate: 2026-10-01
-lastUpdated: 2026-10-01
+lastUpdated: 2026-10-12
 ---
 # Amazon Senior Applied Scientist Phone Screen面试经验
 
 <InterviewDetail />
 
-## 基本信息
+## 面试详情
 
 - **岗位**：Senior Applied Scientist（Senior），FinTelligence
-- **面试形式**：Phone Screen（技术电面）
-- **申请渠道**：猎头
-- **候选人背景**：博士，在职跳槽
-
-## 面试详情
 
 ### 自我介绍 & BQ
 

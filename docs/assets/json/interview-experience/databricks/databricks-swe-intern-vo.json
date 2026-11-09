@@ -1,0 +1,28 @@
+{
+  "company": "databricks",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer Intern",
+    "level": "intern",
+    "jobType": "internship"
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "本科时做过数据库科研",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
+      { "roundType": "coding", "rate": null },
+      { "roundType": "system-design", "rate": null }
+    ]
+  }
+}

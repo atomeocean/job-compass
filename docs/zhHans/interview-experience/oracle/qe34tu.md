@@ -2,22 +2,17 @@
 title: SDE实习面试
 description: Oracle Software Development Engineer 实习岗位面试面经
 createdDate: 2026-08-30
-lastUpdated: 2026-09-01
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Oracle SDE实习面试面经
 
 <InterviewDetail />
 
-## 基本信息
-
-- **岗位**：Software Development Engineer (SDE) Intern
-- **地点**：Redwood Shores, CA
-- **面试形式**：Recruiter 面试 + Coding + Hiring Manager 面试
-- **面试结果**：Accepted Offer
-- **整体难度**：Easy
-
 ## 面试流程
+
+- **地点**：Redwood Shores, CA
+- **整体难度**：Easy
 
 ### Recruiter Deep Dive
 

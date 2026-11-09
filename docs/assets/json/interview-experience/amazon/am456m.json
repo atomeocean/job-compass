@@ -1,8 +1,14 @@
 {
   "company": "Amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "LeetCode",
+    "author": "匿名用户",
+    "link": "https://leetcode.com/discuss/post/8468910/amazon-sde-2-interview-experience-4-roun-i38r/"
+  },
   "position": {
     "jobPostUrl": null,
-    "title": "Software Development Engineer",
+    "title": "Software Development Engineer II",
     "level": "SDE2",
     "jobType": "full-time"
   },

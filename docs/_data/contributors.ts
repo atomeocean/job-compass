@@ -157,6 +157,14 @@ export const currentContributors: Contributor[] = [
     ],
   },
   {
+    name: 'GentleXu',
+    username: 'GentleXu',
+    mapByEmailAliases: ['xugengtao@outlook.com'],
+    links: [
+      { type: 'github', icon: 'github', link: SOCIAL_LINKS.github('GentleXu') },
+    ],
+  },
+  {
     name: 'Haoyu',
     username: 'vacantfury',
     links: [
@@ -212,6 +220,13 @@ export const currentContributors: Contributor[] = [
     name: 'Hanyu',
     links: [
       { type: 'linkedin', icon: 'linkedin', link: SOCIAL_LINKS.linkedin('hanyu-wang-89206b21b') },
+    ],
+  },
+  {
+    name: 'Johnny Boy',
+    mapByEmailAliases: ['management@atomeocean.com'],
+    links: [
+      { type: 'github', icon: 'github', link: CONFIG.defaultOrgLink },
     ],
   },
   {

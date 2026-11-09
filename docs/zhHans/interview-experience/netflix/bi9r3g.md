@@ -2,22 +2,16 @@
 title: Software Engineer
 description: Netflix SDE 面试经验（Ghost全套）
 createdDate: 2026-05-29
-lastUpdated: 2026-06-02
+lastUpdated: 2026-10-12
 outline: deep
 ---
 # Netflix 软件工程师面试经验
 
 <InterviewDetail />
 
-## 基本信息
-
-- **面试日期**：近期（面完已两周）
-- **面试形式**：OA + Virtual Onsite（4轮VO）
-- **职位等级**：申请Staff，被HR告知外部6在这里就是5
-- **申请渠道**：网上海投
-- **候选人背景**：硕士，在职跳槽
-
 ## 面试详情
+
+- **职位等级**：申请Staff，被HR告知外部6在这里就是5
 
 ### 面试整体体验
 

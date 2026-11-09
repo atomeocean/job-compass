@@ -1,5 +1,11 @@
 {
   "company": "Amazon",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "WillWang98",
+    "link": "https://www.1point3acres.com/bbs/thread-1182725-1-1.html"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Software Development Engineer",

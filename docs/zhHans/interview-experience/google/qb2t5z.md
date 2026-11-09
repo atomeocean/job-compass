@@ -3,23 +3,16 @@ title: SWE III
 description: Google SWE III面试经验
 outline: deep
 createdDate: 2026-09-25
-lastUpdated: 2026-09-28
+lastUpdated: 2026-10-12
 ---
 # Google SWE III面试经验
 
 <InterviewDetail />
 
-## 基本信息
+## 面试详情
 
-- **岗位**：SWE III
-- **工作经验**：2.5年
-- **候选人背景**：硕士，2.5年工作经验，目前在Amazon从事Java Backend工作，在职跳槽
-- **面试流程**：R1技术电面
 - **R1时长**：90分钟
 - **R1轮数**：2部分，Behavioral + Technical
-- **最终结果**：未通过
-
-## 面试详情
 
 ### 面试流程
 

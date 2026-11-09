@@ -2,8 +2,9 @@
 title: 贡献指南
 description: 面试经验贡献规则和流程
 createdDate: 2025-12-31
-lastUpdated: 2026-07-15
+lastUpdated: 2026-11-04
 outline: deep
+authors:
 relatedArticles:
   - title: Atomeocean面经贡献流程指南
     href: https://logbook.atomeocean.com/guide/light-weight-work/ceremonial-contribution/interview-experience-contribution.html
@@ -14,6 +15,15 @@ relatedArticles:
 adminNote: 以这篇为准
 ---
 # 面试经验贡献指南
+
+## 贡献原则
+
+1. **真实性**：请确保分享的面试经历是您亲身经历或经确认真实的。
+2. **隐私保护**：
+   - 请勿泄露作者的真实姓名、联系方式或其他个人非公开信息。
+3. **客观友好**：描述面试过程时请保持客观，避免使用攻击性的语言。
+4. **遵守社区规则**：[禁止 AI 灌水内容](/guide/rules/no-ai-content)、[禁止无意义内容](/guide/rules/low-quality)、[禁止引流和广告](/guide/rules/promotion)。
+   属于无意义内容或引流广告的面经，不论是否已经合并，都移入[被折叠的面经](/interview-experience/folded-entry/)；AI 生成的直接删除。
 
 ## 阅读须知
 
@@ -29,13 +39,5 @@ adminNote: 以这篇为准
 2. **提交 PR**：通过 GitHub 向 Job Compass 项目提交 Pull Request，每个 PR 仅包含一篇面试经验。
 3. **等待审核**：PR 需通过自动编译检查，并由至少一位社区成员人工审核确认。
 4. **合并发布**：审核通过后，PR 将被合并至 main 分支，部署成功后文章自动发布至官网面经页面。
-
-## 贡献原则
-
-1. **真实性**：请确保分享的面试经历是您亲身经历或经确认真实的。
-2. **隐私保护**：
-   - 请勿泄露作者的真实姓名、联系方式或其他个人非公开信息。
-3. **客观友好**：描述面试过程时请保持客观，避免使用攻击性的语言。
-4. **拒绝灌水**：AI工具仅限于协助生成Json文件。
 
 <RelatedArticles />

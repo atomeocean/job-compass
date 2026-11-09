@@ -1,0 +1,26 @@
+{
+  "company": "whatnot",
+  "sourceType": "unknown",
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "CS研究生",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2025-10-16",
+    "result": "pending",
+    "rounds": [
+      { "roundType": "behavioral", "rate": null }
+    ]
+  }
+}
