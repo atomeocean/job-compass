@@ -4,7 +4,6 @@ description: Interview experience for the TikTok Shop Governance & Experience Bu
 createdDate: 2026-11-09
 lastUpdated: 2026-11-09
 ---
-
 # TikTok Shop Global Customer Experience Business Analytics Intern Interview
 
 <InterviewDetail />
