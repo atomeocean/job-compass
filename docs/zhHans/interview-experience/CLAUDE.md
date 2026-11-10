@@ -100,7 +100,8 @@ and `.json` names identical.
 
 ## JSON schema
 
-Typed by [interviewData.ts](../../.vitepress/theme/utils/interviewData.ts).
+Typed by [interviewData.ts](../../.vitepress/theme/utils/interviewData.ts). A blank starting
+point with every field empty is [templates/interview-experience.json](../../../templates/interview-experience.json).
 
 ```json
 {
@@ -177,7 +178,7 @@ result. What was asked *inside* an interview stays in the Markdown.
 ### Vocabulary
 
 The older JSON files have drifted badly (mixed case, mixed languages, and literal
-`"string"` placeholders left over from the template). **Do not copy a neighbour's values
+`"string"` placeholders left over from an old version of the template). **Do not copy a neighbour's values
 blindly.** Use these:
 
 | Field | Use | Seen in the wild — do not imitate |
@@ -197,7 +198,7 @@ legacy values in the right-hand column. (`InterviewResultMap` in `interviewResul
 used by these pages.)
 
 Leave a field as `""` (or `null` for `jobPostUrl`) when the source does not say — never invent
-a value, and never leave the template's `"string"` placeholder.
+a value, and never write a `"string"` placeholder.
 
 ## Company `index.md`
 
