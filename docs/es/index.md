@@ -25,4 +25,6 @@ features:
     details: Perfiles de empresas que contratan directamente y ofertas de empleo actuales.
   - title: Guías profesionales
     details: Preparación de entrevistas, referencias y consejos para buscar empleo en EE. UU.
+createdDate: 2026-11-10
+lastUpdated: 2026-11-10
 ---

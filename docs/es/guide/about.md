@@ -3,6 +3,8 @@ title: Acerca de Job Compass
 description: Qué es Job Compass, quién lo crea y cómo se recopilan, estructuran, revisan y publican los informes de entrevistas.
 outline: deep
 comment: false
+createdDate: 2026-11-10
+lastUpdated: 2026-11-10
 ---
 # Acerca de Job Compass
 

@@ -3,6 +3,8 @@ title: À propos de Job Compass
 description: Ce qu’est Job Compass, qui le conçoit et comment les retours d’entretiens sont collectés, structurés, relus et publiés.
 outline: deep
 comment: false
+createdDate: 2026-11-10
+lastUpdated: 2026-11-10
 ---
 # À propos de Job Compass
 

@@ -25,4 +25,6 @@ features:
     details: Profils d’entreprises qui recrutent en direct et offres d’emploi actuelles.
   - title: Guides de carrière
     details: Préparation aux entretiens, cooptation et conseils pour chercher un emploi aux États-Unis.
+createdDate: 2026-11-10
+lastUpdated: 2026-11-10
 ---
