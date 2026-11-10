@@ -1,0 +1,52 @@
+{
+  "company": "nvidia",
+  "sourceType": "repost",
+  "source": {
+    "site": "GeeksforGeeks",
+    "author": "G Manikanta",
+    "link": "https://www.geeksforgeeks.org/interview-experiences/nvidia-canada-interview-experience-for-data-analyst/"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Data Analyst",
+    "level": "",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "计算机专业",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "behavioral",
+        "rate": null
+      },
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "behavioral",
+        "rate": null
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
