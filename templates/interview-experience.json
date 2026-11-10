@@ -1,31 +1,32 @@
 {
-  "company": "url",
-  "sourceType": "repost",
+  "company": "",
+  "sourceType": "unknown",
   "source": {
     "site": "",
     "author": "",
     "link": ""
   },
   "position": {
-    "jobPostUrl": "string",
-    "title": "string",
-    "level": "string",
-    "jobType": "string"
+    "jobPostUrl": null,
+    "title": "",
+    "level": "",
+    "jobType": ""
   },
   "applicationSource": {
-    "channel": "string",
-    "referralDetails": "string"
+    "channel": "",
+    "referralDetails": ""
   },
   "candidate": {
-    "education": "bachelor",
-    "background": "new_grad",
-    "yearsOfExperience": 0
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
   },
   "interview": {
-    "date": "2025-01-15",
-    "roundType": "onsite",
-    "rate": 2,
-    "result": "pass"
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "", "rate": null }
+    ]
   },
   "highlights": [],
   "timeline": []
