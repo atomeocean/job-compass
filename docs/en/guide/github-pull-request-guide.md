@@ -3,7 +3,7 @@ title: Opening a Pull Request on GitHub
 description: How to open a pull request from the GitHub website, including committing your changes and setting reviewers and assignees.
 outline: deep
 createdDate: 2025-03-08
-lastUpdated: 2026-03-09
+lastUpdated: 2026-11-10
 ---
 # Opening a Pull Request (PR) on the GitHub Website
 
