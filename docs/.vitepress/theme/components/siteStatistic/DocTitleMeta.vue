@@ -5,10 +5,13 @@ import { BUSUANZI_IDS, useBusuanziCounts } from "@ao-composables/useBusuanzi";
 
 const  { page, localeIndex } = useData()
 
-// vitepress-i18n 把中文的 localeIndex 映射成 'root'，英文页是 'en'
-const LABELS = localeIndex.value === 'en'
-  ? { created: 'Published', updated: 'Updated', views: 'Views' }
-  : { created: '发表于', updated: '更新于', views: '阅读量' }
+// vitepress-i18n 把中文的 localeIndex 映射成 'root'，其他语言为 'en' / 'es' / 'fr'
+const LABEL_MAP: Record<string, { created: string, updated: string, views: string }> = {
+  en: { created: 'Published', updated: 'Updated', views: 'Views' },
+  es: { created: 'Publicado', updated: 'Actualizado', views: 'Visitas' },
+  fr: { created: 'Publié', updated: 'Mis à jour', views: 'Vues' },
+}
+const LABELS = LABEL_MAP[localeIndex.value] ?? { created: '发表于', updated: '更新于', views: '阅读量' }
 
 // 阅读量等 busuanzi 返回数字后才显示；服务无响应时不显示，而不是一直「加载中」
 const { counts, ready } = useBusuanziCounts(['pagePv'])
