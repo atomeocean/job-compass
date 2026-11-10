@@ -2,6 +2,8 @@
 title: 第四轮昂赛
 description: Nvidia Software Engineer Onsite面试经验
 outline: deep
+createdDate: 2026-11-10
+lastUpdated: 2026-11-10
 ---
 # Nvidia Software Engineer Onsite面试经验
 
