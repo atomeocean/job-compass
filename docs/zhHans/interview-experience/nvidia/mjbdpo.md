@@ -3,7 +3,7 @@ title: Data Analyst
 description: Nvidia Data Analyst 面试经验
 outline: deep
 createdDate: 2026-11-09
-lastUpdated: 2026-11-09
+lastUpdated: 2026-11-10
 ---
 # Nvidia Data Analyst 面试经验
 
