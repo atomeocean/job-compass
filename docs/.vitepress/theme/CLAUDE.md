@@ -66,6 +66,7 @@ These components are wired through layout slots instead, and are not globally re
 | `doc-footer-before` | `InterviewDocFooter`, `OriginalStatement`, then `RelatedArticles` |
 | `doc-after` | `Giscus` |
 | `layout-bottom` | `SiteFooter` (English pages only) |
+| `not-found` | `TranslatePageNotice` (only for missing pages under `/en/`, `/es/`, `/fr/`; other 404s fall back to the default `NotFound`) |
 
 The three `Interview*` slot components render on every page, so each one checks first and
 outputs nothing elsewhere: `InterviewBreadcrumb` keys off `frontmatter.interviewNav` (articles
@@ -123,6 +124,18 @@ a VitePress data loader that runs at build time, so the numbers are in the stati
 - [components/SiteFooter.vue](components/SiteFooter.vue) is ported from logbook and renders on
   English pages only; links live in [constants/footerLinks.ts](constants/footerLinks.ts). Add pages
   that exist only in English to `EN_ONLY_PATHS`, so the footer's 中文 link falls back to `/`.
+
+## Missing translations (`/en/`, `/es/`, `/fr/`)
+
+The locale switcher links to the same path in the other language, so a page that hasn't been
+translated is a 404. [components/i18n/TranslatePageNotice.vue](components/i18n/TranslatePageNotice.vue)
+replaces that 404 with a notice and steps for opening a translation PR: the English source
+file on GitHub (only when `docs/en/` has the page), a GitHub "new file" link prefilled with the
+target path, and the English PR guide (`/en/guide/github-pull-request-guide`). Whether the page exists in another locale
+decides between that notice and a plain 404; it is read from `window.__VP_HASH_MAP__` (every
+built page has it; keys are the route with `/` → `_`, lowercased), so it costs nothing in the
+bundle but is only known in the browser after mount, and under `docs:dev` the page is assumed to
+exist. Path helpers are in [utils/translatePath.ts](utils/translatePath.ts).
 
 ## SSR + SPA navigation gotchas
 
