@@ -2,49 +2,33 @@
   "company": "nvidia",
   "sourceType": "repost",
   "source": {
-    "site": "GeeksforGeeks",
-    "author": "G Manikanta",
-    "link": "https://www.geeksforgeeks.org/interview-experiences/nvidia-canada-interview-experience-for-data-analyst/"
+    "site": "一亩三分地",
+    "author": "匿名用户-GLNAU",
+    "link": "https://www.1point3acres.com/bbs/thread-1194106-1-1.html"
   },
   "position": {
     "jobPostUrl": null,
-    "title": "Data Analyst",
+    "title": "Software Engineer",
     "level": "",
-    "jobType": ""
+    "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": "",
-    "referralDetails": ""
+    "channel": "referral",
+    "referralDetails": "内推"
   },
   "candidate": {
-    "education": "",
-    "background": "计算机专业",
+    "education": "master",
+    "background": "在职跳槽",
     "yearsOfExperience": null
   },
   "interview": {
     "date": "",
-    "result": "unknown",
+    "result": "pending",
     "rounds": [
-      {
-        "roundType": "technical",
-        "rate": null
-      },
-      {
-        "roundType": "technical",
-        "rate": null
-      },
-      {
-        "roundType": "behavioral",
-        "rate": null
-      },
-      {
-        "roundType": "technical",
-        "rate": null
-      },
-      {
-        "roundType": "behavioral",
-        "rate": null
-      }
+      { "roundType": "phone-screen", "rate": null },
+      { "roundType": "phone-screen", "rate": 4 },
+      { "roundType": "system-design", "rate": null },
+      { "roundType": "onsite", "rate": null }
     ]
   },
   "highlights": [],
