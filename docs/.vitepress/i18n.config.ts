@@ -2,7 +2,7 @@ import {VitePressI18nOptions} from "vitepress-i18n/types";
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
-const supportLocales: string[] = [defaultLocale, 'en'];
+const supportLocales: string[] = [defaultLocale, 'en', 'es', 'fr'];
 
 export const vitePressI18nOptions : VitePressI18nOptions = {
   locales: supportLocales, // support locales
@@ -10,11 +10,15 @@ export const vitePressI18nOptions : VitePressI18nOptions = {
   label: {
     default: '中文',
     en: 'English',
+    es: 'Español',
+    fr: 'Français',
   },
   searchProvider: 'local',
   // 英文页没有自己的 description 时用这一句，避免回落到站点级的中文描述
   description: {
     en: 'Interview experiences from the U.S. job market, structured, sourced and kept current. Built and maintained by Atomeocean.',
+    es: 'Experiencias de entrevistas del mercado laboral de EE. UU., estructuradas, con fuentes y actualizadas. Creado y mantenido por Atomeocean.',
+    fr: 'Retours d’entretiens du marché de l’emploi américain, structurés, sourcés et à jour. Conçu et maintenu par Atomeocean.',
   },
   themeConfig: {
     // 根据不同语言配置不同的导航栏
@@ -41,6 +45,44 @@ export const vitePressI18nOptions : VitePressI18nOptions = {
       // https://vitepress.dev/reference/default-theme-config#lastupdated
       lastUpdated: {
         text: 'Updated at',
+        formatOptions: {
+          dateStyle: 'full',
+          timeStyle: 'short'
+        }
+      },
+    },
+    // es：精简版，正文陆续翻译中
+    es: {
+      logo: { light: '/logo.svg', dark: '/logo-dark.svg', alt: 'Atomeocean' },
+      nav: [
+        { text: 'Acerca de', link: '/es/guide/about.md' },
+        { text: 'Atomeocean', link: 'https://atomeocean.com' },
+      ],
+      editLink: {
+        pattern: 'https://github.com/atomeocean/job-compass/edit/main/docs/:path',
+        text: 'Proponer un cambio'
+      },
+      lastUpdated: {
+        text: 'Actualizado el',
+        formatOptions: {
+          dateStyle: 'full',
+          timeStyle: 'short'
+        }
+      },
+    },
+    // fr：精简版，正文陆续翻译中
+    fr: {
+      logo: { light: '/logo.svg', dark: '/logo-dark.svg', alt: 'Atomeocean' },
+      nav: [
+        { text: 'À propos', link: '/fr/guide/about.md' },
+        { text: 'Atomeocean', link: 'https://atomeocean.com' },
+      ],
+      editLink: {
+        pattern: 'https://github.com/atomeocean/job-compass/edit/main/docs/:path',
+        text: 'Proposer une modification'
+      },
+      lastUpdated: {
+        text: 'Mis à jour le',
         formatOptions: {
           dateStyle: 'full',
           timeStyle: 'short'
