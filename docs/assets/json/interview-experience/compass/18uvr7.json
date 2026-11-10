@@ -21,7 +21,7 @@
     "result": "rejected",
     "rounds": [
       {
-        "roundType": "virtual onsite",
+        "roundType": "system-design",
         "rate": 4
       }
     ]
