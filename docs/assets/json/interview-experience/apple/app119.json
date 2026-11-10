@@ -1,19 +1,33 @@
 {
-  "company": "Apple",
+  "company": "apple",
   "sourceType": "repost",
   "source": {
-    "site": "LeetCode",
-    "author": "匿名",
-    "link": "https://leetcode.com/discuss/post/8604117/apple-swe-ist-interview-experience-what-cv9ek/"
+    "site": "一亩三分地",
+    "author": "匿名用户-IFX0D",
+    "link": "https://www.1point3acres.com/bbs/thread-1196317-1-1.html"
   },
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "ICT3",
-    "jobType": null
+    "level": "senior",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "内推"
+  },
+  "candidate": {
+    "education": "bachelor",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
   },
   "interview": {
-    "date": null,
-    "result": "pending"
-  }
+    "date": "2026-10-29",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": 3 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
 }
