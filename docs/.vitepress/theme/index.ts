@@ -39,6 +39,9 @@ import InterviewBreadcrumb from "@ao-components/InterviewBreadcrumb.vue";
 import InterviewAsideCard from "@ao-components/InterviewAsideCard.vue";
 import InterviewDocFooter from "@ao-components/InterviewDocFooter.vue";
 import SiteFooter from "@ao-components/SiteFooter.vue";
+import TranslatePageNotice from "@ao-components/i18n/TranslatePageNotice.vue";
+import { useRoute } from 'vitepress'
+import { parseMissingTranslation } from "@ao-utils/translatePath";
 
 export default {
   ...DefaultTheme,
@@ -84,7 +87,11 @@ export default {
     }
   },
   Layout: () => {
+    const route = useRoute()
     return h(DefaultTheme.Layout, null, {
+      // /en/、/es/、/fr/ 下缺页时显示「本页尚未翻译」并引导提交译文；其他 404 返回 null，回落到默认 NotFound。
+      // route.path 在插槽函数里读取，路由变化时只重渲染 VPContent
+      'not-found': () => parseMissingTranslation(route.path) ? h(TranslatePageNotice) : null,
       // 面经相关的三个组件只在面经文章页渲染，其他页面输出为空
       'doc-before': () => [h(InterviewBreadcrumb), h(ContributorWrapper)],
       'aside-top': () => h(InterviewAsideCard),
