@@ -3,7 +3,7 @@ title: Sr. MLE onsite挂经
 description: Pinterest Senior Machine Learning Engineer Onsite面试经验
 outline: deep
 createdDate: 2026-11-07
-lastUpdated: 2026-11-07
+lastUpdated: 2026-11-10
 ---
 # Pinterest Senior Machine Learning Engineer Onsite面试经验
 
