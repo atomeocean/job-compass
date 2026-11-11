@@ -2,6 +2,8 @@
 title: 十一实验室V1 V2挂经
 description: ElevenLabs Full-Stack Engineer Onsite面试经验
 outline: deep
+createdDate: 2026-11-10
+lastUpdated: 2026-11-10
 ---
 # ElevenLabs Full-Stack Engineer Onsite面试经验
 
