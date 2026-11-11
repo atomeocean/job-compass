@@ -2,6 +2,8 @@
 title: SDE(embedded) Intern OA
 description: Amazon Intern SDE(embedded) OA面试经验
 outline: deep
+createdDate: 2026-11-11
+lastUpdated: 2026-11-11
 ---
 # Amazon Intern SDE(embedded) OA面试经验
 
