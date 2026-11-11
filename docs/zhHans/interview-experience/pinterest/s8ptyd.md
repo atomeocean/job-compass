@@ -65,7 +65,7 @@ Onsite round - 分两天 - 9 月中旬
 
 #### ML system design
 
-这是一道标准的 ML system design 题。我推荐大家做一套标准的这类题目，包括其中的所有细节。我跟的是这个 - https://bytebytego.com/intro/machine-learning-system-design-interview
+这是一道标准的 ML system design 题。我推荐大家做一套标准的这类题目，包括其中的所有细节。
 
 与其做更多的 case study，我推荐把所有 case study 都理解到足够的深度。你在设计中说的每一个细节，你都应该了解它周边的细节。例如，我在做 ML design 资料里的 similarity search 类 case study 之前并不知道 contrastive learning。
 
