@@ -1,0 +1,30 @@
+
+{
+  "company": "bytedance",
+  "sourceType": "original",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Global Customer Experience Business Analytics Intern",
+    "level": "intern",
+    "jobType": "internship"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "Business Analytics",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "2026-09-22",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "video interview",
+        "rate": null
+      }
+    ]
+  }
+}
