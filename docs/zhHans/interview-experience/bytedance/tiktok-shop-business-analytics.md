@@ -2,7 +2,7 @@
 title: TikTok Shop 全球电商客户体验数据分析实习生面经
 description: TikTok Shop Governance & Experience 团队 Business Analytics Intern 面试经验
 createdDate: 2026-11-09
-lastUpdated: 2026-11-09
+lastUpdated: 2026-11-11
 ---
 # TikTok Shop 全球电商客户体验数据分析实习生面经
 

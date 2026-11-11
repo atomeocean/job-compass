@@ -2,7 +2,7 @@
 title: TikTok Shop Global Customer Experience Business Analytics Intern Interview
 description: Interview experience for the TikTok Shop Governance & Experience Business Analytics Intern position
 createdDate: 2026-11-09
-lastUpdated: 2026-11-09
+lastUpdated: 2026-11-11
 ---
 # TikTok Shop Global Customer Experience Business Analytics Intern Interview
 
