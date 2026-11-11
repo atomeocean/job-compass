@@ -20,7 +20,7 @@ import { join } from 'node:path';
 
 // 默认语言为简体中文
 const defaultLocale: string = 'zhHans';
-const supportLocales: string[] = [defaultLocale, 'en'];
+const supportLocales: string[] = [defaultLocale, 'en', 'es', 'fr'];
 
 /**
  * sidebar公共配置
