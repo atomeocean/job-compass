@@ -21,9 +21,9 @@ outline: deep
 
 ### Part 1: Coding Challenge
 
-这次 Coding 一共两道题：
+这次 Coding 一共两道题
 
-**Q1 — 滑动窗口**
+#### Q1 — 滑动窗口
 
 给定一个只包含 0 和 1 的字符串 log，其中：
 
@@ -37,7 +37,7 @@ outline: deep
 
 可以考虑 Sliding Window，结合左右连续 1 的长度进行计算。
 
-**Q2 — AI-assisted Code Repository**
+#### Q2 — AI-assisted Code Repository
 
 第二题是新版 OA 的 Repository Coding，使用 HackerRank 提供的在线 VS Code 风格 IDE，可以使用平台内置的 AI Assistant。
 
