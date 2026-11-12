@@ -9,6 +9,8 @@ outline: deep
 
 ## 面试详情
 
+都是面经题
+
 ### AI Coding
 
 **AI Coding 1**: Kitchen Orders
@@ -23,17 +25,13 @@ You get a list of words and an alphabet. Your job is to pick a subset of words w
 
 ### System Design
 
-**System Design 1**:  Ads Click Aggregator
+**System Design 1**: Ads Click Aggregator
 
 **System Design 2**: News Feed System
 
 ### BQ
 
 BQ - regular ones
-
-## 面试体验
-
-都是面经题
 
 <ReferenceSource
 :sources="[

@@ -19,7 +19,7 @@ const interviewItems = [
   {"title": "Snowflake", "description": "SWE 技术电面经验", "href": "./snowflake/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
   {"title": "Netflix", "description": "HR Screening 与技术面", "href": "./netflix/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2026-05-29"},
   {"title": "Notion", "description": "Notion 面试经验分享", "href": "./notion/index.md", "articleCount": 1, "lastUpdated": "2026-07-08", "createdDate": "2026-06-05"},
-  {"title": "Meta", "description": "SWE 电面 / NG / OA / Recruiter Call", "href": "./meta/index.md", "articleCount": 5, "lastUpdated": "2026-07-05", "createdDate": "2025-09-26"},
+  {"title": "Meta", "description": "SWE 电面 / NG / OA / Recruiter Call", "href": "./meta/index.md", "articleCount": 6, "lastUpdated": "2026-11-11", "createdDate": "2025-09-26"},
   {"title": "Airbnb", "description": "SWE 全流程面经与时间线", "href": "./airbnb/index.md", "articleCount": 2, "lastUpdated": "2026-06-26", "createdDate": "2025-11-25"},
   {"title": "Bloomberg", "description": "SDE Intern 与电面经验", "href": "./bloomberg/index.md", "articleCount": 3, "lastUpdated": "2026-06-23", "createdDate": "2025-11-21"},
   {"title": "Oracle", "description": "健康组技术电面面经", "href": "./oracle/index.md", "articleCount": 1, "lastUpdated": "2026-06-12", "createdDate": "2026-06-09"},

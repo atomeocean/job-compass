@@ -25,7 +25,8 @@
     "date": "",
     "result": "rejected",
     "rounds": [
-        { "roundType": "phone-screen", "rate": 3 }
+      { "roundType": "phone-screen", "rate": 3 },
+      { "roundType": "onsite", "rate": 3 }
     ]
   },
   "highlights": [],
