@@ -51,7 +51,9 @@ Called by workflows in [.github/workflows/](../.github/workflows/):
 `validate_interview_json.ts` is TypeScript because it imports the schema the site's types come
 from ([interviewSchema.ts](../docs/.vitepress/theme/types/interviewSchema.ts)) — a Python copy
 of the rules would drift. Node 24+ runs it directly, with no build step:
-`npm run validate:interview -- <json path…>`, or `-- --all` for every 面经 JSON. The 面经 skills
+`npm run validate:interview -- <json path…>`, or `-- --all` for every 面经 JSON; add
+`--migrated` to check only the fields in its `MIGRATED_FIELDS` list (CI runs `--all --migrated`
+so a migrated field cannot drift back). The 面经 skills
 run it as their self-check. Node executes the file as-is, so its imports (and the schema's) are
 relative paths with the `.ts` extension, not `@ao-` aliases.
 
