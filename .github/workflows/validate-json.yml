@@ -43,6 +43,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # 已迁移成规范值的字段（列表在 scripts/validate_interview_json.ts 的 MIGRATED_FIELDS），
+      # 对所有面经 JSON 检查，防止旧文件被改回不规范的值。
+      - name: Validate migrated fields in all interview-experience JSON files
+        run: npm run -s validate:interview -- --all --migrated
+
       # 面经 JSON 的取值校验，规则在 docs/.vitepress/theme/types/interviewSchema.ts。
       # 目前只校验新增的文件（--diff-filter=A）：旧文件还有不规范的取值，改动它们的 PR 不应该因此失败。
       # 旧文件迁移完后改成 AM，连修改也一起校验。
