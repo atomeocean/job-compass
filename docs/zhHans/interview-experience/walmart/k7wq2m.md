@@ -2,6 +2,8 @@
 title: Onsite 没offer版
 description: Walmart Software Engineer Onsite面试经验
 outline: deep
+createdDate: 2026-11-12
+lastUpdated: 2026-11-12
 ---
 # Walmart Software Engineer Onsite面试经验
 

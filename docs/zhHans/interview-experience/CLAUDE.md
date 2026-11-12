@@ -112,7 +112,8 @@ npm run validate:interview -- docs/assets/json/interview-experience/<company>/<s
 ```
 
 `validate-json.yml` runs the same command on every interview JSON a PR **adds**, so a new file
-with an illegal value fails CI. Older files are not checked yet (see **Vocabulary**).
+with an illegal value fails CI. Older files are checked only for the fields already migrated
+(see **Vocabulary**).
 
 ```json
 {
@@ -209,11 +210,13 @@ schema, the types and the page labels all follow.
 | `rounds[].roundType` | `ROUND_TYPE` | — | the kind of round, not its number: no `vo1` / `round-1`; a virtual onsite is `onsite` |
 | `timeline[].type` | `TIMELINE_TYPE` | omit | |
 
-About half of the older JSON files predate this and have drifted (`硕士`, `Master's degree`,
-`网上海投`, `full time`, `VO1`, literal `"string"` placeholders, a capitalised `company`). **Do
-not copy a neighbour's values.** Until those files are migrated,
-[interviewFormat.ts](../../.vitepress/theme/utils/interviewFormat.ts) still maps the legacy
-spellings to the right label, and CI validates only newly added files.
+About half of the older JSON files predate this and have drifted (`网上海投`, `full time`,
+`VO1`, literal `"string"` placeholders, a capitalised `company`). **Do not copy a neighbour's
+values.** They are being migrated one field per PR; a migrated field is listed in
+`MIGRATED_FIELDS` in [validate_interview_json.ts](../../../scripts/validate_interview_json.ts),
+and CI checks it in every file, so it cannot drift back. Migrated so far: `candidate.education`.
+Until the rest are done, [interviewFormat.ts](../../.vitepress/theme/utils/interviewFormat.ts)
+still maps the legacy spellings to the right label.
 `npm run validate:interview -- --all` lists every file that still needs fixing.
 
 Leave a field as `""` (or `null` for `jobPostUrl`) when the source does not say — never invent
