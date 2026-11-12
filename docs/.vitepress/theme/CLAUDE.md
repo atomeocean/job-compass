@@ -16,11 +16,11 @@ theme/
   components/     26 components (+ components/siteStatistic/, components/interview/,
                   components/home/ for / and /en/); new ones go in a category subfolder, not here
   composables/    useContributors.ts, useInterviewData.ts, useBusuanzi.ts
-  types/          shared TS interfaces and enums
+  types/          shared TS interfaces; interviewSchema.ts is the Zod schema for 面经 JSON
   utils/          pure helpers (companyMatch.ts, contributors.ts, interviewData.ts,
                   interviewFormat.ts, referenceSource.ts, team.ts, util.ts)
   constants/      aiContributors.ts, logbookAuthors.ts, teamMembers.ts, companyNames.ts,
-                  footerLinks.ts
+                  footerLinks.ts, interviewEnums.ts
   data/           siteStats.data.ts — build-time data loader for both homepages
   style/          brand-colors.css — Atomeocean blues (--ao-blue-*), mirrored from logbook
 ```
@@ -49,6 +49,23 @@ Note that `interviewData.ts` currently uses a relative `import.meta.glob` path
 (`'../../../assets/json/...'`) because the glob pattern is resolved by Vite at build time
 against the file's own location — aliases do not work inside `import.meta.glob`. Same reason
 the table components use root-absolute glob patterns like `/zhHans/job-postings/*/data/*.json`.
+
+## 面经 JSON: enums, schema, types
+
+Three files, each derived from the one before it:
+
+1. [constants/interviewEnums.ts](constants/interviewEnums.ts) — every fixed-value field's legal
+   codes with their `zhHans` / `en` labels. The only hand-maintained list; adding a value is one
+   line here.
+2. [types/interviewSchema.ts](types/interviewSchema.ts) — the Zod schema, built from those
+   tables. `npm run validate:interview` (and CI) validate JSON files with it.
+3. [utils/interviewData.ts](utils/interviewData.ts) — re-exports the types inferred from the
+   schema. [utils/interviewFormat.ts](utils/interviewFormat.ts) takes its labels from the enums.
+
+**Theme code may only `import type` from `interviewSchema.ts`.** A value import pulls zod into
+the client bundle. The schema and the enums are also executed directly by Node (the validation
+script), so those two files import each other by relative path with the `.ts` extension, not
+through `@ao-` aliases, and must not use TS `enum` or import anything Vite-specific.
 
 ## Registering a component
 
