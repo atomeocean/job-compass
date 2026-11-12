@@ -1,0 +1,34 @@
+{
+  "company": "quora",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "可爱的大葱",
+    "link": "https://www.1point3acres.com/bbs/thread-1196482-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "应届毕业生",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "unknown",
+    "rounds": [
+      { "roundType": "oa", "rate": 2 },
+      { "roundType": "phone-screen", "rate": 2 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
