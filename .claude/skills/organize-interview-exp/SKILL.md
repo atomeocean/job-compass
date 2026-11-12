@@ -163,23 +163,25 @@ category: '海外面经'
 
 ## JSON
 
-Shape per [interviewData.ts](../../../docs/.vitepress/theme/utils/interviewData.ts); values
-from the **Vocabulary** table in interview-experience/CLAUDE.md (`l5`, `new-grad`, `master`,
-`referral`, `direct-apply`, `rejected`, `phone-screen`, `onsite` …) — the two reference JSONs
-predate that table, so take their shape, not their values.
+Shape per [interviewSchema.ts](../../../docs/.vitepress/theme/types/interviewSchema.ts).
+**Read [interviewEnums.ts](../../../docs/.vitepress/theme/constants/interviewEnums.ts) before
+writing**: it is the only list of legal values for `sourceType`, `level`, `jobType`, `channel`,
+`education`, `result` and `roundType`. Write the code from that file, never a label or your own
+wording. The example shows one legal value per field, not the full list; the two reference
+JSONs predate these rules, so take their shape, not their values.
 
 ```json
 {
   "company": "<company dir name>",
   "sourceType": "repost",
   "source": { "site": "<一亩三分地 / 小红书 / …>", "author": "<author>", "link": "<post url>" },
-  "position": { "jobPostUrl": null, "title": "<Role>", "level": "<l5 / new-grad / \"\">", "jobType": "full-time" },
-  "applicationSource": { "channel": "<vocabulary value>", "referralDetails": "<e.g. 内推 / \"\">" },
-  "candidate": { "education": "<bachelor / master / phd / \"\">", "background": "<e.g. 在职跳槽 / \"\">", "yearsOfExperience": null },
+  "position": { "jobPostUrl": null, "title": "<Role>", "level": "new-grad", "jobType": "full-time" },
+  "applicationSource": { "channel": "referral", "referralDetails": "<e.g. 内推 / \"\">" },
+  "candidate": { "education": "master", "background": "<e.g. 在职跳槽 / \"\">", "yearsOfExperience": null },
   "interview": {
-    "date": "<interview date the author states, else \"\">",
-    "result": "<pass / rejected / pending / unknown>",
-    "rounds": [{ "roundType": "<oa / phone-screen / onsite …>", "rate": 3 }]
+    "date": "<YYYY-MM-DD, YYYY-MM or YYYY, as precise as the author states; else \"\">",
+    "result": "rejected",
+    "rounds": [{ "roundType": "phone-screen", "rate": 3 }]
   },
   "highlights": [],
   "timeline": []
@@ -188,12 +190,16 @@ predate that table, so take their shape, not their values.
 
 - `highlights` and `timeline` are always `[]`: highlights are written by an editor by hand
   later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
-- `rounds`: one entry per interview stage (OA, phone screen, onsite loop).
+- `rounds`: one entry per interview stage (OA, phone screen, onsite loop). `roundType` says
+  what kind of round it is, not which one (no `vo1` / `round-1`; a virtual onsite is `onsite`).
+- A remark about the result (「通过 → Team Match」) goes in the optional `interview.resultNote`;
+  `result` holds only the code.
 - `sourceType` is always `repost` here — the page cites the post with `<ReferenceSource>`, and
   `source` repeats its `site` / `author` / `link` exactly (the info card's 查看原帖 button).
 - `rate` is difficulty 1–5 from the author's own words (「中等」→ 3, 「不算高」→ 2). When the
   author gives none, use `null` and say so in the report.
-- Unstated fields: `""` for strings, `null` for `jobPostUrl` and `yearsOfExperience`.
+- Unstated fields: `""` for strings, `null` for `jobPostUrl` and `yearsOfExperience`,
+  `"unknown"` for `result`. Never `"na"` or `"string"`.
 - `interview.date` is the interview date; the post date belongs in `<ReferenceSource>`.
 
 ## Steps
@@ -214,13 +220,14 @@ predate that table, so take their shape, not their values.
    until no `<slug>.md` / `<slug>.json` exists in the target md or json folder.
 6. **Write the JSON**, then **the markdown**.
 7. **Check** — done when all four pass:
-   - `python3 -c "import json; json.load(open('<json path>'))"`
+   - `npm run validate:interview -- <json path>` prints `✅`. It names each field with an
+     illegal value; fix them and rerun.
    - `python3 scripts/check_verbatim.py <md path> <source file>`
      prints `OK`. Every line it lists is a sentence that drifted from the source: restore the
      source wording and rerun.
    - `grep -c '^---$' <md path>` prints `2`.
    - The md and json paths match below `interview-experience/`.
-8. **Report**: the two file paths, fields left empty or `rate: 0`, platform text removed,
+8. **Report**: the two file paths, fields left empty or `rate: null`, platform text removed,
    author-written filler flagged, whether the race / nationality disclaimer was added (and the
    phrases that triggered it), whether the post was translated from English, and the check
    results. Leave the changes uncommitted.

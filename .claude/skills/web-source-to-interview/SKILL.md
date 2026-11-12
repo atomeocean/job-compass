@@ -75,34 +75,37 @@ anonymize the original author, objective tone, no attacks on interviewers.
    ```
    Confirm no file with that name exists in the company's md or json folder.
 
-5. **Write the JSON** `docs/assets/json/interview-experience/<company>/<slug>.json`,
-   following the prevailing shape (see
-   `docs/assets/json/interview-experience/openai/y2ti8x.json`):
+5. **Write the JSON** `docs/assets/json/interview-experience/<company>/<slug>.json`.
+   **Read `docs/.vitepress/theme/constants/interviewEnums.ts` first**: it is the only list of
+   legal values for `sourceType`, `level`, `jobType`, `channel`, `education`, `result` and
+   `roundType`. Write the code from that file (lowercase kebab-case), never a label, a
+   translation or your own wording. The example below shows one legal value per field, not
+   the full list:
    ```json
    {
-     "company": "<Company>",
+     "company": "<company folder name, e.g. capital-one>",
      "sourceType": "repost",
      "source": { "site": "<小红书 / 一亩三分地>", "author": "<author or ''>", "link": "<post url>" },
      "position": {
        "jobPostUrl": null,
        "title": "<Role>",
-       "level": "<new-grad / senior / '' if unknown>",
+       "level": "new-grad",
        "jobType": "full-time"
      },
      "applicationSource": {
-       "channel": "<内推 / direct apply / 猎头>",
-       "referralDetails": "<detail or 'na'>"
+       "channel": "referral",
+       "referralDetails": "<detail or ''>"
      },
      "candidate": {
-       "education": "<bachelor / master / phd / na>",
-       "background": "<e.g. 26ng / 在职跳槽>",
-       "yearsOfExperience": 0
+       "education": "master",
+       "background": "<e.g. 26ng / 在职跳槽, or ''>",
+       "yearsOfExperience": null
      },
      "interview": {
-       "date": "<YYYY-MM-DD or ''>",
-       "result": "<pass / rejected / pending>",
+       "date": "<YYYY-MM-DD, YYYY-MM or YYYY — only as precise as the source; else ''>",
+       "result": "rejected",
        "rounds": [
-         { "roundType": "<phone screen / technical / onsite / vo>", "rate": 3 }
+         { "roundType": "phone-screen", "rate": 3 }
        ]
      },
      "highlights": [],
@@ -111,8 +114,12 @@ anonymize the original author, objective tone, no attacks on interviewers.
    ```
    `highlights` and `timeline` are always `[]`: highlights are written by an editor by hand
    later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
-   Use `""` / `null` / `"na"` for unknowns — never guess. One `rounds` entry per
-   round the source describes. `sourceType` is always `repost` for a page built from a web
+   Unknowns — never guess, and never write `"na"` or `"string"`: `""` for strings
+   (`level`, `jobType`, `channel`, `education`, `date`, free text), `null` for `jobPostUrl`,
+   `yearsOfExperience` and a round's `rate` (difficulty 1–5), and `"unknown"` for `result`.
+   One `rounds` entry per round the source describes; `roundType` says what kind of round it
+   is, not which one (no `vo1` / `round-1`; a virtual onsite is `onsite`). A remark about the
+   result (「通过 → Team Match」) goes in the optional `interview.resultNote`, not in `result`. `sourceType` is always `repost` for a page built from a web
    source (it ends with `<ReferenceSource>`); `source` repeats that block's `site` / `author` /
    `link` exactly.
 
@@ -153,13 +160,14 @@ anonymize the original author, objective tone, no attacks on interviewers.
      ```
 
 7. **Verify** (cheap checks only):
-   - `python3 -c "import json; json.load(open('<json path>'))"` — the
-     `validate-json.yml` CI runs `jq empty` on every changed JSON.
+   - `npm run validate:interview -- <json path>` prints `✅`. It checks the JSON against the
+     schema and names each field with an illegal value; fix them and rerun until it passes.
+     The `validate-json.yml` CI runs the same command on every new interview JSON.
    - The JSON path mirrors the md path exactly (company folder and slug).
    - The sidebar picks the page up automatically — no config edits.
 
 8. **Report** the two file paths, the branch name, and anything the source didn't
-   specify (fields left `na`/empty). Leave the change on the branch — do not commit,
+   specify (fields left empty / `null` / `unknown`). Leave the change on the branch — do not commit,
    push, or open a PR unless the user asks.
 
 ## Reference examples
