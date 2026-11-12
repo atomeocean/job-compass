@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v6
         with:
           token: ${{ secrets.ATM_LIHAI_PAT }}
+          # 下面要和基准提交做 diff，需要完整历史
+          fetch-depth: 0
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
@@ -31,3 +33,35 @@ jobs:
               exit 1
             fi
           done
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # 已迁移成规范值的字段（列表在 scripts/validate_interview_json.ts 的 MIGRATED_FIELDS），
+      # 对所有面经 JSON 检查，防止旧文件被改回不规范的值。
+      - name: Validate migrated fields in all interview-experience JSON files
+        run: npm run -s validate:interview -- --all --migrated
+
+      # 面经 JSON 的取值校验，规则在 docs/.vitepress/theme/types/interviewSchema.ts。
+      # 目前只校验新增的文件（--diff-filter=A）：旧文件还有不规范的取值，改动它们的 PR 不应该因此失败。
+      # 旧文件迁移完后改成 AM，连修改也一起校验。
+      - name: Validate new interview-experience JSON files
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if ! git cat-file -e "$BASE_SHA^{commit}" 2>/dev/null; then
+            echo "找不到基准提交（新分支的首次 push），跳过"
+            exit 0
+          fi
+          files=$(git diff --name-only --diff-filter=A "$BASE_SHA" "${{ github.sha }}" -- 'docs/assets/json/interview-experience/**/*.json')
+          if [ -z "$files" ]; then
+            echo "没有新增的面经 JSON"
+            exit 0
+          fi
+          echo "$files" | xargs npm run -s validate:interview --

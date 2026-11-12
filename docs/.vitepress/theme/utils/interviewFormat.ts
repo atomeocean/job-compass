@@ -1,10 +1,27 @@
 /**
  * 面经 JSON 取值 → 页面文案。
- * 旧 JSON 的取值很杂（大小写、中英文混用、模板占位符），规范写法见
- * docs/zhHans/interview-experience/CLAUDE.md 的 Vocabulary；这里认得规范值，其余原样显示，占位符当作空值。
+ * 规范值和它们的文案都来自 constants/interviewEnums.ts，这里不重复写。
+ * 旧 JSON 的取值很杂（大小写、中英文混用、模板占位符），所以每张表后面还列着旧写法的别名；
+ * 不认识的值原样显示，占位符当作空值。旧文件迁移完后这些别名可以删掉。
  */
-import type { InterviewData, InterviewRound, InterviewTimelineEvent } from './interviewData'
+import type { InterviewData, InterviewTimelineEvent } from './interviewData'
 import type { InterviewNavItem } from '@ao-types/interviewNavTypes'
+import {
+  CHANNEL,
+  EDUCATION,
+  JOB_TYPE,
+  LEVEL,
+  RESULT,
+  ROUND_TYPE,
+  type EnumLabels,
+  type ResultTone,
+} from '@ao-constants/interviewEnums'
+
+export type { ResultTone }
+
+/** 枚举表 → { code: 中文文案 } */
+const zhLabels = (table: EnumLabels): Record<string, string> =>
+  Object.fromEntries(Object.entries(table).map(([code, labels]) => [code, labels.zhHans]))
 
 /** 模板遗留的占位值和「未知」，按空值处理 */
 const PLACEHOLDERS = new Set(['', 'string', 'url', 'na', 'n/a', 'null', 'unknown', '未知'])
@@ -23,13 +40,7 @@ const lookup = (labels: Record<string, string>, value?: string | null): string =
   return text ? labels[toKey(text)] ?? text : ''
 }
 
-const LEVEL_LABELS: Record<string, string> = {
-  intern: '实习',
-  'new-grad': '应届 NG',
-  'mid-level': '中级',
-  senior: '高级',
-  experienced: '社招',
-}
+const LEVEL_LABELS = zhLabels(LEVEL)
 
 /** 级别；公司职级（l4、L5）统一大写 */
 export const formatLevel = (level?: string): string => {
@@ -56,29 +67,25 @@ export const levelGroup = (level?: string): LevelGroup | null => {
 }
 
 export const formatJobType = (jobType?: string): string =>
-  lookup({ 'full-time': '全职', internship: '实习', contract: '合同工' }, jobType)
+  lookup(zhLabels(JOB_TYPE), jobType)
 
 export const formatChannel = (channel?: string): string =>
   lookup(
     {
-      'direct-apply': '官网投递',
+      ...zhLabels(CHANNEL),
       // 旧 JSON 里的写法
       'online-application': '官网投递',
       online: '官网投递',
       网投: '官网投递',
       网上海投: '官网投递',
       海投: '官网投递',
-      referral: '内推',
-      recruiter: 'Recruiter 联系',
       猎头: 'Recruiter 联系',
-      'online-assessment': 'OA 邀请',
-      other: '其他',
     },
     channel,
   )
 
 export const formatEducation = (education?: string): string =>
-  lookup({ bachelor: '本科', master: '硕士', phd: '博士' }, education)
+  lookup(zhLabels(EDUCATION), education)
 
 /**
  * 背景：学历 + JSON 里的背景描述（例如「在职跳槽，6年工作经验」）+ 工作年限。
@@ -99,27 +106,23 @@ export const formatBackground = (candidate?: InterviewData['candidate']): string
     .join(' · ')
 }
 
-export type ResultTone = 'ok' | 'bad' | 'wait' | 'none'
-
 export interface ResultLabel {
   label: string
   tone: ResultTone
 }
 
+const resultLabel = (code: keyof typeof RESULT): ResultLabel => ({ label: RESULT[code].zhHans, tone: RESULT[code].tone })
+
 const RESULT_LABELS: Record<string, ResultLabel> = {
-  pass: { label: '通过', tone: 'ok' },
-  passed: { label: '通过', tone: 'ok' },
-  accepted: { label: '通过', tone: 'ok' },
-  positive: { label: '通过', tone: 'ok' },
-  offer: { label: 'Offer', tone: 'ok' },
-  rejected: { label: '未通过', tone: 'bad' },
-  reject: { label: '未通过', tone: 'bad' },
-  fail: { label: '未通过', tone: 'bad' },
-  failed: { label: '未通过', tone: 'bad' },
-  pending: { label: '等待结果', tone: 'wait' },
-  waiting: { label: '等待结果', tone: 'wait' },
-  waitlist: { label: '候补', tone: 'wait' },
-  other: { label: '其他', tone: 'none' },
+  ...Object.fromEntries((Object.keys(RESULT) as (keyof typeof RESULT)[]).map((code) => [code, resultLabel(code)])),
+  // 旧 JSON 里的写法
+  passed: resultLabel('pass'),
+  accepted: resultLabel('pass'),
+  positive: resultLabel('pass'),
+  reject: resultLabel('rejected'),
+  fail: resultLabel('rejected'),
+  failed: resultLabel('rejected'),
+  waiting: resultLabel('pending'),
 }
 
 /** 面试结果；空值和 unknown 返回 null（不显示） */
@@ -133,19 +136,12 @@ export const formatResult = (result?: string): ResultLabel | null => {
 }
 
 const ROUND_LABELS: Record<string, string> = {
-  oa: 'OA',
-  'recruiter-screen': 'HR 初筛',
-  'phone-screen': '电面',
+  ...zhLabels(ROUND_TYPE),
+  // 旧 JSON 里的写法
   phone: '电面',
   'technical-phone-screen': '技术电面',
-  technical: '技术面',
   techinical: '技术面',
-  coding: 'Coding',
-  'system-design': '系统设计',
-  behavioral: 'BQ',
-  'hiring-manager': 'HM 面',
   hm: 'HM 面',
-  onsite: 'Onsite',
   'virtual-onsite': 'VO',
 }
 
@@ -161,11 +157,17 @@ export const formatRoundType = (roundType?: string): string => {
     .join(' ')
 }
 
+/** 页面上的一轮；旧文件的 roundType 不一定是规范值，所以是 string */
+export interface DisplayRound {
+  roundType: string
+  rate: number | null
+}
+
 /**
  * 绝大多数面经 JSON 用 interview.rounds 逐轮记录；
  * 少数早期文件仍是 interview.roundType / interview.rate 的扁平写法，这里做兼容。
  */
-export const getRounds = (interview?: InterviewData['interview']): InterviewRound[] => {
+export const getRounds = (interview?: InterviewData['interview']): DisplayRound[] => {
   if (!interview) return []
   if (Array.isArray(interview.rounds) && interview.rounds.length > 0) return interview.rounds
   if (interview.roundType || interview.rate != null) {

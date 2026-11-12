@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-11-10
+lastUpdated: 2026-11-12
 ---
 # CLAUDE.md — interview-experience
 
@@ -100,8 +100,20 @@ and `.json` names identical.
 
 ## JSON schema
 
-Typed by [interviewData.ts](../../.vitepress/theme/utils/interviewData.ts). A blank starting
-point with every field empty is [templates/interview-experience.json](../../../templates/interview-experience.json).
+The shape is defined once, as a Zod schema, in
+[interviewSchema.ts](../../.vitepress/theme/types/interviewSchema.ts); the TypeScript types are
+derived from it. A blank starting point with every field empty is
+[templates/interview-experience.json](../../../templates/interview-experience.json).
+
+Check a file against the schema with:
+
+```bash
+npm run validate:interview -- docs/assets/json/interview-experience/<company>/<slug>.json
+```
+
+`validate-json.yml` runs the same command on every interview JSON a PR **adds**, so a new file
+with an illegal value fails CI. Older files are checked only for the fields already migrated
+(see **Vocabulary**).
 
 ```json
 {
@@ -115,7 +127,7 @@ point with every field empty is [templates/interview-experience.json](../../../t
     "jobType": "full-time"
   },
   "applicationSource": { "channel": "referral", "referralDetails": "内推" },
-  "candidate": { "education": "硕士", "background": "", "yearsOfExperience": 0 },
+  "candidate": { "education": "master", "background": "", "yearsOfExperience": 0 },
   "interview": {
     "date": "",
     "result": "pass",
@@ -133,6 +145,10 @@ point with every field empty is [templates/interview-experience.json](../../../t
   未提及难度).
 - `yearsOfExperience` is `null` when unknown; empty `level` / `jobType` / `date` / `result:
   "unknown"` are simply not shown.
+- `interview.date` is `YYYY-MM-DD`, `YYYY-MM` or `YYYY` — only as precise as the source.
+- `interview.resultNote` (optional) holds a remark about the result, such as
+  「通过 → Team Match」; `result` itself is only ever a code.
+- Unknown keys are rejected, so a misspelt field name fails validation.
 - `highlights` and `timeline` are `[]` by default; a missing field reads the same as `[]`, so
   older files need no backfill.
 
@@ -177,25 +193,31 @@ result. What was asked *inside* an interview stays in the Markdown.
 
 ### Vocabulary
 
-The older JSON files have drifted badly (mixed case, mixed languages, and literal
-`"string"` placeholders left over from an old version of the template). **Do not copy a neighbour's values
-blindly.** Use these:
+Fields with a fixed set of values hold a **code**: lowercase kebab-case English, never a label
+or a translation. The legal codes and their Chinese / English labels live in one file,
+[interviewEnums.ts](../../.vitepress/theme/constants/interviewEnums.ts) — read it instead of
+copying values from here or from a neighbouring JSON. To add a value, add one line there; the
+schema, the types and the page labels all follow.
 
-| Field | Use | Seen in the wild — do not imitate |
-|---|---|---|
-| `sourceType` | `repost`, `original`, `unknown` — see **Source attribution** | missing |
-| `position.level` | `intern`, `new-grad`, `mid-level`, `senior`, or a company ladder in lowercase (`l4`, `l5`) | `L4`, `SDE2`, `Senior` |
-| `position.jobType` | `full-time`, `internship`, `contract` | `string`, `full time`, `software engineer` |
-| `applicationSource.channel` | `direct-apply`, `referral`, `recruiter`, `online-assessment`, `other` | `string`, `网上海投`, `online application` |
-| `candidate.education` | `bachelor`, `master`, `phd` | `硕士`, `Master's degree`, `na` |
-| `interview.result` | `pass`, `rejected`, `pending`, `unknown` | `Pass`, `passed`, `fail`, `未通过` |
-| `roundType` | `oa`, `recruiter-screen`, `phone-screen`, `technical`, `coding`, `system-design`, `behavioral`, `hiring-manager`, `onsite` | `techinical`, `VO1`, `round 1` |
-| `timeline[].type` | `apply`, `reply`, `oa`, `schedule`, `interview`, `result`, `other` | — |
+| Field | Table in `interviewEnums.ts` | Unknown | Notes |
+|---|---|---|---|
+| `sourceType` | `SOURCE_TYPE` | `unknown` | see **Source attribution** |
+| `position.level` | `LEVEL` | `""` | or a company ladder in lowercase: `l4`, `e6`, `sde2`, `ict4` |
+| `position.jobType` | `JOB_TYPE` | `""` | not the job title |
+| `applicationSource.channel` | `CHANNEL` | `""` | |
+| `candidate.education` | `EDUCATION` | `""` | the degree only; the major goes in `background` |
+| `interview.result` | `RESULT` | `unknown` | remarks go in `resultNote` |
+| `rounds[].roundType` | `ROUND_TYPE` | — | the kind of round, not its number: no `vo1` / `round-1`; a virtual onsite is `onsite` |
+| `timeline[].type` | `TIMELINE_TYPE` | omit | |
 
-The Chinese labels and colours shown on the page come from
-[interviewFormat.ts](../../.vitepress/theme/utils/interviewFormat.ts), which also tolerates the
-legacy values in the right-hand column. (`InterviewResultMap` in `interviewResultEnum.ts` is not
-used by these pages.)
+About half of the older JSON files predate this and have drifted (`网上海投`, `full time`,
+`VO1`, literal `"string"` placeholders, a capitalised `company`). **Do not copy a neighbour's
+values.** They are being migrated one field per PR; a migrated field is listed in
+`MIGRATED_FIELDS` in [validate_interview_json.ts](../../../scripts/validate_interview_json.ts),
+and CI checks it in every file, so it cannot drift back. Migrated so far: `candidate.education`.
+Until the rest are done, [interviewFormat.ts](../../.vitepress/theme/utils/interviewFormat.ts)
+still maps the legacy spellings to the right label.
+`npm run validate:interview -- --all` lists every file that still needs fixing.
 
 Leave a field as `""` (or `null` for `jobPostUrl`) when the source does not say — never invent
 a value, and never write a `"string"` placeholder.

@@ -4,9 +4,10 @@ lastUpdated: 2026-10-09
 ---
 # CLAUDE.md — scripts
 
-Python helper scripts. Most are invoked by GitHub Actions workflows; a few are local
-utilities. Python 3.13 in CI, dependencies in [requirements.txt](../requirements.txt)
-(PyYAML, requests, beautifulsoup4). Filenames are `snake_case`.
+Python helper scripts, plus one TypeScript exception (`validate_interview_json.ts`, below).
+Most are invoked by GitHub Actions workflows; a few are local utilities. Python 3.13 in CI,
+dependencies in [requirements.txt](../requirements.txt) (PyYAML, requests, beautifulsoup4).
+Filenames are `snake_case`.
 
 ## Running them
 
@@ -45,6 +46,16 @@ Called by workflows in [.github/workflows/](../.github/workflows/):
 | `pull_visa_solution_company_json.py` | `pull-visa-solution-company-json` | rsyncs visa-solution-company JSON from the remote server |
 | `parse_pr_payload.py` | `sync-json-data-source` | turns a merged-PR payload into a record JSON |
 | `send_discord_push_notification.py` | `markdown_publish` | posts a push-event embed to Discord |
+| `validate_interview_json.ts` | `validate-json` (each PR) | checks newly added 面经 JSON against the Zod schema |
+
+`validate_interview_json.ts` is TypeScript because it imports the schema the site's types come
+from ([interviewSchema.ts](../docs/.vitepress/theme/types/interviewSchema.ts)) — a Python copy
+of the rules would drift. Node 24+ runs it directly, with no build step:
+`npm run validate:interview -- <json path…>`, or `-- --all` for every 面经 JSON; add
+`--migrated` to check only the fields in its `MIGRATED_FIELDS` list (CI runs `--all --migrated`
+so a migrated field cannot drift back). The 面经 skills
+run it as their self-check. Node executes the file as-is, so its imports (and the schema's) are
+relative paths with the `.ts` extension, not `@ao-` aliases.
 
 Local / manual:
 
