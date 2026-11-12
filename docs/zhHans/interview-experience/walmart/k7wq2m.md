@@ -1,9 +1,9 @@
 ---
 title: Onsite 没offer版
-description: Walmart 社招 Software Engineer Onsite面试经验
+description: Walmart Software Engineer Onsite面试经验
 outline: deep
 ---
-# Walmart 社招 Software Engineer Onsite面试经验
+# Walmart Software Engineer Onsite面试经验
 
 <InterviewDetail />
 
@@ -13,7 +13,7 @@ outline: deep
 
 3 轮面试
 
-### 第一轮：Behavioral
+### 第一轮：Manager 面
 
 第一轮是隔壁组的 manager 问的，问我对于 org 内 system 的一些看法，以及一些解决难题的工作经验。例如 你工作中解决过什么技术上的难题吗/有没有与同事有conflict如何解决conflict
 
@@ -28,8 +28,6 @@ outline: deep
 ## 面试体验
 
 Code 题目都答得不错，第一轮在分配 partition 和 consumer 那里卡了壳。
-
-## 面试结果反馈
 
 面试完托人问了反馈也不错，结果隔了两周收到拒信。这真的算是很好的机会了，太可惜了,算是目前第一个走完loop被拒的公司，而且我觉得我buff叠的挺满的(我是面这个组的下游&我们组mgr直接找他refer的&有身份&公司最近猛招人)
 
