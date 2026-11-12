@@ -2,6 +2,8 @@
 title: NG SWE OA + 1轮技术电面
 description: Quora New Grad SWE OA + 技术电面面试经验
 outline: deep
+createdDate: 2026-11-12
+lastUpdated: 2026-11-12
 ---
 # Quora New Grad SWE OA + 技术电面面试经验
 
