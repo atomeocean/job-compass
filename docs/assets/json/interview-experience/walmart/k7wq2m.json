@@ -1,0 +1,34 @@
+{
+  "company": "walmart",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "henrywang0119",
+    "link": "https://www.1point3acres.com/bbs/thread-1196422-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "experienced",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "referral",
+    "referralDetails": "原组 manager refer到隔壁组（原组没 HC）"
+  },
+  "candidate": {
+    "education": "bachelor",
+    "background": "在职，所在组是面试组的下游，有身份",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "resultNote": "Onsite 后隔了两周收到拒信",
+    "rounds": [
+      { "roundType": "onsite", "rate": 2 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
