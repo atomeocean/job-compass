@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-11-10
+lastUpdated: 2026-11-12
 layout: page
 sidebar: false
 ---
@@ -11,15 +11,15 @@ sidebar: false
 // 脚本扩展输出的新字段）。当前数据基于 2026-07-13 的仓库内容生成。
 const interviewItems = [
   {"title": "Compass", "description": "Compass 面试经验分享", "href": "./compass/index.md", "articleCount": 3, "lastUpdated": "2026-11-10", "createdDate": "2026-10-09"},
-  {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 2, "lastUpdated": "2026-10-20", "createdDate": "2026-10-01"},
+  {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 3, "lastUpdated": "2026-11-11", "createdDate": "2026-10-01"},
   {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 5, "lastUpdated": "2026-11-05", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
-  {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 23, "lastUpdated": "2026-10-30", "createdDate": "2025-10-21"},
+  {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 24, "lastUpdated": "2026-11-11", "createdDate": "2025-10-21"},
   {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 19, "lastUpdated": "2026-11-06", "createdDate": "2025-10-22"},
   {"title": "Snowflake", "description": "SWE 技术电面经验", "href": "./snowflake/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
   {"title": "Netflix", "description": "HR Screening 与技术面", "href": "./netflix/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2026-05-29"},
   {"title": "Notion", "description": "Notion 面试经验分享", "href": "./notion/index.md", "articleCount": 1, "lastUpdated": "2026-07-08", "createdDate": "2026-06-05"},
-  {"title": "Meta", "description": "SWE 电面 / NG / OA / Recruiter Call", "href": "./meta/index.md", "articleCount": 5, "lastUpdated": "2026-07-05", "createdDate": "2025-09-26"},
+  {"title": "Meta", "description": "SWE 电面 / NG / OA / Recruiter Call", "href": "./meta/index.md", "articleCount": 6, "lastUpdated": "2026-11-11", "createdDate": "2025-09-26"},
   {"title": "Airbnb", "description": "SWE 全流程面经与时间线", "href": "./airbnb/index.md", "articleCount": 2, "lastUpdated": "2026-06-26", "createdDate": "2025-11-25"},
   {"title": "Bloomberg", "description": "SDE Intern 与电面经验", "href": "./bloomberg/index.md", "articleCount": 3, "lastUpdated": "2026-06-23", "createdDate": "2025-11-21"},
   {"title": "Oracle", "description": "健康组技术电面面经", "href": "./oracle/index.md", "articleCount": 1, "lastUpdated": "2026-06-12", "createdDate": "2026-06-09"},
