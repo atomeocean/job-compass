@@ -25,8 +25,8 @@
     "date": "",
     "result": "unknown",
     "rounds": [
-      { "roundType": "oa", "rate": 2 },
-      { "roundType": "phone-screen", "rate": 2 }
+      { "roundType": "oa", "rate": 5 },
+      { "roundType": "phone-screen", "rate": 5 }
     ]
   },
   "highlights": [],

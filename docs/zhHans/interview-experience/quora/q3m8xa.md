@@ -9,13 +9,21 @@ outline: deep
 
 ## 面试详情
 
-### OA（CodeSignal，4 题）
+**OA**：
+- 面试平台：CodeSignal
+- 题目数量：共4题
+
+**技术面**：
+- 面试平台：Zoom + CodeSignal
+- 面试时长：1小时
+
+### OA
 
 - 前两题很简单，记不清了。建议做题顺序：一 → 二 → 四 → 三。
 - **第三题**：矩阵斜线反弹，只能往右上和左下两个方向走，碰到边界就换斜线、反向。起点可以是左上角，也可以是最左列的任意一格。类似[蠡口 死久八](https://leetcode.com/problems/diagonal-traverse/)。
 - **第四题**：路灯覆盖，求被最多盏灯照到的坐标，并列时取最小。类似[蠡口 尔零尔幺](https://leetcode.com/problems/brightest-position-on-street/)。
 
-### 技术面（1 小时，Zoom + CodeSignal）
+### 技术面
 
 面试官人很好。
 
