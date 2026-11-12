@@ -31,7 +31,7 @@ const interviewItems = [
   {"title": "Apple", "description": "Apple 面试经验分享", "href": "./apple/index.md", "articleCount": 7, "lastUpdated": "2026-11-10", "createdDate": "2025-10-22"},
   {"title": "GEICO", "description": "GEICO 面试经验分享", "href": "./geico/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
   {"title": "Open AI", "description": "Open AI 面试经验分享", "href": "./openai/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
-  {"title": "Walmart labs", "description": "Walmart labs 面试经验分享", "href": "./walmart/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
+  {"title": "Walmart labs", "description": "Walmart labs 面试经验分享", "href": "./walmart/index.md", "articleCount": 2, "lastUpdated": "2026-11-12", "createdDate": "2026-05-08"},
   {"title": "Capital One", "description": "Capital One 面试经验分享", "href": "./capital-one/index.md", "articleCount": 2, "lastUpdated": "2026-09-25", "createdDate": "2025-10-22"},
   {"title": "Applied Intuition", "description": "Applied Intuition 面试经验分享", "href": "./applied-intuition/index.md", "articleCount": 1, "lastUpdated": "2026-02-20", "createdDate": "2026-02-20"},
   {"title": "Snap", "description": "Snap 面试经验分享", "href": "./snapchat/index.md", "articleCount": 4, "lastUpdated": "2026-11-03", "createdDate": "2025-11-21"},
@@ -53,7 +53,8 @@ const interviewItems = [
   {"title": "SIG", "description": "SIG面经", "href": "./sig/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "Affirm", "description": "Affirm面经", "href": "./affirm/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "MongoDB", "description": "MongoDB 面试经验分享", "href": "./mongodb/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
-  {"title": "ElevenLabs", "description": "ElevenLabs 面试经验分享", "href": "./elevenlabs/index.md", "articleCount": 1, "lastUpdated": "2026-11-10", "createdDate": "2026-11-10"}
+  {"title": "ElevenLabs", "description": "ElevenLabs 面试经验分享", "href": "./elevenlabs/index.md", "articleCount": 1, "lastUpdated": "2026-11-10", "createdDate": "2026-11-10"},
+  {"title": "Quora", "description": "Quora 面试经验分享", "href": "./quora/index.md", "articleCount": 1, "lastUpdated": "2026-11-12", "createdDate": "2026-11-12"}
 ]
 
 const totalArticles = interviewItems.reduce((sum, i) => sum + i.articleCount, 0)
