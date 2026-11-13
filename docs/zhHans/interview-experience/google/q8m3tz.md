@@ -2,6 +2,8 @@
 title: 27 Summer PhD SDE Intern 电面
 description: Google PhD SDE Intern 技术电面面试经验
 outline: deep
+createdDate: 2026-11-13
+lastUpdated: 2026-11-13
 ---
 # Google PhD SDE Intern 技术电面面试经验
 
