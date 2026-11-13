@@ -1,9 +1,9 @@
 ---
 title: 二面（技术一面）
-description: Workday 全职 技术电面面试经验
+description: Workday 全职 技术一面面试经验
 outline: deep
 ---
-# Workday 技术电面面试经验
+# Workday 技术一面面试经验
 
 <InterviewDetail />
 

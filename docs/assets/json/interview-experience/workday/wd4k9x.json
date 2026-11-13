@@ -25,7 +25,7 @@
     "date": "",
     "result": "pending",
     "rounds": [
-      { "roundType": "phone-screen", "rate": 2 }
+      { "roundType": "technical", "rate": 2 }
     ]
   },
   "highlights": [],
