@@ -19,11 +19,11 @@ lastUpdated: 2026-10-09
 
 ## 项目指引文件
 
-Claude Code 会自动读取仓库里的 `CLAUDE.md`，按其中的规范工作，不需要你额外说明：
+Claude Code 会自动读取仓库里的 `CLAUDE.md`，按其中的规范工作，不需要你额外说明。根目录的 `CLAUDE.md` 只有一行，用来导入 `AGENTS.md`，项目规范写在 `AGENTS.md` 里，其他编码工具（Codex、Gemini CLI 等）读的也是这一份：
 
 | 文件 | 内容 |
 |---|---|
-| `CLAUDE.md` | 项目总览、目录结构、不能手改的文件、Markdown 写作规范 |
+| `AGENTS.md` | 项目总览、目录结构、不能手改的文件、Markdown 写作规范 |
 | `docs/zhHans/job-postings/CLAUDE.md` 等 | 各内容目录的文件结构和 JSON 格式约定 |
 | `docs/.vitepress/theme/CLAUDE.md` | 主题代码的注意事项 |
 | `scripts/CLAUDE.md` | Python 脚本的运行方式和用途 |
