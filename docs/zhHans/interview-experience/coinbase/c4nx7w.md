@@ -2,6 +2,8 @@
 title: 老年VO吐槽
 description: Coinbase 社招 Software Engineer VO 面试经验
 outline: deep
+createdDate: 2026-11-13
+lastUpdated: 2026-11-13
 ---
 # Coinbase 社招 Software Engineer VO 面试经验
 
