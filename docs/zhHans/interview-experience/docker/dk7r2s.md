@@ -2,6 +2,8 @@
 title: Senior SWE Recruiter Screen
 description: Docker Senior Software Engineer（AI Developer Tools）Recruiter Screen面试经验
 outline: deep
+createdDate: 2026-11-13
+lastUpdated: 2026-11-13
 ---
 # Docker Senior Software Engineer Recruiter Screen面试经验
 
