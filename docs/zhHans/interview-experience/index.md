@@ -22,7 +22,7 @@ const interviewItems = [
   {"title": "Meta", "description": "SWE 电面 / NG / OA / Recruiter Call", "href": "./meta/index.md", "articleCount": 6, "lastUpdated": "2026-11-11", "createdDate": "2025-09-26"},
   {"title": "Airbnb", "description": "SWE 全流程面经与时间线", "href": "./airbnb/index.md", "articleCount": 2, "lastUpdated": "2026-06-26", "createdDate": "2025-11-25"},
   {"title": "Bloomberg", "description": "SDE Intern 与电面经验", "href": "./bloomberg/index.md", "articleCount": 3, "lastUpdated": "2026-06-23", "createdDate": "2025-11-21"},
-  {"title": "Oracle", "description": "健康组技术电面面经", "href": "./oracle/index.md", "articleCount": 3, "lastUpdated": "2026-11-13", "createdDate": "2026-06-09"},
+  {"title": "Oracle", "description": "Oracle 面试经验分享", "href": "./oracle/index.md", "articleCount": 3, "lastUpdated": "2026-11-13", "createdDate": "2026-06-09"},
   {"title": "Uber", "description": "Uber 面试经验分享", "href": "./uber/index.md", "articleCount": 12, "lastUpdated": "2026-10-21", "createdDate": "2025-11-21"},
   {"title": "TikTok", "description": "SDE Intern 面经", "href": "./tiktok/index.md", "articleCount": 6, "lastUpdated": "2026-10-20", "createdDate": "2025-09-26"},
   {"title": "Nvidia", "description": "Nvidia 面试经验分享", "href": "./nvidia/index.md", "articleCount": 3, "lastUpdated": "2026-11-10", "createdDate": "2025-10-22"},

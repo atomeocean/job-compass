@@ -23,7 +23,7 @@
   },
   "interview": {
     "date": "2026-11",
-    "result": "other",
+    "result": "unknown",
     "rounds": [
       { "roundType": "recruiter-screen", "rate": null },
       { "roundType": "phone-screen", "rate": 3 },
