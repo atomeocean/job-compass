@@ -2,6 +2,8 @@
 title: USDS 一面挂经
 description: TikTok USDS 应届 技术电面面试经验
 outline: deep
+createdDate: 2026-11-13
+lastUpdated: 2026-11-13
 ---
 # TikTok USDS 应届 技术电面面试经验
 
