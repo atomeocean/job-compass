@@ -1,0 +1,33 @@
+{
+  "company": "workday",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "温暖的火锅",
+    "link": "https://www.1point3acres.com/bbs/thread-1196771-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "bachelor",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pending",
+    "rounds": [
+      { "roundType": "technical", "rate": 2 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
