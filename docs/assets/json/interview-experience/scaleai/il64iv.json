@@ -1,0 +1,36 @@
+{
+  "company": "scaleai",
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "experienced",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "pending",
+    "rounds": [
+      {
+        "roundType": "recruiter-screen",
+        "rate": 2
+      },
+      {
+        "roundType": "technical",
+        "rate": 3
+      },
+      {
+        "roundType": "onsite",
+        "rate": 3
+      }
+    ]
+  }
+}
