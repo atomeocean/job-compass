@@ -1,0 +1,36 @@
+{
+  "company": "coinbase",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "boxzme",
+    "link": "https://www.1point3acres.com/bbs/thread-1196626-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "experienced",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "coding", "rate": null },
+      { "roundType": "coding", "rate": null },
+      { "roundType": "system-design", "rate": null },
+      { "roundType": "hiring-manager", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
