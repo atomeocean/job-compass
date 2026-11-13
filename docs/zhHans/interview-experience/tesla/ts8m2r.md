@@ -2,6 +2,8 @@
 title: 电车infra昂赛
 description: Tesla Infra 全职 Onsite面试经验
 outline: deep
+createdDate: 2026-11-13
+lastUpdated: 2026-11-13
 ---
 # Tesla Infra Onsite面试经验
 
