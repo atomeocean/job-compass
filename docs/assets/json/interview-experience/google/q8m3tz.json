@@ -1,0 +1,33 @@
+{
+  "company": "google",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "BUILDERlym",
+    "link": "https://www.1point3acres.com/bbs/thread-1196635-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE Intern",
+    "level": "intern",
+    "jobType": "internship"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "phd",
+    "background": "应届毕业生",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": 2 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
