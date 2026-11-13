@@ -1,141 +1,126 @@
 ---
-lastUpdated: 2026-05-08
+lastUpdated: 2026-09-10
 ---
 # AGENTS.md
 
-This file gives Codex and other coding agents project-specific guidance for working in this repository. Codex reads repo guidance from `AGENTS.md`, so keep durable project rules here.
+Project guidance for every coding agent working in this repository (Claude Code, Codex, Gemini
+CLI, OpenCode, Cursor, ...). This is the single source: the root `CLAUDE.md` only imports this
+file, so edit the rules here.
 
 ## Project Overview
 
-Job Compass is an open-source, multilingual job-seeking guide platform built as a VitePress documentation site with custom Vue 3 components.
-
-The primary content language is Simplified Chinese under `docs/zhHans/`. English content lives under `docs/en/`.
+Job Compass is an open-source, multilingual (Chinese/English) job-seeking guide platform built
+as a VitePress documentation site with custom Vue 3 components. Simplified Chinese under
+`docs/zhHans/` is the primary content; `docs/en/` is a partial English mirror.
 
 ## Commands
 
 ```bash
 # Development
-npm run docs:dev
+npm run docs:dev       # Start local dev server
 
-# Production build
-npm run docs:build
-
-# Preview the production build
-npm run docs:preview
+# Build & Preview
+npm run docs:build     # Production build
+npm run docs:preview   # Preview production build
 ```
 
-Use `npm run docs:build` after changes to theme code, VitePress config, Vue components, or broad Markdown structure. For small content-only Markdown edits, a build is optional unless the change touches links, frontmatter, custom components, or generated navigation behavior.
+Run `npm run docs:build` after changes to theme code, VitePress config, Vue components, or
+dependencies. Content-only Markdown edits don't need it unless they touch links, frontmatter,
+custom components, or navigation.
+
+Note that `ignoreDeadLinks: true` is set in `docs/.vitepress/config.ts` — **a green build does
+not mean links resolve.** Verify links by hand.
 
 ## Tech Stack
 
-- VitePress 1.5.0, with docs rooted at `docs/`
-- Vue 3 for custom theme components
-- Element Plus for UI components
-- TypeScript for theme code
-- Python for utility scripts in `scripts/`
+- **VitePress 1.5.0** — static site generator (docs root: `docs/`)
+- **Vue 3** — custom interactive components
+- **Element Plus** — UI component library
+- **Python** — utility scripts in `scripts/`
 
-Do not introduce another frontend framework such as React, Next.js, Nuxt, Svelte, or Astro unless the user explicitly asks for a major migration.
+Do not introduce other frameworks (React, Next.js, etc.).
 
-## Repository Structure
+## Repository Map
 
-- `docs/.vitepress/config.ts` - VitePress config, i18n, auto-sidebar, analytics, markdown plugins
-- `docs/.vitepress/theme/index.ts` - theme entrypoint and global component registration
-- `docs/.vitepress/theme/components/` - reusable Vue components
-- `docs/.vitepress/theme/composables/` - Vue composables
-- `docs/.vitepress/theme/constants/` - shared constants
-- `docs/.vitepress/theme/types/` - shared TypeScript types
-- `docs/.vitepress/theme/utils/` - shared utilities
-- `docs/zhHans/` - Simplified Chinese docs, the primary content tree
-- `docs/en/` - English docs
-- `scripts/` - Python helper scripts
-- `templates/` - content templates
+```
+docs/.vitepress/config.ts     i18n, auto-sidebar, analytics, markdown-it plugins
+docs/.vitepress/theme/        custom theme — see its own CLAUDE.md
+docs/zhHans/                  primary content (Simplified Chinese)
+docs/en/                      English mirror (no staffing-company / visa-solution-company)
+docs/assets/json/             structured data for interview-experience & a few others
+docs/_data/                   AUTO-SYNCED by CI — never modify
+scripts/                      Python helpers — see its own CLAUDE.md
+templates/                    content templates
+```
 
-Locale content generally mirrors these sections:
+Each locale mirrors these sections: `guide/`, `direct-hire-company/`, `job-postings/`,
+`interview-experience/`, `interview-prepare/`, `career-guide/`, `referral/`,
+`staffing-company/`, `visa-solution-company/`.
 
-- `guide/`
-- `direct-hire-company/`
-- `job-postings/`
-- `interview-experience/`
-- `interview-prepare/`
-- `career-guide/`
-- `referral/`
-- `staffing-company/`
-- `visa-solution-company/`
+### Directory-specific guidance
+
+These directories have their own `CLAUDE.md` with the structural contract (file pairing, JSON
+schema, component props). Not every agent loads a nested `CLAUDE.md` automatically, so open and
+read it yourself before adding or editing files there:
+
+- [docs/zhHans/job-postings/CLAUDE.md](docs/zhHans/job-postings/CLAUDE.md)
+- [docs/zhHans/interview-experience/CLAUDE.md](docs/zhHans/interview-experience/CLAUDE.md)
+- [docs/zhHans/direct-hire-company/CLAUDE.md](docs/zhHans/direct-hire-company/CLAUDE.md)
+- [docs/zhHans/staffing-company/CLAUDE.md](docs/zhHans/staffing-company/CLAUDE.md)
+- [docs/zhHans/guide/rules/CLAUDE.md](docs/zhHans/guide/rules/CLAUDE.md)
+- [docs/.vitepress/theme/CLAUDE.md](docs/.vitepress/theme/CLAUDE.md)
+- [scripts/CLAUDE.md](scripts/CLAUDE.md)
 
 ## Critical Constraints
 
-- Never modify `docs/_*` directories, including `docs/_data/`; these are auto-synced or generated.
-- Reuse existing components and utilities before adding new ones.
-- Keep edits scoped to the requested feature, page, or bug.
-- Preserve existing user changes in the worktree. Do not revert unrelated edits.
-- Avoid large refactors unless they are necessary to complete the user request.
-- Do not add dependencies unless the user asks or the existing stack cannot reasonably solve the problem.
+- **Never modify `docs/_*` directories** (e.g. `docs/_data/`) — auto-synced by CI workflows.
+- **Never hand-edit `overview.md`.** Every one of them is generated by
+  `scripts/generate_folder_overview.py` and rewritten nightly by the `auto-generate-overview`
+  workflow. To change what an overview shows, edit the source pages' frontmatter
+  `title` / `description`.
+- **Don't hand-maintain `createdDate` / `lastUpdated`** in Markdown frontmatter on new pages —
+  the `update-frontmatter` workflow injects them on every PR. (JSON files' own
+  `metadata.lastUpdated` *is* hand-maintained; that's a different field.)
+- Reuse existing components and utilities before creating new ones.
+- Keep edits scoped to the request; preserve unrelated changes in the worktree.
+- Don't add dependencies unless the existing stack can't reasonably solve the problem.
 
 ## Markdown Content Guidelines
 
-- Use Markdown files for pages.
-- Keep frontmatter consistent with nearby files, usually:
+- Frontmatter matches nearby files, usually `title`, `description`, `createdDate`,
+  `lastUpdated`, sometimes `outline: deep`.
+- Clear heading hierarchy: `#`, then `##`, then `###`.
+- Prefer root-relative VitePress routes over filesystem paths — in the default `zhHans`
+  locale, `/direct-hire-company/virginia/mclean/capital-one`, not a `.md` path.
+- For Chinese content, match the tone and terminology of neighbouring `docs/zhHans/` pages.
+- Inspect nearby pages first and follow their frontmatter, headings, and component usage.
+- The sidebar is generated from the folder structure by `vitepress-sidebar`, so renaming or
+  moving a file changes navigation with no config edit.
 
-```yaml
----
-title: Page Title
-createdDate: YYYY-MM-DD
-lastUpdated: YYYY-MM-DD
----
-```
+## Vue Component Guidelines
 
-- Use clear heading hierarchy: `#`, then `##`, then `###`.
-- Keep paragraphs short and readable.
-- Use kebab-case for Markdown files and content folders.
-- Prefer root-relative VitePress links that match the existing site style. In the default `zhHans` locale, links commonly look like `/direct-hire-company/virginia/mclean/capital-one` rather than filesystem paths.
-- Link to the rendered route, not the `.md` file, unless the surrounding content already does otherwise.
-- For Chinese content, match the tone and terminology of neighboring `docs/zhHans/` pages.
-- When adding company, interview, job posting, or guide pages, inspect nearby pages first and follow their frontmatter, headings, and component usage.
-
-## Vue and Theme Guidelines
-
-- Use Vue 3 with `<script setup lang="ts">`.
-- Define props explicitly with TypeScript types.
-- Keep components single-purpose and easy to reuse.
-- Prefer existing Element Plus patterns already used in the theme.
-- Keep business/data transformation logic in utilities or composables when it is shared.
-- Register globally used components through the existing theme entry pattern.
-- Keep Vue components thin and presentational when possible. Put page/runtime state coordination in `docs/.vitepress/theme/composables/`, and pure normalization, matching, sorting, or data transformation helpers in `docs/.vitepress/theme/utils/`.
-- For theme UI, prefer Element Plus components such as `el-space`, `el-link`, `el-avatar`, `el-text`, buttons, tags, tables, and form controls over raw HTML when an Element Plus component fits the job.
-- Prefer `@ao-` aliases for theme imports instead of long relative paths.
-- For route-dependent theme logic that reads VitePress `page` data or Nolebase git changelog data, explicitly handle route changes, for example by watching a page-relative key and refreshing derived data.
-- For multilingual names or initials, use Unicode-safe string handling such as `Array.from(value)[0]` instead of `charAt(0)`.
-
-## Path Aliases
-
-Use the existing `@ao-` aliases:
-
-- `@ao-components/*` -> `docs/.vitepress/theme/components/*`
-- `@ao-types/*` -> `docs/.vitepress/theme/types/*`
-- `@ao-utils/*` -> `docs/.vitepress/theme/utils/*`
-- `@ao-composables/*` -> `docs/.vitepress/theme/composables/*`
-- `@ao-constants/*` -> `docs/.vitepress/theme/constants/*`
-- `@ao-theme/*` -> `docs/.vitepress/theme/*`
+- Use `<script setup lang="ts">`; declare props explicitly with types.
+- Keep components single-responsibility and presentational; no complex business logic inside.
+- Import theme code through the `@ao-` aliases (`@ao-components`, `@ao-utils`, `@ao-types`,
+  `@ao-composables`, `@ao-constants`, `@ao-theme`).
+- **There are SSR + SPA-navigation traps in this theme that `npm run docs:build` does not
+  catch.** Before touching anything under `docs/.vitepress/theme/`, read
+  [its CLAUDE.md](docs/.vitepress/theme/CLAUDE.md), and test with `npm run docs:dev` while
+  clicking between pages.
 
 ## Naming Conventions
 
 | Type | Convention | Example |
-| --- | --- | --- |
+|---|---|---|
 | Vue component files/folders | PascalCase | `StaffCard/`, `UserProfile.vue` |
 | Markdown content folders | kebab-case | `h1b-guide/` |
 | Markdown files | kebab-case | `getting-started.md` |
 | Python scripts | snake_case | `generate_data.py` |
 
-## Validation Guidance
+## Skills
 
-- For content-only edits, check the diff and verify links/routes by comparing nearby files.
-- For component, config, dependency, or navigation changes, run `npm run docs:build`.
-- If changing UI behavior or layout, run the dev server and inspect the affected pages in a browser when practical.
-- If a command fails because dependencies are missing, prefer `npm install` using the existing `package-lock.json`.
-
-## Agent Workflow
-
-- Read the relevant files before editing.
-- Use `rg`/`rg --files` for repository search.
-- Keep comments concise and only add them where they clarify non-obvious logic.
-- Explain important tradeoffs to the user, but implement straightforward requested changes without unnecessary back-and-forth.
+`.claude/skills/` (also reachable as `.agents/skills/`, a symlink to it) holds the
+content-authoring workflows: `find-docs` (where does this belong),
+`idea-to-article`, `web-source-to-article`, `web-source-to-interview`, `translate-to-en`,
+`gen-description`, `related-articles-frontmatter`. Prefer them over improvising when the task
+matches.
