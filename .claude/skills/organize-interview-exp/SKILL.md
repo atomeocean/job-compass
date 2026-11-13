@@ -167,8 +167,11 @@ Shape per [interviewSchema.ts](../../../docs/.vitepress/theme/types/interviewSch
 **Read [interviewEnums.ts](../../../docs/.vitepress/theme/constants/interviewEnums.ts) before
 writing**: it is the only list of legal values for `sourceType`, `level`, `jobType`, `channel`,
 `education`, `result` and `roundType`. Write the code from that file, never a label or your own
-wording. The example shows one legal value per field, not the full list; the two reference
-JSONs predate these rules, so take their shape, not their values.
+wording. The example shows one legal value per field, not the full list; for a complete real
+file that passes validation, see
+[google/k7fq2m.json](../../../docs/assets/json/interview-experience/google/k7fq2m.json). The two
+reference pages' JSONs, like most older files, predate these rules: take their shape, not their
+values.
 
 ```json
 {
@@ -192,8 +195,10 @@ JSONs predate these rules, so take their shape, not their values.
   later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
 - `rounds`: one entry per interview stage (OA, phone screen, onsite loop). `roundType` says
   what kind of round it is, not which one (no `vo1` / `round-1`; a virtual onsite is `onsite`).
-- A remark about the result (「通过 → Team Match」) goes in the optional `interview.resultNote`;
-  `result` holds only the code.
+- **A fixed-value field holds the code and nothing else.** When the author adds detail to one
+  (「CS 硕士」, 「通过 → Team Match」, 「组里同事内推」), write only the code and leave the detail
+  out of the JSON — where it belongs, and in what wording, is a human call. List each one in the
+  report (step 8).
 - `sourceType` is always `repost` here — the page cites the post with `<ReferenceSource>`, and
   `source` repeats its `site` / `author` / `link` exactly (the info card's 查看原帖 button).
 - `rate` is difficulty 1–5 from the author's own words (「中等」→ 3, 「不算高」→ 2). When the
@@ -227,7 +232,8 @@ JSONs predate these rules, so take their shape, not their values.
      source wording and rerun.
    - `grep -c '^---$' <md path>` prints `2`.
    - The md and json paths match below `interview-experience/`.
-8. **Report**: the two file paths, fields left empty or `rate: null`, platform text removed,
+8. **Report**: the two file paths, fields left empty or `rate: null`, each detail left out of a
+   fixed-value field (field, code written, the author's exact words) for a human to place, platform text removed,
    author-written filler flagged, whether the race / nationality disclaimer was added (and the
    phrases that triggered it), whether the post was translated from English, and the check
    results. Leave the changes uncommitted.

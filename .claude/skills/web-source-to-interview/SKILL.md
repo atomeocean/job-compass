@@ -80,7 +80,9 @@ anonymize the original author, objective tone, no attacks on interviewers.
    legal values for `sourceType`, `level`, `jobType`, `channel`, `education`, `result` and
    `roundType`. Write the code from that file (lowercase kebab-case), never a label, a
    translation or your own wording. The example below shows one legal value per field, not
-   the full list:
+   the full list; for a complete real file that passes validation, see
+   `docs/assets/json/interview-experience/google/k7fq2m.json`. Older files elsewhere in the
+   folder still carry legacy values — don't copy values from them:
    ```json
    {
      "company": "<company folder name, e.g. capital-one>",
@@ -118,8 +120,12 @@ anonymize the original author, objective tone, no attacks on interviewers.
    (`level`, `jobType`, `channel`, `education`, `date`, free text), `null` for `jobPostUrl`,
    `yearsOfExperience` and a round's `rate` (difficulty 1–5), and `"unknown"` for `result`.
    One `rounds` entry per round the source describes; `roundType` says what kind of round it
-   is, not which one (no `vo1` / `round-1`; a virtual onsite is `onsite`). A remark about the
-   result (「通过 → Team Match」) goes in the optional `interview.resultNote`, not in `result`. `sourceType` is always `repost` for a page built from a web
+   is, not which one (no `vo1` / `round-1`; a virtual onsite is `onsite`).
+   **A fixed-value field holds the code and nothing else.** When the source adds detail to
+   one (「CS 硕士」, 「通过 → Team Match」, 「组里同事内推」), write only the code and leave
+   the detail out of the JSON — where it belongs, and in what wording, is a human call. List
+   each one in the report (step 8).
+   `sourceType` is always `repost` for a page built from a web
    source (it ends with `<ReferenceSource>`); `source` repeats that block's `site` / `author` /
    `link` exactly.
 
@@ -166,13 +172,17 @@ anonymize the original author, objective tone, no attacks on interviewers.
    - The JSON path mirrors the md path exactly (company folder and slug).
    - The sidebar picks the page up automatically — no config edits.
 
-8. **Report** the two file paths, the branch name, and anything the source didn't
-   specify (fields left empty / `null` / `unknown`). Leave the change on the branch — do not commit,
+8. **Report** the two file paths, the branch name, anything the source didn't
+   specify (fields left empty / `null` / `unknown`), and each detail left out of a
+   fixed-value field (field, code written, the source's exact words) for a human to place. Leave the change on the branch — do not commit,
    push, or open a PR unless the user asks.
 
 ## Reference examples
 
 - Markdown: `docs/zhHans/interview-experience/openai/y2ti8x.md`
-- JSON: `docs/assets/json/interview-experience/openai/y2ti8x.json`
+- JSON: `docs/assets/json/interview-experience/google/k7fq2m.json` (passes
+  `npm run validate:interview`; the Markdown example's own JSON predates the rules)
 - Minimal company index: `docs/zhHans/interview-experience/google/index.md`
-- Metadata field list: `docs/zhHans/guide/interview-experience-utils/requirement.md`
+- Legal values: `docs/.vitepress/theme/constants/interviewEnums.ts`. Not
+  `guide/interview-experience-utils/requirement.md`: that page is a reader-needs discussion
+  written in display wording (网上海投, 本科或研究生), not JSON values.
