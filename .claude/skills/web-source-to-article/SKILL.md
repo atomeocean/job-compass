@@ -18,7 +18,7 @@ those pages have their own format and location.
 
 - **No URL in the request** → ask the user for the URL in plain text and end the
   turn. Do not web-search for a likely URL or proceed from memory.
-- **Verbatim text unavailable** → `WebFetch` returns a model-summarized rendering,
+- **Verbatim text unavailable** → a web fetch may return a model-summarized rendering,
   not verbatim text. If the sections that must stay in the author's own words (the
   original post, the author's claims and complaints) only came back as a summary —
   or the site blocks fetching entirely (小红书 often requires login) — ask the user
@@ -27,7 +27,7 @@ those pages have their own format and location.
 
 ## Token discipline
 
-- One `WebFetch` of the URL. Discourse-style forums support fetching `<url>.json`
+- One web fetch of the URL. Discourse-style forums support fetching `<url>.json`
   (full post + replies in one request); use that when the site is Discourse-based.
 - Read at most ONE sibling article in the target folder, with `limit: 50`, just to
   match frontmatter and tone.
@@ -48,7 +48,7 @@ those pages have their own format and location.
      (RedNote account profiles there use the `hongshu-<account-id>.md` naming)
    - job-scam warning or general prep story → `interview-prepare/`
    - career/workplace essay → `career-guide/`
-   If area or angle is ambiguous, confirm with AskUserQuestion.
+   If area or angle is ambiguous, ask the user to confirm.
 5. **Write the markdown**:
    - Frontmatter: `title`, `description` (one zh-Hans sentence, no trailing period),
      `outline: deep`. Omit `createdDate`/`lastUpdated` — CI auto-fills them.

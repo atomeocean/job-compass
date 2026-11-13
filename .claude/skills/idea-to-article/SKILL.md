@@ -39,7 +39,7 @@ or expansion.
 
 3. **Decide the target path.**
    - **If one or more existing docs are a strong fit**, the ideas may belong *inside* an existing
-     page rather than a new file. Use `AskUserQuestion` to let the user choose: **extend an
+     page rather than a new file. Ask the user to choose (with `AskUserQuestion` where available): **extend an
      existing doc** (offer the top matches) or **create a new sibling article**. Don't assume.
    - **If nothing relevant exists**, recommend the single best new path following the `find-docs`
      taxonomy: pick the top-level category (`interview-prepare/`, `career-guide/`,

@@ -22,7 +22,7 @@ anonymize the original author, objective tone, no attacks on interviewers.
 ## Hard gates — stop and ask, never guess
 
 - **No URL and no pasted text** → ask the user for one and end the turn.
-- **Fetch blocked or summarized** → 小红书 usually requires login and `WebFetch`
+- **Fetch blocked or summarized** → 小红书 usually requires login and a web fetch
   returns a summary at best. If the fetched content doesn't include the actual
   interview questions in enough detail to restate them faithfully, ask the user to
   paste the original text and end the turn. Do not fabricate question details.
@@ -34,7 +34,7 @@ anonymize the original author, objective tone, no attacks on interviewers.
 
 ## Token discipline
 
-- One `WebFetch` of the URL (Discourse-style forums: fetch `<url>.json` instead).
+- One web fetch of the URL (Discourse-style forums: fetch `<url>.json` instead).
 - Read at most ONE sibling 面经 (with `limit: 60`) to match tone — the reference
   examples below are usually enough.
 - Do not run `npm run docs:dev`; finish by reporting the two file paths + a 2–3 line
