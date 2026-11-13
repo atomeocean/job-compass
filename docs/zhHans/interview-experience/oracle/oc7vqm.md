@@ -2,6 +2,8 @@
 title: OCI VO
 description: Oracle OCI 全职 VO面试经验
 outline: deep
+createdDate: 2026-11-13
+lastUpdated: 2026-11-13
 ---
 # Oracle OCI VO面试经验
 
