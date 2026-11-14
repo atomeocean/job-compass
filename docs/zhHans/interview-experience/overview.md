@@ -1,10 +1,18 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-11-05
+lastUpdated: 2026-11-14
 ---
+
 <script setup>
 const overviewItems = [
+  {
+    "title": "Affirm",
+    "description": "Affirm 面试经验分享",
+    "href": "./affirm/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
   {
     "title": "Airbnb",
     "description": "Airbnb 面试经验分享",
@@ -90,6 +98,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "Docker",
+    "description": "Docker 面试经验分享",
+    "href": "./docker/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "DoorDash",
     "description": "该文件主要介绍 DoorDash 的相关内容。",
     "href": "./doordash/index.md",
@@ -100,6 +115,13 @@ const overviewItems = [
     "title": "eBay",
     "description": "eBay SDE 面试经验分享",
     "href": "./ebay/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "ElevenLabs",
+    "description": "ElevenLabs 面试经验分享",
+    "href": "./elevenlabs/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -153,6 +175,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "MongoDB",
+    "description": "MongoDB 面试经验分享",
+    "href": "./mongodb/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "Netflix",
     "description": "该文件主要介绍 Netflix 的相关内容。",
     "href": "./netflix/index.md",
@@ -202,6 +231,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "Quora",
+    "description": "Quora面试经验分享",
+    "href": "./quora/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "Rednote",
     "description": "该文件主要介绍 Rednote 的相关内容。",
     "href": "./rednote/index.md",
@@ -230,6 +266,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "SIG",
+    "description": "SIG 面试经验分享",
+    "href": "./sig/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "SMBC",
     "description": "该文件主要介绍 SMBC 的相关内容。",
     "href": "./smbc/index.md",
@@ -251,9 +294,23 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "Stripe",
+    "description": "Stripe 面试经验分享",
+    "href": "./stripe/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "StubHub",
     "description": "StubHub 面试经验分享",
     "href": "./stubhub/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Tesla",
+    "description": "Tesla 面试经验分享",
+    "href": "./tesla/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -282,6 +339,13 @@ const overviewItems = [
     "title": "Whatnot",
     "description": "该文件主要介绍 Whatnot 的相关内容。",
     "href": "./whatnot/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Workday",
+    "description": "Workday 面试经验分享",
+    "href": "./workday/index.md",
     "order": 0,
     "kind": "folder"
   },

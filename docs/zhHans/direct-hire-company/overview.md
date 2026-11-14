@@ -1,8 +1,9 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-10-30
+lastUpdated: 2026-11-14
 ---
+
 <script setup>
 const overviewItems = [
   {
@@ -151,6 +152,13 @@ const overviewItems = [
     "href": "./us-big-tech.md",
     "order": 0,
     "kind": "article"
+  },
+  {
+    "title": "公司新闻",
+    "description": "该文件主要介绍 公司新闻 的相关内容。",
+    "href": "./news/index.md",
+    "order": 1,
+    "kind": "folder"
   }
 ]
 </script>
