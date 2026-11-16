@@ -15,7 +15,7 @@ outline: deep
 
 ### 题目
 
-题目很像[耳耳奇](https://leetcode.com/problems/basic-calculator-ii/)，给一个string比如‘5 plus 4 times negative 5'，然后写一个function计算出结果，涉及到的operator就是plus, times, 需要额外处理的就是negative，以及没有括号之类。另外要注意的就是自己写test case。
+题目很像[耳耳奇](https://leetcode.com/problems/basic-calculator-ii/)，给一个string比如‘5 plus 4 times negative 5’，然后写一个function计算出结果，涉及到的operator就是plus, times, 需要额外处理的就是negative，以及没有括号之类。另外要注意的就是自己写test case。
 
 ## 面试结果反馈
 
