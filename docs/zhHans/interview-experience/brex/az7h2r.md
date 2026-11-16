@@ -2,6 +2,8 @@
 title: 店面挂经
 description: Brex 技术电面面试经验
 outline: deep
+createdDate: 2026-11-16
+lastUpdated: 2026-11-16
 ---
 # Brex 技术电面面试经验
 
