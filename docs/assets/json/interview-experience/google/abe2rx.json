@@ -25,8 +25,7 @@
     "date": "",
     "result": "rejected",
     "rounds": [
-      { "roundType": "coding", "rate": null },
-      { "roundType": "behavioral", "rate": null },
+      { "roundType": "phone-screen", "rate": null },
       { "roundType": "coding", "rate": null },
       { "roundType": "coding", "rate": null }
     ]

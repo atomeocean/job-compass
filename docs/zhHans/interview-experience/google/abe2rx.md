@@ -1,9 +1,9 @@
 ---
 title: 极度无语的一次谷歌面试体验
-description: Google 社招 Software Engineer Onsite 面试经验
+description: Google Software Engineer Onsite 面试经验
 outline: deep
 ---
-# Google 社招 Software Engineer Onsite 面试经验
+# Google Software Engineer Onsite 面试经验
 
 <InterviewDetail />
 
@@ -23,13 +23,13 @@ outline: deep
 
 Onsite 的两位面试官都很 nice，交流也挺顺畅。不过我是从东岸飞过去的，连续两天没睡好，面试时整个人有点恍惚。
 
-### Onsite 第一轮：Coding
+#### 第一轮：Coding
 
 第一轮先聊了我的工作经历，以及做过的、自己觉得比较有意思的项目，大概聊了 10–15 分钟，然后开始做题。题目比较像 [Longest Continuous Subarray With Absolute Diff](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)。我先和面试官讨论了双指针加 sliding window 的思路，他说没问题，我就开始写。结果写着写着脑子有点乱，想到这题也可以用 deque，又往代码里加了一个 stack，把自己绕进去了，卡了两三分钟。
 
 面试官这时候提醒了一句：“你没必要加 stack。”我才重新理清思路，把代码写完，后面的 follow-up coding 也做完了。
 
-### Onsite 第二轮：Coding
+#### 第二轮：Coding
 
 第二轮上来就直接做题，有点像 [Word Search II](https://leetcode.com/problems/word-search-ii/)，背景是手机键盘的滑动输入。比如手指滑过的字母是 "cxsasert"，要从里面找出词表里的单词。一开始面试官只是拿手机给我演示，没说具体输入是什么，我还以为要做个 tokenizer。后来他才给了一个例子：
 
