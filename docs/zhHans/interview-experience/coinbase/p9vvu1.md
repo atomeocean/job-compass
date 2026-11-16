@@ -3,7 +3,7 @@ title: SWE Onsite
 description: Coinbase软件工程师Onsite面试经验，系统设计题考察Ring Buffer
 outline: deep
 createdDate: 2026-07-10
-lastUpdated: 2026-10-12
+lastUpdated: 2026-11-16
 ---
 # Coinbase公司软件工程师Onsite面试经验
 
@@ -26,10 +26,6 @@ lastUpdated: 2026-10-12
 ### 面试体验
 
 面试官非常 picky，要求考虑 real production 环境下的各种细节，涉及到很多边界情况和实际生产中的注意事项。整体感觉面试官对细节的要求很高。
-
-## 面试结果反馈
-
-- **最终结果**：Other
 
 <ReferenceSource
 :sources="[
