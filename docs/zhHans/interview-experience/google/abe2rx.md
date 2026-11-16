@@ -2,6 +2,8 @@
 title: 极度无语的一次谷歌面试体验
 description: Google 社招 Software Engineer Onsite 面试经验
 outline: deep
+createdDate: 2026-11-16
+lastUpdated: 2026-11-16
 ---
 # Google 社招 Software Engineer Onsite 面试经验
 
