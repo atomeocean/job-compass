@@ -3,7 +3,7 @@ title: Coinbase 电面
 description: Coinbase Software Engineer 电面面试经验
 outline: deep
 createdDate: 2026-10-20
-lastUpdated: 2026-10-20
+lastUpdated: 2026-11-16
 ---
 # Coinbase 电面
 
@@ -32,10 +32,6 @@ lastUpdated: 2026-10-20
 ## 面试体验
 
 等后续消息，顺便求米求米看面经。感觉至少要提前知道 CPFP 是什么，不然现场读那段英文题意还挺费时间的。
-
-## 面试结果反馈
-
-- **最终结果**：等待中
 
 <ReferenceSource
 :sources="[

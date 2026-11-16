@@ -3,7 +3,7 @@ title: SWE OA + Onsite
 description: Coinbase软件工程师面试经验，OA考察Bank System，Onsite包含0-1背包DP、Pagination接口设计与实时价格系统设计
 outline: deep
 createdDate: 2026-08-28
-lastUpdated: 2026-10-12
+lastUpdated: 2026-11-16
 ---
 # Coinbase公司软件工程师OA及Onsite面试经验
 
@@ -94,7 +94,7 @@ BQ 轮除了常规行为问题外，还会追问技术细节。这一轮面试�
 
 ## 面试结果反馈
 
-- **最终结果**：无结果（HR 失联，未收到任何反馈）
+HR 失联，未收到任何反馈
 
 <ReferenceSource
 :sources="[
