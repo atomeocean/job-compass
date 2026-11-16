@@ -13,8 +13,6 @@ outline: deep
 
 两道题都是tree上面套一层某个应用场景的壳
 
-### OA
-
 第一题大概是给一个树，其中只有一部分node的value是已知的，需要给其他node也填上value，使得相邻node的value之差刚好=1的情况下整棵树的value之和最小
 
 第二题的意思就是给一棵树，和一组query，要回答每个query对应的subtree里包含多少个value是prime number的node
