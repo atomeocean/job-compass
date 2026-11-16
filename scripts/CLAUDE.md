@@ -65,6 +65,12 @@ Local / manual:
 - `check_verbatim.py` — the `organize-interview-exp` skill's self-check: lists 面经 body lines
   that don't appear verbatim in the pasted source. Standard library only, so it needs no
   `PYTHONPATH`.
+- `parse_interview_submission.py` — the same skill's first step for a logbook 面经投稿 issue
+  (label `bot-interview-submission`). It splits the issue into the verbatim post text,
+  the field list, and the submitter's `git commit --author` value. The issue format is a contract
+  with admin's `InterviewSubmissionServiceImpl`, so change both together. There is no workflow
+  for it on purpose: Claude Code runs only in a maintainer's local session, never in CI.
+  Standard library only.
 - `pr_review_prep.py <PR>` — the `/review` command's first step: one digest of the PR
   (metadata, CI, existing comments, 面经 pairing / `sourceType` / source / promo-keyword checks,
   diff with new-file line numbers). Reads the PR branch via `git fetch origin pull/<N>/head`
