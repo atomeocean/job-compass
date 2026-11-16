@@ -57,7 +57,8 @@ const interviewItems = [
   {"title": "Quora", "description": "Quora 面试经验分享", "href": "./quora/index.md", "articleCount": 1, "lastUpdated": "2026-11-12", "createdDate": "2026-11-12"},
   {"title": "Workday", "description": "Workday 面试经验分享", "href": "./workday/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"},
   {"title": "Tesla", "description": "Tesla 面试经验分享", "href": "./tesla/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"},
-  {"title": "Docker", "description": "Docker 面试经验分享", "href": "./docker/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"}
+  {"title": "Docker", "description": "Docker 面试经验分享", "href": "./docker/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"},
+  {"title": "Visa", "description": "Visa 面试经验分享", "href": "./visa/index.md", "articleCount": 1, "lastUpdated": "2026-11-16", "createdDate": "2026-11-16"}
 ]
 
 const totalArticles = interviewItems.reduce((sum, i) => sum + i.articleCount, 0)
