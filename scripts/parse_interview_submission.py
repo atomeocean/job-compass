@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-解析 logbook 面经投稿建出来的 issue，给 organize-interview-exp skill 的“投稿 issue”流程用。
+解析 logbook 面经投稿建出来的 issue，给 organize-interview-submission skill 用。
 维护者在本地用 Claude Code 跑这个 skill（CI 里不能跑 Claude Code），这个脚本只做确定性的拆分。
 
 用法（在仓库根目录运行）：
