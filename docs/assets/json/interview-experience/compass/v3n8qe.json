@@ -25,7 +25,7 @@
     "date": "",
     "result": "waitlist",
     "rounds": [
-      { "roundType": "onsite", "rate": 3 }
+      { "roundType": "onsite", "rate": null }
     ]
   },
   "highlights": [],
