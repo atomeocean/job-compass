@@ -2,6 +2,8 @@
 title: 水波纹全套
 description: Rippling Software Engineer 电面与Onsite面试经验
 outline: deep
+createdDate: 2026-11-17
+lastUpdated: 2026-11-17
 ---
 # Rippling Software Engineer 电面与Onsite面试经验
 
