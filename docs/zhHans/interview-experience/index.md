@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-11-12
+lastUpdated: 2026-11-16
 layout: page
 sidebar: false
 ---
@@ -11,22 +11,22 @@ sidebar: false
 // 脚本扩展输出的新字段）。当前数据基于 2026-07-13 的仓库内容生成。
 const interviewItems = [
   {"title": "Compass", "description": "Compass 面试经验分享", "href": "./compass/index.md", "articleCount": 3, "lastUpdated": "2026-11-10", "createdDate": "2026-10-09"},
-  {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 3, "lastUpdated": "2026-11-11", "createdDate": "2026-10-01"},
+  {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 4, "lastUpdated": "2026-11-16", "createdDate": "2026-10-01"},
   {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 5, "lastUpdated": "2026-11-05", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
   {"title": "Amazon", "description": "SDE OA / VO / Onsite 面经", "href": "./amazon/index.md", "articleCount": 24, "lastUpdated": "2026-11-11", "createdDate": "2025-10-21"},
-  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 19, "lastUpdated": "2026-11-06", "createdDate": "2025-10-22"},
+  {"title": "Google", "description": "L4 SWE 电面与 Onsite 面经", "href": "./google/index.md", "articleCount": 21, "lastUpdated": "2026-11-16", "createdDate": "2025-10-22"},
   {"title": "Snowflake", "description": "SWE 技术电面经验", "href": "./snowflake/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2025-10-22"},
   {"title": "Netflix", "description": "HR Screening 与技术面", "href": "./netflix/index.md", "articleCount": 3, "lastUpdated": "2026-07-08", "createdDate": "2026-05-29"},
   {"title": "Notion", "description": "Notion 面试经验分享", "href": "./notion/index.md", "articleCount": 1, "lastUpdated": "2026-07-08", "createdDate": "2026-06-05"},
   {"title": "Meta", "description": "SWE 电面 / NG / OA / Recruiter Call", "href": "./meta/index.md", "articleCount": 6, "lastUpdated": "2026-11-11", "createdDate": "2025-09-26"},
   {"title": "Airbnb", "description": "SWE 全流程面经与时间线", "href": "./airbnb/index.md", "articleCount": 2, "lastUpdated": "2026-06-26", "createdDate": "2025-11-25"},
   {"title": "Bloomberg", "description": "SDE Intern 与电面经验", "href": "./bloomberg/index.md", "articleCount": 3, "lastUpdated": "2026-06-23", "createdDate": "2025-11-21"},
-  {"title": "Oracle", "description": "健康组技术电面面经", "href": "./oracle/index.md", "articleCount": 1, "lastUpdated": "2026-06-12", "createdDate": "2026-06-09"},
+  {"title": "Oracle", "description": "Oracle 面试经验分享", "href": "./oracle/index.md", "articleCount": 3, "lastUpdated": "2026-11-13", "createdDate": "2026-06-09"},
   {"title": "Uber", "description": "Uber 面试经验分享", "href": "./uber/index.md", "articleCount": 12, "lastUpdated": "2026-10-21", "createdDate": "2025-11-21"},
-  {"title": "TikTok", "description": "SDE Intern 面经", "href": "./tiktok/index.md", "articleCount": 6, "lastUpdated": "2026-10-20", "createdDate": "2025-09-26"},
+  {"title": "TikTok", "description": "TikTok 面试经验分享", "href": "./tiktok/index.md", "articleCount": 7, "lastUpdated": "2026-11-13", "createdDate": "2025-09-26"},
   {"title": "Nvidia", "description": "Nvidia 面试经验分享", "href": "./nvidia/index.md", "articleCount": 3, "lastUpdated": "2026-11-10", "createdDate": "2025-10-22"},
-  {"title": "Microsoft", "description": "Microsoft 面试经验分享", "href": "./microsoft/index.md", "articleCount": 5, "lastUpdated": "2026-10-29", "createdDate": "2026-05-28"},
+  {"title": "Microsoft", "description": "Microsoft 面试经验分享", "href": "./microsoft/index.md", "articleCount": 6, "lastUpdated": "2026-11-16", "createdDate": "2026-05-28"},
   {"title": "ByteDance", "description": "SDE NG 多轮面经", "href": "./bytedance/index.md", "articleCount": 4, "lastUpdated": "2026-05-27", "createdDate": "2025-08-27"},
   {"title": "Apple", "description": "Apple 面试经验分享", "href": "./apple/index.md", "articleCount": 7, "lastUpdated": "2026-11-10", "createdDate": "2025-10-22"},
   {"title": "GEICO", "description": "GEICO 面试经验分享", "href": "./geico/index.md", "articleCount": 1, "lastUpdated": "2026-05-08", "createdDate": "2026-05-08"},
@@ -47,14 +47,19 @@ const interviewItems = [
   {"title": "Fortinet", "description": "Fortinet 面试经验分享", "href": "./fortinet/index.md", "articleCount": 1, "lastUpdated": "2025-09-18", "createdDate": "2025-09-18"},
   {"title": "Rednote", "description": "纽约岗位面经", "href": "./rednote/index.md", "articleCount": 1, "lastUpdated": "2025-09-03", "createdDate": "2025-08-05"},
   {"title": "Nuro", "description": "Nuro面经", "href": "./nuro/index.md", "articleCount": 2, "lastUpdated": "2026-10-19", "createdDate": "2026-07-07"},
-  {"title": "Coinbase", "description": "Coinbase面经", "href": "./coinbase/index.md", "articleCount": 3, "lastUpdated": "2026-10-20", "createdDate": "2026-07-10"},
+  {"title": "Coinbase", "description": "Coinbase面经", "href": "./coinbase/index.md", "articleCount": 4, "lastUpdated": "2026-11-13", "createdDate": "2026-07-10"},
   {"title": "Rippling", "description": "Rippling面经", "href": "./rippling/index.md", "articleCount": 3, "lastUpdated": "2026-11-06", "createdDate": "2026-11-04"},
   {"title": "Stripe", "description": "Stripe面经", "href": "./stripe/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "SIG", "description": "SIG面经", "href": "./sig/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "Affirm", "description": "Affirm面经", "href": "./affirm/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "MongoDB", "description": "MongoDB 面试经验分享", "href": "./mongodb/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "ElevenLabs", "description": "ElevenLabs 面试经验分享", "href": "./elevenlabs/index.md", "articleCount": 1, "lastUpdated": "2026-11-10", "createdDate": "2026-11-10"},
-  {"title": "Quora", "description": "Quora 面试经验分享", "href": "./quora/index.md", "articleCount": 1, "lastUpdated": "2026-11-12", "createdDate": "2026-11-12"}
+  {"title": "Quora", "description": "Quora 面试经验分享", "href": "./quora/index.md", "articleCount": 1, "lastUpdated": "2026-11-12", "createdDate": "2026-11-12"},
+  {"title": "Workday", "description": "Workday 面试经验分享", "href": "./workday/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"},
+  {"title": "Tesla", "description": "Tesla 面试经验分享", "href": "./tesla/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"},
+  {"title": "Docker", "description": "Docker 面试经验分享", "href": "./docker/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"},
+  {"title": "Visa", "description": "Visa 面试经验分享", "href": "./visa/index.md", "articleCount": 1, "lastUpdated": "2026-11-16", "createdDate": "2026-11-16"},
+  {"title": "Brex", "description": "Brex 面试经验分享", "href": "./brex/index.md", "articleCount": 1, "lastUpdated": "2026-11-16", "createdDate": "2026-11-16"}
 ]
 
 const totalArticles = interviewItems.reduce((sum, i) => sum + i.articleCount, 0)

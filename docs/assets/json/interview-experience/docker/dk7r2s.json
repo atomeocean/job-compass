@@ -1,0 +1,33 @@
+{
+  "company": "docker",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "希云",
+    "link": "https://www.1point3acres.com/bbs/thread-1196644-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Senior Software Engineer, AI Developer Tools",
+    "level": "senior",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "recruiter",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "phd",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2026-11-05",
+    "result": "pass",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": 2 }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
