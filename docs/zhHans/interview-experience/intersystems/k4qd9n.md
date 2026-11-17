@@ -3,7 +3,7 @@ title: QDP 离谱面经
 description: InterSystems NG Quality Development Program 技术面面试经验
 outline: deep
 ---
-# InterSystems NG Quality Development Program 技术面面试经验
+# QDP 离谱面经
 
 <InterviewDetail />
 
