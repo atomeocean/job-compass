@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-11-12
+lastUpdated: 2026-11-17
 ---
 # CLAUDE.md — VitePress theme
 
@@ -19,8 +19,8 @@ theme/
   types/          shared TS interfaces; interviewSchema.ts is the Zod schema for 面经 JSON
   utils/          pure helpers (companyMatch.ts, contributors.ts, interviewData.ts,
                   interviewFormat.ts, referenceSource.ts, team.ts, util.ts)
-  constants/      aiContributors.ts, logbookAuthors.ts, teamMembers.ts, companyNames.ts,
-                  footerLinks.ts, interviewEnums.ts
+  constants/      aiContributors.ts, communityContributors.ts, logbookAuthors.ts,
+                  teamMembers.ts, companyNames.ts, footerLinks.ts, interviewEnums.ts
   data/           siteStats.data.ts — build-time data loader for both homepages
   style/          brand-colors.css — Atomeocean blues (--ao-blue-*), mirrored from logbook
 ```
@@ -28,10 +28,16 @@ theme/
 ## Author bar (`ContributorWrapper`)
 
 The author bar merges frontmatter authors with git commit authors, then matches each one to a
-profile in `docs/_data/contributors.ts` plus [constants/aiContributors.ts](constants/aiContributors.ts).
+profile in `docs/_data/contributors.ts` plus
+[constants/communityContributors.ts](constants/communityContributors.ts) and
+[constants/aiContributors.ts](constants/aiContributors.ts).
 The plugin uses the same list as `mapAuthors` in [config.ts](../config.ts). Claude co-authors
 are merged into a single "Claude" author by the `noreply@anthropic.com` email. A page with
 `contributors: false` in its frontmatter shows no bar.
+
+`docs/_data/contributors.ts` is the team list, synced by CI. A non-team contributor who is not
+in any list gets a gravatar looked up by git email, which is usually the default avatar. To give
+them their GitHub avatar and profile link, add one line to `communityContributors.ts`.
 
 Author pages live on **logbook**, not here. If a contributor's GitHub username is listed in
 [constants/logbookAuthors.ts](constants/logbookAuthors.ts), their avatar and name link to
