@@ -11,6 +11,10 @@ relatedArticles:
     href: /visa-solution-company/ice-foreign-student-fraud-investigation-analysis-2026
     category: 中文跟进炒作
 ---
+<script setup>
+import ImageWrapper from '@ao-components/ImageWrapper.vue'
+</script>
+
 # 滨乐荟美国规划
 
 抖音商家认证账号

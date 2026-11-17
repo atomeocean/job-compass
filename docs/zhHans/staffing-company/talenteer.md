@@ -4,6 +4,10 @@ outline: deep
 createdDate: 2024-11-20
 lastUpdated: 2025-09-03
 ---
+<script setup>
+import ImageWrapper from '@ao-components/ImageWrapper.vue'
+</script>
+
 # Talenteer USA
 
 ## 公司信息

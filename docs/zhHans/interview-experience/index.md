@@ -6,6 +6,8 @@ layout: page
 sidebar: false
 ---
 <script setup>
+import InterviewExperienceList from '@ao-components/InterviewExperienceList.vue'
+
 // 以下数组按 generate_folder_overview 脚本的输出格式维护（title/description/href
 // 来自各公司 index.md frontmatter；articleCount/lastUpdated/createdDate 为需要
 // 脚本扩展输出的新字段）。当前数据基于 2026-07-13 的仓库内容生成。
