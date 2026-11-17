@@ -1,6 +1,6 @@
 ---
 createdDate: 2026-09-02
-lastUpdated: 2026-09-10
+lastUpdated: 2026-11-17
 ---
 # CLAUDE.md — staffing-company
 
@@ -113,9 +113,9 @@ level: `companyInfo`, `staffingAgencyPosition`, `recruiterInformation[]`, `train
 - Recruiter contact fields are published publicly. Only include what the recruiter themselves
   posted for recruiting purposes.
 
-`StaffingCompanyInformation` and `StaffingCompanyRecruiterTable` are registered globally in the
-theme but are not used by any page here — `StaffingCompanyTable` renders everything. Don't
-reach for them for new pages.
+`StaffingCompanyInformation` and `StaffingCompanyRecruiterTable` still exist under
+`theme/components/` but are no longer registered and are not used by any page here —
+`StaffingCompanyTable` renders everything. Don't reach for them for new pages.
 
 ## Generated files — do not hand-edit
 

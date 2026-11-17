@@ -2,7 +2,7 @@
 title: 滨乐荟
 description: 小红书 id 4377841060
 createdDate: 2026-05-22
-lastUpdated: 2026-07-14
+lastUpdated: 2026-11-17
 outline: deep
 authors:
   - Colton
@@ -11,6 +11,10 @@ relatedArticles:
     href: /visa-solution-company/ice-foreign-student-fraud-investigation-analysis-2026
     category: 中文跟进炒作
 ---
+<script setup>
+import ImageWrapper from '@ao-components/ImageWrapper.vue'
+</script>
+
 # 滨乐荟美国规划
 
 抖音商家认证账号

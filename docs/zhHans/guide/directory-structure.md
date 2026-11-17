@@ -1,8 +1,12 @@
 ---
 title: 目录结构
 createdDate: 2025-03-20
-lastUpdated: 2025-09-03
+lastUpdated: 2026-11-17
 ---
+<script setup>
+import DirectoryTree from '@ao-components/DirectoryTree.vue'
+</script>
+
 # Job Compass 目录结构
 
 在 direct-hire-company 目录中，企业按照 州 → 城市 → 公司名称 的层级结构进行组织。

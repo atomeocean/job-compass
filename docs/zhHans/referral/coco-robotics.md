@@ -1,11 +1,11 @@
 ---
 title: Coco Robotics
-lastUpdated: 2025-09-03
+lastUpdated: 2026-11-17
 outline: deep
 createdDate: 2025-01-31
 ---
-
 <script setup>
+import JobRecruiterInformation from '@ao-components/JobRecruiterInformation.vue'
 import jobRecruiterInformation from './data/coco-robotics.json'
 
 </script>
