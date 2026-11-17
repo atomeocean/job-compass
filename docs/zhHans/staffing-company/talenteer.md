@@ -2,8 +2,12 @@
 title: Talenteer USA
 outline: deep
 createdDate: 2024-11-20
-lastUpdated: 2025-09-03
+lastUpdated: 2026-11-17
 ---
+<script setup>
+import ImageWrapper from '@ao-components/ImageWrapper.vue'
+</script>
+
 # Talenteer USA
 
 ## 公司信息
