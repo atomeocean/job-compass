@@ -2,7 +2,7 @@
 title: Mercury System, Inc.
 createdDate: 2024-11-19
 outline: deep
-lastUpdated: 2025-09-04
+lastUpdated: 2026-11-17
 ---
 <script setup>
 import ImageWrapper from '@ao-components/ImageWrapper.vue'
