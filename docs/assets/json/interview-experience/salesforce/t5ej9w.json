@@ -1,0 +1,34 @@
+{
+  "company": "salesforce",
+  "sourceType": "repost",
+  "source": {
+    "site": "一亩三分地",
+    "author": "redknight", 
+    "link": "https://www.1point3acres.com/bbs/thread-1196944-1-1.html"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Backend Software Engineer",
+    "level": "",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
+      { "roundType": "phone-screen", "rate": null }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}

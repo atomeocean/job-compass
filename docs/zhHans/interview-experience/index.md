@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-11-16
+lastUpdated: 2026-11-17
 layout: page
 sidebar: false
 ---
@@ -10,7 +10,7 @@ sidebar: false
 // 来自各公司 index.md frontmatter；articleCount/lastUpdated/createdDate 为需要
 // 脚本扩展输出的新字段）。当前数据基于 2026-07-13 的仓库内容生成。
 const interviewItems = [
-  {"title": "Compass", "description": "Compass 面试经验分享", "href": "./compass/index.md", "articleCount": 3, "lastUpdated": "2026-11-10", "createdDate": "2026-10-09"},
+  {"title": "Compass", "description": "Compass 面试经验分享", "href": "./compass/index.md", "articleCount": 4, "lastUpdated": "2026-11-17", "createdDate": "2026-10-09"},
   {"title": "LinkedIn", "description": "LinkedIn 面试经验分享", "href": "./linkedin/index.md", "articleCount": 4, "lastUpdated": "2026-11-16", "createdDate": "2026-10-01"},
   {"title": "Robinhood", "description": "SDE 电面与 VO 面经", "href": "./robinhood/index.md", "articleCount": 5, "lastUpdated": "2026-11-05", "createdDate": "2026-09-02"},
   {"title": "eBay", "description": "eBay SDE 面试经验分享", "href": "./ebay/index.md", "articleCount": 1, "lastUpdated": "2026-08-18", "createdDate": "2026-08-18"},
@@ -59,7 +59,8 @@ const interviewItems = [
   {"title": "Tesla", "description": "Tesla 面试经验分享", "href": "./tesla/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"},
   {"title": "Docker", "description": "Docker 面试经验分享", "href": "./docker/index.md", "articleCount": 1, "lastUpdated": "2026-11-13", "createdDate": "2026-11-13"},
   {"title": "Visa", "description": "Visa 面试经验分享", "href": "./visa/index.md", "articleCount": 1, "lastUpdated": "2026-11-16", "createdDate": "2026-11-16"},
-  {"title": "Brex", "description": "Brex 面试经验分享", "href": "./brex/index.md", "articleCount": 1, "lastUpdated": "2026-11-16", "createdDate": "2026-11-16"}
+  {"title": "Brex", "description": "Brex 面试经验分享", "href": "./brex/index.md", "articleCount": 1, "lastUpdated": "2026-11-16", "createdDate": "2026-11-16"},
+  {"title": "InterSystems", "description": "InterSystems 面试经验分享", "href": "./intersystems/index.md", "articleCount": 1, "lastUpdated": "2026-11-17", "createdDate": "2026-11-17"}
 ]
 
 const totalArticles = interviewItems.reduce((sum, i) => sum + i.articleCount, 0)
