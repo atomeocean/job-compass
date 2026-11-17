@@ -1,10 +1,11 @@
 import type { AuthorInfo } from '@nolebase/vitepress-plugin-git-changelog/client'
 import { allContributors } from '../../../_data/contributors'
 import { aiContributors } from '@ao-constants/aiContributors'
+import { communityContributors } from '@ao-constants/communityContributors'
 import { LOGBOOK_AUTHOR_PAGE_BASE, logbookAuthorPageSlugs } from '@ao-constants/logbookAuthors'
 
 export type { AuthorInfo }
-export const contributorProfiles = [...allContributors, ...aiContributors]
+export const contributorProfiles = [...allContributors, ...communityContributors, ...aiContributors]
 
 export type ContributorProfile = (typeof contributorProfiles)[number]
 
