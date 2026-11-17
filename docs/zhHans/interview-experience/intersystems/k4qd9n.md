@@ -2,6 +2,8 @@
 title: QDP 离谱面经
 description: InterSystems NG Quality Development Program 技术面面试经验
 outline: deep
+createdDate: 2026-11-17
+lastUpdated: 2026-11-17
 ---
 # QDP 离谱面经
 
