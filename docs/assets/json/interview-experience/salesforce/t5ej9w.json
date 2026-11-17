@@ -3,7 +3,9 @@
   "sourceType": "repost",
   "source": {
     "site": "一亩三分地",
-    "author": "redknight", "link": "https://www.1point3acres.com/bbs/thread-1196944-1-1.html" },
+    "author": "redknight", 
+    "link": "https://www.1point3acres.com/bbs/thread-1196944-1-1.html"
+  },
   "position": {
     "jobPostUrl": null,
     "title": "Backend Software Engineer",
@@ -24,7 +26,7 @@
     "result": "rejected",
     "rounds": [
       { "roundType": "recruiter-screen", "rate": null },
-      { "roundType": "phone-screen", "rate": 2 }
+      { "roundType": "phone-screen", "rate": null }
     ]
   },
   "highlights": [],
