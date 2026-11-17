@@ -2,6 +2,8 @@
 title: 第一轮稀里糊涂拒信
 description: Salesforce Backend Software Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-11-17
+lastUpdated: 2026-11-17
 ---
 # Salesforce Backend Software Engineer 技术电面面试经验
 
