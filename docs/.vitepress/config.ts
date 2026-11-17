@@ -10,6 +10,7 @@ import {
 } from '@nolebase/vitepress-plugin-git-changelog/vite';
 import { allContributors } from "../_data/contributors";
 import { aiContributors } from "./theme/constants/aiContributors";
+import { communityContributors } from "./theme/constants/communityContributors";
 import {
   InlineLinkPreviewElementTransform
 } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
@@ -154,7 +155,7 @@ const vitePressConfig: UserConfig = {
       // 集成git记录插件
       GitChangelog({
         repoURL: () => 'https://github.com/atomeocean/job-compass',
-        mapAuthors: [...allContributors, ...aiContributors]
+        mapAuthors: [...allContributors, ...communityContributors, ...aiContributors]
       }),
       GitChangelogMarkdownSection({
         sections: {
