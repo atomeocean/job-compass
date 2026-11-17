@@ -4,6 +4,10 @@ createdDate: 2024-11-19
 outline: deep
 lastUpdated: 2025-09-04
 ---
+<script setup>
+import ImageWrapper from '@ao-components/ImageWrapper.vue'
+</script>
+
 # Mercury System, Inc.
 
 ## 公司信息

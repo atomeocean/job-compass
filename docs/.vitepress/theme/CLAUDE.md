@@ -78,7 +78,20 @@ through `@ao-` aliases, and must not use TS `enum` or import anything Vite-speci
 Global registration happens in [index.ts](index.ts) via `app.component(...)` inside
 `enhanceApp`, and is for components used across many kinds of pages. A component that serves one
 kind of page is imported in that page's `<script setup>` instead, so it stays out of the theme
-bundle: `ZhHome` / `EnHome` on the homepages, `CompanyInterviewList` on company pages.
+bundle: `ZhHome` / `EnHome` on the homepages, `CompanyInterviewList` on company pages,
+`ImageWrapper`, `VideoLinks`, `DirectoryTree`, `JobRecruiterInformation` and
+`InterviewExperienceList` on the few pages that use them. A new page that uses one of these
+needs the import too, or the tag renders as an unknown element (nothing on the page, no build
+error):
+
+```markdown
+<script setup>
+import ImageWrapper from '@ao-components/ImageWrapper.vue'
+</script>
+```
+
+`StaffingCompanyInformation`, `StaffingCompanyRecruiterTable`, `TimelineComponent` and
+`siteStatistic/SiteViewStatistic` are not registered and no page uses them.
 
 These components are wired through layout slots instead, and are not globally registered:
 

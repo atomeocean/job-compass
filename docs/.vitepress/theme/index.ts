@@ -1,25 +1,16 @@
 import DefaultTheme from 'vitepress/theme';
-import ImageWrapper from './components/ImageWrapper.vue';
 import ElementPlus from 'element-plus'
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import 'element-plus/dist/index.css'
 import './style/brand-colors.css'
-import TimelineComponent from "./components/TimelineComponent.vue";
-import StaffingCompanyInformation from "./components/StaffingCompanyInformation.vue";
-import StaffingCompanyRecruiterTable from "./components/StaffingCompanyRecruiterTable.vue";
 import StaffingCompanyTable from "./components/StaffingCompanyTable.vue";
-import DirectoryTree from "./components/DirectoryTree.vue";
 import DirectoryOverview from "./components/DirectoryOverview.vue";
-import VideoLinks from "./components/VideoLinks.vue";
 import JobPostingTable from "./components/JobPostingTable.vue";
 import DirectHireCompanyTable from "./components/DirectHireCompanyTable.vue";
-import JobRecruiterInformation from "./components/JobRecruiterInformation.vue";
 import ReferenceSource from "./components/ReferenceSource.vue";
-import SiteViewStatistic from "./components/siteStatistic/SiteViewStatistic.vue";
 import DocTitleMeta from "./components/siteStatistic/DocTitleMeta.vue";
 import Giscus from "@ao-components/Giscus";
 import InterviewDetail from "./components/InterviewDetail.vue";
-import InterviewExperienceList from "./components/InterviewExperienceList.vue";
 import { h } from 'vue';
 import {
   InjectionKey,
@@ -46,23 +37,15 @@ import { parseMissingTranslation } from "@ao-utils/translatePath";
 export default {
   ...DefaultTheme,
   enhanceApp({ app, router }) {
-    // 注册全局组件
-    app.component('ImageWrapper', ImageWrapper);
-    app.component('StaffingCompanyInformation', StaffingCompanyInformation);
-    app.component("TimelineComponent", TimelineComponent);
-    app.component("StaffingCompanyRecruiterTable", StaffingCompanyRecruiterTable);
-    app.component("DirectoryTree", DirectoryTree);
+    // 注册全局组件：只放大量页面都在用的组件。只有少数页面用的组件（ImageWrapper、VideoLinks、
+    // DirectoryTree、JobRecruiterInformation、InterviewExperienceList 等）由页面自己的 <script setup> 引入，不进主题包
     app.component("DirectoryOverview", DirectoryOverview);
-    app.component("VideoLinks", VideoLinks);
     app.component("JobPostingTable", JobPostingTable);
     app.component("DirectHireCompanyTable", DirectHireCompanyTable);
     app.component("StaffingCompanyTable", StaffingCompanyTable);
-    app.component("JobRecruiterInformation", JobRecruiterInformation);
     app.component("ReferenceSource", ReferenceSource);
-    app.component("SiteViewStatistic", SiteViewStatistic);
     app.component("DocTitleMeta", DocTitleMeta);
     app.component("InterviewDetail", InterviewDetail);
-    app.component("InterviewExperienceList", InterviewExperienceList);
     app.use(NolebaseGitChangelogPlugin);
 
     // 隐藏贡献者标题
