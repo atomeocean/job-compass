@@ -23,9 +23,12 @@
   },
   "interview": {
     "date": "",
-    "result": "other",
+    "result": "unknown",
     "rounds": [
-      { "roundType": "onsite", "rate": 3 }
+      { "roundType": "technical", "rate": null },
+      { "roundType": "coding", "rate": null },
+      { "roundType": "system-design", "rate": null },
+      { "roundType": "technical", "rate": null }
     ]
   },
   "highlights": [],
