@@ -2,6 +2,8 @@
 title: 亚麻 SDE OA
 description: Amazon Software Engineer Online Assessment面试经验
 outline: deep
+createdDate: 2026-11-18
+lastUpdated: 2026-11-18
 ---
 # Amazon Software Engineer Online Assessment面试经验
 
