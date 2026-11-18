@@ -1,9 +1,9 @@
 ---
-title: Handshake on site 面试经验
-description: Handshake Software Engineer Onsite面试经验
+title: Handshake Onsite 面试经验
+description: Handshake Software Engineer Onsite 面试经验
 outline: deep
 ---
-# Handshake Software Engineer Onsite面试经验
+# Handshake Software Engineer Onsite 面试经验
 
 <InterviewDetail />
 
@@ -22,8 +22,6 @@ Coding 是一个 web application。你可以选择不同的 code stack。这像�
 ### System design
 
 System design 就是 design 一个 job board。Employer 可以 post job，user 可以申请 job。还要支持搜索的功能。但是他们不强调由 Career Center 来 approve 这个 job，来控制这个 visibility。
-
-最后还是求点大米。
 
 <ReferenceSource
 :sources="[
