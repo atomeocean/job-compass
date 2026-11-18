@@ -91,6 +91,7 @@ export const ROUND_TYPE = {
   'behavioral': { zhHans: 'BQ', en: 'Behavioral' },
   'hiring-manager': { zhHans: 'HM 面', en: 'Hiring manager' },
   'onsite': { zhHans: 'Onsite', en: 'Onsite' },
+  'team-match': { zhHans: 'Team Match', en: 'Team match' },
   'other': { zhHans: '其他', en: 'Other' },
 } as const satisfies EnumLabels
 

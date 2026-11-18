@@ -26,7 +26,7 @@
     "result": "rejected",
     "rounds": [
       {
-        "roundType": "phone",
+        "roundType": "phone-screen",
         "rate": 3
       }
     ]

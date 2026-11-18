@@ -18,8 +18,9 @@
   },
   "interview": {
     "date": "recent",
-    "roundType": "technical phone screen",
-    "rate": 3,
-    "result": "rejected"
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "coding", "rate": 3 }
+    ]
   }
 }

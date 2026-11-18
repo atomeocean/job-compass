@@ -23,8 +23,9 @@
   },
   "interview": {
     "date": "recent",
-    "roundType": "technical phone screen",
-    "rate": 3,
-    "result": "pass"
+    "result": "pass",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": 3 }
+    ]
   }
 }

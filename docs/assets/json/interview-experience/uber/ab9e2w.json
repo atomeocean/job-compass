@@ -26,7 +26,7 @@
     "result": "unknown",
     "rounds": [
       {
-        "roundType": "OA",
+        "roundType": "oa",
         "rate": 4
       },
       {

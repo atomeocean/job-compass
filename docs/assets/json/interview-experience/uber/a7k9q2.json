@@ -20,11 +20,11 @@
     "date": "2025-01-09",
     "result": "rejected",
     "rounds": [
-      { "roundType": "phone screen", "rate": 4 },
-      { "roundType": "virtual onsite", "rate": 4 },
-      { "roundType": "virtual onsite", "rate": 4 },
-      { "roundType": "virtual onsite", "rate": 4 },
-      { "roundType": "virtual onsite", "rate": 4 }
+      { "roundType": "phone-screen", "rate": 4 },
+      { "roundType": "onsite", "rate": 4 },
+      { "roundType": "onsite", "rate": 4 },
+      { "roundType": "onsite", "rate": 4 },
+      { "roundType": "onsite", "rate": 4 }
     ]
   }
 }

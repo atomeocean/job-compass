@@ -27,7 +27,7 @@
     "rounds": [
       {
         "roundType": "onsite",
-        "rate": 0
+        "rate": null
       }
     ]
   }

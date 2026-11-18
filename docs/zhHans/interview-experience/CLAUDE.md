@@ -139,8 +139,8 @@ with an illegal value fails CI. Older files are checked only for the fields alre
 ```
 
 - `company` matches the directory name (lowercase kebab-case).
-- `rounds[]` is the current shape. A flat `interview.roundType` + `interview.rate` is a legacy
-  form still present in a few files and tolerated by the component — do not write new ones.
+- `rounds[]` is the only shape. The early flat `interview.roundType` + `interview.rate` has been
+  migrated out of every file; the component still tolerates it for now — do not write new ones.
 - `rate` is that round's **difficulty**, 1–5, or `null` when the source doesn't say (shown as
   未提及难度).
 - `yearsOfExperience` is `null` when unknown; empty `level` / `jobType` / `date` / `result:
@@ -214,7 +214,7 @@ About half of the older JSON files predate this and have drifted (`网上海投`
 `VO1`, literal `"string"` placeholders, a capitalised `company`). **Do not copy a neighbour's
 values.** They are being migrated one field per PR; a migrated field is listed in
 `MIGRATED_FIELDS` in [validate_interview_json.ts](../../../scripts/validate_interview_json.ts),
-and CI checks it in every file, so it cannot drift back. Migrated so far: `candidate.education`, `company`, `position.jobType`, `applicationSource.channel`, `position.level`, `interview.result`.
+and CI checks it in every file, so it cannot drift back. Migrated so far: `candidate.education`, `company`, `position.jobType`, `applicationSource.channel`, `position.level`, `interview.result`, `interview.rounds`.
 Until the rest are done, [interviewFormat.ts](../../.vitepress/theme/utils/interviewFormat.ts)
 still maps the legacy spellings to the right label.
 `npm run validate:interview -- --all` lists every file that still needs fixing.

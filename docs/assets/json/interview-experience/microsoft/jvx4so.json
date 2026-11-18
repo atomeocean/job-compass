@@ -20,10 +20,10 @@
     "date": "2025-12-13",
     "result": "unknown",
     "rounds": [
-      { "roundType": "techinical", "rate": 3 },
-      { "roundType": "techinical", "rate": 3 },
-      { "roundType": "techinical", "rate": 3 },
-      { "roundType": "hm", "rate": 2 }
+      { "roundType": "technical", "rate": 3 },
+      { "roundType": "technical", "rate": 3 },
+      { "roundType": "technical", "rate": 3 },
+      { "roundType": "hiring-manager", "rate": 2 }
     ]
   }
 }

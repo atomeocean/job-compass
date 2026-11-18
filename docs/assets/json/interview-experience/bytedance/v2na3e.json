@@ -25,8 +25,8 @@
     "date": "2026-05",
     "result": "rejected",
     "rounds": [
-      { "roundType": "virtual onsite", "rate": 4 },
-      { "roundType": "virtual onsite", "rate": 2 }
+      { "roundType": "onsite", "rate": 4 },
+      { "roundType": "onsite", "rate": 2 }
     ]
   }
 }
