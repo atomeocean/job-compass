@@ -18,7 +18,7 @@
     },
     "interview": {
         "date": "2025年",
-        "result": "未通过",
+        "result": "rejected",
         "rounds": [
             {
                 "roundType": "phone-screen",

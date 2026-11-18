@@ -23,7 +23,8 @@
   },
   "interview": {
     "date": "2026-08-31",
-    "result": "未通过 SDE2",
+    "result": "offer",
+    "resultNote": "未通过 SDE2，获得 SDE1 Offer",
     "rounds": [
       {
         "roundType": "oa",

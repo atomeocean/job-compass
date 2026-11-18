@@ -23,7 +23,7 @@
     },
     "interview": {
       "date": "2026-04-01",
-      "result": "Pass",
+      "result": "pass",
       "rounds": [
         {
           "roundType": "recruiter-screen",

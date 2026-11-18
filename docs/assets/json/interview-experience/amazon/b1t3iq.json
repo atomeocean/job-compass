@@ -23,7 +23,7 @@
   },
   "interview": {
     "date": "",
-    "result": "reject",
+    "result": "rejected",
     "rounds": [
       {
         "roundType": "phone",

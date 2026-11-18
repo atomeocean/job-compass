@@ -23,7 +23,7 @@
   },
   "interview": {
     "date": "",
-    "result": "positive",
+    "result": "pass",
     "rounds": [
       {
         "roundType": "technical",
