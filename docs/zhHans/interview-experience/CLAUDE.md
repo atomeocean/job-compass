@@ -214,7 +214,7 @@ About half of the older JSON files predate this and have drifted (`网上海投`
 `VO1`, literal `"string"` placeholders, a capitalised `company`). **Do not copy a neighbour's
 values.** They are being migrated one field per PR; a migrated field is listed in
 `MIGRATED_FIELDS` in [validate_interview_json.ts](../../../scripts/validate_interview_json.ts),
-and CI checks it in every file, so it cannot drift back. Migrated so far: `candidate.education`, `company`, `position.jobType`, `applicationSource.channel`, `position.level`, `interview.result`, `interview.rounds`.
+and CI checks it in every file, so it cannot drift back. Migrated so far: `candidate.education`, `company`, `position.jobType`, `applicationSource.channel`, `position.level`, `interview.result`, `interview.rounds`, `interview.date`, `position.jobPostUrl`, `candidate.yearsOfExperience`, `applicationSource.referralDetails`.
 Until the rest are done, [interviewFormat.ts](../../.vitepress/theme/utils/interviewFormat.ts)
 still maps the legacy spellings to the right label.
 `npm run validate:interview -- --all` lists every file that still needs fixing.
