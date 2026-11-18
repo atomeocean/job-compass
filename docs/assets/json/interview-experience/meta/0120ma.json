@@ -2,7 +2,7 @@
   "company": "meta",
   "sourceType": "unknown",
   "position": {
-    "jobPostUrl": "",
+    "jobPostUrl": null,
     "title": "E4 Software Engineer（Infra） ",
     "level": "new-grad",
     "jobType": ""
@@ -17,7 +17,7 @@
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "recent",
+    "date": "",
     "result": "rejected",
     "rounds": [
       { "roundType": "coding", "rate": 3 }

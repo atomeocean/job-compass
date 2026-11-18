@@ -19,10 +19,10 @@
   "candidate": {
     "education": "master",
     "background": "在职跳槽",
-    "yearsOfExperience": ""
+    "yearsOfExperience": null
   },
   "interview": {
-    "date": "2026年4-6月",
+    "date": "2026",
     "result": "rejected",
     "rounds": [
       {

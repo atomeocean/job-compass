@@ -22,7 +22,7 @@
     "yearsOfExperience": 0
   },
   "interview": {
-    "date": "recent",
+    "date": "",
     "result": "pass",
     "rounds": [
       { "roundType": "phone-screen", "rate": 3 }
