@@ -27,7 +27,7 @@
     "rounds": [
       {
         "roundType": "phone-screen",
-        "rate": 0
+        "rate": null
       }
     ]
   }

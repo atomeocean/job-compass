@@ -26,7 +26,7 @@
     "result": "offer",
     "rounds": [
       { "roundType": "technical", "rate": 3 },
-	  { "roundType": "hm", "rate": 4 }
+	  { "roundType": "hiring-manager", "rate": 4 }
     ]
   }
 }

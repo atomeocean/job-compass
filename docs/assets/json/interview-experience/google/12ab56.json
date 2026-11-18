@@ -23,8 +23,9 @@
   },
   "interview": {
     "date": "2025-01-15",
-    "roundType": "onsite",
-    "rate": 2,
-    "result": "pass"
+    "result": "pass",
+    "rounds": [
+      { "roundType": "onsite", "rate": 2 }
+    ]
   }
 }

@@ -28,7 +28,7 @@
       { "roundType": "oa", "rate": 3 },
       { "roundType": "coding", "rate": 4 },
       { "roundType": "system-design", "rate": 3},
-      { "roundType": "data-modeling", "rate": 4 },
+      { "roundType": "other", "rate": 4 },
       { "roundType": "behavioral", "rate": 2 }
     ]
   }

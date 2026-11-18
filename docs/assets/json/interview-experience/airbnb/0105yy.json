@@ -22,11 +22,11 @@
         "resultNote": "进入 Team Match",
         "rounds": [
             {
-                "roundType": "VO1",
+                "roundType": "coding",
                 "rate": 5
             },
             {
-                "roundType": "VO2",
+                "roundType": "coding",
                 "rate": 5
             }
         ]
