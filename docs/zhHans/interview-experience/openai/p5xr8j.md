@@ -3,7 +3,7 @@ title: Open AI 店面
 description: OpenAI Software Engineer 技术电面面试经验
 outline: deep
 ---
-# OpenAI Software Engineer 技术电面面试经验
+# Open AI 店面
 
 <InterviewDetail />
 
