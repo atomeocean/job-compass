@@ -33,6 +33,7 @@ const result = computed(() => formatResult(props.data.interview?.result))
 const facts = computed(() => {
   const { position, applicationSource, candidate, interview } = props.data
   return [
+    { label: '结果说明', value: cleanValue(interview?.resultNote) },
     { label: '级别', value: formatLevel(position?.level) },
     { label: '岗位类型', value: formatJobType(position?.jobType) },
     { label: '面试日期', value: cleanValue(interview?.date) },

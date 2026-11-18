@@ -23,7 +23,7 @@
   },
   "interview": {
     "date": "",
-    "result": "未知",
+    "result": "unknown",
     "rounds": [
       {
         "roundType": "OA",

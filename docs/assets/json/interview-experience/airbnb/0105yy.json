@@ -18,7 +18,8 @@
     },
     "interview": {
         "date": "2025",
-        "result": "通过 → Team Match",
+        "result": "pass",
+        "resultNote": "进入 Team Match",
         "rounds": [
             {
                 "roundType": "VO1",

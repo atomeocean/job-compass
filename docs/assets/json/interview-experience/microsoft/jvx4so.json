@@ -18,6 +18,7 @@
   },
   "interview": {
     "date": "2025-12-13",
+    "result": "unknown",
     "rounds": [
       { "roundType": "techinical", "rate": 3 },
       { "roundType": "techinical", "rate": 3 },
