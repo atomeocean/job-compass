@@ -25,7 +25,7 @@
     "date": "2026-11-18",
     "result": "unknown",
     "rounds": [
-      { "roundType": "oa", "rate": 3 }
+      { "roundType": "oa", "rate": null }
     ]
   },
   "highlights": [],
