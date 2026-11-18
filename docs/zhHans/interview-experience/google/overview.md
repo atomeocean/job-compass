@@ -1,10 +1,18 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-11-02
+lastUpdated: 2026-11-18
 ---
+
 <script setup>
 const overviewItems = [
+  {
+    "title": "27 Summer PhD SDE Intern 电面",
+    "description": "Google PhD SDE Intern 技术电面面试经验",
+    "href": "./q8m3tz.md",
+    "order": 0,
+    "kind": "article"
+  },
   {
     "title": "Google L4 四轮全套面经",
     "description": "Google L4 AI/ML四轮全套面经",
@@ -97,6 +105,13 @@ const overviewItems = [
     "kind": "article"
   },
   {
+    "title": "Senior FDE 新鲜面经",
+    "description": "Google Senior Forward Deployed Engineer Fast Track面试经验",
+    "href": "./k7fq2m.md",
+    "order": 0,
+    "kind": "article"
+  },
+  {
     "title": "Software Engineer L4 Onsite",
     "description": "Google L4 Software Engineer Onsite面试经验",
     "href": "./b23s2d.md",
@@ -128,6 +143,13 @@ const overviewItems = [
     "title": "tech phone interview",
     "description": "Google技术电面面试经验",
     "href": "./a6t3yz.md",
+    "order": 0,
+    "kind": "article"
+  },
+  {
+    "title": "极度无语的一次谷歌面试体验",
+    "description": "Google Software Engineer Onsite 面试经验",
+    "href": "./abe2rx.md",
     "order": 0,
     "kind": "article"
   }
