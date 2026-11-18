@@ -10,10 +10,10 @@
     "jobPostUrl": "string",
     "title": "Software Engineer",
     "level": "new-grad",
-    "jobType": "string"
+    "jobType": ""
   },
   "applicationSource": {
-    "channel": "string",
+    "channel": "",
     "referralDetails": "string"
   },
   "candidate": {

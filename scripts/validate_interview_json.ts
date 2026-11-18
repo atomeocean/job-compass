@@ -20,10 +20,10 @@ const JSON_ROOT = resolve(ROOT, 'docs/assets/json/interview-experience')
 const FOLDED_DIR = 'folded-entry'
 
 /**
- * 旧文件已经迁移成规范值的字段。CI 用 --all --migrated 对所有文件检查这些字段，防止改回去。
+ * 旧文件已经迁移成规范值的字段。CI 用 --all --migrated 对所有文件检查这些字段，防止改回去
  * 每迁移完一个字段就在这里加一行；全部迁移完后 CI 直接校验所有改动的文件，这个列表可以删掉。
  */
-const MIGRATED_FIELDS = ['candidate.education']
+const MIGRATED_FIELDS = ['candidate.education', 'company', 'position.jobType', 'applicationSource.channel']
 
 /** 相对 JSON_ROOT 的路径片段；不在面经 JSON 目录下返回 null */
 const interviewPathParts = (file: string): string[] | null => {
@@ -49,8 +49,7 @@ const validate = (file: string, parts: string[], onlyMigrated: boolean): string[
   const result = InterviewSchema.safeParse(data)
   const issues = result.success ? [] : result.error.issues.filter((issue) => !onlyMigrated || isMigratedField(issue))
   const problems = issues.length > 0 ? z.prettifyError(new z.ZodError(issues)).split('\n') : []
-  if (onlyMigrated) return problems
-  // schema 看不到文件路径，目录名单独核对
+  // schema 看不到文件路径，目录名单独核对；company 已迁移，--migrated 时也核对
   const company = (data as { company?: unknown } | null)?.company
   if (parts.length < 2) {
     problems.push('✖ 面经 JSON 要放在公司目录下：interview-experience/<company>/<slug>.json')
