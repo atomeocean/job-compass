@@ -2,6 +2,7 @@
 title: Bloomberg
 description: Bloomberg 面试经验分享
 createdDate: 2025-12-07
+lastUpdated: 2026-11-18
 ---
 <script setup>
 import CompanyInterviewList from '@ao-components/interview/CompanyInterviewList.vue'
