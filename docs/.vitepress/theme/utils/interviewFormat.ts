@@ -11,6 +11,7 @@ import {
   EDUCATION,
   JOB_TYPE,
   LEVEL,
+  LEVEL_LADDER_PATTERN,
   RESULT,
   ROUND_TYPE,
   type EnumLabels,
@@ -42,10 +43,10 @@ const lookup = (labels: Record<string, string>, value?: string | null): string =
 
 const LEVEL_LABELS = zhLabels(LEVEL)
 
-/** 级别；公司职级（l4、L5）统一大写 */
+/** 级别；公司职级（l4、sde2）统一大写 */
 export const formatLevel = (level?: string): string => {
   const text = cleanValue(level)
-  if (/^l\d+$/i.test(text)) return text.toUpperCase()
+  if (LEVEL_LADDER_PATTERN.test(text.toLowerCase())) return text.toUpperCase()
   return lookup(LEVEL_LABELS, text)
 }
 

@@ -23,7 +23,7 @@ const FOLDED_DIR = 'folded-entry'
  * 旧文件已经迁移成规范值的字段。CI 用 --all --migrated 对所有文件检查这些字段，防止改回去。
  * 每迁移完一个字段就在这里加一行；全部迁移完后 CI 直接校验所有改动的文件，这个列表可以删掉。
  */
-const MIGRATED_FIELDS = ['candidate.education', 'company', 'position.jobType', 'applicationSource.channel']
+const MIGRATED_FIELDS = ['candidate.education', 'company', 'position.jobType', 'applicationSource.channel', 'position.level']
 
 /** 相对 JSON_ROOT 的路径片段；不在面经 JSON 目录下返回 null */
 const interviewPathParts = (file: string): string[] | null => {
