@@ -1,9 +1,9 @@
 ---
 title: SRE intern面经
-description: TikTok Intern SRE 技术电面面试经验
+description: TikTok Intern SRE 面试经验
 outline: deep
 ---
-# TikTok Intern SRE 技术电面面试经验
+# TikTok Intern SRE 面试经验
 
 <InterviewDetail />
 
