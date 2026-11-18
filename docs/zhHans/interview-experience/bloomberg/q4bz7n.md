@@ -2,6 +2,8 @@
 title: 店面+VO
 description: Bloomberg Software Engineer 电面+VO面试经验
 outline: deep
+createdDate: 2026-11-18
+lastUpdated: 2026-11-18
 ---
 # Bloomberg Software Engineer 电面+VO面试经验
 
