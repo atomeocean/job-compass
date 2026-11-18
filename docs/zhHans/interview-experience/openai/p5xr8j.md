@@ -2,6 +2,8 @@
 title: Open AI 店面
 description: OpenAI Software Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-11-18
+lastUpdated: 2026-11-18
 ---
 # OpenAI Software Engineer 技术电面面试经验
 
