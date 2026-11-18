@@ -1,5 +1,5 @@
 ---
-title: 店面+VO
+title: 电面+VO
 description: Bloomberg Software Engineer 电面+VO面试经验
 outline: deep
 ---
@@ -26,7 +26,7 @@ VO每轮两个面试官
 <ReferenceSource
 :sources="[
 {
-title: '<原帖标题>',
+title: '开花堡三轮面筋',
 link: 'https://www.1point3acres.com/bbs/thread-1197498-1-1.html',
 site: '一亩三分地',
 author: '匿名用户-KRWTD',

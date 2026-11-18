@@ -23,7 +23,7 @@
   },
   "interview": {
     "date": "",
-    "result": "other",
+    "result": "unknown",
     "rounds": [
       { "roundType": "phone-screen", "rate": 3 },
       { "roundType": "onsite", "rate": 3 }
