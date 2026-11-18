@@ -1,5 +1,5 @@
 ---
-title: 亚麻 sde OA
+title: 亚麻 SDE OA
 description: Amazon Software Engineer Online Assessment面试经验
 outline: deep
 ---
@@ -11,7 +11,7 @@ outline: deep
 
 今天刚做的。
 
-### 第一题
+### 第一题：Coding
 
 Q1 是 build delivery center find inconvenience distance (地里有详细的题)
 
