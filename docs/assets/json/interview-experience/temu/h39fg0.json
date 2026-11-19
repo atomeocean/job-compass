@@ -1,0 +1,36 @@
+{
+  "company": "temu",
+  "position": {
+    "jobPostUrl": null,
+    "title": "SDE",
+    "level": "experienced",
+    "jobType": "full-time"
+  },
+  "applicationSource": {
+    "channel": "direct-apply",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "硕士",
+    "background": "此前从事 C# 相关开发工作，离职后由 Temu HR 主动联系推荐该岗位",
+    "yearsOfExperience": 0
+  },
+  "interview": {
+    "date": "",
+    "result": "accepted",
+    "rounds": [
+      {
+        "roundType": "technical",
+        "rate": 2
+      },
+      {
+        "roundType": "hiring-manager",
+        "rate": 4
+      },
+      {
+        "roundType": "final-round",
+        "rate": 2
+      }
+    ]
+  }
+}
