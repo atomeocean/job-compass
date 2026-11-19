@@ -1,7 +1,3 @@
----
-createdDate: 2026-09-02
-lastUpdated: 2026-09-10
----
 # CLAUDE.md — job-postings
 
 Job posting pages. Each posting is a **thin Markdown page + a sibling JSON file**; all

@@ -1,7 +1,3 @@
----
-createdDate: 2026-09-02
-lastUpdated: 2026-10-09
----
 # CLAUDE.md — scripts
 
 Python helper scripts, plus one TypeScript exception (`validate_interview_json.ts`, below).
@@ -61,7 +57,8 @@ Local / manual:
 
 - `sync_git_created_date.py`, `sync_git_last_updated.py` — backfill frontmatter dates across
   all of `docs/` from git history (rename-aware). The `git-actions/` pair is the incremental
-  per-PR version; these are the full sweep.
+  per-PR version; these are the full sweep. All four skip `CLAUDE.md` / `AGENTS.md`
+  (`SKIP_NAMES`), and `update-frontmatter.yml` ignores PRs that only touch those files.
 - `convert_html_to_markdown.py` — one-off HTML → Markdown conversion via BeautifulSoup.
 - `notify_direct_hire_company_subscribers.py` — reads subscriber email + filename out of
   Markdown frontmatter.

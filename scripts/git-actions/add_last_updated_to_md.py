@@ -1,5 +1,9 @@
 import subprocess
 import re
+import os
+
+# 给 agent 读的说明文件，不是站点页面，不加 createdDate / lastUpdated
+SKIP_NAMES = {"CLAUDE.md", "AGENTS.md"}
 
 def get_modified_md_files():
     """
@@ -12,7 +16,7 @@ def get_modified_md_files():
     )
     print(f"git diff 输出:\n{result.stdout}")
     files = result.stdout.strip().split("\n") if result.stdout.strip() else []
-    md_files = [f for f in files if f.endswith(".md")]
+    md_files = [f for f in files if f.endswith(".md") and os.path.basename(f) not in SKIP_NAMES]
     print(f"筛选出的新增/修改 md 文件: {md_files}")
     return md_files
 

@@ -1,6 +1,3 @@
----
-lastUpdated: 2026-09-10
----
 # AGENTS.md
 
 Project guidance for every coding agent working in this repository (Claude Code, Codex, Gemini
@@ -81,6 +78,8 @@ read it yourself before adding or editing files there:
 - **Don't hand-maintain `createdDate` / `lastUpdated`** in Markdown frontmatter on new pages —
   the `update-frontmatter` workflow injects them on every PR. (JSON files' own
   `metadata.lastUpdated` *is* hand-maintained; that's a different field.)
+- **`CLAUDE.md` / `AGENTS.md` have no frontmatter at all** — they aren't site pages, and the
+  date scripts skip them.
 - Reuse existing components and utilities before creating new ones.
 - Keep edits scoped to the request; preserve unrelated changes in the worktree.
 - Don't add dependencies unless the existing stack can't reasonably solve the problem.
