@@ -1,7 +1,3 @@
----
-createdDate: 2026-09-02
-lastUpdated: 2026-11-18
----
 # CLAUDE.md — interview-experience
 
 面经 pages. Every page is a **pair of files in two different trees**: the article here, and a

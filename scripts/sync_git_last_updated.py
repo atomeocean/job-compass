@@ -20,6 +20,9 @@ PROJECT_ROOT = Path(__file__).resolve().parents[PROJECT_ROOT_DEPTH]
 # docs目录路径
 DOCS_DIR_PATH = PROJECT_ROOT / "docs"
 
+# 给 agent 读的说明文件，不是站点页面，不加 createdDate / lastUpdated
+SKIP_NAMES = {"CLAUDE.md", "AGENTS.md"}
+
 
 def get_file_last_updated_date(file_path):
     """
@@ -73,7 +76,7 @@ def walk_docs(dir_path):
     """遍历/docs目录下所有 Markdown 文件，更新 frontmatter"""
     for root, _, files in os.walk(dir_path):
         for file in files:
-            if file.endswith(".md"):
+            if file.endswith(".md") and file not in SKIP_NAMES:
                 file_path = os.path.join(root, file)
                 last_updated = get_file_last_updated_date(file_path)
                 if last_updated:

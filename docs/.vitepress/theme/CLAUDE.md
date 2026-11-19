@@ -1,7 +1,3 @@
----
-createdDate: 2026-09-02
-lastUpdated: 2026-11-17
----
 # CLAUDE.md — VitePress theme
 
 Custom theme code: Vue 3 + `<script setup lang="ts">`, Element Plus, and a handful of
