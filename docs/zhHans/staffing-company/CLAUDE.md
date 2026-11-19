@@ -1,7 +1,3 @@
----
-createdDate: 2026-09-02
-lastUpdated: 2026-11-17
----
 # CLAUDE.md — staffing-company
 
 外包公司 / ICC pages. Unlike `direct-hire-company/`, this directory is **flat** and all JSON

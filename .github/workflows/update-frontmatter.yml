@@ -6,6 +6,9 @@ on:
     types: [opened, synchronize, reopened]
     paths:
       - 'docs/**'
+      # CLAUDE.md / AGENTS.md 不加日期，只改它们的 PR 不触发；混在一起的由脚本跳过
+      - '!docs/**/CLAUDE.md'
+      - '!docs/**/AGENTS.md'
 
 jobs:
   update-frontmatter:

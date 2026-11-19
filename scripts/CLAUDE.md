@@ -1,7 +1,3 @@
----
-createdDate: 2026-09-02
-lastUpdated: 2026-10-09
----
 # CLAUDE.md — scripts
 
 Python helper scripts, plus one TypeScript exception (`validate_interview_json.ts`, below).
@@ -61,13 +57,18 @@ Local / manual:
 
 - `sync_git_created_date.py`, `sync_git_last_updated.py` — backfill frontmatter dates across
   all of `docs/` from git history (rename-aware). The `git-actions/` pair is the incremental
-  per-PR version; these are the full sweep.
+  per-PR version; these are the full sweep. All four skip `CLAUDE.md` / `AGENTS.md`
+  (`SKIP_NAMES`), and `update-frontmatter.yml` ignores PRs that only touch those files.
 - `convert_html_to_markdown.py` — one-off HTML → Markdown conversion via BeautifulSoup.
 - `notify_direct_hire_company_subscribers.py` — reads subscriber email + filename out of
   Markdown frontmatter.
 - `check_verbatim.py` — the `organize-interview-exp` skill's self-check: lists 面经 body lines
   that don't appear verbatim in the pasted source. Standard library only, so it needs no
   `PYTHONPATH`.
+- `pr_review_prep.py <PR>` — the `/review` command's first step: one digest of the PR
+  (metadata, CI, existing comments, 面经 pairing / `sourceType` / source / promo-keyword checks,
+  diff with new-file line numbers). Reads the PR branch via `git fetch origin pull/<N>/head`
+  without checking it out, never fetches the source link. Standard library only, no `PYTHONPATH`.
 - `claude_hooks/` — run by the Claude Code hooks in `.claude/settings.json` on every
   contributor's machine, via `"$CLAUDE_PROJECT_DIR"/scripts/claude_hooks/<name>.py`.
   Standard library only, imports are sibling-relative, so no `PYTHONPATH`. Never put a
