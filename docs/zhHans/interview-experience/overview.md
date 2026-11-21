@@ -1,8 +1,9 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-11-18
+lastUpdated: 2026-11-21
 ---
+
 <script setup>
 const overviewItems = [
   {
@@ -49,7 +50,7 @@ const overviewItems = [
   },
   {
     "title": "Bloomberg",
-    "description": "该文件主要介绍 Bloomberg 的相关内容。",
+    "description": "Bloomberg 面试经验分享",
     "href": "./bloomberg/index.md",
     "order": 0,
     "kind": "folder"
@@ -149,6 +150,13 @@ const overviewItems = [
     "title": "Google",
     "description": "Google 面试经验分享",
     "href": "./google/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Handshake",
+    "description": "Handshake 面试经验分享",
+    "href": "./handshake/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -366,6 +374,13 @@ const overviewItems = [
     "title": "Workday",
     "description": "Workday 面试经验分享",
     "href": "./workday/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Yahoo",
+    "description": "Yahoo 面试经验分享",
+    "href": "./yahoo/index.md",
     "order": 0,
     "kind": "folder"
   },
