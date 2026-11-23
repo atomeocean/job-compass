@@ -13,7 +13,7 @@
     "jobType": "full-time"
   },
   "interview": {
-    "date": 2026-11,
+    "date": "2026-11",
     "result": "rejected",
     "rounds": [
       { "roundType": "phone-screen", "rate": null },
