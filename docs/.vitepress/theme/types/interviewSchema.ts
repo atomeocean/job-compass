@@ -12,6 +12,7 @@
 import { z } from 'zod'
 import {
   CHANNEL,
+  COMMENT_ROLE,
   EDUCATION,
   JOB_TYPE,
   LEVEL,
@@ -63,6 +64,21 @@ const TimelineEventSchema = z.strictObject({
   note: z.string().optional(),
 })
 
+const CommentSchema = z.strictObject({
+  /** 楼层号，从 1 开始，按原帖顺序递增；replyTo 用它指向被回复的那条 */
+  id: z.int().min(1),
+  role: codes(COMMENT_ROLE),
+  /** 'YYYY-MM-DD HH:mm' 或更粗的精度；原帖没显示时间时为 null */
+  date: z
+    .string()
+    .regex(/^\d{4}(-\d{2}(-\d{2}( \d{2}:\d{2})?)?)?$/, '日期写成 YYYY-MM-DD HH:mm、YYYY-MM-DD 等，原帖没显示填 null')
+    .nullable(),
+  /** 回复的是哪一楼 */
+  replyTo: z.int().min(1).optional(),
+  /** 评论原文；只抓到引用、没抓到回复正文时为 null，页面显示占位 */
+  content: z.string().min(1).nullable(),
+})
+
 export const InterviewSchema = z
   .strictObject({
     /** 和所在目录名一致（小写 kebab-case）；是否一致由校验脚本核对 */
@@ -103,6 +119,8 @@ export const InterviewSchema = z
     }),
     highlights: z.array(HighlightSchema).optional(),
     timeline: z.array(TimelineEventSchema).optional(),
+    /** 原帖评论区，按原帖顺序全部收录 */
+    comments: z.array(CommentSchema).optional(),
   })
   .superRefine((data, ctx) => {
     if (data.sourceType === 'repost' && !z.url().safeParse(data.source?.link).success) {
@@ -124,6 +142,20 @@ export const InterviewSchema = z
         }
       })
     })
+    const seen = new Set<number>()
+    data.comments?.forEach((comment, i) => {
+      if (seen.has(comment.id)) {
+        ctx.addIssue({ code: 'custom', path: ['comments', i, 'id'], message: `楼层号 ${comment.id} 重复` })
+      }
+      if (comment.replyTo !== undefined && !seen.has(comment.replyTo)) {
+        ctx.addIssue({
+          code: 'custom',
+          path: ['comments', i, 'replyTo'],
+          message: `replyTo 必须指向前面已有的楼层，找不到第 ${comment.replyTo} 楼`,
+        })
+      }
+      seen.add(comment.id)
+    })
   })
 
 /** 规范的面经 JSON，新写入的文件都符合这个类型 */
@@ -131,6 +163,7 @@ export type InterviewJson = z.infer<typeof InterviewSchema>
 export type InterviewRound = z.infer<typeof RoundSchema>
 export type InterviewHighlight = z.infer<typeof HighlightSchema>
 export type InterviewTimelineEvent = z.infer<typeof TimelineEventSchema>
+export type InterviewComment = z.infer<typeof CommentSchema>
 export type InterviewSource = NonNullable<InterviewJson['source']>
 export type InterviewSourceType = InterviewJson['sourceType']
 export type InterviewTimelineType = NonNullable<InterviewTimelineEvent['type']>

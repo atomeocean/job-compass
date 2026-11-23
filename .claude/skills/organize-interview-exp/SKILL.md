@@ -6,7 +6,8 @@ lastUpdated: 2026-10-13
 ---
 # Organize a pasted 面经 verbatim
 
-The user pastes three things: the post's **link**, its **author**, and the **full post text**.
+The user pastes three things: the post's **link**, its **author**, and the **full post text** —
+plus, optionally, the post's **comments**.
 Produce one file pair:
 
 1. `docs/zhHans/interview-experience/<company>/<slug>.md`
@@ -23,6 +24,8 @@ read it before writing.
 - **No full text pasted** → ask for it and end the turn. The pasted text is the only source;
   do not fetch the link to fill it in.
 - **No link or no author** → ask; both go into `<ReferenceSource>`.
+- **No comments pasted** → not a gate: write `"comments": []` and mention it in the report.
+  Don't fetch the link for them.
 - **Company or role not determinable from the text** → ask.
 - **Source breaks a community rule**:
   [no-ai-content](../../../docs/zhHans/guide/rules/no-ai-content.md),
@@ -187,7 +190,11 @@ values.
     "rounds": [{ "roundType": "phone-screen", "rate": 3 }]
   },
   "highlights": [],
-  "timeline": []
+  "timeline": [],
+  "comments": [
+    { "id": 1, "role": "user", "date": "2026-11-13 08:02", "content": "<comment text, verbatim>" },
+    { "id": 2, "role": "author", "date": "2026-11-13 08:03", "replyTo": 1, "content": null }
+  ]
 }
 ```
 
@@ -206,11 +213,25 @@ values.
 - Unstated fields: `""` for strings, `null` for `jobPostUrl` and `yearsOfExperience`,
   `"unknown"` for `result`. Never `"na"` or `"string"`.
 - `interview.date` is the interview date; the post date belongs in `<ReferenceSource>`.
+- `comments` is the **whole** pasted comment thread, in order — not a selection. The verbatim
+  rule applies to each `content` (platform-injected text may be removed, as in the body).
+  - `id` numbers them 1, 2, 3…; `role` is `author` (the original poster) or `user`.
+    **Never write a username** — not in `role`, not left inside `content` (drop a leading
+    `@name` / 「回复 xxx：」; `replyTo` carries that).
+  - `replyTo` is the `id` of the comment it answers, when the paste shows one.
+  - `content` is the comment's own words, without the quote it replies to. When only the quote
+    was captured, `content` is `null`; keep the comment anyway.
+  - `date` is `YYYY-MM-DD HH:mm` (or coarser) as pasted, else `null`.
+  - A fact from a comment readers need (location, team, final result) also goes into the
+    Markdown as a `## 面试详情` bullet or a 「评论区补充：」 line, or into its JSON field. That
+    line copies the comment's words, so `check_verbatim.py` needs the comments in the source
+    file too (step 2).
 
 ## Steps
 
 1. **Branch**: if on `main`, create a branch; otherwise stay on the current one.
-2. **Save the source**: write the pasted post, unchanged, to `source.txt` in the scratchpad.
+2. **Save the source**: write the pasted post, unchanged, to `source.txt` in the scratchpad,
+   with the pasted comments appended after it.
    For an English post, also write the literal translation to `source_zh.txt`. The Chinese
    file is the source from here on.
 3. **Pick the folder**: `<company>` is lowercase kebab-case. If the company folder has
@@ -232,7 +253,8 @@ values.
      source wording and rerun.
    - `grep -c '^---$' <md path>` prints `2`.
    - The md and json paths match below `interview-experience/`.
-8. **Report**: the two file paths, fields left empty or `rate: null`, each detail left out of a
+8. **Report**: the two file paths, how many comments went into `comments` (and which have
+   `content: null`, or that none were pasted), fields left empty or `rate: null`, each detail left out of a
    fixed-value field (field, code written, the author's exact words) for a human to place, platform text removed,
    author-written filler flagged, whether the race / nationality disclaimer was added (and the
    phrases that triggered it), whether the post was translated from English, and the check
