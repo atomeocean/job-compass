@@ -189,7 +189,8 @@ result. What was asked *inside* an interview stays in the Markdown.
 
 ### `comments` — the source post's comment thread
 
-The 原帖评论 section after the article, above 求职时间线. For a `repost`, it keeps **every**
+The 原帖评论 section after the article, above 求职时间线. Written by the
+`interview-comments` skill. For a `repost`, it keeps **every**
 comment under the source post, in the source's order: questions, the author's replies,
 off-topic remarks, all of it. It is not curated. Page readers' own discussion is Giscus, at
 the very bottom; never copy those in here.

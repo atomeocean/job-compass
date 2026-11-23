@@ -120,6 +120,6 @@ read it yourself before adding or editing files there:
 
 `.claude/skills/` (also reachable as `.agents/skills/`, a symlink to it) holds the
 content-authoring workflows: `find-docs` (where does this belong),
-`idea-to-article`, `web-source-to-article`, `web-source-to-interview`, `translate-to-en`,
+`idea-to-article`, `web-source-to-article`, `web-source-to-interview`, `interview-comments`, `translate-to-en`,
 `gen-description`, `related-articles-frontmatter`. Prefer them over improvising when the task
 matches.
