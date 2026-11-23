@@ -1,5 +1,5 @@
 {
-  "company": "Rippling",
+  "company": "rippling",
   "sourceType": "repost",
   "source": {
     "site": "一亩三分地",
@@ -9,11 +9,15 @@
   "position": {
     "jobPostUrl": null,
     "title": "Software Engineer",
-    "level": "Senior",
+    "level": "senior",
     "jobType": "full-time"
   },
   "interview": {
-    "date": null,
-    "result": "rejected"
+    "date": "2026/11",
+    "result": "rejected",
+    "rounds": [
+      { "roundType": "phone-screen", "rate": null },
+      { "roundType": "onsite", "rate": null }
+    ]
   }
 }
