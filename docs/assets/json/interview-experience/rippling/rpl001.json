@@ -12,12 +12,23 @@
     "level": "senior",
     "jobType": "full-time"
   },
+  "applicationSource": {
+    "channel": null,
+    "referralDetails": null
+  },
+  "candidate": {
+    "education": null,
+    "background": null,
+    "yearsOfExperience": null
+  },
   "interview": {
-    "date": "2026-11",
+    "date": "2026/11",
     "result": "rejected",
     "rounds": [
       { "roundType": "phone-screen", "rate": null },
       { "roundType": "onsite", "rate": null }
     ]
-  }
+  },
+  "highlights": [],
+  "timeline": []
 }
