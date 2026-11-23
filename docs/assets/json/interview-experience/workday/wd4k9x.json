@@ -29,5 +29,46 @@
     ]
   },
   "highlights": [],
-  "timeline": []
+  "timeline": [],
+  "comments": [
+    {
+      "id": 1,
+      "role": "user",
+      "date": "2026-11-13 08:02",
+      "content": "那八个失败的 unit test 是前后端都有吗"
+    },
+    {
+      "id": 2,
+      "role": "author",
+      "date": "2026-11-13 08:03",
+      "replyTo": 1,
+      "content": "全部都是后端api的"
+    },
+    {
+      "id": 3,
+      "role": "user",
+      "date": "2026-11-16 09:42",
+      "content": "这算是 OA 还是 VO 呢，楼主后续如何"
+    },
+    {
+      "id": 4,
+      "role": "author",
+      "date": "2026-11-16 17:00",
+      "replyTo": 3,
+      "content": "算screening吧，后续约了这周的三轮loop vo"
+    },
+    {
+      "id": 5,
+      "role": "user",
+      "date": "2026-11-16 17:00",
+      "content": "是面的加拿大吗，是 Agent Factory 还是其他组"
+    },
+    {
+      "id": 6,
+      "role": "author",
+      "date": "2026-11-16 17:02",
+      "replyTo": 5,
+      "content": "温哥华的，是给 Agent Factory 提供支持的一个组，还请大家有用的话给加点米"
+    }
+  ]
 }

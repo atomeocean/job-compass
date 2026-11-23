@@ -6,6 +6,7 @@
 import type { InterviewJson } from '@ao-types/interviewSchema'
 
 export type {
+    InterviewComment,
     InterviewHighlight,
     InterviewRound,
     InterviewSource,

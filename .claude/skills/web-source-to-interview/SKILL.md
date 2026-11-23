@@ -34,7 +34,8 @@ anonymize the original author, objective tone, no attacks on interviewers.
 
 ## Token discipline
 
-- One web fetch of the URL (Discourse-style forums: fetch `<url>.json` instead).
+- One web fetch of the URL (Discourse-style forums: fetch `<url>.json` instead). The comments
+  come from the same fetch; don't fetch further comment pages — report that the thread has more.
 - Read at most ONE sibling 面经 (with `limit: 60`) to match tone — the reference
   examples below are usually enough.
 - Do not run `npm run docs:dev`; finish by reporting the two file paths + a 2–3 line
@@ -47,8 +48,9 @@ anonymize the original author, objective tone, no attacks on interviewers.
 
 2. **Fetch/read the source** and extract: company, role + level (New Grad / intern /
    senior…), round type(s), the questions (link LeetCode problems when identifiable),
-   the candidate's approach, interviewer interactions, and the outcome. Apply the
-   hard gates above.
+   the candidate's approach, interviewer interactions, and the outcome. Also extract
+   **every comment** under the post, in order, for `comments` (step 5). Apply the hard
+   gates above.
 
 3. **Resolve the company folder** — kebab-case company name (e.g. `capital-one`,
    `bytedance`) under both roots. If `docs/zhHans/interview-experience/<company>/`
@@ -111,9 +113,26 @@ anonymize the original author, objective tone, no attacks on interviewers.
        ]
      },
      "highlights": [],
-     "timeline": []
+     "timeline": [],
+     "comments": [
+       { "id": 1, "role": "user", "date": "2026-11-13 08:02", "content": "<comment text>" },
+       { "id": 2, "role": "author", "date": "2026-11-13 08:03", "replyTo": 1, "content": null }
+     ]
    }
    ```
+   `comments` holds the whole comment thread, not a selection — questions, the author's
+   replies, off-topic remarks alike:
+   - `id` numbers the comments 1, 2, 3… in source order; `role` is `author` for the original
+     poster, `user` for anyone else. **Never write a username** — not in `role`, not left
+     inside `content` (drop a leading `@name` / 「回复 xxx：」; that is what `replyTo` is for).
+   - `replyTo` is the `id` of the comment it answers, when the source shows one.
+   - `content` is the comment's own text, verbatim, without the quoted text it replies to.
+     When only the quote was captured, `content` is `null`; keep the comment anyway.
+   - `date` is `YYYY-MM-DD HH:mm` (or coarser) as the source shows it, else `null`.
+   - No comments, or the fetch didn't include them → `[]`, and say so in the report.
+   A fact from a comment that readers need (location, team, final result) also goes into the
+   Markdown as a `## 面试详情` bullet or a 「评论区补充：」 line, or into its JSON field.
+
    `highlights` and `timeline` are always `[]`: highlights are written by an editor by hand
    later, and timeline backfill is a separate pass (rules in interview-experience/CLAUDE.md).
    Unknowns — never guess, and never write `"na"` or `"string"`: `""` for strings
@@ -172,8 +191,9 @@ anonymize the original author, objective tone, no attacks on interviewers.
    - The JSON path mirrors the md path exactly (company folder and slug).
    - The sidebar picks the page up automatically — no config edits.
 
-8. **Report** the two file paths, the branch name, anything the source didn't
-   specify (fields left empty / `null` / `unknown`), and each detail left out of a
+8. **Report** the two file paths, the branch name, how many comments went into
+   `comments` (and which have `content: null`, or that the thread had more pages than
+   fetched), anything the source didn't specify (fields left empty / `null` / `unknown`), and each detail left out of a
    fixed-value field (field, code written, the source's exact words) for a human to place. Leave the change on the branch — do not commit,
    push, or open a PR unless the user asks.
 
