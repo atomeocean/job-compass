@@ -13,16 +13,16 @@
     "jobType": "full-time"
   },
   "applicationSource": {
-    "channel": null,
-    "referralDetails": null
+    "channel": “recruiter”,
+    "referralDetails": "recruiter reach-out"
   },
   "candidate": {
-    "education": null,
-    "background": null,
-    "yearsOfExperience": null
+    "education": "unknown",
+    "background": "unknown",
+    "yearsOfExperience": "unknown"
   },
   "interview": {
-    "date": "2026/11",
+    "date": "2026-11",
     "result": "rejected",
     "rounds": [
       { "roundType": "phone-screen", "rate": null },
