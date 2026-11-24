@@ -14,19 +14,20 @@
   },
   "applicationSource": {
     "channel": "recruiter",
-    "referralDetails": "recruiter reach-out"
+    "referralDetails": ""
   },
   "candidate": {
-    "education": "unknown",
-    "background": "unknown",
-    "yearsOfExperience": "unknown"
+    "education": "master",
+    "background": "在职跳槽",
+    "yearsOfExperience": null
   },
   "interview": {
     "date": "2026-11",
     "result": "rejected",
     "rounds": [
+      { "roundType": "recruiter-screen", "rate": null },
       { "roundType": "phone-screen", "rate": null },
-      { "roundType": "onsite", "rate": null }
+      { "roundType": "onsite", "rate": 4 }
     ]
   },
   "highlights": [],
