@@ -1,0 +1,52 @@
+{
+  "company": "bloomberg",
+  "sourceType": "repost",
+  "source": {
+    "site": "GeeksforGeeks",
+    "author": "",
+    "link": "https://www.geeksforgeeks.org/interview-experiences/bloomberg-interview-experience-for-software-engineer-nyc-march-2021/"
+  },
+  "position": {
+    "jobPostUrl": null,
+    "title": "Software Engineer",
+    "level": "new-grad",
+    "jobType": ""
+  },
+  "applicationSource": {
+    "channel": "",
+    "referralDetails": ""
+  },
+  "candidate": {
+    "education": "",
+    "background": "",
+    "yearsOfExperience": null
+  },
+  "interview": {
+    "date": "2021-03",
+    "result": "pass",
+    "rounds": [
+      {
+        "roundType": "phone-screen",
+        "rate": null
+      },
+      {
+        "roundType": "technical",
+        "rate": null
+      },
+      {
+        "roundType": "coding",
+        "rate": null
+      },
+      {
+        "roundType": "hiring-manager",
+        "rate": null
+      },
+      {
+        "roundType": "behavioral",
+        "rate": null
+      }
+    ]
+  },
+  "highlights": [],
+  "timeline": []
+}
