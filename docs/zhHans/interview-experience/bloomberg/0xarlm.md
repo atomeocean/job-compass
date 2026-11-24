@@ -2,6 +2,8 @@
 title: Software Engineer
 description: Bloomberg New Grad Software Engineer 面试经验
 outline: deep
+createdDate: 2026-11-23
+lastUpdated: 2026-11-23
 ---
 # Bloomberg New Grad Software Engineer 面试经验
 
