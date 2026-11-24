@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-11-23
+lastUpdated: 2026-11-24
 layout: page
 sidebar: false
 ---
@@ -50,7 +50,7 @@ const interviewItems = [
   {"title": "Rednote", "description": "纽约岗位面经", "href": "./rednote/index.md", "articleCount": 1, "lastUpdated": "2025-09-03", "createdDate": "2025-08-05"},
   {"title": "Nuro", "description": "Nuro面经", "href": "./nuro/index.md", "articleCount": 2, "lastUpdated": "2026-10-19", "createdDate": "2026-07-07"},
   {"title": "Coinbase", "description": "Coinbase面经", "href": "./coinbase/index.md", "articleCount": 4, "lastUpdated": "2026-11-13", "createdDate": "2026-07-10"},
-  {"title": "Rippling", "description": "Rippling面经", "href": "./rippling/index.md", "articleCount": 4, "lastUpdated": "2026-11-17", "createdDate": "2026-11-04"},
+  {"title": "Rippling", "description": "Rippling面经", "href": "./rippling/index.md", "articleCount": 5, "lastUpdated": "2026-11-24", "createdDate": "2026-11-04"},
   {"title": "Stripe", "description": "Stripe面经", "href": "./stripe/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "SIG", "description": "SIG面经", "href": "./sig/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "Affirm", "description": "Affirm面经", "href": "./affirm/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
