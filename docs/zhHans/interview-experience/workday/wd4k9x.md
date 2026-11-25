@@ -3,7 +3,7 @@ title: 二面（技术一面）
 description: Workday 全职 技术一面面试经验
 outline: deep
 createdDate: 2026-11-13
-lastUpdated: 2026-11-23
+lastUpdated: 2026-11-25
 ---
 # Workday 技术一面面试经验
 
