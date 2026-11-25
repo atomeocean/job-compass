@@ -11,7 +11,7 @@ relatedArticles:
   - title: Claude Code 官方文档
     href: https://docs.claude.com/en/docs/claude-code/overview
 createdDate: 2026-10-09
-lastUpdated: 2026-11-19
+lastUpdated: 2026-11-25
 ---
 # 使用 Claude Code 贡献
 
@@ -39,6 +39,7 @@ Claude Code 会自动读取仓库里的 `CLAUDE.md`，按其中的规范工作�
 | `web-source-to-article` | 把小红书、一亩三分地等外部链接整理成文章，并注明来源 |
 | `web-source-to-interview` | 把外部链接里的面经整理成面经页面和对应的 JSON |
 | `organize-interview-exp` | 把粘贴的面经全文原样整理成面经页面 |
+| `interview-comments` | 把原帖评论区收录进已有面经的 JSON（上面两个 skill 结束时会询问是否执行） |
 | `organize-interview-submission` | 把面经投稿 issue 整理成面经页面，以投稿人署名提交并开 PR（维护者使用） |
 | `translate-to-en` | 为中文页面生成 `docs/en/` 下的英文版本 |
 | `gen-description` | 生成或更新页面 frontmatter 里的 `description` |

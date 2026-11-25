@@ -3,7 +3,7 @@ title: 二面（技术一面）
 description: Workday 全职 技术一面面试经验
 outline: deep
 createdDate: 2026-11-13
-lastUpdated: 2026-11-13
+lastUpdated: 2026-11-25
 ---
 # Workday 技术一面面试经验
 
@@ -12,6 +12,7 @@ lastUpdated: 2026-11-13
 ## 面试详情
 
 - **面试平台**：HackerRank
+- **地点 / 团队**：温哥华，为 Agent Factory 提供支持的一个组（评论区补充）
 
 面试形式非常不同。HackerRank 给了一个很大的代码库，前后端都有，后端是用 Express + JS 写的
 

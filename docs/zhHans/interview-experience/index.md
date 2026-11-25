@@ -1,7 +1,7 @@
 ---
 title: 面试经验
 createdDate: 2025-08-05
-lastUpdated: 2026-11-23
+lastUpdated: 2026-11-25
 layout: page
 sidebar: false
 ---
@@ -23,7 +23,7 @@ const interviewItems = [
   {"title": "Notion", "description": "Notion 面试经验分享", "href": "./notion/index.md", "articleCount": 1, "lastUpdated": "2026-07-08", "createdDate": "2026-06-05"},
   {"title": "Meta", "description": "SWE 电面 / NG / OA / Recruiter Call", "href": "./meta/index.md", "articleCount": 6, "lastUpdated": "2026-11-11", "createdDate": "2025-09-26"},
   {"title": "Airbnb", "description": "SWE 全流程面经与时间线", "href": "./airbnb/index.md", "articleCount": 2, "lastUpdated": "2026-06-26", "createdDate": "2025-11-25"},
-  {"title": "Bloomberg", "description": "Bloomberg 面试经验分享", "href": "./bloomberg/index.md", "articleCount": 4, "lastUpdated": "2026-11-18", "createdDate": "2025-11-21"},
+  {"title": "Bloomberg", "description": "Bloomberg 面试经验分享", "href": "./bloomberg/index.md", "articleCount": 5, "lastUpdated": "2026-11-24", "createdDate": "2025-11-21"},
   {"title": "Oracle", "description": "Oracle 面试经验分享", "href": "./oracle/index.md", "articleCount": 4, "lastUpdated": "2026-11-18", "createdDate": "2026-06-09"},
   {"title": "Uber", "description": "Uber 面试经验分享", "href": "./uber/index.md", "articleCount": 12, "lastUpdated": "2026-10-21", "createdDate": "2025-11-21"},
   {"title": "TikTok", "description": "TikTok 面试经验分享", "href": "./tiktok/index.md", "articleCount": 7, "lastUpdated": "2026-11-13", "createdDate": "2025-09-26"},
@@ -50,7 +50,7 @@ const interviewItems = [
   {"title": "Rednote", "description": "纽约岗位面经", "href": "./rednote/index.md", "articleCount": 1, "lastUpdated": "2025-09-03", "createdDate": "2025-08-05"},
   {"title": "Nuro", "description": "Nuro面经", "href": "./nuro/index.md", "articleCount": 2, "lastUpdated": "2026-10-19", "createdDate": "2026-07-07"},
   {"title": "Coinbase", "description": "Coinbase面经", "href": "./coinbase/index.md", "articleCount": 4, "lastUpdated": "2026-11-13", "createdDate": "2026-07-10"},
-  {"title": "Rippling", "description": "Rippling面经", "href": "./rippling/index.md", "articleCount": 4, "lastUpdated": "2026-11-17", "createdDate": "2026-11-04"},
+  {"title": "Rippling", "description": "Rippling面经", "href": "./rippling/index.md", "articleCount": 5, "lastUpdated": "2026-11-24", "createdDate": "2026-11-04"},
   {"title": "Stripe", "description": "Stripe面经", "href": "./stripe/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "SIG", "description": "SIG面经", "href": "./sig/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
   {"title": "Affirm", "description": "Affirm面经", "href": "./affirm/index.md", "articleCount": 1, "lastUpdated": "2026-11-06", "createdDate": "2026-11-06"},
@@ -65,7 +65,8 @@ const interviewItems = [
   {"title": "InterSystems", "description": "InterSystems 面试经验分享", "href": "./intersystems/index.md", "articleCount": 1, "lastUpdated": "2026-11-17", "createdDate": "2026-11-17"},
   {"title": "Handshake", "description": "Handshake 面试经验分享", "href": "./handshake/index.md", "articleCount": 1, "lastUpdated": "2026-11-18", "createdDate": "2026-11-18"},
   {"title": "Yahoo", "description": "Yahoo 面试经验分享", "href": "./yahoo/index.md", "articleCount": 1, "lastUpdated": "2026-11-18", "createdDate": "2026-11-18"},
-  {"title": "Millennium Management", "description": "Millennium Management 面试经验分享", "href": "./millennium-management/index.md", "articleCount": 1, "lastUpdated": "2026-11-21", "createdDate": "2026-11-21"}
+  {"title": "Millennium Management", "description": "Millennium Management 面试经验分享", "href": "./millennium-management/index.md", "articleCount": 1, "lastUpdated": "2026-11-21", "createdDate": "2026-11-21"},
+  {"title": "Cresta", "description": "Cresta 面试经验分享", "href": "./cresta/index.md", "articleCount": 1, "lastUpdated": "2026-11-25", "createdDate": "2026-11-25"}
 ]
 
 const totalArticles = interviewItems.reduce((sum, i) => sum + i.articleCount, 0)
