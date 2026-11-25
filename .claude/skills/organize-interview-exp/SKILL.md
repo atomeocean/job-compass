@@ -7,7 +7,8 @@ lastUpdated: 2026-10-13
 # Organize a pasted 面经 verbatim
 
 The user pastes three things: the post's **link**, its **author**, and the **full post text**.
-Produce one file pair:
+If the paste also holds the post's comments, keep them out of the article body; step 8 offers
+them. Produce one file pair:
 
 1. `docs/zhHans/interview-experience/<company>/<slug>.md`
 2. `docs/assets/json/interview-experience/<company>/<slug>.json`
@@ -198,7 +199,7 @@ values.
 - **A fixed-value field holds the code and nothing else.** When the author adds detail to one
   (「CS 硕士」, 「通过 → Team Match」, 「组里同事内推」), write only the code and leave the detail
   out of the JSON — where it belongs, and in what wording, is a human call. List each one in the
-  report (step 8).
+  report (step 9).
 - `sourceType` is always `repost` here — the page cites the post with `<ReferenceSource>`, and
   `source` repeats its `site` / `author` / `link` exactly (the info card's 查看原帖 button).
 - `rate` is difficulty 1–5 from the author's own words (「中等」→ 3, 「不算高」→ 2). When the
@@ -232,7 +233,11 @@ values.
      source wording and rerun.
    - `grep -c '^---$' <md path>` prints `2`.
    - The md and json paths match below `interview-experience/`.
-8. **Report**: the two file paths, fields left empty or `rate: null`, each detail left out of a
+8. **Offer the comments**: ask the user (AskUserQuestion) whether to add the post's comment
+   thread now, saying whether comments were pasted. Yes → follow the `interview-comments`
+   skill for this pair with the pasted comments (it asks for them when none were pasted).
+   No → stop here; it can be run on its own later.
+9. **Report**: the two file paths, whether comments were added, fields left empty or `rate: null`, each detail left out of a
    fixed-value field (field, code written, the author's exact words) for a human to place, platform text removed,
    author-written filler flagged, whether the race / nationality disclaimer was added (and the
    phrases that triggered it), whether the post was translated from English, and the check

@@ -10,7 +10,8 @@ file is about the code.
 theme/
   index.ts        theme entry: global component registration, Element Plus, layout slots
   components/     26 components (+ components/siteStatistic/, components/interview/,
-                  components/home/ for / and /en/); new ones go in a category subfolder, not here
+                  components/home/ for / and /en/); new ones go in a category subfolder, not here.
+                  interview/InterviewComments.vue renders a 面经's `comments` inside InterviewDocFooter
   composables/    useContributors.ts, useInterviewData.ts, useBusuanzi.ts
   types/          shared TS interfaces; interviewSchema.ts is the Zod schema for 面经 JSON
   utils/          pure helpers (companyMatch.ts, contributors.ts, interviewData.ts,
