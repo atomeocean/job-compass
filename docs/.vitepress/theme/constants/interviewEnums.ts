@@ -105,3 +105,9 @@ export const TIMELINE_TYPE = {
   'result': { zhHans: '结果', en: 'Result' },
   'other': { zhHans: '其他', en: 'Other' },
 } as const satisfies EnumLabels
+
+/** comments[].role：原帖评论的发言人。不记录原 ID，页面只显示「作者」或「网友」 */
+export const COMMENT_ROLE = {
+  'author': { zhHans: '作者', en: 'Author' },
+  'user': { zhHans: '网友', en: 'User' },
+} as const satisfies EnumLabels

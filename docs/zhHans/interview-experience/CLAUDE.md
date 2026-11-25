@@ -44,7 +44,7 @@ Markdown:
 | Above the H1 | breadcrumb, and a 「<Company> 面经」button opening a drawer of this company's 面经 | the folder, the company `index.md` `title`, each sibling's frontmatter `title` and JSON |
 | Under the H1 (`<InterviewDetail />`) | 本篇亮点, then the info card on screens narrower than 1280px | JSON `highlights`; the rest of the JSON |
 | Right aside (≥ 1280px) | the info card: company, role, result, level, date, channel, background, each round's difficulty | JSON |
-| After the article | 求职时间线, and a 「帮忙补充」link while `highlights` is empty | JSON `timeline` / `highlights` |
+| After the article | 原帖评论, 求职时间线, and a 「帮忙补充」link while `highlights` is empty | JSON `comments` / `timeline` / `highlights` |
 
 - Interview article pages have **no site sidebar**: `transformPageData` in
   [config.ts](../../.vitepress/config.ts) sets `sidebar: false` on them (not `layout: page`, which
@@ -145,8 +145,8 @@ with an illegal value fails CI. Older files are checked only for the fields alre
 - `interview.resultNote` (optional) holds a remark about the result, such as
   「通过 → Team Match」; `result` itself is only ever a code.
 - Unknown keys are rejected, so a misspelt field name fails validation.
-- `highlights` and `timeline` are `[]` by default; a missing field reads the same as `[]`, so
-  older files need no backfill.
+- `highlights`, `timeline` and `comments` are `[]` by default; a missing field reads the same
+  as `[]`, so older files need no backfill.
 
 ### `highlights` — written by a person
 
@@ -187,6 +187,35 @@ result. What was asked *inside* an interview stays in the Markdown.
   there are at least two.
 - `rounds` are 1-based indexes into `interview.rounds`; `note` is one short line.
 
+### `comments` — the source post's comment thread
+
+The 原帖评论 section after the article, above 求职时间线. Written by the
+`interview-comments` skill. For a `repost`, it keeps **every**
+comment under the source post, in the source's order: questions, the author's replies,
+off-topic remarks, all of it. It is not curated. Page readers' own discussion is Giscus, at
+the very bottom; never copy those in here.
+
+```json
+"comments": [
+  { "id": 1, "role": "user", "date": "2026-11-13 08:02", "content": "八个失败的 unit test 是前后端都有吗" },
+  { "id": 2, "role": "author", "date": "2026-11-13 08:03", "replyTo": 1, "content": null }
+]
+```
+
+- `id` is the floor number, starting at 1 and increasing in source order. `replyTo` points at
+  an earlier `id`; the page shows it as a quote line. Validation rejects a duplicate `id` or a
+  `replyTo` that points forward or at nothing.
+- `role` is `author` (the original poster) or `user` (anyone else). **Usernames are never
+  stored**: the page shows only 作者 / 网友.
+- `date` is `YYYY-MM-DD HH:mm`, or coarser, as precise as the source shows; `null` when the
+  source shows none.
+- `content` is the comment's own text. When only the quote of what it replied to was captured,
+  write `null`: the floor stays, and the page shows 「回复内容未抓取到」.
+- After 10 comments the rest are folded behind an 「展开」button.
+- A fact a comment adds that a reader needs (location, team, the final result) still goes into
+  the article as well, as a bullet or a 「评论区补充」 line, or into the matching JSON field.
+  `comments` is the full record; the article stays self-contained.
+
 ### Vocabulary
 
 Fields with a fixed set of values hold a **code**: lowercase kebab-case English, never a label
@@ -205,6 +234,7 @@ schema, the types and the page labels all follow.
 | `interview.result` | `RESULT` | `unknown` | remarks go in `resultNote` |
 | `rounds[].roundType` | `ROUND_TYPE` | — | the kind of round, not its number: no `vo1` / `round-1`; a virtual onsite is `onsite` |
 | `timeline[].type` | `TIMELINE_TYPE` | omit | |
+| `comments[].role` | `COMMENT_ROLE` | — | |
 
 About half of the older JSON files predate this and have drifted (`网上海投`, `full time`,
 `VO1`, literal `"string"` placeholders, a capitalised `company`). **Do not copy a neighbour's

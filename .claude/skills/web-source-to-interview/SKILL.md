@@ -48,7 +48,7 @@ anonymize the original author, objective tone, no attacks on interviewers.
 2. **Fetch/read the source** and extract: company, role + level (New Grad / intern /
    senior…), round type(s), the questions (link LeetCode problems when identifiable),
    the candidate's approach, interviewer interactions, and the outcome. Apply the
-   hard gates above.
+   hard gates above. Comments are not part of the page body; step 8 offers them.
 
 3. **Resolve the company folder** — kebab-case company name (e.g. `capital-one`,
    `bytedance`) under both roots. If `docs/zhHans/interview-experience/<company>/`
@@ -124,7 +124,7 @@ anonymize the original author, objective tone, no attacks on interviewers.
    **A fixed-value field holds the code and nothing else.** When the source adds detail to
    one (「CS 硕士」, 「通过 → Team Match」, 「组里同事内推」), write only the code and leave
    the detail out of the JSON — where it belongs, and in what wording, is a human call. List
-   each one in the report (step 8).
+   each one in the report (step 9).
    `sourceType` is always `repost` for a page built from a web
    source (it ends with `<ReferenceSource>`); `source` repeats that block's `site` / `author` /
    `link` exactly.
@@ -172,7 +172,12 @@ anonymize the original author, objective tone, no attacks on interviewers.
    - The JSON path mirrors the md path exactly (company folder and slug).
    - The sidebar picks the page up automatically — no config edits.
 
-8. **Report** the two file paths, the branch name, anything the source didn't
+8. **Offer the comments**: ask the user (AskUserQuestion) whether to add the post's comment
+   thread now, saying how many comments the step 2 fetch showed. Yes → follow the
+   `interview-comments` skill for this pair, reusing that fetch (no new one). No → stop here;
+   it can be run on its own later.
+
+9. **Report** the two file paths, the branch name, whether comments were added, anything the source didn't
    specify (fields left empty / `null` / `unknown`), and each detail left out of a
    fixed-value field (field, code written, the source's exact words) for a human to place. Leave the change on the branch — do not commit,
    push, or open a PR unless the user asks.
