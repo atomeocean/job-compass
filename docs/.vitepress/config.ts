@@ -139,7 +139,16 @@ const vitePressConfig: UserConfig = {
     resolve: {
       alias, // 引入路径别名
     },
+    css: {
+      preprocessorOptions: {
+        // 用 sass-embedded 的新编译 API，旧的 legacy JS API 会在 Dart Sass 2.0 移除
+        scss: { api: 'modern-compiler' },
+      },
+    },
     optimizeDeps: {
+      // mermaid 11.17 起依赖 CommonJS 包 fastdom，vitepress-plugin-mermaid 自带的预构建清单里没有它，
+      // 不预构建的话 docs:dev 下浏览器会报 "fastdom does not provide an export named 'default'"，整站白屏
+      include: ['mermaid > fastdom', 'mermaid > fastdom/extensions/fastdom-promised.js'],
       exclude: [
         '@nolebase/vitepress-plugin-inline-link-preview/client',
         'vitepress'
