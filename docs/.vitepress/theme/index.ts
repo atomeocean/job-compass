@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme';
-import ElementPlus from 'element-plus'
+import ElementPlus, { ID_INJECTION_KEY } from 'element-plus'
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import 'element-plus/dist/index.css'
 import './style/brand-colors.css'
@@ -55,6 +55,9 @@ export default {
 
     // 注册 ElementPlus
     app.use(ElementPlus);
+    // SSR 时 Element Plus 要求注入 id 生成器，否则服务端和客户端生成的 id 不一致，hydration 会对不上。
+    // VitePress 每渲染一个页面都会重新调用 enhanceApp，所以计数器在每页都从 0 开始，和浏览器端一致
+    app.provide(ID_INJECTION_KEY, { prefix: 1024, current: 0 });
 
     app.use(NolebaseInlineLinkPreviewPlugin);
     // 注册所有图标组件
