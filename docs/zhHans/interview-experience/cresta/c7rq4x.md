@@ -2,6 +2,8 @@
 title: Senior SWE 电面
 description: Cresta Senior Software Engineer 技术电面面试经验
 outline: deep
+createdDate: 2026-11-25
+lastUpdated: 2026-11-25
 ---
 # Cresta Senior Software Engineer 技术电面面试经验
 
