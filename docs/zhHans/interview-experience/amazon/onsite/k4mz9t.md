@@ -1,5 +1,5 @@
 ---
-title: Onsite
+title: Amazon SDE Onsite
 description: Amazon Software Development Engineer Onsite面试经验
 outline: deep
 ---
@@ -9,7 +9,7 @@ outline: deep
 
 ## 面试详情
 
-刚面完香蕉onsite，
+刚面完香蕉onsite
 
 ### 第一轮：Coding
 
