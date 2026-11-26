@@ -2,6 +2,8 @@
 title: Onsite
 description: Amazon Software Development Engineer Onsite面试经验
 outline: deep
+createdDate: 2026-11-25
+lastUpdated: 2026-11-25
 ---
 # Amazon Software Development Engineer Onsite面试经验
 
