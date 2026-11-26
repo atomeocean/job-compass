@@ -4,35 +4,32 @@
     "location": {
       "addressLine1": "1 Washington Park",
       "addressLine2": "16th Floor",
-      "county": "Essex",
+      "county": "Essex County",
       "cityOrTown": "Newark",
-      "state": "New Jersey",
+      "state": "NJ",
       "zipCode": "07102"
     },
     "contact": {
       "phone": "",
       "email": "",
       "website": "https://www.audible.com",
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/company/audible"
     },
-    "industry": [
-      "Digital Media",
-      "Audiobooks"
-    ],
+    "industry": ["数字媒体", "有声书", "软件开发"],
     "foundedYear": "1995",
-    "description": "亚马逊旗下一家卖有声书的公司。",
+    "description": "Audible 是全球领先的有声书与音频内容平台，由 Don Katz 于 1995 年创立，2008 年被亚马逊以约 3 亿美元收购，现为亚马逊全资子公司。总部位于新泽西州纽瓦克市中心，提供有声书、播客和原创音频节目的会员订阅服务，在全球设有多个办公室。",
     "mainProductsOrServices": [
-      "Audible Membership Plans",
-      "Audiobook Library",
-      "Audible Originals (Exclusive Content)",
-      "Audible Studios Production",
-      "Audible Apps (iOS/Android)",
-      "Audible Channels (Podcasts)",
-      "Whispersync for Voice Technology"
+      "Audible 会员订阅（Audible Premium Plus / Standard）",
+      "有声书内容库",
+      "Audible Originals 原创音频节目",
+      "Audible Studios 有声内容制作",
+      "Audible iOS / Android 应用",
+      "播客内容",
+      "Whispersync for Voice（与 Kindle 电子书同步）"
     ],
-    "companySize": "1,500+ employees"
+    "companySize": "超过 1,500 名员工"
   },
   "metadata": {
-    "lastUpdated": ""
+    "lastUpdated": "2026-11-24"
   }
 }
