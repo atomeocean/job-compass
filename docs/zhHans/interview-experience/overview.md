@@ -1,8 +1,9 @@
 ---
 title: 目录概述
 description: 本页介绍当前目录下的所有Markdown文件及其简要说明。
-lastUpdated: 2026-11-18
+lastUpdated: 2026-11-28
 ---
+
 <script setup>
 const overviewItems = [
   {
@@ -49,7 +50,7 @@ const overviewItems = [
   },
   {
     "title": "Bloomberg",
-    "description": "该文件主要介绍 Bloomberg 的相关内容。",
+    "description": "Bloomberg 面试经验分享",
     "href": "./bloomberg/index.md",
     "order": 0,
     "kind": "folder"
@@ -86,6 +87,13 @@ const overviewItems = [
     "title": "Compass",
     "description": "Compass 面试经验分享",
     "href": "./compass/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Cresta",
+    "description": "Cresta 面试经验分享",
+    "href": "./cresta/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -153,6 +161,13 @@ const overviewItems = [
     "kind": "folder"
   },
   {
+    "title": "Handshake",
+    "description": "Handshake 面试经验分享",
+    "href": "./handshake/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
     "title": "ICBC",
     "description": "该文件主要介绍 ICBC 的相关内容。",
     "href": "./icbc/index.md",
@@ -184,6 +199,13 @@ const overviewItems = [
     "title": "Microsoft",
     "description": "Microsoft SDE 面试经验分享",
     "href": "./microsoft/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Millennium Management",
+    "description": "Millennium Management 面试经验分享",
+    "href": "./millennium-management/index.md",
     "order": 0,
     "kind": "folder"
   },
@@ -366,6 +388,13 @@ const overviewItems = [
     "title": "Workday",
     "description": "Workday 面试经验分享",
     "href": "./workday/index.md",
+    "order": 0,
+    "kind": "folder"
+  },
+  {
+    "title": "Yahoo",
+    "description": "Yahoo 面试经验分享",
+    "href": "./yahoo/index.md",
     "order": 0,
     "kind": "folder"
   },
